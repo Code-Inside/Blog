@@ -7,6 +7,7 @@ comments: true
 categories: [Buchempfehlung]
 tags: [Kochen]
 ---
+{% include JB/setup %}
 Mal eine etwas andere Kost gibt es diesmal als Buchempfehlung. Es hält sich ja hartnäckig das Gerücht, Geeks ( oder Nerds) können nicht kochen.
 
 Das mag zum Teil stimmen - bei manchen brennt selbst Wasser an ;) - aber es gibt Abhilfe: Das <a href="http://www.amazon.de/gp/product/3897214628?&amp;camp=2474&amp;creative=8998&amp;linkCode=wey&amp;tag=meinkleinerbl-21">Kochbuch für Geeks</a>! Von Geeks für Geeks - wer wollte nicht schonmal seine Rezepte im UML Diagramm zu sehen?

@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [.NET, Microsoft, Open Source]
 ---
+{% include JB/setup %}
 Open Source ist sicherlich eines der großen Themen 2007 gewesen und wird auch 2008 nicht minder erfolgreich sein. Wenn es allerdings um .NET geht, denken die wenigsten an Open Source. PHP, Java oder C++ sind meist die Wahlsprachen der Open Sourceler - meine Vermutung ist, dass Open Source in Verbindung mit einem Microsoft Produkt kaum vorstellbar ist.
 
 Dass es aber tatsächlich sehr interessante Open Source .NET Projekte in den verschiedensten Bereichen gibt und sogar Microsoft langsam auf Open Source zugeht, möchte ich hier zeigen.

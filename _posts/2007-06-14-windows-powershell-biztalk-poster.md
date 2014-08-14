@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [Biztalk, Poster, Powershell]
 ---
+{% include JB/setup %}
 Die beiden Themen tauchten zwar noch nie in dem Blog hier mit auf, allerdings sind beides immerhin Microsoft Produkte und es schadet ja nicht, sich etwas umfassender zu bilden.
 
 Die <a target="_blank" href="http://de.wikipedia.org/wiki/Powershell" title="Windows PowerShell Wiki">Windows PowerShell</a> ist eine kommandozeilen basierte <a target="_blank" href="http://de.wikipedia.org/wiki/Unix-Shell" title="Unix Shell Wiki">Shell</a>, ähnlich mächtig (oder wenn nicht sogar mächtiger)Â wie die Shells unter Linux/Unix. Sie ist objektorientiert und basiert auf dem .NET Framework 2.0 - d.h. man kann im Prinzip alles machen, was auch mit dem .NET Framework geht. Es kann Administrationsaufgaben erleichtern und ist bestimmt interessant.

@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein, HowTo]
 tags: [.NET, FOP, HowTo, NFop, Source, Xml, XML Formatting Objects, XML-Fo]
 ---
+{% include JB/setup %}
 Wenn man ein PDF erstellen möchte, hat man die Auswahl zwischen vielen kommerziellen Produkten für .NET -Â mit NFop möchte ich mal eine kostenlose Möglichkeit vorstellen.
 NFop ist eine Portierung der Open Source Java Anwendung <a href="http://de.wikipedia.org/wiki/Apache_Formatting_Objects_Processor">FOP</a> auf .NET und dank J# kann der Quellcode auch direkt unter dem .NET Framework kompiliert werden. NFop wandelt XML Formatting Objects (XML-FO) Dokumente in PDF Dateien um. In der Regel erzeugt man die XML-FO Dokumente mit Hilfe von XSLT aus einem XML.
 

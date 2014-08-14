@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 Das ist das erste HowTo auf dieser Seite und ich hoffe es werden noch mehrere Folgen.
 
 In diesem HowTo geht es um die eBay API. die eBay API kann eine ganze Menge - ich würde beinah meinen, man kann mit der API fast alles machen, was man auch auf der eBay Seite machen kann: Suchen, Bieten, Kaufen, Verkaufen, Kommentare hinzufügen, Bewerten usw.

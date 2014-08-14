@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: []
 ---
+{% include JB/setup %}
 Wenn euch unsere Seite gefällt dann könnt ihr auf
 <a href="http://www.giga.de/aktionen/homepageaward/vote/computer/">http://www.giga.de/aktionen/homepageaward/vote/computer/</a>
 für uns Voten. 

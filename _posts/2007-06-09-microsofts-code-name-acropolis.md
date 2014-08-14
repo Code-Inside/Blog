@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: ["Acropolis"]
 ---
+{% include JB/setup %}
 Durch <a target="_blank" href="http://www.ekampf.com/blog/2007/06/07/AcropolisNews.aspx" title="Blogeintrag">diesen Link </a>bin ich auf eine interessante Sache gestoßen.
 
 Kurz gesagt, soll es die Client-Programmierung vereinfachen und nutzt dabei die ganzen Features von .NET 3.0 (WPF...) und es gibt die Möglichkeit einfach andere Business-Daten einzubinden. Das ist jedenfalls der Werbespruch.

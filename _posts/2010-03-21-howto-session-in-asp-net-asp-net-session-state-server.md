@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [HowTo, Session]
 ---
+{% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image941.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="135" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb126.png" width="159" align="left" border="0"></a>Auf die Session ist in ASP.NET relativ simpel zuzugreifen. Im Standardfall läuft die Session im IIS Prozess mit. Wenn man also mal den IIS neustarten muss oder die web.config anpassen muss, dann wird der Prozess neugestartet und die Session geht verloren. Eine einfache Variante dies zu umgehen ist den ASP.NET Session State Server zu verwenden.</p><!--more--> <p><strong>Auf die Session zugreifen</strong></p> <p>Hier mal der wesentliche Session-Zugriff (im Controller einer ASP.NET MVC Anwendung)</p> <p> <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:8f58b937-1d06-419b-9683-f2ef103920f6" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">        public ActionResult Index()
         {
             if(this.Session["Foobar"] != null) {

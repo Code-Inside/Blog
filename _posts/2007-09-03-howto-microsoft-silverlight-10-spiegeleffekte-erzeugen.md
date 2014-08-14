@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 Heute geht es eher um das Expression Tool "Microsoft Blend 2 (August Preview)". Gerne sieht man bei den tollen Silverlight Anwendungen Spiegeleffekt, aber wie erzeugt man diese? Hier in dem HowTo werde ich das kurz zeigen. Hier wird das "Hello World!" als Beispiel genutzt - die richtige Anwendung soll aber kreativer werden ;)
 
 <strong>Schritt 1: Silverlight Projekt erstellen</strong>

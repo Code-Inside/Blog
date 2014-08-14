@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [ASP.NET, HowTo, Virtual Earth, Windows Live]
 ---
+{% include JB/setup %}
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image66.png"><img border="0" width="170" src="{{BASE_PATH}}/assets/wp-images/image-thumb45.png" alt="image" height="168" style="border: 0px" /></a>
 In dem Artikelbereich hat sich ein neues HowTo dazugesellt: Es geht diesmal um Virtual Earth.
 Â 

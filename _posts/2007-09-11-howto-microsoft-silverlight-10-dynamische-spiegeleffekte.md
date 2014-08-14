@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 In dem vorherigen HowTo <a href="http://code-inside.de/blog/artikel/howto-microsoft-silverlight-10-spiegeleffekte-erzeugen/">(Microsoft Silverlight 1.0 (Spiegeleffekte erzeugen))</a> ging es grob darum, wie man mit Blend 2 arbeitet.
 Heute kommt daher noch ein kleiner Abschnitt, der eigentlich noch mit in dem letzten HowTo mit reinkommen sollte: Wie dynamisiere ich das jetzt?
 

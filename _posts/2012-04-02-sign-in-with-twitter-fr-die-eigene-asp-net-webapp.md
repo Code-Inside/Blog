@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [HowTo, OAuth, Twitter]
 ---
+{% include JB/setup %}
 <p>“Sign in with Twitter” ist eine beliebte Methode um Benutzer auf der eigenen Seite zu authentifizieren. Der Vorteil gegenüber einer eigenen Registrierung ist natürlich, dass die “Hemmschwelle” wesentlich geringer für den Nutzer ist. Allerdings rückt Twitter auch nicht alle Daten raus und man ist in einer gewissen Abhängigkeit. Am Ende muss jeder selbst entscheiden, ob er das machen möchte oder nicht. <u>Die Frage hier allerdings lautet:</u> Wie kann ich den Twitter Login auf meiner Seite einbauen?</p>
 <p>
 <strong>Update (durch MVC4)</strong> <br/> In MVC4 wird das DotNetOpenAuth NuGet Package mit ausgeliefert. Das Package bietet eine einfache Möglichkeit sich bei Twitter anzumelden - natürlich kann das Package auch zu MVC3 Projekten hinzugefügt werden, allerdings ist es mir erst jetzt aufgefallen ;). Hier zum neuen <a href="http://code-inside.de/blog/2012/10/14/twitter-login-in-asp-net-mvc-4-ohne-membership-co-nutzen/">BlogPost</a>.

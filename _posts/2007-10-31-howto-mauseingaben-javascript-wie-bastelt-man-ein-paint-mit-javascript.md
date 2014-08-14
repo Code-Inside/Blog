@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [HowTo, Javascript]
 ---
+{% include JB/setup %}
 In diesem HowTo schauen wir uns mal an, wie man auf Mauseingaben mit Javascript reagiert. Es ist etwas schwammig formuliert, allerdings fiel mir nichts besseres ein.
 Auf einfache "onclick" Events oder "onhover" etc. zu reagieren, ist nicht besonders schwer. Allerdings ist es manchmal wichtig zu wissen, wo der Nutzer hingeklickt hat - direktÂ dort wo der Nutzer hinklickt mussÂ irgendwas passieren. InÂ Zeiten vonÂ Drag`n`Drop wird es auch immer wichtiger, die Maus intuitiv mit in die Weboberfläche zu integrieren - also mehr als nurÂ simplesÂ klicken.
 

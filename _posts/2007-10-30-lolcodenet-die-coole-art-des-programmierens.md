@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [.NET, Lolcode]
 ---
+{% include JB/setup %}
 <img src="http://icanhascheezburger.files.wordpress.com/2007/04/im-in-ur-documintz-insidertradin.jpg" />
 <em>(Bild ist von </em><a href="http://icanhascheezburger.files.wordpress.com/"><em>http://icanhascheezburger.files.wordpress.com</em></a><em>)</em>
 

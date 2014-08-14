@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [.NET, .NET 2.0, HowTo, Serializer, Xml, XmlAttributes]
 ---
+{% include JB/setup %}
 <p>Es gibt viele Möglichkeiten ein XML mit .NET zu erstellen. Eine sehr praktische und schnelle Möglichkeit ist die <a href="http://msdn2.microsoft.com/en-us/library/system.xml.serialization.xmlattributes.aspx" target="_blank">XmlAttributes</a>-Variante zu verwenden. <br>Oft hat man schon ein Objektmodell das man als XML ausgeben oder eine XML Datei die man in sein Objektmodell einlesen möchte. Für diese Aufgaben ist der <a href="http://msdn2.microsoft.com/en-us/library/system.xml.serialization.xmlserializer.aspx" target="_blank">XmlSerializer</a> ideal.</p> <p><u>Ein einfaches Schreiben:</u></p> <div class="CodeFormatContainer"><pre class="csharpcode"> XmlSerializer _xmlGen = <span class="kwrd">new</span> XmlSerializer(<span class="kwrd">typeof</span>(<span class="kwrd">string</span>));
             _xmlGen.Serialize(Console.Out,"<span class="str">www.code-inside.de"</span>);</pre></div>
 <p>&nbsp;</p>

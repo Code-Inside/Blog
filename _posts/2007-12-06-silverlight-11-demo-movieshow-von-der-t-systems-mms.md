@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [Movies, Showcase, Silverlight, T-Systems MMS, Web 2.0]
 ---
+{% include JB/setup %}
 <a href="http://de.wikipedia.org/wiki/Silverlight">Silverlight 1.0</a> wurde vor wenigen Monaten veröffentlicht und zeitgleich wurde eine Alphaversion von Silverlight 1.1 ausgeliefert. Im nächsten Release von Silverlight wird die Version 2.0 angestrebt. Um die Möglichkeiten mit Silverlight 1.1 auszutesten hat die <a href="http://www.t-systems-mms.com/mms/de/Startseite/index">T-Systems Multimedia Solutions GmbH</a>Â  einen kleinen Showcase mit der aktuellen Silverlight Version 1.1 entwickelt:
 
 <a href="http://silverlight.t-systems-mms.eu/">Die Silverlight MovieShow:</a>

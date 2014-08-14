@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 Die wohl berühmteste Mashup API ist die <a target="_blank" href="http://www.google.com/apis/maps/" title="Google Maps API">Google Maps API</a>. Wie der Name schon erahnen lässt, geht es um den Kartendienst von Google.
 
 Grundsätzlich ist der Dienst kostenlos, allerdings ist ein genauerer Blick in die <a href="http://www.google.com/apis/maps/terms.html" title="Google Maps Terms">Nutzungsbedingungen</a> nicht verkehrt. Wichtigster Punkt ist wahrscheinlich erstmal die Beschränkung auf 50.000 Aufrufe pro TagÂ um bestimmte Standorte zu lokalisieren.

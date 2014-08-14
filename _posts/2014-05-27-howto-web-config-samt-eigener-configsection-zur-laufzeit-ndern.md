@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [ASP.NET, HowTo]
 ---
+{% include JB/setup %}
 <p>In dem HowTo geht es darum wie man die Web.config zur Laufzeit ändert und was es dabei zu beachten gilt. Das ganze klappt auch mit komplexeren ConfigSections. </p> <h3>Eigene ConfigSection?</h3> <p>Vor einer ganzen Weile habe ich mal <a href="http://blog.codeinside.eu/2009/11/03/howto-eine-eigene-configsection-schreiben-custom-configsections/">über das Erstellen einer eigenen ConfigSection</a> geschrieben – im Grunde nutzen wir jetzt fast dieselbe Config.</p> <h3>Zur Laufzeit? Startet da die Webapplikation nicht neu?</h3> <p>Im Grunde ist das auch richtig. Ändert man die web.config wird die Applikation neugestartet. Allerdings läuft der Request der zur Änderung geführt hat noch durch. Ich würde aber nicht empfehlen solch eine Änderung häufiger zu machen, sondern beim Aufsetzen der Webanwendung etc. Aber im Grunde funktioniert es auch ziemlich gut ;)</p> <h3></h3> <h3>Zum Code</h3> <p>Die Definition der ConfigSection:</p><pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;">    public class CodeInsideConfig : ConfigurationSection
     {
         [ConfigurationProperty("webUrl", DefaultValue = "http://DEFAULT.de", IsRequired = true)]

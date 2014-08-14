@@ -7,6 +7,7 @@ comments: true
 categories: [Buchempfehlung]
 tags: [SQL, SQL Server 2005]
 ---
+{% include JB/setup %}
 <script charset="utf-8" type="text/javascript" src="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&amp;MarketPlace=DE&amp;ID=V20070822/DE/meinkleinerbl-21/8001/e51bd4f2-7947-4db9-9f1f-4503c684bfc5">     </script><noscript></noscript>
 
 Das der SQL Server 2005 fein Datenspeichern kann, sollte jeder soweit wissen - aber da muss es doch noch mehr geben, oder? Was kann der SQL Server 2005 - auch wenn es demnächst 2008 gibt ;) - den sonst so besonders? Wie passt das ganze in das .NET Konzept rein?

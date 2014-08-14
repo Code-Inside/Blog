@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [DELETE, HowTo, IIS, PUT, REST]
 ---
+{% include JB/setup %}
 <p>Im Standardfall erlaubt der IIS keine Requests mit den HTTP Verben PUT &amp; DELETE. Diese sind allerdings in einer <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">REST</a> Welt pflicht. Man kann nun im IIS rumdoktern und dort die beiden Verben aktivieren, allerdings habe ich solche Sachen als Entwickler lieber selbst in der Hand als dem Admin ein Handbuch zu schreiben ;)</p> <p>Ziel ist es also, HTTP PUT &amp; Delete über die Web.config zu aktivieren.</p> <p><strong>Web.config</strong></p> <p>Unter dem Konfigurationspunkt system.webServer können die entsprechenden Einstellungen gemacht werden:</p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a6739e4c-8082-4ee0-a223-92add6af02bf" class="wlWriterEditableSmartContent"><pre name="code" class="c">  &lt;system.webServer&gt;
     ...
     &lt;modules runAllManagedModulesForAllRequests="true"&gt;

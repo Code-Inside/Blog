@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [Icons]
 ---
+{% include JB/setup %}
 Gute Icons findet man schwer - daher hab ich ein paar Quellen gesammelt und liste diese mal hier auf - beachtet aber die jeweilige Lizenz:
 <ul>
 	<li><a href="http://www.smashingmagazine.com/2008/03/06/35-really-incredible-free-icon-sets/">35 (Really) Incredible Free Icon Sets</a></li>

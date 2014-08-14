@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 Auf shoppingmap.de sieht man gleich auf der Startseite die eBay - Top 10 Suchbegriffe.
 
 Diese Suchbegriffe sind nicht von mir zusammengestellt, sondern stammen von eBay selber. Da diese Suchbegriffe Trends erkennen lassen, ist es eine nette Spielerei.

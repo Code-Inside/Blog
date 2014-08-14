@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [Coverflow, Open Source, UI, WPF]
 ---
+{% include JB/setup %}
 Durch <a href="http://blogs.msdn.com/coding4fun/archive/2008/03/27/8336076.aspx">Coding4Fun</a> wurde ich heute auf ein sehr cooles CodePlex Projekt aufmerksam: <a href="http://www.codeplex.com/fluidkit">FluidKit</a>. Mit FluidKit werden einige schicke Controls mitgeliefert, welche z.B. als "Coverflow" von Apple bekannt sind.
 
 Da Bilder bekanntlich mehr sagen als 1000 Worte, hier mal die Demoanwendung (welche mitgeliefert wird, man muss aber manuell in der App.xaml das jeweilige Element herauspicken). Beachtet auch immer mal wieder die Schieberegler - damit kann man das Verhalten anpassen.

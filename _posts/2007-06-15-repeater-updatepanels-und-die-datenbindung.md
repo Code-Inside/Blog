@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [ASP.NET]
 ---
+{% include JB/setup %}
 Da ich in der letzten Zeit an einer neuen Version der <a target="_blank" href="http://www.shoppingmap.de" title="ShoppingMap">ShoppingMap</a> arbeite und mich auch sonst in die "neuen" Microsoft Technologien einarbeite, bin ich erstmal auf ein paar Probleme gestoßen.
 
 Da ich aus der <a target="_blank" href="http://php.net" title="PHP.net">PHP</a> Richtung komme und mich erstmal komplett in <a target="_blank" href="http://www.asp.net" title="ASP.NET">ASP.NET</a> einarbeiten musste, war mir das "dynamische" erstellen von Controls noch kein richtiger Begriff.

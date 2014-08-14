@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 <strong>XML - Thema: Einführung</strong>
 
 XML - Schulung: Warum?

@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo, Tools]
 tags: [.NET 3.0, HowTo, Tools, Visual Studio 2005, WCF, WF, WPF]
 ---
+{% include JB/setup %}
 Zwar ist das .NET Framework in der Version 3.0 schon eine Weile raus, allerdings ist Toolunterstützung noch nicht ganz ideal.
 Es gibt zwar die <a href="http://www.microsoft.com/germany/expression/default.aspx">Expression Serie</a>, allerdings kostet der Spaß auch was. Eine andere Möglichkeit ist die <a href="http://msdn2.microsoft.com/en-us/vstudio/aa700831.aspx">Beta von Visual Studio 2008</a>.
 

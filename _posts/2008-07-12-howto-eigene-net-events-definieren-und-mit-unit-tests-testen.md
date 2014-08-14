@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [.NET, C# 2.0, Events, HowTo, TDD, Unit Tests]
 ---
+{% include JB/setup %}
 <p>In dem heutigen HowTo geht es um das Erstellen von eigenen .NET Events samt dem dazu gehörigen testen mit einem <a href="http://code-inside.de/blog/2008/05/22/howto-einfache-tests-unittests-oder-keine-angst-vor-unittests/">Unit-Test</a>.</p> <p><strong>Was ist ein Event aus "Anfängersicht"?<br></strong>Jeder der (wahrscheinlich) in einer X-beliebigen IDE für eine X-beliebige Sprache bereits irgendein Button auf ein Fenster gezogen hat, wird als Resultat dann so einen ähnlichen Code sehen:<br></p> <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:529f8e26-1d68-4a2f-9b6d-6b9234eddc55" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">        private void button1_Click(object sender, EventArgs e)
         {
 

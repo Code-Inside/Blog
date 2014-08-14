@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 <h2><u>4.2 XML Schema</u></h2> <p>&nbsp;</p> <p>Das XML - Schema ist eine Empfehlung vom W3C, welche dem Prinzip der XML-DTD ähnelt - es definiert die XML Baumstruktur. Im Gegensatz zur herkömmlichen XML-DTD ist die XSD komplexer und bietet mehr Datentypen zur Auswahl. Zudem ist die XSD komplett im XML Format beschrieben.  <p>Anmerkungen zu diesem Abschnitt: Es gibt immer mehrere Wege ein Element zu beschreiben. Scheinbar herrscht unter den XSD Liebhabern noch keine Einigkeit zu bestehen, welche Form man nun genau wählt. Vom Prinzip her unterscheiden sich die Formen aber nur in kleinen Teilen.  <p>&nbsp;</p> <h3><u>4.2.1 Einbindung</u></h3> <p>Eingebunden wird das Schemat im Rootelement des XMLs.  <div class="CodeFormatContainer"> <style>
 <!--
 .csharpcode, .csharpcode pre

@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [Geo, Google, Google Maps, HowTo]
 ---
+{% include JB/setup %}
 <p>Um die genauen Geo-Koordinaten einer Adresse rauszubekommen gibt es dutzende Dienste. Einige Wege führen über Javascript und dem Google Maps “Plugin”, andere können auch über eine Schnittstelle angesprochen werden. Die “cleverste” (und kostenlose) Variante ist über die Google Maps <a href="http://code.google.com/apis/maps/documentation/geocoding/">Geocoding API</a>.</p> <p><strong>Request / Response</strong></p> <p>Der Aufbau des Requests ist ziemlich einfach – einfach via Http GET:</p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e8fb6d32-5a12-4902-9946-6a0d5878f259" class="wlWriterEditableSmartContent"><pre name="code" class="c#">http://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&amp;sensor=true</pre></div>
 <p>Die Adresse sollte <a href="http://msdn.microsoft.com/en-us/library/zttxte6w.aspx">Url-Encoded</a> sein.</p>
 <p>Bei diesem Aufruf kommt ein JSON zurück. Es gibt auch die Variante mit XML. Ich hab mich aber in meinem Fall für JSON entschieden und parse die ganze Sache über die Bibliothek <a href="http://james.newtonking.com/pages/json-net.aspx">JSON.NET</a>, welche ein “LINQ-to-JSON” (oder sowas ähnliches) hat. </p>

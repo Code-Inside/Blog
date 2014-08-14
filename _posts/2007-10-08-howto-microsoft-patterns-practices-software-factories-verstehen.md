@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 <img src="http://msdn2.microsoft.com/ms998572.PATTPRAC(en-us,MSDN.10).gif" alt="Patterns Practices" />
 
 In dieser HowTo-Serie geht es um Software Factories.

@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [ASP.NET, HowTo, Membership, Visual Studio 2005, Visual Studio 2008]
 ---
+{% include JB/setup %}
 <p>ASP.NET 2.0 führte ein so genanntes "<a href="http://msdn2.microsoft.com/en-us/library/ms998347.aspx" target="_blank">Membership</a>" System ein - darunter sind allgemeine Benutzerregistrier-, Benutzerprofil- und Benutzerrollensystem gebündelt.</p> <p>Insbesondere das Profilsystem hat mich heute etwas beschäftigt (auch wenn es etwas älter ist). Mit dem Profilsystem kann man einfach Benutzern bestimmte Attribute zuordnen, z.B. Name, Alter, Wohnort oder andere Verweise zu bestimmten Daten innerhalb der Applikation.</p> <p>Das kann man natürlich auch selber in seiner DB zusammenbasteln - aber das ASP.NET Profile System bietet eine strenge Typsierung, sodass man in der Web.config folgendes anlegen kann:</p> <div class="CodeFormatContainer"><pre class="csharpcode">&lt;profile&gt;
   &lt;properties&gt;
     &lt;add name=<span class="str">"PostalCode"</span> /&gt;

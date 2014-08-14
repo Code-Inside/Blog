@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [ASP.NET, ASP.NET MVC, Cardspace, HowTo, Membership, MySQL, OpenID, Security]
 ---
+{% include JB/setup %}
 Jetzt werde ich sicherlich über ein etwas älteres Thema schreiben. Allerdings hatte ich erst jetzt damit zutun und da ich doch einige Anfangsschwierigkeiten hatte, werde ich hier nach und nach Informationen zum Membership System von ASP.NET niederschreiben. Ziel soll es sein auch CardSpace oder OpenID mit einzubinden - mal sehn wann dies geschehen wird.
 
 Dies ist der "Einstiegsteil" in das Thema, fangen wir daher nun an:

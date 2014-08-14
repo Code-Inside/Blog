@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image64.png"><img border="0" width="191" src="{{BASE_PATH}}/assets/wp-images/image-thumb43.png" alt="image" height="55" style="border: 0px" /></a>
 
 Nachdem ich bereits sehr kurz mal <a target="_blank" href="http://code-inside.de/blog/artikel/howto-google-maps-api-grundvoraussetzungen/">Google Map</a> angerissen habe, möchte ich mich nun etwas intensiver mit Microsofts Variante beschäftigen: <a target="_blank" href="http://maps.live.de/LiveSearch.LocalLive">Virtual Earth</a>.

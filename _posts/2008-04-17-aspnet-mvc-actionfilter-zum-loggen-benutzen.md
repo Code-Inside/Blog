@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [ActionFilters, ASP.NET MVC, log4net, logging]
 ---
+{% include JB/setup %}
 <p>Die neue "pre"-Preview 3 des MVC Frameworks (<a href="http://code-inside.de/blog/2008/04/17/aspnet-mvc-april-codeplex-source-push/">siehe hier für mehr Informationen</a>) bringt einige Veränderungen&nbsp; mit sich. Insbesondere wurden die ActionFilter erweitert. Aus dem alten "FilterExecutingContext" etc. wurde der "ActionExcetuingContext" usw. <br>Es gibt zudem 2 neue Methoden zum Überschreiben, welche kurz vor dem Rendern passieren. Hier die komplette Liste an Methoden, welche ein ActionFilter haben kann:</p> <p> <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a8515567-54a8-4a50-93fe-626175cf3f8e" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">        public override void OnActionExecuting(ActionExecutingContext filterContext)
         {
             ActionExecutingContext contect = filterContext;

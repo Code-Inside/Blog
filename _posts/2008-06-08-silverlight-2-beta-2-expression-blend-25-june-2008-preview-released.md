@@ -7,4 +7,5 @@ comments: true
 categories: [Allgemein]
 tags: [Expression Blend 2.5, Silverlight 2, UI]
 ---
+{% include JB/setup %}
 <p>Für fleissige Silverlight-Menschen gibt es neues Futter:</p> <p><a href="http://weblogs.asp.net/scottgu/archive/2008/06/06/silverlight-2-beta2-released.aspx">Silverlight 2 Beta 2 (@ ScottGus Blog)</a></p> <p>und eine neue <a href="http://www.microsoft.com/expression/products/Features.aspx?key=blend2dot5">Blend 2.5 Version</a> (<a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=32A3E916-E681-4955-BC9F-CFBA49273C7C&amp;displaylang=en">Downloadlink</a>) wurde released :)</p>

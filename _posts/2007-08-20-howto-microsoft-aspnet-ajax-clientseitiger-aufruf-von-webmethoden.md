@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 Diese mal geht es um das eigentlich tollste Feature von Microsofts ASP.NET AJAX Framework. Wie wiederholt <a href="http://code-inside.de/blog/2007/06/07/gute-und-schlechte-seiten-des-updatepanels/" title="böses Updatepanel">erwähnt</a>Â ist das UpdatePanel nicht wirklich ideal, da es erstmal alle Daten zum Server hinschickt und hinterher die Antwort zwar etwas weniger ist, aber trotzdem bei weitem nicht optimal ist.
 
 Daher gibt es so genannte "Scriptmethoden" - es ist eigentlich das, was viele Anfänger in der Webprogrammierung machen wollen: Aus Javascript eine C#/.NET Methode aufrufen.

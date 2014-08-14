@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 Da ich momentan in einem Projekt nicht das AJAX Framework von Microsoft nutzen soll, sondern mich komplett ohne solch ein Framework auf das AJAX Gebiet stürtzen soll, stieß ich auf ein kleines Problem:
 
 Mit ASP.NET ist es recht einfach Webservices (.asmx) zu erstellen. Mit dem AJAX Framework könnte man jetzt noch das "ScriptService”-Attribut drüber setzen und man könnte es bequem per Javascript abrufen. Da ich das allerdings nicht machen kann und somit alles nativ mit den Komponenten des XmlHttpRequest Objekt mache, ist es etwas anders.

@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein, Software-Tipp]
 tags: [Microsoft, SharedView]
 ---
+{% include JB/setup %}
 Die Frage "Welchen Knopf muss ich denn drücken?" oder ähnliche sind meist recht schwer zu beantworten. Ferndiagnosen sind meist recht schwer zu bewältigen.
 
 Seit einer Weile hat Microsoft ein nettes Tool - ganz ohne jeden großen Rummel - veröffentlicht: <a href="http://www.microsoft.com/downloads/details.aspx?familyid=95AF94BA-755E-4039-9038-63005EE9D33A&amp;displaylang=en">SharedView</a>.

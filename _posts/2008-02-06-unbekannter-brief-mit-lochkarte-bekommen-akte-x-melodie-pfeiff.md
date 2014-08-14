@@ -7,6 +7,7 @@ comments: true
 categories: [Off Topic]
 tags: []
 ---
+{% include JB/setup %}
 Wie bereits <a href="http://www.giza-blog.de/KomischePostsendungAuchErhalten.aspx">Kay</a> und auch <a href="http://thomas.lippert.it/v4/2008/komische-postsendung/">Thomas</a> berichtet haben - habe nun auch ich eine Lochkarte in einer Holzschachtel mit der Notiz "<em>To execute these commandments you”™ll have to find the properly gifted follows</em>" bekammen.
 
 Mal sehn was sich dahinter verbirgt:

@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [.NET, Poster]
 ---
+{% include JB/setup %}
 Hallo mal wieder,
 
 in der Linkliste habe ich einen neuen kleinen Bereich eingerichtet, welcher Downloadquellen für Poster angeben. Momentan sind diese in der Liste, welche direkt von Microsoft stammen:

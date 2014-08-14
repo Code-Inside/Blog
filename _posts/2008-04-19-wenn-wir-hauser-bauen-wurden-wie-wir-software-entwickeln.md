@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein, Off Topic]
 tags: [Off Topic, Projekt, Software entwickeln]
 ---
+{% include JB/setup %}
 Was würde passieren wenn man ein Bauprojekt so angeht wie ein Softwareprojekt? 
 <!--more-->
 

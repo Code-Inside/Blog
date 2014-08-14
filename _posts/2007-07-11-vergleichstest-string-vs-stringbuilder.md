@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [.NET]
 ---
+{% include JB/setup %}
 Oft sieht man solchen Code:
 
 <em>String simplestring = "Hallo ";

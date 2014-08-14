@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 <strong>XML - Thema: Basiswissen</strong>
 
 Was bedeutet Basiswissen bei XML? Gute Frage. Daher ist meine Schulung sowieso nur in 2 große Hauptteile gegliedert (Einführung und Basiswissen). Mag etwas sinnlos sein, aber egal.

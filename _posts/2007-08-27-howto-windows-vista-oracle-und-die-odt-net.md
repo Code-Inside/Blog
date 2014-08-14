@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 <strong>Einleitung</strong>
 
 Um eine Verbindung zu einer Oracle Datenbank aufzubauen gibt es viele Wege. Der wohl einfachste für .NET ist die "<em>Oracle Developer Tools for Visual Studio .NET</em>" zu nutzen. Diese integrieren eine ganze Reihe an Tools und den Oracle Namespace in das Visual Studio. Nach erfolgreicher Installation gelingt das Ansprechen der Datenbank mit wenigen Zeilen Code, zusätzlich liefert Oracle viele nützliche Codebeispiele gleich mit. Die Installation dieser Tools unter Vista ist allerdings etwas umständlicher.

@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 Willkommen zurück zum HowTo über die eBay API.
 
 Sobald die Grundvoraussetzungen für die API Nutzung erfüllt sind, kann es auch schon direkt losgehen.

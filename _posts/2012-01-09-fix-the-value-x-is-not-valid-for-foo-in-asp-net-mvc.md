@@ -7,6 +7,7 @@ comments: true
 categories: [Fix]
 tags: [ASP.NET MVC, Validation]
 ---
+{% include JB/setup %}
 <p>Um Daten in einen MVC Controller zu bekommen ist das <a href="http://code-inside.de/blog/2009/04/02/howto-daten-vom-view-zum-controller-bermitteln-bindings-in-aspnet-mvc/">Modelbinding</a> von MVCeigentlich recht clever. Allerdings ist es etwas kompliziert, die Fehlermeldung zu setzen, wenn das Binding <strong>nicht</strong> geklappt hat. </p> <p><strong>Bsp:</strong></p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:8c3f8e40-1f0f-4acb-8e08-0d9f95fb40ee" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    public class RegisterModel
     {
 		...

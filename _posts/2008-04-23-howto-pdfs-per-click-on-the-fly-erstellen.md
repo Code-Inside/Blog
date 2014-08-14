@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [Export, FO, Handler, HowTo, NFop, PDF, Xml, XSLT]
 ---
+{% include JB/setup %}
 <p>Vor einiger Zeit hat Oliver bereits ein nettes Beispiel gebracht wie man mit <a href="http://sourceforge.net/projects/nfop/">nFop</a> ein <a href="http://code-inside.de/blog/2007/12/06/howto-pdfs-erstellen-unter-net-mit-nfop/">PDF Dokument erzeugt</a>.</p> <p>In dem heutigen HowTo geht es darum, PDFs per "klick" auf einem normalen Link zu erzeugen, z.B. wenn man auf einer Webseite einen PDF Export möchte.</p> <p>Oliver hat mir freundlicherweise sehr geholfen und der Code stammt von ihm :)</p> <p><strong>Kurze Vorbereitung: J# dlls installieren</strong></p> <p>Ich hab nur VS 2008 installiert - dabei wurde allerdings wohl die J# Bibliotheken nicht mit installiert - die "vjslib.dll" kann hier aber runtergeladen werden: <a href="http://msdn2.microsoft.com/en-us/vjsharp/bb188598.aspx">Visual J# Redistributable Packages</a></p> <p><strong>Ein Generic Handler ist die Lösung</strong></p> <p>Da nFop allerdings auf die J# Bibliothek aufbaut, ist es etwas schwieriger das PDF in den content reinzuschreiben, hier der komplette Code:</p> <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:923ad05a-8302-4cec-9a70-ad42665e24b4" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;%@ WebHandler Language="C#" Class="PdfHandler" %&gt;
 
 using System;

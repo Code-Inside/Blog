@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 In <a href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">diesem</a>Â HowTo erklärte ich, wie man eine ASMX Datei so erweitern kann, dass man die Methoden auch über Javascript (und über den ScriptManager) zugänglich macht.
 Da man allerdings nicht immer eine ASMX Datei erstellen will um vielleicht nur eine kleine Aufgabe zu erledigen gibt es die so genannten PageMethods.
 

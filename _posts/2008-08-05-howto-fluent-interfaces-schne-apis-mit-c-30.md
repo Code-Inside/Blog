@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [.NET 3.5, APIs, C# 3.0, Extension Methods, Fluent Interfaces, HowTo, Linq2Sql, Storefront]
 ---
+{% include JB/setup %}
 <p><a href="http://de.wikipedia.org/wiki/Programmierschnittstelle">APIs</a> (egal ob sie nur für interne Zwecke da sind oder auch an externe Entwicklern geht) sollten möglichst einfach und intuitiv zu bedienen sein. <br>Seit kurzem lese ich immer häufiger von "<a href="http://en.wikipedia.org/wiki/Fluent_interface">Fluent Interfaces</a>".</p> <p><strong>Was ist das denn?<br></strong>Schauen wir uns einfach mal das Wikipedia Beispiel an:</p> <p> <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c0c4ffea-0b8f-4e35-9709-1f2d95d2c728" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">public class ExampleProgram
     {
         [STAThread]

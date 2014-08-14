@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [ASP.NET, MVC, Software Factories, WCSF]
 ---
+{% include JB/setup %}
 Als ich mich mit den <a target="_blank" href="http://code-inside.de/blog/artikel/howto-microsoft-patterns-practices-software-factories-verstehen/">Software Factories von Microsoft</a> beschäftigt hab, viel mir auch die "Web Client Software Factory" auf. Da ich von der <a target="_blank" href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-3-praktisches-hello-world/">Service Factory</a> doch sehr angetan war, wollte ich mir diese Factory mal genauer anschauen.
 
 Zur selben Zeit ungefähr hat Scott Guthrie dann das <a target="_blank" href="http://weblogs.asp.net/scottgu/archive/2007/10/14/asp-net-mvc-framework.aspx">ASP.NET MVC Modell angekündigt</a>Â - daher war eine ganz einfache Frage: Wenn die WCSF bereits ein ähnliches Modell unterstützt - wie gehts dann weiter? Neben dem MVC basierden Design, bietet das ASP.NET MVC Modell ja <a target="_blank" href="http://weblogs.asp.net/scottgu/archive/2007/10/14/asp-net-mvc-framework.aspx">noch mehr Vorteile</a>.

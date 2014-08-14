@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, Codeplex, MVC]
 ---
+{% include JB/setup %}
 Microsoft hat eine neue Version des MVC Frameworks auf Codeplex <a href="http://www.codeplex.com/aspnet/Release/ProjectReleases.aspx?ReleaseId=12640">released</a>.
 
 Update: <a href="http://weblogs.asp.net/scottgu/archive/2008/04/16/asp-net-mvc-source-refresh-preview.aspx">Scott Guthrie hat nun einige Zeilen zu dem neuen "Release" geschrieben</a> - es ist nicht die MVC Preview 3, sondern eine "Preview" der "Preview" ;)

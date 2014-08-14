@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 Nun da die Grundlagen bereits beschrieben sind, möchten ich den praktischen Teil angehen.
 
 Unser Ziel ist es eine einfache ASPX Seitee zu bauen, welche mit tollen AJAX Effekten glänzt. Dazu wollen wir auch das <a target="_blank" href="http://www.codeplex.com/AtlasControlToolkit/Release/ProjectReleases.aspx?ReleaseId=4923" title="AJAX Control Toolkit">Control Toolkit</a> nehmen.

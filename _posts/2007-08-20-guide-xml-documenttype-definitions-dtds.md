@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 
 <p align="center"><a target="_blank" href="http://code-inside.de/blog/artikel/guide-xml-basiswissen/" title="Guide:XML (Basiswissen)"><strong>[Aufbauend auf den vorherigen Guide]</strong></a></p>
 

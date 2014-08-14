@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [Embedded, NoSQL, RavenDB]
 ---
+{% include JB/setup %}
 <p>Bereits im ersten <a href="http://code-inside.de/blog/2011/07/05/nosql-mit-ravendb-und-asp-net-mvc/">Blogpost um RavenDB</a> hatte ich auch das Management-Tool RavenDB Studio erwähnt. Wenn man RavenDB richtig als Server-Anwendung (z.B. <a href="http://ravendb.net/documentation/docs-deployment-iis">innerhalb des IIS</a>) ausführt, steht dort das Studio mit zur Verfügung. Wer allerdings <a href="http://code-inside.de/blog/2011/08/15/ravendb-als-embedded-datenbank-nutzen/">RavenDB innerhalb der Applikation</a> laufen lässt, muss zwei kleine Handgriffe machen um auch da die Management Oberfläche zu benutzen.</p> <p><strong>EmbeddedHttpServer mit starten</strong></p> <p>Das Studio muss innerhalb eines “Web-Servers” laufen – d.h. z.B. im IIS. Allerdings kann RavenDB auch einen “EmbeddedHttpServer” benutzen:</p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:14a1e35c-4cc1-43f9-8792-66c759ed95eb" class="wlWriterEditableSmartContent"><pre name="code" class="c#">        private static IDocumentStore CreateDocumentStore()
         {
             var documentStore = new EmbeddableDocumentStore

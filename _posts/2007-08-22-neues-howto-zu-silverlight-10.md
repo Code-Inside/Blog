@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein, HowTo]
 tags: [ASP.NET, Expression Blend, HowTo, Silverlight]
 ---
+{% include JB/setup %}
 Wie bereits gestern erwähnt, hab ich eine neue HowTo Reihe zum Thema Silverlight angefangen.
 
 Seit gestern sind die "<a href="http://code-inside.de/blog/artikel/howto-microsoft-silverlight-10-grundlagen/" title="Code-Inside.de: HowTo: Microsoft Silverlight 1.0 (Grundlagen)">Grundlagen</a>" online - heute kommt der eigentlich <a href="http://code-inside.de/blog/artikel/howto-microsoft-silverlight-10-praktischer-anfang/" title="Code-Inside.de: HowTo: Microsoft Silverlight 1.0 (Praktischer Anfang)">erste praktische Einstieg</a> zum Thema.

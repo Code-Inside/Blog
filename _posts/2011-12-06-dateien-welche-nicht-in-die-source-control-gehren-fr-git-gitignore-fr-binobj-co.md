@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [GIT, gitignore, HowTo, Source Control Systeme]
 ---
+{% include JB/setup %}
 <p>Visual Studio produziert einige Dateien, welche man nicht in sein Source Control System haben sollte: Zum einen sind es Dateien, welche vom Betriebssystem automatisch erstellt werden (Thumbs.db), von diversen Tools (Resharper ahoi!) oder auch den lokalen Build-Output.</p> <p>Da ich gerade etwas mit <a href="http://code-inside.de/blog/2011/08/05/einstieg-in-git-fr-net-entwickler/">Git experimentiere</a>, hier mal meine Erkenntnisse (bei Denkfehlern meinerseits bitte einfach einen Kommentar hinterlassen :) )</p> <p><strong>Die .gitignore Datei</strong></p> <p>Über dieses Datei kann man steuern, welche Dateien git tracken soll und welche nicht. Der Aufbau ist eigentlich simpel, aber irgendwie auch <a href="http://stackoverflow.com/questions/1470572/gitignore-ignore-any-bin-directory">etwas konfus</a> (IMHO ;) ).</p> <p>Meine .gitignore Datei (für meine Demosourcen auf Google Code) :</p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:5414a39c-9da4-453a-b56c-98c41a7b44d2" class="wlWriterEditableSmartContent"><pre name="code" class="c#"># Visual Studio Files and security files
 ######################
 *.suo

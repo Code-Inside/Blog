@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 <h4><u>4.2.2.3 Definition von Typen</u></h4>
 <p>Jedem Element und Attribut werden Typen zugeordnet. In der XSD gibt es einfache ("simpleType") und komplexe("complexType") Typen. 
 <p><strong><u>Einfache Typen "simpleType":</u></strong> 

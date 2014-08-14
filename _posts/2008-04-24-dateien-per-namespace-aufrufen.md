@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [.NET, ASP.NET, C#, Embedded Resource, Namespace, Xml, XmlSerializer]
 ---
+{% include JB/setup %}
 Ich hatte ver kurzem das Problem das ich auf eine XML Datei in meinem Projekt zugreifen musste aber den genauen Pfad nicht kannte. Das erzeugen eines dynamischen Pfades per "AppDomain.CurrentDomain.BaseDirectory" war nicht möglich da ich mit Usercontrols arbeitete und so nur den Pfad der Datei bekam die mein Uercontrol einbindet. 
 Gelöst habe ich das Problem in dem ich über den Namespace auf die XML Datei zugegriffen habe:
 

@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [HowTo, oEmbed]
 ---
+{% include JB/setup %}
 <p>Content von anderen Seiten, z.B. YouTube, Flickr, Slideshare auf die eigene Seite einzubetten ist auf den ersten Blick immer nur schwer möglich. Insbesondere wenn man dies “automatisiert” anhand der URL machen möchte. Wie die Einbettung erfolgt hängt stark vom Content ab – bei YouTube und co. muss ein Videoplayer zum Einsatz kommen, Slideshare und co. nehmen Flash/JS für die Präsentationen. Allerdings gibt es einen Standard, welche genau diesen Fall abdecken möchte: <a href="http://oembed.com/">oEmbed</a>.</p> <p><strong>Ziel von oEmbed</strong></p> <p>oEmbed soll eine einheitliche Schnittstelle sein, über den der eigene Content von anderen Seiten eingebettet werden kann. Es gibt einige große Namen, welche oEmbed unterstützen, darunter YouTube und Flickr:</p> <p><strong>Beispiel Flickr:</strong></p> <p>Der Client ruft diese URL auf:</p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c0f0885e-4603-4d8a-af93-59984ad912ca" class="wlWriterEditableSmartContent"><pre name="code" class="c#">http://www.flickr.com/services/oembed/?url=http%3A//www.flickr.com/photos/bees/2341623661/</pre></div>
 <p>&nbsp;</p>
 <p>Und bekommt als Antwort:</p>

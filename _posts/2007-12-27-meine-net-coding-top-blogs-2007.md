@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: ["Astoria", .NET, ASP.NET 3.5, ASP.NET 3.5 Extensions, Blogs, Microsoft, Silverlight]
 ---
+{% include JB/setup %}
 Da 2007 demnächst zuende geht, möchte ich einfach mal meine Blog-Favoriten für 2007 näher erwähnen.
 
 Die Top-Quelle für Microsofts Technologien rund um den IIS, das .NET Framework, Silverlight, ASP.NET und co. ist eindeutig der <a target="_blank" href="http://weblogs.asp.net/scottgu/"><strong>Blog von Scott Guthrie</strong></a>.

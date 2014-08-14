@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 Robert Mühsig
 Friedbergstrasse 5
 9502 Braunau

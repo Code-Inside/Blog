@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [HowTo, Javascript, Xml]
 ---
+{% include JB/setup %}
 JSON ist eigentlich eine feine Sache - allerdings hat man manchmal keine Wahl und muss in Javascript ein XML parsen.
 
 Das dies eigentlich fast genauso einfach ist, wie JSON, sieht man allerdings erst hinterher. Da der Zugriff manchmal allerdings etwas blöder ist als unter .NET selbst, schreibe ich kurz dieses HowTo. Die Demoanwendung samt kompletten Sourcecode gibts am Ende.

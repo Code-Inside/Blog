@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [ASP.NET, ASP.NET AJAX, LINQ, Microsoft, Silverlight, Silverlight 1.0]
 ---
+{% include JB/setup %}
 Zur Weihnachtszeit gibts was sehr interessantes von Microsoft Press: 3 EBooks gratis (Voraussetzung ist nur eine Windows Live ID)
 <ul>
 	<li><a target="_blank" href="http://www.microsoft.com/MSPress/books/10725.aspx">Introducing MicrosoftÂ® LINQ</a></li>

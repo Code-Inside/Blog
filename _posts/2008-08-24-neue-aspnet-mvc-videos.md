@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, MVC, TDD, Unit Tests]
 ---
+{% include JB/setup %}
 Auf der <a href="http://asp.net/mvc">offiziellen ASP.NET MVC Seite</a> gibt es nun 15 neue Videos zu bestaunen:
 - <a href="http://www.asp.net/learn/mvc-videos/#howdoi">10 HowDoI Videos</a>
 - <a href="http://www.asp.net/learn/mvc-videos/#MVCPairProgramming">5 Pair Programming Videos mit dem Entwickler von NUnit</a>

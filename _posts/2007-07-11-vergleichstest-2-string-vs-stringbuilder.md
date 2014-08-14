@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [.NET]
 ---
+{% include JB/setup %}
 Ich habe gerade mit dem Code aus Roberts Vergleichstest noch etwas gespielt.
 
 <strong>Test 1</strong>

@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein, Tools]
 tags: [Web 2.0, whos.amung.us]
 ---
+{% include JB/setup %}
 Durch einfaches einbinden eines kleinen Buttons von <a href="http://whos.amung.us">whos.amung.us</a> kann man sehen wer gerade den eigenen Blog durchstöbert und wo die Leute so herkommen. Zur auswahl gibts schicke Karten, z.b. 
 
 <a href='{{BASE_PATH}}/assets/wp-images/map.jpg' title='Besucherkarte'><img src='{{BASE_PATH}}/assets/wp-images/map.jpg' alt='Besucherkarte' width="400px" /></a>

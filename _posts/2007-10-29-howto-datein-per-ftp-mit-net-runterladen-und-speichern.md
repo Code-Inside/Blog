@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [.NET, FTP, HowTo]
 ---
+{% include JB/setup %}
 Ich mag FTP eigentlich nicht, allerdings kann man es manchmal nicht ändern und muss trotzdem irgendwelche Datein von einem FTP Server über .NET runterladen.
 
 Es ist eigentlich nicht sonderlich schwer eine Datei runterzuladen - hier der Beispielcode (in der Zusammenstellung ungetestet - sollte aber so funktionieren) :

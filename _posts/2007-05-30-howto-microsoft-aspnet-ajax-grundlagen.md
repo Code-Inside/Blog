@@ -7,6 +7,7 @@ comments: true
 categories: []
 tags: []
 ---
+{% include JB/setup %}
 Da ich mich momentan mit einem Neuentwurf von <a target="_blank" href="http://shoppingmap.de" title="Shoppingmap">ShoppingMap</a> beschäftige, will ich natürlich auch etwas Web 2.0 mit reinbringen. Da ich mich mehr oder weniger auf Microsoft Produkte eingeschossen habe, bleib ich ASP.NET treu und verwende dazu ebenfalls noch die AJAX Extensions und das Toolkit von Microsoft.
 
 <a target="_blank" href="http://de.wikipedia.org/wiki/Ajax_(Programmierung)" title="Wikipedia AJAX">AJAX</a> allg. möchte ich hier jetzt nicht erklären. Dafür gibt es neben dem Wiki Artikel noch genug andere Leitfäden.

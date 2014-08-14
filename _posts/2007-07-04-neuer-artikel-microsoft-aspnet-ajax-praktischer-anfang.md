@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [AJAX, ASP.NET, ASP.NET AJAX, HowTo, Javascript]
 ---
+{% include JB/setup %}
 Ich hab mich mal wieder hingesetzt um einen relativ kurzen Artikel über den Einstieg in das Microsoft AJAX Thema geschrieben.
 
 <a target="_blank" href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-praktischer-anfang/" title="HowTo: Microsoft ASP.NET AJAX (Praktischer Anfang)">[Hier zum Artikel]</a>

@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [HowTo, HTML5, Javascript, jQuery]
 ---
+{% include JB/setup %}
 <p>Metadaten im Markup, welches man für Javascripts brauchte, hatte man meist in CSS Klassen, rel Attribut oder Hidden-Inputfeldern gesteckt. Mit den HTML5 data-* (gesprochen “Data dash”) Attributen gibt es jetzt einen saubereren Weg für dieses Szenario.</p> <p><strong>Was kann man mit diesen Attributen machen und wie sieht das Markup aus?</strong></p> <p>Wer im Javascript bestimmte Daten braucht, welche sich bislang in versteckten Input-Feldern oder CSS Klassen fanden (siehe oben ;) ) befanden, kann man diese nun direkt an das jeweilige DOM Element schreiben. Man legt dazu einen Schlüssel fest, welcher einen Wert besitzt – ziemlich einfach.</p> <p>Dazu gibt es das “<strong>data-*</strong>” Attribut. Dahinter kann man beliebig seine eigenen Keys festlegen, wie z.B. in meinem Beispiel data-<strong>message</strong> (das Beispiel soll nur die Funktionsweise erklären, daher ist das Beispiel “aus der Luft gegriffen”)</p> <p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:db21401a-b1e5-4ff1-810d-2e54aa28adea" class="wlWriterEditableSmartContent"><pre name="code" class="c#">&lt;h2 id="headline" data-message="ImportantMessage"&gt;Welcome to ASP.NET MVC!&lt;/h2&gt;</pre></div></p>
 <p><strong>Via jQuery den data-* Wert auslesen</strong></p>
 <p>Beim Auslesen holen wir uns das Element und rufen dann unseren Key auf:</p>

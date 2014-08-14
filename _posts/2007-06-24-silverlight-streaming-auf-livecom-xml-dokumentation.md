@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein]
 tags: [Guide, Silverlight, Xml]
 ---
+{% include JB/setup %}
 Zuerst zum Alten: Ich habe den zweiten Teil meiner<a href="http://code-inside.de/blog/artikel/guide-xml-basiswissen/" title="Guide: XML Basiswissen"> XML Dokumentation </a>online gestellt. Darin wird das "Basiswissen" behandelt. Ich hoffe, ich werde mich irgendwann dazu aufraffen und auch die restlichen 55 Seiten hier posten ;)
 
 Nun zu Silverlight: Microsoft hat seit kurzem sein Hosting Service für Silverlight Anwendungen online gestellt: silverlight.live.com

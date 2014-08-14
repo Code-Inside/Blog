@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [C# 3.0, DRY, Extensions, generics, HowTo]
 ---
+{% include JB/setup %}
 <p>C# 3.0 bringt ein nettes Feature mit: <a href="http://weblogs.asp.net/scottgu/archive/2007/03/13/new-orcas-language-feature-extension-methods.aspx">Extensions</a>.</p> <p>Generell sind die recht einfach, allerdings sind die meisten Beispiele ohne Generics gemacht.</p> <p><strong>Meine Problemsituation:</strong><br>In einem Projekt waren einige Klasse von List&lt;...&gt; abgeleitet:</p> <p> <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:d14c5b64-0ca0-4a3f-a229-ae2a73deef2b" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">    public class MyList : List&lt;MyObject&gt;
     {
         ...

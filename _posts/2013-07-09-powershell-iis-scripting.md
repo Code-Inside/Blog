@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [IIS, Powershell]
 ---
+{% include JB/setup %}
 <p>Vor einiger Zeit hatte ich bereits geschrieben dass man im Grunde <a href="http://code-inside.de/blog/2012/11/06/setup-iis-8-fr-asp-net-webdeploy-auf-windows-8-und-windows-server-2012/">einen kompletten Server allein über Powershell konfigurieren kann</a>. Natürlich gilt das Ganze auch für den IIS. Über die Powershell hat man interessante Möglichkeiten Prozesse zu automatisieren oder um den IIS zu “verscripten”.</p> <h3>Wichtigster Befehl: Import-Module WebAdministration</h3> <p>Über diesen Schritt holt man sich die IIS Cmdlets in die Session. Ähnlich wie man auf ein anderes Laufwerk wechselt kommt man via “<em>cd iis:</em>” einfach in den IIS Kontext und kann sich dort mit den gewohnten Befehlen frei bewegen:</p> <p><a href="{{BASE_PATH}}/assets/wp-images/image1870.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb1014.png" width="574" height="560"></a> </p> <p></p> <h4>Scripting…</h4> <p>Vermutlich lässt sich jede Admin-Aufgabe im IIS verscripten:</p><pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;">PS IIS:\Sites&gt; New-Item iis:\Sites\TestSite -bindings @{protocol="http";bindingInformation=":80:TestSite"} -physicalPath c:\test
 
 </pre>

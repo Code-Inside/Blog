@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [.NET, .NET 3.5, C# 3.0, HowTo, LINQ]
 ---
+{% include JB/setup %}
 <p>Mit .NET 3.5 kam auch C# 3.0 (und die entsprechende VB Variante, die hier aber nicht behandelt wird) ans Licht der Welt. Für die Entwicklung von .NET 3.5 Applikationen ist Visual Studio 2008 Pflicht - die Express Variante kann man sich kostenlos bei <a href="http://www.microsoft.com/express/" target="_blank">Microsoft</a> runterladen.</p> <p>In diesem HowTo geht es um das neue Keyword "<a href="http://msdn2.microsoft.com/en-us/library/bb383973.aspx" target="_blank">var</a>", andere Featues wie Lamda Expressions, LINQ, Partielle Methoden werden später bestimmt ebenfalls noch Themen werden.</p> <p>Für einen gute Komplettübersicht empfehle ich das <a href="http://download.microsoft.com/download/0/e/2/0e255cf3-b11f-44cb-b42c-7d55ed7b556c/CSharp_3.0_Language_Enhancements_Hands_on_Lab.doc" target="_blank">C# 3.0 Language Enhancements Hands on Lab</a>.</p> <p><strong>Was ist "var"?</strong></p> <p>Mittels "var" ist es möglich einem Object einen anonymen Typ zuzuweisen. Dabei weist der Compiler dann eine entsprechende Klasse oder eine anonyme Klasse zu. Trotz dessen, ist das Object immernoch typisiert. Am besten sieht man dies an einem kleinen Beispiel:</p> <div class="CodeFormatContainer"><pre class="csharpcode"> var IntVar = 15;
  var StringVar = <span class="str">"Hello"</span>;
  var ComplexVar = <span class="kwrd">new</span> DateTime();</pre></div>

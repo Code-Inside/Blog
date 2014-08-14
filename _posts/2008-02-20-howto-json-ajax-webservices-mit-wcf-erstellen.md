@@ -7,6 +7,7 @@ comments: true
 categories: [HowTo]
 tags: [.NET, .NET 3.5, AJAX, HowTo, Json, WCF]
 ---
+{% include JB/setup %}
 <p>Das Thema ist eigentlich schon alt - wie kann man .NET Methoden aus Javascript aufrufen. Mit ASMX Webservices ging dies recht einfach - <a href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">siehe HowTo</a> - doch geht das auch mit WCF?</p> <p>Seit .NET 3.5 und Visual Studio 2008 strahlte mich dieses Itemtemplate an:</p> <p><a href="{{BASE_PATH}}/assets/wp-images/image275.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="331" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb254.png" width="503" border="0"></a> </p> <p>"AJAX-enabled WCF Service" klingt schonmal gut.</p> <p>Daraus wird dann sowas (ich hab die Standardmethode mal abgewandelt) :</p> <div class="CodeFormatContainer"><pre class="csharpcode"><span class="kwrd">using</span> System;
 <span class="kwrd">using</span> System.Linq;
 <span class="kwrd">using</span> System.Runtime.Serialization;

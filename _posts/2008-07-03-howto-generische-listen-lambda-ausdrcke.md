@@ -7,6 +7,7 @@ comments: true
 categories: [Allgemein, HowTo]
 tags: [.NET 3.5, =&gt;, C#3.0, HowTo, Lambda, List]
 ---
+{% include JB/setup %}
 <p>Seit der .Net Version 3.5 gibt es für Listen und Arrays eine Reihe neuer Funktionen um die Objekte zu durchsuchen, zu sortieren und zu ordnen. Um ein "Gefühl" für die neuen Funktionen zu bekommen habe ich eine kleine Demoanwendung geschrieben um ein Paar dieser neuen Funktionen auszuprobieren. </p> <p>Grundlegende Informationen zu den Lambda Ausdrücken finden man hier: <a title="http://weblogs.asp.net/scottgu/archive/2007/04/08/new-orcas-language-feature-lambda-expressions.aspx" href="http://weblogs.asp.net/scottgu/archive/2007/04/08/new-orcas-language-feature-lambda-expressions.aspx">http://weblogs.asp.net/scottgu/archive/2007/04/08/new-orcas-language-feature-lambda-expressions.aspx</a>&nbsp;</p> <p><a title="http://www.outofcoffeeexception.de/2008/04/28/LambdaAusdruumlcke+In+C+30.aspx" href="http://www.outofcoffeeexception.de/2008/04/28/LambdaAusdruumlcke+In+C+30.aspx">http://www.outofcoffeeexception.de/2008/04/28/LambdaAusdruumlcke+In+C+30.aspx</a></p> <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:1a12e375-57e5-4365-8a1b-42ebad284c33" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">            List&lt;Person&gt; Employees = PersonManager.GetRandomData(19);            
             
             Console.WriteLine("shows all employees");          
