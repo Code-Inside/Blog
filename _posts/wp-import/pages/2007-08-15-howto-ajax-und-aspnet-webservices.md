@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-ajax-und-aspnet-webservices
 ---
 {% include JB/setup %}
 Da ich momentan in einem Projekt nicht das AJAX Framework von Microsoft nutzen soll, sondern mich komplett ohne solch ein Framework auf das AJAX Gebiet stürtzen soll, stieß ich auf ein kleines Problem:

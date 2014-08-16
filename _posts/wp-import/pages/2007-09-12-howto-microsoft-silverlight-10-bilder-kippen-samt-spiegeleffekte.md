@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-microsoft-silverlight-10-bilder-kippen-samt-spiegeleffekte
 ---
 {% include JB/setup %}
 <a href="http://code-inside.de/blog/artikel/howto-microsoft-silverlight-10-dynamische-spiegeleffekte/">Gestern</a> ging es ja um die ersten "dynamischen" Berührungspunkte mit Silverlight - das fetzt zwar ja - aber noch nicht richtig. Text zu spiegel ist natürlich klasse, aber was ist denn mit Bildern oder gar Videos? Da ich momentan keine Videos zur Verfügung habe, werde ich das einfach mal anhand eines Bildes machen.

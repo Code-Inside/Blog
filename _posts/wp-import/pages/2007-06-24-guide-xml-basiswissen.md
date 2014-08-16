@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/guide-xml-basiswissen
 ---
 {% include JB/setup %}
 <strong>XML - Thema: Basiswissen</strong>

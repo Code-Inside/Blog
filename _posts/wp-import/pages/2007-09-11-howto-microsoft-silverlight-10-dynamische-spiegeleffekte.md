@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-microsoft-silverlight-10-dynamische-spiegeleffekte
 ---
 {% include JB/setup %}
 In dem vorherigen HowTo <a href="http://code-inside.de/blog/artikel/howto-microsoft-silverlight-10-spiegeleffekte-erzeugen/">(Microsoft Silverlight 1.0 (Spiegeleffekte erzeugen))</a> ging es grob darum, wie man mit Blend 2 arbeitet.

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/guide-xml-xml-schema-xsd-teil-3
 ---
 {% include JB/setup %}
 <h4><u>4.2.2.5 Elemente für Schlüssel</u></h4> <p>In der XSD gibt ebenso wie in der DTD die Möglichkeit einmalige Schlüssel, ähnlich wie der Index in einer Datenbank, zu definieren.  <p>In XSD gibt es fünf Arten, die hier kurz vorgestellt werden:  <ul> <li>xsd:key  <ul> <li>eindeutige Schlüsselwerte</li></ul> <li>xsd:field  <ul> <li>gibt Gültigkeitsbereich an</li></ul> <li>xsd:unique  <ul> <li>optional, muss aber eindeutig sein</li></ul> <li>xsd:refkey  <ul> <li>Referenz auf den Schlüssel</li></ul> <li>xsd:selector  <ul> <li>gibt Gültikeitsbereich mit XPath an</li></ul></li></ul> <p>&nbsp;</p> <h4><u>4.2.2.6 Modularisierung</u></h4> <p>Modularisierung in der XSD erlaubt, dass gewisse Teile immer wieder verwendet werden können und somit diese wesentlich besser nutzen kann. XSD kennt drei Arten, eine andere XSD zu importieren.  <p>&nbsp;</p> <p><b><u>xsd:include</u></b>  <p>Typdefinitionen innerhalb eines Namensraumes, die auf mehrere Dateien verteilt sind, lassen sich mittels include zusammenfügen.  <div class="CodeFormatContainer"><pre class="csharpcode"><u>Beispiel:</u>

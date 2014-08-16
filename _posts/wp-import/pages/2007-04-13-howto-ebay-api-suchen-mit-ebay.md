@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-ebay-api-suchen-mit-ebay
 ---
 {% include JB/setup %}
 Willkommen zurück zum HowTo über die eBay API.

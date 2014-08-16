@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-google-maps-api-grundvoraussetzungen
 ---
 {% include JB/setup %}
 Die wohl berühmteste Mashup API ist die <a target="_blank" href="http://www.google.com/apis/maps/" title="Google Maps API">Google Maps API</a>. Wie der Name schon erahnen lässt, geht es um den Kartendienst von Google.

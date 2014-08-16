@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-windows-vista-oracle-und-die-odt-net
 ---
 {% include JB/setup %}
 <strong>Einleitung</strong>

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/guide-xml-einfuehrung
 ---
 {% include JB/setup %}
 <strong>XML - Thema: Einführung</strong>

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-microsoft-virtual-earth-praktischer-einstieg
 ---
 {% include JB/setup %}
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image64.png"><img border="0" width="191" src="{{BASE_PATH}}/assets/wp-images/image-thumb43.png" alt="image" height="55" style="border: 0px" /></a>

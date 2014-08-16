@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/guide-xml-documenttype-definitions-dtds
 ---
 {% include JB/setup %}
 

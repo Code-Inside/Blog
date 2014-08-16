@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /impressum/
 ---
 {% include JB/setup %}
 Robert Mühsig

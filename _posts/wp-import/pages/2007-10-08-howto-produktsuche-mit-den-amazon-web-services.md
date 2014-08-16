@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-produktsuche-mit-den-amazon-web-services
 ---
 {% include JB/setup %}
 Der Amazon Webserivce ist einer der meistgenutzten "richtige" Webservice. Ich selber habe diesen auch schön öfters genutzt, bislang blieb aber noch ein kleines HowTo aus.

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-microsoft-aspnet-ajax-grundlagen
 ---
 {% include JB/setup %}
 Da ich mich momentan mit einem Neuentwurf von <a target="_blank" href="http://shoppingmap.de" title="Shoppingmap">ShoppingMap</a> beschäftige, will ich natürlich auch etwas Web 2.0 mit reinbringen. Da ich mich mehr oder weniger auf Microsoft Produkte eingeschossen habe, bleib ich ASP.NET treu und verwende dazu ebenfalls noch die AJAX Extensions und das Toolkit von Microsoft.

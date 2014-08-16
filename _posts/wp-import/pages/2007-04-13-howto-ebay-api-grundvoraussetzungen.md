@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-ebay-api-grundvoraussetzungen
 ---
 {% include JB/setup %}
 Das ist das erste HowTo auf dieser Seite und ich hoffe es werden noch mehrere Folgen.

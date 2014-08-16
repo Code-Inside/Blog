@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-microsoft-aspnet-ajax-pagemethods-webmethoden-aufrufen-ohne-asmx-datein
 ---
 {% include JB/setup %}
 In <a href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">diesem</a>Â HowTo erklärte ich, wie man eine ASMX Datei so erweitern kann, dass man die Methoden auch über Javascript (und über den ScriptManager) zugänglich macht.

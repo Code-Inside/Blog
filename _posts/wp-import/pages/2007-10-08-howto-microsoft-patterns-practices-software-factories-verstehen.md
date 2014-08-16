@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-microsoft-patterns-practices-software-factories-verstehen
 ---
 {% include JB/setup %}
 <img src="http://msdn2.microsoft.com/ms998572.PATTPRAC(en-us,MSDN.10).gif" alt="Patterns Practices" />

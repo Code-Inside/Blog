@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/guide-xml-xml-schema-xsd-teil-2
 ---
 {% include JB/setup %}
 <h4><u>4.2.2.3 Definition von Typen</u></h4>

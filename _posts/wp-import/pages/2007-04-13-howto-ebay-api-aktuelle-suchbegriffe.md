@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-ebay-api-aktuelle-suchbegriffe
 ---
 {% include JB/setup %}
 Auf shoppingmap.de sieht man gleich auf der Startseite die eBay - Top 10 Suchbegriffe.

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: []
 tags: []
+permalink: /artikel/howto-microsoft-aspnet-ajax-praktischer-anfang
 ---
 {% include JB/setup %}
 Nun da die Grundlagen bereits beschrieben sind, möchten ich den praktischen Teil angehen.
