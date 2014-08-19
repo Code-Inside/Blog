@@ -12,13 +12,13 @@ markdown: kramdown
 # so be sure to set them if your theme uses them.
 #
 title : Code Inside Blog
-tagline: Site Tagline
+tagline: Development on the Microsoft Stack
 author :
-  name : Name Lastname
+  name : Code Inside Team
   email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  github : code-inside
+  twitter : codeinsideblog
+  feedburner : Code-insideBlog
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
