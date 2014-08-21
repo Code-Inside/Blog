@@ -18,15 +18,9 @@
       {% endfor %}
     </ul>
     {% endunless %}
-    
-    
-    {% if post.url %}
-      {% assign path = post.path %}
-    {% else %}
-      {% assign path = page.path %}
-    {% endif %}
+   
 
-    <a href="{{ site.github_repo_url }}edit/gh-pages/{{ path }}">edit</a>
+    <a href="{{ site.github_repo_url }}edit/gh-pages/{{ post.path }}">edit</a>
     
     <hr>
 
