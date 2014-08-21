@@ -19,13 +19,6 @@
     </ul>
     {% endunless %}
     
-    {% unless page.categories == empty %}
-    <ul>
-      {% for category in page.categories %}
-        <li> {{category}} </li>
-      {% endfor %}
-    </ul>
-    {% endunless %}
     
     {% if post.url %}
       {% assign path = post.path %}
