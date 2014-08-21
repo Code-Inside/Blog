@@ -1,0 +1,22 @@
+﻿/* TEAM */
+
+Robert Muehsig
+Software Developer - from Dresden, Germany, now living in Switzerland. ASP.NET MVP & Web Geek.
+Twitter: http://twitter.com/robert0muehsig 
+GitHub: https://github.com/robertmuehsig 
+Microsoft MVP: http://mvp.microsoft.com/en-us/mvp/Robert%20Muehsig-4020675
+XING: http://www.xing.com/profile/Robert_Muehsig
+Speaker Deck: https://speakerdeck.com/robertmuehsig/
+Location: Wil, Switzerland. 
+
+Oliver Guhr
+Software Developer - from Dresden, Germany. Co-Blog-Author.
+Twitter: http://twitter.com/oliverguhr 
+GitHub: https://github.com/oliverguhr
+XING: http://www.xing.com/profile/Oliver_Guhr
+Location: Dresden, Germany. 
+
+Antje Kilian
+Geek Girl - from Dresden, Germany.
+XING: http://www.xing.com/profile/Antje_Kilian5
+Location: Dresden, Germany.
