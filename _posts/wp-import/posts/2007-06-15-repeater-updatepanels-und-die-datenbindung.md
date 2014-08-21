@@ -45,7 +45,7 @@ Als erstes mal kurz den Code um zu zeigen, wie der Repeater bei mir (ungefähr) 
                                  runat=<span class="str">"server"</span> /&gt; 
  &lt;/ItemTemplate&gt; 
 &lt;/asp:Repeater&gt;</pre>
-<pre class="csharpcode">Â </pre>
+<pre class="csharpcode"> </pre>
 <u>Erklärung:</u>
 
 Das "PanelContent" wird erst sichtbar, sobald man mit der Maus über das "ImagePreview" geht. Durch den "<a target="_blank" href="http://ajax.asp.net/ajaxtoolkit/HoverMenu/HoverMenu.aspx" title="HoverMenuExtender - Control Toolkit">HoverMenuExtender</a>" aus dem <a target="_blank" href="http://ajax.asp.net/downloads/default.aspx?tabid=47" title="Microsoft AJAX Downloads">AJAX Toolkit</a> ist es eigentlich relativ einfach.

@@ -15,13 +15,13 @@ Wer allerdings weiter mit Visual Studio 2005 nutzen möchte, benötigt folgende 
 
 <u>Für WindowsPresentationFoundation &amp; WindowsCommunicationFounation</u>
 <ul>
-	<li><a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=f54f5537-cc86-4bf5-ae44-f5a1e805680d&amp;displaylang=en">Visual Studio 2005 extensions for .NET Framework 3.0 (WCF &amp; WPF), November 2006 CTP</a>Â </li>
+	<li><a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=f54f5537-cc86-4bf5-ae44-f5a1e805680d&amp;displaylang=en">Visual Studio 2005 extensions for .NET Framework 3.0 (WCF &amp; WPF), November 2006 CTP</a> </li>
 </ul>
 Nach der Installation gibt es neue Projektvorlagen für das .NET Framework 3.0:
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image136.png"><img border="0" width="565" src="{{BASE_PATH}}/assets/wp-images/image-thumb115.png" alt="image" height="210" style="border: 0px" /></a>
 
-Was besonder hervorzuheben ist, ist der Splitscreen zwischen der XAML und der Designansicht.Â 
+Was besonder hervorzuheben ist, ist der Splitscreen zwischen der XAML und der Designansicht. 
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image137.png"><img border="0" width="559" src="{{BASE_PATH}}/assets/wp-images/image-thumb116.png" alt="image" height="469" style="border: 0px" /></a>
 
@@ -47,7 +47,7 @@ Auch hier gibts neue Projektvorlagen:
 
 Der Workflow Designer erlaubt es aus einer fülle von Controls sich seinen Workflow zu erstellen:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image141.png"><img border="0" width="194" src="{{BASE_PATH}}/assets/wp-images/image-thumb120.png" alt="image" height="240" style="border: 0px" /></a>Â 
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image141.png"><img border="0" width="194" src="{{BASE_PATH}}/assets/wp-images/image-thumb120.png" alt="image" height="240" style="border: 0px" /></a> 
 <em>(... und noch mehr Controls, welche nicht zu sehen sind)</em>
 
 <strong>Fazit:</strong>

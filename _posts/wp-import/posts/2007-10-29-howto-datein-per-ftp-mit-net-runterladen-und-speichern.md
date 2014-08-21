@@ -45,13 +45,13 @@ Jetzt kommt die Besonderheit des FTPs - jeder Befehl den man per FTP machen kann
 
 <img border="0" width="231" src="{{BASE_PATH}}/assets/wp-images/image-thumb114.png" height="214" />
 
-Dannach den Username &amp; Passwort angeben und schon können wirÂ versuchen,Â dieÂ Verbindung aufzubauen.
+Dannach den Username &amp; Passwort angeben und schon können wir versuchen, die Verbindung aufzubauen.
 
-Der Rest ist eigentlich selbsterklärend: Wir holen uns denÂ Response, dannÂ den Stream, bauen daraus unser Bild und speichern dieses lokal auf unsere Platte.
+Der Rest ist eigentlich selbsterklärend: Wir holen uns den Response, dann den Stream, bauen daraus unser Bild und speichern dieses lokal auf unsere Platte.
 
 <strong><u>Anmerkungen:</u></strong>
 
-Wie in dem Screenshot zu sehen ist, gibt es auch ein ListDirectory - allerdings kann dies zu ungewöhnlichen Ergebnissen führen, wenn ein Proxy dazwischen ist. Denn dann kommt als Antwort des "<a href="http://msdn2.microsoft.com/de-de/library/system.net.ftpwebresponse.aspx">FtpResponse</a>"Â eine HTML Seite.
+Wie in dem Screenshot zu sehen ist, gibt es auch ein ListDirectory - allerdings kann dies zu ungewöhnlichen Ergebnissen führen, wenn ein Proxy dazwischen ist. Denn dann kommt als Antwort des "<a href="http://msdn2.microsoft.com/de-de/library/system.net.ftpwebresponse.aspx">FtpResponse</a>" eine HTML Seite.
 
 Ein Workaround ist nur, dass man direkt die Files vielleicht in ein XML File angibt und diese nacheinander runterlädt - allerdings ist dies dann nicht automatisch.
 

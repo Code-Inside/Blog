@@ -36,7 +36,7 @@ Wenn Sie <em>kein Office 2007</em> installiert haben:
 1. Wechseln Sie in der Windows Kommandozeile in das Verzeichnis "<em><oracle></oracle>\OUI\Bin</em>"
 2. Wichtig: Geben Sie als Installationsverzeichnis das Verzeichnis an, in das Sie den Oracle 10g Client in Schritt 2 installiert haben.
 
-Als nächstes benötigten Sie die "product.xml", dazu müssen Sie dasÂ folgende Setups runterladen:
+Als nächstes benötigten Sie die "product.xml", dazu müssen Sie das folgende Setups runterladen:
 ODAC1020221.exe or ODTwithODAC1020221.exe
 Wenn man diesen entpackt findet man die "product.xml".
 

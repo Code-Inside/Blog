@@ -43,7 +43,7 @@ Im Anschluss wird ein "TextBlock" erstellt - dieser befindet sich bei den Contro
 
 Damit nun ein "Hello World!" auf dem schwarzen Hintergrund erstellen und dannach die Textfarbe von schwarz auf weiß umstellen und die Schriftgröße unter "Text" ändern.
 
-<strong>SchrittÂ 4: Den Spiegeleffekt erstellen</strong>
+<strong>Schritt 4: Den Spiegeleffekt erstellen</strong>
 
 Der Spiegeleffekt wird nur mittels eines kleinen Tricks erstellt - man muss den TextBlock komplett kopieren und die Kopie etwas nach unten ziehen.
 
@@ -53,7 +53,7 @@ Nun muss bei dieser Kopie noch der "Spiegeleffekt" eingestellt werden: Unter "Tr
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image10.png"><img border="0" width="335" src="{{BASE_PATH}}/assets/wp-images/image-thumb10.png" alt="image" height="142" style="border: 0px" /></a>
 
-<strong>SchrittÂ 5: Farbverlauf erstellen</strong>
+<strong>Schritt 5: Farbverlauf erstellen</strong>
 
 Jetzt haben wir die Schrift zwar gespiegelt, aber irgendwie fetzt es noch nicht, daher muss noch ein Farbverlauf rein.
 
@@ -65,7 +65,7 @@ Eigentlich gibts dann noch diesen kleinen Pfeil um die Richtung zu bestimmen:
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image12.png"><img border="0" width="45" src="{{BASE_PATH}}/assets/wp-images/image-thumb12.png" alt="image" height="50" style="border: 0px" /></a>
 
-Allerdings verschwindet dann wieder die Markierung - ärgerlich wie ich finde (oder es lag doch an mir). Das macht aber nix, denn obwohl das Tool die gespiegelte und mit farbverlaufversehenene Fassung anzeigt, bekommt man einen Fehler wenn man es ausführt. Grund ist (laut Errormessage), dass das TextElement eigentlich nix ausser den eigentlichenÂ Text enthalten darf (-&gt; scheinbar, ansonsten würde es ja gehen).
+Allerdings verschwindet dann wieder die Markierung - ärgerlich wie ich finde (oder es lag doch an mir). Das macht aber nix, denn obwohl das Tool die gespiegelte und mit farbverlaufversehenene Fassung anzeigt, bekommt man einen Fehler wenn man es ausführt. Grund ist (laut Errormessage), dass das TextElement eigentlich nix ausser den eigentlichen Text enthalten darf (-&gt; scheinbar, ansonsten würde es ja gehen).
 
 Nun müssen wir ins XAML:
 
@@ -73,7 +73,7 @@ Vorher -
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image13.png"><img border="0" width="464" src="{{BASE_PATH}}/assets/wp-images/image-thumb13.png" alt="image" height="116" style="border: 0px" /></a>
 
-Beachtet die Attribute "EndPoint" und "StartPoint". Hier müsst ihr den Farbverlauf nun manuell einstellen, ich hab es auf so eingestellt: EndPoint="1,1" StartPoint="1,0.2". Damit erhält man einen leichten Farbverlauf nach unten. Nun müssen wir noch das TextElement "Run" leer machen-Â  die untere Variante hat bei mir geklappt. Den LinearGradientBrush hab ich einfach in den Textblock geschoben:
+Beachtet die Attribute "EndPoint" und "StartPoint". Hier müsst ihr den Farbverlauf nun manuell einstellen, ich hab es auf so eingestellt: EndPoint="1,1" StartPoint="1,0.2". Damit erhält man einen leichten Farbverlauf nach unten. Nun müssen wir noch das TextElement "Run" leer machen-  die untere Variante hat bei mir geklappt. Den LinearGradientBrush hab ich einfach in den Textblock geschoben:
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image14.png"><img border="0" width="524" src="{{BASE_PATH}}/assets/wp-images/image-thumb14.png" alt="image" height="135" style="border: 0px" /></a>
 
@@ -81,6 +81,6 @@ Beachtet die Attribute "EndPoint" und "StartPoint". Hier müsst ihr den Farbverl
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image15.png"><img border="0" width="188" src="{{BASE_PATH}}/assets/wp-images/image-thumb15.png" alt="image" height="115" style="border: 0px" /></a>
 
-(ich hab noch ein kleine Ellipse eingefügt - sahÂ cool ausÂ fand ich ;) )
+(ich hab noch ein kleine Ellipse eingefügt - sah cool aus fand ich ;) )
 
 Soviel erstmal dazu - heute ging es eher um Expression Blend - beim nächsten HowTo werde ich die Einbindung in unser ASP.NET AJAX Projekt zeigen und das ganze etwas dynamisieren ;)

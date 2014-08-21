@@ -8,7 +8,7 @@ categories: [Allgemein]
 tags: [Movies, Showcase, Silverlight, T-Systems MMS, Web 2.0]
 ---
 {% include JB/setup %}
-<a href="http://de.wikipedia.org/wiki/Silverlight">Silverlight 1.0</a> wurde vor wenigen Monaten veröffentlicht und zeitgleich wurde eine Alphaversion von Silverlight 1.1 ausgeliefert. Im nächsten Release von Silverlight wird die Version 2.0 angestrebt. Um die Möglichkeiten mit Silverlight 1.1 auszutesten hat die <a href="http://www.t-systems-mms.com/mms/de/Startseite/index">T-Systems Multimedia Solutions GmbH</a>Â  einen kleinen Showcase mit der aktuellen Silverlight Version 1.1 entwickelt:
+<a href="http://de.wikipedia.org/wiki/Silverlight">Silverlight 1.0</a> wurde vor wenigen Monaten veröffentlicht und zeitgleich wurde eine Alphaversion von Silverlight 1.1 ausgeliefert. Im nächsten Release von Silverlight wird die Version 2.0 angestrebt. Um die Möglichkeiten mit Silverlight 1.1 auszutesten hat die <a href="http://www.t-systems-mms.com/mms/de/Startseite/index">T-Systems Multimedia Solutions GmbH</a>  einen kleinen Showcase mit der aktuellen Silverlight Version 1.1 entwickelt:
 
 <a href="http://silverlight.t-systems-mms.eu/">Die Silverlight MovieShow:</a>
 
@@ -34,6 +34,6 @@ Ein Easteregg ist pünktlich zu Weihnachten auch mit von der Partie. Wie man das
 
 Durch den Showcase sieht man, dass Microsofts Flash Konkurrent sehr großes Potenzial mitbringt. Als Entwickler begeistert mich besonders, dass man solche Projekt ohne einen "Flasher" realisieren kann und in seiner vertrauen Umgebung (Visual Studio + .NET) entwickeln kann.
 
-Ich gratuliere meinen Kollegen (leider war ich nicht 100% bei der Entwicklung beteiligt, sondern half nur am Rande) von der <a href="http://www.t-systems-mms.com/mms/de/Startseite/index">T-Systems Multimedia Solutions GmbH</a> Â über diesen gelungenen Showcase und fand die Zusammenarbeit mit ihnen sehr bereichernd.
+Ich gratuliere meinen Kollegen (leider war ich nicht 100% bei der Entwicklung beteiligt, sondern half nur am Rande) von der <a href="http://www.t-systems-mms.com/mms/de/Startseite/index">T-Systems Multimedia Solutions GmbH</a>  über diesen gelungenen Showcase und fand die Zusammenarbeit mit ihnen sehr bereichernd.
 
 <strong><a href="http://silverlight.t-systems-mms.eu/MovieShow/">[ Hier gehts direkt zur Anwendung (Silverlight 1.1 Voraussetzung) ]</a></strong>

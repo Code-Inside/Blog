@@ -12,7 +12,7 @@ tags: [.NET 3.5, LINQ, Visual Studio 2008]
 
 Bereits in dem gestriegen Post habe ich bereits den Release des .NET Frameworks 3.5 samt VS 2008 mit angeschrieben.
 
-Heute möchte ich gleich auf den <a target="_blank" href="http://weblogs.asp.net/scottgu/archive/2007/11/19/visual-studio-2008-and-net-3-5-released.aspx">Post von Scott Guthrie</a> verweisen, welcher offiziel das .NET 3.5 und VS 2008 veröffentlicht hat. Mit inklusive in diesem doch recht langen Post sind alle neuen Features und ein interessantesÂ HowTos zu LINQ.
+Heute möchte ich gleich auf den <a target="_blank" href="http://weblogs.asp.net/scottgu/archive/2007/11/19/visual-studio-2008-and-net-3-5-released.aspx">Post von Scott Guthrie</a> verweisen, welcher offiziel das .NET 3.5 und VS 2008 veröffentlicht hat. Mit inklusive in diesem doch recht langen Post sind alle neuen Features und ein interessantes HowTos zu LINQ.
 
 Zudem stellt Microsoft ein <a target="_blank" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=8bdaa836-0bba-4393-94db-6c3c4a0c98a1&amp;DisplayLang=en">Tranings-Kit</a> mit verschiedenen Präsentationen / Hand-on-labs etc. im Microsoft Downloadbereich zur Verfügung.
 

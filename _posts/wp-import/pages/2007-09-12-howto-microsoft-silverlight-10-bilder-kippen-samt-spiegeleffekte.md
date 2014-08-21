@@ -35,7 +35,7 @@ Recht schwach ist noch das "Add Existing Item..." zu sehen - dort einfach das Bi
 
 <strong>Schritt 4: Bild verzerren</strong>
 
-Unter den "Properties" des Bildes findet man den Punkt "Transform", dort einfach mal bei "Skew" malÂ klicken und in dem Y Wert -15 eintragen:
+Unter den "Properties" des Bildes findet man den Punkt "Transform", dort einfach mal bei "Skew" mal klicken und in dem Y Wert -15 eintragen:
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image20.png"><img border="0" width="498" src="{{BASE_PATH}}/assets/wp-images/image-thumb20.png" alt="image" height="277" style="border: 0px" /></a>
 

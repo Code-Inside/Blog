@@ -15,7 +15,7 @@ Unser Ziel ist es eine einfache ASPX Seitee zu bauen, welche mit tollen AJAX Eff
 
 <strong>Schritt 1: Grundlagen beachten</strong>
 
-Wie in dem anderen HowTo bereits gesagt, gibt es 2 Teile die Microsoft bereitstellt. Die <a target="_blank" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=ca9d90fa-e8c9-42e3-aa19-08e2c027f5d6&amp;displaylang=en" title="ASP.NET AJAX Extensions">ASP.NET AJAXÂ Extensions</a> müssen installiert sein.
+Wie in dem anderen HowTo bereits gesagt, gibt es 2 Teile die Microsoft bereitstellt. Die <a target="_blank" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=ca9d90fa-e8c9-42e3-aa19-08e2c027f5d6&amp;displaylang=en" title="ASP.NET AJAX Extensions">ASP.NET AJAX Extensions</a> müssen installiert sein.
 Sobald man diese installiert hat, bekommt man ein neues Template zur Auswahl: ASP.NET AJAX-Enabled Web Site/Application
 
 <em>Bemerkung am Rande:
@@ -39,7 +39,7 @@ Nachdem ihr diese dll eurem Projekt hinzugefügt habt, wird in eurem Bin Ordner 
 
 <strong>Schritt 4: Die Controls in der Toolbox sichtbar machen</strong>
 
-Damit man später die tollen Controls direkt per Drag&amp;Drop auf seine Website ziehen kann, müssen wir diese noch in die Toolbox (dort wo alle Controls drin liegen)Â bekommen.
+Damit man später die tollen Controls direkt per Drag&amp;Drop auf seine Website ziehen kann, müssen wir diese noch in die Toolbox (dort wo alle Controls drin liegen) bekommen.
 Dazu ein Rechtsklick auf ein freies Feld und klickt "Registerkarte hinzufügen" und nun ein Name eingeben (AJAX Toolkit z.B.).
 Als nächstes dann wieder ein Rechtsklick drauf und dann "Elemente auswählen" &gt; "Durchsuchen" und euer Bin Verzeichnis Suchen (bei mir liegts da: <em>C:\Users\Robert\Documents\Visual Studio 2005\WebSites\TestWebsite\Bin)</em> und die Toolkit dll hinzufügen. Dannach nochmal bestätigen und schon hat man alle Controls in der Toolbox.
 

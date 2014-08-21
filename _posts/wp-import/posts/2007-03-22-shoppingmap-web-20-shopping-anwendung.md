@@ -12,23 +12,23 @@ Web 2.0 ist in aller Munde. Leider ist es wohl gängige Praxis länger über das
 
 Flickr, YouTube und co. sind nicht von großen Unternehmen erstellt wurden, sondern waren am Anfang kleine Studentenprojekte für den "eigenbedarf".
 
-Mein Ziel ist es, "Web 2.0" - Entwicklungen und ThemenÂ hier auf praktische weise zu zeigen.
+Mein Ziel ist es, "Web 2.0" - Entwicklungen und Themen hier auf praktische weise zu zeigen.
 
 Selber betreibt das Projektteam von Code Inside <a href="http://www.shoppingmap.de">www.shoppingmap.de</a>.
 
 <strong>ShoppingMap - Was ist das?</strong>
 
-Bei der ShoppingMap geht es darum, dass Einkaufen im Internet einfacher zu gestalten. Es gibt sehr viele Onlinehändler, welche meistens ähnliche Produkte haben. ShoppingMap versucht keine simple "Preisvergleichseite" zu sein, sondern unser ZielÂ ist es, Daten von diesen Seiten besser oder anderes darzustellen.
+Bei der ShoppingMap geht es darum, dass Einkaufen im Internet einfacher zu gestalten. Es gibt sehr viele Onlinehändler, welche meistens ähnliche Produkte haben. ShoppingMap versucht keine simple "Preisvergleichseite" zu sein, sondern unser Ziel ist es, Daten von diesen Seiten besser oder anderes darzustellen.
 Man bedenke, dass die momentane Version von ShoppingMap Beta ist, aber es zeigt auf eine sehr einfache Weise, was man zum Teil auch unter Web 2.0 versteht.
 
 <strong>Web 2.0 Begrifflichkeiten</strong>
 
-Im Internet kursieren diverse "wichtige" Begriffe rund um das ganze Thema Web 2.0, aber ich versuche hier ein kleine Auswahl von wichtigen Begriffen zu nennen und ganz grob zu umreißenÂ - Wikipedia bietet natürlich auch nochmal eine ausführlichere Information.
-<blockquote><font color="#333333">-Â Web 2.0: Alles worum es hier geht ;)
+Im Internet kursieren diverse "wichtige" Begriffe rund um das ganze Thema Web 2.0, aber ich versuche hier ein kleine Auswahl von wichtigen Begriffen zu nennen und ganz grob zu umreißen - Wikipedia bietet natürlich auch nochmal eine ausführlichere Information.
+<blockquote><font color="#333333">- Web 2.0: Alles worum es hier geht ;)
 - Webservice: Ein Dienst im Internet
-<font color="#333333">-Â API: Schnittstelle zum Anprogrammieren dieses Service</font></font><font color="#333333">
--Â Mashup: Das verbinden von 2 oder mehr Webservicen
--Â AJAX: Javascript und XML nutzen für Webrequests</font></blockquote>
+<font color="#333333">- API: Schnittstelle zum Anprogrammieren dieses Service</font></font><font color="#333333">
+- Mashup: Das verbinden von 2 oder mehr Webservicen
+- AJAX: Javascript und XML nutzen für Webrequests</font></blockquote>
 <strong>ShoppingMap - Die Anwendung von unserem Dienst</strong>
 
 Nachdem wir erstmal ein paar Begrifflichkeiten geklärt haben, will ich nur nochmal kurz auf ShoppingMap eingehen:

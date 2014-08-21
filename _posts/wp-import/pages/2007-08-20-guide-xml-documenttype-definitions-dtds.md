@@ -20,14 +20,14 @@ Da die DTD ist ein Bestandteil der XML Spezifikation, was allerdings später von
 Diese XSD verfolgt dasselbe Ziel wie die DTD, ist jedoch etwas komplexer und ist komplett im XML Syntax verfasst.
 
 Da die DTD jedoch trotzdem noch eine Rolle spielt, wird sie hier trotzdem noch behandelt.
-Â 
+ 
 <h2><u>4.1 "Documenttyp-Definition" (DTD) und Instanzen</u></h2>
 Die wenigsten die HTML Dokumente verfassen, werden sich mit der DTD beschäftigt haben, da die DTD für HTML fest in den Händen des W3Cs liegt, allerdings gibt es nun mit XML die Möglichkeit eigene Elemente zu schaffen, welche z.B. aber nur bestimmte Attribute bekommen dürfen.
 
 Einige Beispiele entstammen der XHTML DTD vom W3C, welche sich hier einsehbar ist:
 
 <a href="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd</a>
-Â 
+ 
 <h3><u>4.1.1 Elementtypen</u></h3>
 Die wichtigsten Komponenten einer DTD sind die Element-Deklarationen.
 
@@ -51,7 +51,7 @@ Folgende Elementtypen gibt es in einer DTD:
 <u>Beispiel:</u>
 &lt;!ELEMENT img EMPTY&gt;
 &lt;!ELEMENT table
-Â Â Â Â  (caption?, (col*|colgroup*), thead?, tfoot?, (tbody+|tr+))&gt;
+     (caption?, (col*|colgroup*), thead?, tfoot?, (tbody+|tr+))&gt;
 <h3><u>4.1.2 Entities</u></h3>
 Wie bereits schon vorhin kurz erwähnt, dienen Entities der Wiederverwendbarkeit. Dabei wird eine bestimmte Zeichenkette festgelegt, welche beim Aufrufen dieser durch eine vorher festgelegte andere Zeichenkette oder ein anderes Dokument ersetzt wird.
 <h4><u>4.1.2.1 Interne Entities</u></h4>
@@ -143,7 +143,7 @@ Sprache CDATA
 <u>Beispiel <span class="kwrd">in</span> der XML Datei:</u> 
 
 &lt;IrgendEinElement Sprache="deutsch123"&gt;Dies hier ist ein Text.&lt;/IrgendEinElement&gt;</pre>
-<pre class="csharpcode">Â </pre>
+<pre class="csharpcode"> </pre>
 <ul>
 	<li><strong>ID</strong>
 <ul>
@@ -178,7 +178,7 @@ Hersteller_id IDREF
 &gt;<u>Beispiel <span class="kwrd">in</span> der XML Datei:</u> 
 
 &lt;Produkt Herstellter_id="123"&gt;Hammer&lt;/Produkt&gt;</pre>
-<pre class="csharpcode">Â </pre>
+<pre class="csharpcode"> </pre>
 <ul>
 	<li><strong>NMTOKEN</strong>
 <ul>
@@ -196,7 +196,7 @@ Sprache NMTOKEN
 &gt;<u>Beispiel <span class="kwrd">in</span> der XML Datei:</u> 
 
 &lt; IrgendEinElement Sprache="de DE"&gt;Testtext&lt;/ IrgendEinElement &gt;</pre>
-<pre class="csharpcode">Â </pre>
+<pre class="csharpcode"> </pre>
 <ul>
 	<li><strong>Aufzählungen</strong>
 <ul>
@@ -233,7 +233,7 @@ In den Listen erfolgt die Zuordnung.
 
 ...
 
-&gt;Â 
+&gt; 
 <pre class="csharpcode"><u>Beispiel:</u> 
 
 &lt;!ATTLIST wohnort 

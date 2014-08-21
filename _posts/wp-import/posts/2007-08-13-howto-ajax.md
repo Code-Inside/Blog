@@ -8,7 +8,7 @@ categories: [Allgemein, HowTo]
 tags: [AJAX, HowTo, Javascript]
 ---
 {% include JB/setup %}
-Diesmal gehts eigentlich um die Grundlagen von AJAXÂ  - komplett ohne Framework, dafür mit XmlHttpRequest Objekt.
+Diesmal gehts eigentlich um die Grundlagen von AJAX  - komplett ohne Framework, dafür mit XmlHttpRequest Objekt.
 
 Viel spass.
 

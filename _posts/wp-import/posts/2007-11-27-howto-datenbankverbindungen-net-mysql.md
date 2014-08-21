@@ -8,7 +8,7 @@ categories: [HowTo]
 tags: [.NET, Datenbank, HowTo, MySQL, SQL]
 ---
 {% include JB/setup %}
-In diesem <a target="_blank" href="http://code-inside.de/blog/2007/11/21/howto-datenbankverbindungen-net-ms-sql-2005/">HowTo</a>Â ging es um die Datenverbindung zwischen .NET und MS SQL. Natürlich bietet .NET von Haus aus einen MS SQL Provider, aber wie sieht es mit MySQL aus? Wie kann man mit .NET auf eine MySQL Datenbank zugreifen?
+In diesem <a target="_blank" href="http://code-inside.de/blog/2007/11/21/howto-datenbankverbindungen-net-ms-sql-2005/">HowTo</a> ging es um die Datenverbindung zwischen .NET und MS SQL. Natürlich bietet .NET von Haus aus einen MS SQL Provider, aber wie sieht es mit MySQL aus? Wie kann man mit .NET auf eine MySQL Datenbank zugreifen?
 
 Daher geht es um dieses Thema:
 
@@ -34,7 +34,7 @@ Unter der Webadresse <a href="http://localhost/xampp/index.php">http://localhost
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image164.png"><img border="0" width="139" src="{{BASE_PATH}}/assets/wp-images/image-thumb143.png" alt="image" height="71" style="border: 0px" /></a>
 
-Über phpMyAdmin legen wir unser Datenbank an ("<strong>dotnet</strong>") und dann unsere Tabelle "<strong>test</strong>"Â mit Spalte "<strong>id</strong>" als "autoincrement int" und "<strong>value</strong>" als "varchar" für unseren Text.
+Über phpMyAdmin legen wir unser Datenbank an ("<strong>dotnet</strong>") und dann unsere Tabelle "<strong>test</strong>" mit Spalte "<strong>id</strong>" als "autoincrement int" und "<strong>value</strong>" als "varchar" für unseren Text.
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image165.png"><img border="0" width="441" src="{{BASE_PATH}}/assets/wp-images/image-thumb144.png" alt="image" height="293" style="border: 0px" /></a>
 
@@ -98,7 +98,7 @@ Ebenso wie oben beschrieben &amp; gleiches Prinzip wie bei unserem MS SQL Beispi
 <strong>Abschließende Bemerkung</strong>
 
 Der .NET Connector von MySQL erlaubt es auf sehr einfache Art und Weise auf eine MySQL DB zuzugreifen - wer bereits mit MS SQL und .NET zutun hatte, kann ebenso "leicht" mit MySQL arbeiten. Die tiefergehenden Sachen sollten dann direkt bei MySql nachgeschaut werden, wie z.B. <a target="_blank" href="http://dev.mysql.com/doc/refman/5.1/de/connector-net-using-stored.html">der Zugriff auf gespeicherte Prozeduren</a> oder <a target="_blank" href="http://dev.mysql.com/doc/refman/5.1/de/connector-net-using-blob.html">BLOB Daten verarbeiten</a>.
-Wie auch bei dem MS SQL Beispiel gilt auch hier: Der Code soll nur demonstrieren, wie man ganz primitiv auf die DB zugreift.Â Es gibt bestimmt bessere Methoden, allerdings soll dies nur eine Einführung sein und zeigt schon ganz gut, das man .NET und MySQL auch sehr gut zusammen nutzen kann.
+Wie auch bei dem MS SQL Beispiel gilt auch hier: Der Code soll nur demonstrieren, wie man ganz primitiv auf die DB zugreift. Es gibt bestimmt bessere Methoden, allerdings soll dies nur eine Einführung sein und zeigt schon ganz gut, das man .NET und MySQL auch sehr gut zusammen nutzen kann.
 
 <strong>Infos für den Source Code:</strong>
 

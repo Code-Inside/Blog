@@ -14,7 +14,7 @@ Heute kommt daher noch ein kleiner Abschnitt, der eigentlich noch mit in dem let
 
 <strong>Schritt 1: Silverlight samt MS AJAX enabeld Projekt in Visual Studio erzeugen und den unsinnigen Kram rauswerfen</strong>
 
-Wie ausführlich beschriebenÂ <a href="http://code-inside.de/blog/artikel/howto-microsoft-silverlight-10-praktischer-anfang/">hier</a> beschrieben, erzeugen wir ein ASP.NET AJAX enabeld Project (oder eine Website) und laden die benötigten Komponenten rein:
+Wie ausführlich beschrieben <a href="http://code-inside.de/blog/artikel/howto-microsoft-silverlight-10-praktischer-anfang/">hier</a> beschrieben, erzeugen wir ein ASP.NET AJAX enabeld Project (oder eine Website) und laden die benötigten Komponenten rein:
 
 - Silverlight.js (kommt direkt von MS und wurde von mir nicht angefasst)
 - default.html.js (wurde durch das Projekttemplate aus dem vorherigen HowTo erstellt und dort angepasst) :
@@ -132,9 +132,9 @@ Webservice erstellen und "ScriptService" Attribut über den Webservice schreiben
 Das jetzt im ScriptManager auf der Default.aspx einbinden:
 
 &lt;asp:ScriptManager ID="ScriptManager1" runat="server"&gt;
-Â Â Â  &lt;Services&gt;
-Â Â Â Â Â Â Â  &lt;asp:ServiceReference Path="HelloWorld.asmx" /&gt;
-Â Â Â  &lt;/Services&gt;
+    &lt;Services&gt;
+        &lt;asp:ServiceReference Path="HelloWorld.asmx" /&gt;
+    &lt;/Services&gt;
 &lt;/asp:ScriptManager&gt;
 
 ... und am Ende unser Javascript Funktion neu basteln:
@@ -142,14 +142,14 @@ Das jetzt im ScriptManager auf der Default.aspx einbinden:
 &lt;script language="javascript"&gt;
 function writeToSilverlight()
 {
-Â Â Â Â Â Â Â  MS_AJAX_Silverlight.HelloWorld.HelloWorldMethod(document.getElementById("textBox").value, onComplete);
+        MS_AJAX_Silverlight.HelloWorld.HelloWorldMethod(document.getElementById("textBox").value, onComplete);
 }
 
 function onComplete(result)
 {
-Â Â Â Â Â Â Â  var silverlight = document.getElementById("mySilverlightPlugin");
-Â Â Â Â Â Â Â  silverlight.content.findName("HelloWorld").Text = result;
-Â Â Â Â Â Â Â  silverlight.content.findName("HelloWorldMirror").Text = result;
+        var silverlight = document.getElementById("mySilverlightPlugin");
+        silverlight.content.findName("HelloWorld").Text = result;
+        silverlight.content.findName("HelloWorldMirror").Text = result;
 }
 
 &lt;/script&gt;

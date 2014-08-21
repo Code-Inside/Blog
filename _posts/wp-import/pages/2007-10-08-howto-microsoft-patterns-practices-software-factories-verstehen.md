@@ -34,7 +34,7 @@ Es gibt momentan 4 Factories:
 <ul>
 	<li><a target="_blank" href="http://msdn2.microsoft.com/en-us/library/aa480471.aspx">Mobile Client Software Factory:</a>
 <ul>
-	<li>Stand: CTP July 2006Â </li>
+	<li>Stand: CTP July 2006 </li>
 	<li>Ziel: Für Windows Mobile-Applikationen</li>
 </ul>
 </li>
@@ -60,16 +60,16 @@ Es gibt momentan 4 Factories:
 </ul>
 <strong>Was benötige ich für die Software Factories und wie ist der Ablauf von den Factories?</strong>
 
-Um die Software Factories zu nutzen benötigt man die <a target="_blank" href="http://www.microsoft.com/downloads/details.aspx?FamilyId=C0A394C0-5EEB-47C4-9F7B-71E51866A7ED&amp;displaylang=en">Guidance Automation Extensions</a>. Software Architekten (oder die, die es werden wollen)Â können diese Pakete auch editieren mit dem <a target="_blank" href="http://www.microsoft.com/downloads/details.aspx?FamilyId=E3D101DB-6EE1-4EC5-884E-97B27E49EAAE&amp;displaylang=en">Guidance Automation Toolkit</a>.
+Um die Software Factories zu nutzen benötigt man die <a target="_blank" href="http://www.microsoft.com/downloads/details.aspx?FamilyId=C0A394C0-5EEB-47C4-9F7B-71E51866A7ED&amp;displaylang=en">Guidance Automation Extensions</a>. Software Architekten (oder die, die es werden wollen) können diese Pakete auch editieren mit dem <a target="_blank" href="http://www.microsoft.com/downloads/details.aspx?FamilyId=E3D101DB-6EE1-4EC5-884E-97B27E49EAAE&amp;displaylang=en">Guidance Automation Toolkit</a>.
 Alle Software Factories sind in einzelne Pakete gegliedert und integrieren sich vollständig ins Visual Studio 2005 oder Visual Studio 2008 (Beta 2)).
 Den direkten Ablauf werde ich dann im nächsten HowTo zeigen.
 
 Soviel erstmal zum Ablauf:
-Es wird ein Grundgerüst erstellt (direkte C# Projekte in einer Solution) und man hat zu jedem einzelnen Projekt (je nach zugewiesener Responsibility) Kontextmenüs oder zusätzliche Optionen welche man einstellen muss oder kann. Dadurch "klickt" man sich quasi die Software zusammen. Anpassungen können natürlich trotzdem genommen werdenÂ - es ist nur ein Grundgerüst, dass man nutzen kann, aber nicht muss.
+Es wird ein Grundgerüst erstellt (direkte C# Projekte in einer Solution) und man hat zu jedem einzelnen Projekt (je nach zugewiesener Responsibility) Kontextmenüs oder zusätzliche Optionen welche man einstellen muss oder kann. Dadurch "klickt" man sich quasi die Software zusammen. Anpassungen können natürlich trotzdem genommen werden - es ist nur ein Grundgerüst, dass man nutzen kann, aber nicht muss.
 Wenn man sich natürlich zu sehr davon entfernt wäre es günstiger direkt die Pakete zu bearbeiten oder sich eine andere Methode auszudenken ;)
 
 <strong>
-Irgendwie kommt mir manches aus der Software Factory XYÂ bekannt vor?</strong>
+Irgendwie kommt mir manches aus der Software Factory XY bekannt vor?</strong>
 
 Die Service Factories bauen intern auf die <a target="_blank" href="http://msdn2.microsoft.com/en-us/library/aa480453.aspx">Enterprise Library</a> und auf einigen <a target="_blank" href="http://msdn2.microsoft.com/en-us/practices/bb190359.aspx">Application Blocks</a> auf - beides einen Blick wert.
 
@@ -84,7 +84,7 @@ In späteren HowTos werden wir das dann natürlich noch mehr Besprechen und wie 
 </strong><a target="_blank" href="http://msdn2.microsoft.com/en-us/practices/default.aspx">Microsoft patterns&amp;pratices Site @ MSDN</a>
 <a target="_blank" href="http://msdn2.microsoft.com/en-us/library/ms998572.aspx">Microsoft patterns&amp;pratices Site @ MSDN Library</a>
 <a target="_blank" href="http://msdn2.microsoft.com/en-us/library/aa480471.aspx">Mobile Client Software Factory</a>
-<a target="_blank" href="http://msdn2.microsoft.com/en-us/library/aa480482.aspx">Smart Client Software Factory</a>Â (<a target="_blank" href="http://windowsclient.net/Acropolis/">Codename Acropolis</a>Â &amp; <a target="_blank" href="http://blogs.msdn.com/Acropolis/">Codename Acropolis Blog</a>)
+<a target="_blank" href="http://msdn2.microsoft.com/en-us/library/aa480482.aspx">Smart Client Software Factory</a> (<a target="_blank" href="http://windowsclient.net/Acropolis/">Codename Acropolis</a> &amp; <a target="_blank" href="http://blogs.msdn.com/Acropolis/">Codename Acropolis Blog</a>)
 <a target="_blank" href="http://msdn2.microsoft.com/en-us/library/bb264518.aspx">Web Client Software Factory</a>
 <a target="_blank" href="http://msdn2.microsoft.com/en-us/library/aa480534.aspx">Web Service Software Factory</a>
 <a target="_blank" href="http://msdn2.microsoft.com/en-us/teamsystem/aa718948.aspx">Guidance Automation Extensions &amp; Toolkit Site</a>

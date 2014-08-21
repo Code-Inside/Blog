@@ -25,16 +25,16 @@ public string GetHelloMessage(string name)
 return "Hallo "+name;
 }
 
-<strong>2. Schritt: WebserviceÂ testen (einfach im Visual Studio z.B. den Debugger starten):</strong>
+<strong>2. Schritt: Webservice testen (einfach im Visual Studio z.B. den Debugger starten):</strong>
 
 Sobald man dies macht, kommt man zu einer Seite, welche alle Methoden des Webservices aufzeigt - mit einem Klick auf die entsprechende Methode kann man den Webservice so testen (oder die URL Welcome.asmx?op=GetHelloMessage aufrufen)
-Jetzt steht da standardmäßig neben der Testmöglichkeit wo man den Parameter eingeben kannÂ noch folgendes:
+Jetzt steht da standardmäßig neben der Testmöglichkeit wo man den Parameter eingeben kann noch folgendes:
 
 SOAP 1.1
 SOAP 1.2
 HTTP POST
 
-Mhhh... Get wird erstmal nicht AngebotenÂ - naja - wird bestimmt auch so gehen (da die meisten Beispiele mit POST funktionieren, werden nur wenige es versucht haben <img src="http://code-inside.de/blog/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> )
+Mhhh... Get wird erstmal nicht Angeboten - naja - wird bestimmt auch so gehen (da die meisten Beispiele mit POST funktionieren, werden nur wenige es versucht haben <img src="http://code-inside.de/blog/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> )
 Was noch wichtig ist: Die URL zum Aufrufen ist immer <em>ServiceName.asmx/Method</em> oder bei uns "Welcome.asmx/GetHelloMessage”.
 
 <strong>Variante 1: Daten per POST</strong>
@@ -54,10 +54,10 @@ httpRequest.send(message);
 function getResponse()
 {
 if (httpRequest.readyState == 4 &amp;&amp; httpRequest.status == 200)
-Â  {
-Â  var responseXml = httpRequest.responseXml;
-Â  alert(httpRequest.responseText);
-Â  }
+  {
+  var responseXml = httpRequest.responseXml;
+  alert(httpRequest.responseText);
+  }
 }
 
 <strong>Schritt 4: JS aufrufen (einfache HTML Seite mit einem Button)</strong>
@@ -71,14 +71,14 @@ So... so können wir Daten per POST an den Webservice schicken und wieder empfan
 <strong>Variante 2: Daten per GET</strong>
 <strong>3. Schritt: Anpassen der Web.config</strong>
 Egal wie man sich verbiegt - solange man die Web.Config nicht anpasst, nimmt der Webservice keine GET Parameter an.
-Dazu muss manÂ diese ZeilenÂ hier in den Abschnitt system.web einfügen:
+Dazu muss man diese Zeilen hier in den Abschnitt system.web einfügen:
 
 <font color="#0000ff"><font size="2">&lt;<font color="#a31515">webServices</font></font><font size="2"><font color="#0000ff">&gt;
-Â  &lt;</font><font color="#a31515">protocols</font></font><font size="2"><font color="#0000ff">&gt;
-Â Â Â  &lt;</font><font color="#a31515">add</font><font color="#0000ff"> </font><font color="#ff0000">name</font><font color="#0000ff">=</font>"<font color="#0000ff">HttpGet</font>"</font><font size="2"><font color="#0000ff">/&gt;
-Â Â Â  &lt;</font><font color="#a31515">add</font><font color="#0000ff"> </font><font color="#ff0000">name</font><font color="#0000ff">=</font>"<font color="#0000ff">HttpPost</font>"</font><font size="2"><font color="#0000ff">/&gt;
-Â Â Â  &lt;</font><font color="#a31515">add</font><font color="#0000ff"> </font><font color="#ff0000">name</font><font color="#0000ff">=</font>"<font color="#0000ff">HttpSoap</font>"</font><font size="2"><font color="#0000ff">/&gt;
-Â  &lt;/</font><font color="#a31515">protocols</font></font><font size="2"><font color="#0000ff">&gt;
+  &lt;</font><font color="#a31515">protocols</font></font><font size="2"><font color="#0000ff">&gt;
+    &lt;</font><font color="#a31515">add</font><font color="#0000ff"> </font><font color="#ff0000">name</font><font color="#0000ff">=</font>"<font color="#0000ff">HttpGet</font>"</font><font size="2"><font color="#0000ff">/&gt;
+    &lt;</font><font color="#a31515">add</font><font color="#0000ff"> </font><font color="#ff0000">name</font><font color="#0000ff">=</font>"<font color="#0000ff">HttpPost</font>"</font><font size="2"><font color="#0000ff">/&gt;
+    &lt;</font><font color="#a31515">add</font><font color="#0000ff"> </font><font color="#ff0000">name</font><font color="#0000ff">=</font>"<font color="#0000ff">HttpSoap</font>"</font><font size="2"><font color="#0000ff">/&gt;
+  &lt;/</font><font color="#a31515">protocols</font></font><font size="2"><font color="#0000ff">&gt;
 &lt;/</font><font color="#a31515">webServices</font><font color="#0000ff">&gt;</font></font></font>
 
 <font color="#0000ff"><strong><font size="2" color="#050d24">4. Schritt: Erstellung des Javascript (main.js)</font></strong></font><font color="#0000ff"> </font><font color="#0000ff">var httpRequest;

@@ -10,7 +10,7 @@ tags: [Silverlight]
 {% include JB/setup %}
 Da ich mich demnächst wohl auch beruflich mich mehr mit Silverlight beschäftige (und somit das früher oder später auch bei Shoppingmap einzieht), präsentiere ich hier ein paar interessante Links (welche ich im Heiseforum und sonst im weiten Web aufgeschnappt habe) :
 
--Â <a href="http://www.yourexpression.de/">http://www.yourexpression.de/</a>
+- <a href="http://www.yourexpression.de/">http://www.yourexpression.de/</a>
 - <a href="http://www.codecomplete.de/blogs/xamlblog/default.aspx">http://www.codecomplete.de/blogs/xamlblog/default.aspx</a>
 - <a href="http://www.silverlightblog.de/">http://www.silverlightblog.de/</a>
 - <a href="http://groups.google.com/group/wpf-everywhere/">http://groups.google.com/group/wpf-everywhere/</a>

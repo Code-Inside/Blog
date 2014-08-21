@@ -40,17 +40,17 @@ Beispiel:
 Hinter dem ?xml werden so genannte Pseudo-Attribute erwartet. Die XML Spezifikation enthält momentan 3 solcher Pseudo-Attribute:
 
 - Version:
-Â Â Â  - Sollte immer Angegeben sein.
-Â Â Â  - Enthält XML-Spezifikationsversion
-Â Â Â  - 1.0 oder 1.1 sind momentan sinnvolle Werte
+    - Sollte immer Angegeben sein.
+    - Enthält XML-Spezifikationsversion
+    - 1.0 oder 1.1 sind momentan sinnvolle Werte
 - Encoding:
-Â Â Â  - Bestimmt Kodierung des XML
-Â Â Â  - UTF 8 ist Standard
-Â Â Â  -Â Auch muss das Attribut vom Parser angenommen werden.
+    - Bestimmt Kodierung des XML
+    - UTF 8 ist Standard
+    - Auch muss das Attribut vom Parser angenommen werden.
 - Standalone:
-Â Â Â  - Selten verwendet
-Â Â Â  - Yes oder No sind die einzig gültigen Werte
-Â Â Â  - Yes wird verwendet, wenn Parser externe DTD (oder XSD) ignoriert werden soll
+    - Selten verwendet
+    - Yes oder No sind die einzig gültigen Werte
+    - Yes wird verwendet, wenn Parser externe DTD (oder XSD) ignoriert werden soll
 
 <strong>2.2 Fachtermini</strong>
 Da in den folgenden Kapiteln immer wieder bestimmte "Fachwörter" auftauchen, hier mal eine kurze Erklärung.
@@ -65,7 +65,7 @@ Da in den folgenden Kapiteln immer wieder bestimmte "Fachwörter" auftauchen, hi
 Momentan gibt es 2 große "Parserarten".
 
 Die erste Parserart hat sich zum quasi Standard durchgesetzt. Genannt wird diese Art "SAX", was voll ausgesprochen <a target="_blank" href="http://de.wikipedia.org/wiki/Simple_API_for_XML" title="SAX Wiki">Simple API for XML</a> heisst.
-SAX ließt XML Dokument über sequentiellen Datenstrom und ruft im Standard definierte Ereignisse vorgegebene Rückruffunktionen auf. Dadurch ist SAX zustandslos und erlaubt keinen freien Zugriff auf alle Inhalte.Â Das ist insbesondereÂ für große XML Dateien praktisch.
+SAX ließt XML Dokument über sequentiellen Datenstrom und ruft im Standard definierte Ereignisse vorgegebene Rückruffunktionen auf. Dadurch ist SAX zustandslos und erlaubt keinen freien Zugriff auf alle Inhalte. Das ist insbesondere für große XML Dateien praktisch.
 
 Die zweite Art nennt sich <a target="_blank" href="http://de.wikipedia.org/wiki/Document_Object_Model" title="DOM Wiki">DOM</a>, was auch schon aus z.B. <a target="_blank" href="http://de.wikipedia.org/wiki/Javascript" title="Javascript Wiki">Javascript </a>bekannt sein dürfte. DOM ist ein <a target="_blank" href="http://de.wikipedia.org/wiki/W3c" title="W3C Wiki">W3C Standard</a>, welcher voll ausgesprochen Document Object Model heisst. DOM liesst zuerst das komplette XML Dokument ein und bildet den Strukturbaum intern ab. Vorteil davon ist, dass ich auf jedes Element Einfluss nehmen kann und dadurch freien Zugriff auf alle Teile meines XMLs habe und jederzeit verändern kann.
 
@@ -82,7 +82,7 @@ Nach der Regel darf nach dem ersten Zeichen wieder Buchstaben (a-z, A-Z), Unters
 Nicht erlaubt sind Leerzeichen.
 Wie bereits erwähnt, sind Elemente und Tags casesensitive.
 
-Jedes Element beginnt mit &lt;tagName&gt; <tag-name></tag-name>und endet mit &lt;/tagName&gt;Â .
+Jedes Element beginnt mit &lt;tagName&gt; <tag-name></tag-name>und endet mit &lt;/tagName&gt; .
 
 <em>Beispiel aus XHTML:</em>
 
@@ -160,7 +160,7 @@ Beispiel:
     &lt;hausnummer&gt;42&lt;/hausnummer&gt; 
     &lt;plz&gt;15023&lt;/plz&gt; 
     &lt;ort&gt;Hinterblubdorf&lt;/ort&gt; 
-&lt;/adresse&gt;Â </pre>
+&lt;/adresse&gt; </pre>
 <pre>&lt;!--Adresse 2 --&gt;</pre>
 <pre>&lt;rechner&gt; 
     &lt;domain&gt;bla.de&lt;/domain&gt; 
@@ -172,8 +172,8 @@ Wie sie hier sehen, wir das Element "adresse” 2 mal gebraucht und beides mal
 Beispiel:
 <pre>&lt;x xmlns:test='http://test.org/schema'&gt; 
     &lt;!-- Das "test"-Präfix wird für das Element "x" und Inhalt an http://test.org/schema gebunden. --&gt; 
-&lt;/x&gt;Â </pre>
-Der QName ist eine Zusammensetzung aus dem Präfix und dem lokalen Namen.Â 
+&lt;/x&gt; </pre>
+Der QName ist eine Zusammensetzung aus dem Präfix und dem lokalen Namen. 
 
 "Default Namespaces" können verwendet werden, wenn ein Namensraum häufiger als andere verwendet wird. Allerdings kommen damit einige Parser und Browser nicht vollständig zurecht.
 
@@ -184,7 +184,7 @@ Beispiel:
 <pre>&lt;default xmlns='http://test.org/schema'&gt; 
     &lt;test&gt;Hier wird der default Namespace verwendet, welcher festgelegt wurde.&lt;/test&gt; 
 &lt;/default&gt;</pre>
-Damit unser oberes Beispiel funktionieren kann, müssen wir nun ein paar kleine Veränderungen durchführen.Â 
+Damit unser oberes Beispiel funktionieren kann, müssen wir nun ein paar kleine Veränderungen durchführen. 
 
 Beispiel:
 <pre>&lt;!--Adresse 1 --&gt;</pre>
@@ -200,7 +200,7 @@ Beispiel:
     &lt;rechner:name&gt;namensblabla&lt;/rechner:name&gt; 
     &lt;rechner:adresse&gt;127.0.0.1&lt;/rechner:adresse&gt; 
 &lt;/rechner&gt;</pre>
-<pre>Â </pre>
+<pre> </pre>
 Der Präfix ist im Prinzip nichts anderes als eine Erweiterung der URI.
 
 Statt rechner="http://www.test.de/schema" könnte man auch "http://www.test.de/schema/rechner" sagen.

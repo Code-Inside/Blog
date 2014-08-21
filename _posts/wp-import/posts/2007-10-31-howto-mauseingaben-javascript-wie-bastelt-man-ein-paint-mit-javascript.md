@@ -9,7 +9,7 @@ tags: [HowTo, Javascript]
 ---
 {% include JB/setup %}
 In diesem HowTo schauen wir uns mal an, wie man auf Mauseingaben mit Javascript reagiert. Es ist etwas schwammig formuliert, allerdings fiel mir nichts besseres ein.
-Auf einfache "onclick" Events oder "onhover" etc. zu reagieren, ist nicht besonders schwer. Allerdings ist es manchmal wichtig zu wissen, wo der Nutzer hingeklickt hat - direktÂ dort wo der Nutzer hinklickt mussÂ irgendwas passieren. InÂ Zeiten vonÂ Drag`n`Drop wird es auch immer wichtiger, die Maus intuitiv mit in die Weboberfläche zu integrieren - also mehr als nurÂ simplesÂ klicken.
+Auf einfache "onclick" Events oder "onhover" etc. zu reagieren, ist nicht besonders schwer. Allerdings ist es manchmal wichtig zu wissen, wo der Nutzer hingeklickt hat - direkt dort wo der Nutzer hinklickt muss irgendwas passieren. In Zeiten von Drag`n`Drop wird es auch immer wichtiger, die Maus intuitiv mit in die Weboberfläche zu integrieren - also mehr als nur simples klicken.
 
 Hier setzt dieses HowTo an. Die Fragestellung in dem Titel ist zwar etwas überspitzt, allerdings wollen wir ein ganz einfaches Paint mit Javascript nachbasteln.
 
@@ -43,7 +43,7 @@ Wie in den oberen Angabe zu sehen ist, werden keine Javascript Eventhandler hinz
     }</pre>
 <u>onmousedown:</u>
 
-Bei einem einfachen "onmousedown" (also sobald die MaustasteÂ gedrückt wird)Â wird ein Flag "Global_Painting"Â gesetzt, dass momentan gezeichnet wird und im Anschluss wird einfach unser Punkt (also ein Div gezeichnet).
+Bei einem einfachen "onmousedown" (also sobald die Maustaste gedrückt wird) wird ein Flag "Global_Painting" gesetzt, dass momentan gezeichnet wird und im Anschluss wird einfach unser Punkt (also ein Div gezeichnet).
 
 <u>onmousemove:
 </u>Wenn die Mause über den Div bewegt wird UND das Flag gesetzt ist, wird weiterhin gezeichnet. Falls vorher kein Klick (und kein Flag gesetzt wurde), wird nicht gemalt. So ist es möglich, dass man mit der Maus über das Div bewegt, ohne das was passiert.
@@ -55,16 +55,16 @@ Bei einem einfachen "onmousedown" (also sobald die MaustasteÂ gedrückt wird)�
 
 Hier kommt eigentlich der wichtigste Schritt - das auslesen der aktuellen Mausposition.
 
-Im IE / OperaÂ kann man über diese Eigenschaft darauf zurückgreifen:
+Im IE / Opera kann man über diese Eigenschaft darauf zurückgreifen:
 <pre class="csharpcode">        Global_Painting_offsetLeft = window.<span class="kwrd">event</span>.clientX; 
         Global_Painting_offsetTop = window.<span class="kwrd">event</span>.clientY;</pre>
-Im Firefox über diese hier (daher einfach eine kleine JS Browserweiche mit "<strong>if(document.all)</strong>"Â einbauen) :
+Im Firefox über diese hier (daher einfach eine kleine JS Browserweiche mit "<strong>if(document.all)</strong>" einbauen) :
 <pre class="csharpcode">            Global_Painting_offsetLeft = clickEvent.clientX; 
             Global_Painting_offsetTop = clickEvent.clientY;</pre>
 Dabei ist "clickEvent" als Parameter der Funktion übergeben (obwohl in der init nichts angegeben wird - es funktioniert ;) ).
 Die "Global_Painting_offsetXXX" Variablen speichern die momentane Mausposition.
 
-<u>Hier mal die kompletteÂ startPainting Funktion:</u>
+<u>Hier mal die komplette startPainting Funktion:</u>
 <pre class="csharpcode">    function startPainting(clickEvent) 
     { 
     Global_Painting = <span class="kwrd">true</span>;    
@@ -91,13 +91,13 @@ Die gemalten "Pixel" sind in wahrheit Divs mit einer Hintergrundfarbe. Den Div w
 
 <strong>Schritt 5: Fertig</strong>
 
-Der Rest ist eigentlich nur noch simplesÂ Javascript - z.B. Farbe setzen oder "Pinselgröße". Das kann ja jederÂ sich imÂ Code anschauen.
+Der Rest ist eigentlich nur noch simples Javascript - z.B. Farbe setzen oder "Pinselgröße". Das kann ja jeder sich im Code anschauen.
 
 <strong>Nachtrag:</strong>
 
 Bei dem Malen verwende ich einfache Divs - das sieht für den Nutzer schön aus und ist auch recht easy. Man hätte auch eine Tabelle nehmen können, da wäre das programmatische Auswerten wesentlich einfacher, hätte aber das Raster begrenzt. Auch das es im FF etwas buggy ist, stimmt - allerdings soll dies nur eine Anregung sein und mal zeigen, wie man auf die Mauspositionsdaten zugreifen kann.
 
-VielÂ Spaß beim Benutzen und Weiterverwenden :)Â 
+Viel Spaß beim Benutzen und Weiterverwenden :) 
 
 <strong>Links:</strong>
 

@@ -55,7 +55,7 @@ Unter "AWS Access Identifiers" findet man seinen Access Key sowie den Secret Acc
 
 Um an die WSDL zu gelangen genügt es wieder auf die Amazon E-Commerce Service Seite zurückzugehen und sich einfach mal diese Links zu gemüte führt.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image61.png"><img border="0" width="354" src="{{BASE_PATH}}/assets/wp-images/image-thumb40.png" alt="image" height="118" style="border: 0px" /></a>Â 
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image61.png"><img border="0" width="354" src="{{BASE_PATH}}/assets/wp-images/image-thumb40.png" alt="image" height="118" style="border: 0px" /></a> 
 
 <strong>Schritt 3: Demoapplikation und Webserive einbinden</strong>
 
@@ -67,7 +67,7 @@ Nachdem wir (im Standardfall!) den Namespace "[Projektname].com.amazon.webservic
 
 Die Hauptklasse "<strong><em>AWSECommerceService</em></strong>" fungiert dabei als Zentrum des ganzen. Er nimmt Requests entgegen und gibt Response zurück.
 
-In unserem Beispiel wollen wir eine "<strong><em>ItemSearch</em></strong>" Operation ausführen, und geben unseren Request darin ein. Daher übergibt man der "<strong><em>ItemSearch</em></strong>" Methode derÂ "<strong><em>AWSECommerceService</em></strong>" Klasse ein "<strong>ItemSearch</strong>" Objekt, welche wiederrum ein "<strong><em>ItemSearchRequest</em></strong>" Objekt enthält. Die Response "<strong><em>ItemSearchResponse</em></strong>" bekommen wir durch den Rückgabewert der "<strong><em>ItemSearch</em></strong>" Methode. Easy oder? Am besten ihr schaut euch das im Programmcode an.
+In unserem Beispiel wollen wir eine "<strong><em>ItemSearch</em></strong>" Operation ausführen, und geben unseren Request darin ein. Daher übergibt man der "<strong><em>ItemSearch</em></strong>" Methode der "<strong><em>AWSECommerceService</em></strong>" Klasse ein "<strong>ItemSearch</strong>" Objekt, welche wiederrum ein "<strong><em>ItemSearchRequest</em></strong>" Objekt enthält. Die Response "<strong><em>ItemSearchResponse</em></strong>" bekommen wir durch den Rückgabewert der "<strong><em>ItemSearch</em></strong>" Methode. Easy oder? Am besten ihr schaut euch das im Programmcode an.
 
 Die Keys werden dabei jeder Operation einzeln übergeben.
 

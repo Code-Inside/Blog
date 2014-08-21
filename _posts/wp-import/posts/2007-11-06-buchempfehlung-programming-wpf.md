@@ -20,7 +20,7 @@ Folgende Themen (und noch mehr), werden in diesem Buch behandelt:
 	<li>WPF Layoutsystem</li>
 	<li>WPF Databinding</li>
 	<li>.NET und XAML - Was ist XAML?</li>
-	<li>WPFÂ mit WinFormsÂ oder MFCs</li>
+	<li>WPF mit WinForms oder MFCs</li>
 </ul>
 Ich hab damals eine ältere Fassung gelesen, allerdings umschließt die neue nun auch noch das Thema 3D und Silverlight. Da aber bereits die erste Version mich überzeugt hat, kann ich ohne schlechtes Gewissen auch die neue Fassung empfehlen.
 

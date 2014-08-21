@@ -14,7 +14,7 @@ Dass es aber tatsächlich sehr interessante Open Source .NET Projekte in den ver
 
 <strong>.NET Open Source Projekte</strong>
 
-<strong>Â <u>Paint.NET - Fotobearbeitung</u></strong>
+<strong> <u>Paint.NET - Fotobearbeitung</u></strong>
 
 Angefangen möchte ich mit dem wohl bekanntesten .NET Programm in dieser Liste: <a target="_blank" href="http://www.getpaint.net/download.html">Paint.NET</a>
 
@@ -32,7 +32,7 @@ Kommen wir nun zu den anderen - nicht Endkundentauglichen - Projekten:
 
 <u><strong>NHibernate - .NET O/R Mapper</strong></u>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image208.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images/image-thumb187.png" alt="image" height="60" style="border: 0px" /></a>Â 
+<a href="{{BASE_PATH}}/assets/wp-images/image208.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images/image-thumb187.png" alt="image" height="60" style="border: 0px" /></a> 
 
 Ähnlich wie SubSonic, ist <a target="_blank" href="http://www.hibernate.org/343.html">NHibernate</a> ein anderer O/R Mapper. Das Konzept ist hier etwas anders (per XML wird dieser konfiguriert), allerdings ist Hibernate schon lange im Java Umfeld genutzt und NHibernate die Portierung auf .NET.
 

@@ -41,16 +41,16 @@ Beispiel:
 <pre>
 <pre>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;</pre>
 <pre>&lt;addressbuch&gt;</pre>
-<pre>Â Â Â Â  &lt;addresse&gt;</pre>
-<pre>Â Â Â Â Â Â Â Â Â  &lt;vorname&gt;Ben&lt;/vorname&gt;</pre>
-<pre>Â Â Â Â Â Â Â Â Â  &lt;nachname&gt;James&lt;/nachname&gt;</pre>
-<pre>Â Â Â Â Â Â Â Â Â  &lt;wohnort&gt;New York&lt;/wohnort&gt;</pre>
-<pre>Â Â Â Â  &lt;/addresse &gt;</pre>
-<pre>Â Â Â Â  &lt;addresse&gt;</pre>
-<pre>Â Â Â Â Â Â Â Â Â  &lt;vorname&gt;Hans&lt;/vorname&gt;</pre>
-<pre>Â Â Â Â Â Â Â Â Â  &lt;nachname&gt;Herrman&lt;/nachname&gt;</pre>
-<pre>Â Â Â Â Â Â Â Â Â  &lt;wohnort&gt;Dortmund&lt;/wohnort&gt;</pre>
-<pre>Â Â Â Â  &lt;/addresse&gt;</pre>
+<pre>     &lt;addresse&gt;</pre>
+<pre>          &lt;vorname&gt;Ben&lt;/vorname&gt;</pre>
+<pre>          &lt;nachname&gt;James&lt;/nachname&gt;</pre>
+<pre>          &lt;wohnort&gt;New York&lt;/wohnort&gt;</pre>
+<pre>     &lt;/addresse &gt;</pre>
+<pre>     &lt;addresse&gt;</pre>
+<pre>          &lt;vorname&gt;Hans&lt;/vorname&gt;</pre>
+<pre>          &lt;nachname&gt;Herrman&lt;/nachname&gt;</pre>
+<pre>          &lt;wohnort&gt;Dortmund&lt;/wohnort&gt;</pre>
+<pre>     &lt;/addresse&gt;</pre>
 <pre>&lt;/addressbuch &gt;</pre>
 </pre>
 <addressbuch></addressbuch><addresse></addresse><vorname></vorname><strong>2. Sinn von XML
@@ -61,7 +61,7 @@ In der heutigen Zeit nimmt die Vernetzung unserer Welt immer mehr zu. Daten werd
 Auf die Frage, ob <a target="_blank" href="http://de.wikipedia.org/wiki/Html" title="HTML">HTML</a> durch XML ersetzt wird, kann man ganz klar mit einem "nein" beantworten. HTML hat allerdings Grenzen was der Vorrat an Elementtypen und zudem drohte der "Standard" durch verschiedene Konzerne (<a target="_blank" href="http://www.microsoft.com/" title="Microsoft">Microsoft </a>oder <a target="_blank" href="http://www.netscape.de/" title="Netscape">Netscape</a>) auseinander zu brechen. Genau an dieser Stelle tritt nun XML in den Vordergrund. Durch XML kann man beliebige Daten speichern, welche dann z.B. wieder durch <a target="_blank" href="http://de.wikipedia.org/wiki/Xhtml" title="XHtml Wiki">(X)HTML </a>dargestellt werden. Näheres dazu wird zu einem späteren Zeitpunkt erklärt. Der große Vorteil von XML ist, dass ich durch Stylesheets im Prinzip unendlich viele Web Dokumente generieren lassen kann.Heute gibt es kaum noch Anwendungen die ohne XML arbeiten. Ähnlich wie HTML lassen sich auch XML-Daten "on the fly" aus Datenbankbeständen erzeugen. Allerdings eignet sich XML besser für die Speicherung von Daten. Insbesondere in objektorientierten Systemen kann man durch den hierarchischen Aufbau wesentlich einfacher objektorientierte Datenbanksysteme abbilden.Der Traum von vielen die XML propagieren ist, dass mit XML ein einheitliches (universelles) Datenformat zu schaffen, was sowohl von Menschen als auch von Maschinen gelesen und verstanden werden kann.
 
 3.2 Unterschie zwischen XML und HTML
-XML ist im Gegensatz zu HTML <a target="_blank" href="http://de.wikipedia.org/wiki/Casesensitiv" title="Casesensitiv Wiki">casesensitiv</a>. Dies bedeutet, dass in XML <auto></auto>, &lt;auto&gt; <auto></auto>oder &lt;AUTO&gt; gar &lt;aUtO&gt;Â <auto></auto>3 völlig verschiedene Elemente sind.
+XML ist im Gegensatz zu HTML <a target="_blank" href="http://de.wikipedia.org/wiki/Casesensitiv" title="Casesensitiv Wiki">casesensitiv</a>. Dies bedeutet, dass in XML <auto></auto>, &lt;auto&gt; <auto></auto>oder &lt;AUTO&gt; gar &lt;aUtO&gt; <auto></auto>3 völlig verschiedene Elemente sind.
 In HTML spielt es keine große Rolle ob man nun und dies dann mit schließt.
 Zudem hat, wie bereits weiter oben erwähnt, HTML einen begrenzten Satz an Elementen.
 
@@ -78,11 +78,11 @@ Der erste Teil ist die Gültigkeitsprüfung, welche die Regeln des XML Dokumente
 Der zweite Teil sind die Daten, welche in unserm XML Dokument zu finden sind.
 Der dritte Teil befasst sich mit der Formatierung dessen.
 
-Â Â Â Â Â Â Â Â Â Â Â Â  <a target="_blank" href="http://de.wikipedia.org/wiki/Dtd" title="DTD Wiki">DTD</a>Â Â Â Â Â Â Â Â Â Â Â Â Â Â <a target="_blank" href="http://de.wikipedia.org/wiki/XSD" title="XSD Wiki">XSD</a>Â Â Â Â Â Â Â Â  Gültigkeit
+             <a target="_blank" href="http://de.wikipedia.org/wiki/Dtd" title="DTD Wiki">DTD</a>              <a target="_blank" href="http://de.wikipedia.org/wiki/XSD" title="XSD Wiki">XSD</a>         Gültigkeit
 
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  <a target="_blank" href="http://de.wikipedia.org/wiki/Xml" title="XML">XML</a>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  Daten
+                     <a target="_blank" href="http://de.wikipedia.org/wiki/Xml" title="XML">XML</a>                       Daten
 
-Â Â Â Â Â Â Â Â Â Â Â Â  <a target="_blank" href="http://de.wikipedia.org/wiki/Cascading_Style_Sheets" title="CSS Wiki">CSS</a>Â Â Â Â Â Â Â Â Â Â Â Â Â Â  <a target="_blank" href="http://de.wikipedia.org/wiki/XSL" title="XSL Wiki">XSL</a>Â Â Â Â Â Â Â Â Â  Formatierung
+             <a target="_blank" href="http://de.wikipedia.org/wiki/Cascading_Style_Sheets" title="CSS Wiki">CSS</a>               <a target="_blank" href="http://de.wikipedia.org/wiki/XSL" title="XSL Wiki">XSL</a>          Formatierung
 
 <strong>5. Geschichtliches über XML</strong>
 

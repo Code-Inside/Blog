@@ -12,9 +12,9 @@ JSON ist eigentlich eine feine Sache - allerdings hat man manchmal keine Wahl un
 
 Das dies eigentlich fast genauso einfach ist, wie JSON, sieht man allerdings erst hinterher. Da der Zugriff manchmal allerdings etwas blöder ist als unter .NET selbst, schreibe ich kurz dieses HowTo. Die Demoanwendung samt kompletten Sourcecode gibts am Ende.
 
-<strong><u>Vorbereitung: ASP.NET AJAX Projekt, XML DateinÂ samt Webservice mit "ScriptService" versehen und einbinden</u></strong>
+<strong><u>Vorbereitung: ASP.NET AJAX Projekt, XML Datein samt Webservice mit "ScriptService" versehen und einbinden</u></strong>
 
-Unsere Demoappliaktion ist sehr einfach - das Hauptaugenmerk liegt sowieso späterÂ auf dem Javascript:
+Unsere Demoappliaktion ist sehr einfach - das Hauptaugenmerk liegt sowieso später auf dem Javascript:
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image148.png"><img border="0" width="185" src="{{BASE_PATH}}/assets/wp-images/image-thumb127.png" alt="image" height="167" style="border: 0px" /></a>
 
@@ -73,7 +73,7 @@ Der Webservice hat folgende Methode:
 
             <span class="kwrd">return</span> ExampleDocument; 
         }</pre>
-<strong>Achtung:</strong> Da die AJAX Extensions (<a target="_blank" href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-grundlagen/">siehe auch dazu hier die Grundlagen</a>)Â immer ein Json zurückgeben, muss man erst das "ResponseFormat" auf "ResponseFormat.Xml" stellen.
+<strong>Achtung:</strong> Da die AJAX Extensions (<a target="_blank" href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-grundlagen/">siehe auch dazu hier die Grundlagen</a>) immer ein Json zurückgeben, muss man erst das "ResponseFormat" auf "ResponseFormat.Xml" stellen.
 Ansonsten einfaches einlesen der einzelnen XML "Example_X.xml" Datein und über den Webservice zurückgeben.
 Diesen Webservice jetzt noch als Scriptservice im Scriptmanager bekannt machen und gut ist (<a target="_blank" href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">das dazugehörige HowTo</a>).
 
@@ -88,9 +88,9 @@ Unter den Buttons erfolgt dabei die Ausgabe und eine kurze Erklärung was da pas
 
 <p class="CodeFormatContainer">
 <pre class="csharpcode">var myResult = result.getElementsByTagName(<span class="str">"root"</span>)[0].firstChild.nodeValue;</pre>
-Das ist der Zugriff auf unser "nodeValue" "FooBar". In dem Screenshot kann man den Verlauf auch folgen:Â 
+Das ist der Zugriff auf unser "nodeValue" "FooBar". In dem Screenshot kann man den Verlauf auch folgen: 
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image150.png"><img border="0" width="234" src="{{BASE_PATH}}/assets/wp-images/image-thumb129.png" alt="image" height="284" style="border: 0px" /></a>Â 
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image150.png"><img border="0" width="234" src="{{BASE_PATH}}/assets/wp-images/image-thumb129.png" alt="image" height="284" style="border: 0px" /></a> 
 (Ausschnitt aus dem Firebug - <a target="_blank" href="http://code-inside.de/blog/artikel/howto-webanwendung-debuggen-javascript-html-debuggen-mit-den-entsprechenden-tools/">siehe dazu HowTo JS debuggen</a>)
 
 <strong>Erklärung:</strong>

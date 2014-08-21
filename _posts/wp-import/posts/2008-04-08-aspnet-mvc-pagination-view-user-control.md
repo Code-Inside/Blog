@@ -12,11 +12,11 @@ tags: [ASP.NET MVC]
 &lt;ul class="pagination-clean"&gt;
     &lt;% if (ViewData.HasPreviousPage)
         { %&gt;
-          &lt;li class="previous"&gt;&lt;a href="&lt;%=ViewData.PageActionLink.Replace("%7Bpage%7D", (ViewData.PageIndex - 1).ToString())%&gt;"&gt;Â« Previous&lt;/a&gt;&lt;/li&gt;
+          &lt;li class="previous"&gt;&lt;a href="&lt;%=ViewData.PageActionLink.Replace("%7Bpage%7D", (ViewData.PageIndex - 1).ToString())%&gt;"&gt;« Previous&lt;/a&gt;&lt;/li&gt;
      &lt;% }
        else
         { %&gt;
-          &lt;li class="previous-off"&gt;Â« Previous&lt;/li&gt;
+          &lt;li class="previous-off"&gt;« Previous&lt;/li&gt;
      &lt;% } %&gt;
                   
      &lt;%for (int page = 1; page &lt;= ViewData.TotalPages; page++)
@@ -33,11 +33,11 @@ tags: [ASP.NET MVC]
               
        if (ViewData.HasNextPage)
             { %&gt;
-              &lt;li class="next"&gt;&lt;a href="&lt;%=ViewData.PageActionLink.Replace("%7Bpage%7D", (ViewData.PageIndex + 1).ToString())%&gt;"&gt;Next Â»&lt;/a&gt;&lt;/li&gt;
+              &lt;li class="next"&gt;&lt;a href="&lt;%=ViewData.PageActionLink.Replace("%7Bpage%7D", (ViewData.PageIndex + 1).ToString())%&gt;"&gt;Next »&lt;/a&gt;&lt;/li&gt;
          &lt;% }
        else
             { %&gt;
-               &lt;li class="next-off"&gt;Next Â»&lt;/li&gt;
+               &lt;li class="next-off"&gt;Next »&lt;/li&gt;
          &lt;% } %&gt;
 &lt;/ul&gt; </pre></div>
 

@@ -30,7 +30,7 @@ Wer allerding genau aufpasst und sich fragt, warum Oliver dort mit Koordinaten u
 
 <strong>Schritt 2: Simple HTML Seite basteln</strong>
 
-Den komplettenÂ Beispielcode kann man am Ende runterladen, hier möchte ich nur kurz die wichtigsten Punkte erwähnen:
+Den kompletten Beispielcode kann man am Ende runterladen, hier möchte ich nur kurz die wichtigsten Punkte erwähnen:
 
 Das Einbinden des Virtual Earth Javascripts:
 <em>"&lt;script language="javascript" type="text/javascript" src="</em><a href="http://dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=5"><em>http://dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=5"</em></a><em>&gt;&lt;/script&gt;"</em>
@@ -42,10 +42,10 @@ Dannach erstellt man einfach ein "<em><a target="_blank" href="http://msdn2.micr
 <em>function GetMap()
 {
 map = new VEMap('&lt;%=PanelMap.ClientID%&gt;'); // ZielDiv
-map.LoadMap();Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  // Karte initialisieren
-map.SetZoomLevel(14);Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  Â Â  // Zoomlevel
-map.HideDashboard();Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  Â // Auswahloptionen verstecken
-map.SetMapStyle(VEMapStyle.Aerial);Â Â Â Â Â Â Â Â Â  Â // Auf Arealsicht stellen
+map.LoadMap();                                              // Karte initialisieren
+map.SetZoomLevel(14);                                  // Zoomlevel
+map.HideDashboard();                                    // Auswahloptionen verstecken
+map.SetMapStyle(VEMapStyle.Aerial);           // Auf Arealsicht stellen
 map.SetScaleBarDistanceUnit(VEDistanceUnit.Kilometers); // Von Meilen auf Kilometer umstellen </em>
 
 <em>map.Find('','&lt;%=Request.QueryString["destination"] %&gt;, Germany',null,null,0,1,false,false,false,true, onComplete); // Suchen
@@ -75,7 +75,7 @@ In dem <a target="_blank" href="http://msdn2.microsoft.com/en-us/library/bb42961
 
 <strong>Downloads:</strong>
 
-<a target="_blank" href="http://code-developer.de/democode/virtualearth/">[Hier ein Link zur Demopage (Deutschland, normale größe)]</a>Â &amp; <a target="_blank" href="http://code-developer.de/democode/virtualearth/?width=500&amp;height=800&amp;destination=berlin">[Noch ein Link, diemal mit anderen Parametern dran(Berlin, größer)]</a>
+<a target="_blank" href="http://code-developer.de/democode/virtualearth/">[Hier ein Link zur Demopage (Deutschland, normale größe)]</a> &amp; <a target="_blank" href="http://code-developer.de/democode/virtualearth/?width=500&amp;height=800&amp;destination=berlin">[Noch ein Link, diemal mit anderen Parametern dran(Berlin, größer)]</a>
 
 <strong>Als IFrame:</strong>
 <iframe height="310" width="310" src="http://code-developer.de/democode/virtualearth/?width=300&height=300&destination=berlin" name="VirtualEarthDemo"></iframe>

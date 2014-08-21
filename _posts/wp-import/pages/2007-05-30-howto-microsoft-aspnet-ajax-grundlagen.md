@@ -17,7 +17,7 @@ Die Hauptadresse wenn es um ASP.NET geht ist natürlich Microsofts <a target="_b
 
 Ein paar kurze Sätz zu ASP.NET: Es ist die serverseitige Programmiersprache, welche in der <a target="_blank" href="http://de.wikipedia.org/wiki/.NET" title="Wiki .NET">.NET </a>Welt für Websites und Webservices zum Einsatz kommt. Webserver für ASP.NET ist meist der <a target="_blank" href="http://de.wikipedia.org/wiki/Microsoft_Internet_Information_Services" title="Wiki IIS">IIS von Microsoft</a>. <a target="_blank" href="http://www.mono-project.com/Main_Page" title="Open Source .NET">Das Mono-Projekt </a>hat aber glaub ich auch ein Webserver (Apache?) so umgestaltet, dass er auch für ASP.NET Seiten eingesetzt werden kann.
 
-Nun zum eigentlichen Thema: AJAX in der ASP.NET Welt. Hauptadresse ist hier <a target="_blank" href="http://ajax.asp.net" title="MS AJAX">ajax.asp.net</a>. Um es schnell einzusetzen ist es ratsam sich einfach das kostenlose <a target="_blank" href="http://www.microsoft.com/germany/msdn/vstudio/products/express/vwd/default.mspx" title="Visual Web Developer">Visual Web Developer</a>Â oder dem für .NET Entwickler vermutlich bekannten Visual Studio.
+Nun zum eigentlichen Thema: AJAX in der ASP.NET Welt. Hauptadresse ist hier <a target="_blank" href="http://ajax.asp.net" title="MS AJAX">ajax.asp.net</a>. Um es schnell einzusetzen ist es ratsam sich einfach das kostenlose <a target="_blank" href="http://www.microsoft.com/germany/msdn/vstudio/products/express/vwd/default.mspx" title="Visual Web Developer">Visual Web Developer</a> oder dem für .NET Entwickler vermutlich bekannten Visual Studio.
 Früher hieß das AJAX Framework für ASP.NET "Atlas", allerdings hat Microsoft dieses "Framework" in zwei Teile geteilt:
 
 - <a target="_blank" href="http://www.microsoft.com/downloads/details.aspx?FamilyID=ca9d90fa-e8c9-42e3-aa19-08e2c027f5d6&amp;displaylang=en" title="ASP.NET AJAX">ASP.NET AJAX Extensions</a>:
@@ -30,9 +30,9 @@ Nachdem beides runtergeladen und installiert ist, hat man in seinem Visual Studi
 
 Für das Toolkit ist <a target="_blank" href="http://ajax.asp.net/ajaxtoolkit/" title="ASP.NET AJAX Toolkit">diese Seite</a> sehr interessant - im Prinzip werden dort alle wesentlichen Controls gezeigt. Die komplette Seite kann man von <a target="_blank" href="http://www.codeplex.com/Wiki/View.aspx?ProjectName=AtlasControlToolkit" title="Codeplex - AJAX Toolkit">Codeplex</a> ebenfalls runterladen.
 
-Â Dokumentation &amp; Videos zu dem ganzen AJAX ASP.NET Thema befinden sich auf <a target="_blank" href="http://ajax.asp.net/documentation/default.aspx?tabid=47" title="ASP.NET AJAX Docs">dieser Seite</a>.
-Â Â Â  - <a target="_blank" href="http://ajax.asp.net/docs/" title="AJAX Docs">Direkt Link zur Dokumentation</a>
-Â Â Â  - <a target="_blank" href="http://www.asp.net/learn/videos/default.aspx?tabid=63" title="ASP.NET Videos">Direkt Link zu den How-Do-I Lern Videos</a>
+ Dokumentation &amp; Videos zu dem ganzen AJAX ASP.NET Thema befinden sich auf <a target="_blank" href="http://ajax.asp.net/documentation/default.aspx?tabid=47" title="ASP.NET AJAX Docs">dieser Seite</a>.
+    - <a target="_blank" href="http://ajax.asp.net/docs/" title="AJAX Docs">Direkt Link zur Dokumentation</a>
+    - <a target="_blank" href="http://www.asp.net/learn/videos/default.aspx?tabid=63" title="ASP.NET Videos">Direkt Link zu den How-Do-I Lern Videos</a>
 
 Ein kurzer Kommentar noch, weil ich damit arge Probleme bei dem Toolkit hatte:
 Verwendet beim Entwickeln einer Website immer "position: relative". Ansonsten kann es manchmal zu Problemen bei manchen Controls kommen.

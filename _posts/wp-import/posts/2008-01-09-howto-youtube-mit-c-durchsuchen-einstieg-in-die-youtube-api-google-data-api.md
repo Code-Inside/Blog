@@ -95,7 +95,7 @@ Resultat für die Suchanfrage für "Die Ärzte":
 
 <a href="{{BASE_PATH}}/assets/wp-images/image215.png"><img border="0" width="373" src="{{BASE_PATH}}/assets/wp-images/image-thumb194.png" alt="image" height="190" style="border: 0px" /></a>
 
-Der SourcecodeÂ wurde nur wenig vomÂ <a target="_blank" href="http://www.dotneat.net/2007/12/20/QueryingYoutubeAPIUsingC.aspx">originalen</a>Â abgeändert.
+Der Sourcecode wurde nur wenig vom <a target="_blank" href="http://www.dotneat.net/2007/12/20/QueryingYoutubeAPIUsingC.aspx">originalen</a> abgeändert.
 
 <strong>Was macht man nun damit?</strong>
 

@@ -53,7 +53,7 @@ tags: [HowTo, log4net, logging]
             ILog logger = LogManager.GetLogger(typeof (Program));
 
             logger.Debug("Hello World!");
-            logger.Error("DÂ´oh!");
+            logger.Error("D´oh!");
 
             Console.ReadLine();
         }

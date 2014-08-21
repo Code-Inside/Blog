@@ -9,11 +9,11 @@ tags: []
 permalink: /artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-3-praktisches-hello-world
 ---
 {% include JB/setup %}
-In den letzten Beiden (<a href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-1-grundlagen-asmx-variante/">Teil 1</a>, <a href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-2-wcf-variante/">Teil 2</a>Â (und dem <a href="http://code-inside.de/blog/artikel/howto-microsoft-patterns-practices-software-factories-verstehen/">"Grundkurs für Software Factories"))</a> ging es um die Grundlagen und um die <a href="http://www.codeplex.com/servicefactory/Wiki/View.aspx?title=HandsOnLab&amp;referringTitle=Home">HOLs</a> - jetzt setzen wir das mal selber um.
+In den letzten Beiden (<a href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-1-grundlagen-asmx-variante/">Teil 1</a>, <a href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-2-wcf-variante/">Teil 2</a> (und dem <a href="http://code-inside.de/blog/artikel/howto-microsoft-patterns-practices-software-factories-verstehen/">"Grundkurs für Software Factories"))</a> ging es um die Grundlagen und um die <a href="http://www.codeplex.com/servicefactory/Wiki/View.aspx?title=HandsOnLab&amp;referringTitle=Home">HOLs</a> - jetzt setzen wir das mal selber um.
 Ich werde das hier alles Schritt für Schritt zeigen und erklären - diesmal wirds sehr Bilderreich.
 
 <strong>Das Szenario:</strong>
-Ich möchte nur einen sehr einfachen Webservice erstellen - eine Art "Hello World" Beispiel. Wir möchten ein BuzzwordÂ (oder in Fachkreisen auch Bull***t)Â Katalog anfertigen.
+Ich möchte nur einen sehr einfachen Webservice erstellen - eine Art "Hello World" Beispiel. Wir möchten ein Buzzword (oder in Fachkreisen auch Bull***t) Katalog anfertigen.
 
 <strong>Vorbereitung:</strong>
 
@@ -81,7 +81,7 @@ Geben dort als Connection Name "<strong>Buzzwords</strong>" ein und wählen den 
 
 ... und stellen unsere Verbindungseinstellungen ein.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image99.png"><img border="0" width="252" src="{{BASE_PATH}}/assets/wp-images/image-thumb78.png" alt="image" height="344" style="border: 0px" /></a>Â 
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image99.png"><img border="0" width="252" src="{{BASE_PATH}}/assets/wp-images/image-thumb78.png" alt="image" height="344" style="border: 0px" /></a> 
 
 <strong>Schritt 4: BusinessEntities erzeugen</strong>
 
@@ -97,7 +97,7 @@ Das Hostprojekt und den passenden Connection name wählen...
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image102.png"><img border="0" width="469" src="{{BASE_PATH}}/assets/wp-images/image-thumb81.png" alt="image" height="96" style="border: 0px" /></a>
 
-... und aus dem aus der DB stammenden "buzzwords" ein "Buzzword" machenÂ - sieht im .NET Code schöner aus.
+... und aus dem aus der DB stammenden "buzzwords" ein "Buzzword" machen - sieht im .NET Code schöner aus.
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image103.png"><img border="0" width="469" src="{{BASE_PATH}}/assets/wp-images/image-thumb82.png" alt="image" height="62" style="border: 0px" /></a>
 
@@ -112,7 +112,7 @@ Create/Read/Update/Delete.
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image105.png"><img border="0" width="484" src="{{BASE_PATH}}/assets/wp-images/image-thumb84.png" alt="image" height="114" style="border: 0px" /></a>
 
-Dazu werden stored procedures erstellt...Â 
+Dazu werden stored procedures erstellt... 
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image106.png"><img border="0" width="482" src="{{BASE_PATH}}/assets/wp-images/image-thumb85.png" alt="image" height="229" style="border: 0px" /></a>
 
@@ -120,7 +120,7 @@ Dazu werden stored procedures erstellt...Â 
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image107.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb86.png" alt="image" height="77" style="border: 0px" /></a>
 
-Â Dies kann man nun per Kommandozeile oder per SQL Studio machen:
+ Dies kann man nun per Kommandozeile oder per SQL Studio machen:
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image108.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb87.png" alt="image" height="63" style="border: 0px" /></a>
 
@@ -134,15 +134,15 @@ Um die Daten auch abzurufen, muss man Data Repository Klassen erstellen, dabei w
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image110.png"><img border="0" width="397" src="{{BASE_PATH}}/assets/wp-images/image-thumb89.png" alt="image" height="82" style="border: 0px" /></a>
 
-Man selber wählt anhand der Stored Procedur ein Mapping zu denÂ Entities (wie in dem Screenshot zu sehen).Â 
+Man selber wählt anhand der Stored Procedur ein Mapping zu den Entities (wie in dem Screenshot zu sehen). 
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image111.png"><img border="0" width="486" src="{{BASE_PATH}}/assets/wp-images/image-thumb90.png" alt="image" height="331" style="border: 0px" /></a>
 
 Resultat:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image112.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb91.png" alt="image" height="184" style="border: 0px" /></a>Â 
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image112.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb91.png" alt="image" height="184" style="border: 0px" /></a> 
 
-<strong>Schritt 7:Â BusinessLogic erschaffen</strong>
+<strong>Schritt 7: BusinessLogic erschaffen</strong>
 
 Die BusinessLogic ist das Bindeglied zwischen dem was man machen will und den Repository Klassen. Dieser Code muss per Hand geschrieben werden - ist aber nicht viel, da das meiste bereits die anderen Klassen machen.
 
@@ -150,24 +150,24 @@ Die BusinessLogic ist das Bindeglied zwischen dem was man machen will und den Re
 
 class BuzzwordListManager
 {
-Â Â Â  public List&lt;Buzzword&gt; Load()
-Â Â Â  {
-Â Â Â Â Â Â Â  BuzzwordRepository rep = new BuzzwordRepository("Buzzword");
-Â Â Â Â Â Â Â  List&lt;Buzzword&gt; result = rep.GetAllFrombuzzwords();
-Â Â Â Â Â Â Â  if (result == null)
-Â Â Â Â Â Â Â  {
-Â Â Â Â Â Â Â Â Â Â Â  // Not found
-Â Â Â Â Â Â Â Â Â Â Â  throw new NotImplementedException();
-Â Â Â Â Â Â Â  }
-Â Â Â Â Â Â Â  return result;
-Â Â Â  }
+    public List&lt;Buzzword&gt; Load()
+    {
+        BuzzwordRepository rep = new BuzzwordRepository("Buzzword");
+        List&lt;Buzzword&gt; result = rep.GetAllFrombuzzwords();
+        if (result == null)
+        {
+            // Not found
+            throw new NotImplementedException();
+        }
+        return result;
+    }
 }
 
 Resultat:
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image113.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb92.png" alt="image" height="94" style="border: 0px" /></a>
 
-<strong>Schritt 8:Â Service - DataContract erschaffen</strong>
+<strong>Schritt 8: Service - DataContract erschaffen</strong>
 
 Jetzt kommen wir zu der Service Interface Schicht.
 DataContracts sind im Prinzip wieder Klassen, welche der Webservice entweder als Request oder als Response weitergibt.
@@ -175,7 +175,7 @@ Dadurch muss man nicht seine eigene BusinessLogic veröffentlichen oder ist bei 
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image114.png"><img border="0" width="387" src="{{BASE_PATH}}/assets/wp-images/image-thumb93.png" alt="image" height="135" style="border: 0px" /></a>
 
-Das Anlegen der Members geht über solch ein Grid, als Typen können die allgemeinen .NET Klassen genommen werden, aber auch andere DataContract Klassen. DieÂ Klassen können auch kombiniert werden.Â Es gibt auch noch mehr Varianten, dies ist aber am Besten nachzulesen in der <a href="http://www.codeplex.com/servicefactory">Hilfe</a>.
+Das Anlegen der Members geht über solch ein Grid, als Typen können die allgemeinen .NET Klassen genommen werden, aber auch andere DataContract Klassen. Die Klassen können auch kombiniert werden. Es gibt auch noch mehr Varianten, dies ist aber am Besten nachzulesen in der <a href="http://www.codeplex.com/servicefactory">Hilfe</a>.
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image115.png"><img border="0" width="395" src="{{BASE_PATH}}/assets/wp-images/image-thumb94.png" alt="image" height="106" style="border: 0px" /></a>
 
@@ -183,7 +183,7 @@ Resultat:
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image116.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb95.png" alt="image" height="71" style="border: 0px" /></a>
 
-<strong>Schritt 9:Â Service - ServiceContract erschaffen</strong>
+<strong>Schritt 9: Service - ServiceContract erschaffen</strong>
 
 Nachdem wir jetzt die Members des Service definiert haben, gilt es nun daran zu definieren, welche Schnittstellen der Service überhaupt haben soll.
 
@@ -232,7 +232,7 @@ Die Implementation des ganzen.
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image126.png"><img border="0" width="366" src="{{BASE_PATH}}/assets/wp-images/image-thumb105.png" alt="image" height="64" style="border: 0px" /></a>
 
 Dabei implementiert man den ServiceContract, welcher als Request / Response die Teile aus dem DataContract nimmt.
-In der Implementation greift man auf den Translator zu, damit man die BusinessLogic nutzen kann.Â 
+In der Implementation greift man auf den Translator zu, damit man die BusinessLogic nutzen kann. 
 
 <u>Beispielcode aus dem BuzzwordService:</u>
 
@@ -252,7 +252,7 @@ Resultat:
 
 Als Abschluss veröffentlicht man den Service in der Host Anwendung.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image128.png"><img border="0" width="406" src="{{BASE_PATH}}/assets/wp-images/image-thumb107.png" alt="image" height="80" style="border: 0px" /></a>Â 
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image128.png"><img border="0" width="406" src="{{BASE_PATH}}/assets/wp-images/image-thumb107.png" alt="image" height="80" style="border: 0px" /></a> 
 
 Dabei kann man noch verschiedene Optionen treffen - hier mal ein Basic Web Service.
 
@@ -308,8 +308,8 @@ Das heisst, man ist hier nicht auf irgendwelche "Hintergrund-Magie" angewiesen, 
 
 <u>Blog</u>
 <a href="http://code-inside.de/blog/artikel/howto-microsoft-patterns-practices-software-factories-verstehen/">Software Factories verstehen</a>
-<a href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-1-grundlagen-asmx-variante/">Service Factory - Teil 1 (GrundlagenÂ &amp; ASMX Variante)</a>
-<a href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-2-wcf-variante/">Service Factory - TeilÂ  2 (WCF Variante)</a>
+<a href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-1-grundlagen-asmx-variante/">Service Factory - Teil 1 (Grundlagen &amp; ASMX Variante)</a>
+<a href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-2-wcf-variante/">Service Factory - Teil  2 (WCF Variante)</a>
 <a href="http://www.codeplex.com/servicefactory/Wiki/View.aspx?title=HandsOnLab&amp;referringTitle=Home">Service Factory HOLs @ Codeplex</a>
 
 <u>Software
