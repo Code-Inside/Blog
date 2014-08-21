@@ -27,7 +27,7 @@ tags: [Gadgets, IE8, Vista]
 </ul>
 So richtig "toll" find ich die beiden letzten Sachen momentan noch nicht - wozu Kontextmenüs so kompliziert anbieten? Wenn der Webseitenbetreiber sowas bieten will, geht das auch mit Standard-HTML oder anderen Darstellungsformen.
 
-Und die "WebSlices" sind meiner Meinung nach ein Zwitter zwischen richtigem Gadget und einem Webpart - beides Sachen die ich nicht mag, weil es von Microsoft etwas verlassene Technologien sind - insbesondere die <a href="http://code-inside.de/blog/2007/12/10/windows-vista-gadgets-und-einige-sicherheitsbedenken/">Gadgets finde ich mehr als schwach in der Ausführung</a> (auch wenn die Idee gut ist - zwar nicht neu, aber gut). Wozu dann noch Vista Gadgets wenn man sowas in den IE integriert?
+Und die "WebSlices" sind meiner Meinung nach ein Zwitter zwischen richtigem Gadget und einem Webpart - beides Sachen die ich nicht mag, weil es von Microsoft etwas verlassene Technologien sind - insbesondere die <a href="{{BASE_PATH}}/2007/12/10/windows-vista-gadgets-und-einige-sicherheitsbedenken/">Gadgets finde ich mehr als schwach in der Ausführung</a> (auch wenn die Idee gut ist - zwar nicht neu, aber gut). Wozu dann noch Vista Gadgets wenn man sowas in den IE integriert?
 
 Würde Microsoft eine gescheite Plugin Architektur implementieren in dem z.B. .NET Addins (WPF etc.) laufen würden, hätte ich gejubelt. Durch solche Plugins ist Firefox so beliebt geworden und man bräuchte solche Späße wie "Activities" &amp; "WebSlices" nicht direkt mit in den IE integrieren, sondern als Plugin selber entwickeln - wenn man die Standardmittel nicht mag.
 

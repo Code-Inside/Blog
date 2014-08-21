@@ -26,7 +26,7 @@ Sobald unter den Windows Dienster der "SQL Server (SQLEXPRESS)" gestartet ist (n
 
 <strong><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image155.png"><img border="0" width="643" src="{{BASE_PATH}}/assets/wp-images/image-thumb134.png" alt="image" height="114" style="border-width: 0px" /></a> </strong>
 
-Das anlegen einer Testdatenbank wurde <a target="_blank" href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-3-praktisches-hello-world/">ebenfalls bereits bei den Software Factories behandelt</a>, sodass ich jetzt am Ende diese Testdatenbank habe:
+Das anlegen einer Testdatenbank wurde <a target="_blank" href="{{BASE_PATH}}/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-3-praktisches-hello-world/">ebenfalls bereits bei den Software Factories behandelt</a>, sodass ich jetzt am Ende diese Testdatenbank habe:
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image156.png"><img border="0" width="285" src="{{BASE_PATH}}/assets/wp-images/image-thumb135.png" alt="image" height="85" style="border-width: 0px" /></a>
 <ul>
@@ -106,7 +106,7 @@ Ebenfalls so wie oben beschrieben:
 <pre class="csharpcode"> </pre></div>
 <strong>Abschließende Bemerkung</strong>
 
-In der praxis würde ich eher <a target="_blank" href="http://msdn2.microsoft.com/de-de/library/8bw9ksd6(VS.80).aspx">typisierte Datasets</a> oder andere O/R Mapper einsetzen. Die Software Factories (siehe <a target="_blank" href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-3-praktisches-hello-world/">Service Factory</a>)bringen zudem ebenfalls einen "O/R" Mapper mit, welcher "zusammen klickbar" ist und daher die lästige Schreibarbeit für die CRUD Befehle erspart.
+In der praxis würde ich eher <a target="_blank" href="http://msdn2.microsoft.com/de-de/library/8bw9ksd6(VS.80).aspx">typisierte Datasets</a> oder andere O/R Mapper einsetzen. Die Software Factories (siehe <a target="_blank" href="{{BASE_PATH}}/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-3-praktisches-hello-world/">Service Factory</a>)bringen zudem ebenfalls einen "O/R" Mapper mit, welcher "zusammen klickbar" ist und daher die lästige Schreibarbeit für die CRUD Befehle erspart.
 <a target="_blank" href="http://msdn2.microsoft.com/en-us/netframework/aa904594.aspx">LINQ to SQL</a> oder <a target="_blank" href="http://www.subsonicproject.com/">Subsonic</a> gehen ebenfalls in die Richtung O/R Mapper und sind ebenfalls sehr interessant, sodass dieser Post nur mal die "basics" vermitteln sollte.
 
 <strong>Achtung:</strong> Zum Ausführen des Democodes muss natürlich der ConnectionString und die DB so erstellt sein, wie oben beschrieben. Auserdem sollte Visual Studio im Administrator-Modus laufen, ansonsten gibts leider einen Fehler.

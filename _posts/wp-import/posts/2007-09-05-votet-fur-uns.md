@@ -14,4 +14,4 @@ für uns Voten.
 
 Vielen Dank!
 
-<a href='http://code-inside.de/blog/2007/09/05/votet-fur-uns/homepageaward/' rel='attachment wp-att-116' title='homepageaward'><img src='{{BASE_PATH}}/assets/wp-images/hompage.png' alt='homepageaward' /></a>
+<a href='{{BASE_PATH}}/2007/09/05/votet-fur-uns/homepageaward/' rel='attachment wp-att-116' title='homepageaward'><img src='{{BASE_PATH}}/assets/wp-images/hompage.png' alt='homepageaward' /></a>

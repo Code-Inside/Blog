@@ -34,7 +34,7 @@ tags: [Code Quality, Kommentare]
         }
     }</pre></div>
 <p>&nbsp;</p>
-<p>Der Mehrwert solcher Kommentare ist gleich 0 – ausser vielleicht das man eine bestimmte “Quality Code Metric” ausgetrickst hat oder eine Regel befolgt hat. <a href="http://code-inside.de/blog/2010/11/18/howto-stylecop-settings-auf-mehrere-projekte-anwenden/">StyleCop</a> &amp; co. machen es ziemlich einfach ein regides Regelwerk zu erstellen.</p>
+<p>Der Mehrwert solcher Kommentare ist gleich 0 – ausser vielleicht das man eine bestimmte “Quality Code Metric” ausgetrickst hat oder eine Regel befolgt hat. <a href="{{BASE_PATH}}/2010/11/18/howto-stylecop-settings-auf-mehrere-projekte-anwenden/">StyleCop</a> &amp; co. machen es ziemlich einfach ein regides Regelwerk zu erstellen.</p>
 <p><strong>Regeln und “weniger ist mehr”</strong></p>
 <p>Eine “wir kommentieren alles”-Regel ist aus meiner Sicht völlig unnütze und verleitet sogar dazu “falsche” Kommentare zu erstellen. Kommentare sollen den Code erklären – warum gibts dies und jenes. Das das die “HomeController” Klasse ist sehe ich selber und wie ein Konstruktor aussieht erkenne ich auch noch. Aber warum wird diese oder jene Prüfung vorgenommen? Was versteckt sich fachlich hinter dem Code?<br>Wer Code Kommentare inflationär einsetzt verringert auch das Empfinden der Projektmitglieder sich um die Kommentare zu kümmern. Resharper kann clevere Refactorings durchführen – aber die Kommentare müssen von Hand nachgezogen werden und wenn das keiner macht, “weil es so viele Kommentare gibt”, dann sind sie nur noch eine Belastung.</p>
 <p><strong>Meine Empfehlung beim Kommentieren:</strong></p>

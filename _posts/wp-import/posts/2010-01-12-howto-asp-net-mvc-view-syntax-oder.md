@@ -15,7 +15,7 @@ tags: [ASP.NET MVC, HowTo]
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:5fbe357f-d4d6-48ab-a878-6685973da803" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;%this.Writer.Write(Html.Encode(ViewData["Message"])); %&gt;</pre></div>
 <p>Im Prinzip passiert hier das gleiche, nur das man <strong>direkt den Writer</strong> anspricht, der den Html Output generiert. Da dies ein direkter Methodenaufruf ist, muss allerdings das Semikolon gesetzt werden.</p>
 <p><strong>&lt;% Html.RenderPartial("Test"); %&gt;</strong></p>
-<p>RenderPartial oder <a href="http://code-inside.de/blog/2009/09/14/howto-asp-net-mvc-renderaction-mit-parametern/">RenderAction</a> (welches sich in den MvcFutures versteckt) funktionieren allerdings nicht mit dem &lt;%= Syntax. Diese Methoden geben auch void zurück, anstelle eines Strings:</p>
+<p>RenderPartial oder <a href="{{BASE_PATH}}/2009/09/14/howto-asp-net-mvc-renderaction-mit-parametern/">RenderAction</a> (welches sich in den MvcFutures versteckt) funktionieren allerdings nicht mit dem &lt;%= Syntax. Diese Methoden geben auch void zurück, anstelle eines Strings:</p>
 <p><a href="{{BASE_PATH}}/assets/wp-images/image889.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="48" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb74.png" width="505" border="0"></a> </p>
 <p>Auch hier gilt wieder: Semikolon setzen.</p>
 <p>Die Html-Extensions die <strong>void</strong> zurückgeben <strong>schreiben direkt</strong> in den <strong>Output-Stream</strong>!</p>

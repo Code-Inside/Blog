@@ -9,7 +9,7 @@ tags: []
 permalink: /artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-3-praktisches-hello-world
 ---
 {% include JB/setup %}
-In den letzten Beiden (<a href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-1-grundlagen-asmx-variante/">Teil 1</a>, <a href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-2-wcf-variante/">Teil 2</a> (und dem <a href="http://code-inside.de/blog/artikel/howto-microsoft-patterns-practices-software-factories-verstehen/">"Grundkurs für Software Factories"))</a> ging es um die Grundlagen und um die <a href="http://www.codeplex.com/servicefactory/Wiki/View.aspx?title=HandsOnLab&amp;referringTitle=Home">HOLs</a> - jetzt setzen wir das mal selber um.
+In den letzten Beiden (<a href="{{BASE_PATH}}/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-1-grundlagen-asmx-variante/">Teil 1</a>, <a href="{{BASE_PATH}}/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-2-wcf-variante/">Teil 2</a> (und dem <a href="{{BASE_PATH}}/artikel/howto-microsoft-patterns-practices-software-factories-verstehen/">"Grundkurs für Software Factories"))</a> ging es um die Grundlagen und um die <a href="http://www.codeplex.com/servicefactory/Wiki/View.aspx?title=HandsOnLab&amp;referringTitle=Home">HOLs</a> - jetzt setzen wir das mal selber um.
 Ich werde das hier alles Schritt für Schritt zeigen und erklären - diesmal wirds sehr Bilderreich.
 
 <strong>Das Szenario:</strong>
@@ -307,9 +307,9 @@ Das heisst, man ist hier nicht auf irgendwelche "Hintergrund-Magie" angewiesen, 
 <strong>Links:</strong>
 
 <u>Blog</u>
-<a href="http://code-inside.de/blog/artikel/howto-microsoft-patterns-practices-software-factories-verstehen/">Software Factories verstehen</a>
-<a href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-1-grundlagen-asmx-variante/">Service Factory - Teil 1 (Grundlagen &amp; ASMX Variante)</a>
-<a href="http://code-inside.de/blog/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-2-wcf-variante/">Service Factory - Teil  2 (WCF Variante)</a>
+<a href="{{BASE_PATH}}/artikel/howto-microsoft-patterns-practices-software-factories-verstehen/">Software Factories verstehen</a>
+<a href="{{BASE_PATH}}/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-1-grundlagen-asmx-variante/">Service Factory - Teil 1 (Grundlagen &amp; ASMX Variante)</a>
+<a href="{{BASE_PATH}}/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-2-wcf-variante/">Service Factory - Teil  2 (WCF Variante)</a>
 <a href="http://www.codeplex.com/servicefactory/Wiki/View.aspx?title=HandsOnLab&amp;referringTitle=Home">Service Factory HOLs @ Codeplex</a>
 
 <u>Software

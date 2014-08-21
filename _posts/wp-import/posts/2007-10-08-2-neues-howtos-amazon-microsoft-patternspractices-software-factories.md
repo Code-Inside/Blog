@@ -10,8 +10,8 @@ tags: [.NET, Amazon, HowTo, Software Factories]
 {% include JB/setup %}
 Ich hab mich mal wieder hingesetzt und 2 neue HowTos geschrieben, das eine geht direkt ins praktische rein, bei dem anderen war das der Anfang einer längeren Serie.
 
-<a href="http://code-inside.de/blog/artikel/howto-produktsuche-mit-den-amazon-web-services/">HowTo: Produktsuche mit Amazon Web Services</a>
+<a href="{{BASE_PATH}}/artikel/howto-produktsuche-mit-den-amazon-web-services/">HowTo: Produktsuche mit Amazon Web Services</a>
 
-<a href="http://code-inside.de/blog/artikel/howto-microsoft-patterns-practices-software-factories-verstehen/">HowTo: Microsoft Patterns&amp;Practices Software Factories verstehen</a>
+<a href="{{BASE_PATH}}/artikel/howto-microsoft-patterns-practices-software-factories-verstehen/">HowTo: Microsoft Patterns&amp;Practices Software Factories verstehen</a>
 
 Viel Spaß damit.

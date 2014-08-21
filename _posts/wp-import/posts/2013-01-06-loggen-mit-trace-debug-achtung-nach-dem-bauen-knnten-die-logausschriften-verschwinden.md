@@ -56,7 +56,7 @@ tags: [Debug, Log, logging, Trace]
 <p><strong>Wann Trace und wann Debug?</strong></p>
 <p>Auf <a href="http://stackoverflow.com/questions/179868/trace-vs-debug-in-net-bcl">Stackoverflow</a> gibt es eine nette Diskussion wann man was nehmen könnte. Wobei dort auch oft gesagt wird, dass Trace nach dem Release erhalten bleibt. Dies stimmt natürlich nur, wenn man die Einstellungen nicht verändert und die “TRACE” Konstante beim Bauen mit übergeben wird.</p>
 <p><strong>Sollte ich Trace und Debug überhaupt nehmen?</strong></p>
-<p>Die Logging Funktionalität ist recht “einfach” und bietet nicht die Vielfalt von <a href="http://code-inside.de/blog/2009/05/08/howto-logging-mit-log4net/">Log4Net</a> oder <a href="http://nlog-project.org/">NLog</a>. Wer allerdings eine einfache Bibliothek für dritte schreibt, der ist vielleicht ganz gut damit bedient, weil man keine anderen Komponenten braucht – so zwingt man niemanden zur Verwendung von Log4Net etc.</p>
+<p>Die Logging Funktionalität ist recht “einfach” und bietet nicht die Vielfalt von <a href="{{BASE_PATH}}/2009/05/08/howto-logging-mit-log4net/">Log4Net</a> oder <a href="http://nlog-project.org/">NLog</a>. Wer allerdings eine einfache Bibliothek für dritte schreibt, der ist vielleicht ganz gut damit bedient, weil man keine anderen Komponenten braucht – so zwingt man niemanden zur Verwendung von Log4Net etc.</p>
 <p>Ich persönlich bin ansonsten kein Fan davon, weil ich es etwas zu unberechenbar finde (“Ohhh… kein Log, weil das Buildscript die Logs rausgekickt hatte…”) und dafür Log4Net oder NLog in ihrer Flexibilität bevorzuge.</p>
 <p>
 <stong><a href="https://github.com/Code-Inside/Samples/tree/master/2013/TraceAndDebug">Source Code auf GitHub</a></strong>

@@ -11,7 +11,7 @@ permalink: /artikel/howto-produktsuche-mit-den-amazon-web-services
 {% include JB/setup %}
 Der Amazon Webserivce ist einer der meistgenutzten "richtige" Webservice. Ich selber habe diesen auch schön öfters genutzt, bislang blieb aber noch ein kleines HowTo aus.
 
-In diesem HowTo werden wir schnell eine Produktsuche realisieren, ähnlich wie ich es bei der <a target="_blank" href="http://code-inside.de/blog/projekte/opensource-shoppingmap/" title="ShoppingMap Beispiel">ShoppingMap Beispielapplikation</a> getan habe.
+In diesem HowTo werden wir schnell eine Produktsuche realisieren, ähnlich wie ich es bei der <a target="_blank" href="{{BASE_PATH}}/projekte/opensource-shoppingmap/" title="ShoppingMap Beispiel">ShoppingMap Beispielapplikation</a> getan habe.
 
 Am Ende wird die Beispielapplikation auch zum Downloaden sein.
 

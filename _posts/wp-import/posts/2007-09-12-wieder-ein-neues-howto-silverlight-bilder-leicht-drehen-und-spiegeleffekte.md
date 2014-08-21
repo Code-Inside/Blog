@@ -10,4 +10,4 @@ tags: [ASP.NET, Expression Blend, Silverlight]
 {% include JB/setup %}
 Gestern gabs ja schon ein neues HowTo zum Thema Silverlight- Heute gibts schon das neue. Diesmal gehts mehr in Richtung des Designs - ohne Programmcode (das ist dann eine Sache für den nächsten Artikel). Es geht darum, Bilder leicht "3D mäßig" schräg gekippt mit Spiegeleffekten darzustellen.
 
-Der Artikel (mit vielen Bildern) befindet sich an gewohnter Stelle oder <a href="http://code-inside.de/blog/artikel/howto-microsoft-silverlight-10-bilder-kippen-samt-spiegeleffekte/">hier der direkt Link.</a>
+Der Artikel (mit vielen Bildern) befindet sich an gewohnter Stelle oder <a href="{{BASE_PATH}}/artikel/howto-microsoft-silverlight-10-bilder-kippen-samt-spiegeleffekte/">hier der direkt Link.</a>

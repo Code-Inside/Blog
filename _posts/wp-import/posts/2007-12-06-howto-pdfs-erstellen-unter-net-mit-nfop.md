@@ -13,7 +13,7 @@ NFop ist eine Portierung der Open Source Java Anwendung <a href="http://de.wikip
 
 <strong>.NET Anwendung -&gt; XML + XSLT -&gt; XML-FO -&gt; PDF </strong>
 
-Durch Austauschen des XSLT's kann man so einfach die Formatierung ändern, ähnlich wie bei HTML und CSS. Wie man aus seinem Datenbestand ein XML generieren kann finden sie <a href="http://code-inside.de/blog/2007/12/03/howto-xml-erstellen-mit-xmlattributes/">hier</a>.
+Durch Austauschen des XSLT's kann man so einfach die Formatierung ändern, ähnlich wie bei HTML und CSS. Wie man aus seinem Datenbestand ein XML generieren kann finden sie <a href="{{BASE_PATH}}/2007/12/03/howto-xml-erstellen-mit-xmlattributes/">hier</a>.
 
 Weil ich den NFop Code nicht ändern wollte habe ich die DLL einmal erstellt und dann in mein Projekt eingebunden. Für dieses Beispiel muss man zusätzlich noch die <strong>vjslib </strong>einbinden. Wenn man raus gefunden hat welche Namespaces man einbinden muss geht das Erstellen des PDF's mit wenigen Zeilen Code. Weil ich das Beispiel übersichtlich halten wollte habe ich auf XSLT verzichtet und nur das <a href="http://de.wikipedia.org/wiki/Extensible_Stylesheet_Language_%E2%80%93_Formatting_Objects">XML-FO Beispiel von Wikipedia</a> benutzt.
 

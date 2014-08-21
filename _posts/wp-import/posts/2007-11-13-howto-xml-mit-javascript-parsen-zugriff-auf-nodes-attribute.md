@@ -73,9 +73,9 @@ Der Webservice hat folgende Methode:
 
             <span class="kwrd">return</span> ExampleDocument; 
         }</pre>
-<strong>Achtung:</strong> Da die AJAX Extensions (<a target="_blank" href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-grundlagen/">siehe auch dazu hier die Grundlagen</a>) immer ein Json zurückgeben, muss man erst das "ResponseFormat" auf "ResponseFormat.Xml" stellen.
+<strong>Achtung:</strong> Da die AJAX Extensions (<a target="_blank" href="{{BASE_PATH}}/artikel/howto-microsoft-aspnet-ajax-grundlagen/">siehe auch dazu hier die Grundlagen</a>) immer ein Json zurückgeben, muss man erst das "ResponseFormat" auf "ResponseFormat.Xml" stellen.
 Ansonsten einfaches einlesen der einzelnen XML "Example_X.xml" Datein und über den Webservice zurückgeben.
-Diesen Webservice jetzt noch als Scriptservice im Scriptmanager bekannt machen und gut ist (<a target="_blank" href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">das dazugehörige HowTo</a>).
+Diesen Webservice jetzt noch als Scriptservice im Scriptmanager bekannt machen und gut ist (<a target="_blank" href="{{BASE_PATH}}/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">das dazugehörige HowTo</a>).
 
 <strong><u>Einfaches Interface basteln</u></strong>
 
@@ -91,7 +91,7 @@ Unter den Buttons erfolgt dabei die Ausgabe und eine kurze Erklärung was da pas
 Das ist der Zugriff auf unser "nodeValue" "FooBar". In dem Screenshot kann man den Verlauf auch folgen: 
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image150.png"><img border="0" width="234" src="{{BASE_PATH}}/assets/wp-images/image-thumb129.png" alt="image" height="284" style="border: 0px" /></a> 
-(Ausschnitt aus dem Firebug - <a target="_blank" href="http://code-inside.de/blog/artikel/howto-webanwendung-debuggen-javascript-html-debuggen-mit-den-entsprechenden-tools/">siehe dazu HowTo JS debuggen</a>)
+(Ausschnitt aus dem Firebug - <a target="_blank" href="{{BASE_PATH}}/artikel/howto-webanwendung-debuggen-javascript-html-debuggen-mit-den-entsprechenden-tools/">siehe dazu HowTo JS debuggen</a>)
 
 <strong>Erklärung:</strong>
 
@@ -128,6 +128,6 @@ Getestet alles mit IE 7 und Firefox 2 - sollte aber generell bei allen Browsern 
 
 <strong>Links:</strong>
 
-<a target="_blank" href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-grundlagen/">HowTo - ASP.NET AJAX Grundlagen</a>
-<a target="_blank" href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">HowTo - Clientseitiger Aufruf von Webmethoden</a>
-<a target="_blank" href="http://code-inside.de/blog/artikel/howto-webanwendung-debuggen-javascript-html-debuggen-mit-den-entsprechenden-tools/">HowTo - JS debuggen</a>
+<a target="_blank" href="{{BASE_PATH}}/artikel/howto-microsoft-aspnet-ajax-grundlagen/">HowTo - ASP.NET AJAX Grundlagen</a>
+<a target="_blank" href="{{BASE_PATH}}/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">HowTo - Clientseitiger Aufruf von Webmethoden</a>
+<a target="_blank" href="{{BASE_PATH}}/artikel/howto-webanwendung-debuggen-javascript-html-debuggen-mit-den-entsprechenden-tools/">HowTo - JS debuggen</a>

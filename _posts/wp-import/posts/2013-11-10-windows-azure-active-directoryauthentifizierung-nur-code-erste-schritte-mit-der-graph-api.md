@@ -45,7 +45,7 @@ tags: [Azure, Azure AD, GraphAPI, REST]
 <p>Soweit ich das sehen konnte ist die Redirect-Geschichte fast identisch gemacht (nur gibt es dazu WSFed-Hilfklassen dazu). Der Callback wird über ein Modul gemacht – was unter umständen cleverer ist, aber mir zu magisch war. </p>
 <h3>Login mit Twitter oder Microsoft Account?</h3>
 <p><strong></strong><br>Ich habe bereits in der Vergangenheit zwei ähnliche Artikel geschrieben – wieder mit “Low-Level” Mitteln.</p>
-<p><a href="http://code-inside.de/blog/2012/10/14/twitter-login-in-asp-net-mvc-4-ohne-membership-co-nutzen/">Authentifizierung mit Twitter</a></p>
-<p><a href="http://code-inside.de/blog/2013/04/09/azure-access-control-service-microsoft-account-login-json-web-token-und-asp-net-ohne-wif-magic/">Authentifizierung mit Microsoft Account</a></p>
+<p><a href="{{BASE_PATH}}/2012/10/14/twitter-login-in-asp-net-mvc-4-ohne-membership-co-nutzen/">Authentifizierung mit Twitter</a></p>
+<p><a href="{{BASE_PATH}}/2013/04/09/azure-access-control-service-microsoft-account-login-json-web-token-und-asp-net-ohne-wif-magic/">Authentifizierung mit Microsoft Account</a></p>
 <h3><font style="font-weight: bold">Democode auf GitHub</font></h3>
 <p>Der Code vom Tool als auch von meiner “Basic”-Variante ist natürlich auf <a href="https://github.com/Code-Inside/Samples/tree/master/2013/WaadAuthAndGraph"><strong>GitHub</strong></a>. Die Secrets müsstet ihr natürlich mit euren austauschen. </p>

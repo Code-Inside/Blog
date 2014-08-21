@@ -55,7 +55,7 @@ tags: [ASP.NET MVC, Castle Windsor, DI, HowTo, IoC]
 
 <p><strong>Knackpunkt: Die Objekterzeugung</strong></p>
 
-<p>In einer normalen Anwendung könnte man, wie z.B. <a href="http://code-inside.de/blog/2010/06/27/howto-alle-implementationen-vom-interface-x-ber-castle-windsor-per-di-auflsen/">in diesem Post</a> erklärt, recht einfach über den IoC Container die Implementation reingeben. Allerdings wird ein Objekt zum HomeController vom MVC Framework erzeugt - dies übernimmt die <a href="http://msdn.microsoft.com/en-us/library/system.web.mvc.defaultcontrollerfactory.aspx">DefaultControllerFactory</a>.</p>
+<p>In einer normalen Anwendung könnte man, wie z.B. <a href="{{BASE_PATH}}/2010/06/27/howto-alle-implementationen-vom-interface-x-ber-castle-windsor-per-di-auflsen/">in diesem Post</a> erklärt, recht einfach über den IoC Container die Implementation reingeben. Allerdings wird ein Objekt zum HomeController vom MVC Framework erzeugt - dies übernimmt die <a href="http://msdn.microsoft.com/en-us/library/system.web.mvc.defaultcontrollerfactory.aspx">DefaultControllerFactory</a>.</p>
 
 <p>Zum Glück kann man auch eine eigene ControllerFactory schreiben. So würde es im Grunde aussehen:</p>
 

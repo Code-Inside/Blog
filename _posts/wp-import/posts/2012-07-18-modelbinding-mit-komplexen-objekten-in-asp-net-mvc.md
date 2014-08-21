@@ -8,7 +8,7 @@ categories: [HowTo]
 tags: [ASP.NET MVC, Modelbinding]
 ---
 {% include JB/setup %}
-<p>Vor einer ganzen Weile habe ich schon über das Thema <a href="http://code-inside.de/blog/2009/04/02/howto-daten-vom-view-zum-controller-bermitteln-bindings-in-aspnet-mvc/">Modelbinding (oder wie übertrage ich Daten vom View zum Controller)</a> geschrieben. Allerdings ist der Blogpost etwas älter und ging nur unzureichend auf komplexe Objekte und Auflistungen dieser ein.</p> <p><strong><u>Grundsatz:</u></strong> Das Modelbinding in ASP.NET MVC ist “relativ” clever und man kann <em>fast</em> alles binden. Man muss nur verstehen wie das Binding funktioniert und meist erklärt es sich, wenn man mal über Fiddler und co. nachschaut was per HTTP über die Leitung geht.</p> <p><strong>Objektmodell</strong></p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:3a1676be-2939-496e-98b5-8726e694d449" class="wlWriterEditableSmartContent"><pre name="code" class="c#">public class Foobar
+<p>Vor einer ganzen Weile habe ich schon über das Thema <a href="{{BASE_PATH}}/2009/04/02/howto-daten-vom-view-zum-controller-bermitteln-bindings-in-aspnet-mvc/">Modelbinding (oder wie übertrage ich Daten vom View zum Controller)</a> geschrieben. Allerdings ist der Blogpost etwas älter und ging nur unzureichend auf komplexe Objekte und Auflistungen dieser ein.</p> <p><strong><u>Grundsatz:</u></strong> Das Modelbinding in ASP.NET MVC ist “relativ” clever und man kann <em>fast</em> alles binden. Man muss nur verstehen wie das Binding funktioniert und meist erklärt es sich, wenn man mal über Fiddler und co. nachschaut was per HTTP über die Leitung geht.</p> <p><strong>Objektmodell</strong></p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:3a1676be-2939-496e-98b5-8726e694d449" class="wlWriterEditableSmartContent"><pre name="code" class="c#">public class Foobar
 {
     public string Buzz { get; set; }
 
@@ -34,7 +34,7 @@ tags: [ASP.NET MVC, Modelbinding]
 <p>Wenn man sich anschaut was über die Leitung geht ist da auch nichts kompliziertes dran:</p>
 <p><a href="{{BASE_PATH}}/assets/wp-images/image1576.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb737.png" width="558" height="255"></a></p>
 <p><strong>Variante 2: Formular via jQuery mit AJAX abschicken</strong>&nbsp;</p>
-<p>Den Trick hatte ich <a href="http://code-inside.de/blog/2010/02/09/howto-form-valuesinputs-ber-ajax-mit-jquery-serialize-bertragen/">bereits auch hier schon verraten</a>, aber um bei dem oberen Beispiel zu bleiben:</p>
+<p>Den Trick hatte ich <a href="{{BASE_PATH}}/2010/02/09/howto-form-valuesinputs-ber-ajax-mit-jquery-serialize-bertragen/">bereits auch hier schon verraten</a>, aber um bei dem oberen Beispiel zu bleiben:</p>
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a5df2755-bf9e-4556-ba98-50001e74631b" class="wlWriterEditableSmartContent"><pre name="code" class="c#">$("#FormButton").click(function () {
     $.ajax({
         url: "@Url.Action("Test", "Home")",
@@ -82,4 +82,4 @@ tags: [ASP.NET MVC, Modelbinding]
 <p>Durch den Content-Type: application/json nutzt das MVC Framework automatisch den JSON Modelbinder und die Daten kommen im Controller an.</p>
 <p><strong>Fazit</strong></p>
 <p>Man kann fast alles mit dem MVC Modelbinding machen wenn man ein paar Grundregeln beherrscht und ein Blick, was wirklich per HTTP übertragen wird hilft beim Debugging enorm.</p>
-<p>Die gesamte Demoapplikation findet ihr <a href="https://github.com/Code-Inside/Samples/tree/master/2012/MvcModelbinding"><strong>hier</strong></a> – allerdings ist da auch noch Code drin von diesem <a href="http://code-inside.de/blog/2012/07/12/error-404-directory-schlgt-asp-net-mvc-routing/">Blogpost</a>.</p>
+<p>Die gesamte Demoapplikation findet ihr <a href="https://github.com/Code-Inside/Samples/tree/master/2012/MvcModelbinding"><strong>hier</strong></a> – allerdings ist da auch noch Code drin von diesem <a href="{{BASE_PATH}}/2012/07/12/error-404-directory-schlgt-asp-net-mvc-routing/">Blogpost</a>.</p>

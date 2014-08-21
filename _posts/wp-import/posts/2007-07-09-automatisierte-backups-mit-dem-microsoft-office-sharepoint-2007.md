@@ -12,4 +12,4 @@ Das HowTo was hier stand, hab ich aus Übersichtsichtlichkeit in den Artikelbere
 
 In dem HowTo geht es um darum, wie man den SharePoint zu regelmäßigen, automatischen Backups überredet.
 
-<a href="http://code-inside.de/blog/artikel/howto-automatisierte-backups-mit-dem-microsoft-office-sharepoint-2007">[Hier gehts zum HowTo] </a>
+<a href="{{BASE_PATH}}/artikel/howto-automatisierte-backups-mit-dem-microsoft-office-sharepoint-2007">[Hier gehts zum HowTo] </a>

@@ -8,4 +8,4 @@ categories: [HowTo]
 tags: [Javascript, Tools]
 ---
 {% include JB/setup %}
-<p>... muss es aber nicht. Jedenfalls gibt es kleine Helferlein.</p> <p>In dem neuen HowTo geht es genau daraum: Was sind die "wichtigesten" Tools und was können sie ganz grob.</p> <p>[<a href="http://code-inside.de/blog/artikel/howto-webanwendung-debuggen-javascript-html-debuggen-mit-den-entsprechenden-tools/">Hier gehts zum HowTo</a>]</p>
+<p>... muss es aber nicht. Jedenfalls gibt es kleine Helferlein.</p> <p>In dem neuen HowTo geht es genau daraum: Was sind die "wichtigesten" Tools und was können sie ganz grob.</p> <p>[<a href="{{BASE_PATH}}/artikel/howto-webanwendung-debuggen-javascript-html-debuggen-mit-den-entsprechenden-tools/">Hier gehts zum HowTo</a>]</p>

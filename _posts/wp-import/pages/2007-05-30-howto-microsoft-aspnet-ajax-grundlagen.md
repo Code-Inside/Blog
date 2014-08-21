@@ -41,4 +41,4 @@ Ausblick: Wenn ich mal sehr viel Zeit habe, werd ich näheres zu den eigentliche
 
 Soviel erstmal dazu.
 
-<a href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-praktischer-anfang/" title="ASP.NET AJAX Praktischer Anfang">[Weiter zu Teil 2...]</a>
+<a href="{{BASE_PATH}}/artikel/howto-microsoft-aspnet-ajax-praktischer-anfang/" title="ASP.NET AJAX Praktischer Anfang">[Weiter zu Teil 2...]</a>

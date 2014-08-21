@@ -9,12 +9,12 @@ tags: []
 permalink: /artikel/howto-microsoft-silverlight-10-dynamische-spiegeleffekte
 ---
 {% include JB/setup %}
-In dem vorherigen HowTo <a href="http://code-inside.de/blog/artikel/howto-microsoft-silverlight-10-spiegeleffekte-erzeugen/">(Microsoft Silverlight 1.0 (Spiegeleffekte erzeugen))</a> ging es grob darum, wie man mit Blend 2 arbeitet.
+In dem vorherigen HowTo <a href="{{BASE_PATH}}/artikel/howto-microsoft-silverlight-10-spiegeleffekte-erzeugen/">(Microsoft Silverlight 1.0 (Spiegeleffekte erzeugen))</a> ging es grob darum, wie man mit Blend 2 arbeitet.
 Heute kommt daher noch ein kleiner Abschnitt, der eigentlich noch mit in dem letzten HowTo mit reinkommen sollte: Wie dynamisiere ich das jetzt?
 
 <strong>Schritt 1: Silverlight samt MS AJAX enabeld Projekt in Visual Studio erzeugen und den unsinnigen Kram rauswerfen</strong>
 
-Wie ausführlich beschrieben <a href="http://code-inside.de/blog/artikel/howto-microsoft-silverlight-10-praktischer-anfang/">hier</a> beschrieben, erzeugen wir ein ASP.NET AJAX enabeld Project (oder eine Website) und laden die benötigten Komponenten rein:
+Wie ausführlich beschrieben <a href="{{BASE_PATH}}/artikel/howto-microsoft-silverlight-10-praktischer-anfang/">hier</a> beschrieben, erzeugen wir ein ASP.NET AJAX enabeld Project (oder eine Website) und laden die benötigten Komponenten rein:
 
 - Silverlight.js (kommt direkt von MS und wurde von mir nicht angefasst)
 - default.html.js (wurde durch das Projekttemplate aus dem vorherigen HowTo erstellt und dort angepasst) :
@@ -156,4 +156,4 @@ function onComplete(result)
 
 Fertig - das Ergebnis ist das selbe, allerdings diesmal komplett mit Webservice. Toll, oder?
 
-<a href="http://code-inside.de/blog/artikel/howto-microsoft-silverlight-10-bilder-kippen-samt-spiegeleffekte/">[Hier gehts direkt zum nächsten HowTo: Microsoft Silverlight 1.0 (Bilder "kippen" mit Spiegeleffekten)]</a>
+<a href="{{BASE_PATH}}/artikel/howto-microsoft-silverlight-10-bilder-kippen-samt-spiegeleffekte/">[Hier gehts direkt zum nächsten HowTo: Microsoft Silverlight 1.0 (Bilder "kippen" mit Spiegeleffekten)]</a>

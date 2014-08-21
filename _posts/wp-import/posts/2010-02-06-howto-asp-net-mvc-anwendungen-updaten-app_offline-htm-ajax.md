@@ -76,7 +76,7 @@ tags: [AJAX, App_Offline, ASP.NET MVC, HowTo, Update]
 <p><strong>Lösung</strong></p>
 <p>Wie <a href="http://weblogs.asp.net/mschwarz/archive/2006/04/11/App_5F00_Offline.htm-and-Ajax.NET-Professional.aspx">hier vorgeschlagen</a> habe ich einfach einen besonderen HTML Kommentar in die Fehlerseite mit eingebaut:</p>
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:1803eea8-a55a-4776-bd26-1d22da5e0702" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;!--[AJAX_APP_OFFLINE_FLAG]--&gt;   </pre></div>
-<p>Jetzt kann ich z.B. über ein <a href="http://code-inside.de/blog/2010/01/26/howto-globales-exception-handling-fr-jquery-ajax-aufrufe/">globales AJAX Exception Handling</a> schauen ob dieser "Flag" vorkommt und wenn ja eine nettere Fehlermeldung ausgeben:</p>
+<p>Jetzt kann ich z.B. über ein <a href="{{BASE_PATH}}/2010/01/26/howto-globales-exception-handling-fr-jquery-ajax-aufrufe/">globales AJAX Exception Handling</a> schauen ob dieser "Flag" vorkommt und wenn ja eine nettere Fehlermeldung ausgeben:</p>
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:32d1d7f5-f30d-4460-a03a-7b8d2de3c9b5" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">$(document).ajaxError(function(e, xhr, settings, exception) {
             alert('Error!');
 

@@ -24,7 +24,7 @@ tags: [IIS, IIS7]
 
 <p>Wer auf dem IIS6 versucht hat "endunglose” URLs wie z.B. </p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:f442b90a-19f0-4fe6-9561-c4d824a1d5da" class="wlWriterEditableSmartContent"><pre name="code" class="c#">http://code-inside.de/blog/2010/05/16/howto-visual-studio-immer-als-admin-starten/</pre></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:f442b90a-19f0-4fe6-9561-c4d824a1d5da" class="wlWriterEditableSmartContent"><pre name="code" class="c#">{{BASE_PATH}}/2010/05/16/howto-visual-studio-immer-als-admin-starten/</pre></div>
 
 <p>Der musste entweder direkt am IIS etwas ändern oder etwas <a href="http://weblogs.asp.net/scottgu/archive/2007/02/26/tip-trick-url-rewriting-with-asp-net.aspx">rumbasteln</a>. Ähnliche Änderungen am IIS6 sind auch notwendig wenn man eine ASP.NET MVC Anwendung <a href="http://haacked.com/archive/2008/11/26/asp.net-mvc-on-iis-6-walkthrough.aspx">zum Laufen</a> bekommen will. </p>
 

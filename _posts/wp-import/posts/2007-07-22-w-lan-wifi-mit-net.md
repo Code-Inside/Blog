@@ -10,7 +10,7 @@ tags: [.NET, Windows, Wlan]
 {% include JB/setup %}
 Wer schon immer mal seinen eigenen W-Lan Scanner oder ein eigenes Verwaltungsprogramm für seine W-Lan Einstellungen schreiben will, für den ist der nachfolgende Text bestimmt interessant.
 
-Wer Signalstärke oder SSIDs scannen will, der kann sich wunderbar mit <a href="http://code-inside.de/blog/nachschlagewerk/system-management/" title="Code-Inside: System.Management">WMI</a> auseinander setzen. Über WMI kann man auf allerhand Hardware- und PC-Eigenschaften zugreifen. Mit .NET ist es auch leicht durch den Namespace System.Management möglich WMI anzusprechen.
+Wer Signalstärke oder SSIDs scannen will, der kann sich wunderbar mit <a href="{{BASE_PATH}}/nachschlagewerk/system-management/" title="Code-Inside: System.Management">WMI</a> auseinander setzen. Über WMI kann man auf allerhand Hardware- und PC-Eigenschaften zugreifen. Mit .NET ist es auch leicht durch den Namespace System.Management möglich WMI anzusprechen.
 
 W-Lan Eigenschaften wie das setzen der Authentifizierung kann jedoch nicht über WMI gesetzt werden. Um solche Details zu setzen muss erstmal eine Grundvoraussetzung gesetzt sein: Windows muss für die Verwaltung der W-Lan Einstellung verantwortlich sein. Sobald angenommen das Intel-Wireless-Lan-Tool läuft, geht mein folgender Weg nicht.
 

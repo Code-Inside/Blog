@@ -49,4 +49,4 @@ Jetzt kann man wie man will seine ASPX Seite zusammenbauen und die Vorzüge von 
 
 In einem nächsten Artikel werd ich dann zu den richtig interessanten Themen kommen - zum Beispiel clientseitige Aufrufe von Webdiensten oder die Einbindung des teilweise zickigen Toolkits.
 
-<a href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/" title="Microsoft ASP.NET AJAX (Clientseitiger Aufurf von Webmethoden)">[Zum nächsten HowTo: Microsoft ASP.NET AJAX (Clientseitiger Aufruf von Webmethoden)]</a>
+<a href="{{BASE_PATH}}/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/" title="Microsoft ASP.NET AJAX (Clientseitiger Aufurf von Webmethoden)">[Zum nächsten HowTo: Microsoft ASP.NET AJAX (Clientseitiger Aufruf von Webmethoden)]</a>

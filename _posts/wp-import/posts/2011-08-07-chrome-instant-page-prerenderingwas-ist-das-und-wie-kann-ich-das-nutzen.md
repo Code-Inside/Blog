@@ -26,7 +26,7 @@ tags: [Chrome, Google, Prerendering]
 
     
 
-&lt;a href="http://code-inside.de/blog"&gt;Link Code Inside&lt;/a&gt;
+&lt;a href="{{BASE_PATH}}"&gt;Link Code Inside&lt;/a&gt;
 
 &lt;/body&gt;
 
@@ -41,7 +41,7 @@ tags: [Chrome, Google, Prerendering]
 <p>Navigiert man nun über den Link zu Code-Inside.de wird erst dann das Laden der Seite angestoßen = <strong>Langsam</strong>.</p>
 <p><strong>Prerendering anschalten</strong></p>
 <p>Wenn wir nun noch Prerendering aktivieren wollen, müssen wir nur im<strong> &lt;head&gt; noch die Zeile</strong> <strong>einfügen</strong>:</p>
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:81a4ddc0-4d6f-4246-a3b0-fa6c16d84d9a" class="wlWriterEditableSmartContent"><pre name="code" class="c#">&lt;link rel="prerender" href="http://code-inside.de/blog"&gt;
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:81a4ddc0-4d6f-4246-a3b0-fa6c16d84d9a" class="wlWriterEditableSmartContent"><pre name="code" class="c#">&lt;link rel="prerender" href="{{BASE_PATH}}"&gt;
 
 
 

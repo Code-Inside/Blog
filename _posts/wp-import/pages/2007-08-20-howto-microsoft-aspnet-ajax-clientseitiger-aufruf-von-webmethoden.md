@@ -9,11 +9,11 @@ tags: []
 permalink: /artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden
 ---
 {% include JB/setup %}
-Diese mal geht es um das eigentlich tollste Feature von Microsofts ASP.NET AJAX Framework. Wie wiederholt <a href="http://code-inside.de/blog/2007/06/07/gute-und-schlechte-seiten-des-updatepanels/" title="böses Updatepanel">erwähnt</a> ist das UpdatePanel nicht wirklich ideal, da es erstmal alle Daten zum Server hinschickt und hinterher die Antwort zwar etwas weniger ist, aber trotzdem bei weitem nicht optimal ist.
+Diese mal geht es um das eigentlich tollste Feature von Microsofts ASP.NET AJAX Framework. Wie wiederholt <a href="{{BASE_PATH}}/2007/06/07/gute-und-schlechte-seiten-des-updatepanels/" title="böses Updatepanel">erwähnt</a> ist das UpdatePanel nicht wirklich ideal, da es erstmal alle Daten zum Server hinschickt und hinterher die Antwort zwar etwas weniger ist, aber trotzdem bei weitem nicht optimal ist.
 
 Daher gibt es so genannte "Scriptmethoden" - es ist eigentlich das, was viele Anfänger in der Webprogrammierung machen wollen: Aus Javascript eine C#/.NET Methode aufrufen.
 
-Wie man das ASP.NET AJAX Framework installiert, ist <a href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-praktischer-anfang/" title="HowTo: Microsoft ASP.NET AJAX">hier</a> beschrieben.
+Wie man das ASP.NET AJAX Framework installiert, ist <a href="{{BASE_PATH}}/artikel/howto-microsoft-aspnet-ajax-praktischer-anfang/" title="HowTo: Microsoft ASP.NET AJAX">hier</a> beschrieben.
 
 <strong>Schritt 1: ASP.NET AJAX enabled Web Site erstellen</strong>
 

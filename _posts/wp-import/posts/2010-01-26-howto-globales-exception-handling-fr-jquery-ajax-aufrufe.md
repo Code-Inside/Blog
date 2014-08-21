@@ -18,7 +18,7 @@ tags: [Error, Exception, Global, Handling, HowTo, jQuery]
  });</pre></div>
 <p>Hier wird ein jQuery AJAX Aufruf an "some.php" mit ein paar Daten gemacht. Im Erfolgsfall wird die success Funktion aufgerufen. Für den Fehlerfall (und einige andere) bietet jQuery noch die Möglichkeit Funktionen zu hinterlegen. (einfach eine error Funktion ähnlich wie success hinterlegen)</p>
 <p><strong>Das Problem dabei:</strong> </p>
-<p>In einem größeren Team wird es sicher einige Teammitglieder geben, die nicht an die Error-Funktion denken. Im Fehlerfall sollte dem Nutzer wenigstens gesagt werden, dass <a href="http://code-inside.de/blog/2009/04/28/howtocode-keep-it-simple-was-fliegt-dass-fliegt/">etwas schief gelaufen</a> ist. </p>
+<p>In einem größeren Team wird es sicher einige Teammitglieder geben, die nicht an die Error-Funktion denken. Im Fehlerfall sollte dem Nutzer wenigstens gesagt werden, dass <a href="{{BASE_PATH}}/2009/04/28/howtocode-keep-it-simple-was-fliegt-dass-fliegt/">etwas schief gelaufen</a> ist. </p>
 <p><strong>Die Lösung für jQuery:</strong></p>
 <p>Bei jQuery kann man <a href="http://api.jquery.com/category/ajax/global-ajax-event-handlers/">"globale" Events</a> abfangen. Über <a href="http://api.jquery.com/ajaxError/">ajaxError</a> kann man z.B. elegant Fehlermeldungen ausgeben - auch wenn ein "alert" nicht unbedingt elegant ist ;)</p>
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:57baa8b7-6fa9-4771-82ba-5c54eb596a01" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#"> $(document).ajaxError(function(e, xhr, settings, exception) {

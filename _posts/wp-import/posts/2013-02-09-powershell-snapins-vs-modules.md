@@ -23,7 +23,7 @@ RequiredAssemblies='Microsoft.IIS.PowerShell.Framework.dll'
 AliasesToExport='Begin-WebCommitDelay','End-WebCommitDelay'
 HelpInfoUri="http://go.microsoft.com/fwlink/?LinkID=216903"
 }</pre>
-<p>Die eigentliche Funktionalität des Powershell Moduls liegt in der Microsoft.IIS.PowerShell.Provider.dll im <a href="http://code-inside.de/blog/2013/02/07/mit-net-4-0-gibt-es-einen-neuen-gac/">CLR 4.0 GAC</a>.</p>
+<p>Die eigentliche Funktionalität des Powershell Moduls liegt in der Microsoft.IIS.PowerShell.Provider.dll im <a href="{{BASE_PATH}}/2013/02/07/mit-net-4-0-gibt-es-einen-neuen-gac/">CLR 4.0 GAC</a>.</p>
 <p><strong>Wie schreibe ich ein Windows Powershell Modul?</strong></p>
 <p>Grundsätzlich ist Entwicklung von .NET basierten Powershell Modulen ganz ähnlich von alten Snapins: <a href="http://blogs.msdn.com/b/saveenr/archive/2010/03/08/how-to-create-a-powershell-2-0-module-and-cmdlet-with-visual-studio-2010-screencast-included.aspx">How to Create a Powershell 2.0 Module and Cmdlet with Visual Studio 2010 (Screencast included)</a></p>
 <p>Eine gute Referenz sind auch die <a href="https://github.com/WindowsAzure/azure-sdk-tools/tree/master/WindowsAzurePowershell"><strong>Windows Azure CmdLets</strong></a>.</p>

@@ -39,6 +39,6 @@ tags: [Cloud, RavenDB, RavenHQ]
 <p><strong>Was gibt es Negatives?</strong></p>
 <p>Aktuell ist RavenHQ in US Rechenzentren gehostet, erst in ca. 2 Monaten stehen auch europäische Rechenzentren mit RavenDB bereit:</p>
 <p><a href="{{BASE_PATH}}/assets/wp-images/image1563.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb724.png" width="450" height="89"></a></p>
-<p>Natürlich sollte man <a href="http://code-inside.de/blog/2010/08/05/europische-data-center-von-microsoft-co-vs-us-patriot-act/">sich immer überlegen</a>, ob man die Daten fremdhosten möchte und wenn es um sensible Kundendaten geht den Kunden entsprechend auch aufmerksam machen. </p>
+<p>Natürlich sollte man <a href="{{BASE_PATH}}/2010/08/05/europische-data-center-von-microsoft-co-vs-us-patriot-act/">sich immer überlegen</a>, ob man die Daten fremdhosten möchte und wenn es um sensible Kundendaten geht den Kunden entsprechend auch aufmerksam machen. </p>
 <p><strong>RavenDB Lizenzieren oder auf RavenHQ “mit nutzen”</strong></p>
 <p>RavenDB ist Open Source, allerdings benötigt man für <a href="http://ravendb.net/licensing">den kommerziellen Einsatz eine Lizenz</a>. Wer RavenHQ nutzt, bekommt auch für Closed Source Applikationen eine Lizenz. Damit relativiert sich der Preis doch noch um einiges wie ich finde.</p>

@@ -116,7 +116,7 @@ namespace Timers.ConsoleApp
 
 <p><strong>Wahrscheinlich...</strong></p>
 
-<p>... gibt es noch weit mehr Varianten. Wie macht ihr irgendwelche zeitgesteuerten Jobs? Gut wäre natürlich eine skalierbare Lösung. Man kann das natürlich auch <a href="http://code-inside.de/blog/2010/04/21/howto-scheduled-tasks-mit-schtasks-lokal-remote-per-kommandozeile-administrieren/">per Scheduled Task</a> und einem Konsolenprogramm lösen, aber elegant ist das ja auch nicht ;)
+<p>... gibt es noch weit mehr Varianten. Wie macht ihr irgendwelche zeitgesteuerten Jobs? Gut wäre natürlich eine skalierbare Lösung. Man kann das natürlich auch <a href="{{BASE_PATH}}/2010/04/21/howto-scheduled-tasks-mit-schtasks-lokal-remote-per-kommandozeile-administrieren/">per Scheduled Task</a> und einem Konsolenprogramm lösen, aber elegant ist das ja auch nicht ;)
 
   <br />Wo meine Gedanken gerade Richtung Multithreading abschweifen: Richtig kompliziert wird es ja in Desktop-Apps bei multithreaded Geschichten wieder in den UI Thread zu schreiben - das ist aber ein anderes Thema :)</p>
 

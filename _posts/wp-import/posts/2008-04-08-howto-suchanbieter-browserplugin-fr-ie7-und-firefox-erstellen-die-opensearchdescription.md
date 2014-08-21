@@ -12,12 +12,12 @@ tags: [Browser, Firefox, HowTo, IE, IE7, OpenSearchDescription, Xml]
 &lt;OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"&gt;
 &lt;ShortName&gt;Code-Inside Blog&lt;/ShortName&gt;
 &lt;Description&gt;Blogging about .NET, ASP.NET, AJAX, Silverlight&lt;/Description&gt;
-&lt;Image height="16" width="16" type="image/x-icon"&gt;http://code-inside.de/blog/wp-content/themes/notso_freshd2/images/favicon.ico&lt;/Image&gt;
-&lt;Url type="text/html" method="get" template="http://code-inside.de/blog/?s={searchTerms}"/&gt;
+&lt;Image height="16" width="16" type="image/x-icon"&gt;{{BASE_PATH}}/wp-content/themes/notso_freshd2/images/favicon.ico&lt;/Image&gt;
+&lt;Url type="text/html" method="get" template="{{BASE_PATH}}/?s={searchTerms}"/&gt;
 &lt;/OpenSearchDescription&gt;</pre></div>
 </p>
 
-<p>Das wichtigste ist eigentlich der &quot;Url&quot; Tag in dem sp&#228;ter das Suchwort eingef&#252;gt wird - um sp&#228;ter direkt auf z.B. <a title="http://code-inside.de/blog/?s=AJAX" href="http://code-inside.de/blog/?s=AJAX">http://code-inside.de/blog/?s=AJAX</a> zu kommen.</p>
+<p>Das wichtigste ist eigentlich der &quot;Url&quot; Tag in dem sp&#228;ter das Suchwort eingef&#252;gt wird - um sp&#228;ter direkt auf z.B. <a title="{{BASE_PATH}}/?s=AJAX" href="{{BASE_PATH}}/?s=AJAX">{{BASE_PATH}}/?s=AJAX</a> zu kommen.</p>
 
 <p><strong><u>Einbindung in den Browser</u></strong></p>
 
@@ -26,7 +26,7 @@ tags: [Browser, Firefox, HowTo, IE, IE7, OpenSearchDescription, Xml]
 </ul>
 
 <p>
-  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:58a635f7-278f-4418-ac7a-aea3c0767f74" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;a href="#" onclick='window.external.AddSearchProvider("http://code-inside.de/blog/browserplugin.xml");'&gt;Code-Inside Blog&lt;/a&gt;</pre></div>
+  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:58a635f7-278f-4418-ac7a-aea3c0767f74" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;a href="#" onclick='window.external.AddSearchProvider("{{BASE_PATH}}/browserplugin.xml");'&gt;Code-Inside Blog&lt;/a&gt;</pre></div>
 </p>
 
 <p>&#220;ber den Javascript Aufruf &quot;AddSearchProvider&quot; kann man direkt die Funktion aufrufen und der Browser zeigt dann z.B. so ein Fenster:</p>
@@ -39,7 +39,7 @@ tags: [Browser, Firefox, HowTo, IE, IE7, OpenSearchDescription, Xml]
 
 <p>Bei der zweiten M&#246;glichkeit wird der Browser &#252;ber diesen Tag direkt &#252;ber das Plugin informiert:</p>
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:99a9de80-196e-41ea-9abf-e34c1fcfdaee" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">	&lt;link rel="search" type="application/opensearchdescription+xml" href="http://code-inside.de/blog/browserplugin.xml" title="Code-Inside Blog" /&gt;
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:99a9de80-196e-41ea-9abf-e34c1fcfdaee" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">	&lt;link rel="search" type="application/opensearchdescription+xml" href="{{BASE_PATH}}/browserplugin.xml" title="Code-Inside Blog" /&gt;
 </pre></div>
 
 <p>Damit wird ein Verweis auf das XML gelegt. Im Firefox f&#228;ngt dann das momentane Icon des Suchenfeldes leicht an zu gl&#252;hen:</p>

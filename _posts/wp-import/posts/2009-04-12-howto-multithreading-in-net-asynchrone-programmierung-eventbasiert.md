@@ -56,7 +56,7 @@ tags: [Async, HowTo, Multithreading]
 <p><strong>Erkl&#228;rung:
     <br /></strong>Es gibt zwei &#246;ffentliche Methoden (GetCustomers &amp; GetCustomersAsync) und ein Event (GetCustomersAsyncCompleted)&#160; und eine private Methode (OnGetCustomersAsyncCompleted). 
 
-  <br />Wer noch nie mit Events gearbeitet hat, der kann sich auch <a href="http://code-inside.de/blog/2008/07/12/howto-eigene-net-events-definieren-und-mit-unit-tests-testen/">mein HowTo</a> durchlesen.</p>
+  <br />Wer noch nie mit Events gearbeitet hat, der kann sich auch <a href="{{BASE_PATH}}/2008/07/12/howto-eigene-net-events-definieren-und-mit-unit-tests-testen/">mein HowTo</a> durchlesen.</p>
 
 <p>Die Methode &quot;<strong>GetCustomers</strong>&quot; macht unseren Fake Datenbankzugriff (daher dort das Thread.Sleep um eine Verz&#246;gerung bei der Verbindung zu zeigen) und gibt die Daten zur&#252;ck. <strong>Diese Methode ist synchron</strong> - wenn ein Client diese direkt so aufruft, dann blockiert im schlimmsten Fall der GUI Thread.</p>
 

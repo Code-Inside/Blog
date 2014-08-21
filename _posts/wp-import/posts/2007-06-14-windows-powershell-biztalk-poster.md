@@ -25,4 +25,4 @@ Eine letzte Sache noch, insbesondere für andere Blogger interessant: Der <a tar
 
 Darauf gestoßen bin ich zudem von diesen <a target="_blank" href="http://dotnetproject.blogspot.com/2007/06/free-powershell-book-with-examples.html" title="Dot Net Project Blog">Blogeintrag</a>.
 
-<a href="http://www.dotnetkicks.com/kick/?url=http://code-inside.de/blog/2007/06/14/windows-powershell-biztalk-poster/"><img border="0" src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://code-inside.de/blog/2007/06/14/windows-powershell-biztalk-poster/" alt="kick it on DotNetKicks.com" /></a>
+<a href="http://www.dotnetkicks.com/kick/?url={{BASE_PATH}}/2007/06/14/windows-powershell-biztalk-poster/"><img border="0" src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url={{BASE_PATH}}/2007/06/14/windows-powershell-biztalk-poster/" alt="kick it on DotNetKicks.com" /></a>

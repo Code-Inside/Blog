@@ -8,7 +8,7 @@ categories: [HowTo]
 tags: [.NET, Datenbank, HowTo, MySQL, SQL]
 ---
 {% include JB/setup %}
-In diesem <a target="_blank" href="http://code-inside.de/blog/2007/11/21/howto-datenbankverbindungen-net-ms-sql-2005/">HowTo</a> ging es um die Datenverbindung zwischen .NET und MS SQL. Natürlich bietet .NET von Haus aus einen MS SQL Provider, aber wie sieht es mit MySQL aus? Wie kann man mit .NET auf eine MySQL Datenbank zugreifen?
+In diesem <a target="_blank" href="{{BASE_PATH}}/2007/11/21/howto-datenbankverbindungen-net-ms-sql-2005/">HowTo</a> ging es um die Datenverbindung zwischen .NET und MS SQL. Natürlich bietet .NET von Haus aus einen MS SQL Provider, aber wie sieht es mit MySQL aus? Wie kann man mit .NET auf eine MySQL Datenbank zugreifen?
 
 Daher geht es um dieses Thema:
 

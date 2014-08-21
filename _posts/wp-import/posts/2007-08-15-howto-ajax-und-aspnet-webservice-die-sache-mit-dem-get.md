@@ -12,6 +12,6 @@ Da ich momentan in einem Projekt nicht das AJAX Framework von Microsoft nutzen s
 
 Mit ASP.NET ist es recht einfach Webservices (.asmx) zu erstellen. Mit dem AJAX Framework könnte man jetzt noch das "ScriptService"-Attribut drüber setzen und man könnte es bequem per Javascript abrufen. Da ich das allerdings nicht machen kann und somit alles nativ mit den Komponenten des XmlHttpRequest Objekt mache, ist es etwas anders.
 
-Da das dann doch ein längerer Artikel geworden ist, hab ich es als <a href="http://code-inside.de/blog/artikel/howto-ajax-und-aspnet-webservices/" title="HowTo: AJAX und ASP.NET Webservices">HowTo</a> veröffentlicht.
+Da das dann doch ein längerer Artikel geworden ist, hab ich es als <a href="{{BASE_PATH}}/artikel/howto-ajax-und-aspnet-webservices/" title="HowTo: AJAX und ASP.NET Webservices">HowTo</a> veröffentlicht.
 
 Grüße

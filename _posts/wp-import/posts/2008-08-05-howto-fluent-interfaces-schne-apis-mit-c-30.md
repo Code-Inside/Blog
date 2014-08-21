@@ -40,7 +40,7 @@ tags: [.NET 3.5, APIs, C# 3.0, Extension Methods, Fluent Interfaces, HowTo, Linq
         public int Age { get; set; }
         public string Name { get; set; }
     }</pre></div>
-<p>Der Aufbau ist ähnlich empfunden wie bei diesem <a href="http://code-inside.de/blog/2008/07/09/howto-3-tier-3-schichten-architektur/">Blogpost</a> - allerdings etwas vereinfacht (und sollte so nicht verwendet werden (Schnittstellen einbauen!))</p>
+<p>Der Aufbau ist ähnlich empfunden wie bei diesem <a href="{{BASE_PATH}}/2008/07/09/howto-3-tier-3-schichten-architektur/">Blogpost</a> - allerdings etwas vereinfacht (und sollte so nicht verwendet werden (Schnittstellen einbauen!))</p>
 <p>Unser DummyPersonRepository hat nur eine Methode, welche statisch ein paar Objekte erzeugt:</p>
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:6959de28-2f13-4cdc-ac22-507efaa38bec" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">    public class DummyPersonRepository 
     {

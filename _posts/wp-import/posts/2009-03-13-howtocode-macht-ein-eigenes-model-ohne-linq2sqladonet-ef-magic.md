@@ -32,7 +32,7 @@ tags: [ADO.NET EF;]
 
 <p><a href="{{BASE_PATH}}/assets/wp-images/image672.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb650.png" width="182" border="0" /></a> </p>
 
-<p>Das Problem kann man umgehen, wenn man stark darauf achtet, dass es nur eine Stelle gibt an der Daten geladen werden. So wird auch im <a href="http://code-inside.de/blog/2009/03/11/kostenloses-aspnet-mvc-tutorial-kapitel-sample-application-nerddinner/">MVC Buch von ScottGu</a> etc. empfohlen:</p>
+<p>Das Problem kann man umgehen, wenn man stark darauf achtet, dass es nur eine Stelle gibt an der Daten geladen werden. So wird auch im <a href="{{BASE_PATH}}/2009/03/11/kostenloses-aspnet-mvc-tutorial-kapitel-sample-application-nerddinner/">MVC Buch von ScottGu</a> etc. empfohlen:</p>
 
 <p><em>&quot;For small applications it is sometimes fine to have Controllers work directly against a LINQ to SQL DataContext class, and embed LINQ queries within the Controllers. As applications get larger, though, this approach becomes cumbersome to maintain and test. It can also lead to us duplicating the same
     <br />LINQ queries in multiple places.

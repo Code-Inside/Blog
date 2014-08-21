@@ -10,7 +10,7 @@ tags: [Arbeit, Job, Jobs, T-Systems Multimedia Solutions GmbH]
 {% include JB/setup %}
 <p style="text-align: center"> <img src="{{BASE_PATH}}/assets/wp-images/mitarbeiterwerben.jpg" onclick="window.location ='{{BASE_PATH}}/assets/wp-images/mitarbeiterwerben.jpg'; " style="border: 0px none " alt="mitarbiter werben" /></p>
  Das Unternehmen für das Robert und ich arbeiten, die <a href="http://www.t-systems-mms.com"> T-Systems Multimedia Solutions GmbH</a> sucht zur Zeit 200 Mitarbeiter Deutschland weit. Um die offenen Stellen zu besetzen wurde allen Mitarbeitern bis zu 1000‚¬ pro geworbenen Mitarbeiter geboten.
-Wir Teilen uns die Kohle mit dir! Schicke dazu nach erfolgreicher Bewerbung <a href="http://code-inside.de/blog/impressum/">eine Mail an Robert oder mich.</a> Weitere Informationen zur Bewerbung <a href="http://www.t-systems-mms.com/mms/de/Karriere/Stellenangebote/Bewerbung/bewerbung">findest du hier.</a>
+Wir Teilen uns die Kohle mit dir! Schicke dazu nach erfolgreicher Bewerbung <a href="{{BASE_PATH}}/impressum/">eine Mail an Robert oder mich.</a> Weitere Informationen zur Bewerbung <a href="http://www.t-systems-mms.com/mms/de/Karriere/Stellenangebote/Bewerbung/bewerbung">findest du hier.</a>
 
 Offene Stellen im Bereich IT
 <ul>

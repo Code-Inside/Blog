@@ -44,7 +44,7 @@ tags: [ASP.NET MVC, Autocomplete, jQuery, MVC]
     });
 &lt;/script&gt;
 &lt;/asp:Content&gt;</pre></div>
-<p>Am wichtigsten ist das "autocomplete" mit der URL. Alles weitere ist besser auf der <a href="http://docs.jquery.com/Plugins/Autocomplete">jQuery Plugin Projektseite</a> erklärt.<br><em>Hinweis:</em> <em>In meinem </em><a href="http://code-inside.de/blog/2009/08/25/howto-ajax-und-aspnet-mvc/"><em>AJAX und ASP.NET MVC Blogpost</em></a><em> erkläre ich noch andere AJAX Features.</em></p>
+<p>Am wichtigsten ist das "autocomplete" mit der URL. Alles weitere ist besser auf der <a href="http://docs.jquery.com/Plugins/Autocomplete">jQuery Plugin Projektseite</a> erklärt.<br><em>Hinweis:</em> <em>In meinem </em><a href="{{BASE_PATH}}/2009/08/25/howto-ajax-und-aspnet-mvc/"><em>AJAX und ASP.NET MVC Blogpost</em></a><em> erkläre ich noch andere AJAX Features.</em></p>
 <p><strong>Schritt 4: Controller + Action</strong></p>
 <p>Wie in dem Javascript zu sehen, wird per AJAX etwas an eine "Search" ActionMethod geschickt. Die Methode habe ich mit in den "Home" Controller gepackt:</p>
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:8ef8cbf5-9c6e-42bd-957d-dbc952e5e5d3" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">        public JsonResult Search(string q, int limit)

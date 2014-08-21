@@ -161,4 +161,4 @@ Der Text ist ein Zitat oder eine Überschrift.
 Diese Auszeichnung wird am meisten in XML verwendet und gewinnt daher an Einfluss.
 
 Die semantische Auszeichnung kann man sich wie eine Datenbank vorstellen und definiert nur die Struktur des Textes. Wie dieser formatiert und dargestellt wird, hat hier keine Bedeutung.
-<p align="center"><strong><a href="http://code-inside.de/blog/artikel/guide-xml-basiswissen/">[Fortsetzung: XML Basiswissen]</a></strong></p>
+<p align="center"><strong><a href="{{BASE_PATH}}/artikel/guide-xml-basiswissen/">[Fortsetzung: XML Basiswissen]</a></strong></p>

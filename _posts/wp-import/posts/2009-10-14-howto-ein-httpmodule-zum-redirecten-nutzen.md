@@ -35,6 +35,6 @@ tags: [HowTo, Http, HttpModule, Module]
 <p>Nun müssen wir das noch in der Web.config registrieren (unter httpmodule), z.B. so:</p>
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a41fd083-9795-4926-a2a9-1db1f70d016a" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">      &lt;add name="Redirect" type="Redirect, RedirectModul, Version=1.0.0.0, Culture=neutral"/&gt;
 </pre></div>
-<p>Beschreibung dazu <a href="http://code-inside.de/blog/2009/10/04/howto-full-qualified-type-name-klassentypnamen-richtig-schreiben/">hier</a>.</p>
+<p>Beschreibung dazu <a href="{{BASE_PATH}}/2009/10/04/howto-full-qualified-type-name-klassentypnamen-richtig-schreiben/">hier</a>.</p>
 <p>Eigentlich total easy. Die Geschichte mit dem Eventhandler muss man allerdings wissen ;)</p>
 <p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/redirectmodul/redirectmodul.zip">[ Download Democode ]</a></strong></p>

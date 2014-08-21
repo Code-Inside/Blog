@@ -29,7 +29,7 @@ tags: [ASP.NET, Health Monitoring, HowTo]
 &lt;/mailSettings&gt;
 &lt;/system.net&gt;</pre></div>
 
-<p>Zum Testen kann man auch einen <a href="http://code-inside.de/blog/2009/03/16/howto-senden-von-emails-testen-ohne-mailserver/">anderen ASP.NET Trick anwenden</a> - damit braucht man keinen SMTP Server.</p>
+<p>Zum Testen kann man auch einen <a href="{{BASE_PATH}}/2009/03/16/howto-senden-von-emails-testen-ohne-mailserver/">anderen ASP.NET Trick anwenden</a> - damit braucht man keinen SMTP Server.</p>
 
 <p><strong>Healthmonitoring:</strong></p>
 

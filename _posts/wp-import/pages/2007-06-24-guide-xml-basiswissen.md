@@ -204,4 +204,4 @@ Beispiel:
 Der Präfix ist im Prinzip nichts anderes als eine Erweiterung der URI.
 
 Statt rechner="http://www.test.de/schema" könnte man auch "http://www.test.de/schema/rechner" sagen.
-<p align="center"><a href="http://code-inside.de/blog/artikel/guide-xml-documenttype-definitions-dtds/" title="Code-Inside: Guide XML DTDs"><strong>[Fortsetzung: XML (DocumentType Definitions DTDs)]</strong></a></p>
+<p align="center"><a href="{{BASE_PATH}}/artikel/guide-xml-documenttype-definitions-dtds/" title="Code-Inside: Guide XML DTDs"><strong>[Fortsetzung: XML (DocumentType Definitions DTDs)]</strong></a></p>

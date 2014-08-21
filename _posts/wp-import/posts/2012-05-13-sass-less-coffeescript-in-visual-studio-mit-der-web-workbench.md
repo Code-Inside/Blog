@@ -39,7 +39,7 @@ $margin: 16px;
 <p>&nbsp;</p>
 <p><strong>Was ist LESS?</strong></p>
 <p><a href="{{BASE_PATH}}/assets/wp-images/image1545.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 5px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images/image_thumb709.png" width="212" height="117"></a></p>
-<p><a href="http://lesscss.org/">LESS</a> “the dynamic stylesheet language” hat einen ähnlichen Funktionsumfang wie SASS und verfolgt dasselbe Ziel. Ursprünglich war die Idee hier, dass der Client (über Javascript) das CSS erzeugt. Ich habe auch schon über LESS <a href="http://code-inside.de/blog/2011/06/28/lessdynamische-stylesheets-fr-net-entwickler/">hier gebloggt</a> und dort eine Serverseitige Variante mit dem Framework Combres gezeigt.</p>
+<p><a href="http://lesscss.org/">LESS</a> “the dynamic stylesheet language” hat einen ähnlichen Funktionsumfang wie SASS und verfolgt dasselbe Ziel. Ursprünglich war die Idee hier, dass der Client (über Javascript) das CSS erzeugt. Ich habe auch schon über LESS <a href="{{BASE_PATH}}/2011/06/28/lessdynamische-stylesheets-fr-net-entwickler/">hier gebloggt</a> und dort eine Serverseitige Variante mit dem Framework Combres gezeigt.</p>
 <p>&nbsp;</p>
 <p>Bsp:</p>
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c0366225-9d70-4966-a1c9-ebf1afc47fbc" class="wlWriterEditableSmartContent"><pre name="code" class="c#">@color: #4D926F;

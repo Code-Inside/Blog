@@ -10,7 +10,7 @@ permalink: /artikel/guide-xml-documenttype-definitions-dtds
 ---
 {% include JB/setup %}
 
-<p align="center"><a target="_blank" href="http://code-inside.de/blog/artikel/guide-xml-basiswissen/" title="Guide:XML (Basiswissen)"><strong>[Aufbauend auf den vorherigen Guide]</strong></a></p>
+<p align="center"><a target="_blank" href="{{BASE_PATH}}/artikel/guide-xml-basiswissen/" title="Guide:XML (Basiswissen)"><strong>[Aufbauend auf den vorherigen Guide]</strong></a></p>
 
 <h1><u>4. Documenttype Definitions</u></h1>
 Die Documenttype Definitionen beschreiben die Struktur von XML- und SGML Dokumenten. Es bestimmt die Struktur von Dokumenten. In einer DTD werden Attribute, Elemente usw. definiert.

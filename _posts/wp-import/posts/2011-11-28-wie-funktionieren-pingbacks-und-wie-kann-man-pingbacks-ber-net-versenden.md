@@ -16,7 +16,7 @@ tags: [HowTo, Pingback, XMLRPC]
 			&lt;value&gt;&lt;string&gt;http://www.bizzbingo.com/what-is/ravendb&lt;/string&gt;&lt;/value&gt;
 		&lt;/param&gt;
 		&lt;param&gt;
-			&lt;value&gt;&lt;string&gt;http://code-inside.de/blog-in/2011/11/05/use-ravendb-as-embedded-filebase/&lt;/string&gt;&lt;/value&gt;
+			&lt;value&gt;&lt;string&gt;{{BASE_PATH}}-in/2011/11/05/use-ravendb-as-embedded-filebase/&lt;/string&gt;&lt;/value&gt;
 		&lt;/param&gt;
 	&lt;/params&gt;
 &lt;/methodCall&gt;</pre></div>
@@ -202,7 +202,7 @@ tags: [HowTo, Pingback, XMLRPC]
             string source = "http://www.bizzbingo.com/what-is/ravendb";
 
             // source must contain the target link... otherwise: Error.
-            string target = "http://code-inside.de/blog-in/2011/11/05/use-ravendb-as-embedded-filebase/";
+            string target = "{{BASE_PATH}}-in/2011/11/05/use-ravendb-as-embedded-filebase/";
             Pingback.Send(new Uri(source), new Uri(target));</pre></div>
 <p>&nbsp;</p>
 
@@ -237,7 +237,7 @@ tags: [HowTo, Pingback, XMLRPC]
   &lt;params&gt;
     &lt;param&gt;
       &lt;value&gt;
-      &lt;string&gt;Pingback from http://www.bizzbingo.com/what-is/ravendb to http://code-inside.de/blog-in/2011/11/05/use-ravendb-as-embedded-filebase/ registered. Keep the web talking! :-)&lt;/string&gt;
+      &lt;string&gt;Pingback from http://www.bizzbingo.com/what-is/ravendb to {{BASE_PATH}}-in/2011/11/05/use-ravendb-as-embedded-filebase/ registered. Keep the web talking! :-)&lt;/string&gt;
       &lt;/value&gt;
     &lt;/param&gt;
   &lt;/params&gt;

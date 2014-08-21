@@ -275,7 +275,7 @@ tags: [ASP.NET MVC, Cascading, DropDown]
     
     &lt;/script&gt;</pre></div>
 <p>Auch dies könnte sicherlich nocht etwas schöner gestaltet werden, funktioniert aber erstmal und war ein Prototyp. Bei jedem changeXXX löschen wir die Daten der darunterliegenden Felder, da diese ja in Beziehung stehen und laden die Daten des direkten Kindelementes. </p>
-<p>Auch hier habe ich für die URLs die URL Helper genommen. Näheres dazu in <a href="http://code-inside.de/blog/2010/01/22/howto-asp-net-mvc-und-verlinkung-von-javascript-jquery-css-images-etc/">diesem Blogpost</a>.</p>
+<p>Auch hier habe ich für die URLs die URL Helper genommen. Näheres dazu in <a href="{{BASE_PATH}}/2010/01/22/howto-asp-net-mvc-und-verlinkung-von-javascript-jquery-css-images-etc/">diesem Blogpost</a>.</p>
 <p><strong>Im Fehlerfall</strong></p>
 <p>Nun hat der User seine Auswahl getroffen und drückt auf "Submit". Wir übertragen die ausgewählten Daten und laden diese im Backend neu und zeigen wieder den View an. Damit bleiben seine gewählten Daten erhalten und der User freut sich:</p>
 <p><a href="{{BASE_PATH}}/assets/wp-images/image918.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="135" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb103.png" width="244" border="0"></a> </p>

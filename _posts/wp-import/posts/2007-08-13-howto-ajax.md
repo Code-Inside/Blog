@@ -12,4 +12,4 @@ Diesmal gehts eigentlich um die Grundlagen von AJAX  - komplett ohne Framework,
 
 Viel spass.
 
-<a target="_blank" href="http://code-inside.de/blog/artikel/howto-ajax/" title="Code-Inside: HowTo: AJAX">[Zum Artikel]</a>
+<a target="_blank" href="{{BASE_PATH}}/artikel/howto-ajax/" title="Code-Inside: HowTo: AJAX">[Zum Artikel]</a>

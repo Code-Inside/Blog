@@ -49,7 +49,7 @@ Dabei ist eigentlich nur das "position: absolute" wichtig.
 
 <strong>Schritt 3: Javascript hinzufügen</strong>
 
-Jedes Tag kann über "showMouseOver" einen Text übergeben und das Schlüsselwort event um auf die Mausposition zuzugreifen (dies hatte ich bei <a target="_blank" href="http://code-inside.de/blog/2007/10/31/howto-mauseingaben-javascript-wie-bastelt-man-ein-paint-mit-javascript/">diesem HowTo</a> nicht berücksichtig - dort wird der Eventhandler programmatisch zugeordnet, was aber nicht notwenig ist). Bei onmouseout muss dieser Detailtext wieder ausgeblendet werden - über "hideMouseOver".
+Jedes Tag kann über "showMouseOver" einen Text übergeben und das Schlüsselwort event um auf die Mausposition zuzugreifen (dies hatte ich bei <a target="_blank" href="{{BASE_PATH}}/2007/10/31/howto-mauseingaben-javascript-wie-bastelt-man-ein-paint-mit-javascript/">diesem HowTo</a> nicht berücksichtig - dort wird der Eventhandler programmatisch zugeordnet, was aber nicht notwenig ist). Bei onmouseout muss dieser Detailtext wieder ausgeblendet werden - über "hideMouseOver".
 <ul>
 	<li>Javascript Funktionen:
 <ul>

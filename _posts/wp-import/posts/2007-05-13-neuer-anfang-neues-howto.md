@@ -11,4 +11,4 @@ tags: [Google, Google Maps, HowTo]
 Nachdem es in der letzten Zeit etwas stressiger bei mir und meinen Kollegen war, gibt es nun wieder einen neuen, kleinen HowTo Eintrag. Es geht diesmal um die Google Maps API.
 
 Näheres gibts hier zu bestaunen:
-<a href="http://code-inside.de/blog/?page_id=19" title="How To: Google Maps API">HowTo: Google Maps API (Grundvoraussetzungen)</a>
+<a href="{{BASE_PATH}}/?page_id=19" title="How To: Google Maps API">HowTo: Google Maps API (Grundvoraussetzungen)</a>

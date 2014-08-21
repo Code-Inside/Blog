@@ -15,7 +15,7 @@ tags: [Configs, ConfigSection, Custom, HowTo]
     &lt;add name="..."/&gt;
   &lt;/authors&gt;
 &lt;/codeInsideConfig&gt;</pre></div>
-<p>Der Vorteil gegenüber den normalen <a href="http://code-inside.de/blog/2009/10/01/howto-settings-aus-der-web-config-in-einer-bibliothek-auslesen/">AppSettings</a> ist natürlich, dass man Hierarchien aufbauen kann und dass man im Code auch typsicher sein kann. Wenn man viele Konfigurationen in den AppSettings hat, geht zudem stark der Überblick verloren. </p>
+<p>Der Vorteil gegenüber den normalen <a href="{{BASE_PATH}}/2009/10/01/howto-settings-aus-der-web-config-in-einer-bibliothek-auslesen/">AppSettings</a> ist natürlich, dass man Hierarchien aufbauen kann und dass man im Code auch typsicher sein kann. Wenn man viele Konfigurationen in den AppSettings hat, geht zudem stark der Überblick verloren. </p>
 <p><strong>Konfiguration: "Backend"</strong></p>
 <p><a href="{{BASE_PATH}}/assets/wp-images/image865.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="101" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb50.png" width="244" align="left" border="0"></a> Die Definition der ConfigSection mache ich in einem Klassenbibliotheks-Projekt. Es gibt 3 Teile: Die "CodeInsideConfig", welche den codeInsideConfig Tag beschreibt. Dann die "CodeInsideConfigAuthor" Klasse, welche den Aufbau eines "Authoren" beschreibt und die Collection davon.</p>
 <p>Wichtig noch zu Wissen: Die System.Configuration DLL muss mit eingebunden werden.</p>
@@ -113,7 +113,7 @@ tags: [Configs, ConfigSection, Custom, HowTo]
 		...
 		&lt;section name="codeInsideConfig" type="YourOwnConfigSection.Infrastructure.CodeInsideConfig"/&gt;
 	&lt;/configSections&gt;</pre></div>
-<p><em><a href="http://code-inside.de/blog/2009/10/04/howto-full-qualified-type-name-klassentypnamen-richtig-schreiben/">(Infos zur Type Bezeichnung)</a></em></p>
+<p><em><a href="{{BASE_PATH}}/2009/10/04/howto-full-qualified-type-name-klassentypnamen-richtig-schreiben/">(Infos zur Type Bezeichnung)</a></em></p>
 <p>Nun können wir einfach unsere codeInsideConfig in die Web.config schreiben.</p>
 <p><strong>Zugriff auf die Konfiguration</strong></p>
 <p>Man kann nun entweder immer über "ConfigurationSettings.GetConfig('CONFIGNAME')" zugreifen und dann in den entsprechenden Typ casten oder man nutzt z.B. solch eine statische Methode.</p>

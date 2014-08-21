@@ -28,7 +28,7 @@ Es gibt auch bereits Provider für alles mögliche - z.B. auch für <a href="htt
 
 <strong>Schritt 1: Web Site anlegen &amp; ASP.NET Configuration starten</strong>
 
-Ich empfehle eine "Web Site", weil es in Zusammenhang mit dem Profil System und "Web Projects" zu <a href="http://code-inside.de/blog/2008/01/23/howto-aspnet-profile-system-mit-web-projects-nutzen-visual-studio-20052008/">Problemen kommen kann</a>. Visual Studio sollte zudem möglichst unter dem Admin Konto ausgeführt werden - bei mir hat es ansonsten immer mal geklemmt.
+Ich empfehle eine "Web Site", weil es in Zusammenhang mit dem Profil System und "Web Projects" zu <a href="{{BASE_PATH}}/2008/01/23/howto-aspnet-profile-system-mit-web-projects-nutzen-visual-studio-20052008/">Problemen kommen kann</a>. Visual Studio sollte zudem möglichst unter dem Admin Konto ausgeführt werden - bei mir hat es ansonsten immer mal geklemmt.
 
 Sobald man solch ein Web Site angelegt hat, gibt es im Menü den Punkt "Website", dort einfach auf "ASP.NET Configuration" gehen:
 

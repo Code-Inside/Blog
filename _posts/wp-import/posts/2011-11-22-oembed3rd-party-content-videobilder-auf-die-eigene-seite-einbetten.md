@@ -53,7 +53,7 @@ tags: [HowTo, oEmbed]
 <p><strong>oEmbed Rückgaben</strong></p>
 <p>Laut Standard kann als Ergebnis entweder XML oder JSON zurückkommen, allerdings ist heute JSON eher gebräuchlich. YouTube unterstützt aber z.B. beides.</p>
 <p><strong>jQuery oEmbed Bibliothek</strong></p>
-<p>Es gibt auch eine <a href="http://code.google.com/p/jquery-oembed/">jQuery Bibliothek</a> um diese Services abzufragen. Dabei wird auf <a href="http://code-inside.de/blog/2009/12/11/howto-cross-domain-ajax-mit-jsonp-und-asp-net/">JSONP</a> zurückgegriffen.</p>
+<p>Es gibt auch eine <a href="http://code.google.com/p/jquery-oembed/">jQuery Bibliothek</a> um diese Services abzufragen. Dabei wird auf <a href="{{BASE_PATH}}/2009/12/11/howto-cross-domain-ajax-mit-jsonp-und-asp-net/">JSONP</a> zurückgegriffen.</p>
 <p><strong>embed.ly – oEmbed Hub</strong></p>
 <p><a href="{{BASE_PATH}}/assets/wp-images/image1393.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 5px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images/image_thumb575.png" width="186" height="72"></a></p>
 <p>Durch oEmbed ist das Format vorgegeben, jedoch muss man trotzdem dutzende Provider einzeln anfragen und die entsprechenden URLs wissen. Mit dem Dienst embed.ly kann man auch auf eine Art “Hub” zurückgreifen. <strong>Embed.ly</strong> stellt einen oEmbed Endpunkt bereit und man kann <a href="http://embed.ly/providers">“fast” jede Adresse</a> an embed.ly senden und man bekommt meist eine passende Antwort.</p>

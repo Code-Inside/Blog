@@ -43,7 +43,7 @@ Bei Tools möchte ich mal eine Trennung zwischen "ist für Designer geeignet" un
 <ul>
 	<li><a href="http://msdn2.microsoft.com/en-us/library/ms742398.aspx" target="_blank">XAMLPad</a>: Das Ursprungstool von Microsoft. Dieses ist enthalten im <a href="http://www.microsoft.com/downloads/details.aspx?familyid=C2B1E300-F358-4523-B479-F53D234CDCCF&amp;displaylang=en" target="_blank">Windows SDK</a>.</li>
 	<li><a href="http://blogs.msdn.com/llobo/archive/2007/12/22/xamlpadx-v3-0.aspx" target="_blank">XAMLPadX V3</a>: Eine Erweiterung welche ich auf diesem <a href="http://blogs.msdn.com/llobo/default.aspx" target="_blank">Blog</a> gefunden habe. Es unterstützt auch <a href="http://blogs.msdn.com/llobo/archive/2007/12/26/creating-addins-for-xamlpadx.aspx" target="_blank">Plugins</a>. Leider ohne IntelliSense momentan.</li>
-	<li>Visual Studio: VS 2008 bietet große Unterstützung - für Visual Studio 2005 gibt es ein <a href="http://code-inside.de/blog/2007/10/30/howto-visual-studio-2005-fr-net-30-wpf-wcf-wf-rsten/" target="_blank">AddIn</a>, welches allerdings auch mehr schlecht als recht ist.</li>
+	<li>Visual Studio: VS 2008 bietet große Unterstützung - für Visual Studio 2005 gibt es ein <a href="{{BASE_PATH}}/2007/10/30/howto-visual-studio-2005-fr-net-30-wpf-wcf-wf-rsten/" target="_blank">AddIn</a>, welches allerdings auch mehr schlecht als recht ist.</li>
 	<li><a href="http://notstatic.com/archives/121" target="_blank">Kaxaml 1.0</a>: Ein Geheimtipp wie ich finde. Sehr schick umgesetzt und sogar mit IntelliSense - daher aus meiner Sicht momentan besser als XAMLPad oder XAMLPADX V3.</li>
 </ul>
 </li>
@@ -71,7 +71,7 @@ Aus der Blogszene kommt auch einige interessante Infos, z.B. aus dem deutschen B
 	<li><a href="http://blog.norberteder.com/index.php?entry=entry071024-092559" target="_blank">WPF Teil 2: Windows Presentation Foundation oder doch lieber Windows Forms?</a></li>
 	<li><a href="http://blog.norberteder.com/index.php?entry=entry080102-202416" target="_blank">WPF Teil 3: Das Softwaredesign will gut überlegt sein</a></li>
 </ul>
-Es gibt noch viele weitere interessante Posts (unter anderem einige bei Norbert), z.B. ein <a href="http://vb-magazin.de/forums/blogs/janm/archive/2007/12/27/14373.aspx" target="_blank">WPF ICQ Client</a> oder <a href="http://code-inside.de/blog/2008/01/17/howto-wpf-windows-mit-dem-vista-glass-effekt-ausstatten/" target="_blank">Vista Glass Effekt in WPF</a> - ansonsten auch die anderen Blogs welche in diesem Post waren.
+Es gibt noch viele weitere interessante Posts (unter anderem einige bei Norbert), z.B. ein <a href="http://vb-magazin.de/forums/blogs/janm/archive/2007/12/27/14373.aspx" target="_blank">WPF ICQ Client</a> oder <a href="{{BASE_PATH}}/2008/01/17/howto-wpf-windows-mit-dem-vista-glass-effekt-ausstatten/" target="_blank">Vista Glass Effekt in WPF</a> - ansonsten auch die anderen Blogs welche in diesem Post waren.
 
 <strong>Lohnt sich WPF?</strong>
 

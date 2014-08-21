@@ -8,7 +8,7 @@ categories: [HowTo]
 tags: [.NET, .NET 2.0, ATOM, Google, HowTo, Xml, YouTube]
 ---
 {% include JB/setup %}
-Vor einige Zeit habe ich bereits in einem meiner <a target="_blank" href="http://code-inside.de/blog/2007/12/24/wchentliche-rundablage-aspnet-mvc-aspnet-35-adonet-data-services-astoria-aspnet-ajax-silverlight/">Wöchentlichen Rundablagen</a> diesen interessanten Blogeintrag gefunden: <a href="http://www.dotneat.net/2007/12/20/QueryingYoutubeAPIUsingC.aspx">Querying Youtube API using C#</a>
+Vor einige Zeit habe ich bereits in einem meiner <a target="_blank" href="{{BASE_PATH}}/2007/12/24/wchentliche-rundablage-aspnet-mvc-aspnet-35-adonet-data-services-astoria-aspnet-ajax-silverlight/">Wöchentlichen Rundablagen</a> diesen interessanten Blogeintrag gefunden: <a href="http://www.dotneat.net/2007/12/20/QueryingYoutubeAPIUsingC.aspx">Querying Youtube API using C#</a>
 
 Aufbauend auf diesen, habe ich mich selber mit der YouTube API beschäftigt und schreib mal etwas darüber.
 
@@ -111,7 +111,7 @@ Runterladen könnt ihr das Demoprojekt natürlich auch - ich hab es diesmal mit 
 
 <strong>Links:</strong>
 <ul>
-	<li><a target="_blank" href="http://code-inside.de/blog/2007/12/24/wchentliche-rundablage-aspnet-mvc-aspnet-35-adonet-data-services-astoria-aspnet-ajax-silverlight/">Blogeintrag: Wöchentliche Rundablage</a></li>
+	<li><a target="_blank" href="{{BASE_PATH}}/2007/12/24/wchentliche-rundablage-aspnet-mvc-aspnet-35-adonet-data-services-astoria-aspnet-ajax-silverlight/">Blogeintrag: Wöchentliche Rundablage</a></li>
 	<li><a target="_blank" href="http://www.dotneat.net/2007/12/20/QueryingYoutubeAPIUsingC.aspx">Blogeintrag: Querying Youtube API using C#</a></li>
 	<li>YouTube nach U2 absuchen: <a href="http://gdata.youtube.com/feeds/videos?q=u2">http://gdata.youtube.com/feeds/videos?q=u2</a></li>
 	<li><a target="_blank" href="http://code.google.com/apis/youtube/overview.html">Google Code - YouTube API</a></li>

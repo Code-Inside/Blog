@@ -34,7 +34,7 @@ SOAP 1.1
 SOAP 1.2
 HTTP POST
 
-Mhhh... Get wird erstmal nicht Angeboten - naja - wird bestimmt auch so gehen (da die meisten Beispiele mit POST funktionieren, werden nur wenige es versucht haben <img src="http://code-inside.de/blog/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> )
+Mhhh... Get wird erstmal nicht Angeboten - naja - wird bestimmt auch so gehen (da die meisten Beispiele mit POST funktionieren, werden nur wenige es versucht haben <img src="{{BASE_PATH}}/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> )
 Was noch wichtig ist: Die URL zum Aufrufen ist immer <em>ServiceName.asmx/Method</em> oder bei uns "Welcome.asmx/GetHelloMessage”.
 
 <strong>Variante 1: Daten per POST</strong>

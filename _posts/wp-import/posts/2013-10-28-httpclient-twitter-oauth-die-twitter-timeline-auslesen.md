@@ -18,7 +18,7 @@ tags: [HttpClient, OAuth, Twitter]
 <p><a href="{{BASE_PATH}}/assets/wp-images/image1935.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb1072.png" width="582" height="136"></a></p>
 <p>Nicht ganz einfach – aber wenn man den Dreh raus hat, ist es gar nicht so schwierig.</p>
 <h3><font style="font-weight: bold">“Login with Twitter”?</font></h3>
-<p>Wer nach dem “Login with Twitter” Thema sucht, der könnte <a href="http://code-inside.de/blog/2012/10/14/twitter-login-in-asp-net-mvc-4-ohne-membership-co-nutzen/">hier</a> fündig werden.</p>
+<p>Wer nach dem “Login with Twitter” Thema sucht, der könnte <a href="{{BASE_PATH}}/2012/10/14/twitter-login-in-asp-net-mvc-4-ohne-membership-co-nutzen/">hier</a> fündig werden.</p>
 <h3><font style="font-weight: bold">Quellen</font></h3>
 <p>Der <a href="http://www.jayway.com/2012/03/13/httpclient-makes-get-and-post-very-simple/">Blogpost geht auf den HttpClient näher</a> ein. Die <a href="http://stackoverflow.com/questions/17067996/authenticate-and-request-a-users-timeline-with-twitter-api-1-1-oauth">Antwort in diesem Stackoverflow Thread</a> ist die Quelle des Source Codes – allerdings mit der “alten” WebClient Variante.</p>
 <p>Happy Coding!</p>

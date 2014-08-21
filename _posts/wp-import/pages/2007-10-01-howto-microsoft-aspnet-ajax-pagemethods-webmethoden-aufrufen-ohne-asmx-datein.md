@@ -9,14 +9,14 @@ tags: []
 permalink: /artikel/howto-microsoft-aspnet-ajax-pagemethods-webmethoden-aufrufen-ohne-asmx-datein
 ---
 {% include JB/setup %}
-In <a href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">diesem</a> HowTo erklärte ich, wie man eine ASMX Datei so erweitern kann, dass man die Methoden auch über Javascript (und über den ScriptManager) zugänglich macht.
+In <a href="{{BASE_PATH}}/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">diesem</a> HowTo erklärte ich, wie man eine ASMX Datei so erweitern kann, dass man die Methoden auch über Javascript (und über den ScriptManager) zugänglich macht.
 Da man allerdings nicht immer eine ASMX Datei erstellen will um vielleicht nur eine kleine Aufgabe zu erledigen gibt es die so genannten PageMethods.
 
 Da das nicht weiter schwer ist, werde ich kurz die Schritte zeigen:
 
 <strong>Schritt 1: AJAX Enabeld Website erstellen &amp; ScriptManager anpassen</strong>
 
-Durch das Template (wie man das bekommt, ist <a href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-praktischer-anfang/">hier</a> beschrieben)
+Durch das Template (wie man das bekommt, ist <a href="{{BASE_PATH}}/artikel/howto-microsoft-aspnet-ajax-praktischer-anfang/">hier</a> beschrieben)
 
 <em>&lt;asp:ScriptManager ID="ScriptManager1" runat="server" <strong>EnablePageMethods="True"</strong> /&gt;</em>
 

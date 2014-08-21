@@ -13,7 +13,7 @@ tags: [AJAX, ASP.NET, ASP.NET AJAX, Dynamic, HowTo]
     Fertig geladen \o/
 &lt;/div&gt;</pre></div>
 <p><strong>Der ScriptService:</strong></p>
-<p>Für die Kommunikation zwischen Client und Server (und die AJAX Funktionalität) nutzen wir ASP.NET AJAX. Wie das geht und was man damit machen kann, habe ich <a href="http://code-inside.de/blog/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">hier</a> bereits beschrieben.</p>
+<p>Für die Kommunikation zwischen Client und Server (und die AJAX Funktionalität) nutzen wir ASP.NET AJAX. Wie das geht und was man damit machen kann, habe ich <a href="{{BASE_PATH}}/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">hier</a> bereits beschrieben.</p>
 <p>Im ScriptService (der auch das Attribut ScriptService trägt) erstellen wir uns dynamisch den HTML Code von einem beliebigen Usercontrol:</p>
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:73f11a0f-fca3-41fc-a6fe-d9304c39096b" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">public class ScriptService : System.Web.Services.WebService
     {

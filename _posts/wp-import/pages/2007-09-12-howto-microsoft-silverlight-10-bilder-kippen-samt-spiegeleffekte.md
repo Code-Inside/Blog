@@ -9,7 +9,7 @@ tags: []
 permalink: /artikel/howto-microsoft-silverlight-10-bilder-kippen-samt-spiegeleffekte
 ---
 {% include JB/setup %}
-<a href="http://code-inside.de/blog/artikel/howto-microsoft-silverlight-10-dynamische-spiegeleffekte/">Gestern</a> ging es ja um die ersten "dynamischen" Berührungspunkte mit Silverlight - das fetzt zwar ja - aber noch nicht richtig. Text zu spiegel ist natürlich klasse, aber was ist denn mit Bildern oder gar Videos? Da ich momentan keine Videos zur Verfügung habe, werde ich das einfach mal anhand eines Bildes machen.
+<a href="{{BASE_PATH}}/artikel/howto-microsoft-silverlight-10-dynamische-spiegeleffekte/">Gestern</a> ging es ja um die ersten "dynamischen" Berührungspunkte mit Silverlight - das fetzt zwar ja - aber noch nicht richtig. Text zu spiegel ist natürlich klasse, aber was ist denn mit Bildern oder gar Videos? Da ich momentan keine Videos zur Verfügung habe, werde ich das einfach mal anhand eines Bildes machen.
 
 <strong>Grundproblematik:</strong> Silverlight nutzt zwar Teile von WPF, aber eben nur Teile. Eine wichtige Funktionalität fehlt bislang vollkommen (traurigerweise) : 3D. Es gibt zwar "3D" Beispiele mit Silverlight (das Beispiel von <a target="_blank" href="http://www.telerik.com/demos/aspnet/silverlight/Cube/Examples/RoomDesigner/DefaultCS.aspx">Telerik</a>), allerdings wenn man hinschaut, hat das nicht viel mit 3D zutun. Die Würfel werden nur verzerrt dargestellt, sodass es beinah aussieht wie 3D. Eigentlich müssten die Kanten nach hinten kürzer werden, bei dem Beispiel verändern sie sich aber kein Stück.
 

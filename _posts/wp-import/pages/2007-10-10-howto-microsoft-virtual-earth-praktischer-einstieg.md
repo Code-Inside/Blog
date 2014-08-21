@@ -11,7 +11,7 @@ permalink: /artikel/howto-microsoft-virtual-earth-praktischer-einstieg
 {% include JB/setup %}
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image64.png"><img border="0" width="191" src="{{BASE_PATH}}/assets/wp-images/image-thumb43.png" alt="image" height="55" style="border: 0px" /></a>
 
-Nachdem ich bereits sehr kurz mal <a target="_blank" href="http://code-inside.de/blog/artikel/howto-google-maps-api-grundvoraussetzungen/">Google Map</a> angerissen habe, möchte ich mich nun etwas intensiver mit Microsofts Variante beschäftigen: <a target="_blank" href="http://maps.live.de/LiveSearch.LocalLive">Virtual Earth</a>.
+Nachdem ich bereits sehr kurz mal <a target="_blank" href="{{BASE_PATH}}/artikel/howto-google-maps-api-grundvoraussetzungen/">Google Map</a> angerissen habe, möchte ich mich nun etwas intensiver mit Microsofts Variante beschäftigen: <a target="_blank" href="http://maps.live.de/LiveSearch.LocalLive">Virtual Earth</a>.
 
 Anders als Googles Dienst, kann man den Microsoft Dienst <strong>ohne</strong> Anmeldung nutzen und die Regeln für das Nutzen des Dienstes ist nicht ganz so streng.
 Man kann zum Beispiel in einem Windows Programm (wie das geht erklär ich hoffentlich ein ander mal ;) ) Live Daten mit Virtual Earth anzeigen - bei Google Maps gabs wohl da Probleme (rechtliche - technisch bestimmt ebenso machbar), aber es kann sein, dass ich mich hier täusche.

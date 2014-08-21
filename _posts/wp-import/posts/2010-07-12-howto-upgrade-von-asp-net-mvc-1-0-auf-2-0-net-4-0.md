@@ -20,7 +20,7 @@ tags: [ASP.NET MVC, HowTo]
 
 <p><strong>Render View To String</strong></p>
 
-<p>In einem <a href="http://code-inside.de/blog/2010/01/29/howto-excel-export-mit-asp-net-mvc-und-render-view-to-string/">HowTo</a> ging es darum, wie man das Ergebnis eines Views als String zurückbekommt um dies z.B. für Email-Templates zu verwenden.
+<p>In einem <a href="{{BASE_PATH}}/2010/01/29/howto-excel-export-mit-asp-net-mvc-und-render-view-to-string/">HowTo</a> ging es darum, wie man das Ergebnis eines Views als String zurückbekommt um dies z.B. für Email-Templates zu verwenden.
 
   <br />In diesem <a href="http://stackoverflow.com/questions/483091/render-a-view-as-a-string">Stackoverflow Thread</a> gibts auch eine MVC 2 kompatible Lösung.</p>
 
@@ -30,6 +30,6 @@ tags: [ASP.NET MVC, HowTo]
 
 <p><strong>Für das Deployment</strong></p>
 
-<p>Wichtig ist natürlich auch, dass im <a href="http://code-inside.de/blog/2010/04/29/howto-net-4-0-asp-net-mvc-on-iis-7-5-pagehandlerfactory-integrated-has-a-bad-module-managedpipelinehandler/">IIS alles richtig konfiguriert ist</a>.</p>
+<p>Wichtig ist natürlich auch, dass im <a href="{{BASE_PATH}}/2010/04/29/howto-net-4-0-asp-net-mvc-on-iis-7-5-pagehandlerfactory-integrated-has-a-bad-module-managedpipelinehandler/">IIS alles richtig konfiguriert ist</a>.</p>
 
 <p><strong>Mehr Schwierigkeiten sind uns jedenfalls nicht aufgetreten - happy upgrading :)</strong></p>
