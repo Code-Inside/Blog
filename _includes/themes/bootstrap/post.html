@@ -15,7 +15,7 @@
 			{% endfor %}
 			{% endunless %}  
 	
-			<a href="{{ site.github_repo_url }}edit/gh-pages/{{ post.path }}"><i class="fa fa-pencil-square-o"></i> Edit</a>
+			<a href="{{ site.github_repo_url }}edit/gh-pages/{{ page.path }}"><i class="fa fa-pencil-square-o"></i> Edit</a>
 			<span></span>
 		</div>
     </div>
@@ -23,9 +23,7 @@
       {{ content }}
     </div>
 
-	<a href="{{ site.github_repo_url }}edit/gh-pages/{{ post.path }}">edit</a>
     <hr>
-	<a href="{{ site.github_repo_url }}edit/gh-pages/{{ post.path }}">Edit</a>
     {% include JB/comments %}
   </div>
 </div>
