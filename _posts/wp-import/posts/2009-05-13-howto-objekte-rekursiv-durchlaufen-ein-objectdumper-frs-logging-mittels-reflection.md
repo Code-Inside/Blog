@@ -65,4 +65,4 @@ tags: [HowTo, log4net, logging, Reflection]
 
   <br />Wer gute Ideen hat bzw. Fehler in dem Code findet kann gern an dieser Stelle Feedback geben :)</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/objectdumpertest/objectdumpertest.zip">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/objectdumpertest/objectdumpertest.zip">[ Download Source Code ]</a></strong></p>

@@ -58,4 +58,4 @@ tags: [HowTo, MSBuild, StyleCop]
   <li><a href="http://blog.newagesolution.net/2008/07/how-to-use-stylecop-and-msbuild-and.html">Blogpost</a></li>
 </ul>
 
-<p><strong>[</strong><a href="http://{{BASE_PATH}}/assets/files/democode/msbuildcodequalitystylecop/msbuildcodequalitystylecop.zip"><strong>Download Democode</strong></a><strong>]</strong></p>
+<p><strong>[</strong><a href="{{BASE_PATH}}/assets/files/democode/msbuildcodequalitystylecop/msbuildcodequalitystylecop.zip"><strong>Download Democode</strong></a><strong>]</strong></p>

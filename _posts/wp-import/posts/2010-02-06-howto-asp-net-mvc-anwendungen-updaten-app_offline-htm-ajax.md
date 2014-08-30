@@ -100,4 +100,4 @@ tags: [AJAX, App_Offline, ASP.NET MVC, HowTo, Update]
 <p>Sobald der IIS die App_Offline.htm entdeckt wird nur dieses File ausgeliefert. Somit kann man in der App_Offline.htm keine CSS Datei einbinden die in dieser Webapplikation liegt!</p>
 <p><strong>Frage in die Runde:</strong></p>
 <p>Wie ist eure Strategie wenn es um das Updaten von Anwendungen geht? </p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcappoffline/mvcappoffline.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcappoffline/mvcappoffline.zip">[ Download Democode ]</a></strong></p>

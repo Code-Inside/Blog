@@ -109,4 +109,4 @@ tags: [AJAX, ASP.NET, ASP.NET AJAX, Dynamic, HowTo]
 <p>Ein wesentlich komplexeres Beispiel findet <a href="http://weblogs.asp.net/sanjeevagarwal/archive/2008/07/22/Dynamically-create-ASP.NET-user-control-using-ASP.NET-Ajax-and-Web-Service.aspx">ihr in diesem Blogpost</a>, sowie eine <a href="http://weblogs.asp.net/sanjeevagarwal/archive/2008/07/29/Dynamically-create-ASP.NET-user-control-using-JQuery-and-JSON-enabled-Ajax-Web-Service.aspx">jQuery Variante in diesem Blogpost</a>.</p>
 <p><strong>Wo es Probleme geben könnte:</strong></p>
 <p>Da wir das HTML dynamisch zur Seite hinzufügen, funktioniert sicherlich das Postback System von ASP.NET nicht (bzw. könnte ich es mir vorstellen, dass es da Probleme gibt) - für ein einfaches Control, welches ohne PostBacks entwickelt wurde, ist es aber sicherlich eine tolle Sache.</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/dynamicaspcontrols/dynamicaspcontrols.zip">[ Download Sourcecode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/dynamicaspcontrols/dynamicaspcontrols.zip">[ Download Sourcecode ]</a></strong></p>

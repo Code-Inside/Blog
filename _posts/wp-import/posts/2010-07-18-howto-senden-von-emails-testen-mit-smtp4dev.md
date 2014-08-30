@@ -18,4 +18,4 @@ tags: [Email, HowTo, SMTP, Smtp4Dev, Tools]
 
 <p>Mein Beispielcode stammt noch <a href="{{BASE_PATH}}/2009/03/16/howto-senden-von-emails-testen-ohne-mailserver/">aus dem alten Blogpost</a>, nur mit der Änderung in der web.config (&amp; das ich es mit VS2010 bearbeitet habe)</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/testingemailswithsmtp4dev/testingemailswithsmtp4dev.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/testingemailswithsmtp4dev/testingemailswithsmtp4dev.zip">[ Download Democode ]</a></strong></p>

@@ -134,4 +134,4 @@ Es gibt auch direkt ein <a href="http://www.amazon.de/gp/product/0764596985?ie=U
 
 Um das Demoprojekt auszuführen braucht ihr VS 2008 und in der web.config muss der Connection String noch angepasst werden. In der ReadMe.txt stehen die eingetragenen Nutzer samt Passwörter. Viel Spaß wünsch ich euch.
 
-<strong>[ <a href="http://{{BASE_PATH}}/assets/files/democode/membershipsimple/membership.zip">Download Democode</a> ]</strong>
+<strong>[ <a href="{{BASE_PATH}}/assets/files/democode/membershipsimple/membership.zip">Download Democode</a> ]</strong>

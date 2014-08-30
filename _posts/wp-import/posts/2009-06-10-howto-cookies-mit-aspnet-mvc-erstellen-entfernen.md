@@ -67,4 +67,4 @@ tags: []
 
   <br />Da ich da eine kleine Weile rumgeflucht habe, wollte ich es einfach mal niederschreiben&#160; ;)</p>
 
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/cookies/cookies.zip"><strong>[ Download Demosource ]</strong></a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/cookies/cookies.zip"><strong>[ Download Demosource ]</strong></a></p>

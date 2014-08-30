@@ -49,4 +49,4 @@ namespace WebPageScreenshots
 <p><a href="{{BASE_PATH}}/assets/wp-images/image539.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="65" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb517.png" width="458" border="0"></a>&nbsp;</p>
 <p><strong>Warnung<br></strong>Es ist sehr leicht solch ein Bitmap zu erzeugne, ist allerdings für den Prozessor etwas rechenintensiv und auch allgemein für die Performance eher schlecht. Daher wird z.B. bei dotnetkicks immer erst dieses "Warte Bild" gezeigt. <br>Da das ganze auch nicht wirklich supportet ist, sollte man etwas vorsichtig damit umgehen.</p>
 <p>Das ganze habe ich <a href="http://pietschsoft.com/post/2008/07/C-Generate-WebPage-Thumbmail-Screenshot-Image.aspx">auf diesem Blog gefunden</a> (und den Source Code ungefähr auch so übernommen - also nicht wundern).</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/webpagescreenshots/webpagescreenshots.zip">[ Download Sourcecode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/webpagescreenshots/webpagescreenshots.zip">[ Download Sourcecode ]</a></strong></p>

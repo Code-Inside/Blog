@@ -25,4 +25,4 @@ tags: [Action, ASP.NET MVC, HowTo, Links, MVC, URL]
 <p>Ergebnis:</p>
 <p><a href="{{BASE_PATH}}/assets/wp-images/image822.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="28" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb6.png" width="385" border="0"></a> </p>
 <p>Wie man Daten vom <strong>View zum Controller</strong> sonst noch übertragen kann, habe ich in <a href="{{BASE_PATH}}/2009/04/02/howto-daten-vom-view-zum-controller-bermitteln-bindings-in-aspnet-mvc/">diesem HowTo</a> beschrieben.</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcactionlinkparameter/mvcactionlinkparameter.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcactionlinkparameter/mvcactionlinkparameter.zip">[ Download Democode ]</a></strong></p>

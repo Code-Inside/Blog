@@ -210,4 +210,4 @@ Table&lt;Customer&gt; Customers = db.GetTable&lt;Customer&gt;();</pre></div>
 <li>Transaktionen (Sehr interessantes Thema!)</li>
 <li>Mapping a stored procedure</li></ul>
 <p>Das Thema wird sicherlich bei mir noch häufiger anzutreffen sein (und das war heute mein erster richtiger Berührungspunkt mit LINQ to SQL - ich hoffe, dass das Konzept (und wie es intern tickt) etwas klarer ist ;) )</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/linqtosqltest/linqtosqltest.zip" target="_blank">[ Download Demoanwendung ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/linqtosqltest/linqtosqltest.zip" target="_blank">[ Download Demoanwendung ]</a></strong></p>

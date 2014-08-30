@@ -56,4 +56,4 @@ tags: [.NET 3.5, AJAX, ASP.NET 3.5, HowTo, Json, Source, Web 2.0, Webservices]
 <p>Wenn man nur "readonly" die Daten anders Darstellen will (Eine Listenansicht, eine Detailansicht etc.) kann man dies ohne AJAX machen und dadurch, dass man keine Requests los schickt, auch wesentlich performanter dies realisieren. </p>
 <p>Das sowas auch in der Praxis geht, zeigt <a href="http://www.dotnetkicks.com/" target="_blank">dotnetkicks.com</a> mit seinem <a href="http://www.dotnetkicks.com/services/json/jsonservices.ashx" target="_blank">JsonService</a>.</p>
 <p>&nbsp;</p>
-<p><strong>[ <a href="http://{{BASE_PATH}}/assets/files/democode/jsonservice/jsonservice.zip" target="_blank">Download Source Code</a> | <a href="http://code-developer.de/democode/jsonservice/default.aspx" target="_blank">Demoanwendung</a> ]</strong></p>
+<p><strong>[ <a href="{{BASE_PATH}}/assets/files/democode/jsonservice/jsonservice.zip" target="_blank">Download Source Code</a> | <a href="http://code-developer.de/democode/jsonservice/default.aspx" target="_blank">Demoanwendung</a> ]</strong></p>

@@ -101,4 +101,4 @@ class SqlDataProvider : IDataProvider
 <p><strong>Fazit:</strong></p>
 <p>Durch den Einsatz von Interfaces kann man sehr erweiterbare Systeme machen - ein Beispiel ist z.B. das <a href="http://asp.net/mvc">MVC Framework von Microsoft</a>. Der Nebeneffekt ist natürlich auch, dass man die Datenquelle wechseln kann oder dass man einfache Fakes in den Tests, aber auch im Produktionscode verwenden kann (jedenfalls bevor auf "Release" gedrückt wird ;)).</p>
 <p><strong>Schnittstellen erlauben erweiterbare und testbare Software!</strong></p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/whyinterfaces/whyinterfaces.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/whyinterfaces/whyinterfaces.zip">[ Download Democode ]</a></strong></p>

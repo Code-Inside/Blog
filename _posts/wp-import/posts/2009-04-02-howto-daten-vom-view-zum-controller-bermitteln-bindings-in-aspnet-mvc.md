@@ -182,4 +182,4 @@ tags: [ASP.NET MVC, HowTo, MVC]
 
 <p><a href="{{BASE_PATH}}/assets/wp-images/image705.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb683.png" width="243" border="0" /></a> </p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcbinding/mvcbinding.zip">[Download Source Code]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcbinding/mvcbinding.zip">[Download Source Code]</a></strong></p>

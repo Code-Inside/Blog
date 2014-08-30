@@ -140,4 +140,4 @@ tags: [ASP.NET MVC, HowTo, Javascript, jQuery, MVC, Validation]
 <p>In ASP.NET MVC 2 wird das Thema Eingabenvalidierung <a href="http://weblogs.asp.net/scottgu/archive/2009/07/31/asp-net-mvc-v2-preview-1-released.aspx">nochmal weiter ausgebaut</a>. Auch jQuery Validation findet sich direkt im Template wieder. </p>
 <p><strong>Fazit</strong></p>
 <p>Eingabenvalidierung ist in ASP.NET MVC meiner Meinung nach sehr flexibel gelöst und es ist auch relativ schnell einzubauen und über Javascript und co. auch für die "Client" Seite gerüstet. Auch größere Formulare kann man also gut mit ASP.NET MVC + jQuery Validation für den Anwender nett gestalten :)</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcvalidation/mvcvalidation.zip">[Downloade Democode]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcvalidation/mvcvalidation.zip">[Downloade Democode]</a></strong></p>

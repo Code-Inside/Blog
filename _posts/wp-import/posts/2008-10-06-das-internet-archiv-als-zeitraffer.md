@@ -36,5 +36,5 @@ tags: []
 <p><a href="{{BASE_PATH}}/assets/wp-images/image549.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="225" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb527.png" width="580" border="0"></a> </p>
 <p>Insgesamt sind es bei der Microsoftseite über 1300.</p>
 <p>Da das vielleicht ein nettes Spielzeug für den einen oder anderen ist, werde ich den Sourcecode auf Codeplex veröffentlichen. Leider kann ich das gerade dort nicht einchecken, sodass ich erstmal nur die "Download-Variante" anbiete:</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/webhistory/webhistory.zip">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/webhistory/webhistory.zip">[ Download Source Code ]</a></strong></p>
 <p>Viel Spaß :)</p>

@@ -50,4 +50,4 @@ tags: [C# 3.0, DRY, Extensions, generics, HowTo]
         }
     }</pre></div>
 <p><strong>Resultat: Viele Ts und eine kleine generische Extension.</strong></p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/genericextensions/genericextensions.zip">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/genericextensions/genericextensions.zip">[ Download Source Code ]</a></strong></p>

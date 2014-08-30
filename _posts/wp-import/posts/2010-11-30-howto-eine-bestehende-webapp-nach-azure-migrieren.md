@@ -132,4 +132,4 @@ tags: [Azure, HowTo]
 
 <p>Die WebApp samt DB sollte erst einmal auf Azure nun stabil laufen. Allerdings gibt es noch diverse Probleme zu lösen, darunter z.B. wie man die Session oder den Cache unter Azure nutzen könnte um so eine richtig skalierbare Anwendung zu bauen. Für den Anfang passt das aber erst mal ;)</p>
 
-<p>[<strong><a href="http://{{BASE_PATH}}/assets/files/democode/movetoazure/movetoazure.zip">Download Democode</a>]</strong></p>
+<p>[<strong><a href="{{BASE_PATH}}/assets/files/democode/movetoazure/movetoazure.zip">Download Democode</a>]</strong></p>

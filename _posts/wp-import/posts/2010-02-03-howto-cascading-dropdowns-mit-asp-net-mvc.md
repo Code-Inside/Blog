@@ -283,4 +283,4 @@ tags: [ASP.NET MVC, Cascading, DropDown]
 <p><a href="{{BASE_PATH}}/assets/wp-images/image919.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="137" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb104.png" width="244" border="0"></a> </p>
 <p>:)</p>
 <p>Ich würde es jetzt nicht unbedingt als "Control" bezeichnen, da es noch zu viel "Detailimplementierung" benötigt, aber wer es braucht: Es funktioniert recht zuverlässig :)</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvccascadingdropdownjson/mvccascadingdropdownjson.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvccascadingdropdownjson/mvccascadingdropdownjson.zip">[ Download Democode ]</a></strong></p>

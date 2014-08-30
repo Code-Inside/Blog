@@ -82,4 +82,4 @@ public class PdfHandler : IHttpHandler
 &lt;/fo:root&gt;</pre></div>
 <p>Am Ende kann man es einfach über den Link aufrufen:<br><a href="http://localhost:56602/Pdf/PdfHandler.ashx">http://localhost:56602/Pdf/PdfHandler.ashx</a></p>
 <p>Fertig :)</p>
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/pdfonthefly/pdfonthefly.zip">[ Download Democode ]</a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/pdfonthefly/pdfonthefly.zip">[ Download Democode ]</a></p>

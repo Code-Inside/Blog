@@ -49,4 +49,4 @@ tags: [HowTo, LINQ, LINQ to XML, RSS, Xml]
             return list;
         }</pre></div></p>
 <p>Sehr einfach und schnell gemacht :)</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/xlinqrss/xlinqrss.zip">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/xlinqrss/xlinqrss.zip">[ Download Source Code ]</a></strong></p>

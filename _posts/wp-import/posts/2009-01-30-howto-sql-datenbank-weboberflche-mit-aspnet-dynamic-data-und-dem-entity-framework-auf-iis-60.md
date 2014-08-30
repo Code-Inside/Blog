@@ -57,4 +57,4 @@ tags: [Admin, ASP.NET Dynamic Data, Dynamic Data, HowTo, IIS 6.0, Routing]
 
 <p>Damit das funktioniert, muss diese <a href="http://blog.codeville.net/2008/07/04/options-for-deploying-aspnet-mvc-to-iis-6/">Anleitung</a> befolgt werden. </p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/dynamicdataadmin/dynamicdataadmin.zip">[ Download Democode (ohne DB) ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/dynamicdataadmin/dynamicdataadmin.zip">[ Download Democode (ohne DB) ]</a></strong></p>

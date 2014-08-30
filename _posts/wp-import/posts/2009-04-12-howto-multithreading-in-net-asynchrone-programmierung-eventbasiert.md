@@ -132,4 +132,4 @@ tags: [Async, HowTo, Multithreading]
 
   <br />Das ist aber ein HowTo f&#252;r sp&#228;ter ;)</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/asyncintro/asyncintro.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/asyncintro/asyncintro.zip">[ Download Democode ]</a></strong></p>

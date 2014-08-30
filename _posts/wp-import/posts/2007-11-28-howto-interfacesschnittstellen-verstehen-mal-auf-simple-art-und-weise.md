@@ -60,4 +60,4 @@ tags: [HowTo, OOP]
 <p>So - alle unsere 3 Objekte bewegen sich anders und es wird angezeigt. Jetzt kann man noch weitere Klassen hinzufügen, welche ebenfalls "IMovable" implementieren und wir brauchen die God.MoveObject Methode nicht anpassen.</p>
 <p>OlÃ© ;)</p>
 <p>PS: Nein, ich bin nicht religös, brauchte aber ein einfaches Beispiel.</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/usinginterfaces/usinginterfaces.zip" target="_blank">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/usinginterfaces/usinginterfaces.zip" target="_blank">[ Download Source Code ]</a></strong></p>

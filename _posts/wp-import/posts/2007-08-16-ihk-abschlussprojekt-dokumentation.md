@@ -12,4 +12,4 @@ Da ich vor kurzem mein Abschluss bei der IHK bekommen hab (und jetzt mich offizi
 
 Die Dokumentation hat eine als Benotung "Sehr Gut" mit 96 Punkten bekommen. Falls ihr (die Azubis) Inspiration sucht, dann schaut es euch an.
 
-Download: <a href="http://{{BASE_PATH}}/assets/files/rmu_projektdoku.pdf">Link</a>
+Download: <a href="{{BASE_PATH}}/assets/files/rmu_projektdoku.pdf">Link</a>

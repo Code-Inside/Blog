@@ -32,4 +32,4 @@ tags: [ASP.NET MVC, File, HowTo, Upload]
 <p>Im Standardfall dürfen nur Files bis 4MB hochgeladen werden. Dies kann aber in der Web.config geändert werden: <a href="http://msdn.microsoft.com/en-us/library/system.web.configuration.httpruntimesection.maxrequestlength.aspx">maxRequestSize</a></p>
 <p><strong>Mehr Informationen</strong></p>
 <p>Scott Hanselman hat <a href="http://www.hanselman.com/blog/ABackToBasicsCaseStudyImplementingHTTPFileUploadWithASPNETMVCIncludingTestsAndMocks.aspx">einen genialen Blogpost</a> darüber verfasst. Auch wie genau Unit-Tests in einem solchen Fall aussehen könnten. </p>
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/mvcfileupload/mvcfileupload.zip"><strong>[ Download Democode ]</strong></a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/mvcfileupload/mvcfileupload.zip"><strong>[ Download Democode ]</strong></a></p>

@@ -105,4 +105,4 @@ tags: [AJAX, ASP.NET MVC, HowTo]
 <p>Wenn jemand direkt auf "Index/Tab3" geht, wird im Controller ViewData["ActivTab"] auf "Tab3" gesetzt und somit wird Tab3 auch gerendert.</p>
 <p><strong>Was hat man nun davon?</strong></p>
 <p>Auf der einen Seite hat man die AJAX Funktionalität und auf der anderen Seite kann man trotzdem sehr einfach Direktlinks anbieten. Für Suchmaschinen ist dies sicherlich auch netter und es verlangt keine großer Javascriptspielerein und "Platzhalteranker" in der URL.</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvctabboxen/mvctabboxen.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvctabboxen/mvctabboxen.zip">[ Download Democode ]</a></strong></p>

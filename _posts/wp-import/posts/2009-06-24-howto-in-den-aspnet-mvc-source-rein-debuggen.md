@@ -24,4 +24,4 @@ tags: [ASP.NET MVC, HowTo, MVC]
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:d944de80-423a-48d6-9386-975dcf0a067a" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">pageParserFilterType="System.Web.Mvc.ViewTypeParserFilter, System.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"</pre></div>
 <p><strong>Geschafft!</strong></p>
 <p>Nun kann man direkt bis ins Framework debuggen. Den Tipp habe ich auf <strong><a href="http://blog.codeville.net/2009/02/03/using-the-aspnet-mvc-source-code-to-debug-your-app/">Steve Sandersons Blog gefunden</a></strong>. Er hat die Schritte auch etwas mehr beschrieben.</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcdebugintosource/mvcdebugintosource.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcdebugintosource/mvcdebugintosource.zip">[ Download Democode ]</a></strong></p>

@@ -122,4 +122,4 @@ namespace Timers.ConsoleApp
 
 <p>Also, wie macht ihr das? :)</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/timers/timers.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/timers/timers.zip">[ Download Democode ]</a></strong></p>

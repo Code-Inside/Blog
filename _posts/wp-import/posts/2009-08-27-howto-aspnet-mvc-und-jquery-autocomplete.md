@@ -62,4 +62,4 @@ tags: [ASP.NET MVC, Autocomplete, jQuery, MVC]
 <p><strong>Fertig</strong></p>
 <p><a href="{{BASE_PATH}}/assets/wp-images/image812.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="201" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb790.png" width="267" border="0"></a> </p>
 <p>Recht einfach zu realisieren und durch das Plugin gibt es noch dutzende Möglichkeiten. So kann man sich überall mit Javascript einhängen - was passiert wenn man etwas ausgewählt hat, wieviele Items sollen angezeigt werden etc. Hier kann man sich gut austoben :)</p>
-<p>Ein weiteres Beispiel findet man auf <a href="http://blog.schuager.com/2008/09/jquery-autocomplete-json-apsnet-mvc.html">diesem Blog</a>.</p><a href="http://{{BASE_PATH}}/assets/files/democode/mvcajaxsuggestion/mvcajaxsuggestion.zip"><strong>[ Download Source Code ]</strong></a>
+<p>Ein weiteres Beispiel findet man auf <a href="http://blog.schuager.com/2008/09/jquery-autocomplete-json-apsnet-mvc.html">diesem Blog</a>.</p><a href="{{BASE_PATH}}/assets/files/democode/mvcajaxsuggestion/mvcajaxsuggestion.zip"><strong>[ Download Source Code ]</strong></a>

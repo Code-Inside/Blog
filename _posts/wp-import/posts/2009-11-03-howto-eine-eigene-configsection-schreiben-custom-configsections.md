@@ -151,4 +151,4 @@ tags: [Configs, ConfigSection, Custom, HowTo]
 <p><strong>Fazit:</strong></p>
 <p>Wenn man eine etwas komplexere Anwendung mit einigen Einstellungen hat, kann es sich lohnen eine eigene Custom Section zu schreiben. Dies macht nicht so viel Arbeit wie man erst denkt und man kann seine Einstellungen nach seinen Wünschen gruppieren.</p>
 <p>Meine Inspiration kam von <a href="http://aspnet.4guysfromrolla.com/articles/032807-1.aspx">dieser Seite.</a></p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/yourownconfigsection/yourownconfigsection.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/yourownconfigsection/yourownconfigsection.zip">[ Download Democode ]</a></strong></p>

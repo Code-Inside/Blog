@@ -46,4 +46,4 @@ tags: [Async, HowTo, Tests, Unit Tests]
 
   <br />Als Integrationstest oder um manche Sachen automatisiert zu testen, ist die L&#246;sung aber ganz ok und kommen ohne viel Magie aus.</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/asyncintrotest/asyncintrotest.zip">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/asyncintrotest/asyncintrotest.zip">[ Download Source Code ]</a></strong></p>

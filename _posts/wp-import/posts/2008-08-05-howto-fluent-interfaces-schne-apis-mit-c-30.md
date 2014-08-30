@@ -100,4 +100,4 @@ tags: [.NET 3.5, APIs, C# 3.0, Extension Methods, Fluent Interfaces, HowTo, Linq
 <p>Natürlich ist das nur ein simples Beispiel, allerdings konnte ich dies bereits effektiv in einem Projekt einsetzen. </p>
 <p>Neben Rob Conerys Storefront kann man sich auch diesen Democode von <a href="http://weblogs.asp.net/mikebosch/">Mike Bosch</a> anschauen (<a href="http://weblogs.asp.net/mikebosch/archive/2008/07/31/iqueryable-linq-to-sql-and-fluid-filters-for-data-access.aspx">Teil 1</a> &amp; <a href="http://weblogs.asp.net/mikebosch/archive/2008/08/01/part-ii-fluid-filters-iqueryable-and-linq-to-sql-for-easy-data-access.aspx">2</a>) - auch er findet diese Idee sehr cool :)</p>
 <p>Insgesamt erlaubt ein solcher Programmierstil deutlich schickeren Code - wie bereits das Wikipedia Beispiel am Anfang gezeigt haben sollte.</p>
-<p><strong>[ <a href="http://{{BASE_PATH}}/assets/files/democode/fluentinterfaces/fluentinterfaces.zip">Download Democode</a> ]</strong></p>
+<p><strong>[ <a href="{{BASE_PATH}}/assets/files/democode/fluentinterfaces/fluentinterfaces.zip">Download Democode</a> ]</strong></p>

@@ -69,4 +69,4 @@ tags: [HowTo, StyleCop]
 
 <p>Die EInbindung von Stylecop kann durchaus Sinn machen. Je nach Anforderung und Projekt muss man aber schauen welche Regeln wirklich sinnvoll sind oder nicht. Die Regeln kann man durch ein zentrales StyleCop File einfacher verwalten und nach dem initialen aufsetzen der Projekte/Solution macht es sich auch bezahlt, weil man bei jedem Build daran erinnert wird - egal <a href="{{BASE_PATH}}/2010/11/12/howto-msbuild-stylecop/">ob von MSBuild</a> oder über Visual Studio.</p>
 
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/msbuildsharedcodequality/msbuildsharedcodequality.zip"><strong>[Download Democode]</strong></a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/msbuildsharedcodequality/msbuildsharedcodequality.zip"><strong>[Download Democode]</strong></a></p>

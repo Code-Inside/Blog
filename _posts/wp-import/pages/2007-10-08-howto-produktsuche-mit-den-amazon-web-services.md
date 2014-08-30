@@ -77,7 +77,7 @@ Eigentlich ist es recht einfach - wenn man das Modell verstanden hat, kann man n
 
 Hier gibts auch noch den Democode zum Runterladen:
 
-<a href="http://{{BASE_PATH}}/assets/files/democode/amazondemo/amazondemosource.zip" title="AmazonDemo Source">[Source Code runterladen]</a>
+<a href="{{BASE_PATH}}/assets/files/democode/amazondemo/amazondemosource.zip" title="AmazonDemo Source">[Source Code runterladen]</a>
 
 <strong>Links:</strong>
 
@@ -85,4 +85,4 @@ Hier gibts auch noch den Democode zum Runterladen:
 <a target="_blank" href="http://developer.amazonwebservices.com/connect/forum.jspa?forumID=9">Amazon E-Commerce Service Forum (engl.)</a>
 <a target="_blank" href="http://webservices.amazon.com/AWSECommerceService/AWSECommerceService.wsdl?">Amazon E-Commerce Service WSDL</a>
 <a target="_blank" href="http://developer.amazonwebservices.com/connect/kbcategory.jspa?categoryID=19">Amazon E-Commerce Reference</a>
-<a href="http://{{BASE_PATH}}/assets/files/democode/amazondemo/amazondemosource.zip" title="Demo Source Code runterladen">Demo Source Code runterladen</a>
+<a href="{{BASE_PATH}}/assets/files/democode/amazondemo/amazondemosource.zip" title="Demo Source Code runterladen">Demo Source Code runterladen</a>

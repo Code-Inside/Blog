@@ -139,4 +139,4 @@ namespace MSMQ
   <li><a href="http://msdn.microsoft.com/en-us/library/ms731093.aspx">Best Practices for Queued Communication</a>&#160;</li>
 </ul>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/msmq/msmq.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/msmq/msmq.zip">[ Download Democode ]</a></strong></p>

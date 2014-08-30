@@ -144,4 +144,4 @@ tags: [ASP.NET MVC; MVC, HowTo]
 
 <p>Was haltet ihr von der L&#246;sung? Gut, Schlecht, Mittel oder gar Epic Fail? Wenn jemand (im MVC Sinne) eine andere gute L&#246;sung hat, dann immer her damit :)</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcnestedmasterpagesdynamiccontent/mvcnestedmasterpagesdynamiccontent.zip">[ Download Demosource ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcnestedmasterpagesdynamiccontent/mvcnestedmasterpagesdynamiccontent.zip">[ Download Demosource ]</a></strong></p>

@@ -43,6 +43,6 @@ tags: [3-Schichten, 3-Tier, Architektur, HowTo, Unit Tests]
 <p>Code-Coverage: 97% (Data + Service)<br><a href="{{BASE_PATH}}/assets/wp-images/image485.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="59" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb464.png" width="474" border="0"></a> </p>
 <p><strong>Resultat:</strong></p>
 <p>Durch die 3-Schichtige Architektur ist es später leichter Möglich neue Features einzubauen und die Applikation zu Warten. Im Team macht sich das auch recht gut, da man dadurch eine bessere Teamaufteilung machen kann.</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/threetier/threetier.zip">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/threetier/threetier.zip">[ Download Source Code ]</a></strong></p>
 <p><strong>Video:</strong></p>
 <object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/27yknlB8xeg&hl=de&fs=1"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/27yknlB8xeg&hl=de&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object>

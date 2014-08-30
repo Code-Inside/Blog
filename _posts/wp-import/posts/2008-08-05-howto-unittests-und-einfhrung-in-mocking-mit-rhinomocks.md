@@ -102,4 +102,4 @@ namespace RhinoMocks.Services
 <p><strong>Andere Beispiele:</strong></p>
 <p>Ich hab am Anfang ein einfaches "<a href="http://www.buddylindsey.com/Blog/post/Hello-World-of-Rhino-Mocks.aspx">Hello World</a>" Beispiel gefunden. Einige Screencasts findet man <a href="http://www.dimecasts.net/Casts/ByTag/Rhino%20Mocks">hier</a> und ein kleines <a href="http://en.wikibooks.org/wiki/How_to_Use_Rhino_Mocks">Wiki</a> hat auch noch ein paar Artikel darüber.</p>
 <p>Wenn mein Beispiel komplett falsch ist (oder ich eine falsche Erklärung hab), dann einfach melden - ich arbeite mich erst in diese Materie ein :)</p>
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/rhinomocks/rhinomocks.zip"><strong>[ Download Democode ]</strong></a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/rhinomocks/rhinomocks.zip"><strong>[ Download Democode ]</strong></a></p>

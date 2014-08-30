@@ -61,4 +61,4 @@ tags: [HowTo, MSBuild, NUnit]
 
 <p>Alles in allem: Eine einfache Sache.</p>
 
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/msbuildnunit/msbuildnunit.zip"><strong>[Download Democode]</strong></a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/msbuildnunit/msbuildnunit.zip"><strong>[Download Democode]</strong></a></p>

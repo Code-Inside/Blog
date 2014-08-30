@@ -12,4 +12,4 @@ tags: [ASP.NET MVC, HowTo, MVC]
     &lt;% Html.RenderPartial("AspxControl"); %&gt;
  </pre></div></p>
 <p>Nichts Weltbewegendes, aber es kann helfen das sich HTML Markup nicht immer wieder doppelt.</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/ascxtoaspx/ascxtoaspx.zip">[Download Democode]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/ascxtoaspx/ascxtoaspx.zip">[Download Democode]</a></strong></p>

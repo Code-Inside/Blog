@@ -55,4 +55,4 @@ tags: [ASP.NET MVC; MVC; Futures; RenderAction; Komponenten]
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcrenderwithparameters/mvcrenderwithparameters.zip">[ Download Demoanwendung ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcrenderwithparameters/mvcrenderwithparameters.zip">[ Download Demoanwendung ]</a></strong></p>

@@ -118,4 +118,4 @@ tags: [HowTo, MSBuild, web.config, XmlTransformation]
 <p><strong>Democode</strong></p>
 <p>In meiner Demosolution arbeite ich mit ein paar Hilfsvariablen im MSBuild - davon nicht abschrecken lassen. Wenn ihr den SampleCode auf:</p>
 <p>D:\Samples\MsBuildSample ablegt findet Ihr das "BuildVerzeichnis” in D:\Samples\ClientTemp</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/msbuildsamplexmltransform/msbuildsamplexmltransform.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/msbuildsamplexmltransform/msbuildsamplexmltransform.zip">[ Download Democode ]</a></strong></p>

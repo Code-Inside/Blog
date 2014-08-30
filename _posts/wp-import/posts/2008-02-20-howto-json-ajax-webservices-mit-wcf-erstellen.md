@@ -154,4 +154,4 @@ tags: [.NET, .NET 3.5, AJAX, HowTo, Json, WCF]
 <li><a href="http://pluralsight.com/blogs/fritz/archive/2008/02/01/50126.aspx">Creating JSON-enabled WCF services in .NET 3.5 - an even simpler approach</a></li>
 <li><a href="http://pluralsight.com/blogs/fritz/archive/2008/01/31/50121.aspx">Creating JSON-enabled WCF services in .NET 3.5</a></li></ul>
 <p>WCF Serivces sind eine mächtige Alternative zu den ASMX Webservices und die Integration in eine AJAX Anwendung ist kaum schwieriger als die ASMX Variante - wenn man die Möglichkeit hat und etwas rumexperimentieren möchte, der sollte dies wahrnehmen. Hier noch der Democode:</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/ajaxwcf/ajaxwcf.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/ajaxwcf/ajaxwcf.zip">[ Download Democode ]</a></strong></p>

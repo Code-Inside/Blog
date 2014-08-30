@@ -122,7 +122,7 @@ Da es ja auch vorkommt, dass Attribute mit in den Nodes vorhanden sind, können 
 
 Getestet alles mit IE 7 und Firefox 2 - sollte aber generell bei allen Browsern so funktionieren.
 
-<strong>[ <a href="http://{{BASE_PATH}}/assets/files/democode/javascriptxml/javascriptandxml.zip">Source Code</a> | <a href="http://code-developer.de/democode/javascriptandxml/">Demoapplikation</a>* ]</strong>
+<strong>[ <a href="{{BASE_PATH}}/assets/files/democode/javascriptxml/javascriptandxml.zip">Source Code</a> | <a href="http://code-developer.de/democode/javascriptandxml/">Demoapplikation</a>* ]</strong>
 
 * auf dem Webspace funktioniert es momentan noch nicht so wie lokal - hängt mit dem Hoster zusammen - einfach die Demoapp runterladen und freuen ;)
 

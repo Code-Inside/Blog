@@ -61,4 +61,4 @@ tags: [HowTo, MSBuild, Zippen]
 
 <p>Damit hat man recht einfach und effektiv eine Art "Deployment-Package”, auch wenn man mit MSDeploy und anderen Dingen noch viel mehr Voodoo treiben kann. Ein Zip machen, kann nie schaden ;)</p>
 
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/msbuildsamplezip/msbuildsample.zip"><strong>[ Download Democode ]</strong></a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/msbuildsamplezip/msbuildsample.zip"><strong>[ Download Democode ]</strong></a></p>

@@ -100,4 +100,4 @@ using System.Runtime.InteropServices;
 
 <p>Damit haben wir nun die Daten an einer Stelle. Dies kann z.B. besonders nützlich sein wenn man die Versionsnummer zentral verwalten will. So kann man die Versionsnummer an einer Stelle ändern und alle DLLs werden mit derselben Versionsnummer gebaut. Einfach, aber wirkungsvoll.</p>
 
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/assemblyinfokeepitdry/assemblyinfokeepitdry.zip"><strong>[ Download Democode ]</strong></a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/assemblyinfokeepitdry/assemblyinfokeepitdry.zip"><strong>[ Download Democode ]</strong></a></p>

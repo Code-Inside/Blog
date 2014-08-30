@@ -74,7 +74,7 @@ tags: [ASP.NET, Health Monitoring, HowTo]
 <p>Im Text-Editor kann man allerdings die Mail nicht &#246;ffnen, da der Inhalt Base64 kodiert ist.
   <br />Man kann auch eigene Provider schreiben und sich auf beliebig viele Events registrieren und die tollsten Sachen damit machen - wer allerdings nur kurz per Mail informiert werden m&#246;chte, f&#252;r den ist das eigentlich Ideal :)</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/asphealthmonitoring/asphealthmonitoring.zip">[Download Demoanwendung]</a></strong> 
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/asphealthmonitoring/asphealthmonitoring.zip">[Download Demoanwendung]</a></strong> 
 
   <br /><em>(Achtung, Web.config f&#252;r PickupDirectoryLocation anpassen)
     </em></p>

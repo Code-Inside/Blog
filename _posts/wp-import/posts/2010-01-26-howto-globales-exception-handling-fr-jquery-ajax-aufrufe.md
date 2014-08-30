@@ -27,4 +27,4 @@ tags: [Error, Exception, Global, Handling, HowTo, jQuery]
 <p>Die ganze Sache ist in 5 Minuten gemacht und gibt dem Nutzer in einem Fehlerfall jedenfalls eine Meldung aus - besser als nix :)</p>
 <p><strong>Problemfall ASP.NET AJAX: </strong></p>
 <p>Da die <strong>ASP.NET MVC AJAX</strong> Helper mit dem <strong>Microsoft AJAX</strong> gemacht sind, springt leider der jQuery ajaxErrorevent <strong>nicht</strong> an. Hat hier jemand eine clientseitige, globale Errorhandling Methode gefunden ohne diesen fürchterlichen Scriptmanager? </p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/globalajaxerrorhandling/globalajaxerrorhandling.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/globalajaxerrorhandling/globalajaxerrorhandling.zip">[ Download Democode ]</a></strong></p>

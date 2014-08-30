@@ -52,4 +52,4 @@ tags: [HowTo, Session]
 <p>Man kann die Session auch in den SQL Server packen, aber ich bin mir nicht sicher ob das wirklich schnell ist. Natürlich kann man auch seinen eigenen Mechanismus überlegen. <a href="http://www.hanselman.com/blog/">Scott Hanselman</a> hat in einem Blogpost mal eine nette <a href="http://www.hanselman.com/blog/TroubleshootingExpiredASPNETSessionStateAndYourOptions.aspx"><strong>Übersicht</strong> erstellt</a>.</p>
 <p><strong>Ist das eigentlich noch aktuell oder gibt es schon neueres/tolleres?</strong></p>
 <p>Da der Blogpost von Herrn Hanselman ja doch schon etwas älter ist, wollte ich mal in die Runde fragen ob diese Varainte irgendwelche Risiken birgt oder ob man heutzutage was anderes macht. Für Feedback wäre ich dankbar :)</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcsessionstateserver/mvcsessionstateserver.zip">[ Download Democode ]</a></strong> <em>(Achtung: Der Dienst muss gestartet sein)</em></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcsessionstateserver/mvcsessionstateserver.zip">[ Download Democode ]</a></strong> <em>(Achtung: Der Dienst muss gestartet sein)</em></p>

@@ -221,4 +221,4 @@ namespace DoNot.Fear.UnitTests.Test
 <li><a href="http://dotnet-forum.de/blogs/rainerschuster/archive/2008/05/16/was-rollt-im-bereich-unittesting-auf-uns-zu.aspx">Was rollt im Bereich Unittesting auf uns zu?</a>
 <li><a href="http://www.gridviewguy.com/ArticleDetails.aspx?articleID=398_Using_Post-Build_Event_to_Execute_Unit_Tests">Using Post-Build Event to Execute Unit Tests</a></li></ul>
 <p><strong>Download:</strong></p>
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/donotfearunittests/DoNot.Fear.UnitTests.zip"><strong>Sample Code</strong></a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/donotfearunittests/DoNot.Fear.UnitTests.zip"><strong>Sample Code</strong></a></p>

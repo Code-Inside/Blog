@@ -45,4 +45,4 @@ Die entscheidente Javascriptzeile (die Demoapplikation kann unten runtergeladen 
 
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image30.png"><img border="0" width="418" src="{{BASE_PATH}}/assets/wp-images/image-thumb30.png" alt="image" height="391" style="border: 0px" /></a>
 
-<a href="http://{{BASE_PATH}}/assets/files/democode/aspnetajax/ajaxpagemethods.zip" title="Demo Source Code PageMethods">[Download Demo Source Code]</a>
+<a href="{{BASE_PATH}}/assets/files/democode/aspnetajax/ajaxpagemethods.zip" title="Demo Source Code PageMethods">[Download Demo Source Code]</a>

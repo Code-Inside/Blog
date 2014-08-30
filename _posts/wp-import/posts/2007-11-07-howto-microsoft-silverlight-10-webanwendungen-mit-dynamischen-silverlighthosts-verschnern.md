@@ -72,7 +72,7 @@ tags: [HowTo, Javascript, Silverlight]
 <p>&nbsp;</p>
 <p><strong>Downloads / Demos:</strong></p>
 <p>&nbsp;</p>
-<p><strong>[ </strong><a href="http://code-developer.de/democode/multisilverlighthost/" target="_blank"><strong>Hier gehts zur Demoapplikation</strong></a><strong>&nbsp;| </strong><a href="http://{{BASE_PATH}}/assets/files/democode/multisilverlighthost/source.zip" target="_blank"><strong>Hier gibts den SourceCode</strong></a><strong>&nbsp;]</strong></p>
+<p><strong>[ </strong><a href="http://code-developer.de/democode/multisilverlighthost/" target="_blank"><strong>Hier gehts zur Demoapplikation</strong></a><strong>&nbsp;| </strong><a href="{{BASE_PATH}}/assets/files/democode/multisilverlighthost/source.zip" target="_blank"><strong>Hier gibts den SourceCode</strong></a><strong>&nbsp;]</strong></p>
 <p>&nbsp;</p>
 <p><strong>Links:</strong></p>
 <p><a href="{{BASE_PATH}}/artikel/howto-microsoft-silverlight-10-dynamische-spiegeleffekte/">HowTo: Microsoft Silverlight 1.0 (dynamische Spiegeleffekte erzeugen)</a><br><a href="http://www.microsoft.com/expression/products/features.aspx?key=blend2preview">Microsoft Expression Blend 2 August Preview</a><br><a href="http://msdn2.microsoft.com/en-us/library/bb404703.aspx">Silverlight SDK</a><br><a href="http://msdn2.microsoft.com/en-us/library/bb412401.aspx">Silverlight Plugin erstellen</a><br><a href="http://msdn2.microsoft.com/en-us/library/bb412359.aspx">Silverlight onLoad</a><br><a href="http://msdn2.microsoft.com/en-us/library/bb794710.aspx">Silverlight Events</a><br><a href="http://msdn2.microsoft.com/en-us/library/bb412364.aspx">Silverlight FindName</a></p>

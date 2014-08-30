@@ -70,4 +70,4 @@ tags: [.NET, .NET 2.0, HowTo, Serializer, Xml, XmlAttributes]
 <p><a href="{{BASE_PATH}}/assets/wp-images/image182.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="345" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb161.png" width="447" border="0"></a> </p>
 <p>&nbsp;</p>
 <p>Fazit: MIt dem XmlSerializer und XmlAttributes lassen sich auch komplexe XML Dateien sehr schnell, einfach und übersichtlich lesen und schreiben, besonders bei rekursiven Strukturen zeigen sich deutliche Vorteile gegenüber dem XmlTextWriter.</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/xmlattributes/xmlattributes.zip" target="_blank">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/xmlattributes/xmlattributes.zip" target="_blank">[ Download Democode ]</a></strong></p>

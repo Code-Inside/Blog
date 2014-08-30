@@ -37,4 +37,4 @@ tags: [HowTo, Http, HttpModule, Module]
 </pre></div>
 <p>Beschreibung dazu <a href="{{BASE_PATH}}/2009/10/04/howto-full-qualified-type-name-klassentypnamen-richtig-schreiben/">hier</a>.</p>
 <p>Eigentlich total easy. Die Geschichte mit dem Eventhandler muss man allerdings wissen ;)</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/redirectmodul/redirectmodul.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/redirectmodul/redirectmodul.zip">[ Download Democode ]</a></strong></p>

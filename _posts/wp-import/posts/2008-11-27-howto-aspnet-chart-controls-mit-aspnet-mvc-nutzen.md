@@ -129,4 +129,4 @@ tags: [ASP.NET, ASP.NET MVC, Charting, Charts, Diagrams, HowTo, MVC]
 
 <p><a href="{{BASE_PATH}}/assets/wp-images/image572.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="409" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb550.png" width="291" border="0" /></a> </p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvccharting/mvccharting.zip">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvccharting/mvccharting.zip">[ Download Source Code ]</a></strong></p>

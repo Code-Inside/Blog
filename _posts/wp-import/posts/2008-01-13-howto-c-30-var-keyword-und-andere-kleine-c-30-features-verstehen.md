@@ -112,7 +112,7 @@ var MyVarInt = 13;</pre></div>
 }
 </pre></div>
 <p>Als Download:</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/csharp3/csharp3.zip" target="_blank">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/csharp3/csharp3.zip" target="_blank">[ Download Democode ]</a></strong></p>
 <p><strong>Links:</strong> </p>
 <ul>
 <li><a href="http://msdn2.microsoft.com/en-us/library/bb383973.aspx" target="_blank">MSDN var Keyword</a> 

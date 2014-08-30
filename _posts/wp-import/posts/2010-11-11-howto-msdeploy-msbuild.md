@@ -62,4 +62,4 @@ tags: [HowTo, MSBuild, MSDeploy]
 
 <p>Mit wenigen Handgriffen kann man die Visual Studio Funktionalität aucch in ein Buildscript gießen. MSDeploy ist ein großes Thema. Ich will daher auch nicht ausschließen dass hier alles korrekt wiedergegeben ist - so jedenfalls hat es bei mir funktioniert :)</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/msdeploymsbuild/msdeploymsbuild.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/msdeploymsbuild/msdeploymsbuild.zip">[ Download Democode ]</a></strong></p>

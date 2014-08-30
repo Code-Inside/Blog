@@ -147,4 +147,4 @@ namespace HelloMEF.English
 
 <p><a href="{{BASE_PATH}}/assets/wp-images/image568.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="183" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb546.png" width="264" border="0" /></a> </p>
 
-<p><strong>&#160;<a href="http://{{BASE_PATH}}/assets/files/democode/hellomef/hellomef.zip">[ Download Source Code ]</a></strong></p>
+<p><strong>&#160;<a href="{{BASE_PATH}}/assets/files/democode/hellomef/hellomef.zip">[ Download Source Code ]</a></strong></p>

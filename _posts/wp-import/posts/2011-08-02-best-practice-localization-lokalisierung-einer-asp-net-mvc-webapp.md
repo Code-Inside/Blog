@@ -172,4 +172,4 @@ tags: [ASP.NET MVC, Globalization, Localization, Lokalisierung]
 &lt;/p&gt;
 </pre></div>
 <p>&nbsp;</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvclocalization/mvclocalization.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvclocalization/mvclocalization.zip">[ Download Democode ]</a></strong></p>

@@ -237,4 +237,4 @@ public class ExcelHandler : IHttpHandler, System.Web.SessionState.IRequiresSessi
 
 <p>Das ganze geh&#246;rt eindeutig in die Kategorie: <strong>Freakige Sachen ;)</strong></p>
 
-<p>[ <a href="http://{{BASE_PATH}}/assets/files/democode/ajaxexcel/ajaxexcel.zip">Download Source</a> ]</p>
+<p>[ <a href="{{BASE_PATH}}/assets/files/democode/ajaxexcel/ajaxexcel.zip">Download Source</a> ]</p>

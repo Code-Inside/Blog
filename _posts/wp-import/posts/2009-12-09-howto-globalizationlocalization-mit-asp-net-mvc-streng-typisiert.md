@@ -22,4 +22,4 @@ Local resource : &lt;%=Html.Resource("LocalKey")%&gt;&lt;br /&gt; </pre></div></
 <ul>
 <li><a href="http://www.fairnet.com/post/2009/09/06/Localizing-ASPNET-MVC.aspx">Localizing ASP.NET MVC</a></li>
 <li><a href="http://haacked.com/archive/2009/12/07/localizing-aspnetmvc-validation.aspx">Localizing ASP.NET MVC Validation</a></li></ul>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvclocal/mvclocal2.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvclocal/mvclocal2.zip">[ Download Democode ]</a></strong></p>

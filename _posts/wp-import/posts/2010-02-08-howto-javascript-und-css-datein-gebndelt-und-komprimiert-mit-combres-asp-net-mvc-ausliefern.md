@@ -95,4 +95,4 @@ tags: [ASP.NET MVC, Combres, HowTo, Http, Performance]
 <p><a href="{{BASE_PATH}}/assets/wp-images/image926.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="61" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb111.png" width="507" border="0"></a></p>
 <p>Auf dieses Framework bin ich durch diesen <a href="http://weblogs.asp.net/gunnarpeipman/archive/2009/07/04/asp-net-mvc-how-to-combine-scripts-and-other-resources.aspx">Blogpost</a> aufmerksam geworden, allerdings hat sich bereits die Konfiguration geändert.</p>
 <p>In meinem Beispiel benutze ich auch <a href="{{BASE_PATH}}/2009/03/19/howto-iis7-als-development-server-im-visual-studio-2008-einrichten/">den normalen IIS</a> um realistische Daten zu bekommen. </p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvccombine/mvccombine.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvccombine/mvccombine.zip">[ Download Democode ]</a></strong></p>

@@ -50,4 +50,4 @@ context.Response.Write(response);
 
 <p>Beide Projekte starten. Danach solltest du dann ein alert mit einer 1 im Browser sehen. Mit diesen Beispiel habe ich noch ausprobiert ob ich auf dem Server dann auch Zugriff auf die Sessesion habe. Und es geht. Bei jeden neu laden der Seite erhöht sich dann der Wert um eins. Gut, das ist jetzt kein spannendes Beispiel aber ich hoffe ihr verzeiht mit das :)</p>
 
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/crossdomainajax/CrossDomainAjax.zip" target="_blank">Den Demo Code gibt”™s hier.</a> Viel Spaß. </p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/crossdomainajax/CrossDomainAjax.zip" target="_blank">Den Demo Code gibt”™s hier.</a> Viel Spaß. </p>

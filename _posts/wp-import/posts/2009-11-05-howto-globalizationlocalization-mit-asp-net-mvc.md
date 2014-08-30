@@ -18,4 +18,4 @@ tags: [ASP.NET MVC, Deutsch, Englisch, Globalization, HowTo, Localization, MVC]
 <p>Englische Ansicht:</p>
 <p><a href="{{BASE_PATH}}/assets/wp-images/image870.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="159" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb55.png" width="361" border="0"></a> </p>
 <p>Vielleicht kann das der eine oder andere von euch gut gebrauchen :) Feedback ist wie immer willkommen :)</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvclocal/mvclocal.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvclocal/mvclocal.zip">[ Download Democode ]</a></strong></p>

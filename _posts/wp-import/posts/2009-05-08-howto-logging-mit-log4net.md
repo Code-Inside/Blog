@@ -78,4 +78,4 @@ tags: [HowTo, log4net, logging]
 <p>Eine Grundregel habe ich nicht gefunden, allerdings ist der Sinn des Loggens ja, nachzuverfolgen wie ein Fehler zustande kam. Daher k&#246;nnte man z.B. bei einer Methode die Parameter rausloggen, wichtige &quot;Aufrufe von anderen Services&quot; sowie die Ausgabe loggen. So bekommt man ein Gef&#252;hl daf&#252;r wie der Code intern tickt.
   <br />Insbesondere mit dem &quot;DebugAppender&quot; ist es ganz witzig wenn man einen Button auf der Webseite dr&#252;ckt und man sieht wie der Request durch die Schichten geht und die Werte rausloggt - ein nerdiges Vergn&#252;gen :)</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/log4netintro/log4netintro.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/log4netintro/log4netintro.zip">[ Download Democode ]</a></strong></p>

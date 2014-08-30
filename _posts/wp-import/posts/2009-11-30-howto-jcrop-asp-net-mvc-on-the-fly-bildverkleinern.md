@@ -133,7 +133,7 @@ tags: [ASP.NET, ASP.NET MVC, Crop, jCrop, jQuery, MVC]
 <p><a href="{{BASE_PATH}}/assets/wp-images/image877.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="393" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb62.png" width="349" border="0"></a> </p>
 <p>Nach dem Drücken auf "Send":</p>
 <p><a href="{{BASE_PATH}}/assets/wp-images/image878.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="161" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb63.png" width="154" border="0"></a> </p>
-<p>Wenn man das nun noch mit einen fetzigen <a href="{{BASE_PATH}}/2009/11/02/howto-fileupload-mit-asp-net-mvc/">Uploader</a> verbindet, wird das sogar richtig praktisch ;)</p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcjcrop/mvcjcrop.zip">[ Download Democode ]</a></strong>
+<p>Wenn man das nun noch mit einen fetzigen <a href="{{BASE_PATH}}/2009/11/02/howto-fileupload-mit-asp-net-mvc/">Uploader</a> verbindet, wird das sogar richtig praktisch ;)</p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcjcrop/mvcjcrop.zip">[ Download Democode ]</a></strong>
 <p><strong>Update: Für VB.NET Entwickler</strong></p>
 <p><a href="http://www.daniel-klein.at">Daniel Klein</a> hat den Code im Controller für VB.NET Entwickler umgeschrieben - funktionieren müsste er noch gleich ;)<p>
 <pre>

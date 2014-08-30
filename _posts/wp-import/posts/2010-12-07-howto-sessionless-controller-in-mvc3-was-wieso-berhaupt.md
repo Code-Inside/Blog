@@ -157,4 +157,4 @@ tags: [ASP.NET MVC, HowTo, MVC, Session, Visual Studio 2010, WebTest]
 
 <p></p>
 
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/mvcsessionless/mvcsessionless.zip">[ Download Sample ]</a> (Achtung: Für das Testprojekt ist evtl. eine höherwertige Visual Studio Version notwendig)</p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/mvcsessionless/mvcsessionless.zip">[ Download Sample ]</a> (Achtung: Für das Testprojekt ist evtl. eine höherwertige Visual Studio Version notwendig)</p>

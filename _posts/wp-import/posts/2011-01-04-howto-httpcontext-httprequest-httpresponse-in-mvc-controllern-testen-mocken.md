@@ -157,4 +157,4 @@ tags: [ASP.NET MVC, HowTo, MVC, TDD, Unit Test]
 
 <p>Prinzipiell ist also das test und mocken mit HttpContext &amp; co. nicht schwer. Es gibt natürlich diverse Feinheiten, aber dies würde ich für einen anderen Post aufbewahren.</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvccontrollerhttpcontexttests/mvccontrollerhttpcontexttests.zip">[Download Democode]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvccontrollerhttpcontexttests/mvccontrollerhttpcontexttests.zip">[Download Democode]</a></strong></p>

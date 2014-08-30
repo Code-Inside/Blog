@@ -188,4 +188,4 @@ tags: [Errors, Exceptions, HowTo, HowToCode]
 
 <p>Die Applikation kann man nat&#252;rlich runterladen. Ich <strong>w&#252;rde mich freuen wenn ihr Feedback darauf gebt</strong> - sind Enums die Erf&#252;llung? Geht es nicht &quot;sch&#246;ner&quot;? Was haltet ihr von dem Gesamtkonstrukt? Wenn ihr selber ein Demoprojekt habt, dann schickt es an meine Emailadresse (siehe Impressum) - f&#252;r Anregung bin ich immer dankbar :)</p>
 
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/errors/errors.zip">[ Download Demoapplikation ]</a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/errors/errors.zip">[ Download Demoapplikation ]</a></p>

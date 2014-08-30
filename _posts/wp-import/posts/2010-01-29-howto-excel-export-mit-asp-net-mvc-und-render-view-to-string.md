@@ -116,4 +116,4 @@ public class FakeView : IView {
 <p><strong>Weitere Anwendungsmöglichkeiten</strong></p>
 <p>Dadurch das wir eine HTML Tabelle benutzen, können wir die Tabelle auch genauso auf unserer normalen Webseite benutzen. Hierbei Rufe ich dann einfach RenderPartial etc. auf.</p>
 <p>Man könnte so auch Email Templates als View ablegen. Die Möglichkeiten sind jedenfalls da :)</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcrenderviewtostring/mvcrendertostring.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcrenderviewtostring/mvcrendertostring.zip">[ Download Democode ]</a></strong></p>

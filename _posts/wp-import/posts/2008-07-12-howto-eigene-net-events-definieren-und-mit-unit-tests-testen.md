@@ -142,4 +142,4 @@ tags: [.NET, C# 2.0, Events, HowTo, TDD, Unit Tests]
             Assert.IsTrue(eventRaised);
         }</pre></div>
 <p>In diesm Test lege ich einen bool "eventRaised" an - sobald das Event geworfen wird, wird ein anonymes delegat aufgerufen (man spart sich hier die zweite Methode) und ich setzt einfach diesen boolean auf "true".<br>Sehr einfach und genial um zu testen, ob das Event wie gehofft auch geworfen wird :)</p>
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/myevents/myevents.zip"><strong>[Download Source Code]</strong></a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/myevents/myevents.zip"><strong>[Download Source Code]</strong></a></p>

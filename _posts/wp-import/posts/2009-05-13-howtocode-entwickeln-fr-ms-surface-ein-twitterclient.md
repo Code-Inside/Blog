@@ -90,4 +90,4 @@ tags: [Surface, Twitter]
 
 <p>Auch wenn das SDK nicht frei runterzuladen ist (und es daher bei 99% der Leser hier sicherlich nicht funktioniert), stelle ich den Source Code f&#252;r Interessierte zum Download bereit. Bei Fragen/Anregungen meldet euch einfach.</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/surfacetwitter/surfacetwitter.zip">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/surfacetwitter/surfacetwitter.zip">[ Download Source Code ]</a></strong></p>

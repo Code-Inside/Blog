@@ -100,4 +100,4 @@ tags: [MSBuild HowTo]
 
 <p></p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/msbuildsample/msbuildsample.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/msbuildsample/msbuildsample.zip">[ Download Democode ]</a></strong></p>

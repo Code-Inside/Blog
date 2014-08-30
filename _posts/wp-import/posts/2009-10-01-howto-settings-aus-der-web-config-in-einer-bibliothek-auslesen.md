@@ -21,4 +21,4 @@ tags: [app.config, Config, HowTo, Konfiguration, web.config]
 <p><strong>Simpel, oder?</strong></p>
 <p><img style="border-right: 0px; border-top: 0px; margin: 0px 0px 0px 10px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb15.png" width="183" align="right" border="0">Ich war mir nicht ganz sicher ob ich das überhaupt bloggen sollte, aber da es mir bis gestern nicht klar war, dass sowas so einfach geht, wollte ich es euch nicht verschweigen.</p>
 <p>Im Prinzip recht einleuchtend ;)</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvclibconfig/mvclibconfig.zip">[ Download Demosource ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvclibconfig/mvclibconfig.zip">[ Download Demosource ]</a></strong></p>

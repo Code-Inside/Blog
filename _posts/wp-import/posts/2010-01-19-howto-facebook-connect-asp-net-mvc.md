@@ -73,4 +73,4 @@ tags: [ASP.NET MVC, Facebook, Facebook Connect, HowTo]
 <li><a href="http://wiki.developers.facebook.com/index.php/Facebook_Connect_Tutorial1">Facebook Connect Tutorial1 von Facebook</a></li>
 <li><a href="http://www.beefycode.com/post/Facebook-Connect-Action-Filter-for-ASPNET-MVC.aspx">Facebook Connect Action Filter for ASP.NET MVC</a></li>
 <li><a href="http://www.rjygraham.com/archive/2009/11/22/using-facebook-connect-with-aspnet-mvc-and-the-facebook-developer-toolkit-3.aspx">Using Facebook Connect with ASP.NET MVC and the Facebook Developer Toolkit 3</a></li></ul>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcfacebookconnect/mvcfacebookconnect.zip">[Download Source Code]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcfacebookconnect/mvcfacebookconnect.zip">[Download Source Code]</a></strong></p>

@@ -115,4 +115,4 @@ public class ControllerFactory : IControllerFactory
 
 <p>In <a href="http://blog.coreycoogan.com/2009/11/06/castle-windsor-tutorial-in-asp-net-mvc/">diesem Post von Corey Coogan</a> ist ein komplexeres Beispiel erläutert. Jedenfalls hat mir der Blogpost recht viel gebracht und mein Blogpost soll es nur (etwas simpler) wiedergeben.</p>
 
-<p><a href="http://{{BASE_PATH}}/assets/files/democode/mvccontrollerinjection/mvccontrollerinjection.zip"><strong>[ Download Democode ]</strong></a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/mvccontrollerinjection/mvccontrollerinjection.zip"><strong>[ Download Democode ]</strong></a></p>

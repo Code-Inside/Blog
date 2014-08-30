@@ -69,4 +69,4 @@ tags: [HowTo, LINQ, RSS, XLINQ]
 
   <br />Wer mal schnell auf einen RSS Feed zugreifen m&#246;chte, kommt im Regelfall auch sehr gut ohne andere Library aus.</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/readrss/readrss.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/readrss/readrss.zip">[ Download Democode ]</a></strong></p>

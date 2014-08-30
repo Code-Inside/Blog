@@ -79,4 +79,4 @@ tags: [.NET 3.0, Aero, Glass Effect, HowTo, Vista, Visual Studio 2008, WPF, XAML
 <p><strong>Wichtiger Hinweis: Aero gibt es nur auf Vistabasis und auch nur bei aktivierem Aero (sollte klar sein)</strong></p>
 <p>Wäre interessant zu erfahren, ob es bei diesem aktivieren Aero zu irgendwelchen WPF Schwierigkeiten kommen kann - getestet habe ich es noch nicht ;)</p>
 <p>Das Demoprojekt könnt ihr wie immer Downloaden - Visual Studio 2008 &amp; Vista ist aber Voraussetzung.</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/wpfaero/wpfaero.zip" target="_blank">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/wpfaero/wpfaero.zip" target="_blank">[ Download Democode ]</a></strong></p>

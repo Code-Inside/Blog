@@ -76,4 +76,4 @@ tags: [Castle, DI, HowTo, Windsor]
 
 <p> Diese Methode ist äußerst praktisch wenn man einfach nur eine Liste von Implementationen nutzen will ohne sie explizit erst zu registrieren. Einen genauen Typen daraus wieder herauszupuzzeln ist allerdings schwieriger.</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/CastleWindsorFindAllImplementations/CastleWindsorFindAllImplementations.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/CastleWindsorFindAllImplementations/CastleWindsorFindAllImplementations.zip">[ Download Democode ]</a></strong></p>

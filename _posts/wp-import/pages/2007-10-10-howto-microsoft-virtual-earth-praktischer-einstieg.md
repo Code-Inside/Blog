@@ -80,7 +80,7 @@ In dem <a target="_blank" href="http://msdn2.microsoft.com/en-us/library/bb42961
 <strong>Als IFrame:</strong>
 <iframe height="310" width="310" src="http://code-developer.de/democode/virtualearth/?width=300&height=300&destination=berlin" name="VirtualEarthDemo"></iframe>
 
-<a target="_blank" href="http://{{BASE_PATH}}/assets/files/democode/virtualearth/virtualearthdemo.zip">[Demo Source Code Downloaden]</a>
+<a target="_blank" href="{{BASE_PATH}}/assets/files/democode/virtualearth/virtualearthdemo.zip">[Demo Source Code Downloaden]</a>
 
 <strong>Links:</strong>
 

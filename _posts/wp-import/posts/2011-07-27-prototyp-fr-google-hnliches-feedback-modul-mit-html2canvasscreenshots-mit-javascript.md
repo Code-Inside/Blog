@@ -47,4 +47,4 @@ tags: [Canvas, File, HTML5, Javascript, Upload]
 <p>- Ich hab mal wieder was über <a href="http://forums.asp.net/p/1679283/4524525.aspx/1?Re+Convert+base64+to+image+">base64 codierte Bilder gelernt</a>. </p>
 <p>Mit dem Canvas kann man natürlich <a href="http://www.youtube.com/watch?v=wbSoSCStodA">noch viel mehr machen</a>, sodass es wirklich Google+ ähnlich wird. </p>
 <p>Wie bereits im Titel gesagt: Es ist nur ein Prototyp <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images/wlEmoticon-winkingsmile7.png"></p>
-<p><strong><a title="Download Democode" href="http://{{BASE_PATH}}/assets/files/democode/html2canvas/html2canvas.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a title="Download Democode" href="{{BASE_PATH}}/assets/files/democode/html2canvas/html2canvas.zip">[ Download Democode ]</a></strong></p>

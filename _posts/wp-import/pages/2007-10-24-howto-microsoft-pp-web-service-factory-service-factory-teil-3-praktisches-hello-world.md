@@ -302,7 +302,7 @@ Das heisst, man ist hier nicht auf irgendwelche "Hintergrund-Magie" angewiesen, 
 
 <strong>Download:</strong>
 
-<a href="http://{{BASE_PATH}}/assets/files/democode/servicefactory/BlogPosts.Buzzwords.zip">[DemoCode - DB Connection muss natürlich angepasst werden]</a>
+<a href="{{BASE_PATH}}/assets/files/democode/servicefactory/BlogPosts.Buzzwords.zip">[DemoCode - DB Connection muss natürlich angepasst werden]</a>
 
 <strong>Links:</strong>
 

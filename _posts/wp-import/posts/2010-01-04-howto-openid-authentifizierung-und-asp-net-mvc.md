@@ -40,4 +40,4 @@ tags: [ASP.NET MVC, Authentication, HowTo, MVC, OAuth, OpenID]
                 ViewData["message"] = "Success! Identifier: " + response.ClaimedIdentifier;</pre></div>
 <p>So einfach ist es. Der "ClaimedIdentifier" ist für jede Seite eine andere ID.</p>
 <p>Den Code und wie es eigentlich funktioniert, habe ich mir von diesem <a href="http://codeharder.com/post/Aspnet-MVC-and-OpenID-Support.aspx">Blogpost</a> abgeschaut. Der Autor des Blogs probiert zudem gerade ein <a href="http://codeharder.com/category/stackoverclone.aspx">Clone von Stackoverflow</a> zu bauen :)</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/openid/openid.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/openid/openid.zip">[ Download Democode ]</a></strong></p>

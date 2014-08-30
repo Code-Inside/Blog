@@ -36,4 +36,4 @@ tags: [AJAX, Form, HowTo, jQuery, serialize]
 <p>Bis auf die Checkbox ergibt das auch alles sinn. Ich nehme an bei der Checkbox ist der ASP.NET MVC Helper etwas seltsam. </p>
 <p><strong>jQuery rockt :)</strong></p>
 <p>Wenn man also seine Forms oder nur Teile davon via AJAX versenden will -&gt; der serializer fetzt.</p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcjqueryformvalues/mvcjqueryformvalues.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcjqueryformvalues/mvcjqueryformvalues.zip">[ Download Democode ]</a></strong></p>

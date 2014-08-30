@@ -23,4 +23,4 @@ tags: [Client, Config, HowTo, Web]
 <p>Der WebConfiguratioManager ist speziell für ASP.NET Anwendungen gedacht. So kann man pro Ordner in ASP.NET eine eigene web.config anlegen. Damit soll der WebConfiurationManager besser klar kommen, als der normale ConfigurationManager.<br>Weiteres kann man <a href="http://stackoverflow.com/questions/698157/whats-the-difference-between-the-webconfigurationmanager-and-the-configurationma">hier nachlesen</a>.</p>
 <p><strong>Ergebnis:</strong></p>
 <p><a href="{{BASE_PATH}}/assets/wp-images/image824.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="67" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb8.png" width="284" border="0"></a> </p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcconfig/mvcconfig.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcconfig/mvcconfig.zip">[ Download Democode ]</a></strong></p>

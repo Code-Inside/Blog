@@ -12,4 +12,4 @@ tags: [ASP.NET, HowTo, Virtual Earth, Windows Live]
 In dem Artikelbereich hat sich ein neues HowTo dazugesellt: Es geht diesmal um Virtual Earth.
  
 
-[ <a href="{{BASE_PATH}}/artikel/howto-microsoft-virtual-earth-praktischer-einstieg/">Zum HowTo</a> | <a href="http://code-developer.de/democode/virtualearth/">Zur Demoanwendung</a> | <a href="http://{{BASE_PATH}}/assets/files/democode/virtualearth/virtualearthdemo.zip">Zum Demosourcecode</a> ]
+[ <a href="{{BASE_PATH}}/artikel/howto-microsoft-virtual-earth-praktischer-einstieg/">Zum HowTo</a> | <a href="http://code-developer.de/democode/virtualearth/">Zur Demoanwendung</a> | <a href="{{BASE_PATH}}/assets/files/democode/virtualearth/virtualearthdemo.zip">Zum Demosourcecode</a> ]

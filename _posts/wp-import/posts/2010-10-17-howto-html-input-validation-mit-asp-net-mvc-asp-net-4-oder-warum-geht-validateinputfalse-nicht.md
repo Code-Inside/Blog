@@ -74,4 +74,4 @@ namespace MvcRequestValidation.Controllers
 
 <p><a href="{{BASE_PATH}}/assets/wp-images/image1080.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb262.png" width="359" height="109" /></a> </p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcrequestvalidation/mvcrequestvalidation.zip">[Download Democode]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcrequestvalidation/mvcrequestvalidation.zip">[Download Democode]</a></strong></p>

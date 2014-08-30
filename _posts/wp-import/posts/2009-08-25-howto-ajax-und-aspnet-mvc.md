@@ -116,4 +116,4 @@ tags: [AJAX, ASP.NET MVC, MVC]
 
 <p>Kleine AJAX Spielerein sind mit ganz traditionellen Mitteln (ohne böse ASP.NET AJAX UpdatePanels etc.) in ASP.NET MVC ganz einfach. Es gibt bestimmt noch mehr Varianten und hinter den AjaxOptions verstecken sich noch viele coole Sachen.</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/mvcajax/mvcajax.zip">[ Download Demosource ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcajax/mvcajax.zip">[ Download Demosource ]</a></strong></p>

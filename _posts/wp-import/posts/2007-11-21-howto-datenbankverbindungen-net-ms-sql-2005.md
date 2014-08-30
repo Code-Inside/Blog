@@ -111,4 +111,4 @@ In der praxis würde ich eher <a target="_blank" href="http://msdn2.microsoft.co
 
 <strong>Achtung:</strong> Zum Ausführen des Democodes muss natürlich der ConnectionString und die DB so erstellt sein, wie oben beschrieben. Auserdem sollte Visual Studio im Administrator-Modus laufen, ansonsten gibts leider einen Fehler.
 
-<strong>[ </strong><a href="http://{{BASE_PATH}}/assets/files/democode/dotnetmssql/testdatenbankmssql.zip"><strong>Download Democode</strong></a><strong> ]</strong>
+<strong>[ </strong><a href="{{BASE_PATH}}/assets/files/democode/dotnetmssql/testdatenbankmssql.zip"><strong>Download Democode</strong></a><strong> ]</strong>

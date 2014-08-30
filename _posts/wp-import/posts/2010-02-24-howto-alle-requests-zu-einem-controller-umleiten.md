@@ -15,4 +15,4 @@ tags: [ASP.NET MVC, HowTo, MVC, Routing]
             );</pre></div></p>
 <p>In Zeile 3 steckt die Magie. Natürlich müsste diese Route als erstes registriert werden, wenn wirklich alle Requests abgefangen werden sollen. Wenn andere Routen "über" dieser liegen, funktioniert das natürlich nur für Requests wo die anderen Routen nicht matchen.</p>
 <p>Andere Möglichkeiten gibt es natürlich auch, aber ich fand das heute ganz interessant :) </p>
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/catchallroutes/catchallroute.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/catchallroutes/catchallroute.zip">[ Download Democode ]</a></strong></p>

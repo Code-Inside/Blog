@@ -54,4 +54,4 @@ tags: [HowTo, MSBuild, MSTest]
 
 <p>Der Blogpost beschreibt keine Raketenwissenschaft, aber ich musste Google anwerfen, daher hab ich das mal hier kurz zusammengeschrieben :)</p>
 
-<p><strong><a href="http://{{BASE_PATH}}/assets/files/democode/msbuildsamplemstest/msbuildsamplemstest.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/msbuildsamplemstest/msbuildsamplemstest.zip">[ Download Democode ]</a></strong></p>
