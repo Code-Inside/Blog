@@ -18,7 +18,6 @@ author :
   email : blah@email.test
   github : code-inside
   twitter : codeinsideblog
-  feedburner : Code-insideBlog
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -28,7 +27,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://code-inside.github.io/Blog
+production_url : http://blog.codeinside.eu
 
 github_repo_url: https://github.com/Code-Inside/Blog/
 
@@ -59,7 +58,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://code-inside.github.io/Blog
+  BASE_PATH : http://blog.codeinside.eu
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -75,10 +74,7 @@ JB :
   # Some JB helpers refer to these paths; change them here if needed.
   #
   archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+  rss_path : /feed
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
@@ -86,8 +82,8 @@ JB :
   #
   comments :
     provider : disqus
-    disqus :
-      short_name : jekyllbootstrap
+    disqus : 
+      short_name : codeinside-blog
     livefyre :
       site_id : 123
     intensedebate :
