@@ -6,7 +6,6 @@ author: robert.muehsig
 tags: [Migration, Jekyll, WordPress, Blog, GitHub Pages]
 ---
 {% include JB/setup %}
-# Wordpress to Jekyll Migration and Language switch
 
 First blog post on our new Blog Engine - [Jekyll on GitHub Pages](https://pages.github.com/)! Oliver and I made the decision to move from WordPress to Jekyll last month.
 
