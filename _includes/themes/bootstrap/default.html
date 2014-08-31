@@ -44,14 +44,13 @@
       {{ content }}
       <hr>
       <footer>
-        <p>
-          &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          <span class="pull-right text-muted">
-            powered by
-            <a href="http://dbtek.github.io/jekyll-bootstrap-3" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll-Bootstrap-3</a>
-            and <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap 3.0.3</a>
-          </span>
-        </p>
+		<div class="text-center center-block">
+            <p class="txt-railway">-  <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons</a> {{ site.time | date: '%Y' }} {{ site.author.name }} -</p>
+            <br />
+                <a href="https://www.facebook.com/{{ site.author.facebook }}"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter"></i></a>
+				<a href="https://github.com/{{ site.author.github }}"><i class="fa fa-github"></i></a>
+		</div>
       </footer>
     </div>
 

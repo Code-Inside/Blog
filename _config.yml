@@ -15,9 +15,10 @@ title : Code Inside Blog
 tagline: Development on the Microsoft Stack
 author :
   name : Code Inside Team
-  email : blah@email.test
+  email : contact@codeinside.eu
   github : code-inside
   twitter : codeinsideblog
+  facebook: codeinsideblog
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
