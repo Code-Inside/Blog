@@ -19,4 +19,4 @@ WordPress is an impressive system, but it is for our needs (nowadays) a bit over
 We started this Blog in German and keept it that way till now. Some blogposts were translated and published on blogin.codeinside.eu (which will also be moved to Jekyll), but I think our primary goal should be to maintain just one Blog and choose the language that everyone speaks in our industry. And of course: It's a little personal challenge for us. If you found an issue - send me a pull request ;)
 
 ## Next steps
-I will publish more information about the migration soon and we try to close those Blog-related [issues}(https://github.com/Code-Inside/Blog/issues/). If you found any other broken stuff, please let us know.
+I will publish more information about the migration soon and we try to close those Blog-related [issues](https://github.com/Code-Inside/Blog/issues/). If you found any other broken stuff, please let us know.
