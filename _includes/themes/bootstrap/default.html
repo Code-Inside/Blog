@@ -8,16 +8,12 @@
 	
 	    
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@codeinsideblog"> 
+    <meta name="twitter:site" content="@{{site.author.twitter}}"> 
 
     <meta property="og:title"       content="{{ page.title }}" />
-    <meta property="og:type"        content="website" /> 
-    <meta property="og:url"         content="{{ page.path }}" /> 
-    {% if page.content %}
-	<meta content="{{ post.content | strip_html | truncatewords:75}}" property="og:description">
-	{% else %}
-	  <meta content="{{ site.tagline }}" property="og:description">
-	{% endif %}
+    <meta property="og:type"        content="blog" /> 
+    <meta property="og:url"         content="{{site.production_url}}{{ page.url }}" /> 
+	<meta content="{{ content | strip_html | truncatewords:75}}" property="og:description">
     
 	
     <meta name="author" content="{{ site.author.name }}">
