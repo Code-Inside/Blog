@@ -10,9 +10,7 @@
 			
 			{% unless page.tags == empty %}
 			<i class="fa fa-tags"></i>
-			{% for tag in page.tags %}
-			<i> {{tag}}, </i>
-			{% endfor %}
+			<i>{{page.tags | join: ', ' }}</i>
 			{% endunless %}  
 	
 			<a href="{{ site.github_repo_url }}edit/gh-pages/{{ page.path }}"><i class="fa fa-pencil-square-o"></i> Edit</a>
