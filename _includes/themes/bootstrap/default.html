@@ -8,7 +8,7 @@
 		<meta name="description" content="{{ page.description }}">
 	{% endif %}
 	
-	<link rel="alternate" type="application/rss+xml"  href="{{site.production_url}}/feed" title="{{site.title}} Feed">
+	
 	
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{site.author.twitter}}"> 
@@ -31,7 +31,7 @@
       <script src="{{ ASSET_PATH }}/resources/respond/Respond.min.js"></script>
     <![endif]-->
 
-    <link href="{{ BASE_PATH }}/feed" type="application/rss+xml" rel="alternate" title="RSS Feed">
+	<link rel="alternate" type="application/rss+xml"  href="{{site.production_url}}/feed" title={{site.title}} Feed">
 
   </head>
 
