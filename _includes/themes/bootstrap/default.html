@@ -13,8 +13,11 @@
     <meta property="og:title"       content="{{ page.title }}" />
     <meta property="og:type"        content="blog" /> 
     <meta property="og:url"         content="{{site.production_url}}{{ page.url }}" /> 
-	<meta content="{{ content | strip_html | truncatewords:75}}" property="og:description">
-    
+	{% if page.description %}
+		<meta property="og:description" content="{{ page.description }}" >
+    {% else %}
+		<meta property="og:description" content="{{ site.tagline }}" >
+    {% endif %}
 	
     <meta name="author" content="{{ site.author.name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
