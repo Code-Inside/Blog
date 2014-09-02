@@ -4,9 +4,12 @@
     <meta charset="utf-8">
 
     <title>{{site.title}} | {{ page.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    {% if page.description %}
+		<meta name="description" content="{{ page.description }}">
+	{% endif %}
 	
-	    
+	<link rel="alternate" type="application/rss+xml"  href="{{site.production_url}}/feed" title="{{site.title}} Feed">
+	
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{site.author.twitter}}"> 
 
