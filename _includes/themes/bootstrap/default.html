@@ -5,6 +5,21 @@
 
     <title>{{site.title}} | {{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+	
+	    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@codeinsideblog"> 
+
+    <meta property="og:title"       content="{{ page.title }}" />
+    <meta property="og:type"        content="website" /> 
+    <meta property="og:url"         content="{{ page.path }}" /> 
+    {% if page.description %}
+	<meta content="{{ page.description }}" property="og:description">
+	{% else %}
+	  <meta content="{{ site.description }}" property="og:description">
+	{% endif %}
+    
+	
     <meta name="author" content="{{ site.author.name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
