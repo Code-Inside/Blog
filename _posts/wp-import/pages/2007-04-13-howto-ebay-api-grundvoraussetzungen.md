@@ -64,5 +64,3 @@ Nach erfolgreichen Bestehen der Standard Prüfung darf man das <a href="http://d
 	<li><strong>- <a href="http://developer.ebay.com/DevProgram/logoguidelines.pdf" title="eBay Lizenzbedingungen">(PDF) Lizenzbedingungen</a></strong></li>
 </ul>
 Beim nächsten HowTo werde ich die API Aufrufe erklären und zeigen, welche auch auf ShoppingMap zum Einsatz kommen. Bis dahin...
-
-<a href="http://www.dotnetkicks.com/kick/?url={{BASE_PATH}}/?page_id=15"><img border="0" src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url={{BASE_PATH}}/?page_id=15" alt="kick it on DotNetKicks.com" /></a>
