@@ -74,7 +74,9 @@ Damit wir jetzt direkt sagen können, welches Objekt aus der Collection welches 
 
         LinkButton TestLink = (LinkButton)DetailUpdatePanel.FindControl(<span class="str">"LinkButtonTest"</span>); 
         TestLink.CommandArgument = MySingleItem.Id; 
-    }</pre>
+    }
+    </pre>
+
 Das wars im Prinzip schon.
 Die Collection hier hab ich mir jetzt nur mal ausgedacht, allerdings verwende ich es ähnlich bei mir und es funktioniert. Wenn man jetzt auf den LinkButten drückt, wird kein kompletter Postback ausgeführt, allerdings hat das UpdatePanel auch seine Tücken wie ich schonmal <a target="_blank" href="{{BASE_PATH}}/2007/06/07/gute-und-schlechte-seiten-des-updatepanels/" title="Code-Inside.de Blogeintrag zu den Guten und Schlechten Seiten des UpdatePanels">schrieb</a>.
 
