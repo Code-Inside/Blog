@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Visual Studio 2013 Hidden Gem: Paste JSON or XML as C# Class"
+title: "Visual Studio 2013 Hidden Gem: Paste JSON or XML as C# Classes"
 description: "Ever needed a strongly typed representation of your XML or JSON content? Visual Studio 2013 comes with a handy feature."
 date: 2014-09-08 23:10
 author: robert.muehsig
@@ -20,8 +20,9 @@ Then just click __Edit__ - __Paste Special__ - __Paste XML/JSON As Classes__.
 ## The generated classes:
 The generated classes should work with JSON.NET or any XML Serializer. The Code for the XML is a bit messy, but works and gives you a starting point.
 
-Sample from [here](http://en.wikipedia.org/wiki/JSON)s:
-`
+Sample from [here](http://en.wikipedia.org/wiki/JSON):
+
+
     public class Rootobject
     {
         public string firstName { get; set; }
@@ -48,6 +49,6 @@ Sample from [here](http://en.wikipedia.org/wiki/JSON)s:
         public string type { get; set; }
         public string number { get; set; }
     }
-`
+
 
 Note: There are many other web based XML/JSON to C# converter out there - so feel free to use whatever works for you. I didn't know this little feature.
