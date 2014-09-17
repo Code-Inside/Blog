@@ -2,7 +2,7 @@
 layout: post
 title: "OpenGraph for Twitter"
 description: "Instead of using Twitters proprietary meta tags just use OpenGraph"
-date: 2014-09-14 22:40
+date: 2014-09-17 23:00
 author: robert.muehsig
 tags: [OpenGraph, Twitter]
 ---
