@@ -5,7 +5,7 @@
 <div class="row">
   <div class="col-md-12">
     <div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12 small">
 			<i class="fa fa-calendar"></i> {{ page.date | date_to_long_string }} 
 			
 			{% unless page.tags == empty %}
@@ -13,8 +13,10 @@
 			<i>{{page.tags | join: ', ' }}</i>
 			{% endunless %}  
 	
+			<i class="fa fa-user"></i> {{ page.author }} 
+			
 			<a href="{{ site.github_repo_url }}edit/gh-pages/{{ page.path }}"><i class="fa fa-pencil-square-o"></i> Edit</a>
-			<span></span>
+
 		</div>
     </div>
     <div class="content">
