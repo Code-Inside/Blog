@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenGraph for Twitter"
+title: "OpenGraph for Twitter Cards"
 description: "Instead of using Twitters proprietary meta tags just use OpenGraph"
 date: 2014-09-17 23:00
 author: robert.muehsig
