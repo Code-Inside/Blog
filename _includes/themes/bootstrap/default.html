@@ -25,7 +25,9 @@
 
     <link href="{{ ASSET_PATH }}/resources/bootstrap/css/metro-bootstrap.min.css" rel="stylesheet">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <!--[if lt IE 9]>
+	<link href="{{ BASE_PATH }}/assets/site.css" rel="stylesheet">
+    
+	<!--[if lt IE 9]>
       <script src="{{ ASSET_PATH }}/resources/respond/Respond.min.js"></script>
     <![endif]-->
 
@@ -50,9 +52,9 @@
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
+			<li><a href="http://www.codeinside.eu">Hub</a></li>
+			<li><a href="{{BASE_PATH}}/archive.html">Archive</a></li>
+			<li><a href="{{BASE_PATH}}/terms.html">Terms</a></li>
           </ul>
         </div>
       </div>

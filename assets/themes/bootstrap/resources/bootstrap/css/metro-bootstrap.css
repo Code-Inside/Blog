@@ -460,15 +460,15 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 26px;
 }
 h3,
 .h3 {
-  font-size: 28px;
+  font-size: 24px;
 }
 h4,
 .h4 {
-  font-size: 26px;
+  font-size: 22px;
 }
 h5,
 .h5 {
@@ -6194,13 +6194,13 @@ button.close {
   font-size: 40px;
 }
 .tile h2 {
-  font-size: 30px;
+  font-size: 26px;
 }
 .tile h3 {
-  font-size: 28px;
+  font-size: 24px;
 }
 .tile h4 {
-  font-size: 26px;
+  font-size: 22px;
 }
 .tile a:hover {
   text-decoration: none;
