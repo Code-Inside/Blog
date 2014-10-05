@@ -19,6 +19,7 @@ The idea was that the base framework would load the "calling" assembly and use t
 
 ## Why did it break only on IIS with Release mode?
 From [Assembly.GetCallingAssembly-MSDN](http://msdn.microsoft.com/en-us/library/system.reflection.assembly.getcallingassembly(v=vs.110).aspx):
+
 > If the method that calls the GetCallingAssembly method is expanded inline by the just-in-time (JIT) compiler, or if its caller is expanded inline, the assembly that is returned by GetCallingAssembly may differ unexpectedly.
 
 In IIS Express and IIS with Debug mode everything worked as expected, but on IIS with Release "Assembly.GetCallingAssembly" returned the System.Web.dll instead of our own assemblies with the correct localizations.
