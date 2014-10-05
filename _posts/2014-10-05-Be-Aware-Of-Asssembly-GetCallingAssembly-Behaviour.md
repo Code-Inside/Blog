@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "OpenGraph for Twitter Cards"
-description: "Be aware of Assembly.GetCallingAssembly() Behaviour"
-date: 2014-10-05 13:20
+title: "Be aware of Assembly.GetCallingAssembly() Behaviour"
+description: "Assembly.GetCallingAssembly() can be dangerous, so be aware if you use it."
+date: 2014-10-05 13:25
 author: robert.muehsig
 tags: [Reflection, Assembly, .NET]
 ---
