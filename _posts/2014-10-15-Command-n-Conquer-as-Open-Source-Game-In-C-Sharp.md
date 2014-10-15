@@ -2,7 +2,7 @@
 layout: post
 title: "OpenRA: Open Source Command & Conquer written in C#"
 description: "If you ever wanted to take a closer look at a Game Engine OpenRA is a pretty awesome example and brings back old memories."
-date: 2014-10-15 21:25
+date: 2014-10-15 22:00
 author: robert.muehsig
 tags: [OpenRA, Games, C#]
 ---
