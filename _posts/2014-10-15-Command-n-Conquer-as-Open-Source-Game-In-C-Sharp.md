@@ -8,7 +8,7 @@ tags: [OpenRA, Games, C#]
 ---
 {% include JB/setup %}
 
-If you are familiar with Dune 2 or the Command & Conquer Serie you will definitely love [OpenRA](http://www.openra.net/). 
+If you are familiar with Dune 2 or the Command & Conquer Serie you will definitely love [__OpenRA__](http://www.openra.net/). 
 
 ## Project Description
 
@@ -39,8 +39,9 @@ A Tiberum Sun Mod (the 3rd C&C) is currently under development. All games have b
 ## Coding Experience
 The GitHub repo has a bunch of batch files and the Visual Studio Solution in it. Sometimes it can be a bit challenging to start and debug the game within Visual Studio, but make sure all dependencies are copied (via make dependencies) or try to switch branches. The best part is that the team is very active and is available [__via GitHub or in IRC__](http://www.openra.net/community/). 
 All you need to do is:
-	make all
-	OpenRA.Game.exe
+
+    make all
+    OpenRA.Game.exe
 	
 Or run it in Visual Studio.
 	
