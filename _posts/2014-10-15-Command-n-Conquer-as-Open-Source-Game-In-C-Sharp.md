@@ -29,6 +29,7 @@ I always wanted to take a deeper look at Games, but most Games are written in C/
 
 ## Game Features
 The Game consists of the whole Engine, including AI, Multiplayer, Scripting (interesting for Maps) and so on and the three different Mods:
+
 * Tiberum Dawn (Command & Conquer 1)
 * Red Alert (Command & Conquer 2)
 * Dune 2000
@@ -55,6 +56,7 @@ For me the biggest difference between a real Game and a "normal" business applic
 
 ## Interesting Stuff
 If you look deeper at the code you will see some very cool stuff:
+
 * OpenGL Rendering
 * LUA Scripting
 * Modding via YAML
