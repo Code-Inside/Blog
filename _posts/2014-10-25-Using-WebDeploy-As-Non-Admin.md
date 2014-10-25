@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using WebDeploy as Non-Admin"
-description: "The setup for WebDeploy is sometimes rough and if you want to use WebDeploy as a Non-Admin / pure IIS User it can be even harder. I'll show you how to get things running."
+description: "The setup for WebDeploy can be rough and if you want to use WebDeploy as a Non-Admin / pure IIS User it can be even harder. I'll show you how to get things running."
 date: 2014-10-25 19:00
 author: robert.muehsig
 tags: [WebDeploy, IIS, MSDeploy]
