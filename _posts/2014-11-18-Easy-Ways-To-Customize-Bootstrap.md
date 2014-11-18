@@ -4,7 +4,7 @@ title: "Easy ways to customize Bootstrap"
 description: "If you are developer - like me - you might already using Bootstrap, but what if you need to change some colors or font-families? Here are some tools that I have found."
 date: 2014-11-18 20:20
 author: robert.muehsig
-tags: [Bootstrap]
+tags: [Bootstrap, CSS]
 ---
 {% include JB/setup %}
 
@@ -41,7 +41,7 @@ But the live changing elements makes it very easy to see the changes in action a
 Like Bootstrap Magic this one comes also with "Live" rendering. With this editor I was able to change some variables, generate the CSS/LESS, reuploaded the variables.less file at a later time and continue my editing.
 __Awesome and definitely worth trying out!__ Great work [István](https://twitter.com/istvanumeszaros)!
 
-![x]({{BASE_PATH}}/assets/md-images/2014-11-18/live.png "IIS Management Service Delegation")
+![x]({{BASE_PATH}}/assets/md-images/2014-11-18/live.png "Bootstrap Live Customizer")
  
 Hope this helps!
  
