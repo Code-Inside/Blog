@@ -39,7 +39,7 @@ But the live changing elements makes it very easy to see the changes in action a
 ## My recommendation: [Bootstrap Live Customizer](http://bootstrap-live-customizer.com/)
 
 Like Bootstrap Magic this one comes also with "Live" rendering. With this editor I was able to change some variables, generate the CSS/LESS, reuploaded the variables.less file at a later time and continue my editing.
-__Awesome and definitely worth trying out!__ Great work [István](https://twitter.com/istvanumeszaros)!
+__Awesome and definitely worth trying out!__ Great work [Istvan](https://twitter.com/istvanumeszaros)!
 
 ![x]({{BASE_PATH}}/assets/md-images/2014-11-18/live.png "Bootstrap Live Customizer")
  
