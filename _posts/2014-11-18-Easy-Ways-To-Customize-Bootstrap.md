@@ -14,7 +14,7 @@ This blogpost highlights some (free) tools for people who don't write or know a 
 ## Don't customize the CSS/LESS files
 __Here might be dragons!__ A big warning upfront: Don't pollute the generated CSS files and only change the variables.less file from Bootstrap - otherwise you are running a your own fork and might not be able to upgrade.
 
-As far as I know all Customizer will only alter the variables.less file - this is the only way to __customize__ bootstrap.
+As far as I know all Customizer will only alter the variables.less file - this is the only way to __customize__ Bootstrap.
 
 If you only want to change certain elements [try to override it with your own CSS](http://bootstrapbay.com/blog/customize-bootstrap/).
 
