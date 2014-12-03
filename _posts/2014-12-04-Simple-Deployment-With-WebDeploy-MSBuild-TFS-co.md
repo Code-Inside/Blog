@@ -27,15 +27,15 @@ The typical MSBuild call is:
 	
 To trigger MSBuild there are a couple of MSBuild arguments:
 
-/p:DeployOnBuild=True
-/p:DeployTarget=MsDeployPublish
-/p:MSDeployServiceURL=https://<server name>:8172/msdeploy.axd
-/p:DeployIISAppPath=”TestSiteForDeploy”
-/p:CreatePackageOnPublish=True
-/p:MsDeployPublishMethod=WMSVC
-/p:AllowUntrustedCertificate=True
-/p:UserName=*****
-/p:Password=*****
+    /p:DeployOnBuild=True
+    /p:DeployTarget=MsDeployPublish
+    /p:MSDeployServiceURL=https://<server name>:8172/msdeploy.axd
+    /p:DeployIISAppPath=”TestSiteForDeploy”
+    /p:CreatePackageOnPublish=True
+    /p:MsDeployPublishMethod=WMSVC
+    /p:AllowUntrustedCertificate=True
+    /p:UserName=*****
+    /p:Password=*****
 
 Most of these properties are listed [here](http://msdn.microsoft.com/en-us/library/microsoft.teamfoundation.build.workflow.activities.msbuild_properties.aspx).
 
