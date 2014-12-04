@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [ASP.NET MVC, RegEx]
+language: de
 ---
 {% include JB/setup %}
 <SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&MarketPlace=DE&ID=V20070822/DE/meinkleinerbl-21/8001/861f4bbd-17c3-4c32-ba4e-cf637c25bd5c"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&MarketPlace=DE&ID=V20070822%2FDE%2Fmeinkleinerbl-21%2F8001%2F861f4bbd-17c3-4c32-ba4e-cf637c25bd5c&Operation=NoScript">Amazon.de Widgets</A></NOSCRIPT>

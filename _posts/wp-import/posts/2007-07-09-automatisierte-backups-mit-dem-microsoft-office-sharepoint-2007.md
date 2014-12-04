@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, SharePoint]
+language: de
 ---
 {% include JB/setup %}
 Das HowTo was hier stand, hab ich aus Übersichtsichtlichkeit in den Artikelbereich verschoben.

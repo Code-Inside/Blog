@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, Auth, Authentication, Cookie, Forms]
+language: de
 ---
 {% include JB/setup %}
 <p>Die Forms-Authentication ist die low-Level-Form der “Authentifizierung”. Ein Forms-Authentication Cookie zu setzen geht z.B. wie folgt:</p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:cbecc054-3535-46f0-aee0-04e1160e28c2" class="wlWriterEditableSmartContent"><pre name="code" class="c#">

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Http, HttpModule, Module]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image846.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="57" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb31.png" width="207" align="left" border="0"></a>Folgende Aufgabe: Wenn eine bestimmte Seite im Portal aufgerufen wird, soll der Nutzer auf Seite X umgeleitet werden. Lösungsansatz: HttpModule.</p><p><strong>Eigentlich ganz einfach... das HttModule:</strong></p> <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:f57bd7c2-b126-437f-a3dd-875711052742" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">public class Redirect : IHttpModule

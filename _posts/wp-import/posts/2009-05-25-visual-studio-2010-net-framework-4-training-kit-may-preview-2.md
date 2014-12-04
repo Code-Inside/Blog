@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET 4.0, Training Kit]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image747.png"><img style="border-right-width: 0px; margin: 0px 10px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images/image-thumb725.png" width="94" height="96" /></a>Microsoft hat ein Trainings Kit für <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=922B4655-93D0-4476-BDA4-94CF5F8D4814&amp;displaylang=en">.NET 4.0 &amp; VS 2010</a> veröffentlicht: <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=752CB725-969B-4732-A383-ED5740F02E93&amp;displaylang=en">Hier gehts zum Download</a>. Es enthält 28 Präsentationen, 13 Demos &amp; 16 Hands-on Labs.</p>  <p>&#160;<em>Via </em><a href="http://blogs.msdn.com/dirkpr/default.aspx"><em>Dirks virtuelle Endlosschleife</em></a></p> 

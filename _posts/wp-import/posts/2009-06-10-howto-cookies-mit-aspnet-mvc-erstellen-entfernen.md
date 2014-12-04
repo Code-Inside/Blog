@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: []
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image759.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="125" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb737.png" width="135" align="left" border="0" /></a><a href="http://de.wikipedia.org/wiki/HTTP-Cookie">Cookies</a> sind ein toller Weg um Daten auf dem Client zu speichern. Das k&#246;nnen Anmeldeinformationen sein oder andere Daten, die man auf dem Client abspeichern m&#246;chte. Wer das <a href="{{BASE_PATH}}/2008/02/07/howto-aspnet-membership-roles-profiles-einrichten-rollensystem-allgemeines-demoprojekt/">ASP.NET Membership System</a> nutzt wird oftmals auch die &quot;Angemeldet bleiben&quot; Funktionalit&#228;t benutzen. In diesem HowTo geht es um das pure Erstellen eines Cookies und wie man diesen auch wieder los wird.</p> 

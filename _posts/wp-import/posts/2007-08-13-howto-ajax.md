@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [AJAX, HowTo, Javascript]
+language: de
 ---
 {% include JB/setup %}
 Diesmal gehts eigentlich um die Grundlagen von AJAX  - komplett ohne Framework, dafür mit XmlHttpRequest Objekt.

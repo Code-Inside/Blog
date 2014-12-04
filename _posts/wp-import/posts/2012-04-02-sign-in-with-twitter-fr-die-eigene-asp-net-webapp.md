@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, OAuth, Twitter]
+language: de
 ---
 {% include JB/setup %}
 <p>“Sign in with Twitter” ist eine beliebte Methode um Benutzer auf der eigenen Seite zu authentifizieren. Der Vorteil gegenüber einer eigenen Registrierung ist natürlich, dass die “Hemmschwelle” wesentlich geringer für den Nutzer ist. Allerdings rückt Twitter auch nicht alle Daten raus und man ist in einer gewissen Abhängigkeit. Am Ende muss jeder selbst entscheiden, ob er das machen möchte oder nicht. <u>Die Frage hier allerdings lautet:</u> Wie kann ich den Twitter Login auf meiner Seite einbauen?</p>

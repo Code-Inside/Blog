@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, FTP, HowTo]
+language: de
 ---
 {% include JB/setup %}
 Ich mag FTP eigentlich nicht, allerdings kann man es manchmal nicht ändern und muss trotzdem irgendwelche Datein von einem FTP Server über .NET runterladen.

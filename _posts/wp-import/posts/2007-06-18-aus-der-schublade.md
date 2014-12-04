@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [Guide, Xml]
+language: de
 ---
 {% include JB/setup %}
 Ich habe (mal wieder) eine neue Artikelserie angefangen - diesmal ists aber garnicht so neu. Es geht ganz allgemein um das Thema XML, DTD, XSD und am Ende XSLT. Da heute so gut wie alles mit XML gemacht wird, ist es eigentlich auch nicht verkehrt. OpenXML, XAML &amp; die Web.config sind nur Beispiele von XML Anwendungfällen.

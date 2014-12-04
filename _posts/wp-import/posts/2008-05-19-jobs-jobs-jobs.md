@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [Allgemein, Off Topic]
 tags: [Arbeit, Job, Jobs, T-Systems Multimedia Solutions GmbH]
+language: de
 ---
 {% include JB/setup %}
 <p style="text-align: center"> <img src="{{BASE_PATH}}/assets/wp-images/mitarbeiterwerben.jpg" onclick="window.location ='{{BASE_PATH}}/assets/wp-images/mitarbeiterwerben.jpg'; " style="border: 0px none " alt="mitarbiter werben" /></p>

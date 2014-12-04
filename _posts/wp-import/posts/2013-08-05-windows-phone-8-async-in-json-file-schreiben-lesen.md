@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Async, HowTo, JSON.NET, Windows Phone 8]
+language: de
 ---
 {% include JB/setup %}
 <p>Man kommt immer recht schnell zu dem Punkt an dem man “irgendeinen” Datenspeicher brauch. Da ein normale normale Text-Datei meist zu wenig bietet und Sqlite auf den ersten Blick auch nicht gerade “schlank” ist nehmen wir einfach eine JSON-Datei.</p> <h3>Trivale Beispielstruktur:</h3> <p>Wir möchten in der Demo-Anwendung einfach eine Liste von diesen Objekten speichern:</p><pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;">    public class Data

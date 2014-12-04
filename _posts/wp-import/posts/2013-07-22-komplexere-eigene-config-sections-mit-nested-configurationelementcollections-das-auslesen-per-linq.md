@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Config, ConfigSection, HowTo]
+language: de
 ---
 {% include JB/setup %}
 <p>Ein (Ur)-altes Thema, aber trotzdem braucht man es immer mal wieder: </p> <p>Wer eine Applikation mit komplexeren Konfigurationsmöglichkeiten baut stößt mit dem Key/Value Standard-System schnell an die Grenze. Vor 4 Jahren hatte ich bereits über das <a href="{{BASE_PATH}}/2009/11/03/howto-eine-eigene-configsection-schreiben-custom-configsections/">Thema gebloggt</a>.</p> <p>In dem Blogpost erweitere ich das Beispiel noch etwas und zeige wie man in einer Collection eine andere Collection hinterlegen kann. So kann man seine Konfiguration beliebig tief verschachteln. </p> <h3>Demo Config:</h3><pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;">  &lt;codeInsideConfig webUrl="http://code-inside.de" startedOn="2007"&gt;

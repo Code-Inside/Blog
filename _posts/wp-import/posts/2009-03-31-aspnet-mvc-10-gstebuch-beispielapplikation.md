@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, MVC]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image695.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="100" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb673.png" width="105" align="left" border="0" /></a> Ich war letzten Freitag bei der <a href="http://dotnet-chemnitz.de">.NET User Group Chemnitz</a> zu besuch und habe ein Vortrag &#252;ber das ASP.NET MVC 1.0 Framework gehalten.     <br />In dem Vortrag habe ich ein kurzen Abriss von der Funktionsweise von ASP.NET MVC an einem praktischen Beispiel gegeben - einem (von der Oberfl&#228;che her) sehr einfachen G&#228;stebuch. Architektonisch sicherlich mal wieder mit Kanonen auf Spatzen ;)</p> 

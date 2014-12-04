@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [WPF]
+language: de
 ---
 {% include JB/setup %}
 <SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&MarketPlace=DE&ID=V20070822/DE/meinkleinerbl-21/8001/1c7b6412-dc27-4e04-873f-bd5aa417ca70"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&MarketPlace=DE&ID=V20070822%2FDE%2Fmeinkleinerbl-21%2F8001%2F1c7b6412-dc27-4e04-873f-bd5aa417ca70&Operation=NoScript">Amazon.de Widgets</A></NOSCRIPT>

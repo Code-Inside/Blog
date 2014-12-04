@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, C#]
+language: de
 ---
 {% include JB/setup %}
 Da ich momentan dabei  bin, die komplette Architektur hinter Shoppingmap und co. zu verändern, will ich natürlich auch das ganze System etwas schneller machen.

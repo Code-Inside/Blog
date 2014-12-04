@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, Datenbank, HowTo, SQL, SQL Server 2005]
+language: de
 ---
 {% include JB/setup %}
 Datenbanken sind immer ein zentrales Thema, aber als Einsteiger in das Thema hatte ich damals keinen guten Überblick, wie man das ganze mit .NET zum Laufen bekommt. Daher hier eine kleine "Einführung" zum Thema Datenbankverbindungen - Datenbank X mit .NET.

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [SQL, SQL Server 2005]
+language: de
 ---
 {% include JB/setup %}
 <script charset="utf-8" type="text/javascript" src="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&amp;MarketPlace=DE&amp;ID=V20070822/DE/meinkleinerbl-21/8001/e51bd4f2-7947-4db9-9f1f-4503c684bfc5">     </script><noscript></noscript>

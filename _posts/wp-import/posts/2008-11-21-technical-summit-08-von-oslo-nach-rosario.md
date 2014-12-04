@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Technical Summit]
 tags: [Technical Summit, Visual Studio, Visual Studio 2010]
+language: de
 ---
 {% include JB/setup %}
 Der Tag begann recht früh (8.30 Uhr!) mit dem recht großen Thema "Oslo" (MGramma, MGraph, MSchema... ) - vom Ansatz her klingt es cool, allerdings ist es mir trotz des guten Vortrags von Darius Parys immer noch ein Rätsel ;)

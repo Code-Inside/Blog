@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [ASP.NET, Expression Blend, HowTo, Silverlight]
+language: de
 ---
 {% include JB/setup %}
 Wie bereits gestern erwähnt, hab ich eine neue HowTo Reihe zum Thema Silverlight angefangen.

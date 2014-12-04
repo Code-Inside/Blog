@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [.NET, .NET 3.0, Buchempfehlung, Service, SOA, WCF, Webservice]
+language: de
 ---
 {% include JB/setup %}
 <SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&MarketPlace=DE&ID=V20070822/DE/meinkleinerbl-21/8001/4e9f6164-cd78-4359-84c1-51277749e5a6"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&MarketPlace=DE&ID=V20070822%2FDE%2Fmeinkleinerbl-21%2F8001%2F4e9f6164-cd78-4359-84c1-51277749e5a6&Operation=NoScript">Amazon.de Widgets</A></NOSCRIPT> 

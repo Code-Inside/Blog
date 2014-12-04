@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, .NET 3.5]
+language: de
 ---
 {% include JB/setup %}
 Durch <a target="_blank" href="http://www.dotnetkicks.com" title="DotNetKicks">DotNetKicks.com</a> bin ich mal wieder darauf gekommen, auf die Website des <a target="_blank" href="http://msdn.microsoft.com/msdnmag/default.aspx" title="MSDN Mag">MSDN Magazines </a>zu gehen. Da es sich immer mal wieder lohnt dort reinzuschauen, wollte ich es nur nochmal erwähnen.

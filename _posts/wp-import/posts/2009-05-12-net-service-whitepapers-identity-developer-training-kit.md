@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Access, Azure, Geneva, Identity]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image728.png"><img style="border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images/image-thumb706.png" width="190" height="45" /></a> </p>  <p>Microsoft bietet ein <a href="http://blogs.msdn.com/hsirtl/archive/2009/05/12/neue-whitepapers-zu-net-services.aspx">Whitepaper zu den&#160; Azure .NET Services</a> und ein "<a href="http://blogs.msdn.com/vbertocci/archive/2009/05/11/announcing-the-identity-developer-training-kit.aspx">Identity Developer Trainings Kit</a>” zum Download an.</p> 

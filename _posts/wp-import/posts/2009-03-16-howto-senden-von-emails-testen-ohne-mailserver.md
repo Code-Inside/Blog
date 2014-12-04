@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Email, HowTo, SMTP, Tests]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image675.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="113" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb653.png" width="111" align="left" border="0" /></a>Emails mit .NET zu versenden ist recht einfach, wenn es allerdings darum geht, den generierten Emailtext zu testen, dann wird es manchmal etwas schwierig.     <br />Vor allem wenn das Entwicklungssystem keinen Zugriff auf den richtigen Email-Server hat, geht es meist nur auf &quot;gut Gl&#252;ck&quot;.    <br />Es gibt allerdings einen einfachen Web.Config Eintrag der es erheblich vereinfacht - die <a href="http://msdn.microsoft.com/en-us/library/system.net.mail.smtpclient.pickupdirectorylocation.aspx">PickupDirectoryLocation</a>.</p> 

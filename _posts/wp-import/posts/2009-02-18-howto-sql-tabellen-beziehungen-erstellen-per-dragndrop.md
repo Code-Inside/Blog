@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, SQL, SQL Server]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image655.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="85" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb633.png" width="130" align="left" border="0" /></a>Durch die Verkn&#252;pfung von Prim&#228;r- und Fremdsch&#252;sseln in Datenbanken bekommt man viele Vorteile. Der Gr&#246;&#223;te ist sicherlich die <a href="http://de.wikipedia.org/wiki/Referenzielle_Integrit%C3%A4t">Datenintegrit&#228;t</a>, aber auch etwas abseits der Datenbank-Welt k&#246;nnen z.B. <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">O/R Mapper</a> diese &quot;Beziehungen&quot; zwischen Tabellen nutzen und so bereits ein strukturierteres Datenmodell generieren.&#160; <br />Solche Verkn&#252;pfungen zwischen Tabellen kann man auch im SQL Server schnell erstellen, ohne sich durch X-Dialoge zu klicken - ganz einfach per Drag&#180;n&#180;Drop</p> 

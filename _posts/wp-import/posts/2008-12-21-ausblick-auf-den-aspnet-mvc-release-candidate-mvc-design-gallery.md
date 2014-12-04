@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, Design Gallery, MVC]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="http://weblogs.asp.net/scottgu/archive/2008/12/19/asp-net-mvc-design-gallery-and-upcoming-view-improvements-with-the-asp-net-mvc-release-candidate.aspx">ScottGu</a> gibt kurz vor Weihnachten noch einen Ausblick auf den Release Candidate&#160; von ASP.NET MVC und stellt die <a href="http://www.asp.net/mvc/gallery/default.aspx?supportsjs=true">MVC Design Gallery</a> vor.</p> 

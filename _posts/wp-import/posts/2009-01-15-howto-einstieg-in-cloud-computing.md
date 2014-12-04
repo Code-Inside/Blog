@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [Amazon, Amazon EC2, AppEngine, Google, HowTo, Phyton, S3, Windows Azure]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="http://de.wikipedia.org/wiki/Cloud_Computing">Cloud-Computing</a> h&#246;rt man heute immer mehr - doch was verbirgt sich dahinter? Welche gro&#223;en Anbieter gibt es im Bereich des &quot;Anwendungshostings&quot; und was ist f&#252;r Entwickler interessant?</p>  <p><a href="{{BASE_PATH}}/assets/wp-images/image587.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="55" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb565.png" width="150" border="0" /></a>&#160;<a href="{{BASE_PATH}}/assets/wp-images/image588.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="80" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb566.png" width="106" border="0" /></a> <a href="{{BASE_PATH}}/assets/wp-images/image589.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="60" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb567.png" width="164" border="0" /></a> </p> 

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [Icons]
+language: de
 ---
 {% include JB/setup %}
 Gute Icons findet man schwer - daher hab ich ein paar Quellen gesammelt und liste diese mal hier auf - beachtet aber die jeweilige Lizenz:

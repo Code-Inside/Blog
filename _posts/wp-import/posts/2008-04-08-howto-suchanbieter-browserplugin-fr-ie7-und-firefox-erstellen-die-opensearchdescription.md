@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Browser, Firefox, HowTo, IE, IE7, OpenSearchDescription, Xml]
+language: de
 ---
 {% include JB/setup %}
 <p>Vom Firefox und vom IE7 kennen wir diese praktischen Suchfelder:</p>  <p><a href="{{BASE_PATH}}/assets/wp-images/image377.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="225" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb356.png" width="244" border="0" /></a> </p>  <p><a href="{{BASE_PATH}}/assets/wp-images/image378.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="157" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb357.png" width="244" border="0" /></a> </p>  <p>Doch wie erstellt man so ein Plugin?</p>  <p>Daf&#252;r haben sich die Browserhersteller zusammengesetzt und das &quot;<a href="http://msdn2.microsoft.com/en-us/library/bb891764.aspx">OpenSearchDescription</a>&quot; Format erstellt.</p>  <p>Das ganze habe ich jetzt direkt mal f&#252;r den Blog erstellt. Das XML sieht dazu wie folgt aus:</p>  <p>&#160;</p>  <p>   <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:93eb1297-b0a6-4697-b93a-2cb325c85215" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;?xml version="1.0"?&gt;

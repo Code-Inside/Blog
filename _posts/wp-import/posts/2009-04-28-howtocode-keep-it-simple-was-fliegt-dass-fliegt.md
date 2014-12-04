@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein, HowToCode]
 tags: ["ReadYou", HowToCode]
+language: de
 ---
 {% include JB/setup %}
 <a href="{{BASE_PATH}}/assets/wp-images/image718.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="170" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb696.png" width="141" align="left" border="0" /></a>   <p>Vor einer ganze Weile habe ich &#252;ber <a href="{{BASE_PATH}}/2008/08/13/howtocode-readyou-evolution-der-architektur/">eine Idee geschrieben</a>, die wir eine ganze Weile auch in einem Projekt so verfolgt haben. Ein anderes geniales Konzept, wo ich mir nicht ganz sicher war, war das <a href="{{BASE_PATH}}/2009/02/06/howtocode-errorcodes-exceptions-den-user-informieren-wenn-etwas-schief-luft-wie-gehts/">Exception Handling</a>. Nachdem ich beide Ideen in einem Projekt umgesetzt hatte, kommt jetzt mein Fazit: <a href="http://de.wikipedia.org/wiki/KISS-Prinzip"><strong>Keep it simple</strong></a>!</p>  <p>&#160;</p> 

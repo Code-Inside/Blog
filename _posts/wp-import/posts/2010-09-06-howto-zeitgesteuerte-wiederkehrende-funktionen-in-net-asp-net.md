@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Timer, Timers, Zeit]
+language: de
 ---
 {% include JB/setup %}
 <p><img style="border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images/image1038.png" width="134" height="134" /></p>  <p>Wir hatten in einem Projekt die Anforderung, dass alle X-Minuten oder Sekunden ein bestimmte SQL Abfrage ausgeführt wird und je nach Ergebnis die Daten verarbeitet werden. Dies kann man etwas "dirty” mit einer while(true) Schleife und Thread.Sleep bauen, oder man nutzt einen Timer.</p>  <p><strong>Beispiel Szenario</strong></p>  <p>Als kleines Beispiel wollen wir eine Konsolenanwendung bauen, die aller 10 Sekunden auf der Kommandozeile was ausgibt.</p>  <p><strong>"Dirty” Variante</strong></p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:aff75203-b58c-48bd-b4d3-217615c6b02a" class="wlWriterEditableSmartContent"><pre name="code" class="c#">

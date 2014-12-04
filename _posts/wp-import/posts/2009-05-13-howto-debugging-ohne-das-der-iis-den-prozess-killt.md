@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Debugging, HowTo, IIS, IIS7]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image742.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="112" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb720.png" width="154" align="left" border="0" /></a>In einem <a href="{{BASE_PATH}}/2009/03/19/howto-iis7-als-development-server-im-visual-studio-2008-einrichten/">HowTo</a> habe ich empfohlen den IIS anstatt des Web Development Servers von Visual Studio zu nehmen. Allerdings kann der IIS das Debugging etwas erschweren, da dieser den Debug Prozess nach einer Weile selbst killt. Damit man sich gen&#252;gend Zeit im Debugmodus hat muss man eine kleine &#196;nderung am IIS vornehmen.</p> 

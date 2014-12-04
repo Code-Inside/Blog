@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Async, HowTo, Tests, Unit Tests]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image711.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="105" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb689.png" width="139" align="left" border="0" /></a>Im <a href="{{BASE_PATH}}/2009/04/12/howto-multithreading-in-net-asynchrone-programmierung-eventbasiert/">letzten HowTo</a> ging es um den Einstieg in die <a href="http://msdn.microsoft.com/de-de/library/ms228969(VS.80).aspx">asynchrone Programmierung</a>. Ein &quot;Problem&quot; dabei war, dass man nie genau wei&#223; wie lange die Operation dauert. Mit einem kleinen Trick lassen sich auch solche Sachen elegant in einem UnitTest (oder Integrationstest) automatisiert testen.</p> 

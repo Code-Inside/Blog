@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Fix]
 tags: [IIS, Troubleshooting, Windows Auth]
+language: de
 ---
 {% include JB/setup %}
 <p>Windows Authentifizierung ist eine einfache (und naheliegende) Authentifizierungs-Option für “Haus-interne” Webapplikationen. </p> <h3>Setup</h3> <p>Im IIS selbst kann man die Windows Authentifzierung sehr leicht anschalten:</p> <p><a href="{{BASE_PATH}}/assets/wp-images/iis1.gif"><img title="iis" style="display: inline" alt="iis" src="{{BASE_PATH}}/assets/wp-images/iis_thumb1.gif" width="582" height="365"></a></p> <p>Natürlich kann man dies auch über die <a href="http://msdn.microsoft.com/en-us/library/ff647405.aspx">web.config</a> steuern:</p><pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;"> &lt;system.web&gt;

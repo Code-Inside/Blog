@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, Health Monitoring, HowTo]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image677.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="125" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb655.png" width="164" align="left" border="0" /></a>Die Arbeit ist getan, die Website steht! Doch damit fangen die n&#228;chsten Probleme an. Kunden rufen an und sagen einem, dass sie eine Error-Page gesehen haben - also mal auf den Server schauen was da eigentlich los ist.    <br />Mit diversen Logging Tools kann man sich &#252;ber bestimmte Ereignisse informieren lassen - seit ASP.NET 2.0 gibt es auch einen eingebautes <a href="http://msdn.microsoft.com/en-us/library/2fwh2ss9.aspx">Health-Monitoring</a>, dass man sehr einfach nutzen kann. </p> 

@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [Allgemein, HowTo]
 tags: [.NET, ASP.NET, deflate, gzip, HowTo, komprimieren]
+language: de
 ---
 {% include JB/setup %}
 Wenn man größere Datenmegen auf einer ASP Seite anzeigen oder per Webservice übertragen möchte, kann man die Übertragungsdauer durch Komprimierung erheblich reduzieren (je nach Inhalt schrumpft die Datenmenge auf ca. 1/4).

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [Architektur, OOP]
+language: de
 ---
 {% include JB/setup %}
 <SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&MarketPlace=DE&ID=V20070822/DE/meinkleinerbl-21/8001/54ada4b5-ac7e-4f00-8914-9637a144f421"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.de/widgets/q?ServiceVersion=20070822&MarketPlace=DE&ID=V20070822%2FDE%2Fmeinkleinerbl-21%2F8001%2F54ada4b5-ac7e-4f00-8914-9637a144f421&Operation=NoScript">Amazon.de Widgets</A></NOSCRIPT>

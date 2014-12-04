@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, ASP.NET AJAX, LINQ, Microsoft, Silverlight, Silverlight 1.0]
+language: de
 ---
 {% include JB/setup %}
 Zur Weihnachtszeit gibts was sehr interessantes von Microsoft Press: 3 EBooks gratis (Voraussetzung ist nur eine Windows Live ID)

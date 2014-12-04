@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, ASP.NET MVC, Elmah, Exceptions, HowTo]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image756.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="105" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb734.png" width="136" align="left" border="0" /></a>Ich habe bereits mehrfach &#252;ber <a href="{{BASE_PATH}}/2009/03/17/howto-health-monitoring-mit-aspnet/">Errorlogging</a> (und <a href="{{BASE_PATH}}/2009/05/08/howto-logging-mit-log4net/">Logging</a> im Allgemeinen) geschrieben, jedoch habe ich heute in einem <a href="http://asp.net/mvc">ASP.NET MVC</a> Projekt eine nette Open Source Library eingebaut: <a href="http://code.google.com/p/elmah/">ELMAH</a> - <i>Error Logging Modules and Handlers for ASP.NET.</i></p> 

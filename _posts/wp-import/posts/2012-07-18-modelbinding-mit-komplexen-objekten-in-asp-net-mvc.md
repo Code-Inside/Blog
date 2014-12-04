@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, Modelbinding]
+language: de
 ---
 {% include JB/setup %}
 <p>Vor einer ganzen Weile habe ich schon über das Thema <a href="{{BASE_PATH}}/2009/04/02/howto-daten-vom-view-zum-controller-bermitteln-bindings-in-aspnet-mvc/">Modelbinding (oder wie übertrage ich Daten vom View zum Controller)</a> geschrieben. Allerdings ist der Blogpost etwas älter und ging nur unzureichend auf komplexe Objekte und Auflistungen dieser ein.</p> <p><strong><u>Grundsatz:</u></strong> Das Modelbinding in ASP.NET MVC ist “relativ” clever und man kann <em>fast</em> alles binden. Man muss nur verstehen wie das Binding funktioniert und meist erklärt es sich, wenn man mal über Fiddler und co. nachschaut was per HTTP über die Leitung geht.</p> <p><strong>Objektmodell</strong></p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:3a1676be-2939-496e-98b5-8726e694d449" class="wlWriterEditableSmartContent"><pre name="code" class="c#">public class Foobar

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [Gadgets, IE8, Vista]
+language: de
 ---
 {% include JB/setup %}
 <a href="http://www.winfuture.de/magazin/Internet-Explorer-8-Beta-1---Die-Neuerungen-im-berblick-37927-1.html">Winfuture.de</a> hat einen recht großen Artikel rund um den neuen IE8 bereitgestellt, der auf die Neuerungen eingeht. Winfuture ist wie gewohnt sehr Microsoft freundlich. Schauen wir mal:

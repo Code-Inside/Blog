@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [Blend 3, SDK, Silverlight 3]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image679.png"><img style="border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images/image-thumb657.png" width="116" height="87" /></a> </p>  <p>Scheint so als wären die Silverlight 3 Beta früher da als erwartet - man kann die <a target="_blank" href="http://go.microsoft.com/fwlink/?linkid=143433">Runtime</a>, die <a target="_blank" href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=11dc7151-dbd6-4e39-878f-5081863cbb5d">Tools für Visual Studio</a>, das <a target="_blank" href="http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=d09b6ecf-9a45-4d99-b752-2a330a937bc4">SDK</a> und die <a target="_blank" href="http://msdn.microsoft.com/en-us/library/cc838158(vs.96).aspx">Dokumentation</a> bereits runterladen.</p> 

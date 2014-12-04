@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Projekte]
 tags: [ShoppingMap, Web 2.0]
+language: de
 ---
 {% include JB/setup %}
 Web 2.0 ist in aller Munde. Leider ist es wohl gängige Praxis länger über das Web 2.0 zu reden, als selber dazu beizutragen.

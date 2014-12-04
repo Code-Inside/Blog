@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image887.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="122" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb72.png" width="148" align="left" border="0"></a>"Inline" Code kommt bei <a href="http://asp.net/mvc">ASP.NET MVC</a> sehr häufig in den Views vor. Wer PHP, JSP oder eine andere "Web-Sprache/Framework" mal gesehen hat, findet das eigentlich auch recht vertraut. Um Serverseitigen Code einzuschleusen gibt es diesen Syntax: &lt;% ... %&gt;. Manchmal reicht für eine Ausgabe auch nur &lt;%=Model%&gt;. In dem Blogpost möchte ich kurz zusammenfassen, was da überhaupt passiert. Am Anfang hat mich das nämlich immer etwas verwirrt ;)</p><p><strong>&lt;%=Model.XXX%&gt;</strong></p> <p>Für eine kleine Ausgabe auf dem View reicht dieser Syntax:</p> <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c0a7b8c1-760e-4638-9859-1c0289ae0908" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;%= Html.Encode(ViewData["Message"]) %&gt;</pre></div>

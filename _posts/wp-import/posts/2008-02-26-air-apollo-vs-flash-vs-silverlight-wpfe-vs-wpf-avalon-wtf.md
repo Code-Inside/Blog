@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [AIR, Java, Silverlight, WPF]
+language: de
 ---
 {% include JB/setup %}
 Heute hat Adobe sein <a href="http://de.wikipedia.org/wiki/Adobe_Integrated_Runtime">AIR</a> veröffentlicht. Um was geht es da eigentlich? Um es kurz auszudrücken: Flashinhalte / Applikationen können über AIR auch direkt als Desktopanwendung laufen.

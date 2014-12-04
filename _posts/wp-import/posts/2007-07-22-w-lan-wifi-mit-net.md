@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Windows, Wlan]
+language: de
 ---
 {% include JB/setup %}
 Wer schon immer mal seinen eigenen W-Lan Scanner oder ein eigenes Verwaltungsprogramm für seine W-Lan Einstellungen schreiben will, für den ist der nachfolgende Text bestimmt interessant.

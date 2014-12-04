@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Google, Google Maps, HowTo]
+language: de
 ---
 {% include JB/setup %}
 Nachdem es in der letzten Zeit etwas stressiger bei mir und meinen Kollegen war, gibt es nun wieder einen neuen, kleinen HowTo Eintrag. Es geht diesmal um die Google Maps API.

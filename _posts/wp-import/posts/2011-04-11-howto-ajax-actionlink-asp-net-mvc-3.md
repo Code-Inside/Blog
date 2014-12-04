@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [AJAX, ASP.NET MVC, HowTo]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image1241.png"><img style="border-right-width: 0px; margin: 0px 10px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images/image_thumb421.png" width="163" height="107" /></a> </p>  <p>Im MVC Framework gibt es ein paar kleine Helferlein und über die AJAX Helper hatte ich bereits <a href="{{BASE_PATH}}/2009/08/25/howto-ajax-und-aspnet-mvc/">vor einiger Zeit geschrieben</a> - allerdings hat sich die Funktionalität ein klein wenig geändert, daher hier jetzt das Update.</p>  <p><strong>Problemfall: AJAX Actionlink liefert neue Seite zurück</strong></p>  <p>Wir haben ein Standard MVC 3 Web Projekt und folgende Zeile soll einfach nur einen Link erzeugen, welcher bei Knopfdruck ein View per AJAX nachlädt und in das "Result” Div reinsetzt:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:ffd83d40-ebc2-49c2-a2e1-dcee5333b293" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    @Ajax.ActionLink("Foobar load", "Foobar", "Home", new AjaxOptions() { HttpMethod = "Get", UpdateTargetId = "Result" })</pre></div>

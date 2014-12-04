@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, log4net, logging, Reflection]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image739.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="111" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb717.png" width="115" align="left" border="0" /></a> Im letzten <a href="{{BASE_PATH}}/2009/05/08/howto-logging-mit-log4net/">HowTo ging es um das Logging mit Log4Net</a>.&#160; F&#252;r eine gute Fehleranalyse braucht man m&#246;glichst viele Details &#252;ber die Parameter die in eine Methode eingegangen sind. Das manuelle rausloggen ist sehr m&#252;hsam. Mittels <a href="http://de.wikipedia.org/wiki/Reflexion_(Programmierung)">reflection</a> kann man sich viel Arbeit ersparen: Ein ObjectDumper welcher Objekte rekursiv durchl&#228;uft und die Eigenschaften ausloggt ist die L&#246;sung :)</p> 

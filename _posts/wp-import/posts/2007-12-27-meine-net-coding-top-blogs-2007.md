@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: ["Astoria", .NET, ASP.NET 3.5, ASP.NET 3.5 Extensions, Blogs, Microsoft, Silverlight]
+language: de
 ---
 {% include JB/setup %}
 Da 2007 demnächst zuende geht, möchte ich einfach mal meine Blog-Favoriten für 2007 näher erwähnen.

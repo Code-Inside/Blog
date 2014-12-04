@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, Azure, Cloud, Cloud Computing, HowTo, Web Role, Windows Azure]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image615.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="161" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb593.png" width="240" align="left" border="0" /></a>In <a href="{{BASE_PATH}}/2009/01/15/howto-einstieg-in-cloud-computing/">einem letzten Blogpost</a> habe ich &#252;ber Cloud Computing im Allgemeinen geschrieben. </p>  <p>Darin hab ich bereits etwas &#252;ber die Windows Azure Plattform gesprochen und m&#246;chte nun eine &quot;Hello World&quot; Anwendung auf Windows Azure erstellen.</p> 

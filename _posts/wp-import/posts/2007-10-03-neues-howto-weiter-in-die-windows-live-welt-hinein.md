@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, HowTo, Windows Live]
+language: de
 ---
 {% include JB/setup %}
 In dem neuen HowTo geht es um den Windows Live ID Dienst und wie man diesen für die eigene Website nutzt.

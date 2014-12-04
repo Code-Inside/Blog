@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, SQL, Visual Studio]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image693.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="104" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb671.png" width="147" align="left" border="0" /></a>Die Integration von SQL Servern im Visual Studio ist sehr nett, nur selten nutze ich direkt das SQL Management Studio. Eine Sache nervt allerdings: SQL Tabellen umbenennen scheint nicht vorgesehen zu sein - &#252;ber einen kleinen kleinen Trick geht jedoch auch das direkt aus Visual Studio heraus.</p> 

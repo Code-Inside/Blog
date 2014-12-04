@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [Allgemein, Tools]
 tags: [.NET, .Net User Group, Tastenkombos]
+language: de
 ---
 {% include JB/setup %}
 <img src="http://www.do-dotnet.de/upload/download/key_presenter/do-dotnet-key-presenter.jpg" alt="key presenter" />

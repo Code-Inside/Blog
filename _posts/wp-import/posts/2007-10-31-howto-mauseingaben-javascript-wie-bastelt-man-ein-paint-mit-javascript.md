@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Javascript]
+language: de
 ---
 {% include JB/setup %}
 In diesem HowTo schauen wir uns mal an, wie man auf Mauseingaben mit Javascript reagiert. Es ist etwas schwammig formuliert, allerdings fiel mir nichts besseres ein.

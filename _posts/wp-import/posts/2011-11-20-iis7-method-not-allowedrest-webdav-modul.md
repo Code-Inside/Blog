@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [IIS7, REST]
+language: de
 ---
 {% include JB/setup %}
 <p>Wer mit “REST” Services im IIS arbeitet, wird den Fehler kennen: <strong>“Method not allowed”</strong>. In <a href="{{BASE_PATH}}/2011/10/11/http-putdelete-via-web-config-im-iis7-fr-asp-net-mvc-erlauben/">diesem Blogpost</a> hatte ich beschrieben, wie man die richtige Konfiguration per Web.config setzen kann. Allerdings hatte ich nun den Fall, dass das RavenDB Studio nicht so wollte und ich wollte die web.config auch nicht groß editieren.</p> <p><strong>Häufige Fehlerquelle: Das WebDAV Modul</strong></p> <p>Wenn im IIS noch WebDAV aktiviert ist, dann kommt dies Fehlermeldung meistens, weil es Überschneidungen mit dem WebDAV Modul gibt. Daher sollte man sicher gehen, dass man es entweder via web.config deaktiviert hat:</p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:3651b7ab-87db-4cd1-be7f-aa92b14b0580" class="wlWriterEditableSmartContent"><pre name="code" class="c#">	&lt;system.webServer&gt;

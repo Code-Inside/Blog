@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, log4net, logging]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image723.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="93" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb701.png" width="148" align="left" border="0" /></a>Sobald die Anwendung l&#228;uft und die ersten Bugs vom Kunden werden ist es enorm wichtig zu wissen, was eigentlich vorgegangen ist und wie es zu dem Fehler gekommen ist. An wichtigen Punkten ein Logging einzubauen ist deshalb sehr hilfreich beim Debuggen. <a href="http://logging.apache.org/log4net/download.html">Log4Net</a> ist eine sehr schicke Logging Bibliothek, die fast jeden Wunsch erf&#252;llt und das ganze in nur wenigen Minuten aufgesetzt.</p> 

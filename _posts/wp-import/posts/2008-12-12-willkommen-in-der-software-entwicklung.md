@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [Allgemein]
 tags: []
+language: de
 ---
 {% include JB/setup %}
 <h3><br>Haben Sie jemals einen dummen Fehler zweimal begangen?</h3> <p>-Willkommen in der realen Welt. <h3>Haben Sie diesen Fehler hundertmal hintereinander gemacht?</h3> <p>-Willkommen in der Software-Entwicklung <p>(Tom DeMarco)</p>

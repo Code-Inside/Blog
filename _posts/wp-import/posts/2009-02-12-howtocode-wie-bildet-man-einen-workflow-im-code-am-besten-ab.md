@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowToCode]
 tags: [HowTo, HowToCode, WF, Windows Workflow Foundation, Workflow]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image651.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="137" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb629.png" width="132" align="left" border="0" /></a> Jede Anwendung basiert auf ein oder mehrere Aktionen, welche zum Teil von verschiedensten Dingen abh&#228;ngen: Dem User, anderen Systemen, eingegebene Werte etc.</p>  <p>Meist spricht man von einem &quot;<a href="http://de.wikipedia.org/wiki/Workflow">Workflow</a>&quot;, der in Software umgesetzt werden muss, doch wie bildet man diesen am &quot;effektivsten&quot; ab? If-Else Konstrukte oder &quot;Workflow Engines&quot; wie die <a href="http://msdn.microsoft.com/de-de/library/cc431274.aspx">Windows Workflow Foundation</a>? Wie steht es mit der Testbarkeit? In diesem Post will ich ein paar Varianten vorstellen, bitte aber wieder ausdr&#252;cklich um Feedback, wie ihr dies handhabt.</p> 

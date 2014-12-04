@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [Codeplex, MVC, Open Source, Oxite, Storefront]
+language: de
 ---
 {% include JB/setup %}
 <p>Mit dem ASP.NET MVC Demoprojekt &quot;<a href="http://www.codeplex.com/oxite">Oxite</a>&quot; hat Microsoft viel <a href="http://www.heise.de/newsticker/Mehr-Open-Source-von-Microsoft-Oxite-ein-CMS-und-Blogging-System--/meldung/120183">Wirbel gemacht</a>. Auf der einen Seite ist es sehr sch&#246;n den Source Code zu ver&#246;ffentlichen, auf der anderen Seite hat Microsoft auch <a href="http://codebetter.com/blogs/karlseguin/archive/2008/12/15/oxite-oh-dear-lord-why.aspx">harte</a> <a href="http://www.lazycoder.com/weblog/2008/12/15/new-aspnet-mvc-sample-oxite-needs-some-tlc/">Kritik</a> von den Alpha Geeks bekommen. Sollte man ein Projekt erst dann ver&#246;ffentlichen wenn es &quot;perfekt&quot; ist? </p> 

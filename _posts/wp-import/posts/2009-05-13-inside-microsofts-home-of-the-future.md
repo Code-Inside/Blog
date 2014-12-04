@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [Microsoft, NUI]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image738.png"><img style="border-right-width: 0px; margin: 0px 10px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images/image-thumb716.png" width="149" height="100" /></a> </p>  <p>Microsoft zeigt in einem <a href="http://www.neowin.net/news/main/09/05/13/inside-microsofts-home-of-the-future-video">Video</a> wie das "Haus der Zukunft” aussehen könnte. Weitere Fotos finden sich <a href="http://seattletimes.nwsource.com/html/photogalleries/businesstechnology1430/1.html">hier</a>. Sprachsteuerung &amp; "<a href="http://en.wikipedia.org/wiki/Natural_User_Interface">NUI</a>”s finden sich oft im Video wieder.</p>  <p>&#160;</p> 

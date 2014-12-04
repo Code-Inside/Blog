@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [AJAX, ASP.NET, ASP.NET AJAX, HowTo, Javascript]
+language: de
 ---
 {% include JB/setup %}
 Ich hab mich mal wieder hingesetzt um einen relativ kurzen Artikel über den Einstieg in das Microsoft AJAX Thema geschrieben.

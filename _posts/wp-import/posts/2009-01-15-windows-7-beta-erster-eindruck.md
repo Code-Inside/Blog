@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [Aero, Beta, Gadgets, IE, Windows 7]
+language: de
 ---
 {% include JB/setup %}
 <p>Die Windows 7 Beta gibt es seit letzter Woche <a href="http://www.microsoft.com/germany/windows/windows-7/beta-download.aspx">zum Download</a> und ich habe mir diese parallel auch auf meinem Notebook installiert. Was ist besser <a href="http://xkcd.com/528/">als bei Vista</a>? Was gibt es alles in der Beta zu sehen und was entt&#228;uscht etwas.</p>  <p><a href="{{BASE_PATH}}/assets/wp-images/image585.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="149" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb563.png" width="180" border="0" /></a>&#160;</p> 

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, IIS, IIS7, Vista, Visual Studio 2008]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image681.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="117" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb659.png" width="161" align="left" border="0" /></a> Die Webentwicklung ist mit Visual Studio eigentlich recht einfach - man startet ein neues Webprojekt und kann es &#252;ber <strong>F5</strong> direkt testen und seine Anwendung debuggen. Dabei nutzt VS im Standardfall den <a href="http://msdn.microsoft.com/de-de/library/58wxa9w5(VS.80).aspx">ASP.NET Development Server &quot;Cassini&quot;</a>. Da dieser allerdings nicht immer genau das Verhalten zeigt wie ein richtiger IIS (und auch noch dazu recht langsam ist), gibt es eine einfache Einstellung das zu &#228;ndern.</p> 

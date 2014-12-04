@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Fix]
 tags: [Error, Fix]
+language: de
 ---
 {% include JB/setup %}
 <p>Der Blogpost gehört zur Reihe “seltsame Fehlermeldung und stundenlanges Googlen hat nichts gebracht.” Mein Kollege Daniel Kubis bekam beim Starten einer ASP.NET Anwendung folgenden Fehler:</p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e0e7dac7-06f7-45b2-a967-e4f24ca9fd49" class="wlWriterEditableSmartContent"><pre name="code" class="c#">Parser Error Message: Could not load type 'ApplicationName.Global'.

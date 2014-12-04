@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, .NET 2.0, ATOM, Google, HowTo, Xml, YouTube]
+language: de
 ---
 {% include JB/setup %}
 Vor einige Zeit habe ich bereits in einem meiner <a target="_blank" href="{{BASE_PATH}}/2007/12/24/wchentliche-rundablage-aspnet-mvc-aspnet-35-adonet-data-services-astoria-aspnet-ajax-silverlight/">Wöchentlichen Rundablagen</a> diesen interessanten Blogeintrag gefunden: <a href="http://www.dotneat.net/2007/12/20/QueryingYoutubeAPIUsingC.aspx">Querying Youtube API using C#</a>

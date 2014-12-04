@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [FailCode, HowToCode]
 tags: [C#, Datentypen, Klassen, Schnisttellen]
+language: de
 ---
 {% include JB/setup %}
 <p>Aufgrund der Objektorientierung beschreibt man als Entwickler seine zu bearbeitenden Daten in Objekte. Logisch. Das sieht dann so aus:</p><pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;">public List&lt;Product&gt; GetProducts()</pre>

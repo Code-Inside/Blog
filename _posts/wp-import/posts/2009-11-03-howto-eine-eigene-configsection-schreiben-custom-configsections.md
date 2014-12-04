@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Configs, ConfigSection, Custom, HowTo]
+language: de
 ---
 {% include JB/setup %}
 <a href="{{BASE_PATH}}/assets/wp-images/image864.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="106" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb49.png" width="140" align="left" border="0"></a>.NET bietet eine recht einfache Möglichkeit Applikations Einstellungen in eine .config zu speichern. Wenn allerdings die Anwendung und damit das "einstellbare" komplexer wird, reicht vielleicht die einfachen <a href="http://msdn.microsoft.com/de-de/library/ms228154(VS.80).aspx">AppSettings</a> nicht aus. In diesem HowTo geht es darum, wie man seine komplett eigenen Custom <a href="http://msdn.microsoft.com/en-us/library/ms228256.aspx">ConfigSections</a> bauen kann. <p>&nbsp;</p> <p><strong>Wie soll unsere Konfiguration am Ende aussehen?</strong></p> <p>Im meinem Beispiel stellen wir uns vor, wir wollen eine Art Konfiguration von einem Blog namens Code-Inside in der .config nach diesem Schema speichern:</p> <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:f5037e30-a3f4-4a2d-8515-1f83f9545693" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;codeInsideConfig webUrl="http://code-inside.de" startedOn="2007"&gt;

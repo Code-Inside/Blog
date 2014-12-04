@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC; MVC, HowTo]
+language: de
 ---
 {% include JB/setup %}
 <p>In fast jedem ASP.NET Projekt wird es eine Masterpage geben und diese wird was &quot;dynamisches&quot; Anzeigen - sei es eine Tagcloud oder allein der Seitentitel. Allerdings ist sowas im MVC Sinne nicht ganz trivial. Ich arbeite gerade in einem kleinen Projekt mit dem <a href="http://www.asp.net/mvc">ASP.NET MVC</a> Framework &#252;ber das ich schon <a href="{{BASE_PATH}}/2008/10/14/howto-aspnet-mvc-erstellen-erster-einstieg/">ab und an mal</a> gebloggt habe. </p> 

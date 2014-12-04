@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowToCode]
 tags: [Errors, Exceptions, HowTo, HowToCode]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image639.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="118" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb617.png" width="89" align="left" border="0" /></a> Usereingaben validieren, durch die Businesslogik schicken, dem Nutzer evtl. Fehler wieder anzeigen - fast jedes System macht sowas, doch wie macht man es &quot;richtig&quot;? Definiert man Errorcodes? Was ist mit Mehrsprachigkeit? In dem Post zeige ich meine Variante und bitte auch um Feedback :)</p> 

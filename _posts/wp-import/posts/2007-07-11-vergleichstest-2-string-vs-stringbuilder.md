@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [Allgemein]
 tags: [.NET]
+language: de
 ---
 {% include JB/setup %}
 Ich habe gerade mit dem Code aus Roberts Vergleichstest noch etwas gespielt.

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Games, iPhone, iPod Touch, Mono, unity 3d, Wii]
+language: de
 ---
 {% include JB/setup %}
 <p>Mono als Spieleplattform? Geht nicht? Geht doch: Sogar auf der Wii und dem iPhone über <a target="_blank" href="http://unity3d.com/">Unity3D</a>. Erste <a target="_blank" href="http://tirania.org/blog/archive/2009/Jan-06.html">monobasierte</a> <a target="_blank" href="http://tirania.org/blog/archive/2009/Jan-06.html">Spiele</a> im AppStore bzw. überall im Handel.</p> 

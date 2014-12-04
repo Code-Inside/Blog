@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Poster]
+language: de
 ---
 {% include JB/setup %}
 Hallo mal wieder,

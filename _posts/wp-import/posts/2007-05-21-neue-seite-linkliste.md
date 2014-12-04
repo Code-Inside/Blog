@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: []
+language: de
 ---
 {% include JB/setup %}
 Da ich auf Arbeit meistens irgendein Link suche, welche ich mir daheim aufgeschnappt habe und mir die tollen Web 2.0 Linksammlungen irgendwie nicht gefallen, hab ich jetzt ne kleine Linksammlung mal gemacht.

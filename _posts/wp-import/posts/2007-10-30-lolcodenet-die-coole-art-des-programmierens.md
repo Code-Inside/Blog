@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Lolcode]
+language: de
 ---
 {% include JB/setup %}
 <img src="http://icanhascheezburger.files.wordpress.com/2007/04/im-in-ur-documintz-insidertradin.jpg" />

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Software-Tipp]
 tags: [Installation, Server, WebPI, Win2008]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image687.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="119" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb665.png" width="174" align="left" border="0" /></a>Der &quot;<a href="http://www.microsoft.com/web/default.aspx">Web Platform Installer</a>&quot; von Microsoft ist ein recht junges Tool, welches die Installation von Web-Komponenten f&#252;r Windows erleichtern soll. Dazu z&#228;hlen nicht nur Developer Tools wie Visual Studio, sondern auch f&#252;r den Webserver interessante Komponenten, z.B. <strong>ASP.NET MVC, PHP, diverse Module</strong> &amp; auch <strong>Anwendungen</strong> wie <strong>Wordpress, dasBlog, dotnetnuke</strong> etc. - stellt euch einfach von der Usability her einen AppStore f&#252;r Windows Systeme vor. So in etwa funktioniert es ;)</p> 

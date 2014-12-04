@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, LINQ, RSS, XLINQ]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image714.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="111" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb692.png" width="111" align="left" border="0" /></a>Vor einige Zeit hatte ich schon etwas zu <a href="{{BASE_PATH}}/2008/02/26/howto-linq-to-xml-daten-lesen/">XLinq (oder Linq to Xml) geschrieben</a>. RSS Feeds einlesen ist eigentlich keine gro&#223;e Sache, weil der Standard recht simpel ist. Allerdings gibt es da auch Abweichungen ;)    <br />Da ich bereits geschrieben habe wie man ein <a href="{{BASE_PATH}}/2008/06/19/howto-rss-feeds-mit-linq-to-xml-erstellen-xlinq/">RSS Feed erstellt</a>, zeige ich nun an einem einfachen Beispielen wie man <a href="http://de.wikipedia.org/wiki/RSS">RSS Feeds</a> einlesen kann.</p> 

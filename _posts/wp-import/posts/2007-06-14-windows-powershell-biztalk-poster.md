@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [Biztalk, Poster, Powershell]
+language: de
 ---
 {% include JB/setup %}
 Die beiden Themen tauchten zwar noch nie in dem Blog hier mit auf, allerdings sind beides immerhin Microsoft Produkte und es schadet ja nicht, sich etwas umfassender zu bilden.

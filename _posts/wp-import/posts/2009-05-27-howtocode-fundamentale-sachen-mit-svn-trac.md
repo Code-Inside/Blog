@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowToCode]
 tags: [Bugtracking, Builds, Management, SVN, TFS, Trac, Visual Studio]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image749.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="113" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb727.png" width="149" align="left" border="0" /></a>Bereits in einem sehr fr&#252;hen <a href="{{BASE_PATH}}/2008/06/10/howtocode-readyou-todo-liste-managen/">HowToCode Beitrag</a> habe ich ein paar &quot;fundamentale&quot; Sachen erw&#228;hnt die ein Software-Projekt braucht. In meiner Freizeit bastel ich an einem Community Projekt auf Basis von ASP.NET MVC. Da ein <a href="http://de.wikipedia.org/wiki/Team_Foundation_Server">TFS</a> f&#252;r Community Projekte (die nicht Open Source sein wollen/sind) eigentlich unerschwinglich sind, nutzen wir SVN als Source Code Verwaltung &amp; Trac zum Managen. In diesem Post geht es um die Zusammenarbeit von Visual Studio mit diesen Tools und wo es noch etwas klemmt.</p> 

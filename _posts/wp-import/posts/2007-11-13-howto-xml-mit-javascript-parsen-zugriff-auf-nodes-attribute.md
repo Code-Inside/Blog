@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Javascript, Xml]
+language: de
 ---
 {% include JB/setup %}
 JSON ist eigentlich eine feine Sache - allerdings hat man manchmal keine Wahl und muss in Javascript ein XML parsen.

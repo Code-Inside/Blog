@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: []
+language: de
 ---
 {% include JB/setup %}
 <p>Eine kleine, aber für mich sehr tolle Neuigkeit in eigener Sache: </p> <p><em>“Sehr geehrte(r) Robert Muehsig,<br>herzlichen Glückwunsch! Wir freuen uns, Ihnen den Microsoft® MVP Award 2012 verleihen zu können!…”</em> </p> <p>Damit bleibt weiterhin “alles beim Alten” – auf ein spannendes neues Jahr.</p>

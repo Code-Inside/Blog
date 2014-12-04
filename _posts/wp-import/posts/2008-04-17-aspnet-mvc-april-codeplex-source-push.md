@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, Codeplex, MVC]
+language: de
 ---
 {% include JB/setup %}
 Microsoft hat eine neue Version des MVC Frameworks auf Codeplex <a href="http://www.codeplex.com/aspnet/Release/ProjectReleases.aspx?ReleaseId=12640">released</a>.

@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [Allgemein, Tools]
 tags: [AJAX, Javascript, Web 2.0, Web Design]
+language: de
 ---
 {% include JB/setup %}
 Nachdem Robert schon mal <a href="http://www.noupe.com/ajax/37-more-shocking-jquery-plugins.html">diesen Link</a> <a href="{{BASE_PATH}}/2008/04/10/beeindruckende-javascript-spielerein-mit-jquery/">gebloggt hat</a> habe ich noch diese coolen Scripts gefunden:

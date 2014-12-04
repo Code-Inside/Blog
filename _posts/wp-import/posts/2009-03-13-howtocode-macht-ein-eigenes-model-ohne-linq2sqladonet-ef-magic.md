@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowToCode]
 tags: [ADO.NET EF;]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image669.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="174" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb647.png" width="128" align="left" border="0" /></a> Der Einsatz von <a href="http://msdn.microsoft.com/de-de/library/bb386976.aspx">Linq2Sql</a> oder der Einsatz vom <a href="http://msdn.microsoft.com/de-de/magazine/cc163399.aspx">ADO.NET Entity Framework</a> ist sehr einfach - die Einstiegsh&#252;rden sind erstmal niedrig und man bastelt seine Datenbank, generiert daraus sein Model und dann kann man schon loslegen und alles ist heile Welt. Der Titel hier ist etwas provokant, allerdings muss ich immer wieder erleben dass der Einsatz solcher Tools/Frameworks (es gibt sicherlich noch andere dieser Art) auch richtig sch&#246;n schief gehen kann.</p> 

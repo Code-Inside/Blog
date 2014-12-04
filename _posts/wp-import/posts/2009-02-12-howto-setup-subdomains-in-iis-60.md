@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [DNS, Domains, HowTo, IIS, Subdomains]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image643.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="78" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb621.png" width="110" align="left" border="0" /></a>Ich arbeite mit einem Kollegen gerade an <a href="{{BASE_PATH}}/2009/02/06/howtocode-errorcodes-exceptions-den-user-informieren-wenn-etwas-schief-luft-wie-gehts/">ein (noch) geheimes Projekt</a>, wobei wir <a href="http://asp.net/mvc">ASP.NET MVC</a> als Nutzerfontend einsetzen und momentan <a href="{{BASE_PATH}}/2009/01/30/howto-sql-datenbank-weboberflche-mit-aspnet-dynamic-data-und-dem-entity-framework-auf-iis-60/">ein Admininterface mit</a> den <a href="http://www.asp.net/dynamicdata/">ASP.NET Dynamic Data</a> Feature umgesetzt haben. Nat&#252;rlich brauchen wir auch eine Testumgebung, sodass unser Projektleiter die neusten Sachen erstmal anschauen kann, bevor diese Live gehen.     <br /><strong>Kurz:</strong> Wir haben eine Domain <a href="http://www.xzy.de">www.xzy.de</a> und wollen noch zwei Subdomains (<a href="http://www.admin.xyz.de">www.admin.xyz.de</a> &amp; <a href="http://www.test.xyz.de">www.test.xyz.de</a>) auf einen Windows Server 2003 einrichten. </p> 

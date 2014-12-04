@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Javascript, MouseOver, Source]
+language: de
 ---
 {% include JB/setup %}
 Der Effekt ist eigentlich wohl bekannt und wir bei vielen Javascript Bibliotheken angeboten: Mouse Over Effekte. So werden z.B. Details oder weitere Informationen nachgeladen, sobald man mit dem Mousecursor über dem Element ist.

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, ASP.NET, SharePoint]
+language: de
 ---
 {% include JB/setup %}
 Da ich momentan wieder am Basteln bin und (mal wieder) ein ASP.NET Problem hab (oder hatte), hab ich beim Herumsuchen ein paar richtig gute .NET Seiten entdeckt:

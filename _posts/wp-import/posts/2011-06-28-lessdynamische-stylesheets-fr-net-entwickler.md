@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [.LESS, Combres, CSS]
+language: de
 ---
 {% include JB/setup %}
 <p>.LESS kommt ursprünglich aus der Ruby Welt und hilft dabei einige Unzulänglichkeiten von CSS zu beseitigen. .LESS lehnt sich an den gewöhnlichen CSS Syntax an, erweitert ihn aber um ein paar nette Funktionen, darunter z.B. Variablen (um bestimmte Werte nicht doppelt schreiben zu müssen) oder Funktionen (um z.B. Abstände zu addieren). Eine komplette Liste der Möglichkeiten findet <a href="http://lesscss.org/">ihr dazu hier</a>. Um mal ein Blick auf den Syntax zu werfen:</p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e299c53b-b831-45bd-b60a-ddb6fa8a4dc0" class="wlWriterEditableSmartContent"><pre name="code" class="c#"> @color: #4D926F;

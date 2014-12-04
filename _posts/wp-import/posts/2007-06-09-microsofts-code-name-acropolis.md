@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: ["Acropolis"]
+language: de
 ---
 {% include JB/setup %}
 Durch <a target="_blank" href="http://www.ekampf.com/blog/2007/06/07/AcropolisNews.aspx" title="Blogeintrag">diesen Link </a>bin ich auf eine interessante Sache gestoßen.

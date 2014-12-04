@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: []
+language: de
 ---
 {% include JB/setup %}
 <p>Das Jahr neigt sich dem Ende entgegen und kurz vorher m&#246;chte ich noch kurz ein paar Zahlen von 2008 bringen und allen Lesern noch einen guten Rutsch ins Jahr 2009 w&#252;nschen :)</p> 

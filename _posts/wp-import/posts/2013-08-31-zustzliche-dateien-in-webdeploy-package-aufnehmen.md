@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, WebDeploy]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/?s=webdeploy">WebDeploy</a> ist für mich das erste Mittel der Wahl wenn es darum geht Web-Applikationen zu verpacken und auszurollen. Ein einmal gebautes Package lässt sich leicht auf verschiedene Webserver pushen und auch Richtung Azure ist dies kein Problem. </p> <h3>Kleines Problem: Wie kann man zusätzliche Dateien in das WebDeploy Package mit aufnehmen?</h3> <p>Im Standard-Fall nimmt der WebDeploy Prozess alle Dateien die im Projekt verwendet werden – andere Dateien, <strong>welche vielleicht sogar im Ordner selbst liegen, lässt er also aus</strong>. Dies ist natürlich problematisch wenn man irgendwelche “zusätzlichen Dateien”, welche eigentlich nur indirekt mit dem Projekt zutun haben, mit in das Package aufnehmen möchte. Ein Szenario dafür wären Dateien welche man zum Download bereitstellen möchte, aber sonst nichts mit der eigentlichen Anwendung zutun haben.</p> <h3>Lösung: MSBuild Einstiegspunkte für WebDeploy</h3> <p>Dies muss in die .csproj Datei hinzugefügt werden:</p><pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;">   &lt;Target Name="CustomCollectFiles"&gt;

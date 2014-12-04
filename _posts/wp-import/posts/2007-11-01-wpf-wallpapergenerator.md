@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [Allgemein]
 tags: [Microsoft, WPF]
+language: de
 ---
 {% include JB/setup %}
 WPF ist cool!

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, ASP.NET AJAX]
+language: de
 ---
 {% include JB/setup %}
 Da ich noch recht neu in dem Gebiet von Microsoft AJAX Implementierung bin, durchstöber ich immer wieder nach neuen Informationen dazu das Netz.

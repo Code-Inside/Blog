@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo, MVC]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image700.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="113" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb678.png" width="149" align="left" border="0" /></a>Mit ASP.NET MVC ist der Entwickler v&#246;llig in Kontrolle &#252;ber das HTML Markup und wohin die Daten gesendet werden. Die Daten werden &#252;ber eine HTML Form an den Server gesendet - aber wie kann der Controller Daten entgegen nehmen? Das Framework bringt einige M&#246;glichkeiten mit, um nicht immer &#252;ber Request.Forms[...] an seine Daten ranzukommen.</p> 

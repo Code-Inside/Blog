@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [Allgemein, Tools]
 tags: [Web 2.0, whos.amung.us]
+language: de
 ---
 {% include JB/setup %}
 Durch einfaches einbinden eines kleinen Buttons von <a href="http://whos.amung.us">whos.amung.us</a> kann man sehen wer gerade den eigenen Blog durchstöbert und wo die Leute so herkommen. Zur auswahl gibts schicke Karten, z.b. 

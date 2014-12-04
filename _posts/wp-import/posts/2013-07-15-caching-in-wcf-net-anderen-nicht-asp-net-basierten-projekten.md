@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Cache]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="http://msdn.microsoft.com/en-us/library/xsbfdd8c(v=vs.100).aspx">Caching ist in ASP.NET</a> seit der ersten Version ein mitgeliefertes Feature. Es gibt viele Gründe für Caching, allerdings kommt es immer auf das jeweilige Problem an. Caching ist (oder sollte zumindest – sonst macht man etwas falsch ;)) “deutlich schneller” als herkömmliche Datenbankabfragen &amp; co. sein. Wie kommt man denn aber in den Genuss von Caching in WCF Services &amp; co. ohne grosse 3rd Party Services zu benutzen?</p> <h3>Caching in WCF &amp; co.: ObjectCache &amp; MemoryCache im Framework</h3> <p>Seit der Version 4 gibt es die abstrakte Klasse <a href="http://msdn.microsoft.com/en-us/library/system.runtime.caching.objectcache.aspx"><strong>ObjectCache</strong></a> mit der Implementierung eines InMemory-Caches namens “<a href="http://msdn.microsoft.com/en-us/library/system.runtime.caching.memorycache.aspx"><strong>MemoryCache</strong></a>”.</p> <p>Die API ist ziemlich simpel und orientiert sich auch an die API des ASP.NET Caches:</p><pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;">private void btnGet_Click(object sender, EventArgs e)

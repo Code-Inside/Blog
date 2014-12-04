@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [Allgemein, HowTo]
 tags: [.NET, FOP, HowTo, NFop, Source, Xml, XML Formatting Objects, XML-Fo]
+language: de
 ---
 {% include JB/setup %}
 Wenn man ein PDF erstellen möchte, hat man die Auswahl zwischen vielen kommerziellen Produkten für .NET - mit NFop möchte ich mal eine kostenlose Möglichkeit vorstellen.

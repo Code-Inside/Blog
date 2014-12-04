@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET]
+language: de
 ---
 {% include JB/setup %}
 Da ich in der letzten Zeit an einer neuen Version der <a target="_blank" href="http://www.shoppingmap.de" title="ShoppingMap">ShoppingMap</a> arbeite und mich auch sonst in die "neuen" Microsoft Technologien einarbeite, bin ich erstmal auf ein paar Probleme gestoßen.

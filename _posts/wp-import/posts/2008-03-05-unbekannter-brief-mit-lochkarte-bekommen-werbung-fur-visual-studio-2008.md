@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [Allgemein, Off Topic]
 tags: [ARG, Microsoft, Visual Studio 2008, Werbung]
+language: de
 ---
 {% include JB/setup %}
 Robert hatte <a href="{{BASE_PATH}}/2008/02/06/unbekannter-brief-mit-lochkarte-bekommen-akte-x-melodie-pfeiff/">vor einiger Zeit eine Lochkarte bekommen.</a> Wie sich herraustellte war das Teil des <a href="http://de.wikipedia.org/wiki/Alternate_Reality_Game">ARGs</a> <a href="http://www.thefinalmill.com/">The Final Mill</a> und sollte Werbung für das Visual Studio 2008 machen.

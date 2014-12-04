@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Azure, Windows Server]
+language: de
 ---
 {% include JB/setup %}
 <p>Vor kurzem hatte ich mich per Remote Desktop auf eine Windows Azure Instanze eines “Cloud Projektes” verbunden und wurde überrascht: Es war ein Windows Server 2008 – und hatte mich prompt mit der Meldung begrüsst, dass ich doch bitte das Windows aktivieren sollte (?).</p> <p><a href="{{BASE_PATH}}/assets/wp-images/image1705.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb863.png" width="590" height="541"></a> </p> <p><strong>Warum läuft eine alte Windows Version auf Azure – sollte es nicht immer das aktuellste sein?</strong></p> <p>Eigentlich hatte ich dies auch gedacht, allerdings wird die Cloud Applikation nicht automatisch auf eine neue Windows Version installiert – dies muss man in der <a href="http://msdn.microsoft.com/en-us/library/windowsazure/ee758710.aspx">Cloud Service Configuration File (.cscfg)</a> festlegen.</p><pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;">&lt;ServiceConfiguration serviceName="&lt;service-name&gt;" osFamily="[1|2|3]" osVersion="&lt;os-version&gt;" schemaVersion="&lt;schema-version&gt;"&gt;

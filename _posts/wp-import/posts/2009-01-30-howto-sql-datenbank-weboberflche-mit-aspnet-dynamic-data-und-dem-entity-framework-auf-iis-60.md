@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Admin, ASP.NET Dynamic Data, Dynamic Data, HowTo, IIS 6.0, Routing]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image605.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="71" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb583.png" width="143" align="left" border="0" /></a> Ich habe meine ersten richtigen Programmiererfahrungen mit PHP in Zusammenhang mit MySQL gemacht. Als Datenbank-Administrationspanel diente eine sehr praktische Weboberfl&#228;che namens &quot;<a href="http://www.phpmyadmin.net/home_page/index.php">PhpMyAdmin</a>&quot;.    <br />Es hat zwar nicht den kompletten Komfort eines <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796&amp;displaylang=de">SQL Management Studios</a>, allerdings war es mit jedem Browser zu erreichen und daher leicht f&#252;r jedermann nutzbar.     <br />Mit den <a href="http://www.asp.net/dynamicdata/">ASP.NET Dynamic Data</a> und <a href="http://msdn.microsoft.com/de-de/library/bb386976.aspx">Linq2Sql</a> bzw. dem <a href="http://msdn.microsoft.com/en-us/library/aa697427(VS.80).aspx">Entity Framework</a> kann man sich innerhalb von wenigen Minuten eine nette Administrationsoberfl&#228;che erstellen, fast ohne Programmieraufwand.</p> 

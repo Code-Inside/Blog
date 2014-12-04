@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [MVP, Summit]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image664.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="72" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb642.png" width="244" align="left" border="0" /></a> In der letzten Woche war es arg ruhig auf dem Blog geworden. Das lag daran, dass ich zum MVP Global Summit nach Seattle geflogen bin - quasi direkt in die H&#246;hle des L&#246;wens bzwl. dem heiligen Microsoft-Land aka Redmond.</p>  <p>R&#252;ckblickend muss ich sagen, dass diese Veranstaltung wirklich klasse war und es Spa&#223; gemacht hat direkt mit den Entwicklern zu reden.</p> 

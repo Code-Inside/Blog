@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Debug, Log, logging, Trace]
+language: de
 ---
 {% include JB/setup %}
 <p>Im Framework gibt es zwei einfache Logging Komponenten: <a href="http://msdn.microsoft.com/en-us/library/system.diagnostics.trace.aspx">Trace</a> &amp; <a href="http://msdn.microsoft.com/en-us/library/system.diagnostics.debug.aspx">Debug</a> – diese können allerdings tückisch sein, wenn man nicht genau versteht was die tun. Wofür und ob man diese einsetzen sollte schreib ich dann noch am Ende.</p> <p><em><strong>TL;DR:</strong> Trace und Debug verschwindet wenn die Konstanten “TRACE” und “DEBUG” während des Bauenes fehlen. </em></p> <p>Kurzes Demoprogramm:</p><pre>    class Program

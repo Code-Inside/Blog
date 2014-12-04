@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Tools]
 tags: [.NET 3.5, LINQ, Visual Studio 2008]
+language: de
 ---
 {% include JB/setup %}
 <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image154.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb133.png" alt="image" height="129" style="border: 0px" /></a>

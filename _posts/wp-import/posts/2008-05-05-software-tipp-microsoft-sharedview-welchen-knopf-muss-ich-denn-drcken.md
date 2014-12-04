@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein, Software-Tipp]
 tags: [Microsoft, SharedView]
+language: de
 ---
 {% include JB/setup %}
 Die Frage "Welchen Knopf muss ich denn drücken?" oder ähnliche sind meist recht schwer zu beantworten. Ferndiagnosen sind meist recht schwer zu bewältigen.

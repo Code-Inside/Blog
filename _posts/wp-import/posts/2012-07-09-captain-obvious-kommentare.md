@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowToCode]
 tags: [Code Quality, Kommentare]
+language: de
 ---
 {% include JB/setup %}
 <p>Den Code zu schreiben war schwer, daher machen wir fleissig Kommentare. Zudem sind Kommentare immer ein Zeichen von Qualitätssoftware, richtig?</p> <p><strong>Nein.</strong></p> <p>Code sinnvoll zu kommentieren ist eine kleine Kunst für sich – allerdings stur alles zu kommentieren führt zu solchen Kommentaren:</p> <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:2f9faa4c-c1d6-4842-804d-c66c906ab524" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    /// &lt;summary&gt;

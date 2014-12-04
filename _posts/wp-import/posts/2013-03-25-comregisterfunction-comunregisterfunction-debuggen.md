@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [COM]
+language: de
 ---
 {% include JB/setup %}
 <p>Der Post scheint wie aus einer vergangen Zeit (COM???), aber ich hatte erst kürzlich damit zutun. Ich hab ehrlich gesagt auch sehr wenig Ahnung was COM überhaupt macht, aber ich hatte die Aufgabe in einer bestehenden COM-Register-Function Code zu ändern. Ohne Debugging ist das allerdings etwas heiss.</p> <p><strong>ComRegisterFunction &amp; ComUnregisterFunction</strong></p> <p>Vereinfacht: Die Methode die mit den <a href="http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.comregisterfunctionattribute.aspx">Attributen</a> versehen ist, werden bei der jeweiligen Aktion aufgerufen.</p><pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;">    [ComVisible(true)]

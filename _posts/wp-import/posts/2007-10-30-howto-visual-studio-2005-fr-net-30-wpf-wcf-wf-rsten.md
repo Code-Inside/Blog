@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo, Tools]
 tags: [.NET 3.0, HowTo, Tools, Visual Studio 2005, WCF, WF, WPF]
+language: de
 ---
 {% include JB/setup %}
 Zwar ist das .NET Framework in der Version 3.0 schon eine Weile raus, allerdings ist Toolunterstützung noch nicht ganz ideal.

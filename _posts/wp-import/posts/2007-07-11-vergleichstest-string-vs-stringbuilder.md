@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET]
+language: de
 ---
 {% include JB/setup %}
 Oft sieht man solchen Code:

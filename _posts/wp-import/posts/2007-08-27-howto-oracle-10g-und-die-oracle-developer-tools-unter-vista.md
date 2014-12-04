@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [Allgemein, HowTo]
 tags: [Datenbank, HowTo, Oracle, Vista, Windows]
+language: de
 ---
 {% include JB/setup %}
 Nach dem ich länger für die Installation der "Oracle Developer Tools for Visual Studio .NET" auf meinem Vista System brauchte als mir lieb war, habe ich ein kleines HowTo verfasst.

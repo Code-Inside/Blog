@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [.NET, Amazon, HowTo, Software Factories]
+language: de
 ---
 {% include JB/setup %}
 Ich hab mich mal wieder hingesetzt und 2 neue HowTos geschrieben, das eine geht direkt ins praktische rein, bei dem anderen war das der Anfang einer längeren Serie.

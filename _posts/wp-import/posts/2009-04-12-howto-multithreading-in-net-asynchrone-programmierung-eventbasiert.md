@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Async, HowTo, Multithreading]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image706.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="100" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb684.png" width="147" align="left" border="0" /></a></p>  <p>Hoch performante Systeme oder Desktopprogramme kommen ohne <a href="http://msdn.microsoft.com/de-de/library/ms228969(VS.80).aspx">asynchrone Programmierung</a> nicht weit. Wenn bei einer Windows Anwendung die Anwendung w&#228;hrend einer Aktion &quot;steht&quot; und die Anwendung nicht mehr reagiert, dann wird diese Aktion synchron ausgef&#252;hrt. In diesem HowTo zeige ich einen Einstieg, wie man seine Backend-Logik mit asynchronen Methoden ausstatten kann. </p> 

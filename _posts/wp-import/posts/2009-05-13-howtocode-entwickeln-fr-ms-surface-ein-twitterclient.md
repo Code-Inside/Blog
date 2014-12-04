@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowToCode]
 tags: [Surface, Twitter]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/twitter.jpg"><img title="twitter" style="border-top-width: 0px; display: inline; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="111" alt="twitter" src="{{BASE_PATH}}/assets/wp-images/twitter-thumb.jpg" width="167" align="left" border="0" /></a></p>  <p>Der <a href="http://www.microsoft.com/surface/">Microsoft Surface</a> &#8220;Tisch&#8221; (oder das &#8220;Device&#8221;) ist ein recht tolles Spielzeug und kommt auch mit einem entsprechenden SDK daher. Leider ist dieses SDK nicht frei verf&#252;gbar (sondern muss mitsamt einem <a href="http://www.microsoft.com/surface/Default.aspx?page=howtobuy#section=Microsoft%20Surface%20SDK">Surface gekauft</a> werden), allerdings m&#246;chte ich trotzdem f&#252;r Interessierte meine erste Anwendung und &#252;ber den Entwicklungsprozess einer Surface Anwendung bloggen.</p>  <p></p> 

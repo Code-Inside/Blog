@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [IIS, IIS7]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image974.png"><img style="border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images/image_thumb158.png" width="199" height="102" /></a> </p>  <p>Ein Kollege, der eine IIS6 Webapplikation auf IIS7 migriert, fragte mich was denn eigentlich dieses Validation Tag bedeutet. Unter ASP.NET 4.0 ist die Web.config um einiges schlanker, allerdings taucht das Validation und Modules Tag wieder auf. Was hat es mit den beiden Flags auf sich?</p>  <p><strong>Migration auf IIS7</strong></p>  <p>Der Post soll nur die beiden Properties beleuchten. Wer eine Migration auf von IIS6 auf IIS7 machen möchte, der sollte <a href="http://mvolo.com/blogs/serverside/archive/2007/12/08/IIS-7.0-Breaking-Changes-ASP.NET-2.0-applications-Integrated-mode.aspx">hier</a> sich genauere Informationen besorgen. </p>  <p><strong>system.webServer</strong></p>  <p>Wer eine frische ASP.NET MVC Anwendung erstellt findet in der web.config diese Konfiguration:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:f91f3b93-c2f6-4e11-b5de-546215c79d81" class="wlWriterEditableSmartContent"><pre name="code" class="c#">  &lt;system.webServer&gt;

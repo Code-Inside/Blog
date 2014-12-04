@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET 3.0, .NET 3.5, Expression, HowTo, ICQ, RSS, Silverlight, Vista, WPF]
+language: de
 ---
 {% include JB/setup %}
 Da ich mich auch langsam der WPF Programmierung zuwende, möchte ich einfach mal einen Einstiegs-HowTo schreiben. Inhalte sollen hier das grobe Konzept hinter WPF sein, was man dafür braucht, welche Programme man nimmt und was man sich mal anschauen kann.

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Tweetsharp, Twitter]
+language: de
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images/image713.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="111" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb691.png" width="164" align="left" border="0" /></a><a href="http://twitter.com">Twitter</a> ist eigentlich der <a href="http://de.wikipedia.org/wiki/Twitter">Mikroblogging Dienst</a> im Internet - ich selber bin ebenfalls auf der Plattform vertreten. Twitter hat seit beginn auch eine kostenlose <a href="http://apiwiki.twitter.com/">API</a>, wodurch sehr viele Twitter Applikationen entstanden sind. Auch mit .NET kann man sehr leicht die Twitter API nutzen bzw. gibt es bereits sehr interessante Bibliotheken, wie z.B. <a href="http://code.google.com/p/tweetsharp/">Tweetsharp</a>. </p> 

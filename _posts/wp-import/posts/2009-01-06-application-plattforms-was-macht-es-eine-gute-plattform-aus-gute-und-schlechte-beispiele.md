@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [Adobe, AIR, AppStore, Gadgets, iPhone, Sidebar, Vista, Windows Live, Windows Mobile]
+language: de
 ---
 {% include JB/setup %}
 <p>In letzter Zeit gibt es immer mehr Nachrichten, dass das <a href="http://www.golem.de/0901/64250.html">Web Windows (oder besser gesagt den Desktop) als &quot;Plattform&quot; ersetzt</a> und bei vielen Sachen kann ich dem auch nur Zustimmen.     <br />Mit dem iPhone und dem AppStore sowie Googles Andoid und dem Applikationsmarktplatz kommen neue Gerätschaften hinzu die auch interessante Plattformen sind. Die Liste an solchen Plattformen &quot;auf die man was basteln kann&quot; ist recht lang:</p>  <ul>   <li>Spieleentwickung auf der Xbox 360 mit XNA </li>    <li>Facebook Applikationen </li>    <li>Google Gadgets </li>    <li>Vista Sidebar Gadets </li>    <li>Firefox Plugins </li>    <li>SharePoint Solutions (um mal eine Buisnessplattform zu nennen) </li>    <li>Betriebssystem jeglicher Art </li> </ul>  <p>Doch was macht eine gute Plattform aus? Was sollte man unbedingt bedenken wenn man selber etwas ähnliches plant?</p>  <p></p> 

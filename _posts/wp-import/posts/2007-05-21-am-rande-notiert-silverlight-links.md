@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Tools]
 tags: [Silverlight]
+language: de
 ---
 {% include JB/setup %}
 Da ich mich demnächst wohl auch beruflich mich mehr mit Silverlight beschäftige (und somit das früher oder später auch bei Shoppingmap einzieht), präsentiere ich hier ein paar interessante Links (welche ich im Heiseforum und sonst im weiten Web aufgeschnappt habe) :

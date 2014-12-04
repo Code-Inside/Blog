@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, MVC, Software Factories, WCSF]
+language: de
 ---
 {% include JB/setup %}
 Als ich mich mit den <a target="_blank" href="{{BASE_PATH}}/artikel/howto-microsoft-patterns-practices-software-factories-verstehen/">Software Factories von Microsoft</a> beschäftigt hab, viel mir auch die "Web Client Software Factory" auf. Da ich von der <a target="_blank" href="{{BASE_PATH}}/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-3-praktisches-hello-world/">Service Factory</a> doch sehr angetan war, wollte ich mir diese Factory mal genauer anschauen.

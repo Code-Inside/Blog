@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [Allgemein]
 tags: [Amazon, iPod, Produktvorschläge]
+language: de
 ---
 {% include JB/setup %}
 ...zumindest wenn es nach Amazon geht. Als ich heute mal wieder beim <a href="http://www.amazon.de">Internet Gemischtwarenladen</a> vorbeischaute war ich <del datetime="2008-05-09T16:30:38+00:00">erstaunt</del> amüsiert was mir am neuen Produkten empfohlen wurde. Das solche automatischen Produktvorschläge fast nie sinnvolle Ergebnisse liefern ist ja bekannt, bei Amazon kann man sich sogar anschauen warum der Artikel vorgeschlagen wurde:

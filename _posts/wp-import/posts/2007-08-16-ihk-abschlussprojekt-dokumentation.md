@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein, Projekte]
 tags: [Projekt]
+language: de
 ---
 {% include JB/setup %}
 Da ich vor kurzem mein Abschluss bei der IHK bekommen hab (und jetzt mich offiziel Fachinformatiker - Anwendungsentwicklung) nennen kann, möchte ich allen Interessierten meine Dokumentation anbieten.

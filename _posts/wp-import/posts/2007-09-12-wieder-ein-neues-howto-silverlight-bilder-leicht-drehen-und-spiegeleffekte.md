@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, Expression Blend, Silverlight]
+language: de
 ---
 {% include JB/setup %}
 Gestern gabs ja schon ein neues HowTo zum Thema Silverlight- Heute gibts schon das neue. Diesmal gehts mehr in Richtung des Designs - ohne Programmcode (das ist dann eine Sache für den nächsten Artikel). Es geht darum, Bilder leicht "3D mäßig" schräg gekippt mit Spiegeleffekten darzustellen.

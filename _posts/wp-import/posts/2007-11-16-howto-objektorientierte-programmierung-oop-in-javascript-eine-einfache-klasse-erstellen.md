@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Javascript, OOP]
+language: de
 ---
 {% include JB/setup %}
 <p>Durch den (berechtigten) Hype um AJAX und das "Daten-Format" JSON wird eine Sache in der Webentwicklung immer interessanter: Die Javascriptentwicklung.</p> <p>Insgesamt vollzieht sich meiner Meinung nach ein kleiner Wandel in der Webentwicklung - man versucht sehr viele Sachen auf den Client auszuführen. Diese Entwicklung kann ich nur begrüßen, denn warum muss ich bei einer Sortierung von einer Tabelle wieder mit den Server kommunizieren, obwohl die Daten bereits auf dem Client sind? </p> <p>Genau solche Aufgaben können heute bereits Javascript-Frameworks erledigen. Auch bei Microsofts ASP.NET AJAX Extensions ist eine Clientbibliothek enthalten, doch nun kommen wir zur generellen Frage: Wie kann ich Daten in so einem Framework kapseln? Wie kann ich eigene Javascript Klassen mit Methoden definieren? </p> <p><strong>Klassen und Methoden in Javascript definieren - Schlagwort "prototype"</strong></p> <p>Prototype ist nicht nur ein Javascript Framework, sondern auch allgemein in der JS Welt ein Schlüsselwort für das definieren von Methoden. Aber erstmal Schritt für Schritt.<br>Wir machen ein ganz einfaches Beispiel - ein Rechteck. Das als Eigenschaft eine Höhe und Breite und wir möchten nun den Flächeninhalt berechnen.</p> <p>&nbsp;</p> <p><strong>Schritt 1: Konstruktor samt Member definieren</strong></p> <div class="CodeFormatContainer"><pre class="csharpcode">    function Rectangle() 

@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [MVC, Routing, WebApi]
+language: de
 ---
 {% include JB/setup %}
 <p>Mit der WebApi hat Microsoft ein neuen Weg geschaffen wie man REST Apis entwickeln kann. Da man meist keine “reine”-API hat sondern meist noch eine Website betreibt kommt man recht schnell zu dem Punkt an dem man die beiden Sachen verlinken muss.</p> <p>Da die WebApi und das Mvc Framework grundsätzlich auf verschiedenen Bibliotheken beruht ist die herangehensweise zwar ähnlich, aber nicht immer identisch.</p> <h3>Ein Link von einem Mvc Controller zu einem WebApi Controller &amp; Co.</h3> <p>Code sagt wesentlich mehr als viele Worte:</p><pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;">    public class MvcWebsiteController : Controller

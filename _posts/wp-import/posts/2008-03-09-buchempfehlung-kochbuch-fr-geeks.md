@@ -6,6 +6,7 @@ author: robert.muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [Kochen]
+language: de
 ---
 {% include JB/setup %}
 Mal eine etwas andere Kost gibt es diesmal als Buchempfehlung. Es hält sich ja hartnäckig das Gerücht, Geeks ( oder Nerds) können nicht kochen.
