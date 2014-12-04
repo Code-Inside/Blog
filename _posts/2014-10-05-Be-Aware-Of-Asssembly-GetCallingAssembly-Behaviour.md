@@ -5,6 +5,7 @@ description: "Assembly.GetCallingAssembly() can be dangerous, so be aware if you
 date: 2014-10-05 13:25
 author: robert.muehsig
 tags: [Reflection, Assembly, .NET]
+language: en
 ---
 {% include JB/setup %}
 

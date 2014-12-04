@@ -5,6 +5,7 @@ description: "Instead of using Twitters proprietary meta tags just use OpenGraph
 date: 2014-09-17 23:00
 author: robert.muehsig
 tags: [OpenGraph, Twitter]
+language: en
 ---
 {% include JB/setup %}
 

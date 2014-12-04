@@ -5,6 +5,7 @@ description: "Ever needed a strongly typed representation of your XML or JSON co
 date: 2014-09-08 23:10
 author: robert.muehsig
 tags: [Visual Studio 2013, XML, JSON]
+language: en
 ---
 {% include JB/setup %}
 

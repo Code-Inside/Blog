@@ -5,6 +5,7 @@ description: "The setup for WebDeploy can be rough and if you want to use WebDep
 date: 2014-10-25 19:00
 author: robert.muehsig
 tags: [WebDeploy, IIS, MSDeploy]
+language: en
 ---
 {% include JB/setup %}
 

@@ -5,6 +5,7 @@ description: "Continuous  Deployment is a pretty simple, but very helpful tool i
 date: 2014-12-04 00:01
 author: robert.muehsig
 tags: [MSBuild, WebDeploy, TFS]
+language: en
 ---
 {% include JB/setup %}
 

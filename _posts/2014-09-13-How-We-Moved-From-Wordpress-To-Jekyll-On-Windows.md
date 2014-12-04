@@ -5,6 +5,7 @@ description: "TL;DR Normal Wordpress Export and convert this via wpXml2Jekyll to
 date: 2014-09-13 21:45
 author: robert.muehsig
 tags: [Wordpress, Jekyll, Migration, Windows]
+language: en
 ---
 {% include JB/setup %}
 

@@ -5,6 +5,7 @@ description: "If you ever wanted to take a closer look at a Game Engine OpenRA i
 date: 2014-10-15 22:00
 author: robert.muehsig
 tags: [OpenRA, Games, C#]
+language: en
 ---
 {% include JB/setup %}
 

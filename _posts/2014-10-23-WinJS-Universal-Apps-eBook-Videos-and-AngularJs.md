@@ -5,6 +5,7 @@ description: "Microsoft published a free eBook about WinJS development for Windo
 date: 2014-10-23 23:05
 author: robert.muehsig
 tags: [WinJS, Windows Store, Universal Apps, HTML, Javascript]
+language: en
 ---
 {% include JB/setup %}
 

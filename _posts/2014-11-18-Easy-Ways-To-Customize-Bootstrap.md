@@ -5,6 +5,7 @@ description: "If you are developer - like me - you might already using Bootstrap
 date: 2014-11-18 20:20
 author: robert.muehsig
 tags: [Bootstrap, CSS]
+language: en
 ---
 {% include JB/setup %}
 
