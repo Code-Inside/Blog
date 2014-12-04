@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [News]
 tags: [ASP.NET MVC, Community, MVC, Open Source, Oxite, Storefront]
+language: en
 ---
 {% include JB/setup %}
 Microsoft released last week a ASP.NET MVC demo project called &quot;<a href="http://www.codeplex.com/oxite">Oxite</a>&quot; and many Newssites wrote things like &quot;<a href="http://news.cnet.com/8301-1001_3-10119017-92.html">MS launched open source blogging plattform</a>&quot;. It&#180;s great that Microsoft released the source code, but on the other handside, there are <a href="http://codebetter.com/blogs/karlseguin/archive/2008/12/15/oxite-oh-dear-lord-why.aspx">many</a> <a href="http://www.lazycoder.com/weblog/2008/12/15/new-aspnet-mvc-sample-oxite-needs-some-tlc/">criticisms</a> from the alpha geeks. The question is: Should source code only released if it is &quot;perfect&quot;?

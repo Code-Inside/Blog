@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [News]
 tags: [Traning Kit, Windows 7]
+language: en
 ---
 {% include JB/setup %}
 <p><a href="http://code-inside.de/blog-in/wp-content/uploads/image90.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="133" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb106.png" width="176" align="left" border="0" /></a> Microsoft released the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=12100526-ed26-476b-8e20-69662b8546c1&amp;displaylang=en"><strong>Training Kit for developer</strong></a> yesterday. It contains presentations, Hands on Labs and democode for the new Windows 7 APIs.     <br />The Traing Kit is directed towards to C++ developers, but Microsoft offers <strong><a href="http://code.msdn.microsoft.com/WindowsAPICodePack">Wrapper classen</a></strong> for .NET.</p> 

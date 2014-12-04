@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [News]
 tags: [ASP.NET MVC, CSS, Design, MVC]
+language: en
 ---
 {% include JB/setup %}
 <p><a href="http://weblogs.asp.net/scottgu/archive/2008/12/19/asp-net-mvc-design-gallery-and-upcoming-view-improvements-with-the-asp-net-mvc-release-candidate.aspx">ScottGu</a> wrote (I know - I&#180;m late ;) ) a blogpost about the release candidate of ASP.NET MVC and the&#160; <a href="http://www.asp.net/mvc/gallery/default.aspx?supportsjs=true">MVC Design Gallery</a>.</p> 

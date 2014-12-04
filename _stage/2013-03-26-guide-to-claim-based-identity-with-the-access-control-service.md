@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: []
+language: en
 ---
 {% include JB/setup %}
 Microsoft published a free PDF about Claim-based Identity, Access Control Service and how to connect it to the remaining Microsoft world (Sharepoint, ADFS, Azure):

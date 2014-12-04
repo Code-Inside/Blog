@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [HowTo]
 tags: [HowTo, SQL, Visual Studio]
+language: en
 ---
 {% include JB/setup %}
 <p><a href="http://code-inside.de/blog-in/wp-content/uploads/image79.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="104" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb90.png" width="147" align="left" border="0" /></a>The integration of SQL Servers in Visual Studio is really great. I use VS to create my SQL tables and simple administration stuff - it&#180;s not often that I start SQL Management Studio. But one thing is really annoying: You can&#180;t rename SQL Tables in VS! But there is a little trick to do that.</p> 

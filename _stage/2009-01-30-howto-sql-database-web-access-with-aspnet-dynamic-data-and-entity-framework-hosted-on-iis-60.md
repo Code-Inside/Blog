@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [HowTo]
 tags: [Admin, ASP.NET Dynamic Data, Dynamic Data, HowTo, IIS 6.0, Routing]
+language: en
 ---
 {% include JB/setup %}
 <p><a href="http://code-inside.de/blog-in/wp-content/uploads/image40.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="71" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb44.png" width="143" align="left" border="0" /></a> I started my programming career with PHP and MySQL and I used very often a webbased mysql admin panel called &quot;<a href="http://www.phpmyadmin.net/home_page/index.php">PhpMyAdmin</a>&quot;.     <br />It has (of course) not all features of the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796&amp;displaylang=de">SQL Management Studios</a>, but if I only want to have a quick look at the database it is very cool - and you only need a simple browser.     <br />You can create such an tool with <a href="http://www.asp.net/dynamicdata/">ASP.NET Dynamic Data</a> and <a href="http://msdn.microsoft.com/de-de/library/bb386976.aspx">Linq2Sql</a> or the <a href="http://msdn.microsoft.com/en-us/library/aa697427(VS.80).aspx">Entity Framework</a> within minutes.</p> 

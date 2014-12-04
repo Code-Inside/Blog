@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: []
+language: en
 ---
 {% include JB/setup %}
 Since mid January this blogs runs on a WordPress installation in an Azure VM. Because I always thought that the subject is quite complicated this blogpost offers a view behind the scenes.

@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [HowTo]
 tags: [AJAX, ASP.NET, MVC3]
+language: en
 ---
 {% include JB/setup %}
 <p>&#160;</p>  <p><b></b></p>  <p><a href="http://code-inside.de/blog-in/wp-content/uploads/image157.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="http://code-inside.de/blog-in/wp-content/uploads/image_thumb65.png" width="163" height="107" /></a>In MVC framework there are some little helpers existing I´ve already written about in <a href="http://code-inside.de/blog-in/2010/09/15/howto-cross-domain-ajax-with-jsonp-and-asp-net/">this blogpost</a> - but in fact the functionality changed a little bit so here is an update for you.</p>  <p>&#160;</p>  <!--more-->  <p><b>Problem: AJAX Actionlink delivers new sides back </b></p>  <p>We have a standard MVC 3 Web Project and the following lines should create a link which is able to reload a view via AJAX and put it into the "Result":</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e32c2996-41f4-4d3a-b9e5-25b5982c120d" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    @Ajax.ActionLink("Foobar load", "Foobar", "Home", new AjaxOptions() { HttpMethod = "Get", UpdateTargetId = "Result" })</pre></div>

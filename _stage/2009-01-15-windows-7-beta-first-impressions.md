@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [News]
 tags: [Gadgets, Vista, Windows 7]
+language: en
 ---
 {% include JB/setup %}
 <p>Last week was the public release of the Windows 7 Beta - you can download it <a href="http://www.microsoft.com/windows/windows-7/default.aspx">here</a>. In installed it on my ThinkPad R61 and take a look at it. Here are my first impressions. Is it better than <a href="http://xkcd.com/528/">Vista</a>? </p>  <p><a href="http://code-inside.de/blog-in/wp-content/uploads/image-thumb112.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="149" alt="image_thumb1" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb1-thumb2.png" width="180" border="0" /></a>&#160;</p> 

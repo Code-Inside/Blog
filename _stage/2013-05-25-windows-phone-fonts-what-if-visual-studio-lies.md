@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: []
+language: en
 ---
 {% include JB/setup %}
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image.png" src="http://code-inside.de/blog/wp-content/uploads/image1828-278x194.png" border="0" alt="image.png" width="278" height="194" />

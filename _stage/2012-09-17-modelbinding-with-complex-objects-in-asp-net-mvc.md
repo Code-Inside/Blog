@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: []
+language: en
 ---
 {% include JB/setup %}
 <p>&#160;</p>  <p><b></b></p>  <p><u><a href="http://code-inside.de/blog-in/wp-content/uploads/image_thumb738-552x194.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image_thumb738-552x194" border="0" alt="image_thumb738-552x194" src="http://code-inside.de/blog-in/wp-content/uploads/image_thumb738-552x194_thumb.png" width="553" height="194" /></a></u></p>  <p><u></u></p>  <p><u>Basics:</u> The modelbinding in ASP.NET is “relatively” clever and you are able to bond almost everything. All you have to do is to understand how the binding works and you often found that out if you take a look via Fiddler and co. at what is transmitted as HTTP.</p>  <p><b>Object model </b></p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a3098236-fb7e-48f1-a274-839315bd3a8e" class="wlWriterEditableSmartContent"><pre name="code" class="c#">public class Foobar

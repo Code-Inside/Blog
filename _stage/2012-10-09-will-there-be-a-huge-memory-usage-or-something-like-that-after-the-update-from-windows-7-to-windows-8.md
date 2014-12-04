@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: []
+language: en
 ---
 {% include JB/setup %}
 <a href="http://code-inside.de/blog-in/wp-content/uploads/resourcemon-508x194.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="resourcemon-508x194" src="http://code-inside.de/blog-in/wp-content/uploads/resourcemon-508x194_thumb.png" border="0" alt="resourcemon-508x194" width="509" height="195" /></a>

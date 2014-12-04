@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: []
+language: en
 ---
 {% include JB/setup %}
 The <a href="http://code-inside.de/blog/2013/03/02/windows-azure-websites-git-hosting-deployment-leicht-gemacht/">Azure Websites</a> are easy to handle but still it doesn’t take much effort to add new instances. But how should I react if an error appears?

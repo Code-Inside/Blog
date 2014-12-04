@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo, ModelBinders]
+language: en
 ---
 {% include JB/setup %}
 <p><a href="http://code-inside.de/blog-in/wp-content/uploads/image-thumb411.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="117" alt="image_thumb4" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb4-thumb3.png" width="153" align="left" border="0" /></a>With ASP.NET MVC the developer has now full control about the HTML rendering and how the form data will be transmitted to the server. But how can you get the form values on the server side? There are better ways in MVC to do that than Request.Form[&quot;...&quot;].</p> 

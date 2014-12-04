@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: []
+language: en
 ---
 {% include JB/setup %}
 <p>.LESS was born in the world of Ruby and it helps to clear some failures of CSS. .LESS is similar with the original CSS Syntax but it has some nice additional functions like for example Variables (so you don’t have to write some values double or functions to, for example, add two distances. A complete overview with all the opportunities you will find <a href="http://lesscss.org/">here</a>. Let’s take a look on the Syntax:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:897b4afc-9b6c-477b-98ec-52c6dba5e88a" class="wlWriterEditableSmartContent"><pre name="code" class="c#">@color: #4D926F;

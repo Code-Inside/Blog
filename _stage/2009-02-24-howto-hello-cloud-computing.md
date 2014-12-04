@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [HowTo]
 tags: [Amazon, Amazon EC2, AppEngine, Google, HowTo, Phyton, S3, Windows Azure]
+language: en
 ---
 {% include JB/setup %}
 <p><a href="http://de.wikipedia.org/wiki/Cloud_Computing">Cloud-Computing</a> is a new nice buzzword after Web 2.0 and everything goes &quot;in the cloud&quot; - but what means &quot;in the cloud&quot;? Who are the big players and why should you care about it?</p>  <p><a href="http://code-inside.de/blog-in/wp-content/uploads/image51.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="55" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb57.png" width="150" border="0" /></a>&#160;<a href="http://code-inside.de/blog-in/wp-content/uploads/image52.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="80" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb58.png" width="106" border="0" /></a> <a href="http://code-inside.de/blog-in/wp-content/uploads/image53.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="60" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb59.png" width="164" border="0" /></a> </p> 

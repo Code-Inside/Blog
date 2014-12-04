@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [HowTo]
 tags: [HowTo, MSBuild, MSTest, Zip]
+language: en
 ---
 {% include JB/setup %}
 <img title="image" border="0" alt="image" align="left" src="http://code-inside.de/blog/wp-content/uploads/image_thumb251.png" width="113" height="150" />   <p>&#160;</p>  <p>In my last Blogpost I talked about howto integrate tests into the Buildscript. Today I´m going to write down an easy way how to zipp the build automatical. </p>  <p>You will find the magic trick in the <a href="http://msbuildtasks.tigris.org/">MSBuildCommunity Tasks project.</a> </p>  <!--more-->  <p><b>Szenario </b></p>  <p><b></b></p>  <p>I just continued the solution from my last blogpost and by the way I downloaded the latest version of MSBuild Community Tasks. </p>  <p>As a side note: The MSI installer doesn´t work so I downloaded Zip with source. These files are from interest: </p>  <p><img title="image" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb252.png" width="244" height="71" /></p>  <p>The following reference should be included into the MSBuild Script:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:4b426656-6825-4ddc-8dbd-85fa18632d5d" class="wlWriterEditableSmartContent"><pre name="code" class="c#">&lt;Import Project="$(MSBuildStartupDirectory)\Lib\MSBuild.Community.Tasks.Targets"/&gt;</pre></div>

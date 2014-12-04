@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: [NoSQL; RavenDB; ASP.NET MVC]
+language: en
 ---
 {% include JB/setup %}
 &nbsp;

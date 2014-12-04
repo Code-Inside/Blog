@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: [Visual Studio]
+language: en
 ---
 {% include JB/setup %}
 &nbsp;

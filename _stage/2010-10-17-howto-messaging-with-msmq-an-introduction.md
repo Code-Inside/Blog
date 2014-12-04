@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [HowTo]
 tags: []
+language: en
 ---
 {% include JB/setup %}
 <img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb224.png" border="0" alt="image" width="171" height="129" align="left" />A short time ago I found MSMQ. To say it easy: MSMQ is a system where messages are able to be classified into queues and be converted piece by piece.

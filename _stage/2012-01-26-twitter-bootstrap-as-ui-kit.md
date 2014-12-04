@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: [Twitter Bootstrap]
+language: en
 ---
 {% include JB/setup %}
 &nbsp;

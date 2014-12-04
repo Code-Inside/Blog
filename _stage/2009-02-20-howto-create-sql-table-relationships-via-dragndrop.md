@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [HowTo]
 tags: [HowTo, Relationships, SQL, Tips]
+language: en
 ---
 {% include JB/setup %}
 <p><a href="http://code-inside.de/blog-in/wp-content/uploads/image-thumb310.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="89" alt="image_thumb3" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb3-thumb1.png" width="134" align="left" border="0" /></a>If you create a relationship between to SQL tables, you get many benefits. The most important benefit (for me) is the <a href="http://en.wikipedia.org/wiki/Data_integrity">integrity of your data</a>. Besides the database-world there is another huge benefit: The relationships are used by many <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">O/R mappers</a> to create a structured object model. You could create such realtionships via different dialogs in the SQL Management Studio / Visual Studio or just do a &quot;Drag&#180;n&#180;Drop&quot; from one table to another one.</p> 

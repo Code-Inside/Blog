@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: [Chrome; Instant Page; Prerendering]
+language: en
 ---
 {% include JB/setup %}
 &nbsp;

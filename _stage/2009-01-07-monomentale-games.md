@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [News]
 tags: [.NET, Games, iPhone, iPod Touch, Mono, unity 3d, Wii]
+language: en
 ---
 {% include JB/setup %}
 <p>Mono as a game platform? With <a target="_blank" href="http://unity3d.com/">Unity 3D</a> you can create games and even publish it on the Wii or the iPhone/iPod Touch. First <a target="_blank" href="http://tirania.org/blog/archive/2009/Jan-06.html">mono-based</a> <a target="_blank" href="http://tirania.org/blog/archive/2009/Jan-06.html">games</a> are now in the stores.</p> 

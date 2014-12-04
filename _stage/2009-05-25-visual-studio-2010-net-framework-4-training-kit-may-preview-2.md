@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [News]
 tags: [.NET, .NET 4.0, Training Kit]
+language: en
 ---
 {% include JB/setup %}
 <p><a href="http://code-inside.de/blog-in/wp-content/uploads/image89.png"><img style="border-right-width: 0px; margin: 0px 10px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" align="left" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb105.png" width="98" height="100" /></a>Microsoft released a preview Training Kit for <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=922B4655-93D0-4476-BDA4-94CF5F8D4814&amp;displaylang=en">.NET 4.0 &amp; VS 2010</a>: <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=752CB725-969B-4732-A383-ED5740F02E93&amp;displaylang=en">Download</a>. It includes 28 presentations, 13 demos &amp; 16 Hands-on Labs.</p>  <p>&#160;</p> 

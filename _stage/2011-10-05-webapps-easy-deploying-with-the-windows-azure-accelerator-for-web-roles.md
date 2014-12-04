@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: [Windows Azure Accelerator]
+language: en
 ---
 {% include JB/setup %}
 &nbsp;

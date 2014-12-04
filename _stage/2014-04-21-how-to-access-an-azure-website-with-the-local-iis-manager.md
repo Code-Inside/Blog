@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: []
+language: en
 ---
 {% include JB/setup %}
 <p><a href="http://blogs.msdn.com/b/windowsazure/archive/2014/02/28/remote-administration-of-windows-azure-websites-using-iis-manager.aspx">Since the end of February</a> it is possible to access an Azure Website with the IIS Manager. Although the Azure Management site offers some information there are more details visible at the IIS Manager.</p> 

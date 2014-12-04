@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [Uncategorized]
 tags: [Icons]
+language: en
 ---
 {% include JB/setup %}
 ItÂ´s very hard to get good &amp; free icons - here is my short list of nice icon sources - but please have a look at the license of the icon set:

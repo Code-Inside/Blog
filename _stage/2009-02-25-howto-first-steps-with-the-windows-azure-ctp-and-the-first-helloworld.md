@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, Azure, Cloud, Cloud Computing, HowTo, Web Role, Windows Azure]
+language: en
 ---
 {% include JB/setup %}
 <p><a href="http://code-inside.de/blog-in/wp-content/uploads/image56.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="161" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb64.png" width="240" align="left" border="0" /></a>In my <a href="http://code-inside.de/blog-in/2009/02/24/howto-hello-cloud-computing/">last blogpost</a> I talked about different cloud computing providers, like Google, Amazon and Microsoft. </p>  <p>Today I want to describe Windows Azure more and show you how to use the Windows Azure CTP and how to publish a &quot;Hello World&quot; app in the &quot;cloud&quot;.</p> 

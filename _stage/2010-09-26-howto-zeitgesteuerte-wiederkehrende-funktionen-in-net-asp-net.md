@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [HowTo]
 tags: [HowTo, Timer, Timers, Zeit]
+language: en
 ---
 {% include JB/setup %}
 <p><img style="border-right-width: 0px; margin: 0px 10px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" align="left" src="http://code-inside.de/blog/wp-content/uploads/image1038.png" width="134" height="134" /></p>  <p>During a project we had the order to run a specific SQL request after several minutes or seconds and to evaluate them in order to the results. You can solve this problem a little bit "dirty" by using a while(true) loop and Thread.Sleep, or you use a timer.</p> <!--more--><strong>Example:</strong>  <p></p>  <p>For example we are going to build a console application which is used to write something on the commando line every 10 seconds.</p>  <p><strong>The "Dirty" way..</strong></p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:aff75203-b58c-48bd-b4d3-217615c6b02a" class="wlWriterSmartContent">   <pre class="c#">            while (true)

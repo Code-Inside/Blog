@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: [MongoDB, NoSQL, RavenDB]
+language: en
 ---
 {% include JB/setup %}
 &nbsp;

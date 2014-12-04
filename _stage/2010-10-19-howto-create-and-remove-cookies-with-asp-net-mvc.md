@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [HowTo]
 tags: []
+language: en
 ---
 {% include JB/setup %}
 <img src="http://code-inside.de/blog/wp-content/uploads/image-thumb737.png" border="0" alt="image" width="135" height="125" align="left" />Cookies are a great way to save files on a client like for example registration files ore other stuff. I´m sure some of you who are using the ASP.NET membership system are already familiar with the "stay declared" function. This "HowTo" teach you an easy way how to create and delete a cookie.

@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [HowTo]
 tags: [HowTo, Interfaces]
+language: en
 ---
 {% include JB/setup %}
 <p><a href="http://code-inside.de/blog-in/wp-content/uploads/image78.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="108" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb89.png" width="108" align="left" border="0" /></a> Interfaces are an important feature for designing great software, but many programming newbies have a understanding problem - Why should I use &quot;interfaces&quot;? What is an &quot;interface&quot;?</p>  <p>&#160;</p> 

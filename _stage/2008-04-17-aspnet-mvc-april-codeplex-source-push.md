@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [Uncategorized]
 tags: [ASP.NET MVC, Codeplex, MVC]
+language: en
 ---
 {% include JB/setup %}
 Microsoft <a href="http://www.codeplex.com/aspnet/Release/ProjectReleases.aspx?ReleaseId=12640">released</a> a new version of the MVC Framework.

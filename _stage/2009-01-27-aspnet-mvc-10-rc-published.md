@@ -6,6 +6,7 @@ author: codemin
 comments: true
 categories: [News]
 tags: [ASP.NET MVC, MVC]
+language: en
 ---
 {% include JB/setup %}
 <p><a href="http://code-inside.de/blog-in/wp-content/uploads/image39.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 20px 0px 0px; border-right-width: 0px" height="72" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb43.png" width="97" align="left" border="0" /></a>The <a href="http://www.asp.net/mvc">ASP.NET MVC 1.0 Release Candidate</a> was today <a href="http://go.microsoft.com/fwlink/?LinkID=141184&amp;clcid=0x409">published</a> by Scott Gu. Scott wrote a great blogpost about the improvements in the RC in his <a href="http://weblogs.asp.net/scottgu/archive/2009/01/27/asp-net-mvc-1-0-release-candidate-now-available.aspx">blog</a>. </p> 

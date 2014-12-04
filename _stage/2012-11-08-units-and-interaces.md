@@ -6,6 +6,7 @@ author: antje.kilian
 comments: true
 categories: [Uncategorized]
 tags: []
+language: en
 ---
 {% include JB/setup %}
 <p>&nbsp;</p> <p><b></b></p> <p>Because of the object orientation developers are used to describe their working information’s in objects. For example:</p> <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:5c259567-01db-4ac9-98e7-de5bff57c86c" class="wlWriterSmartContent" style="float: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px"><pre class="c#" name="code">public List&lt;Product&gt; GetProducts()</pre></div>

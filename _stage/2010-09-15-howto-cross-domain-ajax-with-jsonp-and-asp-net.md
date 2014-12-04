@@ -6,6 +6,7 @@ author: oliver.guhr
 comments: true
 categories: [HowTo]
 tags: []
+language: en
 ---
 {% include JB/setup %}
 <a href="http://code-inside.de/blog/wp-content/uploads/image_thumb66.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; margin-left: 0px; border-left-width: 0px; margin-right: 0px" title="ajax" src="http://code-inside.de/blog/wp-content/uploads/image_thumb66.png" border="0" alt="ajax" hspace="12" width="147" height="154" align="left" /></a>
