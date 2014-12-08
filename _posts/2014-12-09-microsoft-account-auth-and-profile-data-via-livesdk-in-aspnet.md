@@ -54,7 +54,7 @@ My sample code doesn't store any token on the client or does any other clever me
 
 ### Trigger Authentication Flow
 
-You need to list all "needed" scopes for the authentication flow. The scopes are documented [here](http://msdn.microsoft.com/en-us/library/hh243646.aspx).
+You need to list all "needed" scopes for the authentication flow. The scopes are documented [here](http://msdn.microsoft.com/en-us/library/hh243646.aspx). The API uses [OAuth2 for the authorization flow](http://msdn.microsoft.com/en-us/library/hh243647.aspx).
 
     private static readonly string[] scopes =
         new string[] { 
