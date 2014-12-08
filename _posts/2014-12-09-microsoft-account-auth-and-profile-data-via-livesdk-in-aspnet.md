@@ -124,7 +124,7 @@ Result:
 
 ## Mission accomplished! 
 
-The code so far was trivial, but will run so far (but maybe not in the most robust way). 
+The code so far was trivial, but will run (but maybe not in the most robust way). 
 
 If you want to learn more, the LiveSDK is on __[GitHub](https://github.com/liveservices/LiveSDK)__ and the __[Interactive Live SDK](http://isdk.dev.live.com/dev/isdk/Default.aspx)__ might be useful for you.
 
