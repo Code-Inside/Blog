@@ -96,7 +96,7 @@ function hideMouseOver()
 
 Bei hideMouseOver wird das MouseOver Div "geleert" und wieder versteckt.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image169.png"><img border="0" width="436" src="{{BASE_PATH}}/assets/wp-images/image-thumb148.png" alt="image" height="158" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image169.png"><img border="0" width="436" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb148.png" alt="image" height="158" style="border: 0px" /></a>
 
 Diese Technik funktioniert im IE7 und Firefox2 ohne Probleme - andere Browser müssten auch keine Probleme bringen. Hoff ich ;)
 

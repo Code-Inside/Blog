@@ -27,4 +27,4 @@ string XmlResource = "CodeInside.WebApp." + "Daten.xml";
 </pre>
 
 Damit man auf die Datei auch zugreifen kann muss man in den Eigeschaften der Datei das Feld "Build Action" auf "Embedded Resource" stellen. 
-<img src='{{BASE_PATH}}/assets/wp-images/xml.JPG' alt='Embedded Resource' />
+<img src='{{BASE_PATH}}/assets/wp-images-de/xml.JPG' alt='Embedded Resource' />

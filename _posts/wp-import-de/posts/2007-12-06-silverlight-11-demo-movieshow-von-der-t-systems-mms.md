@@ -18,19 +18,19 @@ language: de
 </p>
 Die Anwendung erlaubt es in zwei verschiedenen Ansichten (eine "Karusell-Ansicht" und eine "Grid-Ansicht") auf die einzelnen Videos zuzugreifen:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/hc-002.jpg"><img border="0" width="513" src="{{BASE_PATH}}/assets/wp-images/hc-002-thumb.jpg" alt="hc_002" height="345" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/hc-002.jpg"><img border="0" width="513" src="{{BASE_PATH}}/assets/wp-images-de/hc-002-thumb.jpg" alt="hc_002" height="345" style="border: 0px" /></a>
 
 Mit einem Klick auf ein Filmcover erscheint der Videoplayer sowie einige Filminformationen:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/hc-016.jpg"><img border="0" width="508" src="{{BASE_PATH}}/assets/wp-images/hc-016-thumb.jpg" alt="hc_016" height="398" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/hc-016.jpg"><img border="0" width="508" src="{{BASE_PATH}}/assets/wp-images-de/hc-016-thumb.jpg" alt="hc_016" height="398" style="border: 0px" /></a>
 
 Es wurde auch eine aktive Suche implementiert, welche die Filmtitel sowie Schauspielernamen durchsucht und das jeweilige Video in der Grid-Ansicht hervorhebt:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/hc-019.jpg"><img border="0" width="513" src="{{BASE_PATH}}/assets/wp-images/hc-019-thumb.jpg" alt="hc_019" height="403" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/hc-019.jpg"><img border="0" width="513" src="{{BASE_PATH}}/assets/wp-images-de/hc-019-thumb.jpg" alt="hc_019" height="403" style="border: 0px" /></a>
 
 Ein Easteregg ist pünktlich zu Weihnachten auch mit von der Partie. Wie man das Gimik freischaltet wird aber an dieser Stelle nicht verraten.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/hc-031.jpg"><img border="0" width="521" src="{{BASE_PATH}}/assets/wp-images/hc-031-thumb.jpg" alt="hc_031" height="409" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/hc-031.jpg"><img border="0" width="521" src="{{BASE_PATH}}/assets/wp-images-de/hc-031-thumb.jpg" alt="hc_031" height="409" style="border: 0px" /></a>
 <strong><u>Smiley</u></strong>-Easteregg
 
 Durch den Showcase sieht man, dass Microsofts Flash Konkurrent sehr großes Potenzial mitbringt. Als Entwickler begeistert mich besonders, dass man solche Projekt ohne einen "Flasher" realisieren kann und in seiner vertrauen Umgebung (Visual Studio + .NET) entwickeln kann.

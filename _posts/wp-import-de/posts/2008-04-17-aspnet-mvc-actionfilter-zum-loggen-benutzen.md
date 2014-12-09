@@ -38,7 +38,7 @@ language: de
 <li>ResultExecutedContext </li>
 <li>ResultExecutingContext 
 <li>ActionExecutedContext Yeah!</li></ul>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image391.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="259" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb370.png" width="523" border="0"></a>&nbsp;</p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image391.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="259" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb370.png" width="523" border="0"></a>&nbsp;</p>
 <p>Durch diesen Zugriff können wir uns auch einen cleveren Logger implementieren, welcher das über <a href="http://logging.apache.org/log4net/">Log4Net</a> abspeichert.</p>
 <p>Um die ViewDaten rekursiv durchzugehen nutze ich diesen "<a href="http://www.codeguru.com/csharp/csharp/cs_syntax/reflection/article.php/c5885/">DumpObject Code</a>" und die Konfiguration wie <a href="http://www.codeproject.com/KB/aspnet/log4net.aspx?df=100&amp;forumid=323468&amp;exp=0&amp;select=1580054">hier</a>.</p>
 <p>Die (momentan) recht einfache Logging-Funktion in unserm LogFilter:</p>

@@ -36,14 +36,14 @@ language: de
   &lt;/PropertyGroup&gt;</pre>
 <p>Die untere PropertyGroup muss nicht angepasst werden. Im Target “CustomCollectFiles” kann in der ItemGroup ein oder mehrere Dateien angegeben werden. Das DestinationRelativePath Element bestimmt wohin die vorher gesammelten Dateien kopiert werden sollen. Der Syntax ist etwas “kryptisch”, wenn man aber mal dahinter gekommen ist, dann passt es.</p>
 <p>Ergebnis:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1913.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; margin: 0px 5px 0px 0px; border-left: 0px; display: inline" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images/image_thumb1054.png" width="240" height="163"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1913.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; margin: 0px 5px 0px 0px; border-left: 0px; display: inline" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1054.png" width="240" height="163"></a> </p>
 <p>Das Projekt enthält nur eine “Index.html” Datei – mehr nicht. In meinem Beispiel wollte ich die drei oberen Text-Dateien, welche parallel zur .sln-Datei liegen, in das Package mit aufnehmen. </p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>Durch die .csproj Anpassungen kommt dies in das Package:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1914.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb1055.png" width="206" height="132"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1914.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1055.png" width="206" height="132"></a> </p>
 <p><strong>Das Projekt gibts natürlich auch auf <a href="https://github.com/Code-Inside/Samples/tree/master/2013/WebDeployWithAdditions">GitHub</a>.</strong></p>
 <p><strong>Weitere Informationen:</strong></p>
 <p><a href="http://www.asp.net/mvc/tutorials/deployment/visual-studio-web-deployment/deploying-extra-files">ASP.NET: ASP.NET Web Deployment using Visual Studio: Deploying Extra Files</a><br><a href="http://sedodream.com/2010/05/01/WebDeploymentToolMSDeployBuildPackageIncludingExtraFilesOrExcludingSpecificFiles.aspx">Web Deployment Tool (MSDeploy) : Build Package including extra files or excluding specific files</a></p>

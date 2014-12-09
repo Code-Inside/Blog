@@ -28,7 +28,7 @@ language: de
     }</pre></div>
 <ul>
 <li><strong>Ordnersturktur anpassen:</strong></li></ul>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image189.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="361" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb168.png" width="214" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image189.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="361" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb168.png" width="214" border="0"></a> </p>
 <p><u>Erklärung:</u> Unter "App_Code" befinden sich unsere Controller und Models, die Views kommen ins Root Verzeichnis.</p>
 <p>Die Default.aspx im Rootverzeichnis ist <u>komplett</u> leer.</p>
 <p>Der Ordner "Shared" ist für Masterpages, User Controls etc. gedacht.</p>
@@ -105,7 +105,7 @@ Search Results:
 &lt;/table&gt;
 &lt;/asp:Content&gt;</pre></div>
 <p>Über "ViewData["BookCollection"]" greife ich auf meine Daten zu und gebe sie einfach so aus. Ob nun "var" (also ein anonymer Typ) da richtig ist, weiß ich noch nicht ganz ;) , es funktioniert jedenfalls:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image190.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="144" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb169.png" width="253" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image190.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="144" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb169.png" width="253" border="0"></a> </p>
 <p><strong><u>Das Demoprojekt testen/download &amp; Fazit</u></strong></p>
 <p>Startet nicht das Projekt wenn ihr gerade die ASPX Seiten geöffnet habt, da dann z.B. bei der Result.aspx eine Exception geworfen wird ;) - öffnet die leere Default.aspx und gebt dann manuell die jeweiligen URLs (siehe oben) ein.</p>
 <p>Wenn man sich erstmal eingearbeitet hat, macht es sehr viel Freude, zu sehen, dass man diesmal volle Kontrolle über den HTML Code hat und es (jedenfalls für mich) klarer ist, wie man bestimmte HTML Elemente dynamisch rendert. Das es noch hier und da (ASP.NET AJAX) Schwierigkeiten gibt, ist natürlich bei so einer Preview verständlich.<br>Dies waren auch nur meine ersten Schritte, sodass ich wahrscheinlich noch nicht alles optimal gemacht habe ;)</p>

@@ -25,29 +25,29 @@ Visual Studio 2005 Express Edition gibts <a target="_blank" href="http://www.mic
 </ul>
 Sobald unter den Windows Dienster der "SQL Server (SQLEXPRESS)" gestartet ist (nach der Installation ist dies standardmäßig automatisch der Fall), können wir über das SQL Management Studio Express unsere Testdatenbank anlegen.
 
-<strong><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image155.png"><img border="0" width="643" src="{{BASE_PATH}}/assets/wp-images/image-thumb134.png" alt="image" height="114" style="border-width: 0px" /></a> </strong>
+<strong><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image155.png"><img border="0" width="643" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb134.png" alt="image" height="114" style="border-width: 0px" /></a> </strong>
 
 Das anlegen einer Testdatenbank wurde <a target="_blank" href="{{BASE_PATH}}/artikel/howto-microsoft-pp-web-service-factory-service-factory-teil-3-praktisches-hello-world/">ebenfalls bereits bei den Software Factories behandelt</a>, sodass ich jetzt am Ende diese Testdatenbank habe:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image156.png"><img border="0" width="285" src="{{BASE_PATH}}/assets/wp-images/image-thumb135.png" alt="image" height="85" style="border-width: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image156.png"><img border="0" width="285" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb135.png" alt="image" height="85" style="border-width: 0px" /></a>
 <ul>
 	<li><strong>Konsolenprojekt erstellen</strong></li>
 </ul>
 Wir erstellen einfach ein kleines Konsolenprojekt und wollen einfach ein paar Eintragungen vornehmen, ein Eintrag abändern, die Daten auslesen und wieder löschen. Das selbe werden wir zudem später mit Oracle und MySQL versuchen.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image157.png"><img border="0" width="251" src="{{BASE_PATH}}/assets/wp-images/image-thumb136.png" alt="image" height="79" style="border-width: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image157.png"><img border="0" width="251" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb136.png" alt="image" height="79" style="border-width: 0px" /></a>
 
 Im "Server Explorer" fügen wir unsere Datenbankverbindung hinzu:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image158.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb137.png" alt="image" height="87" style="border-width: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image158.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb137.png" alt="image" height="87" style="border-width: 0px" /></a>
 
 Als Datenquelle geben wir "Microsoft SQL Server" an und als Datenanbieter ".NET Framework-Datenanbieter für SQL":
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image159.png"><img border="0" width="353" src="{{BASE_PATH}}/assets/wp-images/image-thumb138.png" alt="image" height="199" style="border-width: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image159.png"><img border="0" width="353" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb138.png" alt="image" height="199" style="border-width: 0px" /></a>
 
 Sobald man sich mit der jeweiligen Datenbank verbunden hat, sieht man in den Eigenschaften den "ConnectionString":
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image160.png"><img border="0" width="528" src="{{BASE_PATH}}/assets/wp-images/image-thumb139.png" alt="image" height="45" style="border-width: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image160.png"><img border="0" width="528" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb139.png" alt="image" height="45" style="border-width: 0px" /></a>
 
 Ansonsten brauchen wir diese Verbindung im VS eigentlich nicht. Es gibt aber Steuerelemente die darauf zugreifen können - in unserem sehr einfachen Beispiel benötigen wir das aber nicht.
 

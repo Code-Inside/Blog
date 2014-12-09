@@ -44,7 +44,7 @@ Als erstes nehmen wir unsere "<a href="http://msdn2.microsoft.com/de-de/library/
 
 Jetzt kommt die Besonderheit des FTPs - jeder Befehl den man per FTP machen kann, gibt es in den "<a href="http://msdn2.microsoft.com/de-de/library/system.net.webrequestmethods.ftp.aspx">WebRequestMethodes.Ftp</a>":
 
-<img border="0" width="231" src="{{BASE_PATH}}/assets/wp-images/image-thumb114.png" height="214" />
+<img border="0" width="231" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb114.png" height="214" />
 
 Dannach den Username &amp; Passwort angeben und schon können wir versuchen, die Verbindung aufzubauen.
 

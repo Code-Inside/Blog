@@ -27,30 +27,30 @@ Ich möchte nur einen sehr einfachen Webservice erstellen - eine Art "Hello Worl
 Wir verbinden uns zur MS SQL (Express) Datenbank und lassen die Standardwerte.
 <u>Zu Beachten ist:</u> Das Microsoft SQL Server Management Studio sollte mit Administratorrechten laufen, sonst kommt es beim Anlegen der DB zu einem Fehler!
 
-<strong><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image87.png"><img border="0" width="243" src="{{BASE_PATH}}/assets/wp-images/image-thumb66.png" alt="image" height="182" style="border: 0px" /></a> </strong>
+<strong><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image87.png"><img border="0" width="243" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb66.png" alt="image" height="182" style="border: 0px" /></a> </strong>
 
 Dannach legen wir eine neue Datenbank an...
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image88.png"><img border="0" width="246" src="{{BASE_PATH}}/assets/wp-images/image-thumb67.png" alt="image" height="151" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image88.png"><img border="0" width="246" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb67.png" alt="image" height="151" style="border: 0px" /></a>
 
-<strong><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image89.png"><img border="0" width="340" src="{{BASE_PATH}}/assets/wp-images/image-thumb68.png" alt="image" height="120" style="border: 0px" /></a> </strong>
+<strong><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image89.png"><img border="0" width="340" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb68.png" alt="image" height="120" style="border: 0px" /></a> </strong>
 
 ... und benennen diese "<strong>Buzzword</strong>" und lassen die restlichen Standardparameter und Optionen so.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image90.png"><img border="0" width="187" src="{{BASE_PATH}}/assets/wp-images/image-thumb69.png" alt="image" height="103" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image90.png"><img border="0" width="187" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb69.png" alt="image" height="103" style="border: 0px" /></a>
 
 Dannach legen wir uns eine neue Tabelle an...
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image91.png"><img border="0" width="359" src="{{BASE_PATH}}/assets/wp-images/image-thumb70.png" alt="image" height="59" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image91.png"><img border="0" width="359" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb70.png" alt="image" height="59" style="border: 0px" /></a>
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image92.png"><img border="0" width="367" src="{{BASE_PATH}}/assets/wp-images/image-thumb71.png" alt="image" height="108" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image92.png"><img border="0" width="367" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb71.png" alt="image" height="108" style="border: 0px" /></a>
 
 welche zwei Spalten hat:
 <ul>
 	<li>id: int (NULL nicht zulassen &amp; Primärschlüssel &amp; als ID festlegen) - einfache Zählvariable</li>
 	<li>name: nvchar(50) (NULL NICHT zulassen!) - das wird unser Lagerort für unser Wörter ;)</li>
 </ul>
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image93.png"><img border="0" width="258" src="{{BASE_PATH}}/assets/wp-images/image-thumb72.png" alt="image" height="94" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image93.png"><img border="0" width="258" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb72.png" alt="image" height="94" style="border: 0px" /></a>
 
 ... und benennen diese "<strong>buzzwords</strong>".
 
@@ -59,88 +59,88 @@ welche zwei Spalten hat:
 Im Visual Studio erstellen wir jetzt unser "BlogPosts.Buzzwords" Projekt.
 <u>Beachtet</u>: Bitte mit Administrator Rechten ausführen!
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image94.png"><img border="0" width="408" src="{{BASE_PATH}}/assets/wp-images/image-thumb73.png" alt="image" height="274" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image94.png"><img border="0" width="408" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb73.png" alt="image" height="274" style="border: 0px" /></a>
 
 Die Solution Properties lassen wir ebenso...
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image95.png"><img border="0" width="415" src="{{BASE_PATH}}/assets/wp-images/image-thumb74.png" alt="image" height="308" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image95.png"><img border="0" width="415" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb74.png" alt="image" height="308" style="border: 0px" /></a>
 
 ... und schon haben wir unsere Projektstruktur:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image96.png"><img border="0" width="314" src="{{BASE_PATH}}/assets/wp-images/image-thumb75.png" alt="image" height="297" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image96.png"><img border="0" width="314" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb75.png" alt="image" height="297" style="border: 0px" /></a>
 
 <strong>Schritt 3: DB Verbindungsdaten hinterlegen</strong>
 
 Um die Database Connection zu hinterlegen, gehen wir auf die Service Factory (Data Access) Eigentschaften des Hosts.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image97.png"><img border="0" width="402" src="{{BASE_PATH}}/assets/wp-images/image-thumb76.png" alt="image" height="162" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image97.png"><img border="0" width="402" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb76.png" alt="image" height="162" style="border: 0px" /></a>
 
 Geben dort als Connection Name "<strong>Buzzwords</strong>" ein und wählen den MS SQL Server als Datenquelle...
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image98.png"><img border="0" width="424" src="{{BASE_PATH}}/assets/wp-images/image-thumb77.png" alt="image" height="290" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image98.png"><img border="0" width="424" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb77.png" alt="image" height="290" style="border: 0px" /></a>
 
 ... und stellen unsere Verbindungseinstellungen ein.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image99.png"><img border="0" width="252" src="{{BASE_PATH}}/assets/wp-images/image-thumb78.png" alt="image" height="344" style="border: 0px" /></a> 
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image99.png"><img border="0" width="252" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb78.png" alt="image" height="344" style="border: 0px" /></a> 
 
 <strong>Schritt 4: BusinessEntities erzeugen</strong>
 
 Also nächstes wollen wir direkt eine Klasse anhand der DB Struktur erstellen, also auf die BusinessEntities und dann "Create business entities from database".
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image100.png"><img border="0" width="378" src="{{BASE_PATH}}/assets/wp-images/image-thumb79.png" alt="image" height="72" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image100.png"><img border="0" width="378" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb79.png" alt="image" height="72" style="border: 0px" /></a>
 
 Das Hostprojekt und den passenden Connection name wählen...
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image101.png"><img border="0" width="470" src="{{BASE_PATH}}/assets/wp-images/image-thumb80.png" alt="image" height="75" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image101.png"><img border="0" width="470" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb80.png" alt="image" height="75" style="border: 0px" /></a>
 
 ... unsere Tabelle auswählen...
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image102.png"><img border="0" width="469" src="{{BASE_PATH}}/assets/wp-images/image-thumb81.png" alt="image" height="96" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image102.png"><img border="0" width="469" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb81.png" alt="image" height="96" style="border: 0px" /></a>
 
 ... und aus dem aus der DB stammenden "buzzwords" ein "Buzzword" machen - sieht im .NET Code schöner aus.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image103.png"><img border="0" width="469" src="{{BASE_PATH}}/assets/wp-images/image-thumb82.png" alt="image" height="62" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image103.png"><img border="0" width="469" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb82.png" alt="image" height="62" style="border: 0px" /></a>
 
 Resultat:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image104.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb83.png" alt="image" height="68" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image104.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb83.png" alt="image" height="68" style="border: 0px" /></a>
 
 <strong>Schritt 5: In der Data Access CRUD Befehle erstellen</strong>
 
 Um die Datenbank auch mit Daten zu befüttern kann man direkt CRUD Befehle erstellen:
 Create/Read/Update/Delete.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image105.png"><img border="0" width="484" src="{{BASE_PATH}}/assets/wp-images/image-thumb84.png" alt="image" height="114" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image105.png"><img border="0" width="484" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb84.png" alt="image" height="114" style="border: 0px" /></a>
 
 Dazu werden stored procedures erstellt... 
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image106.png"><img border="0" width="482" src="{{BASE_PATH}}/assets/wp-images/image-thumb85.png" alt="image" height="229" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image106.png"><img border="0" width="482" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb85.png" alt="image" height="229" style="border: 0px" /></a>
 
 ... welche man am Ende als SQL File in dem Projektordner wieder sieht.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image107.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb86.png" alt="image" height="77" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image107.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb86.png" alt="image" height="77" style="border: 0px" /></a>
 
  Dies kann man nun per Kommandozeile oder per SQL Studio machen:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image108.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb87.png" alt="image" height="63" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image108.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb87.png" alt="image" height="63" style="border: 0px" /></a>
 
 Einfach das SQL reinkopieren und ausführen, als Ergebniss erhält man alle Stored Procedures:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image109.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb88.png" alt="image" height="218" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image109.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb88.png" alt="image" height="218" style="border: 0px" /></a>
 
 <strong>Schritt 6: Data Repository Klassen erschaffen</strong>
 
 Um die Daten auch abzurufen, muss man Data Repository Klassen erstellen, dabei werden diese Anhand der Business Entities geniert.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image110.png"><img border="0" width="397" src="{{BASE_PATH}}/assets/wp-images/image-thumb89.png" alt="image" height="82" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image110.png"><img border="0" width="397" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb89.png" alt="image" height="82" style="border: 0px" /></a>
 
 Man selber wählt anhand der Stored Procedur ein Mapping zu den Entities (wie in dem Screenshot zu sehen). 
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image111.png"><img border="0" width="486" src="{{BASE_PATH}}/assets/wp-images/image-thumb90.png" alt="image" height="331" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image111.png"><img border="0" width="486" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb90.png" alt="image" height="331" style="border: 0px" /></a>
 
 Resultat:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image112.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb91.png" alt="image" height="184" style="border: 0px" /></a> 
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image112.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb91.png" alt="image" height="184" style="border: 0px" /></a> 
 
 <strong>Schritt 7: BusinessLogic erschaffen</strong>
 
@@ -165,7 +165,7 @@ class BuzzwordListManager
 
 Resultat:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image113.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb92.png" alt="image" height="94" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image113.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb92.png" alt="image" height="94" style="border: 0px" /></a>
 
 <strong>Schritt 8: Service - DataContract erschaffen</strong>
 
@@ -173,63 +173,63 @@ Jetzt kommen wir zu der Service Interface Schicht.
 DataContracts sind im Prinzip wieder Klassen, welche der Webservice entweder als Request oder als Response weitergibt.
 Dadurch muss man nicht seine eigene BusinessLogic veröffentlichen oder ist bei Änderungen der jeweiligen Seite nicht so abhängig.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image114.png"><img border="0" width="387" src="{{BASE_PATH}}/assets/wp-images/image-thumb93.png" alt="image" height="135" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image114.png"><img border="0" width="387" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb93.png" alt="image" height="135" style="border: 0px" /></a>
 
 Das Anlegen der Members geht über solch ein Grid, als Typen können die allgemeinen .NET Klassen genommen werden, aber auch andere DataContract Klassen. Die Klassen können auch kombiniert werden. Es gibt auch noch mehr Varianten, dies ist aber am Besten nachzulesen in der <a href="http://www.codeplex.com/servicefactory">Hilfe</a>.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image115.png"><img border="0" width="395" src="{{BASE_PATH}}/assets/wp-images/image-thumb94.png" alt="image" height="106" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image115.png"><img border="0" width="395" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb94.png" alt="image" height="106" style="border: 0px" /></a>
 
 Resultat:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image116.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb95.png" alt="image" height="71" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image116.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb95.png" alt="image" height="71" style="border: 0px" /></a>
 
 <strong>Schritt 9: Service - ServiceContract erschaffen</strong>
 
 Nachdem wir jetzt die Members des Service definiert haben, gilt es nun daran zu definieren, welche Schnittstellen der Service überhaupt haben soll.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image117.png"><img border="0" width="386" src="{{BASE_PATH}}/assets/wp-images/image-thumb96.png" alt="image" height="104" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image117.png"><img border="0" width="386" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb96.png" alt="image" height="104" style="border: 0px" /></a>
 
 Hier legt man ein Namen für das Interface fest, sowie der XML namespace etc.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image118.png"><img border="0" width="476" src="{{BASE_PATH}}/assets/wp-images/image-thumb97.png" alt="image" height="182" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image118.png"><img border="0" width="476" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb97.png" alt="image" height="182" style="border: 0px" /></a>
 
 Dannach definiert man die Operationen mit den Requests und den Response Objekten.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image119.png"><img border="0" width="472" src="{{BASE_PATH}}/assets/wp-images/image-thumb98.png" alt="image" height="72" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image119.png"><img border="0" width="472" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb98.png" alt="image" height="72" style="border: 0px" /></a>
 
 Resultat:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image120.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb99.png" alt="image" height="68" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image120.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb99.png" alt="image" height="68" style="border: 0px" /></a>
 
 <strong>Schritt 10: Service - ServiceImplementation - Mapping des DataContracts auf die BusinessEntities</strong>
 
 Nun kommen wir zum nächsten Punkt: Die Contracts sind soweit fertig, die BusinessLogic &amp; Entities ebenfalls - allerdings fehlt noch das Mapping dazwischen: Dazu gibts Contract Translators.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image121.png"><img border="0" width="338" src="{{BASE_PATH}}/assets/wp-images/image-thumb100.png" alt="image" height="85" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image121.png"><img border="0" width="338" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb100.png" alt="image" height="85" style="border: 0px" /></a>
 
 Ein kleiner Fehler gibt es in dem Interface, welches aber bekannt ist:
 Die Eingabefelder für das Mapping sind grau unterlegt, allerdings einfach mit der Maus auf das Feld klicken und dann Enter oder Leertaste drücken - schon kommt man zum Auswahlmenü.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image122.png"><img border="0" width="495" src="{{BASE_PATH}}/assets/wp-images/image-thumb101.png" alt="image" height="224" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image122.png"><img border="0" width="495" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb101.png" alt="image" height="224" style="border: 0px" /></a>
 
 Hier wählt man nun zwei Klassen aus, welche man mappen möchte. In unserem Fall ist das natürlich sehr einfach:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image123.png"><img border="0" width="499" src="{{BASE_PATH}}/assets/wp-images/image-thumb102.png" alt="image" height="162" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image123.png"><img border="0" width="499" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb102.png" alt="image" height="162" style="border: 0px" /></a>
 
 Im Anschluss erfolgt das Mapping der einzelnen Properties und eine TranslateBetweenXXXAndYYY entsteht.
 
-<strong><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image124.png"><img border="0" width="205" src="{{BASE_PATH}}/assets/wp-images/image-thumb103.png" alt="image" height="65" style="border: 0px" /></a> </strong>
+<strong><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image124.png"><img border="0" width="205" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb103.png" alt="image" height="65" style="border: 0px" /></a> </strong>
 
 Resultat:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image125.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb104.png" alt="image" height="57" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image125.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb104.png" alt="image" height="57" style="border: 0px" /></a>
 
 <strong>Schritt 11: Service - ServiceImplementation</strong>
 
 Jetzt kommen wir zum Hauptteil - und noch etwas Schreibarbeit:
 Die Implementation des ganzen.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image126.png"><img border="0" width="366" src="{{BASE_PATH}}/assets/wp-images/image-thumb105.png" alt="image" height="64" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image126.png"><img border="0" width="366" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb105.png" alt="image" height="64" style="border: 0px" /></a>
 
 Dabei implementiert man den ServiceContract, welcher als Request / Response die Teile aus dem DataContract nimmt.
 In der Implementation greift man auf den Translator zu, damit man die BusinessLogic nutzen kann. 
@@ -246,37 +246,37 @@ Manager.Insert(BuzzwordEntity);
 
 Resultat:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image127.png"><img border="0" width="262" src="{{BASE_PATH}}/assets/wp-images/image-thumb106.png" alt="image" height="77" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image127.png"><img border="0" width="262" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb106.png" alt="image" height="77" style="border: 0px" /></a>
 
 <strong>Schritt 12: Service veröffentlichen</strong>
 
 Als Abschluss veröffentlicht man den Service in der Host Anwendung.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image128.png"><img border="0" width="406" src="{{BASE_PATH}}/assets/wp-images/image-thumb107.png" alt="image" height="80" style="border: 0px" /></a> 
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image128.png"><img border="0" width="406" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb107.png" alt="image" height="80" style="border: 0px" /></a> 
 
 Dabei kann man noch verschiedene Optionen treffen - hier mal ein Basic Web Service.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image129.png"><img border="0" width="422" src="{{BASE_PATH}}/assets/wp-images/image-thumb108.png" alt="image" height="128" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image129.png"><img border="0" width="422" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb108.png" alt="image" height="128" style="border: 0px" /></a>
 
 Ebenfalls die Metadaten mit anklicken und das Ergebnis ist ein XXX.svc Datei.
 
 Resultat:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image130.png"><img border="0" width="228" src="{{BASE_PATH}}/assets/wp-images/image-thumb109.png" alt="image" height="118" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image130.png"><img border="0" width="228" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb109.png" alt="image" height="118" style="border: 0px" /></a>
 
 <strong>Schritt 13: Testen des Services</strong>
 
 Wenn man diese svc Datei nun im Browser anschaut, sieht man in der Mitte die WSDL des Webservice.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image131.png"><img border="0" width="386" src="{{BASE_PATH}}/assets/wp-images/image-thumb110.png" alt="image" height="98" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image131.png"><img border="0" width="386" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb110.png" alt="image" height="98" style="border: 0px" /></a>
 
 Diese WSDL kann entweder über das Programm getestet werden, oder...
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image132.png"><img border="0" width="532" src="{{BASE_PATH}}/assets/wp-images/image-thumb111.png" alt="image" height="28" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image132.png"><img border="0" width="532" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb111.png" alt="image" height="28" style="border: 0px" /></a>
 
 ... wir binden dies ganz einfach in ein Projekt ein:
 
-<strong><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image133.png"><img border="0" width="306" src="{{BASE_PATH}}/assets/wp-images/image-thumb112.png" alt="image" height="179" style="border: 0px" /></a> </strong>
+<strong><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image133.png"><img border="0" width="306" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb112.png" alt="image" height="179" style="border: 0px" /></a> </strong>
 
 Der Service implementiert momentan nur eine Load und Insert Methode - aufgrund der vorangeschrittenen Zeit werde ich dies als Beispiel zwar als Download anbieten, garantiere aber für nichts ;)
 
@@ -291,7 +291,7 @@ Service.Insert(request);
 
 Resultat:
 
-<strong><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image134.png"><img border="0" width="286" src="{{BASE_PATH}}/assets/wp-images/image-thumb113.png" alt="image" height="70" style="border: 0px" /></a> </strong>
+<strong><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image134.png"><img border="0" width="286" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb113.png" alt="image" height="70" style="border: 0px" /></a> </strong>
 
 Jedenfalls der Testaufruf hat funktioniert - und das alles ohne viel Schreibarbeit.
 

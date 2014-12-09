@@ -16,7 +16,7 @@ Hier setzt dieses HowTo an. Die Fragestellung in dem Titel ist zwar etwas übers
 
 <strong>So sieht die Anwendung hinterher aus:</strong>
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image142.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb121.png" alt="image" height="235" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image142.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb121.png" alt="image" height="235" style="border: 0px" /></a>
 
 <strong>Schritt 1: Grundsätzlicher Aufbau</strong>
 

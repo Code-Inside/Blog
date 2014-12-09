@@ -131,10 +131,10 @@ language: de
 </pre></div>
 <p>&nbsp;</p>
 <p>Erzeugt diese Seite:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1367.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb549.png" width="554" height="334"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1367.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb549.png" width="554" height="334"></a></p>
 <p><strong>Roadmap</strong></p>
 <p>Es gibt auch eine <a href="https://github.com/twitter/bootstrap/wiki/Roadmap">Roadmap</a> für das Projekt, welches aktiv von mehreren Entwicklern bei Twitter gepflegt wird:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1368.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb550.png" width="506" height="226"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1368.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb550.png" width="506" height="226"></a></p>
 <p><strong>Fazit</strong></p>
 <p>Twitter Bootstrap scheint für nicht-Designer ein solider Anfang zu sein, mit vielen netten Elementen. Das einzige was noch fehlt, wäre eine Variante für Mobile Webseiten – schauen wir mal.</p>
 <p>Download und alles andere findet man auf <a href="http://twitter.github.com/bootstrap/">GitHub</a>.</p>

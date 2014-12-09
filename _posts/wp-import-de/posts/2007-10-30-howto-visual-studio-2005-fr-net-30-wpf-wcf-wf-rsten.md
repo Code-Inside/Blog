@@ -20,17 +20,17 @@ Wer allerdings weiter mit Visual Studio 2005 nutzen möchte, benötigt folgende 
 </ul>
 Nach der Installation gibt es neue Projektvorlagen für das .NET Framework 3.0:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image136.png"><img border="0" width="565" src="{{BASE_PATH}}/assets/wp-images/image-thumb115.png" alt="image" height="210" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image136.png"><img border="0" width="565" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb115.png" alt="image" height="210" style="border: 0px" /></a>
 
 Was besonder hervorzuheben ist, ist der Splitscreen zwischen der XAML und der Designansicht. 
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image137.png"><img border="0" width="559" src="{{BASE_PATH}}/assets/wp-images/image-thumb116.png" alt="image" height="469" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image137.png"><img border="0" width="559" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb116.png" alt="image" height="469" style="border: 0px" /></a>
 
 Zwar gibt es in der Toolbox Controls zur Auswahl - aber ich kann sie irgendwie nicht per Drag`n`Drop reinziehen - schade (oder ich mach was falsch).
 
 Jedenfalls kann man immerhin mal in dem XAML austoben:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image138.png"><img border="0" width="309" src="{{BASE_PATH}}/assets/wp-images/image-thumb117.png" alt="image" height="249" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image138.png"><img border="0" width="309" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb117.png" alt="image" height="249" style="border: 0px" /></a>
 
 Die restlichen Teile sind so ziemlich normale Projektvorlagen (zu WCF) bzw. bieten diesen XAML Splitscreen.
 
@@ -40,15 +40,15 @@ Die restlichen Teile sind so ziemlich normale Projektvorlagen (zu WCF) bzw. biet
 </ul>
 Auch hier gibts neue Projektvorlagen:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image139.png"><img border="0" width="595" src="{{BASE_PATH}}/assets/wp-images/image-thumb118.png" alt="image" height="190" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image139.png"><img border="0" width="595" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb118.png" alt="image" height="190" style="border: 0px" /></a>
 
 ... und auch wie bei den anderen Extensions, gibt es auch hier eine Besonderheit:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image140.png"><img border="0" width="148" src="{{BASE_PATH}}/assets/wp-images/image-thumb119.png" alt="image" height="240" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image140.png"><img border="0" width="148" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb119.png" alt="image" height="240" style="border: 0px" /></a>
 
 Der Workflow Designer erlaubt es aus einer fülle von Controls sich seinen Workflow zu erstellen:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image141.png"><img border="0" width="194" src="{{BASE_PATH}}/assets/wp-images/image-thumb120.png" alt="image" height="240" style="border: 0px" /></a> 
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image141.png"><img border="0" width="194" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb120.png" alt="image" height="240" style="border: 0px" /></a> 
 <em>(... und noch mehr Controls, welche nicht zu sehen sind)</em>
 
 <strong>Fazit:</strong>

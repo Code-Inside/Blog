@@ -19,7 +19,7 @@ Dass es aber tatsächlich sehr interessante Open Source .NET Projekte in den ver
 
 Angefangen möchte ich mit dem wohl bekanntesten .NET Programm in dieser Liste: <a target="_blank" href="http://www.getpaint.net/download.html">Paint.NET</a>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image206.png"><img border="0" width="302" src="{{BASE_PATH}}/assets/wp-images/image-thumb185.png" alt="image" height="183" style="border: 0px" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image206.png"><img border="0" width="302" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb185.png" alt="image" height="183" style="border: 0px" /></a>
 
 Paint.NET ist eines der wenigen .NET Open Source Projekte, welche auch der normale Endkunde nutzen kann.
 
@@ -27,43 +27,43 @@ Kommen wir nun zu den anderen - nicht Endkundentauglichen - Projekten:
 
 <u><strong>SubSonic - .NET O/R Mapper für MySQL, Oracle, SQL Server</strong></u>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image207.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images/image-thumb186.png" alt="image" height="47" style="border: 0px" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image207.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb186.png" alt="image" height="47" style="border: 0px" /></a>
 
 <a target="_blank" href="http://www.subsonicproject.com/">SubSonic</a> ist ein sehr schickes "Toolset", wenn es darum geht, eine Objektstruktur aus einer Datenbankstruktur zu bekommen. Auch die ganzen CRUD Befehle kann man sich hier sparen. Auf der Website gibt es auch <a target="_blank" href="http://www.subsonicproject.com/view/for-web-sites---using-the-buildprovider.aspx">ein guten Einstieg</a> (mit <a target="_blank" href="http://www.wekeroad.com/ss_setup2.html">Video</a>) in SubSonic und die <a target="_blank" href="http://www.subsonicproject.com/view/api-documentation.aspx">API Dokumentation</a>. Begonnen wurde das Projekt von Rob Conery, der nun für Microsoft am ASP.NET MVC Modell arbeit.
 
 <u><strong>NHibernate - .NET O/R Mapper</strong></u>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image208.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images/image-thumb187.png" alt="image" height="60" style="border: 0px" /></a> 
+<a href="{{BASE_PATH}}/assets/wp-images-de/image208.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb187.png" alt="image" height="60" style="border: 0px" /></a> 
 
 Ähnlich wie SubSonic, ist <a target="_blank" href="http://www.hibernate.org/343.html">NHibernate</a> ein anderer O/R Mapper. Das Konzept ist hier etwas anders (per XML wird dieser konfiguriert), allerdings ist Hibernate schon lange im Java Umfeld genutzt und NHibernate die Portierung auf .NET.
 
 <u><strong>CruiseControl.NET - Continous Integration Server</strong></u>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image209.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images/image-thumb188.png" alt="image" height="52" style="border: 0px" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image209.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb188.png" alt="image" height="52" style="border: 0px" /></a>
 
 Um Builds und co. in einem Team besser im Auge zu behalten ist das Stichwort "<a target="_blank" href="http://en.wikipedia.org/wiki/Continuous_integration">Continuous integration</a>" - also das automatische bauen der gesamten Solutions mit Tests etc. - sehr wichtig. <a target="_blank" href="http://confluence.public.thoughtworks.org/display/CCNET/Welcome+to+CruiseControl.NET">CruiseControl.NET</a> setzt hier ein und definiert sich selber als ein "Automated Continuous Integration server"
 
 <u><strong>DotNetNuke - CMS</strong></u>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image210.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images/image-thumb189.png" alt="image" height="70" style="border: 0px" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image210.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb189.png" alt="image" height="70" style="border: 0px" /></a>
 
 <a target="_blank" href="http://www.dotnetnuke.com/">DotNetNuke</a> ist eine Portierung von <a target="_blank" href="http://phpnuke.org/">PHPNuke</a> und basiert auf ASP.NET 2.0. Wie bereits PHPNuke ist dieses Projekt ein CMS für Web Portale, welches eine aktive Nutzerschaft verfügt und auch viele Module anbietet.
 
 <u><strong>Subtext - Blog System</strong></u>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image211.png"><img border="0" width="183" src="{{BASE_PATH}}/assets/wp-images/image-thumb190.png" alt="image" height="67" style="border: 0px" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image211.png"><img border="0" width="183" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb190.png" alt="image" height="67" style="border: 0px" /></a>
 
 <a target="_blank" href="http://www.subtextproject.com/">Subtext</a> ist ein ASP.NET Blog System. Interessant ist aber hier, dass MySpace China eine <a target="_blank" href="http://haacked.com/archive/2007/10/29/subtext-powers-myspace-china-blogs.aspx">modifizierte Version von Subtext</a> für ihr Blogsystem nutzt.
 
 <u><strong>DasBlog - Blog System</strong></u>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image212.png"><img border="0" width="116" src="{{BASE_PATH}}/assets/wp-images/image-thumb191.png" alt="image" height="98" style="border: 0px" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image212.png"><img border="0" width="116" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb191.png" alt="image" height="98" style="border: 0px" /></a>
 
 Ein anderes ASP.NET Blog System ist <a target="_blank" href="http://www.dasblog.info/">DasBlog</a>.
 
 <strong><u>DotNetKicks - Post Voting System</u></strong>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image213.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images/image-thumb192.png" alt="image" height="27" style="border: 0px" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image213.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb192.png" alt="image" height="27" style="border: 0px" /></a>
 
 <a target="_blank" href="http://www.dotnetkicks.com/">DotNetKicks</a> ist eine Plattform ähnlich wie <a target="_blank" href="http://digg.com/">Digg.com</a>. Da man solche Plattformen im Prinzip auf jedes Thema ausdehnen kann, ist es für den einen oder anderen bestimmt interessant, dass <a target="_blank" href="http://code.google.com/p/dotnetkicks/">DotNetKicks Source Code</a> offen gelegt wurde.
 

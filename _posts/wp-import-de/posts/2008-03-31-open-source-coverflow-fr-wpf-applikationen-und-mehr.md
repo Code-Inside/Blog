@@ -15,39 +15,39 @@ Da Bilder bekanntlich mehr sagen als 1000 Worte, hier mal die Demoanwendung (wel
 
 <strong><u>"CustomShapes":</u></strong>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image353.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb332.png" style="border: 0px none " alt="image" border="0" height="194" width="399" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image353.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb332.png" style="border: 0px none " alt="image" border="0" height="194" width="399" /></a>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image354.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb333.png" style="border: 0px none " alt="image" border="0" height="197" width="407" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image354.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb333.png" style="border: 0px none " alt="image" border="0" height="197" width="407" /></a>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image355.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb334.png" style="border: 0px none " alt="image" border="0" height="200" width="413" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image355.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb334.png" style="border: 0px none " alt="image" border="0" height="200" width="413" /></a>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image356.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb335.png" style="border: 0px none " alt="image" border="0" height="202" width="418" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image356.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb335.png" style="border: 0px none " alt="image" border="0" height="202" width="418" /></a>
 
 <strong><u>"GlassWindow"</u></strong>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image357.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb336.png" style="border: 0px none " alt="image" border="0" height="244" width="244" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image357.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb336.png" style="border: 0px none " alt="image" border="0" height="244" width="244" /></a>
 
 <strong><u>"DragNDrop"</u></strong>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image358.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb337.png" style="border: 0px none " alt="image" border="0" height="244" width="243" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image358.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb337.png" style="border: 0px none " alt="image" border="0" height="244" width="243" /></a>
 
 <strong><u>"ElementFlow" - "CoverFlow"</u></strong>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image359.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb338.png" style="border: 0px none " alt="image" border="0" height="300" width="399" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image359.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb338.png" style="border: 0px none " alt="image" border="0" height="300" width="399" /></a>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image360.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb339.png" style="border: 0px none " alt="image" border="0" height="296" width="394" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image360.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb339.png" style="border: 0px none " alt="image" border="0" height="296" width="394" /></a>
 
 <strong><u>"ElementFlow" - "TimeMachine"</u></strong>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image361.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb340.png" style="border: 0px none " alt="image" border="0" height="298" width="396" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image361.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb340.png" style="border: 0px none " alt="image" border="0" height="298" width="396" /></a>
 
 <strong><u>ElementFlow" - "Rollercoaster"</u></strong>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image362.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb341.png" style="border: 0px none " alt="image" border="0" height="294" width="390" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image362.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb341.png" style="border: 0px none " alt="image" border="0" height="294" width="390" /></a>
 
 <strong><u>ElementFlow" - "Rolodex"</u></strong>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image363.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb342.png" style="border: 0px none " alt="image" border="0" height="293" width="389" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image363.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb342.png" style="border: 0px none " alt="image" border="0" height="293" width="389" /></a>
 
 Fazit: Ziemlich cool (und Open Source!) :)
 

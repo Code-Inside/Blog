@@ -81,7 +81,7 @@ language: de
 </pre>
 <p>Ergebnis:</p>
 <p>&nbsp;</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1869.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb1013.png" width="574" height="197"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1869.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1013.png" width="574" height="197"></a></p>
 <p> Wichtigste Klasse zum Generieren der Urls hier ist der <a href="http://msdn.microsoft.com/en-us/library/system.web.mvc.urlhelper(v=vs.108).aspx">UrlHelper</a> im Mvc Framework.</p>
 <p></p>
 <h3>&nbsp;</h3>

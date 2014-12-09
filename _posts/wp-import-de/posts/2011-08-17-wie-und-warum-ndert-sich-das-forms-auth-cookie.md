@@ -25,14 +25,14 @@ language: de
 <p>Beim “Verscripten” einer Webanwendung hatte ein Kollege von mir ein Problem bekomme, da ab einer bestimmten Zeit immer die Anmeldemaske ihm wieder zurückgeliefert wurde, obwohl das eingestellte Timeout noch nicht erreicht war und er die ganze Zeit (mit seinem Script) auf der Website aktiv war. Wie kommt das?</p>
 <p><strong>Ausgangslage:</strong></p>
 <p>Wir haben von der Loginseite das FormsAuth Cookie ausgestellt bekommen und senden dies natürlich auch immer wieder im Request mit, sodass das “Forms-Auth-Ticket” aktiv bleibt:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1337.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb519.png" width="542" height="107"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1337.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb519.png" width="542" height="107"></a></p>
 <p>Die Komponente die dafür sorgt, dass das Forms-Auth-Ticket bei Aktivität verlängert wird, wird über das Property “<a href="http://msdn.microsoft.com/en-us/library/system.web.security.formsauthentication.slidingexpiration.aspx">SlidingExpiration</a>” (was per Default auf true ist) gesteuert.</p>
 <p><strong>RTFM…</strong></p>
 <p> Warum wurde nun das Script von dem Kollegen die Anmeldemaske wieder gezeigt? Die Antwort liefert auch die MSDN:</p>
 <p><em>Sliding expiration resets the expiration time for a valid authentication cookie if a request is made and more than half of the timeout interval has elapsed. If the cookie expires, the user must re-authenticate. Setting theSlidingExpiration property to false can improve the security of an application by limiting the time for which an authentication cookie is valid, based on the configured timeout value.</em></p>
 <p><strong>D.h.</strong></p>
 <p>Nach rund der Hälfte der Timeout Zeit, wird ein neues Cookie generiert:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1338.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb520.png" width="556" height="255"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1338.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb520.png" width="556" height="255"></a></p>
 <p>Sprich, wenn das Timeout 10 Minuten beträgt, dann wird in der 5-6 Minute (wenn ein neuer Request in der Zeit abgesetzt wird) ein neues Cookie erstellt.</p>
 <p>Jetzt klappts auch mit dem Scripting ;)</p>
 <p>PS: Natürlich passiert dieser Prozess nur, wenn Sliding Expiration auch auf den Standardwert bleibt.</p>

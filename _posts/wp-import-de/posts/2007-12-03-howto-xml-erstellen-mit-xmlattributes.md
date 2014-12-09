@@ -13,7 +13,7 @@ language: de
             _xmlGen.Serialize(Console.Out,"<span class="str">www.code-inside.de"</span>);</pre></div>
 <p>&nbsp;</p>
 <p><em>Erklärung: </em>Wir serializieren hier einfach den String <a href="http://www.code-inside.de">www.code-inside.de</a> auf der Console und schauen uns an was passiert:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image179.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="30" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb158.png" width="316" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image179.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="30" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb158.png" width="316" border="0"></a> </p>
 <p>So wird es auf der Kommandozeile ausgegeben.</p>
 <p><u>Ein einfaches Lesen:</u></p>
 <div class="CodeFormatContainer"><pre class="csharpcode">XmlSerializer _xmlGen = <span class="kwrd">new</span> XmlSerializer(<span class="kwrd">typeof</span>(<span class="kwrd">string</span>));
@@ -21,12 +21,12 @@ language: de
                 _xmlGen.Deserialize(
                        <span class="kwrd">new</span> StringReader(<span class="str">"&lt;string&gt;www.Code-Inside.de&lt;/string&gt;"</span>)));</pre></div>
 <p><em>Erklärung:</em> Diesmal wollen wir einfach unser XmlTag (mit dem Code-Inside.de), was rein theoretisch z.B. in einer Datei stehen könnte) wieder lesen.</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image180.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="21" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb159.png" width="156" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image180.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="21" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb159.png" width="156" border="0"></a> </p>
 <p>Da ist wieder unser ursprünglicher String ;)</p>
 <p>&nbsp;</p>
 <p>Man kann natürlich nicht nur Strings serialisieren, sondern auch komplexere Objekte. <br><u>Wichtig:</u> Diese Klassen müssen dann "public" sein und einen leeren Konstruktor haben. <br><br>Wenn man Objekte serialisiert dann werden die Elemente im XML nach dem Variablennamen oder dem Datentypen des serialisierten Objektes benannt, weil dies aber nur selten sinnvoll ist, gibt es die Möglichkeit die Ausgabe über Attribute zu steuern. <br>Eine Liste der XmlAttribute findet sich natürlich <a href="Man kann nat&uuml;rlich nicht nur strings sondern auch komplexere Objekte serialisieren, diese Klassen m&uuml;ssen dann &quot;public&quot; sein und einen leeren Konstruktor haben. " target="_blank">auf der MSDN</a>.</p>
 <p><u>Klassenstruktur für unser Beispielprojekt:</u></p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image181.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="248" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb160.png" width="281" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image181.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="248" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb160.png" width="281" border="0"></a> </p>
 <p><em>(auch wenn Oliver, welcher den Artikel vorbereitet &amp; zum großen Teil geschrieben hat, das alles in die Program.cs mit reinschreiben wollte ;) )</em></p>
 <p>Der Code ist einfach gehalten. Über den einzelnen Eigenschaften wurde, wie z.B. beim Title des BlogEntry, das XmlAttribute gesetzt:</p>
 <div class="CodeFormatContainer"><pre class="csharpcode">        [XmlElement(<span class="str">"title"</span>)]
@@ -68,7 +68,7 @@ language: de
   &lt;/comments&gt;
 &lt;/BlogEntry&gt;</pre></div>
 <p>Das Lesen erfolgt ähnlich wie bereits oben erwähnt. In der Demoanwendung sieht das Ergebniss beim Ausführen so aus:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image182.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="345" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb161.png" width="447" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image182.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="345" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb161.png" width="447" border="0"></a> </p>
 <p>&nbsp;</p>
 <p>Fazit: MIt dem XmlSerializer und XmlAttributes lassen sich auch komplexe XML Dateien sehr schnell, einfach und übersichtlich lesen und schreiben, besonders bei rekursiven Strukturen zeigen sich deutliche Vorteile gegenüber dem XmlTextWriter.</p>
 <p><strong><a href="{{BASE_PATH}}/assets/files/democode/xmlattributes/xmlattributes.zip" target="_blank">[ Download Democode ]</a></strong></p>

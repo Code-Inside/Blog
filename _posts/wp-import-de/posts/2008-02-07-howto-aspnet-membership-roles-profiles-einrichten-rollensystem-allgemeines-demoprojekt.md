@@ -23,7 +23,7 @@ Das ganze Membership System ist zudem erweiterbar - dazu gibt es ein <a href="ht
 
 Von Microsoft direkt gibt es ein Provider für Active Directory und für den SQL Server (desweiteren kann man noch in der web.config feste Nutzer einrichten). Der SQL Provider ist für Internetanwendungen geeignet, dabei wird von ASP.NET eine solche DB erzeugt:
 
-<a href="{{BASE_PATH}}/assets/wp-images/image251.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb230.png" style="border: 0px none " alt="image" border="0" height="244" width="241" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image251.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb230.png" style="border: 0px none " alt="image" border="0" height="244" width="241" /></a>
 
 Es gibt auch bereits Provider für alles mögliche - z.B. auch für <a href="http://www.codeproject.com/KB/database/mysqlmembershipprovider.aspx">MySQL</a>. Natürlich kann man auch seinen <a href="http://msdn2.microsoft.com/en-us/library/f1kyba5e.aspx">eigenen Membership Provider schreiben</a>. Schauen wir uns erstmal Schritt für Schritt an, was man tun muss, um eine solche Datenbank zu bekommen.
 
@@ -33,11 +33,11 @@ Ich empfehle eine "Web Site", weil es in Zusammenhang mit dem Profil System und 
 
 Sobald man solch ein Web Site angelegt hat, gibt es im Menü den Punkt "Website", dort einfach auf "ASP.NET Configuration" gehen:
 
-<a href="{{BASE_PATH}}/assets/wp-images/image252.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb231.png" style="border: 0px none " alt="image" border="0" height="244" width="228" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image252.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb231.png" style="border: 0px none " alt="image" border="0" height="244" width="228" /></a>
 
 Danach öffnet sich eine Website mit mehreren Reitern - der interessanteste Teil dürfte sicherlich "Sicherheit" sein:
 
-<a href="{{BASE_PATH}}/assets/wp-images/image253.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb232.png" style="border: 0px none " alt="image" border="0" height="118" width="378" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image253.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb232.png" style="border: 0px none " alt="image" border="0" height="118" width="378" /></a>
 
 Unter "Authentifierzungstyp auswählen" kann man zwischen den SQL Provider und den AD Provider wechseln. Wenn man das erste mal den Punkt "Aus dem Internet" (also den SQL Provider) gewählt hat, dann wird die obrige Datenbank erstellt.
 <u>Hinweis:</u> Das <a href="http://msdn2.microsoft.com/de-de/library/ms229862(VS.80).aspx">aspnet_regsql Tool</a> erlaubt dies auch auf Basis der Kommandozeile.
@@ -46,7 +46,7 @@ Recht komfortabel kann man hier zudem Nutzer und Rollen einrichten und Zugriffsr
 
 Wichtig ist, dass die Nutzer nach dem Anlegen aktiviert sind:
 
-<a href="{{BASE_PATH}}/assets/wp-images/image254.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb233.png" style="border: 0px none " alt="image" border="0" height="98" width="540" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image254.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb233.png" style="border: 0px none " alt="image" border="0" height="98" width="540" /></a>
 
 Rollen lassen sich ebenso managen.
 
@@ -56,7 +56,7 @@ Rollen lassen sich ebenso managen.
 
 Man kann den gesamten Authentifierungsprozess &amp; das restliche Management über die <a href="http://msdn2.microsoft.com/en-us/library/2d449f1x.aspx">Membership Klassen</a> abbilden, allerdings hat Microsoft eine handvoll nützliche Controls bereits definiert:
 
-<a href="{{BASE_PATH}}/assets/wp-images/image255.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb234.png" style="border: 0px none " alt="image" border="0" height="186" width="183" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image255.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb234.png" style="border: 0px none " alt="image" border="0" height="186" width="183" /></a>
 
 Wenn man nichts verstellt hat, kann man das <a href="http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.login.aspx">Login Control</a> auf eine ASPX Seite ziehen und sich (nachdem Nutzer eingerichtet wurden) auch gleich anmelden. Einen Überblick über die einzelnen Controls gibt es <a href="http://msdn2.microsoft.com/en-us/library/ms178329.aspx">hier</a>.
 
@@ -68,7 +68,7 @@ Ich mache mal eine Beispielhafte Implementation, welche ich am Ende auch zum Dow
 
 Das Grundgerüst sieht so aus
 
-<a href="{{BASE_PATH}}/assets/wp-images/image256.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb235.png" style="border: 0px none " alt="image" border="0" height="244" width="134" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image256.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb235.png" style="border: 0px none " alt="image" border="0" height="244" width="134" /></a>
 
 Es wurden 3 Nutzer eingerichtet und 3 Rollen - Benutzer, Redakteur und Administrator.
 
@@ -79,11 +79,11 @@ In dem Ordner "Redakteur" kommen nur Redakteure - in den Ordner "Admin" kommen n
 Auf jeder Seite wollen wir bei anonymen Nutzern einen "Anmelden" Button anzeigen oder bei bereits angemeldeten einen "Abmelden" Button - daher kommt dies in die MasterPage.
 Zudem wollen wir jeden Nutzer "Willkommen" sagen und spezielle Links je nach Rolle ihm zur Verfügung stellen:
 
-<a href="{{BASE_PATH}}/assets/wp-images/image257.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb236.png" style="border: 0px none " alt="image" border="0" height="156" width="594" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image257.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb236.png" style="border: 0px none " alt="image" border="0" height="156" width="594" /></a>
 
 Das "<a href="http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.loginstatus.aspx">LoginStatus</a>" Control übernimmt den Login/Logout Part. Das "<a href="http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.loginview.aspx">LoginView</a>" Control bietet die Möglichkeit je nach Anmeldestatus informationen bereitzustellen:
 
-<a href="{{BASE_PATH}}/assets/wp-images/image258.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb237.png" style="border: 0px none " alt="image" border="0" height="173" width="515" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image258.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb237.png" style="border: 0px none " alt="image" border="0" height="173" width="515" /></a>
 
 Mithilfe des "<a href="http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.loginname.aspx">LoginName</a>" Control bekommen wir den Usernamen des momentan angemeldeten Nutzers raus.
 
@@ -91,17 +91,17 @@ Mithilfe des "<a href="http://msdn2.microsoft.com/en-us/library/system.web.ui.we
 
 Die Login.aspx ist Standardmäßig die Login Seite (ist in der web.config gespeichert) und muss natürlich ebenfalls noch mit einem Control gefüllt werden - das "<a href="http://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.login.aspx">Login</a>" Control. Wenn man mit den normalen Aussehen leben kann, muss man hier auch nichts mehr machen. Falls man allerdings das design etwas stärker ändern möchte, muss man wie <a href="http://www.aspnetzone.de/blogs/peterbucher/archive/2007/07/11/login-control-aussehen-und-output-per-template-anpassen.aspx">hier</a> beschrieben z.B. ein Template anlegen.
 
-<a href="{{BASE_PATH}}/assets/wp-images/image259.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb238.png" style="border: 0px none " alt="image" border="0" height="122" width="518" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image259.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb238.png" style="border: 0px none " alt="image" border="0" height="122" width="518" /></a>
 
 Die Codebehinde sieht dann so aus:
 
-<a href="{{BASE_PATH}}/assets/wp-images/image260.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb239.png" style="border: 0px none " alt="image" border="0" height="137" width="511" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image260.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb239.png" style="border: 0px none " alt="image" border="0" height="137" width="511" /></a>
 
 Das wars eigentlich bereits. Wenn man diese Template Variante wählt, muss man dann natürlich um die ganze Funktionalität abzudecken, auch wie hier beschrieben die Elemente mit <a href="http://msdn2.microsoft.com/de-de/library/system.web.ui.ieditabletextcontrol(VS.80).aspx">implementieren</a>.
 
 Sehr praktisch ist es auch, wenn ein nicht angemeldeter Nutzer z.B. die Adminseite besuchen möchte, wir automatisch auf die Login.aspx verlinkt, allerdings wird als Parameter die Zieladresse mitgegeben, sodass nach einem erfolgreichen Login man automatisch auf der "richtigen" Seite befindet:
 
-<a href="{{BASE_PATH}}/assets/wp-images/image261.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb240.png" style="border: 0px none " alt="image" border="0" height="29" width="499" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image261.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb240.png" style="border: 0px none " alt="image" border="0" height="29" width="499" /></a>
 
 Dafür ist diese Methode verantwortlich: <a href="http://msdn2.microsoft.com/en-us/library/ka5ffkce.aspx">FormsAuthentication.RedirectFromLoginPage</a>.
 
@@ -109,11 +109,11 @@ Dafür ist diese Methode verantwortlich: <a href="http://msdn2.microsoft.com/en-
 
 Der angemeldete Nutzer ist in der Klassenhierarchie z.B. bei jeder <a href="http://msdn2.microsoft.com/en-us/library/system.web.ui.page.aspx">Page</a> oder <a href="http://msdn2.microsoft.com/en-us/library/system.web.httpcontext(vs.71).aspx">HttpContext</a> unter "User" zu finden:
 
-<a href="{{BASE_PATH}}/assets/wp-images/image262.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb241.png" style="border: 0px none " alt="image" border="0" height="111" width="463" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image262.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb241.png" style="border: 0px none " alt="image" border="0" height="111" width="463" /></a>
 
 Andere Teile finden sich auch in dem <a href="http://msdn2.microsoft.com/de-de/library/system.web.sessionstate.httpsessionstate.aspx">HttpSessionState</a>:
 
-<a href="{{BASE_PATH}}/assets/wp-images/image263.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb242.png" style="border: 0px none " alt="image" border="0" height="238" width="555" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image263.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb242.png" style="border: 0px none " alt="image" border="0" height="238" width="555" /></a>
 
 <strong>Eine Sache zu den Controls</strong>
 

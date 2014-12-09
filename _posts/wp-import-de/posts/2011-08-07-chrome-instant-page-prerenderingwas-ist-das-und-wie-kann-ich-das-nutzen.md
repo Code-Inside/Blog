@@ -38,7 +38,7 @@ language: de
 <p>&nbsp;</p>
 <p><u>Ohne Prerendering:</u></p>
 <p>Es wird einfach nur ein Request / Response gegeben, wobei zusätzlich noch nach einem Favicon gesucht wird (was aber an dieser Stelle egal ist). Keine Überraschungen hier.</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1326.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb508.png" width="244" height="207"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1326.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb508.png" width="244" height="207"></a></p>
 <p>Navigiert man nun über den Link zu Code-Inside.de wird erst dann das Laden der Seite angestoßen = <strong>Langsam</strong>.</p>
 <p><strong>Prerendering anschalten</strong></p>
 <p>Wenn wir nun noch Prerendering aktivieren wollen, müssen wir nur im<strong> &lt;head&gt; noch die Zeile</strong> <strong>einfügen</strong>:</p>
@@ -50,9 +50,9 @@ language: de
 </pre></div>
 <p>&nbsp;</p>
 <p>Nun sieht man in den Chrome Dev Tools, dass die Adresse aufgerufen wird, allerdings werden noch keine weiteren Daten angezeigt – erst mit Chrome 14 wird man hier mehr Informationen angezeigt bekommen.</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1327.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb509.png" width="404" height="207"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1327.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb509.png" width="404" height="207"></a></p>
 <p>Ein Blick in Fiddler liefert allerdings schon wesentlich mehr Informationen. Durch das Prerendering werden alle benötigten Daten bereits runtergeladen:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1328.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb510.png" width="499" height="454"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1328.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb510.png" width="499" height="454"></a></p>
 <p>Dadurch ist die Seite "auf Klick” auch da. </p>
 <p><strong>Zusammenfassung:</strong></p>
 <p>Prerendering ist eine interessante Technologie, die hoffentlich auch von anderen Browserherstellern zum Einsatz kommt. Man muss jedoch genau überlegen, wann sich der Einsatz lohnt.</p>

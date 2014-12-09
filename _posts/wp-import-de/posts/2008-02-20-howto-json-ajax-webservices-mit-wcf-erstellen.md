@@ -9,7 +9,7 @@ tags: [.NET, .NET 3.5, AJAX, HowTo, Json, WCF]
 language: de
 ---
 {% include JB/setup %}
-<p>Das Thema ist eigentlich schon alt - wie kann man .NET Methoden aus Javascript aufrufen. Mit ASMX Webservices ging dies recht einfach - <a href="{{BASE_PATH}}/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">siehe HowTo</a> - doch geht das auch mit WCF?</p> <p>Seit .NET 3.5 und Visual Studio 2008 strahlte mich dieses Itemtemplate an:</p> <p><a href="{{BASE_PATH}}/assets/wp-images/image275.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="331" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb254.png" width="503" border="0"></a> </p> <p>"AJAX-enabled WCF Service" klingt schonmal gut.</p> <p>Daraus wird dann sowas (ich hab die Standardmethode mal abgewandelt) :</p> <div class="CodeFormatContainer"><pre class="csharpcode"><span class="kwrd">using</span> System;
+<p>Das Thema ist eigentlich schon alt - wie kann man .NET Methoden aus Javascript aufrufen. Mit ASMX Webservices ging dies recht einfach - <a href="{{BASE_PATH}}/artikel/howto-microsoft-aspnet-ajax-clientseitiger-aufruf-von-webmethoden/">siehe HowTo</a> - doch geht das auch mit WCF?</p> <p>Seit .NET 3.5 und Visual Studio 2008 strahlte mich dieses Itemtemplate an:</p> <p><a href="{{BASE_PATH}}/assets/wp-images-de/image275.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="331" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb254.png" width="503" border="0"></a> </p> <p>"AJAX-enabled WCF Service" klingt schonmal gut.</p> <p>Daraus wird dann sowas (ich hab die Standardmethode mal abgewandelt) :</p> <div class="CodeFormatContainer"><pre class="csharpcode"><span class="kwrd">using</span> System;
 <span class="kwrd">using</span> System.Linq;
 <span class="kwrd">using</span> System.Runtime.Serialization;
 <span class="kwrd">using</span> System.ServiceModel;
@@ -36,17 +36,17 @@ language: de
         &lt;/Services&gt;
     &lt;/asp:ScriptManager&gt;</pre></div>
 <p>Wenn man dies jetzt einfach mal so ausführt, bekommt man folgendes (im Firebug) zu sehen:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image276.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="85" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb255.png" width="503" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image276.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="85" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb255.png" width="503" border="0"></a> </p>
 <p>Schauen wir uns das Ergebnis jetzt mal per Javascript an:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image277.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="66" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb256.png" width="244" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image277.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="66" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb256.png" width="244" border="0"></a> </p>
 <p>Eigentlich ist es genau dasselbe wie bei den "alten" ASMX Webservices - nur diesmal mit WCF.</p>
 <p><strong>Doch im Detail gibt es Unterschiede</strong></p>
 <p>Um dies deutlich zu machen, folgender Aufbau der Website:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image278.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="127" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb257.png" width="244" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image278.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="127" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb257.png" width="244" border="0"></a> </p>
 <p>Ich habe einmal einen WCF und einen ASMX Webservice erstellt, mit folgenden Methoden:</p>
 <p><em>- GetDateTime:</em> Gibt ein DateTime Objekt zurück<br><em>- GetComplexOne:</em> Gibt einen eigenen Objekttyp "Complex" zurück<br><em>- GetComplexList</em>: Gibt eine Collection an "Complex" Typen zurück.</p>
 <p><strong>Beschreibung von eigenen Objekttyp "Complex"</strong></p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image279.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="173" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb258.png" width="178" border="0"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image279.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="173" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb258.png" width="178" border="0"></a></p>
 <p>"GetList" und "GetOne" sind beide statisch. "Number" ist vom Typ integer und die anderen beiden sind Strings.</p>
 <p><strong>Erstellung des ASMX Webservice</strong></p>
 <p>Der ASMX Webservice ist nicht weiter schwierig:</p>
@@ -92,7 +92,7 @@ language: de
 }&nbsp; </pre></div>
 <p>Wichtige Attribute sind hier das für die Ajax-Integration wichtige "<a href="http://asp.net/AJAX/Documentation/Live/mref/T_System_Web_Script_Services_ScriptServiceAttribute.aspx">ScriptServiceAttribut</a>", sowie das "<a href="http://msdn2.microsoft.com/en-us/library/byxd99hx(VS.71).aspx">WebMethodAttribut</a>". Wer mehr Infos möchte, dem sei dieser <a href="http://msdn2.microsoft.com/de-de/library/bb532367.aspx">MSDN Artikel</a> ans Herz gelegt.</p>
 <p> Im Javascript werden diese Webmethoden in solch einen Wrapper gesetzt:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image280.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="109" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb259.png" width="564" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image280.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="109" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb259.png" width="564" border="0"></a> </p>
 <p><strong>Erstellung des WCF Services</strong></p>
 <p>Der WCF Service ist ähnlich vom Aufbau, allerdings sind andere Attribute und Klassen im Gebrauch:</p>
 <div class="CodeFormatContainer"><pre class="csharpcode"><span class="kwrd">using</span> System;
@@ -135,17 +135,17 @@ language: de
 <p><strong>Den "ComplexType" für WCF zugänglich machen</strong></p>
 <p>WCF serializiert nur das, was konfiguriert wurde (um es mal einfach auszudrücken). Dafür müssen über dem Typen ein "<a href="http://msdn2.microsoft.com/en-us/library/system.runtime.serialization.datacontractattribute.aspx">DataContractAttribute</a>" gesetzt werden und über jeden Member ein "<a href="http://msdn2.microsoft.com/en-us/library/system.runtime.serialization.datamemberattribute.aspx">DataMemberAttribute</a>".</p>
 <p>Sobald dies gemacht wurde, sieht man im Javascript folgendes:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image281.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="116" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb260.png" width="618" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image281.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="116" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb260.png" width="618" border="0"></a> </p>
 <p>Die serializierten Objekte sind identisch mit der ASMX Variante.</p>
 <p>Mehr zum Thema JSON Serializierung: <a href="http://msdn2.microsoft.com/en-us/library/bb412170.aspx">Stand-Alone JSON Serialization</a>.</p>
 <p><strong>Zwischenfazit</strong></p>
 <p>Läuft schonmal ganz gut und bis auf die Sache mit dem "DataContract/MemberAttributen" sind kaum Unterschiede. Wenn man etwas mehr ins Detail geht, findet man allerdings noch das ein oder andere, was anders ist:</p>
 <p><strong>Unterschiede Namespaces:</strong></p>
 <p>Wenn man um die ASMX "WebService" Klasse ein Namespace "WebServiceNamespace" zieht, wird aus dem Javascript Wrapper folgendes:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image282.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="154" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb261.png" width="583" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image282.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="154" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb261.png" width="583" border="0"></a> </p>
 <p>Wenn man um den WCF Service einen Namespace zieht, passiert erstmal garnix - warum weiß ich spontan auch leider nicht. Um jedoch den selben Effekt zu erzielen wie bei der ASMX Variante muss man im "<a href="http://msdn2.microsoft.com/en-us/library/system.servicemodel.servicecontractattribute.aspx">ServiceContractAttribute</a>" einen Namespace setzen:</p>
 <p>[ServiceContract(Namespace = "ServiceNamespace")]</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image283.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="162" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb262.png" width="587" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image283.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="162" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb262.png" width="587" border="0"></a> </p>
 <p><strong>Unterschiede HttpContext / ASP.NET Integration:</strong></p>
 <p>In einem WCF Service kann man nicht auf <a href="http://msdn2.microsoft.com/en-us/library/system.web.httpcontext.aspx">HttpContext</a> zugreifen, sondern auf einen <a href="http://msdn2.microsoft.com/en-us/library/system.servicemodel.operationcontext.aspx">OperationContext</a>. Dies und mehr ist auf der MSDN ganz gut beschrieben:</p>
 <p><a href="http://msdn2.microsoft.com/en-us/library/aa702682.aspx">WCF Services and ASP.NET</a></p>

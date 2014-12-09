@@ -17,7 +17,7 @@ Wie man das ASP.NET AJAX Framework installiert, ist <a href="{{BASE_PATH}}/artik
 
 <strong>Schritt 1: ASP.NET AJAX enabled Web Site erstellen</strong>
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb.png" alt="image" height="127" style="border: 0px" /></a> 
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb.png" alt="image" height="127" style="border: 0px" /></a> 
 
 Durch das Template bekommt man am Ende den App_Data Ordner sowie die Default.aspx und die bereits angepasste Web.Config. In der Web.Config sind allerhand Assemblys etc. registriert. Wer interessiert ist, kann sich diese gerne anschauen, allerdings sind da keine weiteren Änderungen notwendig.
 
@@ -25,7 +25,7 @@ Der wichtigeste Teil steht jetztin der Default.aspx: Der <a target="_blank" href
 
 <strong>Schritt 2: Ein Webservice erstellen und "pimpen"</strong>
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image1.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb1.png" alt="image" height="175" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image1.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb1.png" alt="image" height="175" style="border: 0px" /></a>
 
 Jetzt erstellen wir einen neuen Webservice - der z.B. Datenbanken abfragen kann oder andere Berechnungen durchführen könnte. Bei unserem Beispiel gibt der Webservice nur ein kleinen dummen Text zurück.
 

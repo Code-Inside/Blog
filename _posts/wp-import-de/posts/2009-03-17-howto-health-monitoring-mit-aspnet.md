@@ -9,7 +9,7 @@ tags: [ASP.NET, Health Monitoring, HowTo]
 language: de
 ---
 {% include JB/setup %}
-<p><a href="{{BASE_PATH}}/assets/wp-images/image677.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="125" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb655.png" width="164" align="left" border="0" /></a>Die Arbeit ist getan, die Website steht! Doch damit fangen die n&#228;chsten Probleme an. Kunden rufen an und sagen einem, dass sie eine Error-Page gesehen haben - also mal auf den Server schauen was da eigentlich los ist.    <br />Mit diversen Logging Tools kann man sich &#252;ber bestimmte Ereignisse informieren lassen - seit ASP.NET 2.0 gibt es auch einen eingebautes <a href="http://msdn.microsoft.com/en-us/library/2fwh2ss9.aspx">Health-Monitoring</a>, dass man sehr einfach nutzen kann. </p> 
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image677.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="125" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb655.png" width="164" align="left" border="0" /></a>Die Arbeit ist getan, die Website steht! Doch damit fangen die n&#228;chsten Probleme an. Kunden rufen an und sagen einem, dass sie eine Error-Page gesehen haben - also mal auf den Server schauen was da eigentlich los ist.    <br />Mit diversen Logging Tools kann man sich &#252;ber bestimmte Ereignisse informieren lassen - seit ASP.NET 2.0 gibt es auch einen eingebautes <a href="http://msdn.microsoft.com/en-us/library/2fwh2ss9.aspx">Health-Monitoring</a>, dass man sehr einfach nutzen kann. </p> 
 <!--more-->
   <p><strong>Eine einfache Konfigurationseinstellung     <br /></strong>In meiner <a href="http://www.asp.net/mvc">ASP.NET MVC Anwendung</a> werfe ich einfach bei einer ActionMethode bewusst eine Exception:</p>  <p>   <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:bef2c343-dba5-4bd5-bae1-e581fae9ef86" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">        public ActionResult ThrowException()
         {
@@ -70,7 +70,7 @@ language: de
 
 <p><strong>Ergebnis:</strong></p>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image678.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="285" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb656.png" width="434" border="0" /></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image678.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="285" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb656.png" width="434" border="0" /></a> </p>
 
 <p>Im Text-Editor kann man allerdings die Mail nicht &#246;ffnen, da der Inhalt Base64 kodiert ist.
   <br />Man kann auch eigene Provider schreiben und sich auf beliebig viele Events registrieren und die tollsten Sachen damit machen - wer allerdings nur kurz per Mail informiert werden m&#246;chte, f&#252;r den ist das eigentlich Ideal :)</p>

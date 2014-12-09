@@ -13,7 +13,7 @@ language: de
 <p>Die Adresse sollte <a href="http://msdn.microsoft.com/en-us/library/zttxte6w.aspx">Url-Encoded</a> sein.</p>
 <p>Bei diesem Aufruf kommt ein JSON zurück. Es gibt auch die Variante mit XML. Ich hab mich aber in meinem Fall für JSON entschieden und parse die ganze Sache über die Bibliothek <a href="http://james.newtonking.com/pages/json-net.aspx">JSON.NET</a>, welche ein “LINQ-to-JSON” (oder sowas ähnliches) hat. </p>
 <p>Wenn etwas gefunden wurde (und Google findet meistens etwas – egal wie seltsam die gesuchten Orte formatiert sind!), dann kommt sowas zurück:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1376.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb558.png" width="514" height="330"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1376.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb558.png" width="514" height="330"></a></p>
 <p><strong>Zum Code:</strong></p>
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:ca1a47cc-cbda-4cf3-8605-3d9e6c5ac2a6" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    	public class GeoCoordinates
     	{

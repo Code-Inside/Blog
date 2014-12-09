@@ -31,9 +31,9 @@ language: de
 <p>Anstatt nur einzelne Methodenaufrufe zu haben, ist es doch viel angenehmer diese in "einem Satz" niederzuschreiben. Diese Technik findet auch in diversen Javascript-Bibliotheken Einsatz (z.b: <a href="http://jquery.com/">jQuery</a>)</p>
 <p><strong>Sieht nicht schlecht aus - wie macht man sowas?</strong><br>Es gibt (wie in dem Wikipedia Beispiel) sicherlich ein paar Tricks wie man sowas machen kann - durch <a href="http://blog.wekeroad.com/">Rob Conerys</a> <a href="http://blog.wekeroad.com/mvc-storefront/">Storefront</a> Projekt bin ich konkret auf das "<a href="http://de.wikipedia.org/wiki/Pipes_and_Filters">Pipes and Filters</a>" Pattern gekommen.</p>
 <p><strong>Die Idee (in der Rob Conery Version ;) )<br></strong>Wir haben einen großen Datenhaufen (unser Repository), wo wir über Filter bestimmte Sachen einfach uns abzapfen können, wie wir es brauchen.</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image492.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb470.png" width="192" border="0"></a>&nbsp;</p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image492.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb470.png" width="192" border="0"></a>&nbsp;</p>
 <p>Das tolle nun daran: Man kann nicht nur ein Filter nehmen, sondern kann diese auch zusammenschließen um seine Ergebnisse noch weiter einzuengen:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image493.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="91" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb471.png" width="295" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image493.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="91" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb471.png" width="295" border="0"></a> </p>
 <p>Rob Conery hat dies auch in einem <a href="http://blog.wekeroad.com/mvc-storefront/mvcstore-part-3/">Screencast</a> recht gut erklärt.</p>
 <p><strong>Die Umsetzung in .NET mit C# 3.0:<br></strong>Als "Daten" haben wir in unserem Beispiel einfach eine simple Person Klasse:</p>
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c63c79e6-4315-41be-a293-c99355363c3d" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">    public class Person
@@ -97,7 +97,7 @@ language: de
             Console.Read();
         }</pre></div>
 <p><strong>Die Projektstruktur:</strong></p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image494.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="322" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb472.png" width="231" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image494.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="322" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb472.png" width="231" border="0"></a> </p>
 <p>Natürlich ist das nur ein simples Beispiel, allerdings konnte ich dies bereits effektiv in einem Projekt einsetzen. </p>
 <p>Neben Rob Conerys Storefront kann man sich auch diesen Democode von <a href="http://weblogs.asp.net/mikebosch/">Mike Bosch</a> anschauen (<a href="http://weblogs.asp.net/mikebosch/archive/2008/07/31/iqueryable-linq-to-sql-and-fluid-filters-for-data-access.aspx">Teil 1</a> &amp; <a href="http://weblogs.asp.net/mikebosch/archive/2008/08/01/part-ii-fluid-filters-iqueryable-and-linq-to-sql-for-easy-data-access.aspx">2</a>) - auch er findet diese Idee sehr cool :)</p>
 <p>Insgesamt erlaubt ein solcher Programmierstil deutlich schickeren Code - wie bereits das Wikipedia Beispiel am Anfang gezeigt haben sollte.</p>

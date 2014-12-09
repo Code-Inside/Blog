@@ -35,13 +35,13 @@ language: de
 <p>Das Tool befindet sich hier (bzw. im jeweiligen Framework Order):</p>
 <p>C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe</p>
 <p>Beim Aufruf des Tools + Angabe der Assembly wird auch unser Code ausgeführt:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1795.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb949.png" width="543" height="104"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1795.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb949.png" width="543" height="104"></a> </p>
 <p><strong>Zum Debugging</strong></p>
 <p>Zum Debuggen muss man das Projekt nur auf das regasm.exe Tool lenken und den Output als Argument mit angeben:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1796.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb950.png" width="530" height="299"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1796.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb950.png" width="530" height="299"></a> </p>
 <p>&nbsp;</p>
 <p>Damit sollte auch das Debugging funktionieren:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1797.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb951.png" width="536" height="212"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1797.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb951.png" width="536" height="212"></a> </p>
 <p>&nbsp;</p>
 <p>Hoffentlich braucht ihr das nicht allzu oft ;)</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1799.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb953.png" width="471" height="356"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1799.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb953.png" width="471" height="356"></a></p>

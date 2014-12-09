@@ -13,12 +13,12 @@ language: de
  var StringVar = <span class="str">"Hello"</span>;
  var ComplexVar = <span class="kwrd">new</span> DateTime();</pre></div>
 <p>"IntVar" wird automatisch zum Typ "int", "StringVar" zu "string" und "ComplexVar" zu "DateTime". Beweis:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image216.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="73" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb195.png" width="273" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image216.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="73" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb195.png" width="273" border="0"></a> </p>
 <p>Ein einmal zugewiesener Typ, kann nur durch Casting oder Ähnliches in einen anderen Typ konvertiert werden - also wie früher:</p>
 <div class="CodeFormatContainer"><pre class="csharpcode">var IntVar = 15;
 IntVar = 13.5;</pre></div>
 <p>Dies bringt folgenden Fehler beim Kompilieren:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image217.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="45" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb196.png" width="465" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image217.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="45" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb196.png" width="465" border="0"></a> </p>
 <p><strong>Wofür braucht man "var" dann?</strong></p>
 <p>Wenn man am Ende trotzdem nur einmal den Typ festlegen kann, wozu sollte ich dann überhaupt "var" schreiben, wenn ich gleich "string" etc. hinschreiben könnte?<br>Folgender Sachen sind mit "var" möglich und daher in diesen Fällen auch interessant:</p>
 <ul>
@@ -37,7 +37,7 @@ IntVar = 13.5;</pre></div>
 <p>Danach legen wir in "Main" ein neues Produkt an:</p>
 <div class="CodeFormatContainer"><pre class="csharpcode">Product MyProduct = <span class="kwrd">new</span> Product { Name = <span class="str">"Auto"</span>, Id = 123 };</pre></div>
 <p><u>C# 3.0 Neuerung hierbei:</u> Ebenfalls neues Feature und wird in Visual Studio 2008 auch über die IntelliSense angezeigt:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image218.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="45" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb197.png" width="304" border="0"></a>&nbsp; </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image218.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="45" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb197.png" width="304" border="0"></a>&nbsp; </p>
 <p>Und auch eine Liste an Produkten wird angelegt:</p>
 <div class="CodeFormatContainer"><pre class="csharpcode">List&lt;Product&gt; MyProductList = <span class="kwrd">new</span> List&lt;Product&gt;
             {
@@ -62,10 +62,10 @@ var MyVarInt = 13;</pre></div>
 <p>&nbsp;</p>
 <p>"MyVarComplex" ist nun unser komplexer, anonymer Typ, welchen wir on-the-fly über das "var" Keyword erstellen:</p>
 <p>Über "new { ... }" legt man einen solchen anonymen Typ an. "AnotherProduct" ist z.B. eines unserer Attribute des anonymen Typs und wird mit "MyProduct" befüllt. </p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image219.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="277" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb198.png" width="477" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image219.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="277" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb198.png" width="477" border="0"></a> </p>
 <p>Besonders interessant: "MyVarComplex" wird als "Anonymous Type" angegeben.</p>
 <p>Natürlich bietet Visual Studio volle IntelliSense Unterstützung:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image220.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="160" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb199.png" width="323" border="0"></a>&nbsp;</p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image220.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="160" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb199.png" width="323" border="0"></a>&nbsp;</p>
 <p><strong>Was haben wir jetzt davon?</strong></p>
 <p>Manchmal benötigt man Daten in einer speziellen Form, von verschiedenen Objekten - bis jetzt musst man entweder über unschönen Notlösungen mit "object" oder halt das erstellen einer entsprechenden Klasse sowas lösen. Mit "var" ist es jedoch sehr einfach, einen entsprechenden Objektbaum schnell zu erstellen. <br>Zusammen mit den anderen C# 3.0 Features die hier vorgestellt wurden, aber auch LINQ und co., ist das ein großer Schritt nach vorn. </p>
 <p>Hier der gesamte Source Code:</p>

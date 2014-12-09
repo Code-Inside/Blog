@@ -9,7 +9,7 @@ tags: [Email, HowTo, SMTP, Tests]
 language: de
 ---
 {% include JB/setup %}
-<p><a href="{{BASE_PATH}}/assets/wp-images/image675.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="113" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb653.png" width="111" align="left" border="0" /></a>Emails mit .NET zu versenden ist recht einfach, wenn es allerdings darum geht, den generierten Emailtext zu testen, dann wird es manchmal etwas schwierig.     <br />Vor allem wenn das Entwicklungssystem keinen Zugriff auf den richtigen Email-Server hat, geht es meist nur auf &quot;gut Gl&#252;ck&quot;.    <br />Es gibt allerdings einen einfachen Web.Config Eintrag der es erheblich vereinfacht - die <a href="http://msdn.microsoft.com/en-us/library/system.net.mail.smtpclient.pickupdirectorylocation.aspx">PickupDirectoryLocation</a>.</p> 
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image675.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="113" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb653.png" width="111" align="left" border="0" /></a>Emails mit .NET zu versenden ist recht einfach, wenn es allerdings darum geht, den generierten Emailtext zu testen, dann wird es manchmal etwas schwierig.     <br />Vor allem wenn das Entwicklungssystem keinen Zugriff auf den richtigen Email-Server hat, geht es meist nur auf &quot;gut Gl&#252;ck&quot;.    <br />Es gibt allerdings einen einfachen Web.Config Eintrag der es erheblich vereinfacht - die <a href="http://msdn.microsoft.com/en-us/library/system.net.mail.smtpclient.pickupdirectorylocation.aspx">PickupDirectoryLocation</a>.</p> 
 <!--more-->
   <p><strong>Democode</strong></p>  <p>Der Code zum verschicken einer Mail (in einer ASP.NET MVC ActionMethod) :</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:b3619f40-712e-4a45-9d61-cf439f127b51" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">        public ActionResult SendMail()
         {
@@ -45,7 +45,7 @@ language: de
 
 <p>Die &quot;PickupDirectoryLocation&quot; nimmt allerdings nur einen absoluten Pfad entgegen. Wenn man nun den Code aufruft, dann werden die Emails in den angegebenen Verzeichnis abgelegt:</p>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image676.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="55" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb654.png" width="457" border="0" /></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image676.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="55" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb654.png" width="457" border="0" /></a> </p>
 
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:3ec0c126-08a7-4ec2-9aa4-821f6c406b2b" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">X-Sender: from@test.de
 X-Receiver: to@test.de

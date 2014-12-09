@@ -30,9 +30,9 @@ language: de
 <p>Wenn auf dem IIS noch das WebDav Feature aktiviert ist, dann muss man es für diese Seite deaktivieren, weil sowohl WebDav als auch unser eigentlicher REST Service sprechen auf dieselben Verben an. </p>
 <p><strong>Zu den Handlern</strong></p>
 <p>In meinem Fall habe ich nur den Handler, welcher für die “extensionless” Sachen notwendig ist freigeschalten. Alle Handler einer Webanwendung können im IIS unter Handler Mappings betrachtet werden:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1373.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb555.png" width="616" height="324"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1373.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb555.png" width="616" height="324"></a></p>
 
 <p>Unter den Details können auch die “Request Restrictions” betrachtet werden:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1374.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb556.png" width="600" height="365"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1374.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb556.png" width="600" height="365"></a></p>
 <p>Bei mir hat es jedenfalls mit der web.config Einstellung geklappt ;)</p>
 <p>Als Abschluss noch der Hinweis für alle die sich fragen “Was ist eigentlich der Unterschied zwischen einem Modul und einem Handler?” – <a href="{{BASE_PATH}}/2010/08/09/unterschied-von-httpmodule-httphandler/">Hier die Antwort</a>.</p>

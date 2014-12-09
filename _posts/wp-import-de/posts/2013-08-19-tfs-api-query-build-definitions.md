@@ -49,7 +49,7 @@ language: de
             Console.ReadLine();
         }
     }</pre>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1903.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb1044.png" width="590" height="415"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1903.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1044.png" width="590" height="415"></a> </p>
 <p><strong>Wie funktioniert das mit der Authentifizierung?</strong></p>
 <p>Im Grunde läuft die API immer unter den Credentials des Users – wenn man auf den Team Foundation Service zugreift wird automatisch der Microsoft Account genommen. OnPremise wird der Windows Account genommen.</p>
 <p>Falls der angemeldete User nicht passt wird ein Authentifizierungsfenster angezeigt. Im Falle der Code läuft auf einem Server ist dies allerdings nicht gerade praktisch, daher kann man auch (wie im auskommentierten Teil des Codes sehen) direkt einen User angeben – das gilt sowohl für einen Microsoft Account als auch einen Windows Account.</p>

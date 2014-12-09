@@ -17,7 +17,7 @@ language: de
 <p>Über <strong>data</strong> verweisen wir auf unsere komplette Applikation und geben als <strong>type</strong> "text/html" an, somit haben wir quasi die IFrame Funktionalität mit einem object.
 <br/><br/>
 <p><strong>Ergebnis im Firefox:</strong>
-<p><img height="295" alt="image" src="{{BASE_PATH}}/assets/wp-images/clip-image001.gif" width="611" border="0">
+<p><img height="295" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/clip-image001.gif" width="611" border="0">
 <p><strong>Ergebnis im IE 7:</strong>
 <p>Im IE7 ist das so allerdings nicht ganz so möglich. Durch die Sicherheitseinstellung holt sich der IE nicht die Daten von unserer Quelle.
 <p>Um zu sehen das es trotzdem geht, muss die Seite in den "Vertrauenswürdigen Seiten" aufgenommen werden und dort die Sicherheitseinstellung auf "Sehr niedrig" gesetzt werden.

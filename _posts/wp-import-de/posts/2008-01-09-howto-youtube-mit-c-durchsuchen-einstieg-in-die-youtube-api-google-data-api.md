@@ -19,7 +19,7 @@ Die YouTube API wurde durch die Übernahme durch Google geändert (siehe <a targ
 
 <a href="http://gdata.youtube.com/feeds/videos?q=u2">http://gdata.youtube.com/feeds/videos?q=u2</a>
 
-<a href="{{BASE_PATH}}/assets/wp-images/image214.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images/image-thumb193.png" alt="image" height="117" style="border: 0px" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image214.png"><img border="0" width="244" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb193.png" alt="image" height="117" style="border: 0px" /></a>
 (Ergebnis im IE7)
 
 <strong>Bietet YouTube / Google sonst noch was?</strong>
@@ -94,7 +94,7 @@ Das Test Program bietet einfach eine Eingabemöglichkeit und gibt die 20 ersten 
 </ul>
 Resultat für die Suchanfrage für "Die Ärzte":
 
-<a href="{{BASE_PATH}}/assets/wp-images/image215.png"><img border="0" width="373" src="{{BASE_PATH}}/assets/wp-images/image-thumb194.png" alt="image" height="190" style="border: 0px" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image215.png"><img border="0" width="373" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb194.png" alt="image" height="190" style="border: 0px" /></a>
 
 Der Sourcecode wurde nur wenig vom <a target="_blank" href="http://www.dotneat.net/2007/12/20/QueryingYoutubeAPIUsingC.aspx">originalen</a> abgeändert.
 

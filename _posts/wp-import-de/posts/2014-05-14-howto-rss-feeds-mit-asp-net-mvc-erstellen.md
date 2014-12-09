@@ -17,6 +17,6 @@ language: de
 <p>Die einzige Stolperfalle hier ist vermutlich die URL. Standardmäßig erzeugt der UrlHelper immer nur relative Links. Durch die Angabe aller Parameter wird aber daraus eine vollständige URL.</p>
 <h3></h3>
 <h3><font style="font-weight: bold">Ergebnis</font></h3>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image2021.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb1157.png" width="570" height="314"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image2021.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1157.png" width="570" height="314"></a></p>
 <p>Läuft.</p>
 <p>Wer das gesamte Beispiel sucht wird natürlich auf <strong><a href="https://github.com/Code-Inside/Samples/tree/master/2014/MvcRssSample">GitHub</a></strong> fündig.</p>

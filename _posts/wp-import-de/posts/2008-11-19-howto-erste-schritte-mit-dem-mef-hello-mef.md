@@ -9,7 +9,7 @@ tags: [AddIns, HowTo, MEF, Plugins, System.AddIn]
 language: de
 ---
 {% include JB/setup %}
-<p>In fast jeder Applikation kann man Plugins hinzuf&#252;gen. In .NET 4.0 kommt eine neue M&#246;glichkeit hinzu die man heute bereits ausprobieren kann. Die Rede ist von dem &quot;Managed Extensibility Framework&quot; - kurz MEF.    <br />MEF soll auch in Visual Studio 2010 selbst einzughalten (<a href="http://channel9.msdn.com/pdc2008/KYN02/">siehe PDC Keynote von Scott Guthrie</a>). Dazu kann ich auch die PDC Session von <a href="http://channel9.msdn.com/pdc2008/TL49/">Scott Hanselman &#252;ber sein &quot;BabySmash&quot;</a> empfehlen.</p>  <p><strong>Addins? Gab es da nicht schonmal was?      <br /></strong>Es gibt seit .NET 3.5 einen &quot;System.AddIn&quot; Namensraum. Meiner Meinung nach war es relativ kompliziert Addins zu entwickeln. <a href="http://blogs.msdn.com/kcwalina/archive/2008/06/13/MAFMEF.aspx">Allerdings soll MEF und System.Addin gut zusammenarbeiten</a>. </p>  <p><strong>Was braucht man?      <br /></strong>Alles was man braucht findet man auf der <a href="http://www.codeplex.com/MEF">Codeplex Seite</a>. Einfach den neusten Release runterladen und die 2 DLLs in eigene Projekte einsetzen <em>(Achtung - es befindet sich noch in Entwicklung und kann sich jederzeit &#228;ndern)</em>.</p>  <p><strong>Hello World! Hallo Welt! Hello MEF! - Vorbereitung</strong></p>  <p>Projektstruktur:</p>  <p><a href="{{BASE_PATH}}/assets/wp-images/image565.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="244" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb543.png" width="175" border="0" /></a> </p>  <p>Wir haben einen einfachen Serviceinterface namens &quot;<strong>IHelloService</strong>&quot;:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c35ef68e-5110-43bd-89a1-248e08f1f4bf" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">    public interface IHelloService
+<p>In fast jeder Applikation kann man Plugins hinzuf&#252;gen. In .NET 4.0 kommt eine neue M&#246;glichkeit hinzu die man heute bereits ausprobieren kann. Die Rede ist von dem &quot;Managed Extensibility Framework&quot; - kurz MEF.    <br />MEF soll auch in Visual Studio 2010 selbst einzughalten (<a href="http://channel9.msdn.com/pdc2008/KYN02/">siehe PDC Keynote von Scott Guthrie</a>). Dazu kann ich auch die PDC Session von <a href="http://channel9.msdn.com/pdc2008/TL49/">Scott Hanselman &#252;ber sein &quot;BabySmash&quot;</a> empfehlen.</p>  <p><strong>Addins? Gab es da nicht schonmal was?      <br /></strong>Es gibt seit .NET 3.5 einen &quot;System.AddIn&quot; Namensraum. Meiner Meinung nach war es relativ kompliziert Addins zu entwickeln. <a href="http://blogs.msdn.com/kcwalina/archive/2008/06/13/MAFMEF.aspx">Allerdings soll MEF und System.Addin gut zusammenarbeiten</a>. </p>  <p><strong>Was braucht man?      <br /></strong>Alles was man braucht findet man auf der <a href="http://www.codeplex.com/MEF">Codeplex Seite</a>. Einfach den neusten Release runterladen und die 2 DLLs in eigene Projekte einsetzen <em>(Achtung - es befindet sich noch in Entwicklung und kann sich jederzeit &#228;ndern)</em>.</p>  <p><strong>Hello World! Hallo Welt! Hello MEF! - Vorbereitung</strong></p>  <p>Projektstruktur:</p>  <p><a href="{{BASE_PATH}}/assets/wp-images-de/image565.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="244" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb543.png" width="175" border="0" /></a> </p>  <p>Wir haben einen einfachen Serviceinterface namens &quot;<strong>IHelloService</strong>&quot;:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c35ef68e-5110-43bd-89a1-248e08f1f4bf" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">    public interface IHelloService
     {
         string GetHelloMessage();
     }</pre></div>
@@ -49,7 +49,7 @@ namespace HelloMEF.English
 <p><strong>Plugin Ordner 
     <br /></strong>Damit die Applikation &#252;berhaupt die beiden Plugins kennt, werfen wir beide DLLs in einen eigenen Ordner namens &quot;PlugIns&quot;:</p>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image566.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="48" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb544.png" width="244" border="0" /></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image566.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="48" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb544.png" width="244" border="0" /></a> </p>
 
 <p><strong>HelloMEF.App - HelloProgram:</strong></p>
 
@@ -120,7 +120,7 @@ namespace HelloMEF.English
 
 <p>Es gibt auch die M&#246;glichkeit das Verzeichnis &#252;berwachen zu lassen, sodass man zur Laufzeit Plugins hinzuf&#252;gen k&#246;nnte:</p>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image567.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="43" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb545.png" width="434" border="0" /></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image567.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="43" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb545.png" width="434" border="0" /></a> </p>
 
 <p>Durch den Container sagen wir MEF, dass wir hier eine Pluginschnittstelle haben (die Liste mit dem &quot;Import&quot; Attribut) und am Ende geben wir den &quot;Compose&quot; Befehl.</p>
 
@@ -146,6 +146,6 @@ namespace HelloMEF.English
 <p><strong>Das Ergebnis:</strong></p>
 <strong></strong>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image568.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="183" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb546.png" width="264" border="0" /></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image568.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="183" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb546.png" width="264" border="0" /></a> </p>
 
 <p><strong>&#160;<a href="{{BASE_PATH}}/assets/files/democode/hellomef/hellomef.zip">[ Download Source Code ]</a></strong></p>

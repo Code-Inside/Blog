@@ -14,7 +14,7 @@ Eine ausführliche Anleitung wie man die Komprimierung (gzip und deflate) ohne g
 
 Hier die Kurzanleitung:
 
-1. Füge <a href="{{BASE_PATH}}/assets/wp-images/global.asax">diese Datei </a>in dein Projekt ein.
+1. Füge <a href="{{BASE_PATH}}/assets/wp-images-de/global.asax">diese Datei </a>in dein Projekt ein.
 2. Webseite neu bauen.
 3. Fertig :)
 

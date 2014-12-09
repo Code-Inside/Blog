@@ -13,7 +13,7 @@ Wie bereits <a href="http://www.giza-blog.de/KomischePostsendungAuchErhalten.asp
 
 Mal sehn was sich dahinter verbirgt:
 
-<a href="{{BASE_PATH}}/assets/wp-images/image250.png"><img src="{{BASE_PATH}}/assets/wp-images/image-thumb229.png" style="border: 0px none " alt="image" border="0" height="142" width="240" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image250.png"><img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb229.png" style="border: 0px none " alt="image" border="0" height="142" width="240" /></a>
 (das Bild ist von Thomas - aber bei mir ist genau das selbe)
 
 Ich geb es zu: Erst war es mir direkt unheimlich ;)

@@ -62,7 +62,7 @@ public class PdfHandler : IHttpHandler
 
 </pre></div>
 <p>Das komplette Projekt sieht so aus:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image397.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="169" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb376.png" width="202" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image397.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="169" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb376.png" width="202" border="0"></a> </p>
 <p>Die helloworld.fo:</p>
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:6f1037ff-8db6-43ed-9cc4-a4361a05f04a" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format”&gt;

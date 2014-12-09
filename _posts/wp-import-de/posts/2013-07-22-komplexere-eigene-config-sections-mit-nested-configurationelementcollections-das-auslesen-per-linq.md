@@ -171,7 +171,7 @@ language: de
 <h3></h3>
 <h3>LINQ &amp; ConfigurationElements</h3>
 <p>Auf dem ersten Blick verträgt sich LINQ und die Config-API nicht wirklich:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1875.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb1016.png" width="433" height="61"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1875.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1016.png" width="433" height="61"></a> </p>
 <p>Gibt man aber immer explizit die Typen mit an, kann man auch komplexere LINQ-Abfragen wie gewohnt machen:</p><pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;"> static void Main(string[] args)
         {
             // LINQ &amp; config demo
@@ -197,6 +197,6 @@ language: de
             Console.ReadLine();
         }</pre>
 <p><strong>Ergebnis:</strong></p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1876.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb1017.png" width="595" height="320"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1876.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1017.png" width="595" height="320"></a> </p>
 <p>Quellen waren der <a href="http://stackoverflow.com/questions/8413760/configurationelementcollection-and-linq">LINQ Stackoverflow Thread</a> und <a href="http://www.endswithsaurus.com/2008/11/custom-configuration-section.html">über diesen Blogpost</a> bin ich auf die Zauberzutat “AddElementName” gekommen. Natürlich noch mein <a href="{{BASE_PATH}}/2009/11/03/howto-eine-eigene-configsection-schreiben-custom-configsections/">eigener Blogpost</a>.</p>
 <p><a href="https://github.com/Code-Inside/Samples/tree/master/2013/NestedConfigurationElementCollection"><strong><u>Demo-Code auf GitHub</u></strong></a></p>

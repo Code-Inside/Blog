@@ -52,4 +52,4 @@ language: de
             }
             Console.ReadLine();</pre></div>
 <br/>
-<a href='{{BASE_PATH}}/assets/wp-images/lamda.zip' title='Lamda'>Den Beispielcode gibts hier.</a>
+<a href='{{BASE_PATH}}/assets/wp-images-de/lamda.zip' title='Lamda'>Den Beispielcode gibts hier.</a>

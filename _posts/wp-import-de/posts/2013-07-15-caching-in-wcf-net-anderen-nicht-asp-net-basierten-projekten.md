@@ -49,7 +49,7 @@ language: de
 <p><strong>Vorteil dieser Variante: Null Installationsaufwand – es ist im Framework.</strong></p>
 <h3>Alternative: CacheAdapter – InMemory, Memcached, AppFabric &amp; ASP.NET Cache</h3>
 <p>Wer etwas flexibler sein möchte, der kann direkt sich <strong><a href="https://bitbucket.org/glav/cacheadapter">dieses Projekt</a></strong> näher anschauen:</p>
-<p><a href="https://bitbucket.org/glav/cacheadapter"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image1874.png" width="519" height="220"></a> </p>
+<p><a href="https://bitbucket.org/glav/cacheadapter"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image1874.png" width="519" height="220"></a> </p>
 <p>Im <a href="https://bitbucket.org/glav/cacheadapter/wiki/Home">Wiki gibt es nähere Informationen</a> zur Verwendung der Bibliothek. Die Bibliothek ist auch noch am “Leben” – jedenfalls gibt es Commits auf das Repository.</p>
 <h3></h3>
 <h3>Was nutzt ihr für Caching Lösungen? </h3>

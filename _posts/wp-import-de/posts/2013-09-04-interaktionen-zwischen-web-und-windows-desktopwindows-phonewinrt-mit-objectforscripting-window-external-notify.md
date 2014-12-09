@@ -32,7 +32,7 @@ language: de
 </pre>
 <p>Der Aufbau ist simpel – drückt man einen Button soll die “notify”-Funktion mit “Hello World!” aufgerufen werden. Durch den Check auf den “WebBrowserNotify.ScriptingContext” bekomme ich in Chrome und IE keine Fehlermeldung wenn ich die Seite so aufrufe.</p>
 <p>Die WPF-Applikation ist auch sehr simpel gemacht und besteht nur aus zwei Bereichen:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1918.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb1057.png" width="516" height="332"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1918.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1057.png" width="516" height="332"></a> </p>
 <p>Der erste Kasten ist einfach nur das WebBrowser Control und im unteren Bereich ist ein TextBlock in dem ich später die Ergebnisse anzeigen möchte.</p>
 <p>Im Xaml:</p><pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;">&lt;Window x:Class="WebBrowserNotify.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"

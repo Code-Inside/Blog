@@ -43,7 +43,7 @@ language: de
     }</pre>
 <h3>Resultat:</h3>
 <p>Jedes Objekt enthält auf dem ersten Blick alle Daten die man auch über Visual Studio &amp; co. beziehen kann – dazu WorkItems, CheckinNotes usw.
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1904.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb1045.png" width="587" height="413"></a> 
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1904.png"><img title="image" style="border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; display: inline" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1045.png" width="587" height="413"></a> 
 <p>Über “QueryHistory” kann man als vorletzten Parameter noch angeben ob man die Changes haben möchte – so kann man auch direkt nachvollziehen was wirklich geändert wurde.
 <h3>Authentifizierung</h3>
 <p>Wie bei der Build-API: Es wird der angemeldete Windows bzw. Microsoft Account genommen – ansonsten wird ein Authentifizierungsfenster angezeigt. Man kann auch die Credentials über die API mitgeben. Alles <a href="{{BASE_PATH}}/2013/08/19/tfs-api-query-build-definitions/">weitere in dem TFS Build Blogpost</a>.

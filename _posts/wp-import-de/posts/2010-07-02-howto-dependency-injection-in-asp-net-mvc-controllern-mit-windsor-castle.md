@@ -9,7 +9,7 @@ tags: [ASP.NET MVC, Castle Windsor, DI, HowTo, IoC]
 language: de
 ---
 {% include JB/setup %}
-<p><a href="{{BASE_PATH}}/assets/wp-images/image993.png"><img style="border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images/image_thumb177.png" width="192" height="150" /></a>Um einem MVC Controller seine Abhängigkeiten (z.B. Repositories, Services etc.) über ein DI-Framework, wie z.B. <a href="http://www.castleproject.org/container/">Windsor Castle</a>, reinzugeben muss man ein klein wenig am MVC Workflow rumschrauben. Glücklicherweise erlaubt das MVC Framework die Überschreibung der ControllerFactory.</p>  <p><strong>Für die Testbarkeit - das Szenario</strong></p>  <p>Wir haben den simplen HomeController:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a2504d90-70b3-41f3-8142-10ab02df7869" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    [HandleError]
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image993.png"><img style="border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb177.png" width="192" height="150" /></a>Um einem MVC Controller seine Abhängigkeiten (z.B. Repositories, Services etc.) über ein DI-Framework, wie z.B. <a href="http://www.castleproject.org/container/">Windsor Castle</a>, reinzugeben muss man ein klein wenig am MVC Workflow rumschrauben. Glücklicherweise erlaubt das MVC Framework die Überschreibung der ControllerFactory.</p>  <p><strong>Für die Testbarkeit - das Szenario</strong></p>  <p>Wir haben den simplen HomeController:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a2504d90-70b3-41f3-8142-10ab02df7869" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    [HandleError]
     public class HomeController : Controller
     {
         private IFooService _fooService;
@@ -77,7 +77,7 @@ public class ControllerFactory : IControllerFactory
 
 <p>Ich nutze dafür aus dem <a href="http://mvccontrib.codeplex.com/">MvcContrib</a> Projekt die WindsorControllerFactory, benötigt werden aus den vielen DLLs lediglich zwei:</p>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image994.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb178.png" width="244" height="194" /></a>&#160;</p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image994.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb178.png" width="244" height="194" /></a>&#160;</p>
 
 <p><strong>Der Einstiegspunkt - Global.asax</strong></p>
 

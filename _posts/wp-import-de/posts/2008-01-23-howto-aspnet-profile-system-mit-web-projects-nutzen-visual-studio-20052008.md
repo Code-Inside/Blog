@@ -32,7 +32,7 @@ language: de
   &lt;/system.web&gt;
 &lt;/configuration&gt;</pre></div>
 <p>Das ganze wird zudem mit der Membership Datenbank synchronisiert - dort gibt es direkt eine "Profile" Tabelle in dem diese Werte reingeschrieben werden:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image249.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="100" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb228.png" width="277" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image249.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="100" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb228.png" width="277" border="0"></a> </p>
 <p>Das ganze kann man nun noch beliebig erweitern oder <a href="http://www.theserverside.net/tt/articles/showarticle.tss?id=CreatingProfileProvider" target="_blank">eigene Profil-Provider schreiben</a> - hier ein <a href="http://www.odetocode.com/Articles/440.aspx" target="_blank">anderer guter Artikel</a>.</p>
 <p>Doch wie ruft man denn nun eigentlich die Profileigenschaften ab? Das was auf den MSDN Seiten immer "Profile.[PROPERTY]" verwendet wird, ist schlecht dokumentiert.</p>
 <p>Jedenfalls erstellt VS im Hintergrund automatisch eine "ProfileCommon" Klasse die überall erreichbar ist (* hier kommt noch eine Anmerkung!)</p>

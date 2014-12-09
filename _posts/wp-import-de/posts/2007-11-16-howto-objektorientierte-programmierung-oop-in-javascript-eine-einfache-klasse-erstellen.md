@@ -50,10 +50,10 @@ language: de
     }</pre></div>
 <p><strong><strong>Schritt 5: Ergebnis</strong></strong></p>
 <p>Funktioniert wunderbar (getestet IE7 und FF2):</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image151.png" atomicselection="true"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="169" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb130.png" width="193" border="0"></a> </p>
-<p><strong><a href="{{BASE_PATH}}/assets/wp-images/image152.png" atomicselection="true"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="169" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb131.png" width="193" border="0"></a> </strong></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image151.png" atomicselection="true"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="169" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb130.png" width="193" border="0"></a> </p>
+<p><strong><a href="{{BASE_PATH}}/assets/wp-images-de/image152.png" atomicselection="true"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="169" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb131.png" width="193" border="0"></a> </strong></p>
 <p>Ein Blick in den Firebug zeigt uns auch die Hierarchie:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image153.png" atomicselection="true"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="98" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb132.png" width="424" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image153.png" atomicselection="true"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="98" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb132.png" width="424" border="0"></a> </p>
 <p>&nbsp;</p>
 <p><strong><strong>Weiterführende Links</strong></strong></p>
 <p><strong></strong>&nbsp;</p>

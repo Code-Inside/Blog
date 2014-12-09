@@ -76,4 +76,4 @@ die helloworld.fo
 Als Ergebniss bekommt man ein PDF mit "Hello World!".
 
 Den kompletten Beispielcode kann man hier herunterladen:
-<a href="{{BASE_PATH}}/assets/wp-images/xmltopdf.zip" title="XmlToPdf">XmlToPdf Projekt</a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/xmltopdf.zip" title="XmlToPdf">XmlToPdf Projekt</a>

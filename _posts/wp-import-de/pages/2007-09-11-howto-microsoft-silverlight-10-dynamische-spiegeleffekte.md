@@ -99,7 +99,7 @@ Nun noch die Javascriptfunktion erstellen und dort auf die DOM des Silverlights 
 
 <strong>Achtung: </strong>Bei "document.getElementById("mySilverlightPlugin")" ist NICHT die ID des DIVs gemeint, in der wir es reingeladen haben. In der createSilverlight Funktion (siehe oben) legen wir eine "unique Plug-In ID" fest - diese ist hier gemeint und nur darüber kommen wir in das Silverlight rein.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image16.png"><img border="0" width="337" src="{{BASE_PATH}}/assets/wp-images/image-thumb16.png" alt="image" height="312" style="border-width: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image16.png"><img border="0" width="337" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb16.png" alt="image" height="312" style="border-width: 0px" /></a>
 
 <strong>Ein kleiner Tipp: </strong>Hier kann man sehen, dass man HTML Elemente und Silverlight Elemente gut mischen kann - auch einer Benutzung von Google Maps oder Virtual Earth steht dadurch nix im Wege - Silverlight kann "nebenher" laufen.
 
@@ -109,7 +109,7 @@ Damit das MS AJAX jetzt hier auch eine Verwendung findet, pimpen wir nun unsere 
 
 Webservice erstellen und "ScriptService" Attribut über den Webservice schreiben:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image17.png"><img border="0" width="196" src="{{BASE_PATH}}/assets/wp-images/image-thumb17.png" alt="image" height="36" style="border-width: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image17.png"><img border="0" width="196" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb17.png" alt="image" height="36" style="border-width: 0px" /></a>
 <pre class="csharpcode"><span class="kwrd">namespace</span> MS_AJAX_Silverlight 
 { 
     <span class="rem">/// &lt;summary&gt;</span> 

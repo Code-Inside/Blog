@@ -9,15 +9,15 @@ tags: [AJAX, ASP.NET MVC, HowTo]
 language: de
 ---
 {% include JB/setup %}
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1241.png"><img style="border-right-width: 0px; margin: 0px 10px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images/image_thumb421.png" width="163" height="107" /></a> </p>  <p>Im MVC Framework gibt es ein paar kleine Helferlein und über die AJAX Helper hatte ich bereits <a href="{{BASE_PATH}}/2009/08/25/howto-ajax-und-aspnet-mvc/">vor einiger Zeit geschrieben</a> - allerdings hat sich die Funktionalität ein klein wenig geändert, daher hier jetzt das Update.</p>  <p><strong>Problemfall: AJAX Actionlink liefert neue Seite zurück</strong></p>  <p>Wir haben ein Standard MVC 3 Web Projekt und folgende Zeile soll einfach nur einen Link erzeugen, welcher bei Knopfdruck ein View per AJAX nachlädt und in das "Result” Div reinsetzt:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:ffd83d40-ebc2-49c2-a2e1-dcee5333b293" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    @Ajax.ActionLink("Foobar load", "Foobar", "Home", new AjaxOptions() { HttpMethod = "Get", UpdateTargetId = "Result" })</pre></div>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1241.png"><img style="border-right-width: 0px; margin: 0px 10px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb421.png" width="163" height="107" /></a> </p>  <p>Im MVC Framework gibt es ein paar kleine Helferlein und über die AJAX Helper hatte ich bereits <a href="{{BASE_PATH}}/2009/08/25/howto-ajax-und-aspnet-mvc/">vor einiger Zeit geschrieben</a> - allerdings hat sich die Funktionalität ein klein wenig geändert, daher hier jetzt das Update.</p>  <p><strong>Problemfall: AJAX Actionlink liefert neue Seite zurück</strong></p>  <p>Wir haben ein Standard MVC 3 Web Projekt und folgende Zeile soll einfach nur einen Link erzeugen, welcher bei Knopfdruck ein View per AJAX nachlädt und in das "Result” Div reinsetzt:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:ffd83d40-ebc2-49c2-a2e1-dcee5333b293" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    @Ajax.ActionLink("Foobar load", "Foobar", "Home", new AjaxOptions() { HttpMethod = "Get", UpdateTargetId = "Result" })</pre></div>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1242.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb422.png" width="350" height="105" /></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1242.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb422.png" width="350" height="105" /></a> </p>
 
 <p></p>
 
 <p>Nach dem Knopfdruck sollte eigentlich per AJAX der View geladen werden, allerdings wird kein AJAX Request ausgelöst. Warum?</p>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1243.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb423.png" width="220" height="103" /></a>&#160;</p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1243.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb423.png" width="220" height="103" /></a>&#160;</p>
 
 <p><strong>Javascript Bibliotheken fehlen</strong></p>
 
@@ -25,7 +25,7 @@ language: de
 
 <p>Für AJAX benötigen wir noch zusätzlich die jQuery.unobtrusive-ajax.js (bzw. die min.js) Datei!</p>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1244.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb424.png" width="260" height="297" /></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1244.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb424.png" width="260" height="297" /></a> </p>
 
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:444b96ac-250c-42f0-aa49-a792c96e4570" class="wlWriterEditableSmartContent"><pre name="code" class="c#">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -42,7 +42,7 @@ language: de
 
 <p>Ein Blick ins HTML bringt vielleicht auch eine kleine Überraschung:</p>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1245.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb425.png" width="568" height="54" /></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1245.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb425.png" width="568" height="54" /></a> </p>
 
 <p>Falls das bei jemanden anders aussieht: Wichtig sind noch folgende Einstellungen in der Web.config (diese sind allerdings bei neuen Projekten Standard)</p>
 
@@ -59,7 +59,7 @@ language: de
 
 <p>Hier ein Screenshot aus einer <a href="http://simonwillison.net/static/2008/xtech/">tollen Präsentation</a> über das Thema:</p>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1246.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb426.png" width="329" height="248" /></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1246.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb426.png" width="329" height="248" /></a></p>
 
 <div style="width: 425px" id="__ss_390708"><strong style="margin: 12px 0px 4px; display: block"><a title="Unobtrusive JavaScript with jQuery" href="http://www.slideshare.net/simon/unobtrusive-javascript-with-jquery">Unobtrusive JavaScript with jQuery</a></strong> <iframe height="355" marginheight="0" src="http://www.slideshare.net/slideshow/embed_code/390708" frameborder="0" width="425" marginwidth="0" scrolling="no"></iframe>
 

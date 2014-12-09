@@ -16,5 +16,5 @@ language: de
 <p>Der Token wird erstellt mit allen Parametern und mit denselben Parametern und dem Schlüssel kann das Token wieder lesbar gemacht werden.</p>
 <p>Diesen Token könnte man auch zwischen Server Applikationen austauschen lassen oder zwischen App und Service.</p>
 <p>Das Bild zeigt die Ausgabe des Programms: Den Token und am Ende den “Name”-Claim.</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1929.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb1066.png" width="575" height="132"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1929.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1066.png" width="575" height="132"></a></p>
 <p>Der Code ist natürlich auch auf <a href="https://github.com/Code-Inside/Samples/tree/master/2013/JwtSampleApp"><strong>GitHub</strong></a> verfügbar.</p>

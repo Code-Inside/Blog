@@ -17,7 +17,7 @@ Das dies eigentlich fast genauso einfach ist, wie JSON, sieht man allerdings ers
 
 Unsere Demoappliaktion ist sehr einfach - das Hauptaugenmerk liegt sowieso später auf dem Javascript:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image148.png"><img border="0" width="185" src="{{BASE_PATH}}/assets/wp-images/image-thumb127.png" alt="image" height="167" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image148.png"><img border="0" width="185" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb127.png" alt="image" height="167" style="border: 0px" /></a>
 
 Die 3 XML Datein werden wir mit Javascript auswerten:
 
@@ -80,7 +80,7 @@ Diesen Webservice jetzt noch als Scriptservice im Scriptmanager bekannt machen u
 
 <strong><u>Einfaches Interface basteln</u></strong>
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image149.png"><img border="0" width="339" src="{{BASE_PATH}}/assets/wp-images/image-thumb128.png" alt="image" height="92" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image149.png"><img border="0" width="339" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb128.png" alt="image" height="92" style="border: 0px" /></a>
 
 Das sehr einfache Interface besteht aus einer Überschrift und 3 Buttons welche die AJAX Requests starten, damit wir im Anschluss das XML auswerten können.
 Unter den Buttons erfolgt dabei die Ausgabe und eine kurze Erklärung was da passiert.
@@ -91,7 +91,7 @@ Unter den Buttons erfolgt dabei die Ausgabe und eine kurze Erklärung was da pas
 <pre class="csharpcode">var myResult = result.getElementsByTagName(<span class="str">"root"</span>)[0].firstChild.nodeValue;</pre>
 Das ist der Zugriff auf unser "nodeValue" "FooBar". In dem Screenshot kann man den Verlauf auch folgen: 
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image150.png"><img border="0" width="234" src="{{BASE_PATH}}/assets/wp-images/image-thumb129.png" alt="image" height="284" style="border: 0px" /></a> 
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image150.png"><img border="0" width="234" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb129.png" alt="image" height="284" style="border: 0px" /></a> 
 (Ausschnitt aus dem Firebug - <a target="_blank" href="{{BASE_PATH}}/artikel/howto-webanwendung-debuggen-javascript-html-debuggen-mit-den-entsprechenden-tools/">siehe dazu HowTo JS debuggen</a>)
 
 <strong>Erklärung:</strong>

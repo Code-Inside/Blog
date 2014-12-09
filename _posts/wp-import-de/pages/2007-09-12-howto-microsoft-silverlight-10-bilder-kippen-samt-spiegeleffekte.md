@@ -27,17 +27,17 @@ Müsste ebenfalls noch bekannt sein aus den vorherigen HowTos ;)
 
 <strong>Schritt 3:</strong> <strong>Bild hinzufügen</strong>
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image18.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb18.png" alt="image" height="187" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image18.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb18.png" alt="image" height="187" style="border: 0px" /></a>
 
 Recht schwach ist noch das "Add Existing Item..." zu sehen - dort einfach das Bild hinzufügen und dannach kann man es per DragnDrop auf die Arbeitsfläche ziehen:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image19.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb19.png" alt="image" height="218" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image19.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb19.png" alt="image" height="218" style="border: 0px" /></a>
 
 <strong>Schritt 4: Bild verzerren</strong>
 
 Unter den "Properties" des Bildes findet man den Punkt "Transform", dort einfach mal bei "Skew" mal klicken und in dem Y Wert -15 eintragen:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image20.png"><img border="0" width="498" src="{{BASE_PATH}}/assets/wp-images/image-thumb20.png" alt="image" height="277" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image20.png"><img border="0" width="498" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb20.png" alt="image" height="277" style="border: 0px" /></a>
 
 Da es meiner Meinung nach jetzt etwas zu "schräg"/"schief" aussieht hab ich die Sache bei "Rotate" noch ein Wert von 1,1 gegeben - muss aber nicht sein.
 
@@ -47,27 +47,27 @@ Das gesamte Bild (was ich inzwischeneinfach verkleinert hab, weil es ansonsten n
 
 Y-Achse kippen:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image21.png"><img border="0" width="537" src="{{BASE_PATH}}/assets/wp-images/image-thumb21.png" alt="image" height="320" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image21.png"><img border="0" width="537" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb21.png" alt="image" height="320" style="border: 0px" /></a>
 
 Verzerrung umstellen auf -15:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image22.png"><img border="0" width="537" src="{{BASE_PATH}}/assets/wp-images/image-thumb22.png" alt="image" height="311" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image22.png"><img border="0" width="537" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb22.png" alt="image" height="311" style="border: 0px" /></a>
 
 Damit die nun direkt aufeinander passen beim Spiegelbild das Rotate wieder auf 0 setzen und an das Original ansetzen:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image23.png"><img border="0" width="534" src="{{BASE_PATH}}/assets/wp-images/image-thumb23.png" alt="image" height="293" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image23.png"><img border="0" width="534" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb23.png" alt="image" height="293" style="border: 0px" /></a>
 
 Durchscheineffekt hinzufügen:
 
 Der Anfangspunkt (die lange leiste unten mit dem schwarzen "Kästel") war vorher direkt auf schwarz eingestellt, ich hab in dem Farbverlauf das auf fast weiß gesetzt undeinfach noch den AlphaKanal auf 41% gesetzt - ob das hinterher günstig ist, wird sich zeigen ;) - man kann den Wert aber auch auf 100% lassen. Selbst experimentieren ;)
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image24.png"><img border="0" width="651" src="{{BASE_PATH}}/assets/wp-images/image-thumb24.png" alt="image" height="280" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image24.png"><img border="0" width="651" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb24.png" alt="image" height="280" style="border: 0px" /></a>
 
 Der Endpunkt wurde ebenso angesetzt nur dass er dort direkt auf 100% durchsichtig gesetzt wurde.
 
 Die Verlaufsrichtung noch anpassen (auf das Pfeilsymbol klicken) :
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image25.png"><img border="0" width="241" src="{{BASE_PATH}}/assets/wp-images/image-thumb25.png" alt="image" height="303" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image25.png"><img border="0" width="241" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb25.png" alt="image" height="303" style="border: 0px" /></a>
 
 Am Ende noch das etwas zurecht rücken und der Spiegeleffekt ist perfekt.
 
@@ -77,16 +77,16 @@ Um einen optischen Effekt noch hinzuzufügen, werd ich jetzt bei dem Originalbil
 
 Dafür legen wir ein Rectangle an dem Originalen an:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image26.png"><img border="0" width="70" src="{{BASE_PATH}}/assets/wp-images/image-thumb26.png" alt="image" height="205" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image26.png"><img border="0" width="70" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb26.png" alt="image" height="205" style="border: 0px" /></a>
 
 Hier muss jetzt leicht probiert werden - das Rectangle muss natürlich direkt an der Originalkante ran (d.h. etwas drehen) und ansonsten muss noch an der Größe rumgespielt werden. Der Farbverlauf muss angepasst werden und fertig.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image27.png"><img border="0" width="57" src="{{BASE_PATH}}/assets/wp-images/image-thumb27.png" alt="image" height="240" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image27.png"><img border="0" width="57" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb27.png" alt="image" height="240" style="border: 0px" /></a>
 
 <strong>Fertig: Ansicht im Browser</strong>
 
 Direkt im Expression Blend können wir das nun testen - und das Ergebniss find ich erstmal recht ansprechend. Man kann es noch anpassen und insbesondere die Sache mit dem Setzen des Alphakanals macht mir jetzt Gedanken - aber für einen ersten Eindruck gehts und ist auch recht einfach.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image28.png"><img border="0" width="186" src="{{BASE_PATH}}/assets/wp-images/image-thumb28.png" alt="image" height="423" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image28.png"><img border="0" width="186" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb28.png" alt="image" height="423" style="border: 0px" /></a>
 
 Viel Spaß noch :)

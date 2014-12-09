@@ -40,7 +40,7 @@ class SqlDataProvider : IDataProvider
 <p>ist dieses Beispiel meiner Meinung nach sehr "dürftig". Zwar kann man es daran sehr gut erklären, aber bei wie vielen Applikationen wird sowas überhaupt mit betrachtet? Bei vielen Projekten steht fest, welche DB genommen werden soll/genommen wird - die Datenbank wird sich sicherlich nicht ändern (und wenn doch, wird dies halt ein riesiger Change Request ;) ).</p>
 <p>Was viele nicht betrachten ist, dass durch den Einsatz von Interfaces auch die Testbarkeit einer Applikation steigert.</p>
 <p><strong>Beispielanwendung:</strong></p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image520.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="220" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb498.png" width="210" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image520.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="220" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb498.png" width="210" border="0"></a> </p>
 <p>Unser "Data" gibt Daten an den Service, dieser verarbeitet diese und reicht die weiter (<a href="{{BASE_PATH}}/2008/07/09/howto-3-tier-3-schichten-architektur/">3-Tier</a>). Wie hier zu sehen ist, gibt es nur die konkrete Klasse "PersonService" (unser Service) und "Person" (unser Model) - alles andere sind Schnittstellen:</p>
 <p>
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:36136e9d-8194-4d29-8427-bc2c1c06bf37" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">public class PersonService : IPersonService
@@ -76,7 +76,7 @@ class SqlDataProvider : IDataProvider
 <p>Unser Service kann die Daten nur ausgeben, wenn wir authentifiziert sind.</p>
 <p><strong>Szenario:</strong></p>
 <p>Wenn wir nun ein größeres Projekt angehen und der Authentifizierungsmechanismus nicht so einfach ist und auch Fremdsysteme mit einbezieht, dann wäre es ja nett, wenn man während der Entwicklung eine Art "Fake" aufsetzen kann. Durch die Interface ist es sehr einfach, sowas zu machen:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image521.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="132" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb499.png" width="244" border="0"></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image521.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="132" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb499.png" width="244" border="0"></a> </p>
 <p>In meinem <a href="{{BASE_PATH}}/2008/05/22/howto-einfache-tests-unittests-oder-keine-angst-vor-unittests/">UnitTest</a> Projekt will ich meinen Service testen - und <a href="{{BASE_PATH}}/2008/08/05/howto-unittests-und-einfhrung-in-mocking-mit-rhinomocks/">nur diesen(!).</a> dafür habe ich mit ein "TestPersonDataProvider" erstellt, der "IPersonDataProvider" implementiert und jeweils ein AuthenticationService, welcher mir sagt, dass ich authentifiziert bin, oder nicht.</p>
 <p><strong>Mein Testcode:</strong></p>
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:2fce7e11-72f3-4da6-94fa-e71eb33229d0" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">    [TestClass]

@@ -16,8 +16,8 @@ language: de
         &lt;/modules&gt;
 	&lt;/system.webServer&gt;</pre></div>
 <p>… und wenn dies nicht hilft, dann nochmal kontrollieren ob die Einstellung auch greift. Zur Not kann man das Modul auch über den IIS Manager entfernen:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1390.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb572.png" width="412" height="324"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1390.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb572.png" width="412" height="324"></a></p>
 <p><strong>Wichtig: Es kann viele Fehlerquellen geben. </strong></p>
 <p>Im IIS kann man jedem Modul die entsprechenden Verben zuordnen:</p>
-<p><a href="{{BASE_PATH}}/assets/wp-images/image1391.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images/image_thumb573.png" width="498" height="504"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1391.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb573.png" width="498" height="504"></a></p>
 <p>Allerdings ist das recht kompliziert und im Regelfall sollte man nicht alles verstellen ;)</p>

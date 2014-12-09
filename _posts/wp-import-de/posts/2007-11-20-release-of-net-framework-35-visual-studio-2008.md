@@ -9,7 +9,7 @@ tags: [.NET 3.5, LINQ, Visual Studio 2008]
 language: de
 ---
 {% include JB/setup %}
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image154.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb133.png" alt="image" height="129" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image154.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb133.png" alt="image" height="129" style="border: 0px" /></a>
 
 Bereits in dem gestriegen Post habe ich bereits den Release des .NET Frameworks 3.5 samt VS 2008 mit angeschrieben.
 

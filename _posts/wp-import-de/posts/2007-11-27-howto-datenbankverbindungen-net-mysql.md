@@ -27,17 +27,17 @@ Um mit .NET darauf zuzugreifen benötigen wir noch den <a target="_blank" href="
 </ul>
 Sobald XAMPP erfolgreich auf dem System installiert wurde, öffnet man das Control Panel und startet den Apachen sowie den MySQL Server.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image163.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb142.png" alt="image" height="190" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image163.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb142.png" alt="image" height="190" style="border: 0px" /></a>
 
 Bei Vista (und wahrscheinlich auch bei XP SP2) meckert die Firewall - die beiden Sachen nicht blocken.
 
 Unter der Webadresse <a href="http://localhost/xampp/index.php">http://localhost/xampp/index.php</a> findet man nun das Administrationspanel. Im Menü auf der linken Seite befindet sich der für uns wichtigste Punkt:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image164.png"><img border="0" width="139" src="{{BASE_PATH}}/assets/wp-images/image-thumb143.png" alt="image" height="71" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image164.png"><img border="0" width="139" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb143.png" alt="image" height="71" style="border: 0px" /></a>
 
 Über phpMyAdmin legen wir unser Datenbank an ("<strong>dotnet</strong>") und dann unsere Tabelle "<strong>test</strong>" mit Spalte "<strong>id</strong>" als "autoincrement int" und "<strong>value</strong>" als "varchar" für unseren Text.
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image165.png"><img border="0" width="441" src="{{BASE_PATH}}/assets/wp-images/image-thumb144.png" alt="image" height="293" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image165.png"><img border="0" width="441" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb144.png" alt="image" height="293" style="border: 0px" /></a>
 
 Danach auf "Speichern" und fertig ist unser DB.
 
@@ -51,11 +51,11 @@ Damit wir einen MySQL Datenprovider bekommen, müssen wir nun den Connector inst
 </ul>
 In unserem Konsolenprogramm fügen wir nun noch die Referenz zu der MySQL.Data DLL hinzu, sodass wir den Namespace später verwenden können:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image166.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images/image-thumb145.png" alt="image" height="216" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image166.png"><img border="0" width="240" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb145.png" alt="image" height="216" style="border: 0px" /></a>
 
 Unter dem Punkt "MySQL.Data" finden wir dann unseren Connector:
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image167.png"><img border="0" width="642" src="{{BASE_PATH}}/assets/wp-images/image-thumb146.png" alt="image" height="303" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image167.png"><img border="0" width="642" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb146.png" alt="image" height="303" style="border: 0px" /></a>
 
 Dadurch steht uns jetzt die Namespaces MySql.Data &amp; MySql.Data.MySqlClient zur verfügen welche wir einbinden:
 <pre class="csharpcode"><span class="kwrd">using</span> MySql.Data; 
@@ -95,7 +95,7 @@ Ebenso implementieren wie das schreiben von Daten, nur anderes SQL Statement &am
 Ebenso wie oben beschrieben &amp; gleiches Prinzip wie bei unserem MS SQL Beispiel.
 <pre class="csharpcode">                MySqlCommand deleteCommand = <span class="kwrd">new</span> MySqlCommand(<span class="str">"DELETE FROM test"</span>, connection); 
                 <span class="kwrd">int</span> deleteReturnValue = deleteCommand.ExecuteNonQuery();</pre>
-<pre class="csharpcode"><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image168.png"></a> <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image168.png"><img border="0" width="555" src="{{BASE_PATH}}/assets/wp-images/image-thumb147.png" alt="image" height="277" style="border: 0px" /></a></pre>
+<pre class="csharpcode"><a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image168.png"></a> <a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image168.png"><img border="0" width="555" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb147.png" alt="image" height="277" style="border: 0px" /></a></pre>
 <strong>Abschließende Bemerkung</strong>
 
 Der .NET Connector von MySQL erlaubt es auf sehr einfache Art und Weise auf eine MySQL DB zuzugreifen - wer bereits mit MS SQL und .NET zutun hatte, kann ebenso "leicht" mit MySQL arbeiten. Die tiefergehenden Sachen sollten dann direkt bei MySql nachgeschaut werden, wie z.B. <a target="_blank" href="http://dev.mysql.com/doc/refman/5.1/de/connector-net-using-stored.html">der Zugriff auf gespeicherte Prozeduren</a> oder <a target="_blank" href="http://dev.mysql.com/doc/refman/5.1/de/connector-net-using-blob.html">BLOB Daten verarbeiten</a>.

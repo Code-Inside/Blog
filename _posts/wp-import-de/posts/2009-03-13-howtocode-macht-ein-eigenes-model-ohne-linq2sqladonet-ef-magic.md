@@ -9,9 +9,9 @@ tags: [ADO.NET EF;]
 language: de
 ---
 {% include JB/setup %}
-<p><a href="{{BASE_PATH}}/assets/wp-images/image669.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="174" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb647.png" width="128" align="left" border="0" /></a> Der Einsatz von <a href="http://msdn.microsoft.com/de-de/library/bb386976.aspx">Linq2Sql</a> oder der Einsatz vom <a href="http://msdn.microsoft.com/de-de/magazine/cc163399.aspx">ADO.NET Entity Framework</a> ist sehr einfach - die Einstiegsh&#252;rden sind erstmal niedrig und man bastelt seine Datenbank, generiert daraus sein Model und dann kann man schon loslegen und alles ist heile Welt. Der Titel hier ist etwas provokant, allerdings muss ich immer wieder erleben dass der Einsatz solcher Tools/Frameworks (es gibt sicherlich noch andere dieser Art) auch richtig sch&#246;n schief gehen kann.</p> 
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image669.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="174" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb647.png" width="128" align="left" border="0" /></a> Der Einsatz von <a href="http://msdn.microsoft.com/de-de/library/bb386976.aspx">Linq2Sql</a> oder der Einsatz vom <a href="http://msdn.microsoft.com/de-de/magazine/cc163399.aspx">ADO.NET Entity Framework</a> ist sehr einfach - die Einstiegsh&#252;rden sind erstmal niedrig und man bastelt seine Datenbank, generiert daraus sein Model und dann kann man schon loslegen und alles ist heile Welt. Der Titel hier ist etwas provokant, allerdings muss ich immer wieder erleben dass der Einsatz solcher Tools/Frameworks (es gibt sicherlich noch andere dieser Art) auch richtig sch&#246;n schief gehen kann.</p> 
 <!--more-->
-  <p><strong>Erstmal langsam... es gibt ja auch gute Seiten     <br /></strong>Ich bezieh mich hier nur auf Linq2Sql oder dem ADO.NET EF, sicherlich gibt es noch andere Beispiele wo es &#228;hnlich ist. Beide Technologien sind eigentlich ganz nett, das EF wird sicherlich in Version 2 dann fortschritte machen und Linq2Sql ist halt sehr einfach.     <br />Das tolle ist ja, dass ich mir keine Gedanken mehr um die SQL Code Generierung machen muss und (ich habe jetzt mal die Northwind DB genommen) auch alles sch&#246;n da:</p>  <p><a href="{{BASE_PATH}}/assets/wp-images/image670.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb648.png" width="203" border="0" /></a> </p>  <p>Und im Code hat man ebenfalls den kompletten Zugriff auf die Verzweigtesten Sachen (auch wenn das so kein Sinn macht) :</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:de0deba1-2c8e-4703-a609-dd8fb409e794" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">            Products test = new Products();
+  <p><strong>Erstmal langsam... es gibt ja auch gute Seiten     <br /></strong>Ich bezieh mich hier nur auf Linq2Sql oder dem ADO.NET EF, sicherlich gibt es noch andere Beispiele wo es &#228;hnlich ist. Beide Technologien sind eigentlich ganz nett, das EF wird sicherlich in Version 2 dann fortschritte machen und Linq2Sql ist halt sehr einfach.     <br />Das tolle ist ja, dass ich mir keine Gedanken mehr um die SQL Code Generierung machen muss und (ich habe jetzt mal die Northwind DB genommen) auch alles sch&#246;n da:</p>  <p><a href="{{BASE_PATH}}/assets/wp-images-de/image670.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb648.png" width="203" border="0" /></a> </p>  <p>Und im Code hat man ebenfalls den kompletten Zugriff auf die Verzweigtesten Sachen (auch wenn das so kein Sinn macht) :</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:de0deba1-2c8e-4703-a609-dd8fb409e794" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">            Products test = new Products();
             test.Categories.CategoryName;
             test.Suppliers.Address;
             
@@ -23,7 +23,7 @@ language: de
 <p><strong>Die Probleme dabei...
     <br /></strong><strong>1. Problem ist, dass mein Model aufgebl&#228;ht ist mit Sachen, die mich nicht interessieren:</strong></p>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image671.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="213" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb649.png" width="170" border="0" /></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image671.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="213" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb649.png" width="170" border="0" /></a> </p>
 
 <p>Darunter &quot;EntityKey&quot;, &quot;EntityState&quot;, Orders (was n&#252;tzlich ist) und &quot;OrdersReference&quot; - wenn man diese Objekte nun z.B. nach JSON serialisieren will, kann man in arge Schwierigkeiten kommen.</p>
 
@@ -31,7 +31,7 @@ language: de
 
   <br />Wenn man aus jeder Schicht (sei es Businesslogik oder UI Schicht) Daten nachladen kann, dann kommt am Ende sowas raus:</p>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image672.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb650.png" width="182" border="0" /></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image672.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb650.png" width="182" border="0" /></a> </p>
 
 <p>Das Problem kann man umgehen, wenn man stark darauf achtet, dass es nur eine Stelle gibt an der Daten geladen werden. So wird auch im <a href="{{BASE_PATH}}/2009/03/11/kostenloses-aspnet-mvc-tutorial-kapitel-sample-application-nerddinner/">MVC Buch von ScottGu</a> etc. empfohlen:</p>
 
@@ -56,7 +56,7 @@ language: de
 <p><strong>Daher: Von den Abh&#228;ngigkeiten l&#246;sen und eine Abstraktionsschicht mehr
     <br /></strong>Ich mach es bei meinen Applikationen immer nach diesem Muster:</p>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images/image673.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="158" alt="image" src="{{BASE_PATH}}/assets/wp-images/image-thumb651.png" width="485" border="0" /></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image673.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="158" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb651.png" width="485" border="0" /></a> </p>
 
 <p>Das Mapping ist im Grund auch sehr einfach und hab ich mir damals bei <a href="http://blog.wekeroad.com/mvc-storefront/asp-net-mvc-mvc-storefront-part-2/">Rob Conerys MVC Storefront</a> abgeschaut - der Code kommt auch aus diesem Projekt:</p>
 

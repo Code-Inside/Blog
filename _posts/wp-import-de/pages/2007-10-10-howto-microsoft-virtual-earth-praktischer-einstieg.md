@@ -9,7 +9,7 @@ tags: []
 permalink: /artikel/howto-microsoft-virtual-earth-praktischer-einstieg
 ---
 {% include JB/setup %}
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image64.png"><img border="0" width="191" src="{{BASE_PATH}}/assets/wp-images/image-thumb43.png" alt="image" height="55" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image64.png"><img border="0" width="191" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb43.png" alt="image" height="55" style="border: 0px" /></a>
 
 Nachdem ich bereits sehr kurz mal <a target="_blank" href="{{BASE_PATH}}/artikel/howto-google-maps-api-grundvoraussetzungen/">Google Map</a> angerissen habe, möchte ich mich nun etwas intensiver mit Microsofts Variante beschäftigen: <a target="_blank" href="http://maps.live.de/LiveSearch.LocalLive">Virtual Earth</a>.
 
@@ -71,7 +71,7 @@ map.AddShape(shape);
 
 In dem <a target="_blank" href="http://msdn2.microsoft.com/en-us/library/bb429615.aspx">VEPlace</a> Array (!) verstecken sich die Koordinaten, diese übergebe ich dem <a target="_blank" href="http://msdn2.microsoft.com/en-us/library/bb412535.aspx">VEShape</a> Konstruktor und hab am Ende so ein "Pushpin".
 
-<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images/image65.png"><img border="0" width="336" src="{{BASE_PATH}}/assets/wp-images/image-thumb44.png" alt="image" height="162" style="border: 0px" /></a>
+<a atomicselection="true" href="{{BASE_PATH}}/assets/wp-images-de/image65.png"><img border="0" width="336" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb44.png" alt="image" height="162" style="border: 0px" /></a>
 
 <strong>Downloads:</strong>
 
