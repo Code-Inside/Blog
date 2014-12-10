@@ -9,7 +9,7 @@ tags: [HowTo, RSS]
 language: en
 ---
 {% include JB/setup %}
-I’ve already written about <a href="http://blog.codeinside.eu/2014/03/27/rss-feed-samt-kommentaranzahl-und-andere-nicht-standard-elemente-mit-dem-syndicationfeed-auslesen/">how to consume RSS or Atom Feeds with the SyndicationFeed (in German, sry)</a> but todays post is about how to create or publish an own feed. Beside the age of the feed standard and the much defamation from Facebook, Twitter and Google on RSS/Atom I consider this easy to consume API as quite handy.
+I’ve already written about <a href="http://{{BASE_PATH}}/2014/03/27/rss-feed-samt-kommentaranzahl-und-andere-nicht-standard-elemente-mit-dem-syndicationfeed-auslesen/">how to consume RSS or Atom Feeds with the SyndicationFeed (in German, sry)</a> but todays post is about how to create or publish an own feed. Beside the age of the feed standard and the much defamation from Facebook, Twitter and Google on RSS/Atom I consider this easy to consume API as quite handy.
 
 <h3>Alright… ASP.NET MVC Infrastructure code: RSS result</h3>
 
