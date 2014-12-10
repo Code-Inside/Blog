@@ -39,9 +39,9 @@ On the <a href="https://dev.twitter.com/apps/new">Developer Side of Twitter</a> 
 
 <span style="text-decoration: underline;">Important: </span>enter the same information’s into WebSite and Callback URL – otherwise there are going to be some problems. We choose 127.0.0.1 – localhost. You are able to fit it on the right URL later into the application.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb662.png" border="0" alt="image" width="500" height="328" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb662.png" border="0" alt="image" width="500" height="328" />
 
-The most important information’s:<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb663.png" border="0" alt="image" width="508" height="500" />
+The most important information’s:<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb663.png" border="0" alt="image" width="508" height="500" />
 
 We need the Consumer Key and the Consumer Secret soon.
 
@@ -128,11 +128,11 @@ Either the user is logged in via ForumsAuthentication or we show the Link to the
 
 <strong>Result:</strong>
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb664.png" border="0" alt="image" width="244" height="145" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb664.png" border="0" alt="image" width="244" height="145" />
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb665.png" border="0" alt="image" width="377" height="251" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb665.png" border="0" alt="image" width="377" height="251" />
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb666.png" border="0" alt="image" width="228" height="121" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb666.png" border="0" alt="image" width="228" height="121" />
 
 Additional we can access on several Twitter attributes of the user. That’s it about the authentication. Not that difficult at all. If you want to use more futures for example sending Tweets has to keep in mind the AccessToken from the Callback.
 

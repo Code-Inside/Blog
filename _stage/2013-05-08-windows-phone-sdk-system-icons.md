@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<img title="image.png" src="http://code-inside.de/blog/wp-content/uploads/image1832-570x194.png" alt="image.png" width="570" height="194" />
+<img title="image.png" src="{{BASE_PATH}}/assets/wp-images-de/image1832-570x194.png" alt="image.png" width="570" height="194" />
 
 Although the Metro Design focuses a lot on Typography Icons are still quite important. If you install Windows Phone SDK you will receive 36 Icons. You can find them here:
 

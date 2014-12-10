@@ -35,11 +35,11 @@ a) It’s a Notebook keyboard where some keys are left anyway
 
 b) It’s a keyboard from Apple where even more keys are left or allocated with something else
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb605.png" border="0" alt="image" width="589" height="406" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb605.png" border="0" alt="image" width="589" height="406" />
 
 In compare with my PC keyboard (not that beautiful but that what they usually look like):
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb606.png" border="0" alt="image" width="600" height="287" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb606.png" border="0" alt="image" width="600" height="287" />
 
 Either my keyboard scheme was totally wrong configured or I’m a noob. I couldn’t find the keys “~” and “\”, which are sometimes very useful for developers. Also “[“”]” and “{“”}” where missing for a long time even if I found them with closed eyes on my normal keyboard and why the @ is on a completely other key is a mystery.
 
@@ -101,7 +101,7 @@ Combined with VMWare Fusion it’s able to connect both worlds in a classy way a
 </div>
 That’s what the Windows Capacity index looks like (because of this is the MacBook from 2010 the newest Generation will look a little bit better)
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb610.png" border="0" alt="image" width="537" height="181" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb610.png" border="0" alt="image" width="537" height="181" />
 
 <strong>Take a look beyond your own nose (at least for iOS Devs)!</strong>
 

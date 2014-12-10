@@ -39,9 +39,9 @@ I’m certain that about this time, I bunch of people are asking “but, did you
 
 There are also some new Screenshots about <a href="http://blogs.msdn.com/b/codeplex/archive/2012/03/30/new-codeplex-ui-coming-soon.aspx">the Metro interface for CodePlex</a> shown:
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb658.png" border="0" alt="image" width="493" height="375" /><a href="{{BASE_PATH}}/assets/wp-images-en/image1486.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1486" src="{{BASE_PATH}}/assets/wp-images-en/image1486_thumb.png" border="0" alt="image1486" width="497" height="383" /></a>
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb658.png" border="0" alt="image" width="493" height="375" /><a href="{{BASE_PATH}}/assets/wp-images-en/image1486.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1486" src="{{BASE_PATH}}/assets/wp-images-en/image1486_thumb.png" border="0" alt="image1486" width="497" height="383" /></a>
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb659.png" border="0" alt="image" width="493" height="380" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb659.png" border="0" alt="image" width="493" height="380" />
 
 More Screenshots <a href="http://blogs.msdn.com/b/codeplex/archive/2012/03/30/new-codeplex-ui-coming-soon.aspx">here</a>.
 

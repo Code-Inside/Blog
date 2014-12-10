@@ -29,7 +29,7 @@ A highlight at first: there are several other .NET Web Server. Of course IIS is 
 
 &nbsp;
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb726.png" border="0" alt="image" width="426" height="497" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb726.png" border="0" alt="image" width="426" height="497" />
 
 <strong>Let’s take a deeper look to the several parts:</strong>
 
@@ -79,9 +79,9 @@ katana --server kayak</pre>
 
 With the following order we allow Katana to create a Kayak Server – and voila:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb730.png" border="0" alt="image" width="588" height="69" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb730.png" border="0" alt="image" width="588" height="69" />
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb729.png" border="0" alt="image" width="244" height="71" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb729.png" border="0" alt="image" width="244" height="71" />
 
 Without the use of IIS Express, Cassini or HttpListener we are able to use NancyFx!
 

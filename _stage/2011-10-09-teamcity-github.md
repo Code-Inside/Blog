@@ -21,10 +21,10 @@ Because of my <a href="http://code-inside.de/blog-in/2011/08/23/entrance-into-gi
 
 In the latest <a href="http://www.jetbrains.com/teamcity/">Version of TeamCity (at the moment it’s 6.5)</a> the Git-Client is already installed. It’s not necessary to do some SSH configuration or some magic stuff like that – at least not for taking open repositories only.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb552.png" border="0" alt="image" width="502" height="278" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb552.png" border="0" alt="image" width="502" height="278" />
 
 Important: Instead of declaring the HTTP address (like you know it from several SVN hosts) you need to declare the GIT Adress:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb553.png" border="0" alt="image" width="551" height="132" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb553.png" border="0" alt="image" width="551" height="132" />
 
 What’s left could stay at default. Sometimes things are not that difficult.

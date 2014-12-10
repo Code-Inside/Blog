@@ -37,7 +37,7 @@ But it is perfect for developer or IT-Admins to test software.
 
 The installation is very easy as long as the hardware plays along:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb850.png" border="0" alt="image" width="396" height="410" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb850.png" border="0" alt="image" width="396" height="410" />
 
 After the installation (which will unfortunately ask for a reboot) you are now able to use the Hyper-V manager.
 
@@ -47,17 +47,17 @@ After the installation (which will unfortunately ask for a reboot) you are now a
 
 At first you need to create a “Virtual Switch”.
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb851.png" border="0" alt="image" width="311" height="159" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb851.png" border="0" alt="image" width="311" height="159" />
 
 If you want to integrate the virtual machine into the network (including the internet connection) you might use my setting as an example:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb852.png" border="0" alt="image" width="521" height="492" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb852.png" border="0" alt="image" width="521" height="492" />
 
 <strong> </strong>
 
 <strong>Configure Hyper-V: Step 2 – create a virtual machine </strong>
 
-<strong><img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb853.png" border="0" alt="image" width="400" height="285" /></strong>
+<strong><img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb853.png" border="0" alt="image" width="400" height="285" /></strong>
 
 &nbsp;
 
@@ -73,7 +73,7 @@ Now a wizard appears where you have to enter the following information’s:
 
 - Virtual hard disk place and a possible installation medium
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb854.png" border="0" alt="image" width="479" height="369" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb854.png" border="0" alt="image" width="479" height="369" />
 
 <strong>User Hyper-V</strong>
 
@@ -81,7 +81,7 @@ Now a wizard appears where you have to enter the following information’s:
 
 After you’ve created the VM you are now able to start the VM, connect yourself via RDP with the integrated monitor or make some snapshots and so on.
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb855.png" border="0" alt="image" width="538" height="224" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb855.png" border="0" alt="image" width="538" height="224" />
 
 <strong>VHDs are compatible with other virtualization platforms </strong>
 
@@ -93,4 +93,4 @@ The virtual hard disk (VHD) could also be used from other Hyper-V installations,
 
 If you like to test new operation systems without knocking out your main computer virtualization is a good thing. With Hyper-V you have a new powerful solution in the desktop operation system – just a few clicks away <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile49.png" alt="Zwinkerndes Smiley" />
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb856.png" border="0" alt="image" width="587" height="366" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb856.png" border="0" alt="image" width="587" height="366" />

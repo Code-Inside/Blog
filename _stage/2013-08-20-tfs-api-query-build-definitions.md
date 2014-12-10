@@ -54,7 +54,7 @@ http://www.CodeHighlighter.com/
             Console.ReadLine();
         }
     }</span></div></pre><!-- Code inserted with Steve Dunn's Windows Live Writer Code Formatter Plugin.  http://dunnhq.com --></div>
-<p><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; padding-right: 0px" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb1044.png" width="590" height="415" /></p>
+<p><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1044.png" width="590" height="415" /></p>
 <p><b>How does the authentication work?</b></p>
 
 <p>Basically the API runs all the time in the credentials of the users – if you access the team foundation service the Microsoft account is chosen by default. OnPremise the Windows account will be activated.

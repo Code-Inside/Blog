@@ -9,7 +9,7 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb224.png" border="0" alt="image" width="171" height="129" align="left" />A short time ago I found MSMQ. To say it easy: MSMQ is a system where messages are able to be classified into queues and be converted piece by piece.
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb224.png" border="0" alt="image" width="171" height="129" align="left" />A short time ago I found MSMQ. To say it easy: MSMQ is a system where messages are able to be classified into queues and be converted piece by piece.
 
 <!--more-->
 
@@ -27,19 +27,19 @@ Later I´m going to talk about some more advantages and disadvantages and I woul
 
 The infrastructure is included every ware since XP (?). You only need to activate it in the windows functions:
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb225.png" border="0" alt="image" width="310" height="111" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb225.png" border="0" alt="image" width="310" height="111" />
 
 Afterwards you are able to see MSMQ Services in the Computer-Management and Service:
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb226.png" border="0" alt="image" width="259" height="256" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb226.png" border="0" alt="image" width="259" height="256" />
 
 Click right and you will be able to look into already existing queues and to create new ones:
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb227.png" border="0" alt="image" width="579" height="100" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb227.png" border="0" alt="image" width="579" height="100" />
 
 Here it is also possible to take a look into the several massages:
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb228.png" border="0" alt="image" width="222" height="244" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb228.png" border="0" alt="image" width="222" height="244" />
 
 For my demo code it is necessary to create the "test" queue beneath the private queues.
 
@@ -49,7 +49,7 @@ For my demo code it is necessary to create the "test" queue beneath the privat
 
 In .NET Framework you will find everything you need to start:
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb229.png" border="0" alt="image" width="563" height="321" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb229.png" border="0" alt="image" width="563" height="321" />
 
 <strong>Write a new message into the queue: </strong>
 

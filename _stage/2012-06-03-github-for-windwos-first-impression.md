@@ -19,7 +19,7 @@ Git is a good thing and offers many new options – but in fact the entrence is 
 
 The <a href="https://github.com/blog/1127-github-for-windows">GitHub guys</a>, among others <a href="http://haacked.com/archive/2012/05/21/introducing-github-for-windows.aspx">Phil Haack</a>, recognized the problem and the first impression looks good.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image1551.png" border="0" alt="image" width="606" height="358" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image1551.png" border="0" alt="image" width="606" height="358" />
 
 <strong>What’s GitHub for Windows?</strong>
 
@@ -37,19 +37,19 @@ On the one hand it’s the bridge to the GitHub.com side – you can see your re
 
 A pretty “Metro”-look-a-like-App welcomes us and asks for the Credentials to GitHub.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="SNAGHTML1523cf6" src="http://code-inside.de/blog/wp-content/uploads/SNAGHTML1523cf6_thumb.png" border="0" alt="SNAGHTML1523cf6" width="565" height="324" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="SNAGHTML1523cf6" src="{{BASE_PATH}}/assets/wp-images-de/SNAGHTML1523cf6_thumb.png" border="0" alt="SNAGHTML1523cf6" width="565" height="324" />
 
 After the Login the basic settings for Git are going to be set (gitconfig).
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="SNAGHTML152f711" src="http://code-inside.de/blog/wp-content/uploads/SNAGHTML152f711_thumb1.png" border="0" alt="SNAGHTML152f711" width="573" height="333" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="SNAGHTML152f711" src="{{BASE_PATH}}/assets/wp-images-de/SNAGHTML152f711_thumb1.png" border="0" alt="SNAGHTML152f711" width="573" height="333" />
 
 Unfortunately I skipped the 3. Step accidently because of this all I had was my Repositories which lay on GitHub.com.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="SNAGHTML1564678" src="http://code-inside.de/blog/wp-content/uploads/SNAGHTML1564678_thumb1.png" border="0" alt="SNAGHTML1564678" width="570" height="331" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="SNAGHTML1564678" src="{{BASE_PATH}}/assets/wp-images-de/SNAGHTML1564678_thumb1.png" border="0" alt="SNAGHTML1564678" width="570" height="331" />
 
 With Drag-n-Drop it’s possible to get local Repositories into the application and you are able to take a look on the whole history and the state.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb716.png" border="0" alt="image" width="565" height="328" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb716.png" border="0" alt="image" width="565" height="328" />
 
 <strong>Let’s go on to the Shell</strong>
 
@@ -57,9 +57,9 @@ With Drag-n-Drop it’s possible to get local Repositories into the application 
 
 It’s also very comfortable to use Git from the prompt. Usually you need to fight with msysGit and the Bash but GitHub for Windows installs Posh-Git for the Powershell automatically. But you can choose for yourself which Shell you are prefers in the end.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="SNAGHTML158b071" src="http://code-inside.de/blog/wp-content/uploads/SNAGHTML158b071_thumb.png" border="0" alt="SNAGHTML158b071" width="559" height="413" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="SNAGHTML158b071" src="{{BASE_PATH}}/assets/wp-images-de/SNAGHTML158b071_thumb.png" border="0" alt="SNAGHTML158b071" width="559" height="413" />
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image4_thumb.png" border="0" alt="image" width="564" height="324" /><strong> </strong>
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image4_thumb.png" border="0" alt="image" width="564" height="324" /><strong> </strong>
 
 <strong></strong>
 
@@ -71,4 +71,4 @@ GitHub for Windows isn’t a complete GUI for all orders from Git and do not ent
 
 If you have GitHub Repositories and work with Windows: Install. How (and if) it works with Git Hostern (<a href="http://code-inside.de/blog/2012/03/30/codeplex-wird-modernisiert/">Codeplex</a> for example) I can’t tell but the UI with the Metro-look is very comfortable. <img class="wlEmoticon wlEmoticon-smile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile15.png" alt="Smiley" />
 
-<img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb715.png" border="0" alt="image" width="122" height="100" align="left" />What’s your opinion about <a href="http://www.knowyourstack.com/what-is/github">GitHub</a> and <a href="http://www.knowyourstack.com/what-is/git">Git</a>? What’s good at GitHub? What’s bad? You are welcome to tell me on <a href="http://www.knowyourstack.com/">KnowYourStack</a> <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile39.png" alt="Zwinkerndes Smiley" /> (of course the project is hosted at GitHub).
+<img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb715.png" border="0" alt="image" width="122" height="100" align="left" />What’s your opinion about <a href="http://www.knowyourstack.com/what-is/github">GitHub</a> and <a href="http://www.knowyourstack.com/what-is/git">Git</a>? What’s good at GitHub? What’s bad? You are welcome to tell me on <a href="http://www.knowyourstack.com/">KnowYourStack</a> <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile39.png" alt="Zwinkerndes Smiley" /> (of course the project is hosted at GitHub).

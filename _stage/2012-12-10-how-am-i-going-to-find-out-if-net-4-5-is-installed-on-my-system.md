@@ -27,7 +27,7 @@ Good entrance (and I’m going to talk about this later again) is the post of Sc
 
 To clarify what version you’ve got installed you will find an helpful hint from the registry at the pad “Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full”
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb819.png" border="0" alt="image" width="542" height="219" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb819.png" border="0" alt="image" width="542" height="219" />
 
 In my cases it is: Jepp - .NET 4.5. Unfortunately this test will only work if you are the system-admin and in full control of the system and the applications.
 

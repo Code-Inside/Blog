@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image.png" src="http://code-inside.de/blog/wp-content/uploads/image1325.png" border="0" alt="image.png" width="300" height="184" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image.png" src="{{BASE_PATH}}/assets/wp-images-de/image1325.png" border="0" alt="image.png" width="300" height="184" />
 
 With the Version 13 of Chrome Google activated a <a href="http://chrome.blogspot.com/2011/08/instant-pages-on-google-chrome.html">new feature named “Instant Page”.</a> It’s another step into “making the web faster”. What “instant page” is shows this video:
 <div id="scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:727e700d-ddca-4ce2-a62e-1f6162e22e2c" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
@@ -65,7 +65,7 @@ Following HTML Code <strong>without Prerendering</strong>:
 </div>
 There is just a Request/Response and a Favicon will be searched (doesn’t matter at the moment). No surprise so far.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb508.png" border="0" alt="image" width="244" height="207" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb508.png" border="0" alt="image" width="244" height="207" />
 
 If you are navigating to the link Code-Inside.int it’s going to load in this moment = slow.
 
@@ -77,11 +77,11 @@ If we want to activate Prerendering now all we have to do is to add this line in
 </div>
 Now you can see in the Chrome Dev Tools that the address is requested but there are no other files shown – only with Chrome 14 we will get new information’s.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb509.png" border="0" alt="image" width="404" height="207" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb509.png" border="0" alt="image" width="404" height="207" />
 
 A few into Fiddler will give us more information’s. With the Prerendering all needed files will be downloaded:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb510.png" border="0" alt="image" width="499" height="454" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb510.png" border="0" alt="image" width="499" height="454" />
 
 Now the side appears with a click.
 

@@ -74,11 +74,11 @@ I present you three different models of how to integrate complex objects into th
 
 <p>With the “[NUMBER]” of the field the MVC Binder will know that this is only a list. It’s possible to get this as interlaced as you like. It’s important at that point that the numbering is continuous. </p>
 
-<p><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb736.png" width="477" height="333" /></p>
+<p><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb736.png" width="477" height="333" /></p>
 
 <p>If you take a look on what is transmitted you will recognize that it isn’t that complicated at all:</p>
 
-<p><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb737.png" width="558" height="255" /></p>
+<p><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb737.png" width="558" height="255" /></p>
 
 <p><b>Model 2: send the form via jQuery with Ajax</b></p>
 
@@ -97,7 +97,7 @@ I present you three different models of how to integrate complex objects into th
 
 <p>I grab the Click-Event of one button and get all the information’s via “serializeArray()”. We are going to take another look at the transmission. It’s important that there are only form files as Content-Type not JSON:</p>
 
-<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb738.png" width="552" height="314" /></p>
+<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb738.png" width="552" height="314" /></p>
 
 <p><b>Model 3: Files created with Javascript – transmit Javascript Arrays with AJAX </b></p>
 
@@ -129,7 +129,7 @@ I present you three different models of how to integrate complex objects into th
 
 <p>First we create an Array in Javascript:</p>
 
-<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb739.png" width="528" height="244" /></p>
+<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb739.png" width="528" height="244" /></p>
 
 <p>Next we create a “requestData” and set our “Name”-Testproperty and connect the Array.</p>
 
@@ -145,7 +145,7 @@ I present you three different models of how to integrate complex objects into th
 
 <p>That’s what is going to be transmitted:</p>
 
-<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb740.png" width="525" height="352" /></p>
+<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb740.png" width="525" height="352" /></p>
 
 <p>Because of the content-type: application/json the MVC framework uses the JSON modelbinder automatically and the information’s will be transmitted to the controller.</p>
 

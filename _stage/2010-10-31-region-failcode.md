@@ -9,7 +9,7 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb230.png" border="0" alt="image" width="191" height="191" align="left" />This is a very old subject. But thanks to a way to motivated workmate, who used to drop "regions" in every code, we talked about this subject again. Are #regions good or not?
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb230.png" border="0" alt="image" width="191" height="191" align="left" />This is a very old subject. But thanks to a way to motivated workmate, who used to drop "regions" in every code, we talked about this subject again. Are #regions good or not?
 
 For all of you who don´t know what the hell Im talking about: #region on <a href="http://msdn.microsoft.com/en-us/library/9a1ybwek(VS.71).aspx">MSDN</a>.
 
@@ -17,7 +17,7 @@ For all of you who don´t know what the hell Im talking about: #region on <a hre
 
 Let´s take a look on an example:
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb231.png" border="0" alt="image" width="142" height="203" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb231.png" border="0" alt="image" width="142" height="203" />
 
 "..." stands for countless other stuff.
 
@@ -41,19 +41,19 @@ Often I find some #regions in classes where the code consists of endless lines t
 
 For example you open a method and find this:
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb232.png" border="0" alt="image" width="178" height="114" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb232.png" border="0" alt="image" width="178" height="114" />
 
 I have the problem that I even so want to see the code. So I click to open it.
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb233.png" border="0" alt="image" width="181" height="211" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb233.png" border="0" alt="image" width="181" height="211" />
 
 Fascinating.... but wait... what happens on Y?
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb234.png" border="0" alt="image" width="193" height="310" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb234.png" border="0" alt="image" width="193" height="310" />
 
 Every good thing is three.... What´s written behind Z?
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb235.png" border="0" alt="image" width="202" height="346" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb235.png" border="0" alt="image" width="202" height="346" />
 
 Fantastic isn´t it? Of course the code in my example is nonsense but in fact there could be kilometres of code behind X,Y and Z.
 

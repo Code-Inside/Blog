@@ -19,7 +19,7 @@ I’ve <a href="http://code-inside.de/blog-in/2012/04/25/sign-in-with-twitter-fo
 
 <strong> </strong>
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb771.png" border="0" alt="image" width="290" height="330" align="left" />If you are going to create an ordinary MVC 4 WebApp you will find an “AccountController” and several classes in “AccountModels.cs”.
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb771.png" border="0" alt="image" width="290" height="330" align="left" />If you are going to create an ordinary MVC 4 WebApp you will find an “AccountController” and several classes in “AccountModels.cs”.
 
 <strong>Save Twitter Login in RavenDB, MongoDB or what ever </strong>
 
@@ -65,7 +65,7 @@ I’ve mentioned how to find the Twitter Keys <a href="http://code-inside.de/blo
 
 After the successful login you will receive this “result”:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb772.png" border="0" alt="image" width="400" height="376" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb772.png" border="0" alt="image" width="400" height="376" />
 
 <strong>Publish on Twitter with the TwitterClient?</strong>
 

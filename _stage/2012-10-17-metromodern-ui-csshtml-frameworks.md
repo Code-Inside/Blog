@@ -35,7 +35,7 @@ If you are just interested in the style in my opinion this could be a good optio
 
 <strong><a href="http://aozora.github.com/bootmetro/">BootMetro:</a></strong>
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb765.png" border="0" alt="image" width="581" height="228" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb765.png" border="0" alt="image" width="581" height="228" />
 
 <strong> </strong>
 
@@ -51,7 +51,7 @@ BootMetro relies on Twitter Bootstrap as well and is inspired by Metro UI CSS (w
 
 - Styles for “Standard-Form-Elements”
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb766.png" border="0" alt="image" width="491" height="247" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb766.png" border="0" alt="image" width="491" height="247" />
 
 In fact it offers you everything you will need to design your Web-Application like a Windows 8 App. But unfortunately I’m not very comfortable with this alternative because in my opinion this is way to desktop-oriented. Even the scroll direction in Hub is horizontal – matter of taste <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile44.png" alt="Zwinkerndes Smiley" /> however you don’t have to use it.
 
@@ -61,7 +61,7 @@ Anyway it is much more advanced than the “Metro-Bootstrap” project. Also the
 
 <strong><a href="http://metroui.org.ua/">Metro UI CSS</a></strong>
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb767.png" border="0" alt="image" width="579" height="265" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb767.png" border="0" alt="image" width="579" height="265" />
 
 <strong> </strong>
 
@@ -75,7 +75,7 @@ Most important disadvantage in my opinion: they didn’t rely on Bootstrap. Mayb
 
 <strong><a href="https://wrapbootstrap.com/theme/madmin-admin-theme-WB042R743">MAdmin (with costs)</a> – <a href="http://wrapbootstrap.com/preview/WB042R743">Preview</a></strong>
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb769.png" border="0" alt="image" width="574" height="253" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb769.png" border="0" alt="image" width="574" height="253" />
 
 <strong> </strong>
 

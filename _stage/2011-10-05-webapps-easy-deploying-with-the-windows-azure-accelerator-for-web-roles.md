@@ -59,11 +59,11 @@ The actually application which you want to run on Azure don’t need to know abo
 
 <strong>Wher did I get the “Windows Azure Accelerator for Web Roles”?</strong>
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb525.png" border="0" alt="image" width="94" height="102" align="left" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb525.png" border="0" alt="image" width="94" height="102" align="left" />
 
 &nbsp;
 
-<a href="http://code-inside.de/blog/wp-content/uploads/image1344.png">Windows Azure Accelerator for Web Roles</a> on <a href="http://waawebroles.codeplex.com/">Codepex</a>!
+<a href="{{BASE_PATH}}/assets/wp-images-de/image1344.png">Windows Azure Accelerator for Web Roles</a> on <a href="http://waawebroles.codeplex.com/">Codepex</a>!
 
 &nbsp;
 

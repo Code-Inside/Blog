@@ -29,13 +29,13 @@ The ADFS uses the IIS to host his own end points. There is also a simple Login-p
 
 Afterwards a simple „Login-Page“ appears – after one click on „login“ you should see something:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb983.png" border="0" alt="image" width="558" height="252" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb983.png" border="0" alt="image" width="558" height="252" />
 
 If this site appears without username/Password the login works over Kerberos – otherwise you should use NTLM.
 
 If <strong>everything goes wrong</strong> (or the configuration database is “broken”) you will receive an error message like this:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb984.png" border="0" alt="image" width="550" height="225" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb984.png" border="0" alt="image" width="550" height="225" />
 
 <strong></strong>
 

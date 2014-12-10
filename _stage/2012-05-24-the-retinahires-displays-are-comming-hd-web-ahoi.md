@@ -23,7 +23,7 @@ The best part of the IPad3? The Display. After <a href="http://www.codinghorror.
 
 The pixel density is much higher on these Displays so you are able to see pictures with many details. I found this comparison between iPad2 and iPad3 on <a href="http://www.theverge.com/">TheVerge.com</a>
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb688.png" border="0" alt="image" width="409" height="264" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb688.png" border="0" alt="image" width="409" height="264" />
 
 Impressing isn’t it?
 
@@ -39,7 +39,7 @@ The idea is that the framework takes the high resolution pictures automatically 
 
 <strong>How Apple delivers Pictures for the iPad3 on Apple.com </strong>
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image1522.png" border="0" alt="image" width="540" height="326" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image1522.png" border="0" alt="image" width="540" height="326" />
 
 <strong> </strong>
 
@@ -66,11 +66,11 @@ It needs to be accented that this means a lot of work for the data line because 
 
 Non-Retina:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb689.png" border="0" alt="image" width="599" height="54" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb689.png" border="0" alt="image" width="599" height="54" />
 
 Retina-Display:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb690.png" border="0" alt="image" width="609" height="59" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb690.png" border="0" alt="image" width="609" height="59" />
 
 The Retina Version is <strong>three times</strong> bigger than the normal size!
 
@@ -80,7 +80,7 @@ The Retina Version is <strong>three times</strong> bigger than the normal size!
 
 <a href="http://retinajs.com/">Retina.js</a> works almost in the same way and it abides by the naming scheme from the iOS Device (with @2x)
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image1525.png" border="0" alt="image" width="524" height="336" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image1525.png" border="0" alt="image" width="524" height="336" />
 
 All you have to do is to implement the Script and it will start searching for every img-Tag on the Site and check if there is a Retina Version.
 

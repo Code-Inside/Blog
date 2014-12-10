@@ -25,11 +25,11 @@ The update runs fine from my Windows 7 Desktop PC and even all my programs worke
 
 Huge memory usage (this box contains 8 GB) directly after the boot – without any program apparent using it!
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="process" src="http://code-inside.de/blog/wp-content/uploads/process_thumb.png" border="0" alt="process" width="582" height="398" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="process" src="{{BASE_PATH}}/assets/wp-images-de/process_thumb.png" border="0" alt="process" width="582" height="398" />
 
 Maybe the task manager hides something – but also the resource monitor left me in the dark – there is nothing occupying the monitor even if I add everything:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="resourcemon" src="http://code-inside.de/blog/wp-content/uploads/resourcemon_thumb.png" border="0" alt="resourcemon" width="591" height="561" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="resourcemon" src="{{BASE_PATH}}/assets/wp-images-de/resourcemon_thumb.png" border="0" alt="resourcemon" width="591" height="561" />
 
 I know it – the RAM should be used but in this dimension? Furthermore the main storage seemed to increase. Mh…
 
@@ -43,13 +43,13 @@ Now the next step should be clear.
 
 A little anecdote about the reinstallation: Windows 8 offers in the options a button to refresh your operating system, either with personal data or without – great idea, <em>technically.</em>
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb742.png" border="0" alt="image" width="598" height="439" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb742.png" border="0" alt="image" width="598" height="439" />
 
 <em> </em>
 
 Unfortunately it didn’t work for me or at least I didn’t know what he needs for my “Custom-Build-PC” (look at the picture below). <em> </em>Also I wasn’t into searching for it so I’ve decided to take another try with the iso of the Windows 8 installation and get a new windows – again.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb743.png" border="0" alt="image" width="604" height="369" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb743.png" border="0" alt="image" width="604" height="369" />
 
 <strong>Result</strong>
 

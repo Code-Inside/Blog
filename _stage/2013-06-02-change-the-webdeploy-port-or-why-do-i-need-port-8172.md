@@ -25,7 +25,7 @@ If you use WebDeploy on a server operation system you would usually use Port 817
 
 The Port 8172 is the default port of the IIS Management Service which is only available for server operation systems (so don’t worry if you can’t find it in IIS at Windows 7/8).
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb978.png" border="0" alt="image" width="376" height="410" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb978.png" border="0" alt="image" width="376" height="410" />
 
 You can change the settings on GUI (or Powershell) while the service is not running.
 
@@ -60,11 +60,11 @@ I found <a href="http://www.iis.net/learn/manage/remote-administration/remote-ad
 
 Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WebManagement\Server
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb979.png" border="0" alt="image" width="458" height="275" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb979.png" border="0" alt="image" width="458" height="275" />
 
 Other settings are in the <a href="http://www.iis.net/configreference/system.webserver/management">administration.config</a> (C:\Windows\System32\inetsrv\config)
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb980.png" border="0" alt="image" width="240" height="133" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb980.png" border="0" alt="image" width="240" height="133" />
 
 <strong>TL; DR:</strong>
 

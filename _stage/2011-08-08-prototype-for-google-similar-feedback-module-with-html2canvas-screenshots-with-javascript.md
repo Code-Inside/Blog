@@ -19,11 +19,11 @@ language: en
 
 A main problem for every Developer is that you can’t see what the user will see. The developer from Google integrated a useful tool where you are able to mark a part of the Side and send it to Google as a screenshot. Both developer and user will have a maximum plus of Usability.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb485.png" border="0" alt="image" width="509" height="343" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb485.png" border="0" alt="image" width="509" height="343" />
 
 Today I found a Javascript-Framework which is able to pack the HTML in a Canvas. The name is <a href="http://html2canvas.hertzen.com/">Html2Canvas</a> and it is still experimental and has several limitations but at least it works with many sides. Here is the <a href="http://html2canvas.hertzen.com/screenshots.html">testconsole</a>:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb486.png" border="0" alt="image" width="408" height="275" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb486.png" border="0" alt="image" width="408" height="275" />
 
 Little downer: of course it’s not a real Screenshot but a picture of the DOM. More you can read <a href="http://html2canvas.hertzen.com/">on the developer side</a>. And of course Html2Canvas only works it the browser supports the Canvas element.
 
@@ -69,11 +69,11 @@ Because it’s not the regular fileupload running here and because of this I can
 </div>
 The result is nice:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb488.png" border="0" alt="image" width="244" height="129" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb488.png" border="0" alt="image" width="244" height="129" />
 
 In fact my sides are not rendered quite good but almost <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile22.png" alt="Zwinkerndes Smiley" />
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb489.png" border="0" alt="image" width="420" height="332" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb489.png" border="0" alt="image" width="420" height="332" />
 
 The images will be saved in the directory of the application.
 

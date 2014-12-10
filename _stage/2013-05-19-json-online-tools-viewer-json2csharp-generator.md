@@ -19,7 +19,7 @@ Wherever APIs are mentioned the JSON format I not far away. Since I’m using tw
 
 If you only see the JSON-Text you are usually not able to see the structure. With the help of JSON Viewer you can have an easy overview: [<a href="http://jsonviewer.stack.hu/">URL</a>]
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image1837.png" border="0" alt="image" width="568" height="564" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image1837.png" border="0" alt="image" width="568" height="564" />
 
 &nbsp;
 
@@ -29,4 +29,4 @@ The name says everything: with this tool you can easily transform JSON into CSha
 
 &nbsp;
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image1838.png" border="0" alt="image" width="560" height="602" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image1838.png" border="0" alt="image" width="560" height="602" />

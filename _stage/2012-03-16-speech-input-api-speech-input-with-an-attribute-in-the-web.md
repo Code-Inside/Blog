@@ -13,7 +13,7 @@ language: en
 
 By accident I found the page of <a href="http://code.nasa.gov/">code.nasa.org</a> today. A little icon showing a microphone cached my attention:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb613.png" border="0" alt="image" width="535" height="109" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb613.png" border="0" alt="image" width="535" height="109" />
 
 <a href="http://www.thechromesource.com/how-to-demo-chrome-11s-speech-recognition-feature/">Since Chrome 11</a> there is a “support” for the <a href="http://lists.w3.org/Archives/Public/public-xg-htmlspeech/2011Feb/att-0020/api-draft.html">Speech Input API</a>. I’ve read about this but in fact I thought the integration would be more extensive. Surprisingly the implementation is very easy – with the attribute “x-webkit-speech” (later on it’s only “speech”). The whole thing should be able to work with Input and Textarea elements:
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:3628542e-0da2-407e-80b2-458cc7027018" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">

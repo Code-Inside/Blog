@@ -55,11 +55,11 @@ This is the default model for the registration in the ASP.NET MVC project draft.
 
 Everything is alright as long as <strong>the ClientValidation is on</strong>:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb615.png" border="0" alt="image" width="464" height="173" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb615.png" border="0" alt="image" width="464" height="173" />
 
 If it’s off you will receive this error message:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb616.png" border="0" alt="image" width="426" height="101" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb616.png" border="0" alt="image" width="426" height="101" />
 
 The error message “The vaule ‘Test’ is not valid for Age.” Will be written directly into the ModelState:
 
@@ -71,7 +71,7 @@ Unfortunately it’s not that easy to <a href="http://forums.asp.net/t/1512140.a
 
 You need to create a Resource file at the App_GlobalResources and add a “PropertyValuenvalid” with the proper text:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb618.png" border="0" alt="image" width="503" height="162" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb618.png" border="0" alt="image" width="503" height="162" />
 
 Link the Resource file to the Global.asax:
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:d0183f0e-56d0-475a-b1dc-3b06efb5e778" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">

@@ -9,7 +9,7 @@ tags: [HowTo, Timer, Timers, Zeit]
 language: en
 ---
 {% include JB/setup %}
-<p><img style="border-right-width: 0px; margin: 0px 10px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" align="left" src="http://code-inside.de/blog/wp-content/uploads/image1038.png" width="134" height="134" /></p>  <p>During a project we had the order to run a specific SQL request after several minutes or seconds and to evaluate them in order to the results. You can solve this problem a little bit "dirty" by using a while(true) loop and Thread.Sleep, or you use a timer.</p> <!--more--><strong>Example:</strong>  <p></p>  <p>For example we are going to build a console application which is used to write something on the commando line every 10 seconds.</p>  <p><strong>The "Dirty" way..</strong></p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:aff75203-b58c-48bd-b4d3-217615c6b02a" class="wlWriterSmartContent">   <pre class="c#">            while (true)
+<p><img style="border-right-width: 0px; margin: 0px 10px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image1038.png" width="134" height="134" /></p>  <p>During a project we had the order to run a specific SQL request after several minutes or seconds and to evaluate them in order to the results. You can solve this problem a little bit "dirty" by using a while(true) loop and Thread.Sleep, or you use a timer.</p> <!--more--><strong>Example:</strong>  <p></p>  <p>For example we are going to build a console application which is used to write something on the commando line every 10 seconds.</p>  <p><strong>The "Dirty" way..</strong></p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:aff75203-b58c-48bd-b4d3-217615c6b02a" class="wlWriterSmartContent">   <pre class="c#">            while (true)
             {
                 Thread.Sleep(1000);
                 Console.WriteLine(&quot;Bla!&quot;);
@@ -32,7 +32,7 @@ language: en
 
 <p>At the end of the article there is a really good comparison:</p>
 
-<p><a href="http://code-inside.de/blog/wp-content/uploads/image1039.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb222.png" width="523" height="209" /></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1039.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb222.png" width="523" height="209" /></a></p>
 
 <p>In my opinion the "System.Windows.Forms.Timer" is only useful for Windows.Forms applications.</p>
 
@@ -106,7 +106,7 @@ namespace Timers.ConsoleApp
 
 <p><strong>So many alternatives. And now?</strong></p>
 
-<p><a href="http://code-inside.de/blog/wp-content/uploads/image1040.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; margin-left: 0px; border-left-width: 0px; margin-right: 0px" title="image" border="0" alt="image" align="left" src="http://code-inside.de/blog/wp-content/uploads/image_thumb223.png" width="128" height="146" /></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image1040.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; margin-left: 0px; border-left-width: 0px; margin-right: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb223.png" width="128" height="146" /></a></p>
 
 <p>Like already mentioned, the easiest solution is the System.Timers.Timer. While working with ASP.NET I would like to recommend you to not use time-controlled applications because you never know when the AppPool is going to shut down. It´s better to use the timer in a windows service. But if there is no other way you better try one of the other alternatives I presented to you.</p>
 

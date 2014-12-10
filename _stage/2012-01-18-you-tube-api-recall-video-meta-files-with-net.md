@@ -9,7 +9,7 @@ tags: [You Tube API]
 language: en
 ---
 {% include JB/setup %}
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image.png" src="http://code-inside.de/blog/wp-content/uploads/image1387.png" border="0" alt="image.png" width="150" height="150" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image.png" src="{{BASE_PATH}}/assets/wp-images-de/image1387.png" border="0" alt="image.png" width="150" height="150" />
 
 &nbsp;
 
@@ -29,7 +29,7 @@ For comfortable excess I recommend you Google Data APIs. You will find this on N
 
 All you need is the Google.GData.Client and the Google.GData.YouTube package:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb570.png" border="0" alt="image" width="537" height="168" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb570.png" border="0" alt="image" width="537" height="168" />
 
 <strong>Code</strong>
 
@@ -69,6 +69,6 @@ More Informations on <a href="http://code.google.com/apis/youtube/2.0/developers
 
 <strong>Result of my codes:</strong>
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb571.png" border="0" alt="image" width="555" height="222" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb571.png" border="0" alt="image" width="555" height="222" />
 
 <a href="http://code.google.com/p/code-inside/source/browse/#git%2F2011%2Fyoutubeapi%253Fstate%253Dclosed">[Code on Google Code]</a>

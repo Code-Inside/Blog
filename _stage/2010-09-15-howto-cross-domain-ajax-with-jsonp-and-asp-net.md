@@ -9,7 +9,7 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<a href="http://code-inside.de/blog/wp-content/uploads/image_thumb66.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; margin-left: 0px; border-left-width: 0px; margin-right: 0px" title="ajax" src="http://code-inside.de/blog/wp-content/uploads/image_thumb66.png" border="0" alt="ajax" hspace="12" width="147" height="154" align="left" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image_thumb66.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; margin-left: 0px; border-left-width: 0px; margin-right: 0px" title="ajax" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb66.png" border="0" alt="ajax" hspace="12" width="147" height="154" align="left" /></a>
 
 Actually it isn´t possible to send Ajax Requests to addresses which are reachable at the same domain like the site where the script is executed.The reason for this is the <a href="http://de.wikipedia.org/wiki/Same_Origin_Policy" target="_blank">Same Origin Policy</a> in JavaScript. There it is given, that the port, the protocol and the domain have to be equal to start requests. This is save but unfortunately not practical.
 
@@ -75,7 +75,7 @@ jQuery works like this:
        response += "({\"response\":\"" + context.Session["RequestCounter"]  + " requests startet\"});";
 context.Response.Write(response);</pre>
 </div>
-<a href="http://code-inside.de/blog/wp-content/uploads/image_thumb67.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; margin-left: 0px; border-left-width: 0px; margin-right: 0px" title="clip_image002" src="file:///Z:/Users/Oliver%20Guhr/AppData/Local/Temp/WindowsLiveWriter783867672/supfiles2E0B85/clip_image002_thumb2.jpg" border="0" alt="http://code-inside.de/blog/wp-content/uploads/image_thumb67.png" hspace="12" width="223" height="317" align="left" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image_thumb67.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; margin-left: 0px; border-left-width: 0px; margin-right: 0px" title="clip_image002" src="file:///Z:/Users/Oliver%20Guhr/AppData/Local/Temp/WindowsLiveWriter783867672/supfiles2E0B85/clip_image002_thumb2.jpg" border="0" alt="{{BASE_PATH}}/assets/wp-images-de/image_thumb67.png" hspace="12" width="223" height="317" align="left" /></a>
 
 For this example I used a Generic Handler (.ashx). But you could also use a WCF service. The example consists of two projects. A clientproject "CrossDomainAjax" and a serviceproject "SourceDomain". To start the demo press with the right mousebutton on the name of the <strong>Project -&gt; debug -&gt; Start new instance</strong>
 

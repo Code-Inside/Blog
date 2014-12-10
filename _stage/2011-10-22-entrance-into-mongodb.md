@@ -37,7 +37,7 @@ So far… where is the Code?
 
 4. Easy isn’t it? <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile28.png" alt="Zwinkerndes Smiley" />
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border-width: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb560.png" border="0" alt="image" width="530" height="280" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border-width: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb560.png" border="0" alt="image" width="530" height="280" />
 
 <strong>Code</strong>
 
@@ -47,7 +47,7 @@ So far… where is the Code?
 
 2. Now you have to link these two references:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border-width: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb561.png" border="0" alt="image" width="244" height="201" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border-width: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb561.png" border="0" alt="image" width="244" height="201" />
 
 3. Now we are able to connect:
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:3bdd4bb2-b5aa-44f5-a20b-826836ba38d2" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
@@ -172,13 +172,13 @@ Console.WriteLine("all users droped in: " + insertTimer.ElapsedMilliseconds + "m
 </div>
 And that is my result (4GB RAM QuadCore, HDD RAID5, no SSD)
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border-width: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb562.png" border="0" alt="image" width="497" height="263" /><strong> </strong>
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border-width: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb562.png" border="0" alt="image" width="497" height="263" /><strong> </strong>
 
 <strong>Management</strong>
 
 <strong> </strong>
 
-<img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; border-width: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb563.png" border="0" alt="image" width="216" height="108" align="left" />To manage mongoDB there are <a href="http://www.mongodb.org/display/DOCS/Admin+UIs">several Tools</a> available. I used the MongoExplorer for now. The dressy Silverlight tool could be installed directly from <a href="http://mongoexplorer.com/">the website</a>.
+<img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; border-width: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb563.png" border="0" alt="image" width="216" height="108" align="left" />To manage mongoDB there are <a href="http://www.mongodb.org/display/DOCS/Admin+UIs">several Tools</a> available. I used the MongoExplorer for now. The dressy Silverlight tool could be installed directly from <a href="http://mongoexplorer.com/">the website</a>.
 
 &nbsp;
 

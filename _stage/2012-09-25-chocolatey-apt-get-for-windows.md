@@ -33,7 +33,7 @@ The team of Chocolatey published a video which shows some of the functions:
 
 Simple start CMD and follow this:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb712.png" border="0" alt="image" width="474" height="65" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb712.png" border="0" alt="image" width="474" height="65" />
 
 <em>@powershell -NoProfile -ExecutionPolicy unrestricted -Command “iex ((new-object net.webclient).DownloadString(‘http://bit.ly/psChocInstall’))”</em>
 

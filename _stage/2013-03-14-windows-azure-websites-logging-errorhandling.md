@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 The <a href="http://code-inside.de/blog/2013/03/02/windows-azure-websites-git-hosting-deployment-leicht-gemacht/">Azure Websites</a> are easy to handle but still it doesn’t take much effort to add new instances. But how should I react if an error appears?
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb937.png" border="0" alt="image" width="575" height="239" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb937.png" border="0" alt="image" width="575" height="239" />
 
 <strong>Azure Website Configuration </strong>
 
@@ -27,7 +27,7 @@ At the adjustments of Azure Websites you will find three diagnostic-tools:
 
 <a href="http://www.windowsazure.com/en-us/manage/services/web-sites/how-to-monitor-websites/">Source: How to monitor web sites</a>
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb938.png" border="0" alt="image" width="578" height="390" /><strong> </strong>
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb938.png" border="0" alt="image" width="578" height="390" /><strong> </strong>
 
 <strong>Where are these Logs saved?</strong>
 
@@ -37,9 +37,9 @@ The logs are saved in a directory on the machine which is accessible via FTP. Th
 
 &nbsp;
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb939.png" border="0" alt="image" width="398" height="164" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb939.png" border="0" alt="image" width="398" height="164" />
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb940.png" border="0" alt="image" width="395" height="333" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb940.png" border="0" alt="image" width="395" height="333" />
 
 <strong> </strong>
 
@@ -53,7 +53,7 @@ ELMAH to the rescue!
 
 I quickly decided for ELMAH including the additional <a href="https://github.com/alexanderbeletsky/elmah.mvc">ASP.NET MVC Integration</a>:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb941.png" border="0" alt="image" width="458" height="313" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb941.png" border="0" alt="image" width="458" height="313" />
 
 Now integrate the XmlFile-Provider into the web.config:
 <pre class="csharpcode">&lt;elmah&gt;
@@ -61,7 +61,7 @@ Now integrate the XmlFile-Provider into the web.config:
 &lt;/elmah&gt;</pre>
 <!-- .csharpcode, .csharpcode pre { 	font-size: small; 	color: black; 	font-family: consolas, "Courier New", courier, monospace; 	background-color: #ffffff; 	/*white-space: pre;*/ } .csharpcode pre { margin: 0em; } .csharpcode .rem { color: #008000; } .csharpcode .kwrd { color: #0000ff; } .csharpcode .str { color: #006080; } .csharpcode .op { color: #0000c0; } .csharpcode .preproc { color: #cc6633; } .csharpcode .asp { background-color: #ffff00; } .csharpcode .html { color: #800000; } .csharpcode .attr { color: #ff0000; } .csharpcode .alt  { 	background-color: #f4f4f4; 	width: 100%; 	margin: 0em; } .csharpcode .lnum { color: #606060; } -->Now you are able to navigate to the page and the App_Data directory via FTP:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb942.png" border="0" alt="image" width="457" height="146" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb942.png" border="0" alt="image" width="457" height="146" />
 
 Of course Log4Net or NLog would work as well.
 

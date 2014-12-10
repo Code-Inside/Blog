@@ -39,9 +39,9 @@ language: en
                                             new XElement("title", i),
                                             new XElement("link", "Code-Inside.de"),
                                             new XElement(media + "thumbnail", 
-                                                new XAttribute("url", "http://code-inside.de/blog/wp-content/uploads/image-thumb" + i + ".png")),
+                                                new XAttribute("url", "{{BASE_PATH}}/assets/wp-images-de/image-thumb" + i + ".png")),
                                             new XElement(media + "content",
-                                                new XAttribute("url", "http://code-inside.de/blog/wp-content/uploads/image-thumb" + i + ".png"))
+                                                new XAttribute("url", "{{BASE_PATH}}/assets/wp-images-de/image-thumb" + i + ".png"))
                                        );
                 list.Add(itemElement);
             }

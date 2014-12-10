@@ -9,7 +9,7 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb199.png" border="0" alt="image" width="132" height="130" align="left" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb199.png" border="0" alt="image" width="132" height="130" align="left" />
 
 This Blogspot is based on Scott Hanselmans "WeeklySourceCode", where MetaWebLog API was the subject of today. In the Blogspot he relates that MS use the Windows Live Writer also to administrate their own websites. The tool is absolutely practical and it works with MetaWebLog API.
 
@@ -27,11 +27,11 @@ The ordinary user likes to move pictures into word by copy and paste and to angl
 
 The main advantage is given by the nice clients. There is for example the Windows Live Writer:
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb200.png" border="0" alt="image" width="244" height="212" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb200.png" border="0" alt="image" width="244" height="212" />
 
 But also Word from the version of 2007:
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb201.png" border="0" alt="image" width="360" height="241" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb201.png" border="0" alt="image" width="360" height="241" />
 
 In diesen Tools kann man einfach aus der Zwischenablage Bilder etc. einfÃ¼gen und entsprechend editieren. Erst beim "VerÃ¶ffentlichen" werden die Daten zum Server Ã¼bertragen.
 

@@ -11,13 +11,13 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image.png" src="http://code-inside.de/blog/wp-content/uploads/image1867-570x194.png" border="0" alt="image.png" width="570" height="194" />
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image.png" src="{{BASE_PATH}}/assets/wp-images-de/image1867-570x194.png" border="0" alt="image.png" width="570" height="194" />
 
 The deployment of ASP.NET applications on Azure websites in Visual Studio is pretty easy. With the new Azure SDK it is possible to import your Azure subscription and directly choose the already created Azure Website as deployment-destination:
 
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb1008.png" border="0" alt="image" width="544" height="431" />
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1008.png" border="0" alt="image" width="544" height="431" />
 
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb1009.png" border="0" alt="image" width="553" height="440" />
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1009.png" border="0" alt="image" width="553" height="440" />
 
 &nbsp;
 
@@ -31,7 +31,7 @@ Visual Studio saves the password somewhere else. Besides it is not a very clean 
 
 If you use <a href="http://code-inside.de/blog-in/2010/11/21/howto-msdeploy-msbuild/">MSBuild for example to build a WebDeploy Package</a> you will receive a Batch-file beside the main package where you can start the process.
 
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb1010.png" border="0" alt="image" width="521" height="127" />
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1010.png" border="0" alt="image" width="521" height="127" />
 
 If you run the file like this you will see a ReadMe file. Important for Azure Websites: you need a password to deploy!
 
@@ -41,11 +41,11 @@ If you run the file like this you will see a ReadMe file. Important for Azure We
 
 The only way I know is to download the Publishing-Profile using the Web-Management-Tool. The WebDeploy password isn’t connected to the FTP/GIT-password which can be set in addition!
 
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb1011.png" border="0" alt="image" width="501" height="341" />
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1011.png" border="0" alt="image" width="501" height="341" />
 
 This file shows the uncoded but still cryptical password:
 
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb1012.png" border="0" alt="image" width="530" height="83" /><strong></strong>
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1012.png" border="0" alt="image" width="530" height="83" /><strong></strong>
 
 <strong></strong>
 

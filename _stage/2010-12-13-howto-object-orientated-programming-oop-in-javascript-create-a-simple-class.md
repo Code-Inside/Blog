@@ -66,13 +66,13 @@ language: en
 
 <p>It works. (tested IE7 and FF2);</p>
 
-<p><img border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image-thumb130.png" width="193" height="169" /></p>
+<p><img border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb130.png" width="193" height="169" /></p>
 
-<p><img border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image-thumb131.png" width="193" height="169" /></p>
+<p><img border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb131.png" width="193" height="169" /></p>
 
 <p>A view into firebug shows us the hierarchy:</p>
 
-<p><img border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image-thumb132.png" width="424" height="98" /></p>
+<p><img border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb132.png" width="424" height="98" /></p>
 
 <p><b>Continuative links:</b></p>
 

@@ -31,7 +31,7 @@ The main different to the other NoSQL databases is the well done integration int
 
 <strong>Data storage with RavenDB…</strong>
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb471.png" border="0" alt="image" width="555" height="250" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb471.png" border="0" alt="image" width="555" height="250" />
 
 Different to an SQL database schema less JSON document will be saved in RavenDB. It’s also possible to apply LINQ based Indexes. The documentation is also quite good for a <a href="http://ravendb.net/documentation">first entry</a>. At least first-time user should read “<a href="http://ravendb.net/documentation/docs-document-design">Document Structure Design Considerations</a>”.
 
@@ -55,7 +55,7 @@ The easiest way is the console application.
 
 All you have to do is run the “Raven.Server.exe” in the folder “Server” (as admin!):
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb473.png" border="0" alt="image" width="368" height="195" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb473.png" border="0" alt="image" width="368" height="195" />
 
 <strong>RavenDB management interface </strong>
 
@@ -63,9 +63,9 @@ All you have to do is run the “Raven.Server.exe” in the folder “Server” 
 
 After the start of the server should the management interface open in the browser. The RavenDB management studio is in Silverlight and it looks quite nice. In this management interface it’s possible to take a look at the documents and edit them. I think it’s related to the SQL management studio.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb474.png" border="0" alt="image" width="244" height="196" /><a href="http://code-inside.de/blog/wp-content/uploads/image1292.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb474.png" border="0" alt="image" width="244" height="196" /></a>
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb474.png" border="0" alt="image" width="244" height="196" /><a href="{{BASE_PATH}}/assets/wp-images-de/image1292.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb474.png" border="0" alt="image" width="244" height="196" /></a>
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb476.png" border="0" alt="image" width="518" height="319" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb476.png" border="0" alt="image" width="518" height="319" />
 
 <strong>To use RavenDB in projects…</strong>
 

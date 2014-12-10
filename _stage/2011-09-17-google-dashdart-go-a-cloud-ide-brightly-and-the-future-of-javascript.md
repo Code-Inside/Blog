@@ -73,7 +73,7 @@ Dart is meant to become the “Front-End” language in the World of Google whic
 Yes, but short term we are focused on the client.</blockquote>
 <strong>What happens with GO?</strong>
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb536.png" border="0" alt="image" width="368" height="216" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb536.png" border="0" alt="image" width="368" height="216" />
 <blockquote>Go is a very promising systems-programming language in the vein of C++.  We
 fully hope and expect that Go becomes the standard back-end language at
 Google over the next few years.   Dash is focused on client (and eventually

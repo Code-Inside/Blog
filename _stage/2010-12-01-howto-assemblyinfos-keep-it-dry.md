@@ -9,7 +9,7 @@ tags: [assembly info, DLL, Don't repeat yourself]
 language: en
 ---
 {% include JB/setup %}
-<p>&#160;</p> <img title="image" border="0" alt="image" align="left" src="http://code-inside.de/blog/wp-content/uploads/image_thumb267.png" width="176" height="146" />  <p>Click right on a DLL and take a look on the detail-list of the characteristics and you will find all the different entries about the version and other stuff. For those thinks we are used to create an <a href="http://msdn.microsoft.com/en-us/library/microsoft.visualbasic.applicationservices.as">assembly info file</a> during every project. But while you are doing so don't forget about the DRY principle: <a href="http://en.wikipedia.org/wiki/Don't_repeat_yourself">"Don't repeat yourself"</a></p>  <p>&#160;</p>  <!--more-->  <p><b>typical project structure</b></p>  <p><b></b></p>  <p>We have several projects in one solution and they are linked with each other in some way. In every Project we will find an Assemblyinfo file:</p>  <p>&#160;</p> <img title="image" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb268.png" width="224" height="244" />  <p><b>What's written in such an Assemblyinfo file?</b></p>  <p><b></b></p>  <p>Something like this:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:904622e2-48be-4e3f-948e-aa975efb1f00" class="wlWriterEditableSmartContent"><pre name="code" class="c#">using System.Reflection;
+<p>&#160;</p> <img title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb267.png" width="176" height="146" />  <p>Click right on a DLL and take a look on the detail-list of the characteristics and you will find all the different entries about the version and other stuff. For those thinks we are used to create an <a href="http://msdn.microsoft.com/en-us/library/microsoft.visualbasic.applicationservices.as">assembly info file</a> during every project. But while you are doing so don't forget about the DRY principle: <a href="http://en.wikipedia.org/wiki/Don't_repeat_yourself">"Don't repeat yourself"</a></p>  <p>&#160;</p>  <!--more-->  <p><b>typical project structure</b></p>  <p><b></b></p>  <p>We have several projects in one solution and they are linked with each other in some way. In every Project we will find an Assemblyinfo file:</p>  <p>&#160;</p> <img title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb268.png" width="224" height="244" />  <p><b>What's written in such an Assemblyinfo file?</b></p>  <p><b></b></p>  <p>Something like this:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:904622e2-48be-4e3f-948e-aa975efb1f00" class="wlWriterEditableSmartContent"><pre name="code" class="c#">using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -94,9 +94,9 @@ using System.Runtime.InteropServices;
 
 <p>4. link the "GlobalAssembly" with "Add Existing Item" and navigate to the file. Press "Add a Link"!!! (otherwise a copy will be created and that´s not what we want)</p>
 
-<p><img title="image" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb269.png" width="459" height="406" /></p>
+<p><img title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb269.png" width="459" height="406" /></p>
 
-<p><img title="image" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb270.png" width="470" height="305" /></p>
+<p><img title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb270.png" width="470" height="305" /></p>
 
 <p><b>Thats it!</b></p>
 

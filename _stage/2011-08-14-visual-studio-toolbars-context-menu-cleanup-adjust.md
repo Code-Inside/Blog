@@ -21,7 +21,7 @@ Visual Studio has a lot of functions and shows in the standard adjustment a lot 
 
 That’s what my VS Toolbar looked like before:
 
-<strong><img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb512.png" border="0" alt="image" width="609" height="62" /></strong>
+<strong><img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb512.png" border="0" alt="image" width="609" height="62" /></strong>
 
 <strong>Problem:</strong>
 
@@ -37,13 +37,13 @@ In my case it was just the “Web Platform Installer” (I didn’t get why this
 
 Intermediate result:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb513.png" border="0" alt="image" width="573" height="49" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb513.png" border="0" alt="image" width="573" height="49" />
 
 Now to my point b)
 
 At the arrows you can adjust the visible Buttons with “Add or Remove Buttons”:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb514.png" border="0" alt="image" width="329" height="272" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb514.png" border="0" alt="image" width="329" height="272" />
 
 Some Toolbars are depending on the filetype – XSLT and XML buttons you will find only in files which includes XML.
 
@@ -51,7 +51,7 @@ Result (because I didn’t used the other buttons):
 
 &nbsp;
 
-<a href="http://code-inside.de/blog/wp-content/uploads/image1333.png"><img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb515.png" border="0" alt="image" width="423" height="70" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-de/image1333.png"><img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb515.png" border="0" alt="image" width="423" height="70" /></a>
 
 Same thing in the Debug view:
 
@@ -65,7 +65,7 @@ Way better <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: 
 
 It’s also possible to edit the Context-menus but in fact depending on which Plugins/SDKs you have installed there are numerous options and it’s not easy to find the right on. I’m sure it’s possible to edit every button of the Context-menus:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb517.png" border="0" alt="image" width="385" height="405" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb517.png" border="0" alt="image" width="385" height="405" />
 
 Sometimes the Buttons/Functions are double because of this I didn’t found out how to get the “Convert to Web Application” Button out of the Project Context-Menu (after 15 Minutes of searching I’ve aborted it.
 

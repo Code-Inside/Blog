@@ -40,7 +40,7 @@ h2 {
 
 <p>First we need to link the dotless into our webproject (for example on NuGet)</p>
 
-<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb469.png" width="543" height="202" /></p>
+<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb469.png" width="543" height="202" /></p>
 
 <p>On this library we are able to start the transformation from the code. How this could look like you will see if you read this nice description (even if it’s a little bit old) Dynamic <a href="http://schotime.net/blog/index.php/2010/07/02/dynamic-dot-less-css-with-asp-net-mvc-2/">Dot Less CSS With Asp.net MVC 2</a>. </p>
 
@@ -48,7 +48,7 @@ h2 {
 
 <p>Combres is a nice library to send static Content (like JS or CSS files) to the client on a “better” way. Combres offers help with dotLess innately. Combres (including the MVC helper) is also a NuGet Package:</p>
 
-<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb470.png" width="342" height="203" /></p>
+<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb470.png" width="342" height="203" /></p>
 
 <p>The usage of Combres after the installation is simple (and well described on the ReadMe Files). Combres is able to “manipulate” files before they will be delivered. Also integrated is a filter for DotLess (a view into the code you will find <a href="http://www.codeproject.com/KB/aspnet/combres2.aspx">here</a>). All you have to do is to put the DotLessCssFilter into the Combres.xml and the .LESS Css file as resource. </p>
 

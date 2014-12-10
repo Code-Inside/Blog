@@ -20,7 +20,7 @@ language: en
 
 <p>Because the Startup Task calls a simple CMD you can do almost everything on it. <a href="http://things.smarx.com/">Steven Marx has created a cool website</a> where he collects many interesting things about what you can do with Aure:</p>
 
-<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb420.png" width="369" height="276" /></p>
+<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb420.png" width="369" height="276" /></p>
 
 <p>The Installscripts look a little bit ... different but there are some nice examples like: how to install Phyton:</p>
 

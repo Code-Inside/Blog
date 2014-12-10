@@ -9,7 +9,7 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<img src="http://code-inside.de/blog/wp-content/uploads/image-thumb737.png" border="0" alt="image" width="135" height="125" align="left" />Cookies are a great way to save files on a client like for example registration files ore other stuff. I´m sure some of you who are using the ASP.NET membership system are already familiar with the "stay declared" function. This "HowTo" teach you an easy way how to create and delete a cookie.
+<img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb737.png" border="0" alt="image" width="135" height="125" align="left" />Cookies are a great way to save files on a client like for example registration files ore other stuff. I´m sure some of you who are using the ASP.NET membership system are already familiar with the "stay declared" function. This "HowTo" teach you an easy way how to create and delete a cookie.
 
 <!--more-->
 
@@ -19,13 +19,13 @@ language: en
 
 As demo base I use the ASP.NET MVC Framework. That´s what the test page looks like if a cookie is opened:
 
-<img src="http://code-inside.de/blog/wp-content/uploads/image-thumb738.png" border="0" alt="image" width="268" height="111" />
+<img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb738.png" border="0" alt="image" width="268" height="111" />
 
 I also registered the time when the cookie was created. (Yes. I´ve been blogging at 3 a.m. in the morning. My poor girlfriend ;) )
 
 If there is no cookie found than it looks like this:
 
-<img src="http://code-inside.de/blog/wp-content/uploads/image-thumb739.png" border="0" alt="image" width="244" height="96" />
+<img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb739.png" border="0" alt="image" width="244" height="96" />
 
 The output of the index.aspx runs over the Home Controller:
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:efaf5dba-55e7-44a6-a605-c0b199f5068e" class="wlWriterEditableSmartContent" style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">

@@ -39,11 +39,11 @@ You will find a nice overview about the subject on the <a href="http://stackover
 
 .NET 4 client profile application:
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb860.png" border="0" alt="image" width="559" height="205" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb860.png" border="0" alt="image" width="559" height="205" />
 
 As far as I remember Visual Studio 2010 doesn’t act as clever (what lead to <a href="http://rantdriven.com/post/2011/01/07/NET-Framework-4-Client-Profile-The-Devil-Itself!.aspx">this errors</a>) as Visual Studio 2012 and didn’t show this hint:
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb861.png" border="0" alt="image" width="482" height="129" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb861.png" border="0" alt="image" width="482" height="129" />
 
 <strong>With .NET 4.5 there isn’t a client profile</strong>
 

@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image.png" src="http://code-inside.de/blog/wp-content/uploads/image1920-570x194.png" border="0" alt="image.png" width="570" height="194" />
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image.png" src="{{BASE_PATH}}/assets/wp-images-de/image1920-570x194.png" border="0" alt="image.png" width="570" height="194" />
 
 A common German saying is „the shoe maker always wears the worst pair of shoes!“ – that’s also true for the IT business. Usually internal tools or services are developed lukewarm and without the required professionalism.
 
@@ -31,7 +31,7 @@ If you figure out that you might need an internal tool to run your business you 
 
 <strong>DevOps – GitHub &amp; Stackoverflow for example</strong>
 
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 5px 5px 0px; padding-right: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image1919.png" border="0" alt="image" width="240" height="227" align="left" />Especially since there is a growing number of <a href="http://en.wikipedia.org/wiki/DevOps">DevOps</a> you might think about investing more time into your internal tools. GitHub and Stackoverflow show you how.
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 5px 5px 0px; padding-right: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image1919.png" border="0" alt="image" width="240" height="227" align="left" />Especially since there is a growing number of <a href="http://en.wikipedia.org/wiki/DevOps">DevOps</a> you might think about investing more time into your internal tools. GitHub and Stackoverflow show you how.
 
 &nbsp;
 
@@ -57,7 +57,7 @@ Recently the Stackoverflow-team gave us a <a href="http://blog.serverfault.com/2
 
 &nbsp;
 
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image1920.png" border="0" alt="image" width="578" height="453" />
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image1920.png" border="0" alt="image" width="578" height="453" />
 
 More examples in the <a href="http://blog.serverfault.com/2013/09/05/homegrown-devops-tools-at-stack-exchange/">blogpost</a>.
 

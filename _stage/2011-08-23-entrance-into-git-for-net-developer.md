@@ -33,7 +33,7 @@ For playing around it’s a good idea to create a Repository on <a href="http://
 
 GitHub offers a great help which adopts you the subject step by step. From the setup of the client…
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb500.png" border="0" alt="image" width="569" height="351" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb500.png" border="0" alt="image" width="569" height="351" />
 
 … to the creation of the first repositories:
 
@@ -53,7 +53,7 @@ Now it’s visible at GitHub (in the example it’s a readme file).
 
 In fact it’s not that different at <a href="http://code.google.com/hosting/createProject">Google Code</a>. Here it starts with cloning the Repository. With this the “.git” folder will be placed in the directory.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb498.png" border="0" alt="image" width="580" height="232" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb498.png" border="0" alt="image" width="580" height="232" />
 
 <strong>Add files</strong>
 
@@ -61,7 +61,7 @@ I’ve copied files into the directory. Via “<strong>git add</strong>.” All 
 
 Now the order “git commit –m “COMMENT” appears – But be careful if you call git commit VIM appears and asks you to insert a comment:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb499.png" border="0" alt="image" width="510" height="149" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb499.png" border="0" alt="image" width="510" height="149" />
 
 Press “I” for the Inser-Mode and enter something now “ESC” and “:wq” I recommend you the “-m ‘Comment’” parameter.
 

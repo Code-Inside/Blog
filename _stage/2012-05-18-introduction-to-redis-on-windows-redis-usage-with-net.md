@@ -29,11 +29,11 @@ It isn’t a secret that the <a href="http://blogs.msdn.com/b/interoperability/a
 
 One of the firs comments is already mentioning Azure:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb694.png" border="0" alt="image" width="586" height="84" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb694.png" border="0" alt="image" width="586" height="84" />
 
 the answer:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb695.png" border="0" alt="image" width="589" height="120" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb695.png" border="0" alt="image" width="589" height="120" />
 
 Let’s take a look when this could be reality: additionally there are already some <a href="http://www.cloudhostingguru.com/redis-server-hosting.php">Redis Hoster</a>.
 
@@ -41,11 +41,11 @@ Let’s take a look when this could be reality: additionally there are already s
 
 Before it will work in the Cloud it should work on our Windows surrounding. At the Moment (May 2012) you need to download this <a href="https://github.com/MSOpenTech/redis/tree/bksavecow">Dev Branch</a> and open the RedisServer.sln with Visual Studio:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb696.png" border="0" alt="image" width="288" height="325" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb696.png" border="0" alt="image" width="288" height="325" />
 
 You need to build the Solution (consisting of C ++ Projects):
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb697.png" border="0" alt="image" width="244" height="198" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb697.png" border="0" alt="image" width="244" height="198" />
 
 Depending on your configuration you will receive the msvs\Debug folder or the msvs\Release folder. The folder contains numerous files including the redis-server.exe.
 
@@ -53,7 +53,7 @@ Depending on your configuration you will receive the msvs\Debug folder or the ms
 
 After the Start of the Server you will see the Server Port (a little bit hidden but still there)
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="SNAGHTMLd00e987" src="http://code-inside.de/blog/wp-content/uploads/SNAGHTMLd00e987_thumb.png" border="0" alt="SNAGHTMLd00e987" width="501" height="265" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="SNAGHTMLd00e987" src="{{BASE_PATH}}/assets/wp-images-de/SNAGHTMLd00e987_thumb.png" border="0" alt="SNAGHTMLd00e987" width="501" height="265" />
 
 <strong>Redis &amp; .NET AKA play around with API</strong>
 
@@ -61,7 +61,7 @@ After the Start of the Server you will see the Server Port (a little bit hidden 
 
 Advance notice: I do not know what to do with Redis it is just pure interest and ludic drive.
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb698.png" border="0" alt="image" width="381" height="222" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb698.png" border="0" alt="image" width="381" height="222" />
 
 For demonstration I’ve created a simple MVC project and searched Redis via NuGet:
 
@@ -85,11 +85,11 @@ Democode:
 </div>
 E voilà! A GUID:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb699.png" border="0" alt="image" width="352" height="169" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb699.png" border="0" alt="image" width="352" height="169" />
 
 And there is also something going on in the console:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="SNAGHTMLd074196" src="http://code-inside.de/blog/wp-content/uploads/SNAGHTMLd074196_thumb.png" border="0" alt="SNAGHTMLd074196" width="529" height="280" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="SNAGHTMLd074196" src="{{BASE_PATH}}/assets/wp-images-de/SNAGHTMLd074196_thumb.png" border="0" alt="SNAGHTMLd074196" width="529" height="280" />
 
 <strong>When should I use Redis? What is good? What is bad?</strong>
 

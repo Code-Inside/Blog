@@ -29,9 +29,9 @@ At first Adobe proposed a big standard with more Use-Cases. To bring the parts q
 
 <strong>CSS Regions</strong><em> </em><em>includes named flows and region chains that allow for complex, magazine-style layouts.</em><strong>CSS Exclusions</strong><em> </em><em>defines ways to flow inline content around and inside shapes that are either defined in CSS or extracted from content.</em><em> </em><strong>CSS Fragmentation</strong><em> </em><em>defines how content breaks between pages, columns or regions.</em>
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb648.png" border="0" alt="image" width="476" height="337" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb648.png" border="0" alt="image" width="476" height="337" />
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb649.png" border="0" alt="image" width="497" height="569" />
+<img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb649.png" border="0" alt="image" width="497" height="569" />
 
 <em> </em>
 

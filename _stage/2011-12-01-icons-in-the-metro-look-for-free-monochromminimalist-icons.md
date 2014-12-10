@@ -23,7 +23,7 @@ At the moment it is in to create simple but elegant designs. A good example is t
 
 <strong><a href="http://thenounproject.com/">The noun project</a></strong>
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb580.png" border="0" alt="image" width="488" height="446" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb580.png" border="0" alt="image" width="488" height="446" />
 
 <strong> </strong>
 
@@ -43,21 +43,21 @@ According to Windows8 + you are able to make suggestions for new Icons! There ar
 
 Here are several Iconsets as well – even for “special cases” like for example Multitouch applications.
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb582.png" border="0" alt="image" width="482" height="486" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb582.png" border="0" alt="image" width="482" height="486" />
 
 <strong><a href="http://pc.de/icons/">PC.de</a></strong>
 
 On this side you will find several types of this Icons:
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb583.png" border="0" alt="image" width="358" height="261" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb583.png" border="0" alt="image" width="358" height="261" />
 
 <strong><a href="http://www.tutorial9.net/downloads/108-mono-icons-huge-set-of-minimal-icons/">108 MONO/Icons</a></strong>
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb584.png" border="0" alt="image" width="346" height="253" />
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb584.png" border="0" alt="image" width="346" height="253" />
 
 <strong><a href="mailto:gCon@smashingMagazin">gCon@smashingMagazin</a></strong>
 
-<strong> <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb585.png" border="0" alt="image" width="342" height="339" /></strong>
+<strong> <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb585.png" border="0" alt="image" width="342" height="339" /></strong>
 
 <strong> </strong>
 

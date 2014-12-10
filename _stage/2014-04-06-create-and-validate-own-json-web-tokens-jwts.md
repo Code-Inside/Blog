@@ -77,5 +77,5 @@ http://www.CodeHighlighter.com/
 <p>The token is created with all parameters and with the same parameters and the key we will make the token readable again. 
 <p>It is also possible to exchange this token between server applications or app and service. 
 <p>The picture shows the output of the program: the token and at the end the “name”-Claim.
-<p>&nbsp; <p><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; padding-right: 0px" border="0" alt="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb1066.png" width="575" height="132">
+<p>&nbsp; <p><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1066.png" width="575" height="132">
 <p>This code is of course also available on <a href="https://github.com/Code-Inside/Samples/tree/master/2013/JwtSampleApp">GitHub</a>.
