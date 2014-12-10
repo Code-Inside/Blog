@@ -59,4 +59,4 @@ language: en
 
 <p>As you can see: Creating of an RSS Feed is really simple with Linq to&#160; Xml. :)</p>
 
-<p><strong><a href="http://code-inside.de/files/democode/xlinqrss/xlinqrss.zip">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/xlinqrss/xlinqrss.zip">[ Download Source Code ]</a></strong></p>

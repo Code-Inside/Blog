@@ -112,4 +112,4 @@ namespace Timers.ConsoleApp
 
 <p><strong>Probably </strong>there exist a lot more alternatives. How are you solving any time-controlled problems? Of course you can solve it with a Sheduled Task or a program for consoles but that isn´t very classy as well. Aren´t it? ;) <strong></strong></p>
 
-<p><strong><a href="http://code-inside.de/files/democode/timers/timers.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/timers/timers.zip">[ Download Democode ]</a></strong></p>

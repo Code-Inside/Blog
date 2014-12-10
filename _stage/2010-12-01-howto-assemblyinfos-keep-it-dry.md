@@ -104,4 +104,4 @@ using System.Runtime.InteropServices;
 
 <p>Now we have just one location for our file. This could be very useful if you want to, for example, administrate the version-number. You are able to change the number at one location and every DLL will be created with the same. Easy but effective.</p>
 
-<p><a href="http://code-inside.de/files/democode/assemblyinfokeepitdry/assemblyinfokeepitdry.zip">[Download Democode]</a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/assemblyinfokeepitdry/assemblyinfokeepitdry.zip">[Download Democode]</a></p>

@@ -478,4 +478,4 @@ language: en
 
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image-thumb152.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="244" alt="image_thumb15" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb15-thumb1.png" width="243" border="0" /></a></p>
 
-<p><strong><a href="http://code-inside.de/files/democode/mvcbinding/mvcbinding.zip">[Download Source Code]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcbinding/mvcbinding.zip">[Download Source Code]</a></strong></p>

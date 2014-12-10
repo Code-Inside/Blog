@@ -83,4 +83,4 @@ Both projects should be started now. After this you should see a javascipt alert
 
 I know it´s not a really exiting example but I hope you are able to forgive me about this.
 
-<a href="http://code-inside.de/files/democode/crossdomainajax/CrossDomainAjax.zip" target="_blank">Here you can find the demo code.</a> Have Fun :)
+<a href="{{BASE_PATH}}/assets/files/democode/crossdomainajax/CrossDomainAjax.zip" target="_blank">Here you can find the demo code.</a> Have Fun :)

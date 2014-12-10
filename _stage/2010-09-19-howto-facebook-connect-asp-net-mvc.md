@@ -132,4 +132,4 @@ language: en
   <li><a href="http://www.rjygraham.com/archive/2009/11/22/using-facebook-connect-with-aspnet-mvc-and-the-facebook-developer-toolkit-3.aspx">Using Facebook Connect with ASP.NET MVC and the Facebook Developer Toolkit 3</a> </li>
 </ul>
 
-<p><strong><a href="http://code-inside.de/files/democode/mvcfacebookconnect/mvcfacebookconnect.zip">[Download Source Code]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvcfacebookconnect/mvcfacebookconnect.zip">[Download Source Code]</a></strong></p>

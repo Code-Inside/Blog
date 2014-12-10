@@ -69,4 +69,4 @@ language: en
 
 <p>That&#180;s it :)</p>
 
-<p><strong><a href="http://code-inside.de/files/democode/xlinqrss/xlinqrss.zip">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/xlinqrss/xlinqrss.zip">[ Download Source Code ]</a></strong></p>

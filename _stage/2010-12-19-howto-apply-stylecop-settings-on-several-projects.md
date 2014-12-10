@@ -66,4 +66,4 @@ language: en
 
 <p>It may be helpful to integrate StyleCop into your projects. But depending on the needs of every project you need to decide which rules are helpful. The rules are easy to manage with a central StyleCop file and it will be helpful after initiation of the project / solution because you will be reminded after every build - doesn´t matter from MSBuild or via Visual Studio.</p>
 
-<p><a href="http://code-inside.de/files/democode/msbuildsharedcodequality/msbuildsharedcodequality.zip">[Download Democode]</a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/msbuildsharedcodequality/msbuildsharedcodequality.zip">[Download Democode]</a></p>

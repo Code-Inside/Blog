@@ -83,4 +83,4 @@ language: en
 
 <p></p>
 
-<p><strong><a href="http://code-inside.de/files/democode/log4netintro/log4netintro.zip">[ Download Democode ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/log4netintro/log4netintro.zip">[ Download Democode ]</a></strong></p>

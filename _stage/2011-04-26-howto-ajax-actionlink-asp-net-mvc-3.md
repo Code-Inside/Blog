@@ -76,4 +76,4 @@ language: en
 
 <p>Like always a great help: <a href="http://stackoverflow.com/questions/4973605/ajax-actionlink-not-working-response-isajaxrequest-is-always-false">Stackoverflow</a> <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile11.png" /></p>
 
-<p><a href="http://code-inside.de/files/democode/mvc3ajaxactionlink/mvc3ajaxactionlink.zip">[Download Sample Code]</a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/mvc3ajaxactionlink/mvc3ajaxactionlink.zip">[Download Sample Code]</a></p>

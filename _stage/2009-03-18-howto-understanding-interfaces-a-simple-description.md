@@ -79,4 +79,4 @@ language: en
 
 <p><a href="{{BASE_PATH}}/assets/wp-images-de/image172.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="244" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb151.png" width="489" border="0" /></a></p>
 
-<p><strong><a href="http://code-inside.de/files/democode/usinginterfaces/usinginterfaces.zip" target="_blank">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/usinginterfaces/usinginterfaces.zip" target="_blank">[ Download Source Code ]</a></strong></p>

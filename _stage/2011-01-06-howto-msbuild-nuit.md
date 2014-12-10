@@ -64,4 +64,4 @@ language: en
 
 <p>All in all: A good and easy thing.</p>
 
-<p><a href="http://code-inside.de/files/democode/msbuildnunit/msbuildnunit.zip">[download democode]</a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/msbuildnunit/msbuildnunit.zip">[download democode]</a></p>

@@ -49,4 +49,4 @@ language: en
 
 <p>If you have only an IIS 6.0, you should read this great <a href="http://blog.codeville.net/2008/07/04/options-for-deploying-aspnet-mvc-to-iis-6/">blogpost</a>.</p>
 
-<p><strong><a href="http://code-inside.de/files/democode/dynamicdataadmin/dynamicdataadmin.zip">[ Download Democode (without DB) ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/dynamicdataadmin/dynamicdataadmin.zip">[ Download Democode (without DB) ]</a></strong></p>

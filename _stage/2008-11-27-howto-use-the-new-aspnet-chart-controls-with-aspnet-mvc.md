@@ -134,7 +134,7 @@ language: en
 
 <p>I think this is a very nice feature (and play well together with ASP.NET MVC) and you could add nice charts without buy a 3rd party licence.</p>
 
-<p><strong><a href="http://code-inside.de/files/democode/mvccharting/mvccharting.zip">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mvccharting/mvccharting.zip">[ Download Source Code ]</a></strong></p>
 
 <script type="text/javascript"><!--
 google_ad_client = "ca-pub-9430917753624356";

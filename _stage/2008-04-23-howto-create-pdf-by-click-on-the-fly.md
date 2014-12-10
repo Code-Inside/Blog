@@ -91,4 +91,4 @@ public class PdfHandler : IHttpHandler
 
 <p>Easy :)</p>
 
-<p><a href="http://code-inside.de/files/democode/pdfonthefly/pdfonthefly.zip">[ Download Democode ]</a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/pdfonthefly/pdfonthefly.zip">[ Download Democode ]</a></p>

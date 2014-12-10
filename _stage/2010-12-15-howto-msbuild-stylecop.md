@@ -55,4 +55,4 @@ language: en
 
 <p><a href="http://blog.newagesolution.net/2008/07/how-to-use-stylecop-and-msbuild-and.html">Blogpost</a></p>
 
-<p>&#160;<a href="http://code-inside.de/files/democode/msbuildcodequalitystylecop/msbuildcodequalitystylecop.zip">[download democode]</a></p>
+<p>&#160;<a href="{{BASE_PATH}}/assets/files/democode/msbuildcodequalitystylecop/msbuildcodequalitystylecop.zip">[download democode]</a></p>

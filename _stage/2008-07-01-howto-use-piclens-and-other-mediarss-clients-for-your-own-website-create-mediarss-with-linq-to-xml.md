@@ -67,6 +67,6 @@ language: en
 
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image32.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="340" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb32.png" width="452" border="0" /></a>&#160; <br />If you have several pictures on your site - publish a MediaRSS Feed. It&#180;s very easy and it&#180;s an open standard (<a href="http://search.yahoo.com/mrss">Specification @ Yahoo</a>) - Piclens is just one MediaRSS Client (but today the client with the best surface).</p>
 
-<p><strong><a href="http://code-inside.de/files/democode/mediarss/mediarss.zip">[ Download Source Code ]</a></strong></p>
+<p><strong><a href="{{BASE_PATH}}/assets/files/democode/mediarss/mediarss.zip">[ Download Source Code ]</a></strong></p>
 
 <p>PS: I use my german blog as the picture source - please don&#180;t abuse this example (traffic :( ) ;)</p>

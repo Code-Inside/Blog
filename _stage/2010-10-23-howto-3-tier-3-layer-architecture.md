@@ -58,4 +58,4 @@ language: en
 
 <p>The 3-layer architecture makes it way easier to add new features later and to repair the application. It´s also practical if you work in team because it´s easier to divide the subject.</p>
 
-<p><a href="http://code-inside.de/files/democode/threetier/threetier.zip">[ Download Source Code ]</a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/threetier/threetier.zip">[ Download Source Code ]</a></p>

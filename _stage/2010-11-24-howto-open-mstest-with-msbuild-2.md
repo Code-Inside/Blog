@@ -59,4 +59,4 @@ language: en
 
 <p>I know I´m not writing about something new but I had to google it so I thought you might be interested in it too. </p>
 
-<p>[ <a href="http://code-inside.de/files/democode/msbuildsamplemstest/msbuildsamplemstest.zip">Download Democode</a> ]</p>
+<p>[ <a href="{{BASE_PATH}}/assets/files/democode/msbuildsamplemstest/msbuildsamplemstest.zip">Download Democode</a> ]</p>

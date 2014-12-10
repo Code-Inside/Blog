@@ -149,4 +149,4 @@ namespace HelloMEF.English
 
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image37.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="183" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb39.png" width="264" border="0" /></a> </p>
 
-<p><strong>&#160;<a href="http://code-inside.de/files/democode/hellomef/hellomef.zip">[ Download Source Code ]</a></strong></p>
+<p><strong>&#160;<a href="{{BASE_PATH}}/assets/files/democode/hellomef/hellomef.zip">[ Download Source Code ]</a></strong></p>

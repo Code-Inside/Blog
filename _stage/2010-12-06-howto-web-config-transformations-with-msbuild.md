@@ -120,4 +120,4 @@ language: en
 <p>In my demosolution I work with some help variables of MSBuild - don´t be scared ;)</p>
 <p>If you open the Samplecode:</p>
 <p>D:\Samples\MsBuildSample ablegt findet Ihr das "BuildVerzeichnis" in D:\Samples\ClientTemp</p>
-<p><a href="http://code-inside.de/files/democode/msbuildsamplexmltransform/msbuildsamplexmltransform.zip">[Download Democode]</a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/msbuildsamplexmltransform/msbuildsamplexmltransform.zip">[Download Democode]</a></p>

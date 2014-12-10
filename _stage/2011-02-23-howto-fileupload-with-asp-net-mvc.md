@@ -50,4 +50,4 @@ language: en
 
 <p>Scott Hanselman has written a <a href="http://www.hanselman.com/blog/ABackToBasicsCaseStudyImplementingHTTPFileUploadWithASPNETMVCIncludingTestsAndMocks.aspx">fantastic Blogpost</a> about this subject. It also includes how Unit-Tests could look like in such a case. </p>
 
-<p><a href="http://code-inside.de/files/democode/mvcfileupload/mvcfileupload.zip">[Download Democode]</a></p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/mvcfileupload/mvcfileupload.zip">[Download Democode]</a></p>

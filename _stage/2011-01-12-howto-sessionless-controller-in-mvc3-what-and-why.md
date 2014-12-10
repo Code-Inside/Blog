@@ -98,4 +98,4 @@ language: en
 
 <p>In view of "big" web applications and scalability this could be an interesting subject for you. But if we talk about a usually site I´m sure you can live without this. To put something into a session is sometimes very comfortable and nice for some applications like for example wizard. That´s what I think about but maybe I´m wrong <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile8.png" /></p>
 
-<p><a href="http://code-inside.de/files/democode/mvcsessionless/mvcsessionless.zip">[Download Sample]</a> (Beware: Maybe you will need a higher version of Visual Studio to run the Test project) </p>
+<p><a href="{{BASE_PATH}}/assets/files/democode/mvcsessionless/mvcsessionless.zip">[Download Sample]</a> (Beware: Maybe you will need a higher version of Visual Studio to run the Test project) </p>
