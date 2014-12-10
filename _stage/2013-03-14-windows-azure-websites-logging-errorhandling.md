@@ -9,7 +9,7 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-The <a href="http://code-inside.de/blog/2013/03/02/windows-azure-websites-git-hosting-deployment-leicht-gemacht/">Azure Websites</a> are easy to handle but still it doesn’t take much effort to add new instances. But how should I react if an error appears?
+The <a href="{{BASE_PATH}}/2013/03/02/windows-azure-websites-git-hosting-deployment-leicht-gemacht/">Azure Websites</a> are easy to handle but still it doesn’t take much effort to add new instances. But how should I react if an error appears?
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb937.png" border="0" alt="image" width="575" height="239" />
 

@@ -43,7 +43,7 @@ To write a useful comment is a special art – but to comment on everything ends
         }
     }</pre>
 </div>
-The value of comments like this is almost zero – short of you tricked a special “Quality code Metric” or followed a rule. <a href="http://code-inside.de/blog/2010/11/18/howto-stylecop-settings-auf-mehrere-projekte-anwenden/">StyleCop</a> &amp; Co offer an easy way to create a rigid rule type.
+The value of comments like this is almost zero – short of you tricked a special “Quality code Metric” or followed a rule. <a href="{{BASE_PATH}}/2010/11/18/howto-stylecop-settings-auf-mehrere-projekte-anwenden/">StyleCop</a> &amp; Co offer an easy way to create a rigid rule type.
 
 <strong>Rules and “less is more”</strong>
 

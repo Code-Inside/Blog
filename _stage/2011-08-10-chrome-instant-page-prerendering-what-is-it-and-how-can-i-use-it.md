@@ -57,7 +57,7 @@ Following HTML Code <strong>without Prerendering</strong>:
 
 &lt;body&gt;
 
-&lt;a href="http://code-inside.de/blog"&gt;Link Code Inside&lt;/a&gt;
+&lt;a href="{{BASE_PATH}}"&gt;Link Code Inside&lt;/a&gt;
 
 &lt;/body&gt;
 
@@ -73,7 +73,7 @@ If you are navigating to the link Code-Inside.int it’s going to load in this m
 
 If we want to activate Prerendering now all we have to do is to add this line into &lt;head&gt;:
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:586d358a-ab37-44e4-a830-58004d8a4751" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
-<pre class="c#">&lt;link rel="prerender" href="http://code-inside.de/blog"&gt;</pre>
+<pre class="c#">&lt;link rel="prerender" href="{{BASE_PATH}}"&gt;</pre>
 </div>
 Now you can see in the Chrome Dev Tools that the address is requested but there are no other files shown – only with Chrome 14 we will get new information’s.
 
@@ -97,4 +97,4 @@ Technical you can activate it with &lt;link rel=”prerender”href=”…”&gt
 
 Google proposed a <a href="http://code.google.com/chrome/whitepapers/pagevisibility.html">Page Visibility API</a> to afford the side provider to see what the browser “see” while prerendering.
 
-[<a href="http://code.google.com/p/code-inside/source/browse/#git%2F2011%2FChromePrerender">Democode on Google Code</a> / <a href="http://code-inside.de/blog/code-inside.de/files/democode/chromeprerender/chromeprerender.zip">Download as Zip</a>]
+[<a href="http://code.google.com/p/code-inside/source/browse/#git%2F2011%2FChromePrerender">Democode on Google Code</a> / <a href="{{BASE_PATH}}/code-inside.de/files/democode/chromeprerender/chromeprerender.zip">Download as Zip</a>]

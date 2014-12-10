@@ -21,7 +21,7 @@ If you are looking for a current Metro Modern UI CSS/HTML Framework I’ve colle
 
 <a href="{{BASE_PATH}}/assets/wp-images-en/index.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="index" src="{{BASE_PATH}}/assets/wp-images-en/index_thumb.png" border="0" alt="index" width="516" height="338" /></a>
 
-Metro-Bootstrap relies on <a href="http://code-inside.de/blog/2012/02/02/twitter-bootstrap-2-0-released-release-prsentation/">Twitter Bootstrap</a> and because of this it is easy to use. The colors are more “metro style” (as I would call it) and most of the elements are kind of back to the basics – compared to the original Bootstrap.
+Metro-Bootstrap relies on <a href="{{BASE_PATH}}/2012/02/02/twitter-bootstrap-2-0-released-release-prsentation/">Twitter Bootstrap</a> and because of this it is easy to use. The colors are more “metro style” (as I would call it) and most of the elements are kind of back to the basics – compared to the original Bootstrap.
 
 There is also a Tiles component but in fact it doesn’t offer many opportunities in the moment so it is not very comfortable to work with.
 

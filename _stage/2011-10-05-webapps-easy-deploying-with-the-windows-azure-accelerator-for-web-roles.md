@@ -73,7 +73,7 @@ The actually application which you want to run on Azure don’t need to know abo
 
 <strong> </strong>
 
-The only disadvantage that gets into my mind is that in some Azure Instances the Web Site Manager runs as well and (like the name says) it is produced for Web Rolls only. But the name also betrays that the Deployment will be <a href="http://code-inside.de/blog/2011/02/22/automatisiertes-deployment-auf-windows-azure-ber-einen-buildserver-via-powershell/">much easier on Azure.</a>
+The only disadvantage that gets into my mind is that in some Azure Instances the Web Site Manager runs as well and (like the name says) it is produced for Web Rolls only. But the name also betrays that the Deployment will be <a href="{{BASE_PATH}}/2011/02/22/automatisiertes-deployment-auf-windows-azure-ber-einen-buildserver-via-powershell/">much easier on Azure.</a>
 
 <strong>Maybe it will be also much more beneficial to use it…</strong>
 

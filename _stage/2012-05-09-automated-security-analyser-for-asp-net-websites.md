@@ -29,7 +29,7 @@ The last test recommends hiding the information’s about the ASP.NET version / 
 
 <strong>That’s not enough!</strong>
 
-The service only provides very simple tests – For example there is no test for the entering validation. Here <a href="http://code-inside.de/blog/2012/04/03/xss-in-asp-net-mvcrequestvalidation-html-displayfor-mvchtmlstring/">you need to be very carefully!</a>
+The service only provides very simple tests – For example there is no test for the entering validation. Here <a href="{{BASE_PATH}}/2012/04/03/xss-in-asp-net-mvcrequestvalidation-html-displayfor-mvchtmlstring/">you need to be very carefully!</a>
 
 If someone wants to share more tips with us you are welcome J
 

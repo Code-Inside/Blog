@@ -77,7 +77,7 @@ According to the Standard the answer will be XML or JSON but at the moment JSON 
 
 <strong>jQuery oEmbed library </strong>
 
-There is also a <a href="http://code.google.com/p/jquery-oembed/">jQuery library</a> to call this service. For this they use <a href="http://code-inside.de/blog/2009/12/11/howto-cross-domain-ajax-mit-jsonp-und-asp-net/">JSONP.</a>
+There is also a <a href="http://code.google.com/p/jquery-oembed/">jQuery library</a> to call this service. For this they use <a href="{{BASE_PATH}}/2009/12/11/howto-cross-domain-ajax-mit-jsonp-und-asp-net/">JSONP.</a>
 
 <strong>Embed.ly – oEmbed Hub </strong>
 

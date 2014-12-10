@@ -13,7 +13,7 @@ language: en
 
 <strong> </strong>
 
-Adobe is well known for Photoshop and Flash but of course there is a lot more. According to the <a href="http://code-inside.de/blog/2012/03/14/cutting-edge-chrome-web-platform-technologies/">“Future Post” from Google</a> Adobe declared one of their big subjects <a href="http://blogs.adobe.com/webplatform/2012/03/16/css-regions-one-year-in/">on a Blogpost</a>. I’m talking about the W3C Working Draft to CSS Regions. Adobe cooperates with the WebKit Team and W3C on this.
+Adobe is well known for Photoshop and Flash but of course there is a lot more. According to the <a href="{{BASE_PATH}}/2012/03/14/cutting-edge-chrome-web-platform-technologies/">“Future Post” from Google</a> Adobe declared one of their big subjects <a href="http://blogs.adobe.com/webplatform/2012/03/16/css-regions-one-year-in/">on a Blogpost</a>. I’m talking about the W3C Working Draft to CSS Regions. Adobe cooperates with the WebKit Team and W3C on this.
 
 <strong> </strong>
 

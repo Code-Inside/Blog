@@ -13,7 +13,7 @@ language: en
 
 <strong> </strong>
 
-To get files into the MVC Controller <a href="http://code-inside.de/blog/2009/04/02/howto-daten-vom-view-zum-controller-bermitteln-bindings-in-aspnet-mvc/">Modelbinding</a> from MVC is a clever method.
+To get files into the MVC Controller <a href="{{BASE_PATH}}/2009/04/02/howto-daten-vom-view-zum-controller-bermitteln-bindings-in-aspnet-mvc/">Modelbinding</a> from MVC is a clever method.
 
 But in fact it is a little bit complicated to set the error message if the connection failed.
 

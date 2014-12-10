@@ -21,7 +21,7 @@ language: en
 
 <p></p>
 
-<p>The most important tag is the &quot;<strong>Url</strong>&quot;-Tag with the &quot;searchTerm&quot; template to create later such an URL: <a title="http://code-inside.de/blog/?s=AJAX" href="{{BASE_PATH}}/?s=AJAX">{{BASE_PATH}}/?s=AJAX</a>&#160;</p>
+<p>The most important tag is the &quot;<strong>Url</strong>&quot;-Tag with the &quot;searchTerm&quot; template to create later such an URL: <a title="{{BASE_PATH}}/?s=AJAX" href="{{BASE_PATH}}/?s=AJAX">{{BASE_PATH}}/?s=AJAX</a>&#160;</p>
 
 <p><strong><u>Add the search provider to you browser</u></strong></p>
 

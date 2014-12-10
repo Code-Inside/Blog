@@ -66,4 +66,4 @@ language: en
 
 <p>Fascinating!</p>
 
-<p><a href="http://code-inside.de/blog/2010/10/18/howto-dropdownlistfor-einsetzen/code-inside.de/files/democode/mvcdropdownlisthelper/mvcdropdownlisthelper.zip">[Download Democode]</a></p>
+<p><a href="{{BASE_PATH}}/2010/10/18/howto-dropdownlistfor-einsetzen/code-inside.de/files/democode/mvcdropdownlisthelper/mvcdropdownlisthelper.zip">[Download Democode]</a></p>

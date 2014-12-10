@@ -67,7 +67,7 @@ If you start the projects from the Visual Studio there aren’t any big surprise
 
 <strong>Now Katana enters the game:</strong>
 
-After you’ve downloaded <a href="https://github.com/Katana/katana#readme">Katana</a> (maybe from <a href="http://code-inside.de/blog/2012/05/15/chocolateyapt-get-fr-windows/">Chocolatey</a>) the magic begins:
+After you’ve downloaded <a href="https://github.com/Katana/katana#readme">Katana</a> (maybe from <a href="{{BASE_PATH}}/2012/05/15/chocolateyapt-get-fr-windows/">Chocolatey</a>) the magic begins:
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:9d1e23d9-a489-4923-89ce-59351427323a" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
 <pre class="c#">cinst katana
 git clone https://github.com/owin/owin-sandbox.git
