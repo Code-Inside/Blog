@@ -135,7 +135,7 @@ The only trap is the URL. Usually the UrlHelper creates only relative links. But
 
 <h3>Result</h3>
 
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://blog.codeinside.eu/wp-content/uploads/image_thumb1157.png" width="570" height="314" border="0" />
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1157.png" width="570" height="314" border="0" />
 
 Works.
 

@@ -15,12 +15,12 @@ So far this blog (both German and English Version) runs on a hoster somewhere in
 <h3>Windows Azure – a VM for Blogs</h3>
 The migration to Azure had to be very fast and since I worked on the WordPress installation a lot over the past years I wasn’t so sure if the blog will run on Azure websites. Also there was this problem with the databases: the two MySQL databases are not really “small” and therefore I would have to pay more for the MySQL hoster as for the pure VM. That’s why I choose an Azure VM. Otherwise I would always recommend an Azure Website. <i>There is a <a href="http://wordpress.brandoo.pl/">WordPress alternative that runs with SQL azure</a> but I didn’t have a closer look on it.
 </i> The creation of the VM was really simple and it only took me some minutes:
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://blog.codeinside.eu/wp-content/uploads/image_thumb1112.png" width="576" height="272" border="0" />
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1112.png" width="576" height="272" border="0" />
 <h3>WordPress installation with the web platform installer</h3>
 Like I mentioned before the blog runs on WordPress and I didn’t had any problems with IIS/Windows/PHP/MySQL (besides some WP Plugins don’t get along with windows).
 The installation is easily done with the <a href="http://www.microsoft.com/web/downloads/platform.aspx">Web Platform installer</a>:
 
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://blog.codeinside.eu/wp-content/uploads/image_thumb1113.png" width="573" height="397" border="0" />
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1113.png" width="573" height="397" border="0" />
 <h3>Data migration: wp-uploads / database</h3>
 After the “pure” installation I’ve fetched my data from the old installation including the “wp-uploads” directory and the theme. My MySQL database was generated with a <a href="http://blog.codeinside.eu/2011/06/12/mysql-datenbanken-sichern-ber-powershell/">Powershell Script</a> (I use this one as well for the Backup of the MySQL DBs). I’ve integrated the script later via the <a href="http://www.heidisql.com/">HeidiSQL</a> on the Azure VM. Just put the information in the suiting wp-config.php and it runs.
 <h3>DNS migration: code-inside.de/blog on blog.condeinside.eu</h3>
@@ -28,7 +28,7 @@ With this migration I’ve tried to address the whole domain subject. Until now 
 
 <span style="font-size: large;"><strong>The IIS includes the following structure:</strong></span>
 
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 15px 15px 0px; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://blog.codeinside.eu/wp-content/uploads/image_thumb1114.png" width="175" height="153" align="left" border="0" />
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; margin: 0px 15px 15px 0px; padding-right: 0px; border: 0px;" title="image" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1114.png" width="175" height="153" align="left" border="0" />
 
 - ci-blog answers the hostname “blog.codeinside.eu”
 - ci-blogin answers the hostname “blogin.codeinside.eu”
@@ -86,6 +86,6 @@ The RSS Feed of this blog is still provided by Feedburner. With the DNS configur
 <h3>Misson completed</h3>
 So far I’m pretty happy with the results. If you recognize an error or if something isn’t working as good as it has worked in the old version please feel free to contact us in the comments below or on E-Mail/Twitter or anywhere else. An improvement from the traditional hoster is the dashboard:
 
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" alt="image" src="http://blog.codeinside.eu/wp-content/uploads/image_thumb1115.png" width="578" height="206" border="0" />
+<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1115.png" width="578" height="206" border="0" />
 
 Both blogs are currently running on a small (1 core, 1.75 GB memory) VM (two VMs would be too difficult because of the MySQL installation) and so far it looks really nice. I’m planning on giving you an update after a month to show you the costs of azure with this constellation and with the traffic on the blog. Questions? Go for it <img class="wlEmoticon wlEmoticon-smile" style="border-style: none;" alt="Smiley" src="http://blogin.codeinside.eu/wp-content/uploads/wlEmoticon-smile17.png" />
