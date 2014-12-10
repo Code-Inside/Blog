@@ -17,7 +17,7 @@ If you use WebDeploy on a server operation system you would usually use Port 817
 
 <em> </em>
 
-<em>Hint: For installing the WebDeploy I recommend <a href="http://code-inside.de/blog-in/2011/04/03/howto-setup-of-webdeploy-msdeploy/">this</a> Blogpost. </em>
+<em>Hint: For installing the WebDeploy I recommend <a href="{{BASE_PATH}}/2011/04/03/howto-setup-of-webdeploy-msdeploy/">this</a> Blogpost. </em>
 
 <strong> </strong>
 

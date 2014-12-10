@@ -13,7 +13,7 @@ language: en
 
 <strong> </strong>
 
-I’ve <a href="http://code-inside.de/blog-in/2012/04/25/sign-in-with-twitter-for-your-own-asp-net-webapp/">already blogged about the authentication with Twitter</a>. ASP.NET MVC 4 offers the DotNetOpenAuth NuGet package which makes the pure authentication process a lot easier.
+I’ve <a href="{{BASE_PATH}}/2012/04/25/sign-in-with-twitter-for-your-own-asp-net-webapp/">already blogged about the authentication with Twitter</a>. ASP.NET MVC 4 offers the DotNetOpenAuth NuGet package which makes the pure authentication process a lot easier.
 
 <strong>ASP.NET MVC 4 – Membership &amp; co</strong>
 
@@ -61,7 +61,7 @@ With ASP.NET MVC the DotNetOpenAuth NuGet package will be installed automaticall
         }
     }</pre>
 </div>
-I’ve mentioned how to find the Twitter Keys <a href="http://code-inside.de/blog-in/2012/04/25/sign-in-with-twitter-for-your-own-asp-net-webapp/">here</a>. Besides there are several helps on the <a href="https://dev.twitter.com/">Twitter Dev Site</a>.
+I’ve mentioned how to find the Twitter Keys <a href="{{BASE_PATH}}/2012/04/25/sign-in-with-twitter-for-your-own-asp-net-webapp/">here</a>. Besides there are several helps on the <a href="https://dev.twitter.com/">Twitter Dev Site</a>.
 
 After the successful login you will receive this “result”:
 

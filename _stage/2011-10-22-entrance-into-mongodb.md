@@ -13,7 +13,7 @@ language: en
 
 If you are interested in the trend? Subject NoSql you will also here something about <a href="http://www.mongodb.org/">MongoDB</a> soon. What makes mongoDB interesting for me is the promised Performance (even If I didn’t reach the limits with normal data banks yet) and the promise to say goodbye to all this O/R Mapper stuff (here I reach the limits all the time).
 
-Robert has blogged about RavenDB <a href="http://code-inside.de/blog-in/2011/08/31/nosql-with-ravendb-and-asp-net-mvc/">here</a><strong>.</strong>
+Robert has blogged about RavenDB <a href="{{BASE_PATH}}/2011/08/31/nosql-with-ravendb-and-asp-net-mvc/">here</a><strong>.</strong>
 
 <strong>Maybe you are now asking yourself: what’s the different between mongoDB and RavenDB?</strong>
 

@@ -29,7 +29,7 @@ Visual Studio saves the password somewhere else. Besides it is not a very clean 
 
 <strong>How to publish a WebDeploy Package with an CMD?</strong>
 
-If you use <a href="http://code-inside.de/blog-in/2010/11/21/howto-msdeploy-msbuild/">MSBuild for example to build a WebDeploy Package</a> you will receive a Batch-file beside the main package where you can start the process.
+If you use <a href="{{BASE_PATH}}/2010/11/21/howto-msdeploy-msbuild/">MSBuild for example to build a WebDeploy Package</a> you will receive a Batch-file beside the main package where you can start the process.
 
 <img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1010.png" border="0" alt="image" width="521" height="127" />
 

@@ -71,4 +71,4 @@ Search for “<a href="http://www.google.com/search?gcx=w&amp;sourceid=chrome&am
 
 <strong>A look into the past</strong>
 
-Three years ago I’ve already written a <a href="http://code-inside.de/blog-in/2008/04/15/icons-icons-icons-for-free/">blogpost</a> about this subject. The icons at this time are very colorful and in the 3D look. I can’t wait to see what the icons will look like in 3 years.
+Three years ago I’ve already written a <a href="{{BASE_PATH}}/2008/04/15/icons-icons-icons-for-free/">blogpost</a> about this subject. The icons at this time are very colorful and in the 3D look. I can’t wait to see what the icons will look like in 3 years.

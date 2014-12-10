@@ -48,7 +48,7 @@ The HTML Canvas Object has a Javascript-method to change it into base64 picture 
                     });
             }</pre>
 </div>
-Because it’s not the regular fileupload running here and because of this I can’t use the <a href="http://code-inside.de/blog-in/2011/02/23/howto-fileupload-with-asp-net-mvc/">HttpPostedFileBase</a> I need to drag and save the image manual.
+Because it’s not the regular fileupload running here and because of this I can’t use the <a href="{{BASE_PATH}}/2011/02/23/howto-fileupload-with-asp-net-mvc/">HttpPostedFileBase</a> I need to drag and save the image manual.
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:f94a6feb-a744-4d94-92c2-d126cc9b5b88" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
 <pre class="c#"> public ActionResult Upload()
         {

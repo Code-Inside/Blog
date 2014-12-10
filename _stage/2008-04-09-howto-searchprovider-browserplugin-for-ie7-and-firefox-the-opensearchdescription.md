@@ -21,7 +21,7 @@ language: en
 
 <p></p>
 
-<p>The most important tag is the &quot;<strong>Url</strong>&quot;-Tag with the &quot;searchTerm&quot; template to create later such an URL: <a title="http://code-inside.de/blog/?s=AJAX" href="http://code-inside.de/blog-in/?s=AJAX">http://code-inside.de/blog-in/?s=AJAX</a>&#160;</p>
+<p>The most important tag is the &quot;<strong>Url</strong>&quot;-Tag with the &quot;searchTerm&quot; template to create later such an URL: <a title="http://code-inside.de/blog/?s=AJAX" href="{{BASE_PATH}}/?s=AJAX">{{BASE_PATH}}/?s=AJAX</a>&#160;</p>
 
 <p><strong><u>Add the search provider to you browser</u></strong></p>
 
@@ -29,7 +29,7 @@ language: en
   <li>You could use Javascript: </li>
 </ul>
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:78f9690a-8dcd-4939-808c-f556a70e9afb" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;a href="#" onclick='window.external.AddSearchProvider("http://code-inside.de/blog-in/browserplugin.xml");'&gt;Code-Inside International Blog&lt;/a&gt;  </pre></div>
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:78f9690a-8dcd-4939-808c-f556a70e9afb" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;a href="#" onclick='window.external.AddSearchProvider("{{BASE_PATH}}/browserplugin.xml");'&gt;Code-Inside International Blog&lt;/a&gt;  </pre></div>
 
 <p></p>
 
@@ -45,7 +45,7 @@ language: en
 
 <p>You can tell the clients browser that you offer an search plugin - just add this in the head section of your site:</p>
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:b0002f1c-2755-4d8e-825f-1c304fb859a0" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;link rel="search" type="application/opensearchdescription+xml" href="http://code-inside.de/blog-in/browserplugin.xml" title="Code-Inside International Blog" /&gt;
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:b0002f1c-2755-4d8e-825f-1c304fb859a0" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;link rel="search" type="application/opensearchdescription+xml" href="{{BASE_PATH}}/browserplugin.xml" title="Code-Inside International Blog" /&gt;
 </pre></div>
 
 <p>You reference your XML file and (for example) the firefox &quot;search provider icon&quot; show us a glow effect:</p>
