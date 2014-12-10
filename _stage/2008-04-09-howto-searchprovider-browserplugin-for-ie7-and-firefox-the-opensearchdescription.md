@@ -13,8 +13,8 @@ language: en
 &lt;OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"&gt;
 &lt;ShortName&gt;Code-Inside International Blog&lt;/ShortName&gt;
 &lt;Description&gt;Blogging about .NET, ASP.NET, AJAX, Silverlight&lt;/Description&gt;
-&lt;Image height="16" width="16" type="image/x-icon"&gt;http://code-inside.de/blog-in/wp-content/themes/notso_freshe/images/favicon.ico&lt;/Image&gt;
-&lt;Url type="text/html" method="get" template="http://code-inside.de/blog-in/?s={searchTerms}"/&gt;
+&lt;Image height="16" width="16" type="image/x-icon"&gt;{{BASE_PATH}}/favicon.ico&lt;/Image&gt;
+&lt;Url type="text/html" method="get" template="{{BASE_PATH}}/?s={searchTerms}"/&gt;
 &lt;/OpenSearchDescription&gt;</pre></div>
 
 <p></p>
