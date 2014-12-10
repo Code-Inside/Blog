@@ -15,6 +15,6 @@ language: en
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image1453.png" border="0" alt="image" width="579" height="430" />
 
-In my opinion the name doesn’t find that well because it’s only a statistical comparison and it’s not possible to “convert” Javascript Code. I assume it’s the plan for the future. <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile32.png" alt="Zwinkerndes Smiley" />
+In my opinion the name doesn’t find that well because it’s only a statistical comparison and it’s not possible to “convert” Javascript Code. I assume it’s the plan for the future. <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile32.png" alt="Zwinkerndes Smiley" />
 
 For those who are interested in Dart: <a href="http://synonym.dartlang.org/">click</a>.

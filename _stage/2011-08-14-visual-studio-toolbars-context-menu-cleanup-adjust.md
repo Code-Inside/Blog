@@ -55,7 +55,7 @@ Result (because I didn’t used the other buttons):
 
 Same thing in the Debug view:
 
-Way better <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile23.png" alt="Zwinkerndes Smiley" />
+Way better <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile23.png" alt="Zwinkerndes Smiley" />
 
 <strong> </strong>
 
@@ -73,6 +73,6 @@ But it’s possible to add new functions like for example “Start <a href="http
 
 <strong>Erase dispensable Buttons </strong>
 
-Test it out if you need all of the Buttons in the 5 Toolbars of Visual Studio. For me it’s very confortable to work with the slim Visual Studio. If you have installed for example the Visual Studio Power Tools you should think of using the Solution Navigator instead of the classic Solution Explorer – both is IMHO dispensable (both have their Advantages and Disadvantages <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile23.png" alt="Zwinkerndes Smiley" /> ).
+Test it out if you need all of the Buttons in the 5 Toolbars of Visual Studio. For me it’s very confortable to work with the slim Visual Studio. If you have installed for example the Visual Studio Power Tools you should think of using the Solution Navigator instead of the classic Solution Explorer – both is IMHO dispensable (both have their Advantages and Disadvantages <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile23.png" alt="Zwinkerndes Smiley" /> ).
 
-Reslut: It’s possible to edit the Context-Menu of Visual Studio but it takes a lot of time <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile23.png" alt="Zwinkerndes Smiley" />.
+Reslut: It’s possible to edit the Context-Menu of Visual Studio but it takes a lot of time <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile23.png" alt="Zwinkerndes Smiley" />.

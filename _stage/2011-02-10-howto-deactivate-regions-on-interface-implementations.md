@@ -20,11 +20,11 @@ language: en
 		...
     }</pre></div>
 
-<p><a href="http://code-inside.de/blog-in/wp-content/uploads/image121.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image_thumb30.png" width="240" height="112" /></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-en/image121.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb30.png" width="240" height="112" /></a></p>
 
 <p>If you click:</p>
 
-<p><a href="http://code-inside.de/blog-in/wp-content/uploads/image122.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image_thumb31.png" width="240" height="87" /></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-en/image122.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb31.png" width="240" height="87" /></a></p>
 
 <p>Cool... but you will be disappointed if you see that some #regions are in the code now:</p>
 
@@ -69,10 +69,10 @@ public class FooImplementation : IFoo
 
 <p><b>Tools -&gt; Option -&gt; Text Editor -&gt; C# -&gt; Advanced: </b></p>
 
-<p><a href="http://code-inside.de/blog-in/wp-content/uploads/image123.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image_thumb32.png" width="507" height="294" /></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-en/image123.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb32.png" width="507" height="294" /></a></p>
 
 <p>&#160;</p>
 
-<p>Deactivate this Checkbox and then it works without "#region..." <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-smile2.png" /></p>
+<p>Deactivate this Checkbox and then it works without "#region..." <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile2.png" /></p>
 
 <p>Resharper it self´s won´t do this stuff but maybe sometimes you accidently click on the assistance of Visual Studio.</p>

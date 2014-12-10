@@ -39,7 +39,7 @@ I’m certain that about this time, I bunch of people are asking “but, did you
 
 There are also some new Screenshots about <a href="http://blogs.msdn.com/b/codeplex/archive/2012/03/30/new-codeplex-ui-coming-soon.aspx">the Metro interface for CodePlex</a> shown:
 
-<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb658.png" border="0" alt="image" width="493" height="375" /><a href="http://code-inside.de/blog-in/wp-content/uploads/image1486.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1486" src="http://code-inside.de/blog-in/wp-content/uploads/image1486_thumb.png" border="0" alt="image1486" width="497" height="383" /></a>
+<img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb658.png" border="0" alt="image" width="493" height="375" /><a href="{{BASE_PATH}}/assets/wp-images-en/image1486.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1486" src="{{BASE_PATH}}/assets/wp-images-en/image1486_thumb.png" border="0" alt="image1486" width="497" height="383" /></a>
 
 <img title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb659.png" border="0" alt="image" width="493" height="380" />
 
@@ -57,4 +57,4 @@ And, as I alluded to earlier, we’ll be working to align CodePlex and Team Foun
 
 <strong> </strong>
 
-From my point and according to the changes of the last view days I recommend every developer to take a look on Git or at least to think about the opportunities. Start a little Open Source Project – maybe on CodePlex and then give them your <a href="http://codeplex.codeplex.com/workitem/list/basic">Feedback</a>. Git is also interesting for .NET developer – <a href="http://code-inside.de/blog/2011/08/05/einstieg-in-git-fr-net-entwickler/">a little intro is here</a>. Maybe there will be a bigger Open Source mentality in the .NET environment. <img class="wlEmoticon wlEmoticon-smile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-smile14.png" alt="Smiley" />
+From my point and according to the changes of the last view days I recommend every developer to take a look on Git or at least to think about the opportunities. Start a little Open Source Project – maybe on CodePlex and then give them your <a href="http://codeplex.codeplex.com/workitem/list/basic">Feedback</a>. Git is also interesting for .NET developer – <a href="http://code-inside.de/blog/2011/08/05/einstieg-in-git-fr-net-entwickler/">a little intro is here</a>. Maybe there will be a bigger Open Source mentality in the .NET environment. <img class="wlEmoticon wlEmoticon-smile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile14.png" alt="Smiley" />

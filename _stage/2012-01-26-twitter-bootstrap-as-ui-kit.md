@@ -159,13 +159,13 @@ All you have to do is to embed the Styles (the Less files plus the <a href="http
 </div>
 It creates this side:
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1367.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1367" src="http://code-inside.de/blog-in/wp-content/uploads/image1367_thumb.png" border="0" alt="image1367" width="513" height="310" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1367.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1367" src="{{BASE_PATH}}/assets/wp-images-en/image1367_thumb.png" border="0" alt="image1367" width="513" height="310" /></a>
 
 <strong>Roadmap</strong>
 
 There is also a <a href="https://github.com/twitter/bootstrap/wiki/Roadmap">Roadmap</a> for this Project which is cultivated by some developers on Twitter:
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1368.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1368" src="http://code-inside.de/blog-in/wp-content/uploads/image1368_thumb.png" border="0" alt="image1368" width="521" height="232" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1368.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1368" src="{{BASE_PATH}}/assets/wp-images-en/image1368_thumb.png" border="0" alt="image1368" width="521" height="232" /></a>
 
 <strong>Result</strong>
 

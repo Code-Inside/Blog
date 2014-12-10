@@ -9,15 +9,15 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1353-570x194.png"></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1353-570x194.png"></a>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1353-570x194.png"> </a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1353-570x194.png"> </a>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1353-570x194.png"></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1353-570x194.png"></a>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1353-570x194.png"> </a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1353-570x194.png"> </a>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1353-570x194.png"></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1353-570x194.png"></a>
 
 <strong> </strong>
 
@@ -92,6 +92,6 @@ focused.
 We expect Brightly itself to be the first application written in Dash.</blockquote>
 <strong>All in all: existing</strong>
 
-I’m excited what Google is going to create here and if they are able to assure the other Browserprovider to go along with them (especially since Microsoft falls in love with Javascript <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile26.png" alt="Zwinkerndes Smiley" /><img class="wlEmoticon wlEmoticon-redheart" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-redheart.png" alt="Herz" /> )
+I’m excited what Google is going to create here and if they are able to assure the other Browserprovider to go along with them (especially since Microsoft falls in love with Javascript <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile26.png" alt="Zwinkerndes Smiley" /><img class="wlEmoticon wlEmoticon-redheart" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-redheart.png" alt="Herz" /> )
 
 Another interesting fact: One of the authors of the mail and the document about Dart is <a href="http://blogs.msdn.com/b/brada/">Brad Abrams</a> who was the leader of Microsofts Silverlight Team about a year ago.

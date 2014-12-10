@@ -27,7 +27,7 @@ I own a MacBook Pro (from 2010) for about a year now and because I’ve used to 
 
 <strong> </strong>
 
-What to write about Apple Hardware: The Quality is amazing. There are worlds between this and all the plastic notebooks I’ve seen so far. Also the Touchpad and the clever usage of Multitouch in the Desktop World are brilliant. The Display is great and the Colors are very strong. I wasn’t even disturbed by the “Glossy” but maybe it’s because I didn’t use it in the sun .. Come on… I’m a Developer <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile31.png" alt="Zwinkerndes Smiley" />
+What to write about Apple Hardware: The Quality is amazing. There are worlds between this and all the plastic notebooks I’ve seen so far. Also the Touchpad and the clever usage of Multitouch in the Desktop World are brilliant. The Display is great and the Colors are very strong. I wasn’t even disturbed by the “Glossy” but maybe it’s because I didn’t use it in the sun .. Come on… I’m a Developer <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile31.png" alt="Zwinkerndes Smiley" />
 
 For a Developer the keyboard is very important and here is <strong>the problem</strong>…
 
@@ -45,7 +45,7 @@ Either my keyboard scheme was totally wrong configured or I’m a noob. I couldn
 
 At last if you plan to use the numerous Goodis of Resharper you will need some Specialists (POS1 / ENDE,…) which you wouldn’t find on the MacBook Keyboard.
 
-An advantage is that the keyboard glows in the dark and that writing on her is very comfortable. Programming is very difficult but you can learn to life with it (Quite recently I didn’t use a second keyboard <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile31.png" alt="Zwinkerndes Smiley" /> )
+An advantage is that the keyboard glows in the dark and that writing on her is very comfortable. Programming is very difficult but you can learn to life with it (Quite recently I didn’t use a second keyboard <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile31.png" alt="Zwinkerndes Smiley" /> )
 
 <span style="text-decoration: underline;"> </span>
 
@@ -61,7 +61,7 @@ I don’t care if it’s Mac OSX or Windows 7. Both have their strengths and wea
 
 <span style="text-decoration: underline;"> </span>
 
-<span style="text-decoration: underline;"><a href="http://code-inside.de/blog-in/wp-content/uploads/image1429.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1429" src="http://code-inside.de/blog-in/wp-content/uploads/image1429_thumb.png" border="0" alt="image1429" width="96" height="108" align="left" /></a>What I use Mac OSX for: </span>Most of all for Browsing in the Web. It’s more comfortable to use the great Touchpad then a Mouse or the Touchpad of a Windows Notebook. Even Mail-App and iCal is okay for the usual user. The Mail-App works and I don’t have problems with the synchronization so far.
+<span style="text-decoration: underline;"><a href="{{BASE_PATH}}/assets/wp-images-en/image1429.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1429" src="{{BASE_PATH}}/assets/wp-images-en/image1429_thumb.png" border="0" alt="image1429" width="96" height="108" align="left" /></a>What I use Mac OSX for: </span>Most of all for Browsing in the Web. It’s more comfortable to use the great Touchpad then a Mouse or the Touchpad of a Windows Notebook. Even Mail-App and iCal is okay for the usual user. The Mail-App works and I don’t have problems with the synchronization so far.
 
 <a href="http://www.applesheet.com/download-mac-os-x-10-7-1-lion-update-direct-link/34039/">(Picturesource)</a>
 
@@ -73,7 +73,7 @@ Summary:
 
 <span style="text-decoration: underline;"> </span>
 
-<span style="text-decoration: underline;"><a href="http://code-inside.de/blog-in/wp-content/uploads/image1430.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1430" src="http://code-inside.de/blog-in/wp-content/uploads/image1430_thumb.png" border="0" alt="image1430" width="101" height="82" align="left" /></a>What I use Windows 7 for: </span>For developing with Visual Studio and for serious office stuff. To say the true I didn’t like Office for Mac &amp; co. Office 2010 is enough for me. Even if it has some faults but nothing is perfect <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile31.png" alt="Zwinkerndes Smiley" />. Gaming of course makes only sense on Windows.
+<span style="text-decoration: underline;"><a href="{{BASE_PATH}}/assets/wp-images-en/image1430.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1430" src="{{BASE_PATH}}/assets/wp-images-en/image1430_thumb.png" border="0" alt="image1430" width="101" height="82" align="left" /></a>What I use Windows 7 for: </span>For developing with Visual Studio and for serious office stuff. To say the true I didn’t like Office for Mac &amp; co. Office 2010 is enough for me. Even if it has some faults but nothing is perfect <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile31.png" alt="Zwinkerndes Smiley" />. Gaming of course makes only sense on Windows.
 
 Summary:
 
@@ -91,7 +91,7 @@ Since the change to Intel-processors MacBooks are at least “only” PC’s. Of
 
 Bootcamp “splits” the hard disk in an OSX and in a Windows partition. But think twice about this step because the hard disk is only 160GB – not much space if you are used to think in Terabyte.
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1431.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1431" src="http://code-inside.de/blog-in/wp-content/uploads/image1431_thumb.png" border="0" alt="image1431" width="65" height="68" align="left" /></a>VMWare Fusion has a very useful feature: It’s possible to boot the Bootcamp partition in a VM. The advantage is that you are now able to use MacOSX and Windows at the same time. The performance doesn’t thank you for that but simple strategy games, Office or Visual Studio will work.
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1431.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1431" src="{{BASE_PATH}}/assets/wp-images-en/image1431_thumb.png" border="0" alt="image1431" width="65" height="68" align="left" /></a>VMWare Fusion has a very useful feature: It’s possible to boot the Bootcamp partition in a VM. The advantage is that you are now able to use MacOSX and Windows at the same time. The performance doesn’t thank you for that but simple strategy games, Office or Visual Studio will work.
 
 Combined with VMWare Fusion it’s able to connect both worlds in a classy way and if you need more Power than you use Bootcamp. Only Windows hates the changes of the Hardwaresettings and asks for a reactivation of the Licencekey.
 
@@ -113,7 +113,7 @@ If you like it you can try mono as well but I didn’t even think about this –
 
 But it’s possible.
 
-I don’t regret the buy but now I need a battle machine to play battlefield (but this would be the dead for every Windows Notebook at least <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile31.png" alt="Zwinkerndes Smiley" />).
+I don’t regret the buy but now I need a battle machine to play battlefield (but this would be the dead for every Windows Notebook at least <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile31.png" alt="Zwinkerndes Smiley" />).
 
 <strong>Result: Is a MacBook Pro the right choice for a .NET Developer?</strong>
 
@@ -129,6 +129,6 @@ If you don’t want to make any type of compromises than you should buy the MacB
 
 <strong>Last question – Gaming?</strong>
 
-From time to time you need a little alternation. On the 2010 Macbook Battlefield 3 runs on the “minimal” settings at last for 3 hours. After that the machine gets hot and turns into the sleep mode. Nice for working but I need something with more power <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile31.png" alt="Zwinkerndes Smiley" />. But keep in mind, that battlefield is a very ambitious game. Older games run without problems.
+From time to time you need a little alternation. On the 2010 Macbook Battlefield 3 runs on the “minimal” settings at last for 3 hours. After that the machine gets hot and turns into the sleep mode. Nice for working but I need something with more power <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile31.png" alt="Zwinkerndes Smiley" />. But keep in mind, that battlefield is a very ambitious game. Older games run without problems.
 
 If you are interested now: Im sure you will find something on Apple or Amazon.

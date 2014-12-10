@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1837-568x194.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1837-568x194" src="http://code-inside.de/blog-in/wp-content/uploads/image1837-568x194_thumb.png" border="0" alt="image1837-568x194" width="545" height="198" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1837-568x194.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1837-568x194" src="{{BASE_PATH}}/assets/wp-images-en/image1837-568x194_thumb.png" border="0" alt="image1837-568x194" width="545" height="198" /></a>
 
 Wherever APIs are mentioned the JSON format I not far away. Since I’m using two tools regularly I would like to introduce you to them.
 

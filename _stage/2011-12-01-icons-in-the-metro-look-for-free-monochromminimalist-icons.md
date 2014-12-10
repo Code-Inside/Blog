@@ -33,7 +33,7 @@ At the moment it is in to create simple but elegant designs. A good example is t
 
 According to Windows8 + you are able to make suggestions for new Icons! There are new Icons <strong>every day!</strong>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1399.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1399" src="http://code-inside.de/blog-in/wp-content/uploads/image1399_thumb.png" border="0" alt="image1399" width="389" height="469" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1399.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1399" src="{{BASE_PATH}}/assets/wp-images-en/image1399_thumb.png" border="0" alt="image1399" width="389" height="469" /></a>
 
 <strong> </strong>
 

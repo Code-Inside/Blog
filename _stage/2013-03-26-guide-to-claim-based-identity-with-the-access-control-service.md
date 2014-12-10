@@ -27,4 +27,4 @@ If you want to get deeper into the subject you should risk a look on <a href="ht
 
 What is not included in the PDF but might become a trend anyway is the renunciation from SAML and to <a href="http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html">JWT</a>. I recommend <a href="http://www.cloudidentity.com/blog/?s=JWT">Vittorios Blog</a> again and the <a href="http://msdn.microsoft.com/en-us/library/windowsazure/jj573266.aspx">Windows Azure Authentication Library</a>.
 
-Unfortunately there are not so many sources for information’s about this at the moment so you won’t be able to avoid his blog anyway <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile51.png" alt="Zwinkerndes Smiley" />
+Unfortunately there are not so many sources for information’s about this at the moment so you won’t be able to avoid his blog anyway <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile51.png" alt="Zwinkerndes Smiley" />

@@ -67,7 +67,7 @@ For demonstration I’ve created a simple MVC project and searched Redis via NuG
 
 Service.Stack.Redis – sounds good!
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/SNAGHTMLd040daa.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="SNAGHTMLd040daa" src="http://code-inside.de/blog-in/wp-content/uploads/SNAGHTMLd040daa_thumb.png" border="0" alt="SNAGHTMLd040daa" width="508" height="351" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/SNAGHTMLd040daa.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="SNAGHTMLd040daa" src="{{BASE_PATH}}/assets/wp-images-en/SNAGHTMLd040daa_thumb.png" border="0" alt="SNAGHTMLd040daa" width="508" height="351" /></a>
 
 Democode:
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a24bbcbc-c0cb-4852-80a8-b8dec91387fd" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">

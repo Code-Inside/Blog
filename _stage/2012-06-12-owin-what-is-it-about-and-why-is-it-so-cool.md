@@ -47,7 +47,7 @@ At the end of the pipeline there are some Web Frameworks for example <a href="ht
 
 As far as I can tell from my researches this project is the easiest way to enter the OWIN universe.
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1566.png"><img style="background-image: none; margin: 0px 20px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1566" src="http://code-inside.de/blog-in/wp-content/uploads/image1566_thumb.png" border="0" alt="image1566" width="131" height="355" align="left" /></a>The download includes a solution with several Web-projects and different ways to use OWIN.
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1566.png"><img style="background-image: none; margin: 0px 20px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1566" src="{{BASE_PATH}}/assets/wp-images-en/image1566_thumb.png" border="0" alt="image1566" width="131" height="355" align="left" /></a>The download includes a solution with several Web-projects and different ways to use OWIN.
 
 If you start the projects from the Visual Studio there aren’t any big surprises waiting for you.
 

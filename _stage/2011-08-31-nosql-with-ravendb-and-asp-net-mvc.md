@@ -13,7 +13,7 @@ language: en
 
 <strong> </strong>
 
-For a loooong time (at least for me <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile25.png" alt="Zwinkerndes Smiley" /> ) it was a fact that files have to be in a database. Usual files are saved in a relational database and linked. But in a while there exists resistance – <a href="http://en.wikipedia.org/wiki/NoSQL">NoSQL</a> is the word.
+For a loooong time (at least for me <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile25.png" alt="Zwinkerndes Smiley" /> ) it was a fact that files have to be in a database. Usual files are saved in a relational database and linked. But in a while there exists resistance – <a href="http://en.wikipedia.org/wiki/NoSQL">NoSQL</a> is the word.
 
 <strong>What are NoSQL database? </strong>
 
@@ -39,7 +39,7 @@ Different to an SQL database schema less JSON document will be saved in RavenDB.
 
 <strong> </strong>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1290.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1290" src="http://code-inside.de/blog-in/wp-content/uploads/image1290_thumb.png" border="0" alt="image1290" width="150" height="240" align="left" /></a>RavenDB could be downloaded at the <a href="http://ravendb.net/download">Download-side</a>. In this package are several Samples, the RavenDB server and various Client-libraries included. The most interesting folder is the “Server” folder and (at least for the introduction) the folder “Samples”.
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1290.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1290" src="{{BASE_PATH}}/assets/wp-images-en/image1290_thumb.png" border="0" alt="image1290" width="150" height="240" align="left" /></a>RavenDB could be downloaded at the <a href="http://ravendb.net/download">Download-side</a>. In this package are several Samples, the RavenDB server and various Client-libraries included. The most interesting folder is the “Server” folder and (at least for the introduction) the folder “Samples”.
 
 To start RavenDB there are various options:
 
@@ -49,7 +49,7 @@ To start RavenDB there are various options:
 
 - As Windows <a href="http://ravendb.net/documentation/docs-deployment-service">service</a>
 
-Probably I forget something <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile25.png" alt="Zwinkerndes Smiley" />
+Probably I forget something <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile25.png" alt="Zwinkerndes Smiley" />
 
 The easiest way is the console application.
 
@@ -79,7 +79,7 @@ I’ve taken some Infrastructure-code from the Raccoon project.
 
 This code makes it easier to get access to the RavenDB and it’s easy to call from every Controller.
 
-The following code is “Infrastructure” Code. Maybe it’s possible to make it shorter but then it’s not that classy <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile25.png" alt="Zwinkerndes Smiley" />
+The following code is “Infrastructure” Code. Maybe it’s possible to make it shorter but then it’s not that classy <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile25.png" alt="Zwinkerndes Smiley" />
 
 <strong>RavenActionFilterAttribute.cs</strong>
 
@@ -122,7 +122,7 @@ The code of the filter:
 
 <strong> </strong>
 
-In fact this is where the connection to the store and the access will be warranted. I’m not sure what else the function is <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile25.png" alt="Zwinkerndes Smiley" />
+In fact this is where the connection to the store and the access will be warranted. I’m not sure what else the function is <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile25.png" alt="Zwinkerndes Smiley" />
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:25c151cf-8761-4b36-b60a-ff1955ae04d8" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
 <pre class="c#"> /// &lt;summary&gt;
     /// This class manages the state of objects that desire a document session. We aren't relying on an IoC container here
@@ -226,7 +226,7 @@ In fact this is where the connection to the store and the access will be warrant
 
 To get access to the RavenDB on the Controller we will make a BaseController which has all iDocumentSessions as Property:
 
-Till this part the Code is “Ayende” checked because it’s from the <a href="https://github.com/ayende/RaccoonBlog/">Racoon-Blog</a> – so it should be good <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile25.png" alt="Zwinkerndes Smiley" />
+Till this part the Code is “Ayende” checked because it’s from the <a href="https://github.com/ayende/RaccoonBlog/">Racoon-Blog</a> – so it should be good <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile25.png" alt="Zwinkerndes Smiley" />
 
 <strong>An easy model </strong>
 

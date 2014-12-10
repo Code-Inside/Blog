@@ -64,7 +64,7 @@ public class PdfHandler : IHttpHandler
 
 <p>A look into the solution explorer:</p>
 
-<p><a href="http://code-inside.de/blog-in/wp-content/uploads/image18.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="169" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb18.png" width="202" border="0" /></a> </p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-en/image18.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="169" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb18.png" width="202" border="0" /></a> </p>
 
 <p>The helloworld.fo:</p>
 

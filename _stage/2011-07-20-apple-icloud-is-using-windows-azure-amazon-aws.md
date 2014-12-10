@@ -9,7 +9,7 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<a href="http://code-inside.de/blog-in/wp-content/uploads/icloud-logo-400x194.jpg"><img class="alignnone size-medium wp-image-704" title="icloud-logo-400x194" src="http://code-inside.de/blog-in/wp-content/uploads/icloud-logo-400x194-300x145.jpg" alt="" width="300" height="145" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/icloud-logo-400x194.jpg"><img class="alignnone size-medium wp-image-704" title="icloud-logo-400x194" src="{{BASE_PATH}}/assets/wp-images-en/icloud-logo-400x194-300x145.jpg" alt="" width="300" height="145" /></a>
 
 <strong> </strong>
 

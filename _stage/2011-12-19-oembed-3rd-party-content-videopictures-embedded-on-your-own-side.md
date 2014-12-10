@@ -83,7 +83,7 @@ There is also a <a href="http://code.google.com/p/jquery-oembed/">jQuery library
 
 <strong> </strong>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1393.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1393" src="http://code-inside.de/blog-in/wp-content/uploads/image1393_thumb.png" border="0" alt="image1393" width="186" height="72" align="left" /></a>Because of oEmbed the format is fixed but anyway you need to question numerous Providers to get to know the URLS. With the service embed.ly you can access to a kind of “Hub”. Embeded.ly provides a oEmbed endpoint and you can send <a href="http://embed.ly/providers">almost every kind of address</a> to emebd.ly and you will receive a fitting answer.
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1393.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1393" src="{{BASE_PATH}}/assets/wp-images-en/image1393_thumb.png" border="0" alt="image1393" width="186" height="72" align="left" /></a>Because of oEmbed the format is fixed but anyway you need to question numerous Providers to get to know the URLS. With the service embed.ly you can access to a kind of “Hub”. Embeded.ly provides a oEmbed endpoint and you can send <a href="http://embed.ly/providers">almost every kind of address</a> to emebd.ly and you will receive a fitting answer.
 
 Embed.ly could be called easily with the jQuery Plugin.
 

@@ -30,7 +30,7 @@ h2 {
 
 <p><b></b></p>
 
-<p>The steadiest solution to transform .LESS Style into usual CSS is to do the transformation before the Deployment or while developing. The advantage of this method is that a complete CSS will be created and you can continue processing it with the ordinary CSS - Toolstack. But it will be a disadvantage if you try to change it back into the .LESS form afterwards. It’s not impossible but it’s not really charming <img style="border-bottom-style: none; border-left-style: none; border-top-style: none; border-right-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile21.png" /></p>
+<p>The steadiest solution to transform .LESS Style into usual CSS is to do the transformation before the Deployment or while developing. The advantage of this method is that a complete CSS will be created and you can continue processing it with the ordinary CSS - Toolstack. But it will be a disadvantage if you try to change it back into the .LESS form afterwards. It’s not impossible but it’s not really charming <img style="border-bottom-style: none; border-left-style: none; border-top-style: none; border-right-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile21.png" /></p>
 
 <p>For .NET developer I recommend the <a href="http://www.dotlesscss.org/">dotless Project</a>. The dotless Project is a porting of the original Ruby Project on .NET. In the <a href="https://github.com/dotless/dotless/downloads">Downloads</a> there is also a “Compiler” integrated which you can call on the CMD. But there is a “Watcher” too so it’s not possible to start the Compile Process manual. More about this you can read on <a href="https://github.com/dotless/dotless/wiki">Wiki</a>. </p>
 
@@ -82,7 +82,7 @@ h2 {
     @Html.CombresLink("siteCss")
 	...</pre></div>
 
-<p>In the end, the result will look like this – doesn’t matter which method you have chosen. The only difference is the moment you choose for the transformation – even if in my opinion the Javascript method is adventurous <img style="border-bottom-style: none; border-left-style: none; border-top-style: none; border-right-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile21.png" /></p>
+<p>In the end, the result will look like this – doesn’t matter which method you have chosen. The only difference is the moment you choose for the transformation – even if in my opinion the Javascript method is adventurous <img style="border-bottom-style: none; border-left-style: none; border-top-style: none; border-right-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile21.png" /></p>
 
 
 

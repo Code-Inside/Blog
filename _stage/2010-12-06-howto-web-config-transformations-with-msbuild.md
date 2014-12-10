@@ -19,7 +19,7 @@ language: en
 <p><b></b></p>
 <p>In the end I want the transformed file with the name "web.config". the problem: TransformXml is buggy. During the build the task <a href="http://connect.microsoft.com/VisualStudio/feedback/details/562200/transformxml-task-locks-config-file-identified-in-source-attribute">locked these 3 files</a>. Anyway: We don´t want to change our web.config file in our solution. Because of this we need to create a copy of our sources and change them.</p>
 <p><b>Scheme</b>:</p>
-<p><a href="http://code-inside.de/blog-in/wp-content/uploads/image98.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image_thumb7.png" width="491" height="80"></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-en/image98.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb7.png" width="491" height="80"></a></p>
 <p><b>CopySource:</b></p>
 <p><b></b></p>
 <p>We copy our whole sources to another place for example one folder back in our own directory. I named it "ClientTemp".</p>

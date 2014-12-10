@@ -35,7 +35,7 @@ So far… where is the Code?
 
 3. On windows it’s enough to unpack the Zip file and a double click on the mongodb.exe. If you like to you could start mongoDB as a Windows Service.
 
-4. Easy isn’t it? <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile28.png" alt="Zwinkerndes Smiley" />
+4. Easy isn’t it? <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile28.png" alt="Zwinkerndes Smiley" />
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border-width: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb560.png" border="0" alt="image" width="530" height="280" />
 
@@ -186,7 +186,7 @@ And that is my result (4GB RAM QuadCore, HDD RAID5, no SSD)
 
 <strong> </strong>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1382.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image1382" src="http://code-inside.de/blog-in/wp-content/uploads/image1382_thumb.png" border="0" alt="image1382" width="540" height="430" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1382.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image1382" src="{{BASE_PATH}}/assets/wp-images-en/image1382_thumb.png" border="0" alt="image1382" width="540" height="430" /></a>
 
 <strong>Query</strong>
 

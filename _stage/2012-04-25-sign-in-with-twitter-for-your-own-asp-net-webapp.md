@@ -31,7 +31,7 @@ At least the <a href="http://oauth.net/">OAuth protocol</a> is a little bit “d
 
 Of course TweetSharp is also a <a href="http://nuget.org/packages/TweetSharp">NuGet package</a>:
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1490.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1490" src="http://code-inside.de/blog-in/wp-content/uploads/image1490_thumb.png" border="0" alt="image1490" width="563" height="387" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1490.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1490" src="{{BASE_PATH}}/assets/wp-images-en/image1490_thumb.png" border="0" alt="image1490" width="563" height="387" /></a>
 
 <strong>Step 2: register the Twitter App</strong>
 

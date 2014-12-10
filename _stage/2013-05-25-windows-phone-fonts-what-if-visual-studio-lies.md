@@ -19,7 +19,7 @@ Although the Visual Studio Designer did show the Fonts:
 
 Unfortunately there isn’t much left in the Emulator:
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image_thumb982.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image_thumb982" src="http://code-inside.de/blog-in/wp-content/uploads/image_thumb982_thumb.png" border="0" alt="image_thumb982" width="267" height="457" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image_thumb982.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image_thumb982" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb982_thumb.png" border="0" alt="image_thumb982" width="267" height="457" /></a>
 
 Reason for this:
 
@@ -33,4 +33,4 @@ I found these two pages with a list of the supported Fonts:
 
 <a href="http://msdn.microsoft.com/en-us/library/windowsphone/develop/cc189010(v=vs.105).aspx">Text and fonts for Windows Phone</a>
 
-P.S: Don’t worry, Comic Sans is still working <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile54.png" alt="Zwinkerndes Smiley" />
+P.S: Don’t worry, Comic Sans is still working <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile54.png" alt="Zwinkerndes Smiley" />

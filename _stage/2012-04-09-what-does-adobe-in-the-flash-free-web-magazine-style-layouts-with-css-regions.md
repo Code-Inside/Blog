@@ -55,7 +55,7 @@ Not interesting at all for usual users because you are using WebKit via Chrome o
 
 <span style="text-decoration: underline;">Chrome</span>
 
-Implimented and activated in version 17 and 18 – but it will be deactivated in version 19 again and you need to reactivate on “about:flags” ( I guess the WebKit team was a little bit carefree <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile37.png" alt="Zwinkerndes Smiley" />). In the Chrome Nightlies (Canary Builds) it is usually deactivated as well.
+Implimented and activated in version 17 and 18 – but it will be deactivated in version 19 again and you need to reactivate on “about:flags” ( I guess the WebKit team was a little bit carefree <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile37.png" alt="Zwinkerndes Smiley" />). In the Chrome Nightlies (Canary Builds) it is usually deactivated as well.
 
 <span style="text-decoration: underline;">Internet Explorer</span>
 
@@ -65,7 +65,7 @@ What a big surprise: Implemented and activated in the IE 10 Developer Preview!
 
 <span style="text-decoration: underline;">Firefox</span>
 
-Mozilla included it into the <a href="https://wiki.mozilla.org/Platform/Roadmap">Roadmap for 2012</a> after all <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile37.png" alt="Zwinkerndes Smiley" />
+Mozilla included it into the <a href="https://wiki.mozilla.org/Platform/Roadmap">Roadmap for 2012</a> after all <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile37.png" alt="Zwinkerndes Smiley" />
 
 <strong> </strong>
 

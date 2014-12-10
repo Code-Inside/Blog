@@ -19,13 +19,13 @@ If you are looking for a current Metro Modern UI CSS/HTML Framework I’ve colle
 
 <strong><a href="http://talkslab.github.com/metro-bootstrap/index.html">Metro-Bootstrap:</a></strong>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/index.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="index" src="http://code-inside.de/blog-in/wp-content/uploads/index_thumb.png" border="0" alt="index" width="516" height="338" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/index.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="index" src="{{BASE_PATH}}/assets/wp-images-en/index_thumb.png" border="0" alt="index" width="516" height="338" /></a>
 
 Metro-Bootstrap relies on <a href="http://code-inside.de/blog/2012/02/02/twitter-bootstrap-2-0-released-release-prsentation/">Twitter Bootstrap</a> and because of this it is easy to use. The colors are more “metro style” (as I would call it) and most of the elements are kind of back to the basics – compared to the original Bootstrap.
 
 There is also a Tiles component but in fact it doesn’t offer many opportunities in the moment so it is not very comfortable to work with.
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/index1.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="index" src="http://code-inside.de/blog-in/wp-content/uploads/index_thumb1.png" border="0" alt="index" width="500" height="365" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/index1.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="index" src="{{BASE_PATH}}/assets/wp-images-en/index_thumb1.png" border="0" alt="index" width="500" height="365" /></a>
 
 Author of the Framwork: <a href="http://talkslab.com/">Talkslab</a>
 
@@ -53,7 +53,7 @@ BootMetro relies on Twitter Bootstrap as well and is inspired by Metro UI CSS (w
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb766.png" border="0" alt="image" width="491" height="247" />
 
-In fact it offers you everything you will need to design your Web-Application like a Windows 8 App. But unfortunately I’m not very comfortable with this alternative because in my opinion this is way to desktop-oriented. Even the scroll direction in Hub is horizontal – matter of taste <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile44.png" alt="Zwinkerndes Smiley" /> however you don’t have to use it.
+In fact it offers you everything you will need to design your Web-Application like a Windows 8 App. But unfortunately I’m not very comfortable with this alternative because in my opinion this is way to desktop-oriented. Even the scroll direction in Hub is horizontal – matter of taste <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile44.png" alt="Zwinkerndes Smiley" /> however you don’t have to use it.
 
 Anyway it is much more advanced than the “Metro-Bootstrap” project. Also the author included some elements of the HTML5 Boilerplate.
 
@@ -67,7 +67,7 @@ Anyway it is much more advanced than the “Metro-Bootstrap” project. Also the
 
 The Metro UI CSS isn’t related to Twitter Bootstrap but anyway it offers similar features. Of course there are Tiles and a number of fancied up Form Controls:
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1609.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1609" src="http://code-inside.de/blog-in/wp-content/uploads/image1609_thumb.png" border="0" alt="image1609" width="504" height="200" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1609.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1609" src="{{BASE_PATH}}/assets/wp-images-en/image1609_thumb.png" border="0" alt="image1609" width="504" height="200" /></a>
 
 Most important disadvantage in my opinion: they didn’t rely on Bootstrap. Maybe BootMetro would be the better choice?
 

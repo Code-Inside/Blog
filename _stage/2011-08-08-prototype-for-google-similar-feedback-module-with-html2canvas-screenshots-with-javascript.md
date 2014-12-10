@@ -9,13 +9,13 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1302-397x194.png"></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1302-397x194.png"></a>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1302-397x194.png"> </a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1302-397x194.png"> </a>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1302-397x194.png"></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1302-397x194.png"></a>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1302-397x194.png"> </a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1302-397x194.png"> </a>
 
 A main problem for every Developer is that you can’t see what the user will see. The developer from Google integrated a useful tool where you are able to mark a part of the Side and send it to Google as a screenshot. Both developer and user will have a maximum plus of Usability.
 
@@ -35,7 +35,7 @@ But because of I didn’t work with the Canvas Element so far I would like to te
 
 So I adapted the Demoside a little and integrated a ASP.NET MVC application and added a Upload-Button (and adapted the script a little bit and appointed Canvas with an ID).
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1305.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1305" src="http://code-inside.de/blog-in/wp-content/uploads/image1305_thumb.png" border="0" alt="image1305" width="548" height="196" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1305.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1305" src="{{BASE_PATH}}/assets/wp-images-en/image1305_thumb.png" border="0" alt="image1305" width="548" height="196" /></a>
 
 The HTML Canvas Object has a Javascript-method to change it into base64 picture (the deciding tip is form <a href="http://stackoverflow.com/questions/1590965/uploading-canvas-image-data-to-the-server">this side</a>). With AJAX the base64 image will be send to the Controller. With the Url.Action Parameter I force that the whole URL will be render because the Javascript of Html2Canvas destroys the Location of the side.
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:2f4f7130-3ac7-4907-b182-92d15868d9d4" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
@@ -71,7 +71,7 @@ The result is nice:
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb488.png" border="0" alt="image" width="244" height="129" />
 
-In fact my sides are not rendered quite good but almost <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile22.png" alt="Zwinkerndes Smiley" />
+In fact my sides are not rendered quite good but almost <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile22.png" alt="Zwinkerndes Smiley" />
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb489.png" border="0" alt="image" width="420" height="332" />
 
@@ -89,4 +89,4 @@ The images will be saved in the directory of the application.
 
 There are a lot of <a href="http://www.youtube.com/watch?v=wbSoSCStodA">things you can do with canvas</a> so it becomes more similar with Google+.
 
-Like I’ve already mentioned in the title: It’s just a Prototype <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile22.png" alt="Zwinkerndes Smiley" />
+Like I’ve already mentioned in the title: It’s just a Prototype <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile22.png" alt="Zwinkerndes Smiley" />

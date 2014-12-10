@@ -9,7 +9,7 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<a href="http://code-inside.de/blog-in/wp-content/uploads/resourcemon-508x194.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="resourcemon-508x194" src="http://code-inside.de/blog-in/wp-content/uploads/resourcemon-508x194_thumb.png" border="0" alt="resourcemon-508x194" width="509" height="195" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/resourcemon-508x194.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="resourcemon-508x194" src="{{BASE_PATH}}/assets/wp-images-en/resourcemon-508x194_thumb.png" border="0" alt="resourcemon-508x194" width="509" height="195" /></a>
 
 <strong> </strong>
 
@@ -55,4 +55,4 @@ Unfortunately it didn’t work for me or at least I didn’t know what he needs 
 
 <strong></strong>
 
-Better do it right at the first time. No update. Besides Windows 8 installs itself very quick <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile43.png" alt="Zwinkerndes Smiley" />
+Better do it right at the first time. No update. Besides Windows 8 installs itself very quick <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile43.png" alt="Zwinkerndes Smiley" />

@@ -15,7 +15,7 @@ language: en
 
 The best part of the IPad3? The Display. After <a href="http://www.codinghorror.com/blog/2007/06/where-are-the-high-resolution-displays.html">years of waiting for High Resolution Display</a> there are now some movements in the market. Of course this has an important influence on web-development because nobody wants to see washed-out Pictures or even worse: a totally broken design. How am I able to identify a High-Resolution Display? What do I have to take into consideration?
 
-<em>I’m not a full-time Web Designer, so please forgive me if this article isn’t perfect at all <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile38.png" alt="Zwinkerndes Smiley" />. I’m glad to hear your suggestions in the comments! </em>
+<em>I’m not a full-time Web Designer, so please forgive me if this article isn’t perfect at all <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile38.png" alt="Zwinkerndes Smiley" />. I’m glad to hear your suggestions in the comments! </em>
 
 <em> </em>
 
@@ -128,6 +128,6 @@ I’ve only spoken about pictures so far but of course there are many subjects l
 
 <strong> </strong>
 
-Even though I’ve wrote about High-Res displays all the time the only one I know is the iPad 3 display. Does somebody know another one? Or will there be an upgrade <a href="http://blogs.msdn.com/b/b8/archive/2012/03/21/scaling-to-different-screens.aspx">with Windows 8</a>? If you own a Mac (and an iPad3) you are able to use it as a High-Res display. If you know alternatives in the world of Windows please tell me <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile38.png" alt="Zwinkerndes Smiley" /> Do you know somebody who is already providing special pictures for the iPad3?
+Even though I’ve wrote about High-Res displays all the time the only one I know is the iPad 3 display. Does somebody know another one? Or will there be an upgrade <a href="http://blogs.msdn.com/b/b8/archive/2012/03/21/scaling-to-different-screens.aspx">with Windows 8</a>? If you own a Mac (and an iPad3) you are able to use it as a High-Res display. If you know alternatives in the world of Windows please tell me <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile38.png" alt="Zwinkerndes Smiley" /> Do you know somebody who is already providing special pictures for the iPad3?
 
-By the way: If you think about getting an iPad3 you are welcome to do it via <a href="http://astore.amazon.de/codeinside-21/detail/B007IV5PI6">this Amazon link</a> and support our work <img class="wlEmoticon wlEmoticon-openmouthedsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-openmouthedsmile3.png" alt="Smiley mit geöffnetem Mund" />
+By the way: If you think about getting an iPad3 you are welcome to do it via <a href="http://astore.amazon.de/codeinside-21/detail/B007IV5PI6">this Amazon link</a> and support our work <img class="wlEmoticon wlEmoticon-openmouthedsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-openmouthedsmile3.png" alt="Smiley mit geöffnetem Mund" />

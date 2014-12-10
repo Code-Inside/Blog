@@ -91,6 +91,6 @@ The virtual hard disk (VHD) could also be used from other Hyper-V installations,
 
 <strong>Everything on board… </strong>
 
-If you like to test new operation systems without knocking out your main computer virtualization is a good thing. With Hyper-V you have a new powerful solution in the desktop operation system – just a few clicks away <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile49.png" alt="Zwinkerndes Smiley" />
+If you like to test new operation systems without knocking out your main computer virtualization is a good thing. With Hyper-V you have a new powerful solution in the desktop operation system – just a few clicks away <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile49.png" alt="Zwinkerndes Smiley" />
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog/wp-content/uploads/image_thumb856.png" border="0" alt="image" width="587" height="366" />

@@ -30,7 +30,7 @@ It only works on Chrome and you have to speak very slow and clear. He doesn’t 
 
 <strong>Have a try</strong>
 
-You are able to try it for example <a href="http://slides.html5rocks.com/#speech-input">here</a>. But this video shows how it works as well (for those who are not Chrome users <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile35.png" alt="Zwinkerndes Smiley" />)
+You are able to try it for example <a href="http://slides.html5rocks.com/#speech-input">here</a>. But this video shows how it works as well (for those who are not Chrome users <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile35.png" alt="Zwinkerndes Smiley" />)
 
 &nbsp;
 <div id="scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:700036c3-e6e0-4b00-9d49-ff44f8acfdcb" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">

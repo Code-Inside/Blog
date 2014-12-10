@@ -44,7 +44,7 @@ language: en
   <li>ActionExecutedContext Yeah!</li>
 </ul>
 
-<p><a href="http://code-inside.de/blog-in/wp-content/uploads/image12.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="259" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image-thumb12.png" width="523" border="0" /></a>&#160;</p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-en/image12.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="259" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb12.png" width="523" border="0" /></a>&#160;</p>
 
 <p>With this feature we can now build a very smart logger: Get all ViewData typ information recursive and save this by using <a href="http://logging.apache.org/log4net/">Log4Net</a>.</p>
 

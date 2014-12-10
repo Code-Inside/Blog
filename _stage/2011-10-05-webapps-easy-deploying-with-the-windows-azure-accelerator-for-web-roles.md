@@ -13,7 +13,7 @@ language: en
 
 <strong> </strong>
 
-The definitely catchy name <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile27.png" alt="Zwinkerndes Smiley" /> stands for a relative clever Deploymentmodell for Windows Azure. Base is the fact, that the <a href="http://blogs.msdn.com/b/windowsazure/archive/2010/12/02/new-full-iis-capabilities-differences-from-hosted-web-core.aspx">Web Roll of Azure is able since a few versions are able to use the full IIS.</a>
+The definitely catchy name <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile27.png" alt="Zwinkerndes Smiley" /> stands for a relative clever Deploymentmodell for Windows Azure. Base is the fact, that the <a href="http://blogs.msdn.com/b/windowsazure/archive/2010/12/02/new-full-iis-capabilities-differences-from-hosted-web-core.aspx">Web Roll of Azure is able since a few versions are able to use the full IIS.</a>
 
 That means, in one Web-Roll many websites are able to run. The configuration was a little bit <a href="http://blogs.msdn.com/b/avkashchauhan/archive/2011/01/01/windows-azure-how-to-define-virtual-directories-in-service-definition-csdef-for-your-site.aspx">bulky so far</a>.
 
@@ -23,7 +23,7 @@ The initialization takes about 10 minutes (+ 15 minutes for singular deploying o
 
 <strong>What’s the “Windows Azure Accelerator for Web Roles”? </strong>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1341.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border-width: 0px;" title="image1341" src="http://code-inside.de/blog-in/wp-content/uploads/image1341_thumb.png" border="0" alt="image1341" width="180" height="332" align="left" /></a>In fact it’s a new <a href="http://waawebroles.codeplex.com/">projecttemplate</a> including a kind of “Container-App” (the “Website Manager”). You don’t have to change anything on the project – you will be guided through a Wizard and set the used Credentials for the WebDeploy.
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1341.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border-width: 0px;" title="image1341" src="{{BASE_PATH}}/assets/wp-images-en/image1341_thumb.png" border="0" alt="image1341" width="180" height="332" align="left" /></a>In fact it’s a new <a href="http://waawebroles.codeplex.com/">projecttemplate</a> including a kind of “Container-App” (the “Website Manager”). You don’t have to change anything on the project – you will be guided through a Wizard and set the used Credentials for the WebDeploy.
 
 On the left side you can see the two projects we are going to use:
 
@@ -39,7 +39,7 @@ You don’t have to change anything on the last project. This application will r
 
 The “Web Site Manager” offers only a few configuration options. At the web surface you are able to add new IIS bindings and manage the synchronization process (spread packages from the Blob Storages on the instance) – a screenshot:
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1342.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image1342" src="http://code-inside.de/blog-in/wp-content/uploads/image1342_thumb.png" border="0" alt="image1342" width="539" height="225" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1342.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image1342" src="{{BASE_PATH}}/assets/wp-images-en/image1342_thumb.png" border="0" alt="image1342" width="539" height="225" /></a>
 
 <strong>5-Minute access…</strong>
 

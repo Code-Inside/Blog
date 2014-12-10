@@ -19,7 +19,7 @@ If you want to be hip at the Source Control administration you have to take a lo
 
 “I’m certain that about this time, I bunch of people are asking “but, did you implement DVCS”.  The answer is no, not yet.  You still can’t checkin while you are offline.  And you can’t do history or branch merges, etc.  Certain operations do still require you to be online.  You won’t get big long hangs – but rather nice error messages that tell you you need to be online.  DVCS is definitely in our future and this is a step in that direction but there’s another step yet to take.”
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1313.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1313" src="http://code-inside.de/blog-in/wp-content/uploads/image1313_thumb.png" border="0" alt="image1313" width="138" height="112" align="left" /></a>For this blogpost it is important, that I only started working with Git so it’s possible that some facts aren’t true. But of course you are welcome to adjust me in the comments below. If you need some more help than take a look at the help side of GitHub.
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1313.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1313" src="{{BASE_PATH}}/assets/wp-images-en/image1313_thumb.png" border="0" alt="image1313" width="138" height="112" align="left" /></a>For this blogpost it is important, that I only started working with Git so it’s possible that some facts aren’t true. But of course you are welcome to adjust me in the comments below. If you need some more help than take a look at the help side of GitHub.
 
 So let’s have a start….
 
@@ -37,7 +37,7 @@ GitHub offers a great help which adopts you the subject step by step. From the s
 
 … to the creation of the first repositories:
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1319.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1319" src="http://code-inside.de/blog-in/wp-content/uploads/image1319_thumb.png" border="0" alt="image1319" width="570" height="337" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1319.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1319" src="{{BASE_PATH}}/assets/wp-images-en/image1319_thumb.png" border="0" alt="image1319" width="570" height="337" /></a>
 
 <strong>Important Initial instructions</strong>
 
@@ -67,7 +67,7 @@ Press “I” for the Inser-Mode and enter something now “ESC” and “:wq”
 
 <strong>Go on trying …</strong>
 
-Like I’ve said before I recommend you the <a href="http://help.github.com/">GitHub Help Side</a>. If I found out something new I will let you know <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile24.png" alt="Zwinkerndes Smiley" />
+Like I’ve said before I recommend you the <a href="http://help.github.com/">GitHub Help Side</a>. If I found out something new I will let you know <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile24.png" alt="Zwinkerndes Smiley" />
 
 Download <a href="http://code.google.com/p/msysgit/downloads/list">Git Client for Windows</a>
 

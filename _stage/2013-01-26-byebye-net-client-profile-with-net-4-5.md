@@ -59,4 +59,4 @@ As far as I remember Visual Studio 2010 doesn’t act as clever (what lead to <a
 
 <strong>Result</strong>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1704.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1704" src="http://code-inside.de/blog-in/wp-content/uploads/image1704_thumb.png" border="0" alt="image1704" width="478" height="249" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1704.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1704" src="{{BASE_PATH}}/assets/wp-images-en/image1704_thumb.png" border="0" alt="image1704" width="478" height="249" /></a>

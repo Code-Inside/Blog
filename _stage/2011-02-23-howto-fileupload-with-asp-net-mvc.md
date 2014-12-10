@@ -20,7 +20,7 @@ language: en
 
 <p>With "file" I´m able to reach several characteristics with this method and if I want to I can save the file:</p>
 
-<p><a href="http://code-inside.de/blog-in/wp-content/uploads/image128.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://code-inside.de/blog-in/wp-content/uploads/image_thumb37.png" width="158" height="189" /></a></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-en/image128.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb37.png" width="158" height="189" /></a></p>
 
 <p>Now the Frontend:</p>
 
@@ -38,7 +38,7 @@ language: en
         &lt;input type="submit" name="submit" value="Submit" /&gt;
         &lt;% } %&gt;</pre></div>
 
-<p>Simple and fast <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-smile4.png" />&#160;</p>
+<p>Simple and fast <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile4.png" />&#160;</p>
 
 <p><b>File size:</b></p>
 

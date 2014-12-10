@@ -63,7 +63,7 @@ If it’s off you will receive this error message:
 
 The error message “The vaule ‘Test’ is not valid for Age.” Will be written directly into the ModelState:
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1439.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1439" src="http://code-inside.de/blog-in/wp-content/uploads/image1439_thumb.png" border="0" alt="image1439" width="459" height="308" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1439.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1439" src="{{BASE_PATH}}/assets/wp-images-en/image1439_thumb.png" border="0" alt="image1439" width="459" height="308" /></a>
 
 Unfortunately it’s not that easy to <a href="http://forums.asp.net/t/1512140.aspx/1/10">change this message</a> – all kinds of languages will be ignored. That doesn’t look nice on a German side.
 
@@ -87,7 +87,7 @@ Link the Resource file to the Global.asax:
 </div>
 <strong>Result:</strong>
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image14411.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1441" src="http://code-inside.de/blog-in/wp-content/uploads/image1441_thumb1.png" border="0" alt="image1441" width="424" height="124" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image14411.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1441" src="{{BASE_PATH}}/assets/wp-images-en/image1441_thumb1.png" border="0" alt="image1441" width="424" height="124" /></a>
 
 <strong> </strong>
 

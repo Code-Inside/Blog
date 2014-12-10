@@ -37,7 +37,7 @@ This doesn’t mean if the application is “compatible” to .NET 4.5 but if th
 
 It’s kind of difficult to answer this question since this depends on the app.config or the web.config and if the IIS is in the game you have to configure the AppPool properly.
 
-<em>If you read the <a href="http://www.hanselman.com/blog/NETVersioningAndMultiTargetingNET45IsAnInplaceUpgradeToNET40.aspx">Hanselman Post</a> you are now going to get a very short version of it <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile47.png" alt="Zwinkerndes Smiley" /></em>
+<em>If you read the <a href="http://www.hanselman.com/blog/NETVersioningAndMultiTargetingNET45IsAnInplaceUpgradeToNET40.aspx">Hanselman Post</a> you are now going to get a very short version of it <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile47.png" alt="Zwinkerndes Smiley" /></em>
 
 <em> </em>
 
@@ -52,7 +52,7 @@ If you run a Desktop Application without the correct framework version in the <a
 </div>
 When there is no .NET 4.5 that’s your error message:
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1662.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1662" src="http://code-inside.de/blog-in/wp-content/uploads/image1662_thumb.png" border="0" alt="image1662" width="523" height="266" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1662.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1662" src="{{BASE_PATH}}/assets/wp-images-en/image1662_thumb.png" border="0" alt="image1662" width="523" height="266" /></a>
 
 There is a similar element for Web-Application in the web.config:
 

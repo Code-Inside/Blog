@@ -29,7 +29,7 @@ According to this slogan I’ve brought the page online in a case of youth fooli
 
 It didn’t take long for the spam bots to invade the site with spam:
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image1652.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1652" src="http://code-inside.de/blog-in/wp-content/uploads/image1652_thumb.png" border="0" alt="image1652" width="516" height="496" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image1652.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1652" src="{{BASE_PATH}}/assets/wp-images-en/image1652_thumb.png" border="0" alt="image1652" width="516" height="496" /></a>
 
 After the system is completely based on my own code I wondered about the enormous number of spam (4 to 5 entries every day).
 
@@ -57,6 +57,6 @@ Anonym entries have their value but it is necessary to have some kind of moderat
 
 I didn’t thought about this subject at all. At the beginning I had to remove the first spam entries via RavenDB Management Studio. It’s possible but laborious. My advice for you: It’s useful to integrate some administration functions from the beginning – even a not-anonym user could share some improper content.
 
-P.S: I’ve pulled the emergency brake. KnowYourStack Reimagined <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile46.png" alt="Zwinkerndes Smiley" />
+P.S: I’ve pulled the emergency brake. KnowYourStack Reimagined <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile46.png" alt="Zwinkerndes Smiley" />
 
-<a href="http://code-inside.de/blog-in/wp-content/uploads/image164.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="http://code-inside.de/blog-in/wp-content/uploads/image_thumb72.png" border="0" alt="image" width="559" height="289" /></a>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image164.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb72.png" border="0" alt="image" width="559" height="289" /></a>

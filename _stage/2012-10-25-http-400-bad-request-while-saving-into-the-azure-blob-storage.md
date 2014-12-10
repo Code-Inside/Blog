@@ -23,7 +23,7 @@ If you receive the exception “the remote server returned an error: (400) Bad R
 
 4. <em>Container names must be from 3 through 63 characters long.</em>
 
-Small error but it still has the potential to make me confused <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="http://code-inside.de/blog-in/wp-content/uploads/wlEmoticon-winkingsmile45.png" alt="Zwinkerndes Smiley" />
+Small error but it still has the potential to make me confused <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile45.png" alt="Zwinkerndes Smiley" />
 
 There is already a good guide about how to deal with the BlobStorage here with nice example code. For example how to upload a file into the Blob storage:
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:35224f5e-9316-494f-acf3-822f73d2b928" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
