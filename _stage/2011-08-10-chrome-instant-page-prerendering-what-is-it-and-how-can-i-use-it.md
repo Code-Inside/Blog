@@ -97,4 +97,4 @@ Technical you can activate it with &lt;link rel=”prerender”href=”…”&gt
 
 Google proposed a <a href="http://code.google.com/chrome/whitepapers/pagevisibility.html">Page Visibility API</a> to afford the side provider to see what the browser “see” while prerendering.
 
-[<a href="http://code.google.com/p/code-inside/source/browse/#git%2F2011%2FChromePrerender">Democode on Google Code</a> / <a href="{{BASE_PATH}}/code-inside.de/files/democode/chromeprerender/chromeprerender.zip">Download as Zip</a>]
+[<a href="http://code.google.com/p/code-inside/source/browse/#git%2F2011%2FChromePrerender">Democode on Google Code</a> / <a href="{{BASE_PATH}}/assets/files/democode/chromeprerender/chromeprerender.zip">Download as Zip</a>]
