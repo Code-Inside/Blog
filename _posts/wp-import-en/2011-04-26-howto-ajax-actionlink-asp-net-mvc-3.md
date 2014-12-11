@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: AJAX Actionlink & ASP.NET MVC 3"
 date: 2011-04-26 22:11
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [AJAX, ASP.NET, MVC3]

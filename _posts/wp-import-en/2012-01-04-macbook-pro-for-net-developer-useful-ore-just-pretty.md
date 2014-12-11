@@ -2,7 +2,7 @@
 layout: post
 title: "MacBook Pro for .NET Developer – useful or just pretty?"
 date: 2012-01-04 11:00
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [MacBook Pro; Apple]

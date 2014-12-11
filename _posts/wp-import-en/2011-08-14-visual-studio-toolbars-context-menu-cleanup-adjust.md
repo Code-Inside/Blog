@@ -2,7 +2,7 @@
 layout: post
 title: "Visual Studio Toolbars & Context-Menu cleanup / adjust"
 date: 2011-08-14 20:59
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [Visual Studio]

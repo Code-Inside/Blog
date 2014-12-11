@@ -2,7 +2,7 @@
 layout: post
 title: "NoSQL with RavenDB and ASP.NET MVC"
 date: 2011-08-31 15:34
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [NoSQL; RavenDB; ASP.NET MVC]

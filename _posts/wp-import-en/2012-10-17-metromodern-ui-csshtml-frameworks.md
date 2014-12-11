@@ -2,7 +2,7 @@
 layout: post
 title: "Metro/Modern UI CSS/HTML Frameworks"
 date: 2012-10-17 10:22
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Azure SDK for node.js & co – on GitHub!"
 date: 2011-12-21 10:52
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [node.js; GitHub]

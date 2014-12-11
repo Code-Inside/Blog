@@ -2,7 +2,7 @@
 layout: post
 title: "„Http 400 Bad Request“ while saving into the Azure Blob Storage?"
 date: 2012-10-25 10:23
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

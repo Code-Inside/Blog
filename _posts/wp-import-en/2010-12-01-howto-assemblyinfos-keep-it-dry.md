@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: AssemblyInfos – Keep it DRY!"
 date: 2010-12-01 14:52
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [assembly info, DLL, Don't repeat yourself]

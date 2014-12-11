@@ -2,7 +2,7 @@
 layout: post
 title: "Will there be a huge memory usage or something like that after the update from Windows 7 to Windows 8?"
 date: 2012-10-09 11:31
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

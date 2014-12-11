@@ -2,7 +2,7 @@
 layout: post
 title: "OWIN – what is it about and why is it so cool?"
 date: 2012-06-12 10:14
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

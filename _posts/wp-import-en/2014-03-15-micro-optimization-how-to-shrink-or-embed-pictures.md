@@ -2,7 +2,7 @@
 layout: post
 title: "Micro-Optimization: how to shrink or „embed“ pictures"
 date: 2014-03-15 10:01
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

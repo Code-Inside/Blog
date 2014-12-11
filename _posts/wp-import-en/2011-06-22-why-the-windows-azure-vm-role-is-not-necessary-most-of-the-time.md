@@ -2,7 +2,7 @@
 layout: post
 title: "Why the Windows Azure VM Role is not necessary (most of the time)"
 date: 2011-06-22 10:38
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [Windows Azure]

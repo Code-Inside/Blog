@@ -2,7 +2,7 @@
 layout: post
 title: "A view into the 3D game-development with Unreal Engine 4 and Doom 3"
 date: 2012-06-25 10:36
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

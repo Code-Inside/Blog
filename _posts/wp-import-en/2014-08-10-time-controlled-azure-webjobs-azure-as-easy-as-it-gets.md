@@ -2,7 +2,7 @@
 layout: post
 title: "Time-controlled Azure WebJobs – Azure as easy as it get‘s"
 date: 2014-08-10 12:36
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

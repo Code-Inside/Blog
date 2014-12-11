@@ -2,7 +2,7 @@
 layout: post
 title: "404-Error: Directory beats ASP.NET MVC Routing"
 date: 2012-07-29 12:04
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

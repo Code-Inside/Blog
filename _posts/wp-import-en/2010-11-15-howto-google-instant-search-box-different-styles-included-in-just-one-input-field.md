@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Google Instant Search-box – different styles included in just one input-field?"
 date: 2010-11-15 18:59
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: []

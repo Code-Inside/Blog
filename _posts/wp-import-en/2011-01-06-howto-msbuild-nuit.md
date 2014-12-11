@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: MsBuild &NUit"
 date: 2011-01-06 00:01
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [MSBuild, NUnit]

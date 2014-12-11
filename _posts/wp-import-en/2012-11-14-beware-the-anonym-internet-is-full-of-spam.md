@@ -2,7 +2,7 @@
 layout: post
 title: "Beware: the anonym Internet is full of spam"
 date: 2012-11-14 13:43
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

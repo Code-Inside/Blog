@@ -2,7 +2,7 @@
 layout: post
 title: "Apple iCloud is using Windows Azure & Amazon AWS"
 date: 2011-07-20 18:26
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

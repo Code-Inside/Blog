@@ -2,7 +2,7 @@
 layout: post
 title: "WebDeploy on Azure Websites using the command line"
 date: 2013-07-07 14:11
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

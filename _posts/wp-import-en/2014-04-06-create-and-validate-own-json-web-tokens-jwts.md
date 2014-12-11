@@ -2,7 +2,7 @@
 layout: post
 title: "Create and validate own Json-Web-Tokens (JWTs)"
 date: 2014-04-06 08:08
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [Auth, JSON]

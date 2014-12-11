@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Azure Active Directory – CRUD for users and groups"
 date: 2014-01-01 16:57
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

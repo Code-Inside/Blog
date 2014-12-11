@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Create RSS Feeds with ASP.NET MVC"
 date: 2014-06-02 17:48
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [HowTo, RSS]

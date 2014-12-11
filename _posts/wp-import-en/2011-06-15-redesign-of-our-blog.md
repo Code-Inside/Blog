@@ -2,7 +2,7 @@
 layout: post
 title: "Redesign of our Blog"
 date: 2011-06-15 16:07
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

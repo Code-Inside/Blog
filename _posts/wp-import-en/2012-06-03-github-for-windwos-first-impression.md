@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub for Windwos – first Impression"
 date: 2012-06-03 18:55
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

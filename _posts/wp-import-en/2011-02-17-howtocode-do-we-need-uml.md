@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Do we need UML?"
 date: 2011-02-17 12:33
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [UML]

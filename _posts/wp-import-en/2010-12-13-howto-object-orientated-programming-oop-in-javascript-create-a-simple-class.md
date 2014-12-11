@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: object orientated programming / OOP in Javascript (create a simple class)"
 date: 2010-12-13 12:12
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [class, Javascript, OOP, programming]

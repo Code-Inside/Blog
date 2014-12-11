@@ -2,7 +2,7 @@
 layout: post
 title: "TFS API: Query Build-Definitions"
 date: 2013-08-20 21:45
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

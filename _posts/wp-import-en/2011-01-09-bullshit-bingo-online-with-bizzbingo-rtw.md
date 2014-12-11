@@ -2,7 +2,7 @@
 layout: post
 title: "Bullshit-Bingo-Online with BizzBingo-RTW"
 date: 2011-01-09 12:08
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

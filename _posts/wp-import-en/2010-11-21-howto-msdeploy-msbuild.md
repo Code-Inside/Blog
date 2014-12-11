@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: MSDeploy & MSBuild"
 date: 2010-11-21 17:03
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: []

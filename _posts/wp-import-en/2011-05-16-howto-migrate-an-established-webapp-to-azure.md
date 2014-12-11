@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: migrate an established WebApp to Azure"
 date: 2011-05-16 11:34
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [Azure]

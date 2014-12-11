@@ -2,7 +2,7 @@
 layout: post
 title: "Entrance into mongoDB"
 date: 2011-10-22 09:40
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [MongoDB, NoSQL, RavenDB]

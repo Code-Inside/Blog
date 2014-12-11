@@ -2,7 +2,7 @@
 layout: post
 title: "Glimpse Web Debugging: Firebug for the Server side"
 date: 2011-04-17 16:13
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [Glimpse, NuGet]

@@ -2,7 +2,7 @@
 layout: post
 title: "Use Twitter Login in ASP.NET MVC 4 without membership & co."
 date: 2012-11-01 19:39
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

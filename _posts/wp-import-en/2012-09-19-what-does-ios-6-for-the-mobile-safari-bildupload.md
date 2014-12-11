@@ -2,7 +2,7 @@
 layout: post
 title: "What does iOS 6 for the mobile Safari – Bildupload!"
 date: 2012-09-19 10:20
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

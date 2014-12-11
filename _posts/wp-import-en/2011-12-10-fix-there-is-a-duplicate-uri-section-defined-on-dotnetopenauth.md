@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: „There is a duplicate ‚uri‘ section defined“ on DotNetOpenAuth"
 date: 2011-12-10 11:01
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Fix]
 tags: [duplicate; DotNetOpenAuth]

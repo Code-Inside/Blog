@@ -2,7 +2,7 @@
 layout: post
 title: "„Sign in with Twitter“ for your own ASP.NET WebApp"
 date: 2012-04-25 22:35
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [ASP.NET, Twitter]

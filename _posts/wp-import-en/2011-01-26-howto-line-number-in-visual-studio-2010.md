@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: line number in Visual Studio 2010"
 date: 2011-01-26 16:00
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [line number, Visual Studio 2010]

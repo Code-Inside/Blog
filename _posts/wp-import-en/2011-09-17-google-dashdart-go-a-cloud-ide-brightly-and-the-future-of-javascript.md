@@ -2,7 +2,7 @@
 layout: post
 title: "Google Dash/Dart, Go, a Cloud IDE „Brightly“ and the future of Javascript"
 date: 2011-09-17 09:40
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

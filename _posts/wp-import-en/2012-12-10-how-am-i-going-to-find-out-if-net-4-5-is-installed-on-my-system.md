@@ -2,7 +2,7 @@
 layout: post
 title: "How am I going to find out if .NET 4.5 is installed on my system?"
 date: 2012-12-10 18:06
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

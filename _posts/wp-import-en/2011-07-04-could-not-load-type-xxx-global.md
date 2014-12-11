@@ -2,7 +2,7 @@
 layout: post
 title: "“Could not load type ‚XXX.Global‘.”"
 date: 2011-07-04 11:55
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Fix]
 tags: []

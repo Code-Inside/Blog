@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Fileupload with ASP.NET MVC"
 date: 2011-02-23 20:49
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, fileupload]

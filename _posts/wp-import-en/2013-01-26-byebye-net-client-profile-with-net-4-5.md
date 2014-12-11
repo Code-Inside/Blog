@@ -2,7 +2,7 @@
 layout: post
 title: "ByeBye .NET Client Profile with .NET 4.5"
 date: 2013-01-26 21:42
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

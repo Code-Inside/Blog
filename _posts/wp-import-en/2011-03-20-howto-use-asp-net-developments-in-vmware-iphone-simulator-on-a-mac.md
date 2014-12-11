@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: use ASP.NET developments in VMWare & iPhone Simulator on a Mac"
 date: 2011-03-20 23:33
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, iPhone, Mac, VMWare]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: make out Retweet-counter in a random URL"
 date: 2014-09-29 21:17
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

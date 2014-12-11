@@ -2,7 +2,7 @@
 layout: post
 title: "Free Online-Tutorial „30 Days to Learn jQuery“"
 date: 2012-03-20 21:17
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

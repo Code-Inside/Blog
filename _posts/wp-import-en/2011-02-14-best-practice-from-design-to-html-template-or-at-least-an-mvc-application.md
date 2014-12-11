@@ -2,7 +2,7 @@
 layout: post
 title: "Best Practice: from Design to HTML Template or at least an MVC Application"
 date: 2011-02-14 16:24
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Best Practise]
 tags: [Design, Html, MVC]

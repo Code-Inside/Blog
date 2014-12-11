@@ -2,7 +2,7 @@
 layout: post
 title: "PowerShell SnapIns vs. Modules"
 date: 2013-03-08 16:54
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

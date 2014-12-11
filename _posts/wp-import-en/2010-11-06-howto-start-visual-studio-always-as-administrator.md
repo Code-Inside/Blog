@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: start visual studio always as administrator"
 date: 2010-11-06 19:27
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [Admin, start, Visual Studio]

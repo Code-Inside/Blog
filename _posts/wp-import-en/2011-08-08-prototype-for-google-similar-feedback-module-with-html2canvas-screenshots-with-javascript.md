@@ -2,7 +2,7 @@
 layout: post
 title: "Prototype for Google + similar Feedback-Module with Html2Canvas-Screenshots with Javascript"
 date: 2011-08-08 11:45
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

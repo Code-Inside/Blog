@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Open MSTest with MSBuild"
 date: 2010-11-24 10:42
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [HowTo ; MSBuild ; MSTest]

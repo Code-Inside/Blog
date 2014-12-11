@@ -2,7 +2,7 @@
 layout: post
 title: "The passionate programmer"
 date: 2011-01-16 18:40
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Books]
 tags: [Chad Fowler. passionate programmer]

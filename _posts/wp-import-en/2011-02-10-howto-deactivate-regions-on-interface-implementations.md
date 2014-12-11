@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: deactivate #regions on Interface implementations"
 date: 2011-02-10 11:47
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [regions]

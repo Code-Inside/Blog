@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Phone SDK & „System“-Icons"
 date: 2013-05-08 18:16
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

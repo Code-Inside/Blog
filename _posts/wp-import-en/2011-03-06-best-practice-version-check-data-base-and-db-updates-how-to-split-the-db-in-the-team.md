@@ -2,7 +2,7 @@
 layout: post
 title: "Best Practice: version check, data base and DB updates... how to split the db in the team?"
 date: 2011-03-06 16:10
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Best Practise]
 tags: [data base, version check]

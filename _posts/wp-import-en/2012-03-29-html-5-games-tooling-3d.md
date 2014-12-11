@@ -2,7 +2,7 @@
 layout: post
 title: "HTML 5 Games, Tooling & 3D"
 date: 2012-03-29 20:08
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

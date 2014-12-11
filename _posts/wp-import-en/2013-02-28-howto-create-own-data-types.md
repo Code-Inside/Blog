@@ -2,7 +2,7 @@
 layout: post
 title: "Howto: create own data types"
 date: 2013-02-28 23:19
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

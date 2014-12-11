@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: MSBuild & StyleCop"
 date: 2010-12-15 18:27
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [MSBuild, StyleCop]

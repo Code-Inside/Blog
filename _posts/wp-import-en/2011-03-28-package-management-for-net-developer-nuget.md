@@ -2,7 +2,7 @@
 layout: post
 title: "Package Management for .NET developer: NuGet"
 date: 2011-03-28 10:28
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [NuGet]

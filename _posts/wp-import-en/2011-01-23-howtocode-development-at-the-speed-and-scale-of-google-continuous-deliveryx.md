@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Development at the Speed and Scale of Google & Continuous Delivery/X"
 date: 2011-01-23 16:27
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [Continuous Delivery, Google]

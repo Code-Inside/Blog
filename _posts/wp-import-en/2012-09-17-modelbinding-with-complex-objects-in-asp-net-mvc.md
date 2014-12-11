@@ -2,7 +2,7 @@
 layout: post
 title: "Modelbinding with complex objects in ASP.NET MVC"
 date: 2012-09-17 13:22
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

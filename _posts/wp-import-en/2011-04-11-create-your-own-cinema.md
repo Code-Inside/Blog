@@ -2,7 +2,7 @@
 layout: post
 title: "Create your own cinema"
 date: 2011-04-11 15:16
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

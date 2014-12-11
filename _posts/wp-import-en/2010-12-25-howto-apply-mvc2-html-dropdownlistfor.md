@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: apply MVC2 & Html.DropDownListFor"
 date: 2010-12-25 20:14
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [Html, MVC2]

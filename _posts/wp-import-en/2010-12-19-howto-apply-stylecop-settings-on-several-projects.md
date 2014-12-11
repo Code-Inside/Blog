@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: apply StyleCop Settings on several projects"
 date: 2010-12-19 14:22
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [MSBuild, Settings, StyleCop]

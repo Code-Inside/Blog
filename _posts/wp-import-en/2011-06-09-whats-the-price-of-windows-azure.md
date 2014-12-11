@@ -2,7 +2,7 @@
 layout: post
 title: "What’s the price of Windows Azure?"
 date: 2011-06-09 10:46
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [Windows Azure]

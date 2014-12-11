@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: build MSBuild Solutions"
 date: 2010-11-12 18:20
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: []

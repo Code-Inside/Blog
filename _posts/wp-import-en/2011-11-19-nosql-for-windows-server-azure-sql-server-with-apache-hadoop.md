@@ -2,7 +2,7 @@
 layout: post
 title: "NoSQL for Windows Server, Azure & SQL Server with Apache Hadoop"
 date: 2011-11-19 21:30
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

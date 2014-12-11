@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft: full speed ahead into the cloud with fileupload & Node.js"
 date: 2011-06-27 15:31
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

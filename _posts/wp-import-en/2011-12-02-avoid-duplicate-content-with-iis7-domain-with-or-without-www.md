@@ -2,7 +2,7 @@
 layout: post
 title: "Avoid „Duplicate Content“ with IIS7 – Domain with or without www"
 date: 2011-12-02 21:02
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [Domain; IIS7]

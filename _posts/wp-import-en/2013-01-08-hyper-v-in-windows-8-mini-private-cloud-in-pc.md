@@ -2,7 +2,7 @@
 layout: post
 title: "Hyper-V in Windows 8 – „Mini-Private-Cloud in PC“"
 date: 2013-01-08 14:20
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

@@ -2,7 +2,7 @@
 layout: post
 title: "WebApps easy deploying with the Windows Azure Accelerator for Web Roles"
 date: 2011-10-05 15:07
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [Windows Azure Accelerator]

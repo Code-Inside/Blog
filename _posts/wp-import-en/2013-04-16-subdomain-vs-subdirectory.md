@@ -2,7 +2,7 @@
 layout: post
 title: "Subdomain vs. Subdirectory"
 date: 2013-04-16 11:40
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

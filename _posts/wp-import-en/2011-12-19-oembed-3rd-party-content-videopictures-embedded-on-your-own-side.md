@@ -2,7 +2,7 @@
 layout: post
 title: "oEmbed – 3rd Party Content (Video/Pictures/…) embedded on your own side"
 date: 2011-12-19 21:54
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Move to Windows Azure – VMs, Word Press Migration, DNS changes"
 date: 2014-03-05 01:37
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

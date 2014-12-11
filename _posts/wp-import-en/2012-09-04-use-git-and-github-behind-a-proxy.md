@@ -2,7 +2,7 @@
 layout: post
 title: "Use Git and GitHub behind a Proxy"
 date: 2012-09-04 10:35
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

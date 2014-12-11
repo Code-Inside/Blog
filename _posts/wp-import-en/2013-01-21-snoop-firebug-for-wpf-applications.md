@@ -2,7 +2,7 @@
 layout: post
 title: "Snoop – Firebug for WPF applications"
 date: 2013-01-21 11:19
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

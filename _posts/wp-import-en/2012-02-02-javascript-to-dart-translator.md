@@ -2,7 +2,7 @@
 layout: post
 title: "Javascript to Dart Translator"
 date: 2012-02-02 20:16
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [Dart]

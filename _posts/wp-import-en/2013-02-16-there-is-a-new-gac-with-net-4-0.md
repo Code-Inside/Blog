@@ -2,7 +2,7 @@
 layout: post
 title: "There is a new GAC with .NET 4.0?"
 date: 2013-02-16 17:54
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Entrance into Git for .NET Developer"
 date: 2011-08-23 16:56
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [Git; Google Code]

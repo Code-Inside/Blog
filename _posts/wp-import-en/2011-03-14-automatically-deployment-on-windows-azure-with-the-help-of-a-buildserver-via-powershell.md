@@ -2,7 +2,7 @@
 layout: post
 title: "Automatically deployment on windows azure with the help of a buildserver via powershell"
 date: 2011-03-14 11:47
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [Powershell, Windows Azure]

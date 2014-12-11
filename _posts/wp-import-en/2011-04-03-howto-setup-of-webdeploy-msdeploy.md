@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Setup of WebDeploy / MSDeploy"
 date: 2011-04-03 11:42
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [MSDeploy, Web Deploy]

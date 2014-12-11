@@ -2,7 +2,7 @@
 layout: post
 title: ".LESS – dynamic stylesheets for .NET Developer"
 date: 2011-07-31 12:59
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

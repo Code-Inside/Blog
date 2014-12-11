@@ -2,7 +2,7 @@
 layout: post
 title: "Internal tools – cheap and tasteless?"
 date: 2013-09-15 09:43
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

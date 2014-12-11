@@ -2,7 +2,7 @@
 layout: post
 title: "try out Windows Azure 90 days for free"
 date: 2011-05-02 09:57
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [Windows Azure]

@@ -2,7 +2,7 @@
 layout: post
 title: "Icons in the „Metro Look“ for free – Monochrom/Minimalist Icons"
 date: 2011-12-01 14:53
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [icons; for free; metro look]

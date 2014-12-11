@@ -2,7 +2,7 @@
 layout: post
 title: "Git-Pull Request mergen for beginners"
 date: 2012-02-19 14:26
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

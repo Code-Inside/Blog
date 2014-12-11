@@ -2,7 +2,7 @@
 layout: post
 title: "ESENT – the „ancient NoSQL DB“ made by Windows"
 date: 2013-12-12 22:18
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

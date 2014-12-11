@@ -2,7 +2,7 @@
 layout: post
 title: "Introduction to Redis on Windows & Redis usage with .NET"
 date: 2012-05-18 09:05
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

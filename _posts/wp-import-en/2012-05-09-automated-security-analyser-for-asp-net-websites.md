@@ -2,7 +2,7 @@
 layout: post
 title: "Automated Security Analyser for ASP.NET websites"
 date: 2012-05-09 18:18
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

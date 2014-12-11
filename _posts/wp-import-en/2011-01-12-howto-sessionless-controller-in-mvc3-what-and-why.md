@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Sessionless Controller in MVC3 – what & and why?"
 date: 2011-01-12 14:57
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [MVC3, Sessionless Controller]

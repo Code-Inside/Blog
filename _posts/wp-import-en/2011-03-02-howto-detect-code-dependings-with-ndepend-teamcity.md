@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: detect code depending’s with NDepend & TeamCity"
 date: 2011-03-02 21:57
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [NDepend, TeamCity]

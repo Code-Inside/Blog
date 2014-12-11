@@ -2,7 +2,7 @@
 layout: post
 title: "Captain Obvious commentaries"
 date: 2012-07-20 12:22
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

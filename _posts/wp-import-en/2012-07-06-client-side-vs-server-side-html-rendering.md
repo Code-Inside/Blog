@@ -2,7 +2,7 @@
 layout: post
 title: "Client-Side vs. Server-Side HTML Rendering"
 date: 2012-07-06 11:24
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

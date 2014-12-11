@@ -2,7 +2,7 @@
 layout: post
 title: "Use RavenDB as embedded Filebase"
 date: 2011-11-05 10:09
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [NoSQL, RavenDB]

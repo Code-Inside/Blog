@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: map your own domains on Windows Azure Applications (*.cloudapp.net)"
 date: 2011-01-19 20:16
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [Windows Azure]

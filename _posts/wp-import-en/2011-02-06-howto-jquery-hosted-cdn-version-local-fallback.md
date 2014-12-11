@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: jQuery hosted CDN version & local „Fallback“"
 date: 2011-02-06 09:58
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [CDN, Fallback, jQuery]

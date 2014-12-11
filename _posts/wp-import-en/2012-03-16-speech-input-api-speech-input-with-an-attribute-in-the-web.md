@@ -2,7 +2,7 @@
 layout: post
 title: "Speech Input API – speech input with an attribute in the Web?"
 date: 2012-03-16 16:24
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

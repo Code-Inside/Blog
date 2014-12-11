@@ -2,7 +2,7 @@
 layout: post
 title: "How can I figure out if my ADFS 2.0 works?"
 date: 2013-04-29 17:11
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

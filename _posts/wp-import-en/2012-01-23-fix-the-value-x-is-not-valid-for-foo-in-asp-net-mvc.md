@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: the value ‚x‘ is not valid for Foo in ASP.NET MVC"
 date: 2012-01-23 12:12
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Fix]
 tags: [value; ASP.NET MVC]

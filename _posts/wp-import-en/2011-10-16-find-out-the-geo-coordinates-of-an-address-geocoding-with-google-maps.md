@@ -2,7 +2,7 @@
 layout: post
 title: "Find out the Geo-coordinates of an address – geocoding with Google Maps"
 date: 2011-10-16 16:11
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [Google Maps; Geo-coordinates]

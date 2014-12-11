@@ -2,7 +2,7 @@
 layout: post
 title: "Chocolatey-apt-get for Windows"
 date: 2012-09-25 10:25
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

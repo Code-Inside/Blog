@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Phone Fonts & what if Visual Studio lies"
 date: 2013-05-25 10:51
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

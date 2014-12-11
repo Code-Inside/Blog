@@ -2,7 +2,7 @@
 layout: post
 title: "Guide to Claim-Based Identity with the Access Control Service"
 date: 2013-03-26 15:36
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

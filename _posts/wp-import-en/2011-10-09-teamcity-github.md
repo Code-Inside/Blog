@@ -2,7 +2,7 @@
 layout: post
 title: "TeamCity & GitHub"
 date: 2011-10-09 13:26
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

@@ -2,7 +2,7 @@
 layout: post
 title: "How to access an Azure Website with the local IIS Manager"
 date: 2014-04-21 14:35
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

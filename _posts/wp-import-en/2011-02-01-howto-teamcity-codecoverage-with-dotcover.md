@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: TeamCity & CodeCoverage with dotCover"
 date: 2011-02-01 12:19
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [TeamCity]

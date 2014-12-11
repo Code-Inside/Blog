@@ -2,7 +2,7 @@
 layout: post
 title: "The Retina/HiRes Displays are comming! HD-Web ahoi!"
 date: 2012-05-24 10:32
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

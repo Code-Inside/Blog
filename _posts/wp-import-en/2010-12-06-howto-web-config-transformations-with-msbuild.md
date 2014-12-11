@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Web.config Transformations with MSBuild"
 date: 2010-12-06 10:49
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [MSBuild, Transformations, Web.config]

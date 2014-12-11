@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Azure Websites – Logging & ErrorHandling"
 date: 2013-03-14 16:40
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

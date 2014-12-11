@@ -2,7 +2,7 @@
 layout: post
 title: "Introduction into SignalR 2.0 & Azure Website Websockets"
 date: 2013-12-22 11:36
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

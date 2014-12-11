@@ -2,7 +2,7 @@
 layout: post
 title: "What does Adobe in the flash-free web? Magazine-Style Layouts with CSS Regions!"
 date: 2012-04-09 15:46
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

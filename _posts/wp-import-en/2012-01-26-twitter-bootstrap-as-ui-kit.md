@@ -2,7 +2,7 @@
 layout: post
 title: "Twitter Bootstrap as UI-kit"
 date: 2012-01-26 18:26
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [Twitter Bootstrap]

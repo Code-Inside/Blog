@@ -2,7 +2,7 @@
 layout: post
 title: "Keep it simple! YAGNI!"
 date: 2011-11-10 20:24
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []

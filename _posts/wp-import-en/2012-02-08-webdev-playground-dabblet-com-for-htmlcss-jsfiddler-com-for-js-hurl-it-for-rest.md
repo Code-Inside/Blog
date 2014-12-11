@@ -2,7 +2,7 @@
 layout: post
 title: "WebDev Playground: dabblet.com for HTML/CSS, jsfiddler.com for JS & HUrl.it for REST"
 date: 2012-02-08 15:57
-author: antje.kilian
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: []
