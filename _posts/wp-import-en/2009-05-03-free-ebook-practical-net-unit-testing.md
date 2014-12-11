@@ -2,7 +2,7 @@
 layout: post
 title: "Free eBook: Practical .NET Unit Testing"
 date: 2009-05-03 13:06
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [Books, News]
 tags: [eBook, Unit Testing]

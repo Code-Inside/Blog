@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Taskmanagement with Visual Studio (ToDos, Hacks & co.)"
 date: 2008-11-19 11:26
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Taskmanagement, TFS, Visual Studio]

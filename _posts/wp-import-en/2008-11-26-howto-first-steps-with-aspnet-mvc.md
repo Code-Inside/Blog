@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: First steps with ASP.NET MVC"
 date: 2008-11-26 00:57
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC]

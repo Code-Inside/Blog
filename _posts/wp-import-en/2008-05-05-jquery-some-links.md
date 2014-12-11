@@ -2,7 +2,7 @@
 layout: post
 title: "jQuery... some links"
 date: 2008-05-05 20:26
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [Uncategorized]
 tags: [AJAX, Javascript, jQuery]

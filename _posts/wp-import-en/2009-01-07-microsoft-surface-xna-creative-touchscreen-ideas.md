@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Surface + XNA: Creative touchscreen ideas"
 date: 2009-01-07 01:36
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [News]
 tags: [Surface, XNA]

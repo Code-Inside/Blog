@@ -2,7 +2,7 @@
 layout: post
 title: "[Update] Icons, Icons, Icons... for free!"
 date: 2008-04-15 13:25
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [Uncategorized]
 tags: [Icons]

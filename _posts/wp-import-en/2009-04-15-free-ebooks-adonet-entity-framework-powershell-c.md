@@ -2,7 +2,7 @@
 layout: post
 title: "Free eBooks: ADO.NET Entity Framework, Powershell & C#"
 date: 2009-04-15 22:44
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [News]
 tags: [ADO.NET EF, C#, eBooks, Powershell]

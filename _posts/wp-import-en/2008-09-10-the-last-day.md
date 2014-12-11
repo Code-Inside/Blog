@@ -2,7 +2,7 @@
 layout: post
 title: "The last day..."
 date: 2008-09-10 08:28
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [Fun]
 tags: []

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: First steps with the Windows Azure CTP and the first &quot;HelloWorld&quot;"
 date: 2009-02-25 03:16
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, Azure, Cloud, Cloud Computing, HowTo, Web Role, Windows Azure]

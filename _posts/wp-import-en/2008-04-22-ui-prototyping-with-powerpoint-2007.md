@@ -2,7 +2,7 @@
 layout: post
 title: "UI Prototyping with PowerPoint 2007"
 date: 2008-04-22 21:32
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [Uncategorized]
 tags: [PowerPoint, PowerPoint 2007, Prototyping, UI]

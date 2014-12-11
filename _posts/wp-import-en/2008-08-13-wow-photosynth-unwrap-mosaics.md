@@ -2,7 +2,7 @@
 layout: post
 title: "&quot;Wow&quot;: Photosynth & Unwrap Mosaics"
 date: 2008-08-13 22:20
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [Uncategorized]
 tags: [Deepzoom, Microsoft Research, Photosynth, Surface, Unwrap Mosaics]

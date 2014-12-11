@@ -2,7 +2,7 @@
 layout: post
 title: "Visual Studio 2010 & .NET Framework 4 Training Kit - May Preview"
 date: 2009-05-25 11:20
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [News]
 tags: [.NET, .NET 4.0, Training Kit]

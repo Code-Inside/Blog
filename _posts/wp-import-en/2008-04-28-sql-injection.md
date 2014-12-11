@@ -2,7 +2,7 @@
 layout: post
 title: "SQL Injection"
 date: 2008-04-28 16:17
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [Fun]
 tags: [Fun, SQL, SQL Injection]

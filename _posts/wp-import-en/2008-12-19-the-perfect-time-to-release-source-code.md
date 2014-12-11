@@ -2,7 +2,7 @@
 layout: post
 title: "The perfect time to release source code?"
 date: 2008-12-19 02:52
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [News]
 tags: [ASP.NET MVC, Community, MVC, Open Source, Oxite, Storefront]

@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC - Resources"
 date: 2008-04-25 07:34
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [Uncategorized]
 tags: [ASP.NET MVC, MVC]

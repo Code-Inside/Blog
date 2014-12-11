@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Understanding Interfaces - a simple description"
 date: 2009-03-18 01:27
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Interfaces]

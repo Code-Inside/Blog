@@ -2,7 +2,7 @@
 layout: post
 title: "Free eBook: Testing Chapter from Beginning ASP.NET MVC"
 date: 2009-04-30 11:19
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [News]
 tags: [Agil, ASP.NET MVC, eBooks, MVC]

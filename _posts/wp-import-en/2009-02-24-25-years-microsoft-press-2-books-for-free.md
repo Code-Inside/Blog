@@ -2,7 +2,7 @@
 layout: post
 title: "25 Years Microsoft Press - 2 books for free"
 date: 2009-02-24 02:05
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [News]
 tags: [Books, MS Press]

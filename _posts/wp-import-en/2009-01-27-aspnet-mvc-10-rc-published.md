@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC 1.0 RC published"
 date: 2009-01-27 23:26
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [News]
 tags: [ASP.NET MVC, MVC]

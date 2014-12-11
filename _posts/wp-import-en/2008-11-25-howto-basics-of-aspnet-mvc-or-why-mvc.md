@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Basics of ASP.NET MVC or why MVC?"
 date: 2008-11-25 01:47
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, ASP.NET MVC, DRY, HowTo, MVC]

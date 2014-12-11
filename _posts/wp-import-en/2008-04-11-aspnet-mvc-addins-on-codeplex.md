@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC - &quot;AddIns&quot; on Codeplex"
 date: 2008-04-11 20:27
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [Uncategorized]
 tags: [ASP.NET, Codeplex, jQuery, MVC]

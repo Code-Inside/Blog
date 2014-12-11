@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Create PDF by click - on the fly"
 date: 2008-04-23 22:06
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Export, FO, Handler, HowTo, nFop, PDF, Xml, XSLT]

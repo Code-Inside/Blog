@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Create SQL Table Relationships via Drag´n´Drop"
 date: 2009-02-20 01:16
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Relationships, SQL, Tips]

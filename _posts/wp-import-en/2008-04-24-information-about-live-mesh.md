@@ -2,7 +2,7 @@
 layout: post
 title: "Information about Live Mesh"
 date: 2008-04-24 11:25
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [Uncategorized]
 tags: [Live, Live Mesh, Microsoft, Windows Live]

@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC: Display dynamic data on master pages"
 date: 2008-04-15 14:32
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [Uncategorized]
 tags: [ASP.NET MVC, Components]

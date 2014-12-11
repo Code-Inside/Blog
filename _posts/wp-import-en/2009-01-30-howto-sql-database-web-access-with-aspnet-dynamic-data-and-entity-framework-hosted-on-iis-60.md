@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: SQL Database web access with ASP.NET Dynamic Data and Entity Framework (hosted on IIS 6.0)"
 date: 2009-01-30 01:48
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [HowTo]
 tags: [Admin, ASP.NET Dynamic Data, Dynamic Data, HowTo, IIS 6.0, Routing]

@@ -2,7 +2,7 @@
 layout: post
 title: "Steve & Bill..."
 date: 2008-05-28 07:22
-author: codemin
+author: robert.muehsig
 comments: true
 categories: [Fun]
 tags: [Bill Gates, Fun, Steve Ballmer, Windows]
