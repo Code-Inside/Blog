@@ -33,7 +33,7 @@ language: en
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:da6c002d-7155-4b8b-98da-c8db77c3ff07" class="wlWriterEditableSmartContent"><pre name="code" class="c#">        &lt;%using(Html.BeginForm("FileUpload",
                                "Home",
                                FormMethod.Post,
-                               new {enctype = "multipart/form-data"})) {%&gt;
+                               new {enctype = "multipart/form-data"})) { %&gt;
         &lt;input type="file" name="file" id="file" /&gt;
         &lt;input type="submit" name="submit" value="Submit" /&gt;
         &lt;% } %&gt;</pre></div>
