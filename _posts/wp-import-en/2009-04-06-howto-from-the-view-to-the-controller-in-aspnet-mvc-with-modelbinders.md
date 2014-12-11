@@ -33,7 +33,7 @@ language: en
     </div>
 
     <ol class="dp-c">
-      <li class="alt"><span><span>&lt;% </span><span class="keyword">using</span><span> (Html.BeginForm()) {%&gt;&#160;&#160; </span></span></li>
+      <li class="alt"><span><span>&lt;% </span><span class="keyword">using</span><span> (Html.BeginForm()) { %&gt;&#160;&#160; </span></span></li>
 
       <li class=""><span>&#160; </span></li>
 
@@ -95,7 +95,7 @@ language: en
     </ol>
   </div>
 
-  <pre class="c#" style="display: none" name="code">    &lt;% using (Html.BeginForm()) {%&gt;
+  <pre class="c#" style="display: none" name="code">    &lt;% using (Html.BeginForm()) { %&gt;
 
         &lt;fieldset&gt;
             &lt;legend&gt;Fields&lt;/legend&gt;
