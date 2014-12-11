@@ -2,9 +2,8 @@
 layout: page
 title : Archive
 header : Post Archive
-group: navigation
 ---
 {% include JB/setup %}
 
-{% assign posts_collate = site.posts %}
+{% assign posts_collate = site.posts | where:"language","en"%}
 {% include JB/posts_collate %}
