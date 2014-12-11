@@ -5,7 +5,8 @@ title: Most Recent Blog Posts
 {% include JB/setup %}
 
 <div>
-  {% for post in site.posts limit:20 %}
+  {% assign englishPosts = site.posts | where: "language", "en" %}
+  {% for post in englishPosts limit:20 %}
 	<div class="row">
 		<div class="col-xs-6">
 			<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
