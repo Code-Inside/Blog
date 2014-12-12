@@ -13,6 +13,7 @@ language: en
 
 For all of you who don´t know what the hell Im talking about: #region on <a href="http://msdn.microsoft.com/en-us/library/9a1ybwek(VS.71).aspx">MSDN</a>.
 
+<br/>
 <!--more-->
 
 Let´s take a look on an example:
