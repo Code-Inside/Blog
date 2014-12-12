@@ -5,21 +5,4 @@ title: Blog Archives
 
 {% assign posts_collate = site.posts | where:"language","en"%}
 
-{% for post in posts_collate reverse %}
-{% if post.layout == 'post' %}
-	{% capture date %}{{ post.date }}{% endcapture %}
-	{% capture this_year %}{{ date | date: "%Y" }}{% endcapture %}
-	{% unless year == this_year %}
-		{% assign year = this_year %}
-		{% unless forloop.first %}
-			</ul>
-		{% endunless %}
-		<h2>{{ date | date: "%Y" }}</h2>
-		<ul>
-	{% endunless %}
-		<li>
-			<span><a href="{{ post.url }}">{{post.title}}</a></span>
-		</li>
-	{% endif %}
-{% endfor %}
-  </ul>
+{% include posts_archive.html %}
