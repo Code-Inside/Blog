@@ -9,17 +9,27 @@ tags: [HowTo, MSBuild, MSTest, Zip]
 language: en
 ---
 {% include JB/setup %}
-<img title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb251.png" width="113" height="150" />   <p>&#160;</p>  <p>In my last Blogpost I talked about howto integrate tests into the Buildscript. Today I´m going to write down an easy way how to zipp the build automatical. </p>  <p>You will find the magic trick in the <a href="http://msbuildtasks.tigris.org/">MSBuildCommunity Tasks project.</a> </p>  <!--more-->  <p><b>Szenario </b></p>  <p><b></b></p>  <p>I just continued the solution from my last blogpost and by the way I downloaded the latest version of MSBuild Community Tasks. </p>  <p>As a side note: The MSI installer doesn´t work so I downloaded Zip with source. These files are from interest: </p>  <p><img title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb252.png" width="244" height="71" /></p>  <p>The following reference should be included into the MSBuild Script:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:4b426656-6825-4ddc-8dbd-85fa18632d5d" class="wlWriterEditableSmartContent"><pre name="code" class="c#">&lt;Import Project="$(MSBuildStartupDirectory)\Lib\MSBuild.Community.Tasks.Targets"/&gt;</pre></div>
+<img title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb251.png" width="113" height="150" />  
+<p>In my last Blogpost I talked about howto integrate tests into the Buildscript. Today I´m going to write down an easy way how to zipp the build automatical. </p>  <p>You will find the magic trick in the <a href="http://msbuildtasks.tigris.org/">MSBuildCommunity Tasks project.</a> </p>  <!--more-->  
+<p><b>Szenario </b></p>
+<p>I just continued the solution from my last blogpost and by the way I downloaded the latest version of MSBuild Community Tasks. </p>
+<p>As a side note: The MSI installer doesn´t work so I downloaded Zip with source. These files are from interest: </p> 
+
+<p><img title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb252.png" width="244" height="71" /></p>  <p>The following reference should be included into the MSBuild Script:</p>  
+
+<pre name="code" class="c#">
+&lt;Import Project="$(MSBuildStartupDirectory)\Lib\MSBuild.Community.Tasks.Targets"/&gt;
+</pre>
 
 <p><b>Zipping or the problem with the documentation </b></p>
 
-<p><b></b></p>
 
 <p>The MSBuildCommunity Task Project is really huge but in my eyes it´s kind of undocumented. With the help of this post I found out how to open the ZipTasks.</p>
 
 <p>Here you can see my entire MSBuild Script. Take a look at the target "zip"</p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:68c9c778-9d7c-434c-898d-71f59f602139" class="wlWriterEditableSmartContent"><pre name="code" class="c#">&lt;Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build"&gt;
+<pre name="code" class="c#">
+&lt;Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build"&gt;
 &lt;Import Project="$(MSBuildStartupDirectory)\Lib\MSBuild.Community.Tasks.Targets"/&gt;
    &lt;PropertyGroup&gt;
 		&lt;OutDir&gt;$(MSBuildStartupDirectory)\OutDir\&lt;/OutDir&gt;
@@ -52,12 +62,12 @@ language: en
 			 ZipFileName="$(OutDir)Package.zip"/&gt;
 	&lt;/Target&gt;
 &lt;/Project&gt;
- </pre></div>
+ </pre>
 
 <p>The item "ZipFiles" includes all websites in my "OutDir". In the zip target I zipp all the files and deside from which folder they should be zipped. Last but not least: enter a name.</p>
 
 <p>The call workes the same way like in my last posts with a .bat file:</p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a6e49440-a5a6-4c91-bc6e-a541118efe67" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe Buildsolution.targets /t:Build,RunTests,Zip</pre></div>
+<pre name="code" class="c#">C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe Buildsolution.targets /t:Build,RunTests,Zip</pre>
 
 <p>Thats the easy but effective way to create a kind of "deployment-package". Even if there is a lot of more stuff you can make with the help of Msdeploy, never say no to a little zip. ;) </p>
