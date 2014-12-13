@@ -9,9 +9,11 @@ tags: [HowTo, LINQ, LINQ to XML, RSS]
 language: en
 ---
 {% include JB/setup %}
-<a href="{{BASE_PATH}}/assets/wp-images-en/image83.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="108" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb98.png" width="107" align="left" border="0" /></a>  <br/><br/><br/><br/>
+<a href="{{BASE_PATH}}/assets/wp-images-en/image83.png"><img style="border-right: 0px; border-top: 0px; margin: 0px 10px 0px 0px; border-left: 0px; border-bottom: 0px" height="108" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb98.png" width="107" align="left" border="0" /></a>  
 
 <p>It&#180;s very easy to create an RSS using Linq to XML. In my sample I create a ASP.NET page, which offers a RSS Feed. We add also a meta tag so that users can find our RSS Feed.</p>
+
+<br/><br/><br/><br/>
 
 <!--more-->
 <p><strong>Project structure:</strong></p>  
