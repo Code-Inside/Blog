@@ -2,17 +2,13 @@
 layout: post
 title: "HowTo: Facebook Connect & ASP.NET MVC"
 date: 2010-09-19 14:52
-author: oliver.guhr
+author: CI Team
 comments: true
 categories: [Uncategorized]
 tags: [ASP.NET MVC, Facebook, Facebook Connect, HowTo]
 language: en
 ---
 {% include JB/setup %}
-<p><a href="{{BASE_PATH}}/assets/wp-images-de/image890.png"><img style="border-right-width: 0px; margin: 0px 10px 0px 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb75.png" width="180" height="70" /></a></p>  <p>Facebook has created a nice little service named &quot;<a href="http://developers.facebook.com/connect.php">Facebook Connect&quot;</a>. With this application Facebook user are allowed to login into your site with their usual facebook log-in information´s and the whole thing is secured by Facebook. In Fact it´s quite similar to <a href="{{BASE_PATH}}/2010/01/04/howto-openid-authentifizierung-und-asp-net-mvc/">OpenID</a> but it had some more specials than just identification. But in this HowTo we are just going to talk about the identification.</p> 
-
-<p><b>Why should I use this?</b></p>
-
 <p>Because if you spend a lot of time into building something stunning and you want other people in public to see this than it´s much easier for them to login with their already created Facebook login files than to register again on your site and remember another keyword.</p>
 
 <p><a href="{{BASE_PATH}}/assets/wp-images-de/image891.png"><img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb76.png" width="187" height="41" /></a></p>
@@ -96,8 +92,6 @@ language: en
 <pre class="c#" name="code">
 &lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xmlns:fb=&quot;http://www.facebook.com/2008/fbml&quot;&gt;
 </pre>
-
-<p><strong>Schritt 8: Die XdReceiver Datei</strong></p>
 
 <p><b>Step 8: the XdReceiver file</b></p>
 
