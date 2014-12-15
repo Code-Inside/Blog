@@ -16,7 +16,8 @@ language: en
 
 <p>In the <strong>HelloMEF.English / German</strong> Project we have the following code:</p>
 
-<p></p>
+
+
 
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:8d26e9f4-6f61-43b9-bc28-ebfeb8900caf" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">using System;
 using System.Collections.Generic;
@@ -42,7 +43,8 @@ namespace HelloMEF.English
 
 <br /><u>Export means:</u> This is a &quot;IHelloService&quot; plugin. 
 
-<p></p>
+
+
 
 <p>Both projects need only the reference to the HelloMEF.App because of the IHelloService interface. 
   <br />The HelloMEF.App doesn&#180;t know anything about these projects!</p>
@@ -110,14 +112,16 @@ namespace HelloMEF.English
 
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:54e02d6b-2ba6-4e75-b867-5dec99356fb7" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">            catalog.Catalogs.Add(new AttributedAssemblyPartCatalog(Assembly.GetExecutingAssembly()));</pre></div>
 
-<p></p>
+
+
 
 <p>... and to look at this directory: 
   <br /></p>
 
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:46bc690d-92a7-4837-b65b-e18d0e9a5009" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">            catalog.Catalogs.Add(new DirectoryPartCatalog("PlugIns"));</pre></div>
 
-<p></p>
+
+
 
 <p>We can also observe the directory, to add plugins while the application is running:</p>
 

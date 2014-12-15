@@ -186,7 +186,8 @@ namespace Mvc2.Helpers
 
 <p>I render the control by using the in-build &quot;Html.RenderUserControl&quot; helper:</p>
 
-<p></p>
+
+
 
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e712fce1-e593-4adb-9427-c2264e6d7928" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">    &lt;%=Html.RenderUserControl("~/Views/Shared/Pagination.ascx", new Mvc2.Views.Shared.PaginationViewData()
       {
@@ -197,15 +198,18 @@ namespace Mvc2.Helpers
           PageSize = ViewData.EntryList.PageSize
       }, null)%&gt;</pre></div>
 
-<p></p>
+
+
 
 <p>The properties of the control and of the PagedList are almost the same - only the &quot;<strong>PageActionLink</strong>&quot; is a specific property. The &quot;<strong>PageActionLink</strong>&quot; is the action Link to your controller - &quot;/Management/Tag/2&quot; route to your <strong>&quot;Management&quot;-Controller</strong> and <strong>&quot;Tag&quot;-ActionMethod</strong> with the <strong>page</strong> parameter. The &quot;page = {page}&quot; parameter is only a template for the real page number, which will be replaced in my control:</p>
 
-<p></p>
+
+
 
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:33d6efe7-5ffc-4189-a145-73061fd7a7b6" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;li&gt;&lt;a href="&lt;%=ViewData.PageActionLink.Replace("%7Bpage%7D", page.ToString())%&gt;"&gt;&lt;%=page.ToString()%&gt;&lt;/a&gt;&lt;/li&gt;</pre></div>
 
-<p></p>
+
+
 
 <p>The URL helper method encode the { and } to %7B and %7D. I can&#180;t explain it very well in english - one quick look in the source code (pagination.ascx) is very helpful ;)</p>
 

@@ -17,9 +17,11 @@ language: en
 &lt;Url type="text/html" method="get" template="{{BASE_PATH}}/?s={searchTerms}"/&gt;
 &lt;/OpenSearchDescription&gt;</pre></div>
 
-<p></p>
 
-<p></p>
+
+
+
+
 
 <p>The most important tag is the &quot;<strong>Url</strong>&quot;-Tag with the &quot;searchTerm&quot; template to create later such an URL: <a title="{{BASE_PATH}}/?s=AJAX" href="{{BASE_PATH}}/?s=AJAX">{{BASE_PATH}}/?s=AJAX</a>&#160;</p>
 
@@ -31,9 +33,11 @@ language: en
 
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:78f9690a-8dcd-4939-808c-f556a70e9afb" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;a href="#" onclick='window.external.AddSearchProvider("{{BASE_PATH}}/browserplugin.xml");'&gt;Code-Inside International Blog&lt;/a&gt;  </pre></div>
 
-<p></p>
 
-<p></p>
+
+
+
+
 
 <p>The javascript &quot;AddSearchProvider&quot; method invoke the browser to promt such an interface: </p>
 

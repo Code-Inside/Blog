@@ -14,7 +14,8 @@ language: en
     &lt;link rel="alternate" href="Rss.ashx" type="application/rss+xml" title="" id="rss" /&gt;
 &lt;/head&gt;</pre></div>
 
-<p></p>
+
+
 
 <p>This RSS feature is called &quot;<a href="http://www.rssboard.org/rss-autodiscovery">RSS Autodiscovery</a>&quot;.</p>
 
@@ -22,7 +23,8 @@ language: en
 
 <p>We create the head (name, declaration and so on) of the RSS XML in the ProcessRequest Method:</p>
 
-<p></p>
+
+
 
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:d1392f9b-f8ff-47ee-840a-e012854da8ce" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">        public void ProcessRequest(HttpContext context)
         {
@@ -39,7 +41,8 @@ language: en
             context.Response.End();
         }</pre></div>
 
-<p></p>
+
+
 
 <p>At the end of the method the&#160; <a href="http://msdn.microsoft.com/en-us/library/system.xml.linq.xdocument.aspx">XDocument</a> is saved into the Response.Output. Your RSS items are created in the &quot;<strong>CreateElements</strong>&quot; Method.</p>
 
@@ -47,7 +50,8 @@ language: en
 
 <p>This method returns IEnumberable&lt;XElement&gt; and the elements will be appended the channel-Element (which is created in the ProcessRequest-Method):</p>
 
-<p></p>
+
+
 
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:7dd90de0-4ead-49a7-8870-9405b21dbccb" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">private IEnumerable&lt;XElement&gt; CreateElements()
         {
@@ -65,7 +69,8 @@ language: en
             return list;
         }</pre></div>
 
-<p></p>
+
+
 
 <p>That&#180;s it :)</p>
 
