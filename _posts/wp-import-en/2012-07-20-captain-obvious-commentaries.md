@@ -16,8 +16,9 @@ It was hard to write the code so we need to write good commentaries. Besides det
 <strong>No.</strong>
 
 To write a useful comment is a special art – but to comment on everything ends in something like this:
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c4b6c305-92bf-497a-b74b-c31b5d5a0eef" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
-<pre class="c#">  /// &lt;summary&gt;
+
+<pre class="c#">
+    /// &lt;summary&gt;
     /// Home Controller
     /// &lt;/summary&gt;
     public class HomeController : Controller
@@ -41,13 +42,12 @@ To write a useful comment is a special art – but to comment on everything ends
         {
             return View();
         }
-    }</pre>
-</div>
+    }
+</pre>
+
 The value of comments like this is almost zero – short of you tricked a special “Quality code Metric” or followed a rule. <a href="{{BASE_PATH}}/2010/11/18/howto-stylecop-settings-auf-mehrere-projekte-anwenden/">StyleCop</a> &amp; Co offer an easy way to create a rigid rule type.
 
 <strong>Rules and “less is more”</strong>
-
-<strong> </strong>
 
 A “we comment on everything” rule makes no sense at all and seduces people to create “wrong” comments. Comments have to explain the code – why is there this and this element. That it’s the “HomeController” class I’m able to found out by myself and I also know what a constructor looks like. But why do you run these tests? What’s the technical background behind this Code?
 

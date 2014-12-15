@@ -54,16 +54,19 @@ In .NET Framework you will find everything you need to start:
 
 <strong>Write a new message into the queue: </strong>
 
-<strong> </strong>
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c2e44e40-8ab7-4612-ae91-3643b92ae43a" class="wlWriterEditableSmartContent" style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">
-<pre class="c#">            MessageQueue queue = new MessageQueue(@".\private$\test");
-            queue.Send("test");</pre>
-</div>
+
+<pre class="c#">            
+MessageQueue queue = new MessageQueue(@".\private$\test");
+             queue.Send("test");
+</pre>
+
 <strong>Read the message:</strong>
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:95492638-483a-47d9-92b0-7dc30c4c6a89" class="wlWriterEditableSmartContent" style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">
-<pre class="c#">MessageQueue queue = new MessageQueue(@".\private$\test");
-Console.WriteLine(queue.Receive().Body.ToString());</pre>
-</div>
+
+<pre class="c#">
+MessageQueue queue = new MessageQueue(@".\private$\test");
+Console.WriteLine(queue.Receive().Body.ToString());
+</pre>
+
 Easy, isn´t it? If you click on "receive" the first message of the queue will be chosen.
 
 Afterwards the message won´t be reachable for other clients as well.
@@ -73,8 +76,9 @@ Afterwards the message won´t be reachable for other clients as well.
 Of course it is possible to send extensive file types as well. These file types will be written into the message by the XmlSerializer.
 
 Here is my Example:
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:1e997a08-6a76-4013-b4de-565ab57d950c" class="wlWriterEditableSmartContent" style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">
-<pre class="c#">using System;
+
+<pre class="c#">
+using System;
 using System.Collections.Generic;
 using System.Messaging;
 using System.Text;
@@ -120,19 +124,15 @@ namespace MSMQ
 
         }
     }
-}</pre>
-</div>
+}
+</pre>
+
 <strong>It works. And now? WHY should I use MSMQ?</strong>
 
-<strong> </strong>
 
 You are right. It is possible to make this whole queue thing with SQL ore other self made applications. So why should you take a look on MSMQ?
 
 <strong>Advantages- and Disadvantages: (took it from the <a href="http://stackoverflow.com/questions/483108/msmq-vs-temporary-table-dump">stack overflow</a>)</strong>
-
-<strong> </strong>
-
-<strong> </strong>
 
 <strong>Cons: </strong>
 <ul>
@@ -150,11 +150,7 @@ You are right. It is possible to make this whole queue thing with SQL ore other 
 	<li>MSMQ messages can be tracked by audit messages in the Windows Event log.</li>
 	<li>Messages can be automatically authenticated (signed) or encrypted upon sending, and verified and decrypted upon reception.</li>
 </ul>
-<strong> </strong>
-
 <strong>Questions to you...</strong>
-
-<strong> </strong>
 
 Do you use MSMQ already? Ore do you prefer a simple SQL data base? Of course the pros sound nice but isn´t this possible with SQL as well? Are you having any more extensive examples?
 

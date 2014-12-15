@@ -14,12 +14,14 @@ language: en
 <strong>Example:</strong>  
 
 <p>For example we are going to build a console application which is used to write something on the commando line every 10 seconds.</p>
-<p><strong>The "Dirty" way..</strong></p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:aff75203-b58c-48bd-b4d3-217615c6b02a" class="wlWriterSmartContent">   <pre class="c#">            while (true)
+<p><strong>The "Dirty" way..</strong></p>
+<pre class="c#">
+    while (true)
             {
                 Thread.Sleep(1000);
                 Console.WriteLine(&quot;Bla!&quot;);
-            }</pre>
-</div>
+            }
+</pre>
 
 <p>This alternative works but it isn´t very classy. And especially if you are planning to do two or three things in order you are going to have a problem.</p>
 
@@ -85,15 +87,16 @@ namespace Timers.ConsoleApp
 
 <p>For me a totally unknown class till today: <a href="http://msdn.microsoft.com/en-us/library/system.threading.autoresetevent.aspx">AutoResetEvent</a></p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c56fc62e-794c-42bb-80dd-0f0446f11a6e" class="wlWriterSmartContent">
-  <pre class="c#">            AutoResetEvent _isStopping = new AutoResetEvent(false);
+
+<pre class="c#">
+  AutoResetEvent _isStopping = new AutoResetEvent(false);
             TimeSpan waitInterval = TimeSpan.FromMilliseconds(1000);
 
             for (; !_isStopping.WaitOne(waitInterval); )
             {
                 Console.WriteLine(&quot;Bla!&quot;);
-            }</pre>
-</div>
+            }
+</pre>
 
 <p>In Fact it looks like the whole while(true) story and I´m sure it also works equal.</p>
 

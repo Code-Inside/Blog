@@ -123,8 +123,9 @@ The code of the filter:
 <strong> </strong>
 
 In fact this is where the connection to the store and the access will be warranted. I’m not sure what else the function is <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile25.png" alt="Zwinkerndes Smiley" />
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:25c151cf-8761-4b36-b60a-ff1955ae04d8" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
-<pre class="c#"> /// &lt;summary&gt;
+
+<pre class="c#"> 
+    /// &lt;summary&gt;
     /// This class manages the state of objects that desire a document session. We aren't relying on an IoC container here
     /// because this is the sole case where we actually need to do injection.
     /// &lt;/summary&gt;
@@ -216,13 +217,12 @@ In fact this is where the connection to the store and the access will be warrant
 
             accessors.Set(instance, documentSession);
         }
-    }</pre>
-</div>
-<strong> </strong>
+    }
+</pre>
+
 
 <strong>BaseController for all Controllers which want to access on the RavenDB </strong>
 
-<strong> </strong>
 
 To get access to the RavenDB on the Controller we will make a BaseController which has all iDocumentSessions as Property:
 
@@ -231,8 +231,9 @@ Till this part the Code is “Ayende” checked because it’s from the <a href=
 <strong>An easy model </strong>
 
 I’ve chosen a very simple model without any connections to other objects. This will follow later on.
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:d24644d9-95ef-4cd9-9b62-2f2147928745" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
-<pre class="c#">public class Word
+
+<pre class="c#">
+public class Word
     {
         public Guid Id { get; set; }
         public string Value { get; set; }
@@ -240,13 +241,13 @@ I’ve chosen a very simple model without any connections to other objects. This
         public string LcId { get; set; }
         public int UpVotes { get; set; }
         public int DownVotes { get; set; }
-    }</pre>
-</div>
-<strong> </strong>
+    }
+</pre>
 
 <strong>CRUD with RavenDB</strong>
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:8de3ba89-2aef-48cf-9b3e-ee21b4b43b49" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
-<pre class="c#">public class WordsController : BaseController
+
+<pre class="c#">
+public class WordsController : BaseController
     {
         public ViewResult Index()
         {
@@ -331,28 +332,16 @@ I’ve chosen a very simple model without any connections to other objects. This
             Session.SaveChanges();
             return RedirectToAction("Index");
         }
-    }</pre>
-</div>
+    }
+</pre>
+
 All in all – totally easy. Let’s see how it goes on…
 
 <strong>Result</strong>
 
 That’s it about the introduction to RavenDB. This is just a small infrastructure that makes it easy to get in touch with RavenDB. You will find the whole Source Code on <a href="http://businessbingo.codeplex.com/SourceControl/changeset/view/90671#1795027">Codeplex in BusinessBingo Repository</a>.
 
-<strong> </strong>
 
 <strong>Links</strong>
 
 Of course I recommend you the blog of Ayende – there are some posts of RavenDB. Also there are some <a href="http://ravendb.net/tutorials">RavenDB tutorials</a>. And if that’s not enough take a look on <a href="http://codeofrob.com/">the page of Rob Ashton</a>.
-
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-9430917753624356";
-/* Code-Inside Post Ende */
-google_ad_slot = "2672274407";
-google_ad_width = 468;
-google_ad_height = 60;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>

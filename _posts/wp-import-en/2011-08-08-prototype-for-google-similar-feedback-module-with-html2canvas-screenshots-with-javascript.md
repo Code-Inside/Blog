@@ -38,19 +38,22 @@ So I adapted the Demoside a little and integrated a ASP.NET MVC application and 
 <a href="{{BASE_PATH}}/assets/wp-images-en/image1305.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1305" src="{{BASE_PATH}}/assets/wp-images-en/image1305_thumb.png" border="0" alt="image1305" width="548" height="196" /></a>
 
 The HTML Canvas Object has a Javascript-method to change it into base64 picture (the deciding tip is form <a href="http://stackoverflow.com/questions/1590965/uploading-canvas-image-data-to-the-server">this side</a>). With AJAX the base64 image will be send to the Controller. With the Url.Action Parameter I force that the whole URL will be render because the Javascript of Html2Canvas destroys the Location of the side.
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:2f4f7130-3ac7-4907-b182-92d15868d9d4" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
-<pre class="c#">  function upload() {
+
+<pre class="c#">  
+function upload() {
                 var canvas = $("#CanvasTest").get(0).toDataURL('image/jpeg');
 
                 $.post('@Url.Action("Upload", "Home", null, "http")',
                     {
                         img: canvas
                     });
-            }</pre>
-</div>
+            }
+</pre>
+
 Because it’s not the regular fileupload running here and because of this I can’t use the <a href="{{BASE_PATH}}/2011/02/23/howto-fileupload-with-asp-net-mvc/">HttpPostedFileBase</a> I need to drag and save the image manual.
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:f94a6feb-a744-4d94-92c2-d126cc9b5b88" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
-<pre class="c#"> public ActionResult Upload()
+
+<pre class="c#"> 
+public ActionResult Upload()
         {
             string fullString = this.Request.Form["img"];
             var base64 = fullString.Substring(fullString.IndexOf(",") + 1);
@@ -65,13 +68,14 @@ Because it’s not the regular fileupload running here and because of this I can
               AppDomain.CurrentDomain.BaseDirectory, Guid.NewGuid().ToString() + ".jpg"), System.Drawing.Imaging.ImageFormat.Jpeg);
 
             return RedirectToAction("Index");
-        }</pre>
-</div>
+        }
+</pre>
+
 The result is nice:
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb488.png" border="0" alt="image" width="244" height="129" />
 
-In fact my sides are not rendered quite good but almost <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile22.png" alt="Zwinkerndes Smiley" />
+In fact my sides are not rendered quite good but almost.
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb489.png" border="0" alt="image" width="420" height="332" />
 
@@ -79,7 +83,6 @@ The images will be saved in the directory of the application.
 
 <strong>Things we have learned:</strong>
 
-<strong> </strong>
 
 - Html2Canvas is an interesting project<strong> </strong>
 
@@ -89,4 +92,4 @@ The images will be saved in the directory of the application.
 
 There are a lot of <a href="http://www.youtube.com/watch?v=wbSoSCStodA">things you can do with canvas</a> so it becomes more similar with Google+.
 
-Like I’ve already mentioned in the title: It’s just a Prototype <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile22.png" alt="Zwinkerndes Smiley" />
+Like I’ve already mentioned in the title: It’s just a Prototype.

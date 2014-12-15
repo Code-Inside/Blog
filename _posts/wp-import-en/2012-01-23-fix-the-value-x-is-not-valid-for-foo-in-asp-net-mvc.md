@@ -38,7 +38,7 @@ But in fact it is a little bit complicated to set the error message if the conne
 <strong> </strong>
 
 This is the default model for the registration in the ASP.NET MVC project draft. I’ve added a Property “Age” from the Typ “int”. This have to be mentioned in the View as well:
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:40299041-887f-4cd8-bbf2-84f8e307c5b4" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
+
 <pre class="c#"> ...
 			&lt;div class="editor-label"&gt;
                 @Html.LabelFor(m =&gt; m.Age)
@@ -47,11 +47,10 @@ This is the default model for the registration in the ASP.NET MVC project draft.
                 @Html.TextBoxFor(m =&gt; m.Age)
                 @Html.ValidationMessageFor(m =&gt; m.Age)
             &lt;/div&gt;
-			...</pre>
-</div>
-<strong>Problem: What happens if the user enters letters instead of numbers? </strong>
+			...
 
-<strong> </strong>
+</pre>
+<strong>Problem: What happens if the user enters letters instead of numbers? </strong>
 
 Everything is alright as long as <strong>the ClientValidation is on</strong>:
 
@@ -74,8 +73,9 @@ You need to create a Resource file at the App_GlobalResources and add a “Prope
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb618.png" border="0" alt="image" width="503" height="162" />
 
 Link the Resource file to the Global.asax:
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:d0183f0e-56d0-475a-b1dc-3b06efb5e778" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
-<pre class="c#">	protected void Application_Start()
+
+<pre class="c#">
+protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
 
@@ -83,8 +83,9 @@ Link the Resource file to the Global.asax:
 
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
-        }</pre>
-</div>
+        }
+</pre>
+
 <strong>Result:</strong>
 
 <a href="{{BASE_PATH}}/assets/wp-images-en/image14411.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1441" src="{{BASE_PATH}}/assets/wp-images-en/image1441_thumb1.png" border="0" alt="image1441" width="424" height="124" /></a>

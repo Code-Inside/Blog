@@ -109,8 +109,9 @@ Between Step 1 and 2 we create the main Callback-URL. In this Callback we use th
 <strong> </strong>
 
 In the _Layout.cshtml
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:d5b2b471-5189-41f2-aed6-770dc36bd33f" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
-<pre class="c#">  &lt;div id="title"&gt;
+
+<pre class="c#">  
+&lt;div id="title"&gt;
                 &lt;h1&gt;My MVC Application&lt;/h1&gt;
             &lt;/div&gt;
             &lt;div id="logindisplay"&gt;
@@ -122,8 +123,8 @@ In the _Layout.cshtml
                 {
                     @Html.ActionLink("Sign in with Twitter", "Authorize", "Auth");
                 }
-            &lt;/div&gt;</pre>
-</div>
+            &lt;/div&gt;
+</pre>
 Either the user is logged in via ForumsAuthentication or we show the Link to the Authorize Methode.
 
 <strong>Result:</strong>
