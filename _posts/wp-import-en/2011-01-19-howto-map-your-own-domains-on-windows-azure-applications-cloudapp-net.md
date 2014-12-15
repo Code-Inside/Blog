@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 
   <p align="left"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 10px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb322.png" width="188" height="73" />If you already successfully deployed a Windows Azure Application and turned it on "active" you will get an URL after the pattern "Name.clodapp.net" for less. But how is it possible to show "name.de or "<a href="http://www.name.de">www.name.de</a>" on my application? The (short) answer:</p>  
-  <p><b>The magic key is transmission and "CNAME"</b></p>
+
+<p><b>The magic key is transmission and "CNAME"</b></p>
 <p><strong>Scenario: We already have our app on azure and all that we want now is to add the right domain. Our TestApp.cloudapp.net should be able to call with testapp.de.</strong></p>
 <p>My domains are at the moment on Hosteurope and there exists a kind of domain administration (like on every provider):</p>
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image310.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image3_thumb.png" width="503" height="290" /></a></p>

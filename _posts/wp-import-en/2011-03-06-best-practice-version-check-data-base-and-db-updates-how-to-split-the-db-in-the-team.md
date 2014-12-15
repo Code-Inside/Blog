@@ -10,13 +10,16 @@ language: en
 ---
 {% include JB/setup %}
 
-  <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb359.png" width="124" height="179" />Almost in every development step in the field of web-development is a data base involved. Also there is a system to control the version (I hope so). But how is it possible to work in team so that everyone is able to use the newest version of the database?</p>
+
+<p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb359.png" width="124" height="179" />Almost in every development step in the field of web-development is a data base involved. Also there is a system to control the version (I hope so). But how is it possible to work in team so that everyone is able to use the newest version of the database?</p>
 <p>Like always, there are many solutions. I´ve chosen this way because for me it´s the best one.</p>  
   
-  <p><b>Central alternative</b></p>
+
+<p><b>Central alternative</b></p>
 <p>Like i said before, there are several alternatives. For example I could create a data base on a central SQL server and everyone access on this. Advantage: you don´t need to install an SQL-Server on every machine. Disadvantages: The developer in particular will be influenced if you work on the DB. It´s also bad if you didn´t work on the same network all the time. In an Open Source Project or a hobby project it won´t be able to have a central instance anyway. </p>
 <p><b>Autarkic alternative - our conditions</b></p>  
-  <p>During our <a href="http://www.bizzbingo.com/">BizzBingo</a> (<a href="http://businessbingo.codeplex.com/">Codeplex</a>) we decided this alternative:</p>
+
+<p>During our <a href="http://www.bizzbingo.com/">BizzBingo</a> (<a href="http://businessbingo.codeplex.com/">Codeplex</a>) we decided this alternative:</p>
 <p>- Every developer has his own SQL server installed</p>
 <p>- The data base is named equal on every developer machine </p>
 <p>- On the SQL server Windows authentication is activated and there is no special account</p>

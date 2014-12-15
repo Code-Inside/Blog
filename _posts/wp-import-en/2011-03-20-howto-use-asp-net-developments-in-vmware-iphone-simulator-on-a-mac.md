@@ -10,9 +10,12 @@ language: en
 ---
 {% include JB/setup %}
 
-  <p><a href="{{BASE_PATH}}/assets/wp-images-en/image143.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb51.png" width="96" height="185" /></a>Those of you who are lucky owners of a Mac are able to register at the <a href="http://developer.apple.com/">apple developer program</a> for free and download several iPhone developer tools there. Also you can download a simulator for iPhone/iPad which probably works like a real iPhone/iPad. As ASP.NET developer I run Visual Studio in a VM. In my case VMWare Fusion. But how it´s possible to run my web application which is hosted in VM in the host system? <b></b></p>  
-  <p>The Source Code is the same like the standard MVC Project type. </p>  
-  <p><b>Windows configuration </b></p>
+
+<p><a href="{{BASE_PATH}}/assets/wp-images-en/image143.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb51.png" width="96" height="185" /></a>Those of you who are lucky owners of a Mac are able to register at the <a href="http://developer.apple.com/">apple developer program</a> for free and download several iPhone developer tools there. Also you can download a simulator for iPhone/iPad which probably works like a real iPhone/iPad. As ASP.NET developer I run Visual Studio in a VM. In my case VMWare Fusion. But how it´s possible to run my web application which is hosted in VM in the host system? <b></b></p>  
+
+<p>The Source Code is the same like the standard MVC Project type. </p>  
+
+<p><b>Windows configuration </b></p>
 <p>Before you start you have to turn off the windows firewall.</p>
 <p><b>VMWare configuration </b></p>
 <p>The last step is to set the VMWare networkconfiguration to "Bridged":</p>
@@ -27,7 +30,8 @@ language: en
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image144.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb52.png" width="135" height="240" /></a></p>
 <p>Or the iPad:</p>
 <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb145.png" width="190" height="244" /></p>  
-  <p><b>Debugging?</b></p>
+
+<p><b>Debugging?</b></p>
 <p>Possible! Breakpoints you define in VM will be put out if you, for example, enter the side with the iPad browser. </p>
 <p><b>First Impression:</b></p>
 <p>Generally this constellation works. If it´s always the best way to switch between VM and the simulator is the question. But of course it´s more comfortable than running a whole deployment. </p>

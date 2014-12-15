@@ -10,7 +10,8 @@ language: en
 ---
 {% include JB/setup %}
 
-  <p><strong></strong></p>
+
+<p><strong></strong></p>
 <p>Like <a href="{{BASE_PATH}}/2011/06/27/microsoft-full-speed-ahead-into-the-cloud-with-fileupload-node-js/">if assumed a while ago</a> Microsoft does everything to place Windows Azure as “the” Cloud-Platform for several Languages &amp; Frameworks. In the past Microsoft was famous for pushing their own Platforms and Languages into the market seems like changing their strategy and is now pushing for example <a href="http://nodejs.org/">node.js</a> and <a href="https://github.com/WindowsAzure">publishes SDKs on GitHub</a>.</p>
 <p><strong>Node.js on Windows Azure</strong></p>
 <p><strong></strong></p>
@@ -25,7 +26,8 @@ language: en
 <p>For a totally node.js inexperienced developer like me it looks very well and understandable. At last it doesn’t hurt to <a href="http://www.windowsazure.com/en-us/develop/nodejs/tutorials/web-app-with-express/">take a look</a>.</p>
 <p>There are also two tutorials which are a little bit more complex: <a href="http://www.windowsazure.com/en-us/develop/nodejs/tutorials/getting-started/">Node.js Web Application with Table Storage</a></p>
 <p><strong>Entrance video in 5 minutes with node.js &amp; Azure:</strong></p> <iframe style="width: 512px; height: 288px" src="http://channel9.msdn.com/Blogs/Windows-Azure-Developer-Experience-Videos/Nodejs-Windows-Azure-Introduction/player?w=512&amp;h=288" frameborder="0" scrolling="no"></iframe>  
-  <p><strong></strong></p>
+
+<p><strong></strong></p>
 <p><strong></strong></p>
 <p><strong></strong></p>
 <p><strong></strong></p>

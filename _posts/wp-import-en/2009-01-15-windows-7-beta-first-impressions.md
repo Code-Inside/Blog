@@ -13,7 +13,8 @@ language: en
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image-thumb112.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="149" alt="image_thumb1" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb1-thumb2.png" width="180" border="0" /></a>&#160;</p> 
 
 
-  <p><strong>A note about the performance</strong></p>
+
+<p><strong>A note about the performance</strong></p>
 <p>Windows 7 runs good on my machine and boot fast, but I don&#180;t know if it is faster than a clean &quot;Vista&quot;, but I really hope that the performance is much better than with Vista.</p>
 <p><strong>Is it stable?      <br /></strong>I played around for 2 hours with Windows 7 and drag some gadgets, explore the taskbar and so on. The gadgets seems to be buggy and if I &quot;right click&quot; a wireless lan, the explorer crash, but it restarts very fast - hooray \o/ ;) . I don&#180;t know if this is a problem of the german version or if it&#180;s just my notebook - sometimes it is unstable.     <br /></p>
 <p><strong>Taskbar &amp; Explorer</strong></p>
@@ -36,7 +37,9 @@ language: en
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/16-thumb1.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="377" alt="16_thumb1" src="{{BASE_PATH}}/assets/wp-images-en/16-thumb1-thumb.png" width="518" border="0" /></a>&#160;</p>
 <p><strong>Other features&#160; <br /></strong>Beside the &quot;<a href="http://www.youtube.com/watch?v=ipg6ltIZRw0">Aero Peek</a>&quot; taskbar feature are to other &quot;Aero effects&quot; - this is Aero Shake:</p>  
   <div class="wlWriterSmartContent" id="scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:830052e5-e9e0-4739-8fab-0dfcdea89b81" style="padding-right: 0px; display: inline; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px">   <div><img id="VideoThumbnail" alt="Video" src="file:///C:/Users/rmu/AppData/Roaming/Windows Live Writer/PostSupportingFiles/c9da0810-53f6-4677-b8ca-b742e82872a3/video825d4ee830b1.bmp" /></div> </div>  
-  <p>Nice - Aero Snap:</p>  <div class="wlWriterSmartContent" id="scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:63494a90-dd42-470e-8b7b-ef24945d5139" style="padding-right: 0px; display: inline; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px">   <div><img id="VideoThumbnail" alt="Video" src="file:///C:/Users/rmu/AppData/Roaming/Windows Live Writer/PostSupportingFiles/c9da0810-53f6-4677-b8ca-b742e82872a3/video33975c55eb9a.bmp" /></div> </div>  <p>If you snap one window left and the other window right, you could still resize one window and it overlap the other window - it&#180;s just a window-position-trick. It would be cool if the two windows would arrange them if you resize one of them.</p>
+
+<p>Nice - Aero Snap:</p>  <div class="wlWriterSmartContent" id="scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:63494a90-dd42-470e-8b7b-ef24945d5139" style="padding-right: 0px; display: inline; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px">   <div><img id="VideoThumbnail" alt="Video" src="file:///C:/Users/rmu/AppData/Roaming/Windows Live Writer/PostSupportingFiles/c9da0810-53f6-4677-b8ca-b742e82872a3/video33975c55eb9a.bmp" /></div> </div>
+<p>If you snap one window left and the other window right, you could still resize one window and it overlap the other window - it&#180;s just a window-position-trick. It would be cool if the two windows would arrange them if you resize one of them.</p>
 <p>Other nice features and improvements in this <a href="http://blogs.msdn.com/tims/archive/2009/01/12/the-bumper-list-of-windows-7-secrets.aspx">blogpost</a>.</p>
 <p><strong>Themes      <br /></strong>Themes contains background images, sounds, screensaver and colors:</p>
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/12-thumb2.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="296" alt="12_thumb2" src="{{BASE_PATH}}/assets/wp-images-en/12-thumb2-thumb.png" width="393" border="0" /></a> </p>

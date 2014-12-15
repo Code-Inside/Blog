@@ -15,7 +15,8 @@ language: en
 
 <p><b>You convinced me. What do I need?</b></p>
 
-<ul>   <li>your own Facebook account</li>    <li>an API key (look at the registration)</li>    <li>in best case a library which will do most of the serious work</li>    <li>10 minutes of time</li> </ul>  <ul></ul>  <p><b>First step: get a Facebook account</b></p>
+<ul>   <li>your own Facebook account</li>    <li>an API key (look at the registration)</li>    <li>in best case a library which will do most of the serious work</li>    <li>10 minutes of time</li> </ul>  <ul></ul>
+<p><b>First step: get a Facebook account</b></p>
 <p>Just register yourself <a href="http://www.facebook.com" target="_blank">here</a>.</p>  
 
 <p><a href="{{BASE_PATH}}/assets/wp-images-de/image892.png"><img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb77.png" width="244" height="187" /></a></p>

@@ -12,7 +12,8 @@ language: en
 <p><img title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb156.png" width="196" height="120" />Those of you who use the right IIS as development server should know the problem with vista and windows 7:</p>
 <p>As long as the user account control /UAC still works you need to go the hard way via "click right" and "achieve as admin". With a little trick it´s possible to avoid all the clicks in the context menu. </p> 
   
-  <p><b>"run program as administrator"</b></p>
+
+<p><b>"run program as administrator"</b></p>
 <p>You will find this action in the calibration menu:</p>
 <p><img title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb157.png" width="269" height="378" /></p>
 <p>With a double click on the .SLN these exe will be opened:</p>  

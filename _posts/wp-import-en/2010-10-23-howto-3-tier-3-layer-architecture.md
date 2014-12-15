@@ -13,7 +13,8 @@ language: en
 <p>But in fact it´s a very huge subject and because of this, lots of beginners (and unconvincible developer) just leave it away in lack of time, passion or experience. You will find a lot of examples which will prove my theory.</p>
 <p>I wrote this article to transmit the basic idea to you and to show you how easy it would be to implement this at the beginning of every project.</p> 
 <strong>What kind of Layers and why 3? </strong>  
-  <p><strong></strong></p>
+
+<p><strong></strong></p>
 <p>Nearly every type of software has to reach for information´s. Doesn´t matter if we talk about XML, a web service, a data bank, a text data ore every other type of systems.</p>
 <p>This information´s somehow needed to be edited. It doesn´t matter if we talk about a mathematic function, a validation or a special kind of searching function.</p>
 <p>Because the results should be presented somewhere, we often have a frontend, like for example a Website, a consol application and so on.</p>

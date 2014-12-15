@@ -13,7 +13,8 @@ language: en
  
 
 
-  <p><strong>A very simple sample</strong>    <br />I would like to create 3 types (Train, Car, Human) in my (very simple, not real world) sample. Each type is movable and that&#180;s why I want to create the &quot;IMovable&quot; interface.&#160; <br />To move these types I implement a&#160; &quot;God&quot; class which can move these objects as he wishes. (I know - it&#180;s a very real sample ;) ).</p>
+
+<p><strong>A very simple sample</strong>    <br />I would like to create 3 types (Train, Car, Human) in my (very simple, not real world) sample. Each type is movable and that&#180;s why I want to create the &quot;IMovable&quot; interface.&#160; <br />To move these types I implement a&#160; &quot;God&quot; class which can move these objects as he wishes. (I know - it&#180;s a very real sample ;) ).</p>
 <p><strong>Structur:</strong></p>
 <p><a href="{{BASE_PATH}}/assets/wp-images-de/image170.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="186" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb149.png" width="240" border="0" /></a></p>
 <p>The most important thing is our &quot;<strong>IMovable</strong>&quot; interfaces (the name of an interface begins with &quot;I&quot; in .NET):</p>  <div class="CodeFormatContainer">   <pre class="csharpcode">    <span class="kwrd">public</span> <span class="kwrd">interface</span> IMovable

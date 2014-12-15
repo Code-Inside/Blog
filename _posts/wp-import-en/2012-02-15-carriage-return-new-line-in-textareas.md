@@ -10,7 +10,8 @@ language: en
 ---
 {% include JB/setup %}
 
-  <p>A little task: each new text line (Carriage Return/ if you press enter <img style="border-bottom-style: none; border-left-style: none; border-top-style: none; border-right-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile33.png" />) in a Textarea should be an element on a list – so what’s the easiest way? Actual a basic element in the web and the user make aware distributions – so it would be fair to dignify it. </p>
+
+<p>A little task: each new text line (Carriage Return/ if you press enter <img style="border-bottom-style: none; border-left-style: none; border-top-style: none; border-right-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile33.png" />) in a Textarea should be an element on a list – so what’s the easiest way? Actual a basic element in the web and the user make aware distributions – so it would be fair to dignify it. </p>
 <p><b>Little MVC Demo App:</b></p>
 <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb630.png" width="244" height="171" /></p>
 <p>We are going to analyze the input in this text field a little bit closer. In my option the “split” happens on the Server-Side but it’s also possible on JavaScript. </p>
