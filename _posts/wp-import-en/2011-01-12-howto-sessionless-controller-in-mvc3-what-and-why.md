@@ -10,7 +10,8 @@ language: en
 ---
 {% include JB/setup %}
 
-  <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb316.png" width="184" height="96" />At the moment I play with <a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=a920ccee-1397-4feb-824a-2dfefee47d54">MVC3 RC</a>. A new feature which is the introduction of a <a href="http://www.lostechies.com/blogs/dahlbyk/archive/2010/12/06/renderaction-with-asp-net-mvc-3-sessionless-controllers.aspx?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed:+LosTechies+(LosTechies)&amp;utm_content=Google+International">SessionState Behavior</a> to, for example, make a controller state-, and sessionless. Unfortunately there wasn´t a really advertising.</p>  <p>How it works, what to keep in mind and why you should use it? Go on reading <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile8.png" /></p>  <!--more-->  <p><b>Sessionless? My demo application</b></p>  <p><b></b></p>  <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb317.png" width="234" height="339" />My demo application consists of two controllers. One of them is "sessionless". Also we have to views for the assignment. Beside the MVC App is an "Empty Website" (except the routing, which is usually leading to the SessionController).</p>  <p>   <br />    <br />    <br />    <br /></p>  
+  <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb316.png" width="184" height="96" />At the moment I play with <a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=a920ccee-1397-4feb-824a-2dfefee47d54">MVC3 RC</a>. A new feature which is the introduction of a <a href="http://www.lostechies.com/blogs/dahlbyk/archive/2010/12/06/renderaction-with-asp-net-mvc-3-sessionless-controllers.aspx?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed:+LosTechies+(LosTechies)&amp;utm_content=Google+International">SessionState Behavior</a> to, for example, make a controller state-, and sessionless. Unfortunately there wasn´t a really advertising.</p>  <p>How it works, what to keep in mind and why you should use it? Go on reading <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile8.png" /></p>  <!--more-->  <p><b>Sessionless? My demo application</b></p>  
+  <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb317.png" width="234" height="339" />My demo application consists of two controllers. One of them is "sessionless". Also we have to views for the assignment. Beside the MVC App is an "Empty Website" (except the routing, which is usually leading to the SessionController).</p>  <p>   <br />    <br />    <br />    <br /></p>  
   
   
   <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:61f0a4b9-6475-45c7-8c46-51fa5d5287f7" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    [ControllerSessionState(SessionStateBehavior.Default)]
@@ -38,15 +39,18 @@ language: en
 
 <p><b>What things should I keep in mind?</b></p>
 
-<p><b></b></p>
+
+
 
 <p>On the first few: You can´t access the Session. That means, for example, for recognizing the user you use the FormsAuth Cookie and so on. As soon if you try to write something into the "TempData" <a href="http://www.dotnetcurry.com/ShowArticle.aspx?ID=609&amp;AspxAutoDetectCookieSupport=1">you are going to receive an Exception</a> "The SessionStateTempDataProvider class requires session state to be enabled". If you try to move a file from controller A to controller B you need a cookie. But there is a CookieStateTempDataProvider used to be in the new MVC Futures. </p>
 
-<p><b></b></p>
+
+
 
 <p><b>Why should I use this?</b></p>
 
-<p><b></b></p>
+
+
 
 <p>Nice question. I found a nice declaration in a <a href="http://stackoverflow.com/questions/4139428/what-are-some-scenarios-of-having-a-session-less-controller-in-asp-net-mv3">Stackoverflow</a> Post:</p>
 
@@ -56,11 +60,13 @@ language: en
 
 <p>Here is another declaration: <a href="http://weblogs.asp.net/imranbaloch/archive/2010/07/10/concurrent-requests-in-asp-net-mvc.aspx">Concurrent Requests in ASP.NET MVC</a></p>
 
-<p><b></b></p>
+
+
 
 <p><b>Is there a consequence for the performance? </b></p>
 
-<p><b></b></p>
+
+
 
 <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb319.png" width="244" height="105" />I´ve done some experiments with Visual Studio 2010 Test Tools and I tried to run a WebPerformances Test in the controller without the Thread.Sleep with 1000 iterations on sessionless and on the "normal" controller. </p>
 
@@ -98,7 +104,8 @@ language: en
 
 <p><b>Result</b></p>
 
-<p><b></b></p>
+
+
 
 <p>In view of "big" web applications and scalability this could be an interesting subject for you. But if we talk about a usually site I´m sure you can live without this. To put something into a session is sometimes very comfortable and nice for some applications like for example wizard. That´s what I think about but maybe I´m wrong <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile8.png" /></p>
 

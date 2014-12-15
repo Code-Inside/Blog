@@ -9,7 +9,8 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<p>&nbsp;</p> <p><b></b></p> <p>Because of the object orientation developers are used to describe their working information’s in objects. For example:</p> <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:5c259567-01db-4ac9-98e7-de5bff57c86c" class="wlWriterSmartContent" style="float: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px"><pre class="c#" name="code">public List&lt;Product&gt; GetProducts()</pre></div>
+<p>&nbsp;</p> 
+ <p>Because of the object orientation developers are used to describe their working information’s in objects. For example:</p> <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:5c259567-01db-4ac9-98e7-de5bff57c86c" class="wlWriterSmartContent" style="float: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px"><pre class="c#" name="code">public List&lt;Product&gt; GetProducts()</pre></div>
 <p>But what about basic characteristics? For the date we have the DateTime Object in the Framework but what about all the other units: meter, Gigabyte and so on? The easiest answer: Usually we have whole numbers so we are going to use an integer.</p>
 <p>That’s what an interface could look like:</p>
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:2b7c53a2-4fac-47b4-b65a-732d7c46f92f" class="wlWriterSmartContent" style="float: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px"><pre class="c#" name="code">public void SetMailboxSize(int mailboxSize)</pre></div>

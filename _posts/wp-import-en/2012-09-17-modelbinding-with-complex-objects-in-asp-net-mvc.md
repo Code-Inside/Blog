@@ -10,7 +10,8 @@ language: en
 ---
 {% include JB/setup %}
 
-  <p><b></b></p>  <p><u><a href="{{BASE_PATH}}/assets/wp-images-en/image_thumb738-552x194.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image_thumb738-552x194" border="0" alt="image_thumb738-552x194" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb738-552x194_thumb.png" width="553" height="194" /></a></u></p>  <p><u></u></p>  <p><u>Basics:</u> The modelbinding in ASP.NET is “relatively” clever and you are able to bond almost everything. All you have to do is to understand how the binding works and you often found that out if you take a look via Fiddler and co. at what is transmitted as HTTP.</p>  <p><b>Object model </b></p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a3098236-fb7e-48f1-a274-839315bd3a8e" class="wlWriterEditableSmartContent"><pre name="code" class="c#">public class Foobar
+  
+  <p><u><a href="{{BASE_PATH}}/assets/wp-images-en/image_thumb738-552x194.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image_thumb738-552x194" border="0" alt="image_thumb738-552x194" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb738-552x194_thumb.png" width="553" height="194" /></a></u></p>  <p><u></u></p>  <p><u>Basics:</u> The modelbinding in ASP.NET is “relatively” clever and you are able to bond almost everything. All you have to do is to understand how the binding works and you often found that out if you take a look via Fiddler and co. at what is transmitted as HTTP.</p>  <p><b>Object model </b></p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a3098236-fb7e-48f1-a274-839315bd3a8e" class="wlWriterEditableSmartContent"><pre name="code" class="c#">public class Foobar
 {
     public string Buzz { get; set; }
 
@@ -19,13 +20,15 @@ language: en
     public List&lt;Foobar&gt; Children { get; set; }
 }</pre></div>
 
-<p><b></b></p>
+
+
 
 <p>The model is very simple but it contains objects from the same type as a list. </p>
 
 <p><b>Action method</b></p>
 
-<p><b></b></p>
+
+
 
 <p>We want to transmit those files to the computer (who doesn’t interact with them at all but it’s enough for the example):</p>
 
@@ -42,7 +45,8 @@ I present you three different models of how to integrate complex objects into th
 
 <p><b>Model 1: easy form (Postback – no AJAX)</b></p>
 
-<p><b></b></p>
+
+
 
 <p>@using (Html.BeginForm(“Test”, “Home”, FormMethod.Post)) 
   <br />{ 
@@ -83,7 +87,8 @@ I present you three different models of how to integrate complex objects into th
 
 <p><b>Model 2: send the form via jQuery with Ajax</b></p>
 
-<p><b></b></p>
+
+
 
 <p>That’s what the example looks like:</p>
 
@@ -102,7 +107,8 @@ I present you three different models of how to integrate complex objects into th
 
 <p><b>Model 3: Files created with Javascript – transmit Javascript Arrays with AJAX </b></p>
 
-<p><b></b></p>
+
+
 
 <p>Model 1 and 2 rely on the existence of a form. If you prefer to build your files in Javascript only and if you don’t want to build a “Hidden”-Form you might prefer this model.</p>
 

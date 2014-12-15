@@ -11,8 +11,10 @@ language: en
 {% include JB/setup %}
 
  <img title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb267.png" width="176" height="146" />  <p>Click right on a DLL and take a look on the detail-list of the characteristics and you will find all the different entries about the version and other stuff. For those thinks we are used to create an <a href="http://msdn.microsoft.com/en-us/library/microsoft.visualbasic.applicationservices.as">assembly info file</a> during every project. But while you are doing so don't forget about the DRY principle: <a href="http://en.wikipedia.org/wiki/Don't_repeat_yourself">"Don't repeat yourself"</a></p>  
-  <!--more-->  <p><b>typical project structure</b></p>  <p><b></b></p>  <p>We have several projects in one solution and they are linked with each other in some way. In every Project we will find an Assemblyinfo file:</p>  
- <img title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb268.png" width="224" height="244" />  <p><b>What's written in such an Assemblyinfo file?</b></p>  <p><b></b></p>  <p>Something like this:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:904622e2-48be-4e3f-948e-aa975efb1f00" class="wlWriterEditableSmartContent"><pre name="code" class="c#">using System.Reflection;
+  <!--more-->  <p><b>typical project structure</b></p>  
+  <p>We have several projects in one solution and they are linked with each other in some way. In every Project we will find an Assemblyinfo file:</p>  
+ <img title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb268.png" width="224" height="244" />  <p><b>What's written in such an Assemblyinfo file?</b></p>  
+  <p>Something like this:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:904622e2-48be-4e3f-948e-aa975efb1f00" class="wlWriterEditableSmartContent"><pre name="code" class="c#">using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -52,7 +54,8 @@ using System.Runtime.InteropServices;
 
 <p><b>Redundancy... everywhere!!</b></p>
 
-<p><b></b></p>
+
+
 
 <p>In every Assemblyinfo we find redundancy files like for example</p>
 
@@ -103,7 +106,8 @@ using System.Runtime.InteropServices;
 
 <p><b>Thats it!</b></p>
 
-<p><b></b></p>
+
+
 
 <p>Now we have just one location for our file. This could be very useful if you want to, for example, administrate the version-number. You are able to change the number at one location and every DLL will be created with the same. Easy but effective.</p>
 

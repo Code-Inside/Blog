@@ -22,13 +22,15 @@ h2 {
 
 <p><b>Transformation with Javascript</b></p>
 
-<p><b></b></p>
+
+
 
 <p>On <a href="http://lesscss.org">http://lesscss.org</a> you will find a Javascript-File which is able to do the transformation on the client in the browser. All you have to do is to reference the Javascript File and that’s it. Read more about this process <a href="http://lesscss.org/#-client-side-usage">here</a>.</p>
 
 <p><b>Transformation during the Developing time into normal CSS</b></p>
 
-<p><b></b></p>
+
+
 
 <p>The steadiest solution to transform .LESS Style into usual CSS is to do the transformation before the Deployment or while developing. The advantage of this method is that a complete CSS will be created and you can continue processing it with the ordinary CSS - Toolstack. But it will be a disadvantage if you try to change it back into the .LESS form afterwards. It’s not impossible but it’s not really charming <img style="border-bottom-style: none; border-left-style: none; border-top-style: none; border-right-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile21.png" /></p>
 

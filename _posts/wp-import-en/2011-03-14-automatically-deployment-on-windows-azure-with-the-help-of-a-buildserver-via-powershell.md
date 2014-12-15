@@ -10,7 +10,14 @@ language: en
 ---
 {% include JB/setup %}
 
-  <p><b></b></p>  <p><a href="{{BASE_PATH}}/assets/wp-images-en/image136.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb44.png" width="150" height="102" /></a>During my last blogposts I´ve already talked about using TeamCity as a Buildserver. Because of we are using <a href="http://www.microsoft.com/windowsazure/">Windows Azure</a> in our <a href="http://www.bizzbingo.com/">BizzBingo</a> project the subject for today is how to create automatically new deploymnts on Azure - it´s easier than you might think <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile15.png" /></p>  <p><b></b></p>  <!--more-->  <p><b>"Visual Studio Deployment" == Fail!</b></p>  <p><strong></strong></p>  <p><b></b></p>  <p>If you create a windows azure project Visual Studio offers you the opportunity to create a deployment:</p>  <p>T<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb373.png" width="510" height="202" /></p>  <p>hat´s nice for the first step of the developing process and I won´t miss it. But if you are developing software and try to build your Build- and Deploymentprocess only on your local Machine with Visual Studio should start to think about his profession <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile15.png" /></p>  <p><b>Architecture </b></p>  <p><b></b></p>  <p>It´s possible to have more than one developer working on a source control system like for example TFS or SVN or Git etc. A buildsystem, like TeamCity in my example, looks after the actuall Sources and build them in intervalls or whenever you nudge it manual. But because of BizzBingo is an open source I need to source out the sensitive information´s. After we finished building the project it will be deployed into the staging surroundings by Azure. After that the staging surroundings is "swapt" into the production surroundings to keep the processes going (at least no Downtime is the goal!)</p>  <p><a href="{{BASE_PATH}}/assets/wp-images-en/image137.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb45.png" width="482" height="293" /></a></p>  <p>Which part you want to run automatically is, of course, your own decision. Maybe you prefer to deploy just on the staging surroundings or directly on the production surroundings - doesn´t matter. </p>  <p>As an extra you are able to run test on the staging surroundings (Selenium, UI Tests and so on) and then something happens. But I´ve used the easier way because <a href="http://www.bizzbingo.com/">BizzBingo</a> is just a hobby <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile7.png" /></p>  <p><b>Requirements</b></p>  <p><b></b></p>  <p>For the next step I assume you have an installed TeamCity ad a Code Repository (TFS/SVN etc.). TeamCity should be able in some way to take the sources. Of course, the usage of Teamcity is optional. It´s also possible to do it local or with another system (TFS Teambuild, classic MSBuild). For Windows Azure it´s necessary to have account information´s. Important Information´s:</p>  <p>- Servicename</p>  <p>- Subscription Key</p>  <p><b></b></p>  <p><b>Windows Azure Management Cmdlets for automation </b></p>  <p><b></b></p>  <p>Round about the management for Windows Azure Microsoft offers a <a href="http://msdn.microsoft.com/en-us/library/ee460799.aspx">REST surface</a>. But in fact, it´s a bit exhausting to use the API directly. From Microsoft too (and maybe from other volunteers, it´s open source) there is an <a href="http://archive.msdn.microsoft.com/azurecmdlets">Azure Management Cmdlets</a> available (Powershell!). </p>  <p>The following software should be installed:</p>  <p>- Newest <a href="http://msdn.microsoft.com/en-us/library/dd179367.aspx">Windows Azure SDK</a> (1.3)</p>  <p>- <a href="http://archive.msdn.microsoft.com/azurecmdlets">Azure Management Cmdlets</a></p>  <p>- Powershell (since Win7/WinServer2008 it´s included automatically) </p>  <p><u></u></p>  <p><u>Installation of Azure Management Cmdlets</u></p>  <p><u></u></p>  <p>It´s possible that there are some problems appearing during the installation. The installation routine is used to check the Azure SDK Version quite strict. After the last security update the version number has been increased. But it´s possible to adjust the check in this file:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:bbac6a97-e3af-443e-af1a-5659829b88a6" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\WASMCmdlets\setup\scripts\dependencies\check\CheckAzureSDK.ps1</pre></div>
+  
+  <p><a href="{{BASE_PATH}}/assets/wp-images-en/image136.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb44.png" width="150" height="102" /></a>During my last blogposts I´ve already talked about using TeamCity as a Buildserver. Because of we are using <a href="http://www.microsoft.com/windowsazure/">Windows Azure</a> in our <a href="http://www.bizzbingo.com/">BizzBingo</a> project the subject for today is how to create automatically new deploymnts on Azure - it´s easier than you might think <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile15.png" /></p>  
+  <!--more-->  <p><b>"Visual Studio Deployment" == Fail!</b></p>  <p><strong></strong></p>  
+  <p>If you create a windows azure project Visual Studio offers you the opportunity to create a deployment:</p>  <p>T<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb373.png" width="510" height="202" /></p>  <p>hat´s nice for the first step of the developing process and I won´t miss it. But if you are developing software and try to build your Build- and Deploymentprocess only on your local Machine with Visual Studio should start to think about his profession <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile15.png" /></p>  <p><b>Architecture </b></p>  
+  <p>It´s possible to have more than one developer working on a source control system like for example TFS or SVN or Git etc. A buildsystem, like TeamCity in my example, looks after the actuall Sources and build them in intervalls or whenever you nudge it manual. But because of BizzBingo is an open source I need to source out the sensitive information´s. After we finished building the project it will be deployed into the staging surroundings by Azure. After that the staging surroundings is "swapt" into the production surroundings to keep the processes going (at least no Downtime is the goal!)</p>  <p><a href="{{BASE_PATH}}/assets/wp-images-en/image137.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb45.png" width="482" height="293" /></a></p>  <p>Which part you want to run automatically is, of course, your own decision. Maybe you prefer to deploy just on the staging surroundings or directly on the production surroundings - doesn´t matter. </p>  <p>As an extra you are able to run test on the staging surroundings (Selenium, UI Tests and so on) and then something happens. But I´ve used the easier way because <a href="http://www.bizzbingo.com/">BizzBingo</a> is just a hobby <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile7.png" /></p>  <p><b>Requirements</b></p>  
+  <p>For the next step I assume you have an installed TeamCity ad a Code Repository (TFS/SVN etc.). TeamCity should be able in some way to take the sources. Of course, the usage of Teamcity is optional. It´s also possible to do it local or with another system (TFS Teambuild, classic MSBuild). For Windows Azure it´s necessary to have account information´s. Important Information´s:</p>  <p>- Servicename</p>  <p>- Subscription Key</p>  
+  <p><b>Windows Azure Management Cmdlets for automation </b></p>  
+  <p>Round about the management for Windows Azure Microsoft offers a <a href="http://msdn.microsoft.com/en-us/library/ee460799.aspx">REST surface</a>. But in fact, it´s a bit exhausting to use the API directly. From Microsoft too (and maybe from other volunteers, it´s open source) there is an <a href="http://archive.msdn.microsoft.com/azurecmdlets">Azure Management Cmdlets</a> available (Powershell!). </p>  <p>The following software should be installed:</p>  <p>- Newest <a href="http://msdn.microsoft.com/en-us/library/dd179367.aspx">Windows Azure SDK</a> (1.3)</p>  <p>- <a href="http://archive.msdn.microsoft.com/azurecmdlets">Azure Management Cmdlets</a></p>  <p>- Powershell (since Win7/WinServer2008 it´s included automatically) </p>  <p><u></u></p>  <p><u>Installation of Azure Management Cmdlets</u></p>  <p><u></u></p>  <p>It´s possible that there are some problems appearing during the installation. The installation routine is used to check the Azure SDK Version quite strict. After the last security update the version number has been increased. But it´s possible to adjust the check in this file:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:bbac6a97-e3af-443e-af1a-5659829b88a6" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\WASMCmdlets\setup\scripts\dependencies\check\CheckAzureSDK.ps1</pre></div>
 
 <p>Here are two lines with the exact SDK version:</p>
 
@@ -22,7 +29,8 @@ $res2 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.2012
 
 <p><b>Management certificate </b></p>
 
-<p><b></b></p>
+
+
 
 <p>A quotation of <a href="http://www.davidaiken.com/2009/12/21/how-to-create-a-x509-certificate-for-the-windows-azure-management-api/">David Aiken</a>:</p>
 
@@ -66,7 +74,8 @@ $res2 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.2012
 
 <p><b>TeamCity Build</b></p>
 
-<p><b></b></p>
+
+
 
 <p>Now we talk about the Buildprocess. The most important step is to open MSBuild. The step I´ve made before isn´t important for the Azure Deployment. </p>
 
@@ -151,7 +160,8 @@ $res2 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.2012
 
 <p><b>Deploy on azure staging</b></p>
 
-<p><b></b></p>
+
+
 
 <p>Now is in MSBuild the next step the call of the powershell script to deploy on azure. As parameters I add SubscriptionKey and Service Name:</p>
 
@@ -167,17 +177,20 @@ $res2 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.2012
 
 <p><b>Azure_DeployToStaging.ps1</b></p>
 
-<p><b></b></p>
+
+
 
 <p>Now we are going to take a deeper view into the Powershell script. I needed to fix it a little bit so now it´s possible to enter sensitive information´s from outside as parameters but beside of this it´s easy to understand. (And you will see how sexy Powershell could be!)</p>
 
-<p><b></b></p>
+
+
 
 <p><b><u>Important Hint: </u></b></p>
 
 <p>A typical error message was for me: "<i>The HTTP request was forbidden with client authentication scheme "˜Anonymous´.". </i>That means you´ve entered a wrong subscription key. </p>
 
-<p><b></b></p>
+
+
 
 <p><b>The certificate:</b></p>
 
@@ -203,7 +216,8 @@ $res2 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.2012
 
 <p><b>ServiceName</b></p>
 
-<p><b></b></p>
+
+
 
 <p>Even if the entry is called "Servicename" you need the DNS Name for that:</p>
 
@@ -211,7 +225,8 @@ $res2 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.2012
 
 <p>I think the name is case sensitive, so copy it as it´s written <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile7.png" /></p>
 
-<p><b></b></p>
+
+
 
 <p><b>To the main script</b></p>
 
@@ -263,7 +278,8 @@ Get-HostedService $servicename -Certificate $cert -SubscriptionId $sub |
     Set-DeploymentStatus 'Running' |
     Get-OperationStatus -WaitToComplete</pre></div>
 
-<p><b></b></p>
+
+
 
 <p>In the MsBuild step we did before I´ve build the package and I´m able to navigate to this place. Now it´s checking up if there is something going on in the staging surroundings and if there is something, it will be stopped. </p>
 
@@ -271,7 +287,8 @@ Get-HostedService $servicename -Certificate $cert -SubscriptionId $sub |
 
 <p><b>Dirty Workaround at the start of the instance </b></p>
 
-<p><b></b></p>
+
+
 
 <p>If I try to start the staging surrounding in line 44 the "WaitToComplete" event is done too quickly. During the initialisation it´s written as "ready". That´s a problem of course if I try to switch automatically from Staging to production. I don´t know if this is what they have planned or if it´s a bug. But I´m not alone with my <a href="http://archive.msdn.microsoft.com/azurecmdlets/Thread/View.aspx?ThreadId=4519">problem</a> <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile7.png" /></p>
 

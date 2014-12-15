@@ -10,8 +10,11 @@ language: en
 ---
 {% include JB/setup %}
 
-  <p><b></b></p>  <p><a href="{{BASE_PATH}}/assets/wp-images-en/image129.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb38.png" width="240" height="66" /></a><a href="http://www.ndepend.com/">NDepend</a> is a tool which is created to detect depending´s between .NET components. The whole thing exists as Fatclient, which is perfect to integrate in Visual Studio. And there is a console application which you are able to integrate into your Buildprocess to <a href="http://www.ndepend.com/SampleReports.aspx">create Reports</a>. How this works I´m going to tell you now....</p>  
-  <!--more-->  <p><b></b></p>  <p><b>What do we need? </b></p>  <p><b></b></p>  <p>For the first step of creation of NDepent files and a better analysis a Fatclient is a Must-Have. But in fact, I don´t think that everyone needs to install the tool. I focus on NDepend in the Buildprocess so:</p>  <p>More important is to install it on the Buildserver <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile5.png" /></p>  <p>A little hint for NDepend: You need to license this tool for every developer and for every Build machine. More details you will find on the <a href="http://www.ndepend.com/Purchase.aspx">NDepend web page</a>.</p>  <p><strong>NDepend Quickstart</strong></p>  <p>A nice declaration about how to quickstart NDepend you will find in <a href="http://www.ndepend.com/GettingStarted.aspx">this video</a>. </p>  <p>What we need now is the .ndproj file. This is what we should have in the end as result. On our <a href="http://www.bizzbingo.de/">BizzBingo.com</a> project (<a href="http://businessbingo.codeplex.com/">Codeplex</a>) we´ve integrated it into the SLN:</p>  <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb363.png" width="244" height="243" />The ndproj describes all of the adjustments NDepend has made for this project. It´s an XML file. </p>  
+  
+  <p><a href="{{BASE_PATH}}/assets/wp-images-en/image129.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb38.png" width="240" height="66" /></a><a href="http://www.ndepend.com/">NDepend</a> is a tool which is created to detect depending´s between .NET components. The whole thing exists as Fatclient, which is perfect to integrate in Visual Studio. And there is a console application which you are able to integrate into your Buildprocess to <a href="http://www.ndepend.com/SampleReports.aspx">create Reports</a>. How this works I´m going to tell you now....</p>  
+  <!--more-->  
+  <p><b>What do we need? </b></p>  
+  <p>For the first step of creation of NDepent files and a better analysis a Fatclient is a Must-Have. But in fact, I don´t think that everyone needs to install the tool. I focus on NDepend in the Buildprocess so:</p>  <p>More important is to install it on the Buildserver <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile5.png" /></p>  <p>A little hint for NDepend: You need to license this tool for every developer and for every Build machine. More details you will find on the <a href="http://www.ndepend.com/Purchase.aspx">NDepend web page</a>.</p>  <p><strong>NDepend Quickstart</strong></p>  <p>A nice declaration about how to quickstart NDepend you will find in <a href="http://www.ndepend.com/GettingStarted.aspx">this video</a>. </p>  <p>What we need now is the .ndproj file. This is what we should have in the end as result. On our <a href="http://www.bizzbingo.de/">BizzBingo.com</a> project (<a href="http://businessbingo.codeplex.com/">Codeplex</a>) we´ve integrated it into the SLN:</p>  <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb363.png" width="244" height="243" />The ndproj describes all of the adjustments NDepend has made for this project. It´s an XML file. </p>  
   
   
   
@@ -42,11 +45,13 @@ language: en
 
 <p>- The CQLQueries define the codemetrics and if they should be handled as "warnings" or "errors". But this doesen´t matter anyway <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile14.png" />&#160;</p>
 
-<p><b></b></p>
+
+
 
 <p><b>Team City </b></p>
 
-<p><b></b></p>
+
+
 
 <p>At the moment NDepend runes by Night Build in our BizzBingo project. The Nightly Build is parted into four different steps</p>
 
@@ -108,7 +113,8 @@ language: en
 
 <p><b>Integrate NDepend Reports Tab</b></p>
 
-<p><b></b></p>
+
+
 
 <p>At least we want the HTML report to be shown in TeamCity. For this you need to configure the following in the server configurations:</p>
 

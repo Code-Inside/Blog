@@ -14,7 +14,8 @@ language: en
 git pull https://github.com/dlang/BizzBingo master
 ... (VIELE DATEIEN werden gezogen)...</pre></div>
 
-<p><b></b></p>
+
+
 
 <p><b>Result:</b></p>
 

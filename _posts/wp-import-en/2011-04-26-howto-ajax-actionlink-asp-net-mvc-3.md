@@ -10,7 +10,8 @@ language: en
 ---
 {% include JB/setup %}
 
-  <p><b></b></p>  <p><a href="{{BASE_PATH}}/assets/wp-images-en/image157.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb65.png" width="163" height="107" /></a>In MVC framework there are some little helpers existing I´ve already written about in <a href="{{BASE_PATH}}/2010/09/15/howto-cross-domain-ajax-with-jsonp-and-asp-net/">this blogpost</a> - but in fact the functionality changed a little bit so here is an update for you.</p>  
+  
+  <p><a href="{{BASE_PATH}}/assets/wp-images-en/image157.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb65.png" width="163" height="107" /></a>In MVC framework there are some little helpers existing I´ve already written about in <a href="{{BASE_PATH}}/2010/09/15/howto-cross-domain-ajax-with-jsonp-and-asp-net/">this blogpost</a> - but in fact the functionality changed a little bit so here is an update for you.</p>  
   <!--more-->  <p><b>Problem: AJAX Actionlink delivers new sides back </b></p>  <p>We have a standard MVC 3 Web Project and the following lines should create a link which is able to reload a view via AJAX and put it into the "Result":</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e32c2996-41f4-4d3a-b9e5-25b5982c120d" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    @Ajax.ActionLink("Foobar load", "Foobar", "Home", new AjaxOptions() { HttpMethod = "Get", UpdateTargetId = "Result" })</pre></div>
 
 <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb422.png" width="350" height="105" /></p>
@@ -21,7 +22,8 @@ language: en
 
 <p><b>Javascript libraries are missing </b></p>
 
-<p><b></b></p>
+
+
 
 <p>In the standard - masterpage jQuery is already linked but the AJAX library is still missing. In this case MVC3 offers the MS AJAX libraries but we don´t need them anymore. </p>
 
@@ -51,7 +53,8 @@ language: en
 
 <p><b>Unobtrusive Javascript? What?</b></p>
 
-<p><b></b></p>
+
+
 
 <p>What is the whole "unobtrusive Javascript" about? In fact it´s about keeping the side operable and no JS Eventhandler for example is integrated at the a-Tag. It will be integrated via the data-attribute.</p>
 
@@ -65,7 +68,8 @@ language: en
 
 <p><b>Pure jQuery</b></p>
 
-<p><b></b></p>
+
+
 
 <p>Of course you don´t need to use AJAX helper it will also work with the jQuery Standard tools:</p>
 
