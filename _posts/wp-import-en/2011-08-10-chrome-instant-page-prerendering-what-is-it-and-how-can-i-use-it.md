@@ -14,9 +14,11 @@ language: en
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image.png" src="{{BASE_PATH}}/assets/wp-images-de/image1325.png" border="0" alt="image.png" width="300" height="184" />
 
 With the Version 13 of Chrome Google activated a <a href="http://chrome.blogspot.com/2011/08/instant-pages-on-google-chrome.html">new feature named “Instant Page”.</a> It’s another step into “making the web faster”. What “instant page” is shows this video:
-<div id="scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:727e700d-ddca-4ce2-a62e-1f6162e22e2c" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
-<div><object width="380" height="231"><param name="movie" value="http://www.youtube.com/v/_Jn93FDx9oI?hl=en&amp;hd=1" /><embed type="application/x-shockwave-flash" width="380" height="231" src="http://www.youtube.com/v/_Jn93FDx9oI?hl=en&amp;hd=1"></embed></object></div>
+
+<div>
+<object width="380" height="231"><param name="movie" value="http://www.youtube.com/v/_Jn93FDx9oI?hl=en&amp;hd=1" /><embed type="application/x-shockwave-flash" width="380" height="231" src="http://www.youtube.com/v/_Jn93FDx9oI?hl=en&amp;hd=1"></embed></object>
 </div>
+
 Of course Google integrated the feature into the Google search page.
 
 <strong>What’s the function of Google Instant Page?</strong>
@@ -42,8 +44,9 @@ Google offers a simple testpage which tests if Prerender is activated or not (th
 On the <a href="http://code.google.com/chrome/whitepapers/prerender.html">Chrome Developer Side</a> there are some interesting things but in fact the implementation is very easy. To find out how many traffic accrues I take a look on the Network Tab of the Chrome Dev Tools and I use <a href="http://www.fiddler2.com/fiddler2/">Fiddler</a>.
 
 Following HTML Code <strong>without Prerendering</strong>:
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:f7093b7c-cdfa-4461-9ff9-1e7ceb9a5e56" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
-<pre class="c#">&lt;!DOCTYPE html&gt;
+
+<pre class="c#">
+&lt;!DOCTYPE html&gt;
 
 &lt;html&gt;
 
@@ -61,8 +64,9 @@ Following HTML Code <strong>without Prerendering</strong>:
 
 &lt;/body&gt;
 
-&lt;/html&gt;</pre>
-</div>
+&lt;/html&gt;
+</pre>
+
 There is just a Request/Response and a Favicon will be searched (doesn’t matter at the moment). No surprise so far.
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb508.png" border="0" alt="image" width="244" height="207" />
@@ -72,9 +76,11 @@ If you are navigating to the link Code-Inside.int it’s going to load in this m
 <strong>Activate Prerendering </strong>
 
 If we want to activate Prerendering now all we have to do is to add this line into &lt;head&gt;:
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:586d358a-ab37-44e4-a830-58004d8a4751" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
-<pre class="c#">&lt;link rel="prerender" href="{{BASE_PATH}}"&gt;</pre>
-</div>
+
+<pre class="c#">
+&lt;link rel="prerender" href="{{BASE_PATH}}"&gt;
+</pre>
+
 Now you can see in the Chrome Dev Tools that the address is requested but there are no other files shown – only with Chrome 14 we will get new information’s.
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb509.png" border="0" alt="image" width="404" height="207" />
