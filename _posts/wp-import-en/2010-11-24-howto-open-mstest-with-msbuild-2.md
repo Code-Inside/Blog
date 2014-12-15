@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 
 
-<p><img title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb248.png" width="134" height="90" />According to the blogpost about "žHowTo: build solutions with MSBuild" I´m going to show you a little example about how to call MSTests. </p>  
+<p><img title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb248.png" width="134" height="90" />According to the blogpost about "HowTo: build solutions with MSBuild" I´m going to show you a little example about how to call MSTests. </p>  
   
   
 

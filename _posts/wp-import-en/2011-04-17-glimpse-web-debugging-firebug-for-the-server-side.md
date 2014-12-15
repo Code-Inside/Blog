@@ -29,7 +29,7 @@ language: en
 <p><b>Configuration</b></p>  
 
 <p>Now you have to start glimpse: </p>
-<p>On <a href="http://www.yoursite.com/Glimpse/Config">http://www.yoursite.com/Glimpse/Config</a> or <a href="http://localhost/Glimpse/Configdev">http://localhost/Glimpse/Config</a> just turn the Module "žon". </p>
+<p>On <a href="http://www.yoursite.com/Glimpse/Config">http://www.yoursite.com/Glimpse/Config</a> or <a href="http://localhost/Glimpse/Configdev">http://localhost/Glimpse/Config</a> just turn the Module "on". </p>
 <p><b>That´s it</b></p>
 <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb429.png" width="513" height="227" /></p>  
 
