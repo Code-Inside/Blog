@@ -29,8 +29,9 @@ If there is no cookie found than it looks like this:
 <img src="{{BASE_PATH}}/assets/wp-images-de/image-thumb739.png" border="0" alt="image" width="244" height="96" />
 
 The output of the index.aspx runs over the Home Controller:
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:efaf5dba-55e7-44a6-a605-c0b199f5068e" class="wlWriterEditableSmartContent" style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">
-<pre class="c#">public ActionResult Index()
+
+<pre class="c#">
+public ActionResult Index()
         {
             ViewData["Message"] = "Welcome to ASP.NET MVC!";
             string cookie = "There is no cookie!";
@@ -40,13 +41,15 @@ The output of the index.aspx runs over the Home Controller:
             }
             ViewData["Cookie"] = cookie;
             return View();
-        }</pre>
-</div>
+        }
+</pre>
+
 Here it is detected if a cookie exists and if yes than it will be out given.
 
 These two Links guide you to the <strong>CookieController:</strong>
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:7232592e-1771-4307-8884-3d4487c1d56d" class="wlWriterEditableSmartContent" style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">
-<pre class="c#">public class CookieController : Controller
+
+<pre class="c#">
+public class CookieController : Controller
     {
 
         public ActionResult Create()
@@ -69,8 +72,9 @@ These two Links guide you to the <strong>CookieController:</strong>
             return RedirectToAction("Index", "Home");
         }
 
-    }</pre>
-</div>
+    }
+</pre>
+
 With the create method it´s quite simple to create a Cookie and lay it down into the response and afterwards it turns back to the Index View.
 
 The remove method controls if a cookie exists and if the answer is positive the Cookie will be deleted directly.
@@ -80,9 +84,11 @@ The remove method controls if a cookie exists and if the answer is positive the 
 <strong> </strong>
 
 This way to delete a cookie doesn´t work:
-<div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:289b5464-9fd6-49c7-9ff0-3e3800e577b5" class="wlWriterEditableSmartContent" style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px">
-<pre class="c#">this.ControllerContext.HttpContext.Response.Cookies.Clear();</pre>
-</div>
+
+<pre class="c#">
+this.ControllerContext.HttpContext.Response.Cookies.Clear();
+</pre>
+
 The cookie has to go back to the remove (like it is given in the Cookie Controller) and an <a href="http://msdn.microsoft.com/en-us/library/system.web.httpcookie.expires.aspx">expiry date</a> should be given. I´m going to set it on yesterday so the browser has to refuse it directly.
 
 I had to write this down after I was cursing about this subject for a long time. ;)
