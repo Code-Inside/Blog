@@ -20,11 +20,11 @@ language: en
 <p><b>Why should I do this?</b></p>  
 
 <p>There are several reasons for using the hosted version:</p>
-<p>Â· You save the traffic. jQuery and co. are able to take a lot of space on the traffic.</p>
-<p>Â· Google and co. <a href="http://en.wikipedia.org/wiki/Content_delivery_network">CDNs</a> are created to do this job. If someone is able to offer such content very fast than networks like this.</p>
-<p>Â· For a long time browsers are not able to load more than two Javascript files from one domain. If you use jQuery from google.com your Browser will be able to load other application specific files at the same time. If this is important today is the question <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile11.png" /></p>
-<p>Â· Many people use Google or Microsoft services or visit websites which are linked by their jQuery Version. That means, you have the big chance, that your browser already cached jQuery somewhere - shorter waiting times while loading!</p>
-<p>Â· More information´s you will find on the <a href="http://developer.yahoo.com/performance/rules.html">Yahoo best practices site</a>.</p>
+<p>- You save the traffic. jQuery and co. are able to take a lot of space on the traffic.</p>
+<p>- Google and co. <a href="http://en.wikipedia.org/wiki/Content_delivery_network">CDNs</a> are created to do this job. If someone is able to offer such content very fast than networks like this.</p>
+<p>- For a long time browsers are not able to load more than two Javascript files from one domain. If you use jQuery from google.com your Browser will be able to load other application specific files at the same time. If this is important today is the question <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile11.png" /></p>
+<p>- Many people use Google or Microsoft services or visit websites which are linked by their jQuery Version. That means, you have the big chance, that your browser already cached jQuery somewhere - shorter waiting times while loading!</p>
+<p>- More information´s you will find on the <a href="http://developer.yahoo.com/performance/rules.html">Yahoo best practices site</a>.</p>
 <p><b>Which CDN is the best for me? Microsoft or Google? </b></p>  
 
 <p>At least both services are almost equal if we talk about the jQuery hosting. But probably there are more people using Google CDN - that means you have bigger chances if you use Google. On the other hand Microsoft included some gadgetry for ASP.NET developer with the Script Manager - but actually we don´t need it <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smilewithtongueout" alt="Smiley mit herausgestreckter Zunge" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smilewithtongueout.png" /></p>

@@ -17,11 +17,11 @@ language: en
 <p><b>Little introduction story</b></p>  
 
 <p>On the <a href="http://www.webcamps.ms/#munich_panel">WebCamp in Munich in June 2010</a> we´ve got a little quest to solve: develop a Demo MVC WebApp. The team I (Robert) and Torsten Hufsky boiled up at this time consists of 4/5 nice follows of mine and they are from Dresden too:</p>
-<p>Â· <a href="http://twitter.com/kenkosmowski">Ken Kosmowski</a></p>
-<p>Â· Tom Miller</p>
-<p>Â· <a href="http://twitter.com/oliverguhr">Oliver Guhr</a></p>
-<p>Â· <a href="http://twitter.com/TorstenHu">Torsten Hufsky</a></p>
-<p>Â· Robert MÃ¼hsig </p>
+<p>- <a href="http://twitter.com/kenkosmowski">Ken Kosmowski</a></p>
+<p>- Tom Miller</p>
+<p>- <a href="http://twitter.com/oliverguhr">Oliver Guhr</a></p>
+<p>- <a href="http://twitter.com/TorstenHu">Torsten Hufsky</a></p>
+<p>- Robert MÃ¼hsig </p>
 <p>To say the true, we didn´t reach a lot on this first day but we have ideas and the project was already published on <a href="http://businessbingo.codeplex.com/">Codeplex</a>. We planned to create a "<a href="http://en.wikipedia.org/wiki/Buzzword_bingo">Bullshit/Buzzword Bingo</a>" - but as an online game. But we are far away from this today but for me it becomes a little hobby project now. </p>
 <p>After the WebCamp was over the development falls into sleep but Ken and Robert are still working on it to try out some interesting technics. </p>
 <p><b>Technic/ Architecture </b></p>  
@@ -34,26 +34,26 @@ language: en
 <p>Here are some of the frameworks we have used. </p>  
 
 <p><b>Applikations-Frameworks:</b></p>
-<p>Â· ASP.NET MVC 3</p>
-<p>Â· .NET 4.0</p>
-<p>Â· Entity Framework fÃ¼r Datenzugriff</p>
-<p>Â· Castle Windsor fÃ¼r IoC</p>
-<p>Â· jQuery</p>
-<p>Â· <a href="http://www.frontendmatters.com/projects/fem-css-framework/">FEM CSS Grid</a></p>
+<p>- ASP.NET MVC 3</p>
+<p>- .NET 4.0</p>
+<p>- Entity Framework fÃ¼r Datenzugriff</p>
+<p>- Castle Windsor fÃ¼r IoC</p>
+<p>- jQuery</p>
+<p>- <a href="http://www.frontendmatters.com/projects/fem-css-framework/">FEM CSS Grid</a></p>
 <p><b>Test-Frameworks:</b></p>  
 
-<p>Â· NUnit</p>
-<p>Â· Moq for Mocking</p>
+<p>- NUnit</p>
+<p>- Moq for Mocking</p>
 <p><b>Build / Deployment:</b></p>
-<p>Â· Powershell to deploy the SQL Scripts</p>
-<p>Â· MSBuild</p>
-<p>Â· Azure SDK</p>
+<p>- Powershell to deploy the SQL Scripts</p>
+<p>- MSBuild</p>
+<p>- Azure SDK</p>
 <p><b>miscellaneous:</b></p>  
 
-<p>Â· Azure SDK isn´t used in any project at the moment but here you will find a description of the hosting.</p>
-<p>Â· <a href="http://www.ndepend.com/">NDepend</a> for Codeanalyse</p>
-<p>Â· <a href="http://www.jetbrains.com/teamcity/">TeamCity</a> as Buildserver</p>
-<p>Â· The tests are done after the example of <a href="http://blog.thomasbandt.de/39/2326/de/blog/tdd-bdd-status-quo.html">Thomas Badts blogpost</a> (unfortunately it´s only available in german language) - more details how we structured the tests will follow soon or you check it out by yourself <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile7.png" /></p>
+<p>- Azure SDK isn´t used in any project at the moment but here you will find a description of the hosting.</p>
+<p>- <a href="http://www.ndepend.com/">NDepend</a> for Codeanalyse</p>
+<p>- <a href="http://www.jetbrains.com/teamcity/">TeamCity</a> as Buildserver</p>
+<p>- The tests are done after the example of <a href="http://blog.thomasbandt.de/39/2326/de/blog/tdd-bdd-status-quo.html">Thomas Badts blogpost</a> (unfortunately it´s only available in german language) - more details how we structured the tests will follow soon or you check it out by yourself <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile7.png" /></p>
 <p><b>The Solution</b></p>  
 
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image410.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image4_thumb.png" width="238" height="382" /></a></p>

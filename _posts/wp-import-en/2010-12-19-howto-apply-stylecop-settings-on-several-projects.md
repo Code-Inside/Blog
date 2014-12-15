@@ -81,9 +81,9 @@ language: en
 
 <p>This course of action is from the StyleCop teamblog:</p>
 
-<p>Â· <a href="http://blogs.msdn.com/b/sourceanalysis/archive/2008/05/24/source-analysis-msbuild-integration.aspx">Setting Up StyleCop MSBuild Integration</a></p>
+<p>- <a href="http://blogs.msdn.com/b/sourceanalysis/archive/2008/05/24/source-analysis-msbuild-integration.aspx">Setting Up StyleCop MSBuild Integration</a></p>
 
-<p>Â· <a href="http://blogs.msdn.com/b/sourceanalysis/archive/2008/05/25/sharing-source-analysis-settings-across-projects.aspx">Sharing StyleCop Settings Across Projects</a></p>
+<p>- <a href="http://blogs.msdn.com/b/sourceanalysis/archive/2008/05/25/sharing-source-analysis-settings-across-projects.aspx">Sharing StyleCop Settings Across Projects</a></p>
 
 <p>If you want the StyleCop results to appear as Error instead of Warning than you need to define this in the csproj file. Therefore enter this parameter in the several Build Konfiguration:</p>
 
