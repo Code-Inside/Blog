@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 
   <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb280.png" width="189" height="157" />Code Quality is a big issue. <a href="http://stylecop.codeplex.com/">StyleCop</a> is a tool from Microsoft (an open Source Tool btw.) to analyse the Source Code. In contrast to FxCop or Code Analysis from VSTS it controls the code for observation the Codeing Conventions etc. Here a <a href="http://blogs.msdn.com/b/bharry/archive/2008/07/19/clearing-up-confusion.aspx">blogpost</a> to show you the diference. Anyway it´s quite easy to integrate StyleCop into your MSBuild and use it this way in your Build Process. </p>  
-  <!--more-->  <p><b>Conditions</b></p>  
+  
+  <p><b>Conditions</b></p>  
   <p>StyleCop - I installed Version <a href="http://stylecop.codeplex.com/releases/view/44839">4.4.0.14 RTW</a>.</p>
 <p>The Installation-directory for StyleCop:</p>
 <p>C:\Program Files (x86)\Microsoft StyleCop 4.4.0.14</p>

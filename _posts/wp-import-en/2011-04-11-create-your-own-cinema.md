@@ -12,7 +12,8 @@ language: en
 
   <p><a href="{{BASE_PATH}}/assets/wp-images-en/image154.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb62.png" width="168" height="89" /></a>I know this post is a little bit "žofftopic" but I´m sure that almost every developer/nerd dreams of his own cinema at home.</p>
 <p>After I was asked at Twitter about my own solution I thought it would be a good Idea to blog about it. </p>  
-  <!--more-->  <p><b>Setup overview</b></p>  
+  
+  <p><b>Setup overview</b></p>  
   <p>"Input" equipment</p>
 <p>-&#160;&#160; Xbox 360</p>
 <p>-&#160; MacMini (unfortunately I have the 2009 version without HDMI - that means stupid adapter handicraft work)</p>

@@ -12,7 +12,8 @@ language: en
 
   <p><img title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb291.png" width="151" height="133" />I´ve installed the Azure SDK 1.2 on my computer and tried to debug the application. But as a result I received the following error message. Reason: Instead of the SQLExpress Installation I installed a SQL Server 2008R2.</p>
 <p>But, like always, there is a little trick. ;)</p>  
-  <!--more-->  <p><b>Error message</b></p>  
+  
+  <p><b>Error message</b></p>  
   <p>That´s my error message:</p>
 <p><em>Windows Azure Tools: Failed to initialize the Development Storage service. Unable to start Development Storage. Failed to start Development Storage: the SQL Server instance "˜localhost\SQLExpress´ could not be found.&#160;&#160; Please configure the SQL Server instance for Development Storage using the "˜DSInit´ utility in the Windows Azure SDK.</em></p>
 <p><em>Keep in mind: I´ve installed a SQL Server 2008R2.</em></p>

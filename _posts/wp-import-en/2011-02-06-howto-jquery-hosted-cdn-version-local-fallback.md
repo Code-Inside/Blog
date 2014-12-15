@@ -12,7 +12,8 @@ language: en
 
   
   <p><a href="{{BASE_PATH}}/assets/wp-images-en/image120.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb29.png" width="182" height="74" /></a><a href="http://docs.jquery.com/Downloading_jQuery">jQuery</a> is one of the populates javascript frameworks. But it´s not the smallest one. To save traffic and reduce the waiting time while loading you should try out the "CDN" (hosted) jQuery version. But how is it possible to run a local backup plan in emergency case? Go on reading if you are interested in the answer...</p>  
-  <!--more-->  <p><b>JQuery CDN</b></p>
+  
+  <p><b>JQuery CDN</b></p>
 <p>jQuery it self´s, Google and Microsoft are offering jQuery (+ some well-known Plugins) for linking on their servers. More about this you can read <a href="http://docs.jquery.com/Downloading_jQuery#CDN_Hosted_jQuery">here</a>.</p>
 <p><b>Why should I do this?</b></p>  
   <p>There are several reasons for using the hosted version:</p>

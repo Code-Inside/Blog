@@ -13,7 +13,8 @@ language: en
   
   <p><a href="{{BASE_PATH}}/assets/wp-images-en/image1109.png"><img style="background-image: none; border-right-width: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image1109" border="0" alt="image1109" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image1109_thumb.png" width="191" height="168" /></a>The Windows Azure platform exists for a long time till now but I never had the chance to migrate an established Web application to Azure. I try to document this step by step. The first step is really easy: build a WebApp package and enter SQLAzure (the easiest way).</p>  
   
-<!--more-->
+
+
   
   <p><b>&quot;deferral&quot; - my scenario </b></p>  
   <p>The base of this blogpost is an ASP.NET MVC 2 application which is using an SQL server as data bank. Any kind of windows services, Services Bus Stuff or other constructs are not part of this. I just want my WebApp to run under Azure with an instance in the simplest case. That´s not a big thing but a first step <img style="border-bottom-style: none; border-left-style: none; border-top-style: none; border-right-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile20.png" /></p>

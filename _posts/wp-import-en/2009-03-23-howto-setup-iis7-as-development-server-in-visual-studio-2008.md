@@ -10,7 +10,8 @@ language: en
 ---
 {% include JB/setup %}
 <p><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="117" alt="image_thumb3" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb3-thumb2.png" width="161" align="left" border="0" />Webdevelopment with Visual Studio is really easy - just hit F5 and you jump into the debugger. VS use (as default) the built-in &quot;<a href="http://msdn.microsoft.com/de-de/library/58wxa9w5(VS.80).aspx">ASP.NET Development Server&quot; called &quot;Cassini&quot;</a>. But there are some pitfalls if you use this server, because the behavior of the IIS and Cassini are sometimes a bit <strong>different</strong> and the dev server is much <strong>slower</strong>! The good news: With few clicks you can debug and deploy your application right on IIS7 (on Vista/Server 2008).</p> 
-<!--more-->
+
+
   <p><strong>Setup IIS      <br /></strong>If you develop under Windows Vista (I have only a german Vista here - sorry)you can use the IIS7 - Win XP users have to use IIS6 (which I will not cover in this blogpost, but the way should be similar).</p>
 <p><strong>1. Install IIS 7      <br /></strong>System Control -&gt; Programs -&gt; Windows Functions:</p>
 <p>If you have not installed IIS7 click on the IIS-service checkbox:</p>

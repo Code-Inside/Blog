@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image56.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="161" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb64.png" width="240" align="left" border="0" /></a>In my <a href="{{BASE_PATH}}/2009/02/24/howto-hello-cloud-computing/">last blogpost</a> I talked about different cloud computing providers, like Google, Amazon and Microsoft. </p>
 <p>Today I want to describe Windows Azure more and show you how to use the Windows Azure CTP and how to publish a &quot;Hello World&quot; app in the &quot;cloud&quot;.</p> 
-<!--more-->
+
+
   <p><strong>Azure Service Platform&#160; <br /></strong>The <a href="http://www.microsoft.com/azure/services.mspx">Azure Service Platform</a> use &quot;<a href="http://www.microsoft.com/azure/windowsazure.mspx">Windows Azure</a>&quot; as it&#180;s core: </p>
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image57.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="225" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb65.png" width="486" border="0" /></a> </p>
 <p>Azure offers <strong>basic functionality</strong>, like resource sharing, monitoring and so on. You can <strong>host Web- or- Worker-Processes</strong> on it or use it as <strong>blob or table storage</strong>.     <br />Everything on Azure can be accessed via <a href="http://de.wikipedia.org/wiki/Representational_State_Transfer">REST interfaces</a>. </p>

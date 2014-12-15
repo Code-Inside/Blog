@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 
   <p><img title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb275.png" width="139" height="120" />In my last blogpost I showed you some ways how to work with MSBuild. With the help of MSBuild it´s also possible to build a nice Deployment Package. Microsoft released a new tool with VS2010 called MSDeploy. In this Blogpost I´m going to talk about what´s MSDeploy and how does it work in comparison with MSBuild.</p>  
-  <!--more-->  
+  
+  
   <p><b>Big Picture from MSDeploy</b></p>
 <p>We start with the big picture of MSDeploy. The aim is to build a Deployment Package to make the delivery of software easier. Therefore we have several providers which are used to, for example, pack the data bank or the main ASP.NET Files into one package. Now you are able to publish this package quit easy with MSDeploy. MSDeploy should be installed on the Server too.</p>
 <p>At this point I recommend you the blogs of <a href="http://weblogs.asp.net/scottgu/archive/2010/09/13/automating-deployment-with-microsoft-web-deploy.aspx">ScottGu</a> and <a href="http://vishaljoshi.blogspot.com/2009/03/how-does-web-deployment-with-vs-10.html">Vishal Joshi</a> (feels like he is THE developer behind MSDeploy).</p>

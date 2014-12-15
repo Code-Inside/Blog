@@ -12,7 +12,8 @@ language: en
 
   
   <p><a href="{{BASE_PATH}}/assets/wp-images-en/image155.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb63.png" width="81" height="80" /></a>How do I get to know what´s happening inside a web application without a lot of logging or to stop with the debugger everywhere? Today I was introduced to a nice helper: <a href="http://getglimpse.com/">Glimpse</a> - it works almost similar to firebug but it analyzes the server side <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile10.png" /></p>  
-  <!--more-->  <p><b>What is Glimpse able to do?</b></p>  
+  
+  <p><b>What is Glimpse able to do?</b></p>  
   <p>With a little Widget what you can find in the web interface you get to know which Session variables are set, which route was taken, which view, which Action/Filter is called and so on. </p>  
   <p>In the Moment it works for ASP.NT MVC and ASP-NET WebForms. </p>
 <p><u>Be careful: </u>It seems like there are some bugs left at the moment. For BizzBingo the try to show it on the front page failed because the Module destroys something - but the version is at 0.76 beta at the moment <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile19.png" /></p>

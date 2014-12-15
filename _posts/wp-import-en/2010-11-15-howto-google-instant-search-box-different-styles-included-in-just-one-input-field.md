@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 
   <p><img title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb254.png" width="218" height="121" />From time to time I have the passion to think about the basics of web: HTML. I asked myself how google made it possible to mix two different styles into one input-field. If you know it, the answer is easy....</p>  
-  <!--more-->  
+  
+  
   
   
   <p><b>two Styles - "one" input box:</b></p>

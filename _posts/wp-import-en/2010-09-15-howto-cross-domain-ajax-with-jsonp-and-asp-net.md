@@ -13,7 +13,8 @@ language: en
 
 Actually it isn´t possible to send Ajax Requests to addresses which are reachable at the same domain like the site where the script is executed.The reason for this is the <a href="http://de.wikipedia.org/wiki/Same_Origin_Policy" target="_blank">Same Origin Policy</a> in JavaScript. There it is given, that the port, the protocol and the domain have to be equal to start requests. This is save but unfortunately not practical.
 
-<!--more-->
+
+
 
 <strong>But there is a Trick. Right?</strong>
 

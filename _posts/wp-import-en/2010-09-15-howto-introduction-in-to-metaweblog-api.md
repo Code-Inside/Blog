@@ -13,7 +13,8 @@ language: en
 
 This Blogspot is based on Scott Hanselmans "WeeklySourceCode", where MetaWebLog API was the subject of today. In the Blogspot he relates that MS use the Windows Live Writer also to administrate their own websites. The tool is absolutely practical and it works with MetaWebLog API.
 
-<!--more-->
+
+
 
 With this tool it´s possible to create "CMS" Content with standard tools like for example Word or the Windows Live Writer.
 

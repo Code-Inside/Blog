@@ -10,7 +10,8 @@ language: en
 ---
 {% include JB/setup %}
 <p><img border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb701.png" width="148" height="93" />As soon as the application works your customer will find the first bugs. In this case it is very important to find out what happened and to find the mistake. Because of this it is helpfully to include a logging while you are debugging. </p>
-<p><a href="http://logging.apache.org/log4net/download.html">Log4Net</a> is a very classy library which fulfils you every desire and it takes just a few minutes of work.</p> <!--more-->  
+<p><a href="http://logging.apache.org/log4net/download.html">Log4Net</a> is a very classy library which fulfils you every desire and it takes just a few minutes of work.</p> 
+  
   <p><b>Log4Net</b></p>
 <p>Log4Net is a quite practical .Net library which is created to make logging easier. There are several different types of "log steps" (debug, error, info,..) and loggings ("Appender"). So for example it´s possible to log into the Visual Studio Debug Window or in a file and so on. It´s also possible to configure it via XML so you are allowed to create log steps on the productivity system.</p>
 <p>You can find a good introduction on the <a href="http://logging.apache.org/log4net/release/manual/introduction.html">homepage of Log4Net.</a> </p>

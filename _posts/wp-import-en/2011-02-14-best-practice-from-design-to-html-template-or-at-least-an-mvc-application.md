@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 
   <p><a href="{{BASE_PATH}}/assets/wp-images-en/image124.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb33.png" width="134" height="95" /></a>This blogpost is about my own experience in the fields of "How do I pass this cool Design into my cool MVC WebApp?". In little projects you are used to do it on your own but what happens, if this is not the case? (Beside you are used to be a talent in multitasking). </p>  
-  <!--more-->  <p><b>Entire developing process of a WebApp </b></p>  
+  
+  <p><b>Entire developing process of a WebApp </b></p>  
   <p>Beware: It´s a developer speaking here. Maybe there are some other ways - but writing into and so on isn´t an option for me <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile12.png" /></p>
 <p>A kind of esoteric subject but if you, or at least your customer, now what you want, you will find nice ideas about what your web application should do. Then there will be a designer who is painting around in Photoshop and now it´s getting difficult. Because who is going to put this into HTML? And who is writing the Code?</p>  
   <p><b><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb355.png" width="494" height="103" /></b></p>

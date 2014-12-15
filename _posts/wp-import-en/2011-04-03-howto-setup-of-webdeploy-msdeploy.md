@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 
   <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb397.png" width="192" height="135" />A long time ago I´ve already spoken about MSDeploy. It was about how to integrate MSDeploy into your Building process. But I haven´t talked a lot about server configuration. That´s what I´m going to change today because sometimes MSDeploy or WebDeploy is used to be a little bit bitchy ;-)</p>
-<p>So how to configurate MSDeploy/WebDeploy?</p>  <!--more-->  <p><b>Basics</b></p>
+<p>So how to configurate MSDeploy/WebDeploy?</p>  
+  <p><b>Basics</b></p>
 <p>I assume that you have IIS7 or better. Here it´s not difficult to install the Web Deployment Tool with the <a href="http://www.microsoft.com/web/downloads/platform.aspx">Web Platform installer</a> - it´s not integrated default (that means not at the moment).</p>
 <p><b>Download</b>: <a href="http://www.iis.net/download/webdeploy">Web Deploy Download</a></p>
 <p><b>Windows services</b></p>

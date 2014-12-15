@@ -15,7 +15,8 @@ language: en
 
 <br/><br/><br/><br/>
 
-<!--more-->
+
+
 <p><strong>Project structure:</strong></p>  
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image84.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="175" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb99.png" width="231" border="0" /></a> </p>
 <p>To let the user know that we offer a RSS Feed we create the following markup in the head of our ASP.NET page:</p>

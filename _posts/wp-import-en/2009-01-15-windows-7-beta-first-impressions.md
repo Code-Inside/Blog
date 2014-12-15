@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 <p>Last week was the public release of the Windows 7 Beta - you can download it <a href="http://www.microsoft.com/windows/windows-7/default.aspx">here</a>. In installed it on my ThinkPad R61 and take a look at it. Here are my first impressions. Is it better than <a href="http://xkcd.com/528/">Vista</a>? </p>
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image-thumb112.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="149" alt="image_thumb1" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb1-thumb2.png" width="180" border="0" /></a>&#160;</p> 
-<!--more-->
+
+
   <p><strong>A note about the performance</strong></p>
 <p>Windows 7 runs good on my machine and boot fast, but I don&#180;t know if it is faster than a clean &quot;Vista&quot;, but I really hope that the performance is much better than with Vista.</p>
 <p><strong>Is it stable?      <br /></strong>I played around for 2 hours with Windows 7 and drag some gadgets, explore the taskbar and so on. The gadgets seems to be buggy and if I &quot;right click&quot; a wireless lan, the explorer crash, but it restarts very fast - hooray \o/ ;) . I don&#180;t know if this is a problem of the german version or if it&#180;s just my notebook - sometimes it is unstable.     <br /></p>

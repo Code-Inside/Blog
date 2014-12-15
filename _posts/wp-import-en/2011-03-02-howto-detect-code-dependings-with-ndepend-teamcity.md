@@ -12,7 +12,8 @@ language: en
 
   
   <p><a href="{{BASE_PATH}}/assets/wp-images-en/image129.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb38.png" width="240" height="66" /></a><a href="http://www.ndepend.com/">NDepend</a> is a tool which is created to detect depending´s between .NET components. The whole thing exists as Fatclient, which is perfect to integrate in Visual Studio. And there is a console application which you are able to integrate into your Buildprocess to <a href="http://www.ndepend.com/SampleReports.aspx">create Reports</a>. How this works I´m going to tell you now....</p>  
-  <!--more-->  
+  
+  
   <p><b>What do we need? </b></p>  
   <p>For the first step of creation of NDepent files and a better analysis a Fatclient is a Must-Have. But in fact, I don´t think that everyone needs to install the tool. I focus on NDepend in the Buildprocess so:</p>
 <p>More important is to install it on the Buildserver <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile5.png" /></p>

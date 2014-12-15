@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 
   <p><a href="{{BASE_PATH}}/assets/wp-images-en/image112.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb21.png" width="132" height="119" /></a>During our <a href="{{BASE_PATH}}/2011/01/09/bullshit-bingo-online-with-bizzbingo-rtw/">BizzBingo</a> project we use NUnit and since <a href="http://www.jetbrains.com/teamcity/">TeamCity 6.0</a> is Jetbrains dotCover also directly integrated. How dis would look like you are getting to know now. </p>  
-  <!--more-->  <p><b>1. </b><b>Step: create Build Configuration</b></p>
+  
+  <p><b>1. </b><b>Step: create Build Configuration</b></p>
 <p>This ScreenShot is from Nightly Build and there is nothing special in it.</p>
 <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb339.png" width="508" height="140" /><b></b></p>  
   <p><b>2. </b><b>Version Control Settings </b></p>  

@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 
   <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb122.png" width="173" height="131" />I´ve found this very nice service called <a href="http://yuml.me/">yUML.me</a> which allows you to create cool <a href="http://de.wikipedia.org/wiki/Unified_Modeling_Language">UML</a> diagrams with an URL. I think this is a nice thing but in fact I can´t remember when I used REAL UML at work.So I asked myself, do we really need UML?</p>  
-  <!--more-->  <p><b>yUML</b></p>  
+  
+  <p><b>yUML</b></p>  
   <p><a href="http://yuml.me/">yUML.me</a> is a cool service to create <a href="http://yuml.me/diagram/scruffy/class/samples">classes</a>, <a href="http://yuml.me/diagram/scruffy/activity/draw">activities</a> &amp; <a href="http://yuml.me/diagram/scruffy/usecase/draw">Use case</a> UML diagrams. There is also a version for companies. A great idea and the diagrams are quite good looking. <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile13.png" /></p>
 <p><b>Do I need UML?</b></p>
 <p>In my (short) time as a software developer I never felled the pressure to create difficult UML diagrams. Most of the time I paint classes or Use case diagrams or stuff like that on our whiteboard or on powerpoint. </p>

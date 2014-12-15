@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 
   <p><a href="{{BASE_PATH}}/assets/wp-images-en/image143.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb51.png" width="96" height="185" /></a>Those of you who are lucky owners of a Mac are able to register at the <a href="http://developer.apple.com/">apple developer program</a> for free and download several iPhone developer tools there. Also you can download a simulator for iPhone/iPad which probably works like a real iPhone/iPad. As ASP.NET developer I run Visual Studio in a VM. In my case VMWare Fusion. But how it´s possible to run my web application which is hosted in VM in the host system? <b></b></p>  
-  <p>The Source Code is the same like the standard MVC Project type. </p>  <!--more-->  <p><b>Windows configuration </b></p>
+  <p>The Source Code is the same like the standard MVC Project type. </p>  
+  <p><b>Windows configuration </b></p>
 <p>Before you start you have to turn off the windows firewall.</p>
 <p><b>VMWare configuration </b></p>
 <p>The last step is to set the VMWare networkconfiguration to "Bridged":</p>

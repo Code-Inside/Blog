@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 
   <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb284.png" width="144" height="82" />Because I'm using NUnit instead of MSTest in my actual project I want to run the <a href="http://www.nunit.org/">NUnit</a> Tests in my build as well. If you want to find out how to compare MSTest with MSBuild click here. It's not that more difficult with NUnit.</p>  
-  <!--more-->  <p><b>Assumption</b></p>  
+  
+  <p><b>Assumption</b></p>  
   <p>At the moment I work with NUnit Version <a href="http://nunit.org/downloads/snapshots/NUnit-2.5.9.10308.msi">2.5.9 (actually in development)</a>. In <a href="https://bugs.launchpad.net/nunitv2/+bug/602761">Version 2.5.8 exists a bug</a> which makes you unable to close the NUnit Agent. Probably the problem belongs to .NET 4.0 so please try to get the newest version.</p>
 <p>After the installation you will find the Nunit file here:</p>
 <p>C:\Program Files (x86)\NUnit 2.5.9</p>

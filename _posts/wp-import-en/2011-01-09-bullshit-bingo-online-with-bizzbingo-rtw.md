@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 
   <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 10px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb331.png" width="170" height="93" />Once upon a time there was a group of developers on a Microsoft WebCamp with too much unused energy and the idea was born to create a "<a href="http://en.wikipedia.org/wiki/Buzzword_bingo">Bulshit-Bingo-Online-Version</a>" as a Demo MVC project. As Open Source of course! Now we are proudly presenting our first big step...</p>
-<p>Try it out here: <a href="http://www.bizzbingo.com">www.bizzbingo.com</a></p>  <!--more-->  <p><b>Little introduction story</b></p>  
+<p>Try it out here: <a href="http://www.bizzbingo.com">www.bizzbingo.com</a></p>  
+  <p><b>Little introduction story</b></p>  
   <p>On the <a href="http://www.webcamps.ms/#munich_panel">WebCamp in Munich in June 2010</a> we´ve got a little quest to solve: develop a Demo MVC WebApp. The team I (Robert) and Torsten Hufsky boiled up at this time consists of 4/5 nice follows of mine and they are from Dresden too:</p>
 <p>Â· <a href="http://twitter.com/kenkosmowski">Ken Kosmowski</a></p>
 <p>Â· Tom Miller</p>

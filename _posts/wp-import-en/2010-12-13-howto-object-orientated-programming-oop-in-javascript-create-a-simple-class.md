@@ -14,7 +14,8 @@ language: en
 <p>All in all, in my opinion a little change is happening to web-development - we try to realize many things on the client. </p>
 <p>I appreciate this change because, why should I communicate with the server while sorting a chart when the files are already on the client?</p>
 <p>Exactly these are the types of assignments that are done by Javascript-Frameworks today. In Microsoft´s ASP.NET AJAX Extensions you will find a client-library as well. But there is a general question: How is it possible to encapsulate files in such a Framework? How is it possible to define own Javascript classes with methods?</p>  
-  <!--more-->  <p><b>Defining classes and methods in Javascript - Keyword "prototype" </b></p>
+  
+  <p><b>Defining classes and methods in Javascript - Keyword "prototype" </b></p>
 <p>Prototype is not only a keyword in the fields of Javascript Framework for defining methods, also in the world of JS.</p>
 <p>But step by step now.</p>
 <p>We create a very simple example: a rectangle. The attributes are width and height and we just want to know the area. </p>

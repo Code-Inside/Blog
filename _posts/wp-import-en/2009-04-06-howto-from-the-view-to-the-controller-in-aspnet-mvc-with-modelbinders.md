@@ -10,7 +10,8 @@ language: en
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image-thumb411.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="117" alt="image_thumb4" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb4-thumb3.png" width="153" align="left" border="0" /></a>With ASP.NET MVC the developer has now full control about the HTML rendering and how the form data will be transmitted to the server. But how can you get the form values on the server side? There are better ways in MVC to do that than Request.Form[&quot;...&quot;].</p> 
-<!--more-->
+
+
   <p><strong>Intro</strong>     <br />If you are new to ASP.NET MVC, I recommend you to read <a href="{{BASE_PATH}}/2008/11/26/howto-first-steps-with-aspnet-mvc/">this post</a> or look at <a href="http://asp.net/mvc">asp.net/mvc</a>. </p>
 <p><strong>&quot;Bindings&quot;</strong>     <br />In this HowTo you can learn how to access the form data in a more elegant way than Request.Form[&quot;...&quot;]. </p>
 <p><strong>Structure</strong></p>

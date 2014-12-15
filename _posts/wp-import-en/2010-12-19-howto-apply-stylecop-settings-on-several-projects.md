@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 
   <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 10px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb286.png" width="141" height="60" />I´ve already blogged about how to use <a href="{{BASE_PATH}}/2010/12/15/howto-msbuild-stylecop/">StyleCop in an MSBuild Script</a>. Today I´m going to show you how to create a <a href="http://code.msdn.microsoft.com/sourceanalysis">StyleCop</a> Settings file and apply them in every build with visual studio. Here is an easy solution.</p>  
-  <!--more-->  <p><b>Point of origin </b></p>  
+  
+  <p><b>Point of origin </b></p>  
   <p>As point of origin we take the solution from the last blogpost. The stylecop file is already situated outside of the project. </p>
 <p><i>Hint: To create a "default-stylecop" file just install Stylecop and click right on a project and after that click "run stylecop". After that a Settings.Stylecop file will be created into the project directory. </i></p>  
   <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb287.png" width="244" height="239" /></p>

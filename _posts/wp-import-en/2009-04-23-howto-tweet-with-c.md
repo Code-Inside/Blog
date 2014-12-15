@@ -10,7 +10,8 @@ language: en
 ---
 {% include JB/setup %}
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image82.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; margin: 0px 10px 0px 0px; border-right-width: 0px" height="111" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb97.png" width="164" align="left" border="0" /></a><a href="http://twitter.com">Twitter</a> is <strong>the</strong> internet <a href="http://en.wikipedia.org/wiki/Micro-blogging">Microblogging Service</a> - this is <a href="http://twitter.com/robert0muehsig">my acc BTW</a>. Twitter has an <a href="http://apiwiki.twitter.com/">API</a> since the beginning (and IMHO is this one big reason why twitter is so successful). The Twitter API is <a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">REST</a> based and so you can easily create Twitter-Clients with .NET. If you don&#180;t want to create the HTTP basic stuff, check out existing libraries, like <a href="http://code.google.com/p/tweetsharp/">Tweetsharp</a>. </p> 
-<!--more-->
+
+
   <p><strong>Twitter API      <br /></strong>You can find the Twitter API docs <a href="http://apiwiki.twitter.com/">here</a> and a <a href="http://apiwiki.twitter.com/Things-Every-Developer-Should-Know">good overview here</a>. </p>
 <p><strong>Twittern via C# - &quot;low level&quot;</strong>     <br />You can use HttpRequest &amp; HttpResponse objects to use twitter: <a href="http://psantos-blog.zi-yu.com/?p=197">Sample here</a>.</p>
 <p><strong>C# APIs for Twitter      <br /></strong>If you don&#180;t want do deal with the low level things, then you should look at these <a href="http://apiwiki.twitter.com/Libraries#C/NET">C# APIs</a></p>

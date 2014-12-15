@@ -12,7 +12,8 @@ language: en
 
   
   <p><a href="{{BASE_PATH}}/assets/wp-images-en/image136.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb44.png" width="150" height="102" /></a>During my last blogposts I´ve already talked about using TeamCity as a Buildserver. Because of we are using <a href="http://www.microsoft.com/windowsazure/">Windows Azure</a> in our <a href="http://www.bizzbingo.com/">BizzBingo</a> project the subject for today is how to create automatically new deploymnts on Azure - it´s easier than you might think <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile15.png" /></p>  
-  <!--more-->  <p><b>"Visual Studio Deployment" == Fail!</b></p>
+  
+  <p><b>"Visual Studio Deployment" == Fail!</b></p>
 <p><strong></strong></p>  
   <p>If you create a windows azure project Visual Studio offers you the opportunity to create a deployment:</p>
 <p>T<img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb373.png" width="510" height="202" /></p>
