@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: 3-tier / 3-Layer architecture:"
 date: 2010-10-23 11:08
-author: oliver.guhr
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: []

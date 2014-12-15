@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Logging with Log4Net"
 date: 2010-10-06 19:37
-author: oliver.guhr
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [.NET, log4net, logging. c#]

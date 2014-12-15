@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Messaging with MSMQ, an introduction"
 date: 2010-10-17 17:31
-author: oliver.guhr
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: []

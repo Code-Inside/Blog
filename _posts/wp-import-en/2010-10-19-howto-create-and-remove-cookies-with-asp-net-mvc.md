@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: create and remove Cookies with ASP.NET MVC"
 date: 2010-10-19 20:07
-author: oliver.guhr
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: []

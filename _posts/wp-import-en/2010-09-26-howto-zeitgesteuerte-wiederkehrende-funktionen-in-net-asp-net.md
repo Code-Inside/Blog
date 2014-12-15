@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Time-controlled & recurrent functions in .NET & ASP.NET"
 date: 2010-09-26 17:34
-author: oliver.guhr
+author: CI Team
 comments: true
 categories: [HowTo]
 tags: [HowTo, Timer, Timers, Zeit]
