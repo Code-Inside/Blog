@@ -11,13 +11,13 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 Windows 8 Pro and Enterprise deliver a powerful tool: Hyper-V. Hyper-V is the platform for virtualization and was only available for server operating systems – with Windows 8 it is now also available for Pro and Enterprise versions. Since main storage and disk space aren’t that expensive everyone is able to have their own “Mini-Private-Cloud” on their PC.
 
 <strong>Why Hyper-V? </strong>
 
-<strong> </strong>
+
 
 Of course there are several platforms for virtualization – even for free – but if the operating system offers one why not use it or at least try it?
 
@@ -25,7 +25,7 @@ I would guess that the Hyper-V version doesn’t differ from the server version 
 
 <strong>Who should use it – and who not?</strong>
 
-<strong> </strong>
+
 
 Hyper-V is quite “technical” and offers many opportunities although it might not be the most comfortable option for users. Since Hyper-V comes from the server-Connor it is not comparable with user friendly virtualization solutions. If you are looking for VMWare Fusion or parallels (both virtualization solutions on MAC OS to virtualize Windows) you shouldn’t use Hyper-V.
 
@@ -33,7 +33,7 @@ But it is perfect for developer or IT-Admins to test software.
 
 <strong>Installation:</strong>
 
-<strong> </strong>
+
 
 The installation is very easy as long as the hardware plays along:
 
@@ -43,7 +43,7 @@ After the installation (which will unfortunately ask for a reboot) you are now a
 
 <strong>Configure Hyper-V: Step 1 – Network </strong>
 
-<strong> </strong>
+
 
 At first you need to create a “Virtual Switch”.
 
@@ -53,7 +53,7 @@ If you want to integrate the virtual machine into the network (including the int
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb852.png" border="0" alt="image" width="521" height="492" />
 
-<strong> </strong>
+
 
 <strong>Configure Hyper-V: Step 2 – create a virtual machine </strong>
 
@@ -61,7 +61,7 @@ If you want to integrate the virtual machine into the network (including the int
 
 &nbsp;
 
-<strong> </strong>
+
 
 Now a wizard appears where you have to enter the following information’s:
 
@@ -77,7 +77,7 @@ Now a wizard appears where you have to enter the following information’s:
 
 <strong>User Hyper-V</strong>
 
-<strong> </strong>
+
 
 After you’ve created the VM you are now able to start the VM, connect yourself via RDP with the integrated monitor or make some snapshots and so on.
 
@@ -85,7 +85,7 @@ After you’ve created the VM you are now able to start the VM, connect yourself
 
 <strong>VHDs are compatible with other virtualization platforms </strong>
 
-<strong> </strong>
+
 
 The virtual hard disk (VHD) could also be used from other Hyper-V installations, VirtualBox or VMWare (<a href="http://en.wikipedia.org/wiki/VHD_(file_format)">and other</a>). The VHD could even be lifted to the “right” Cloud with Windows Azure.
 

@@ -11,11 +11,11 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 If you are looking for a current Metro Modern UI CSS/HTML Framework I’ve collected a little selection that might be helpful for you. Watches out the names are quite similar.
 
-<strong> </strong>
+
 
 <strong><a href="http://talkslab.github.com/metro-bootstrap/index.html">Metro-Bootstrap:</a></strong>
 
@@ -37,7 +37,7 @@ If you are just interested in the style in my opinion this could be a good optio
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb765.png" border="0" alt="image" width="581" height="228" />
 
-<strong> </strong>
+
 
 BootMetro relies on Twitter Bootstrap as well and is inspired by Metro UI CSS (what I’m going to talk about later) Framework and it offers a lot of Metro components:
 
@@ -63,7 +63,7 @@ Anyway it is much more advanced than the “Metro-Bootstrap” project. Also the
 
 <img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb767.png" border="0" alt="image" width="579" height="265" />
 
-<strong> </strong>
+
 
 The Metro UI CSS isn’t related to Twitter Bootstrap but anyway it offers similar features. Of course there are Tiles and a number of fancied up Form Controls:
 
@@ -77,7 +77,7 @@ Most important disadvantage in my opinion: they didn’t rely on Bootstrap. Mayb
 
 <img title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb769.png" border="0" alt="image" width="574" height="253" />
 
-<strong> </strong>
+
 
 If you are planning to create an administrator website in the metro-look you might consider using MAdmin. It also relies on Bootstrap but you have to pay 20$ per application. Not a huge problem at all in the business environment. It doesn’t offer a huge “Tile”-support but a nice menu and everything else you might need in the administrative field.
 
@@ -85,7 +85,7 @@ To the <a href="https://wrapbootstrap.com/theme/madmin-admin-theme-WB042R743">pr
 
 <strong>My result</strong>
 
-<strong> </strong>
+
 
 <a href="http://talkslab.github.com/metro-bootstrap/index.html">Metro-Bootstrap</a> is quite easy to integrate and the Styles are created with LESS what makes it easier to adapt it. A good base if you are used to work without Tiles and Win-8 Controls. <a href="http://aozora.github.com/bootmetro/">BootMetro</a> is powerful but it seems less “classy” to me but the Form Controls are well done. I suppose the developer uses CSS files as well – this could be a problem when it comes to the adaption. The <a href="http://metroui.org.ua/">Metro UI</a> CSS Framework doesn’t rely on Bootstrap and because of this I dismiss it. <a href="http://wrapbootstrap.com/preview/WB042R743">MAdmin</a> could be a good choice for admin pages but it’s not useful for fun projects.
 

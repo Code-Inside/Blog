@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 It seems to be an easy question but there are also some traps. The reason is that theoretically it is possible to make a difference between CLR Version and Framework Version. In the times of .NET 3.5 it was usual to keep the CLR version still on version 2.0 because there are only new libraries added to the framework.
 
@@ -23,7 +23,7 @@ Good entrance (and I’m going to talk about this later again) is the post of Sc
 
 <strong>Easy check for: Is the .NET Framework Version 4.5 installed or not? </strong>
 
-<strong> </strong>
+
 
 To clarify what version you’ve got installed you will find an helpful hint from the registry at the pad “Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full”
 
@@ -70,8 +70,8 @@ If the Runtime the TargetFramework needs isn’t there you will see another erro
 </div>
 </strong>
 
-<strong> </strong>
 
-<strong> </strong>
+
+
 
 Since the framework always includes several libraries and every library has a different version number and a different Runtime you might test properly if there is something like a special class for example.

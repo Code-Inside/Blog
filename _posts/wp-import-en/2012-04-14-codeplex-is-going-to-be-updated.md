@@ -27,7 +27,7 @@ CodePlex supports beside TFS and Mercurial <a href="http://blogs.msdn.com/b/code
 
 <strong>TFS &amp; Git</strong>
 
-<strong> </strong>
+
 
 Of course this development is recognized by the TFS team as well – there are also some appearances for a <a href="http://en.wikipedia.org/wiki/Distributed_revision_control">DVSC</a>. There is also a comment by Brian Harry about the <a href="http://blogs.msdn.com/b/bharry/archive/2011/08/02/version-control-model-enhancements-in-tfs-11.aspx">Version Control Model</a> Enhancements in TFS1 1 about the DVCS Model:
 
@@ -35,7 +35,7 @@ I’m certain that about this time, I bunch of people are asking “but, did you
 
 <strong>New UI in the Look of Metro </strong>
 
-<strong> </strong>
+
 
 There are also some new Screenshots about <a href="http://blogs.msdn.com/b/codeplex/archive/2012/03/30/new-codeplex-ui-coming-soon.aspx">the Metro interface for CodePlex</a> shown:
 
@@ -47,7 +47,7 @@ More Screenshots <a href="http://blogs.msdn.com/b/codeplex/archive/2012/03/30/ne
 
 <strong>TFS Services &amp; CodePlex</strong>
 
-<strong> </strong>
+
 
 If you ask yourself how CodePlex and the announcement about TFS on Azure fits together: here is another <a href="http://blogs.msdn.com/b/bharry/archive/2012/03/22/the-future-of-codeplex-is-bright.aspx">comment from Brian Harry</a>:
 
@@ -55,6 +55,6 @@ And, as I alluded to earlier, we’ll be working to align CodePlex and Team Foun
 
 <strong>My commendation: Take a look on Git!</strong>
 
-<strong> </strong>
+
 
 From my point and according to the changes of the last view days I recommend every developer to take a look on Git or at least to think about the opportunities. Start a little Open Source Project – maybe on CodePlex and then give them your <a href="http://codeplex.codeplex.com/workitem/list/basic">Feedback</a>. Git is also interesting for .NET developer – <a href="{{BASE_PATH}}/2011/08/05/einstieg-in-git-fr-net-entwickler/">a little intro is here</a>. Maybe there will be a bigger Open Source mentality in the .NET environment. <img class="wlEmoticon wlEmoticon-smile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile14.png" alt="Smiley" />

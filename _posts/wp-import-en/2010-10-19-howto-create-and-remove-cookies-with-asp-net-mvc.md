@@ -16,7 +16,7 @@ language: en
 
 <strong>Structure</strong>
 
-<strong> </strong>
+
 
 As demo base I use the ASP.NET MVC Framework. That´s what the test page looks like if a cookie is opened:
 
@@ -81,7 +81,7 @@ The remove method controls if a cookie exists and if the answer is positive the 
 
 <strong>Beware while deleting cookies:</strong>
 
-<strong> </strong>
+
 
 This way to delete a cookie doesn´t work:
 

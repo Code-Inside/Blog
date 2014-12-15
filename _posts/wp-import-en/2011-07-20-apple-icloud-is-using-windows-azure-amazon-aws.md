@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 <a href="{{BASE_PATH}}/assets/wp-images-en/icloud-logo-400x194.jpg"><img class="alignnone size-medium wp-image-704" title="icloud-logo-400x194" src="{{BASE_PATH}}/assets/wp-images-en/icloud-logo-400x194-300x145.jpg" alt="" width="300" height="145" /></a>
 
-<strong> </strong>
+
 
 On Twitter I’ve found a very interesting story: <a href="http://www.infiniteapple.net/is-icloud-utilizing-microsoft-azure-and-amazons-cloud-services/">Apples iCloud is using Windows Azure and Amazon AWS</a>. A iOS5 Beta User was able to tape-record the Traffic with the help of a Proxy while he was sending a picture on a iMessage service. Amazon AWS and the Blob Storage of Windows Azure were named as data source for up- and download. <a href="http://www.infiniteapple.net/is-icloud-utilizing-microsoft-azure-and-amazons-cloud-services/">(Here you can see a screenshot from the Sniffers</a>)
 

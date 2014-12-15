@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 With .NET 3.5 they’ve published two new deployment-methods for the framework:
 
@@ -23,13 +23,13 @@ With .NET 3.5 they’ve published two new deployment-methods for the framework:
 
 <strong>Why all this? </strong>
 
-<strong> </strong>
+
 
 The initial idea was to create a totally new and slim Framework. Other ideas might be about the security because why should a client pc provide components for server applications?
 
 <strong>The problem</strong>
 
-<strong> </strong>
+
 
 As a web- or “server” developer you are usually never get in touch with the .NET client profile. It will be a problem if you try to take some components from a “client profile” application which might have some kind of reference on the whole big framework.
 
@@ -47,7 +47,7 @@ As far as I remember Visual Studio 2010 doesn’t act as clever (what lead to <a
 
 <strong>With .NET 4.5 there isn’t a client profile</strong>
 
-<strong> </strong>
+
 
 <em>“Starting with the .NET Framework 4.5, the Client Profile has been discontinued and only the full redistributable package is available. Optimizations provided by the .NET Framework 4.5, such as smaller download size and faster deployment, have eliminated the need for a separate deployment package. The single redistributable streamlines the installation process and simplifies your app’s deployment options.”</em>
 

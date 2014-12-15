@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 Git is a good thing and offers many new options – but in fact the entrence is very hard and even if you follow the guide on GitHub it’s not that easy. Especially the Tooling isn’t well known territory for Windows / .NET developer.
 
@@ -27,13 +27,13 @@ On the one hand it’s the bridge to the GitHub.com side – you can see your re
 
 <strong>Download</strong>
 
-<strong> </strong>
+
 
 <a href="http://windows.github.com/">You can download them here</a> and it should be able to update automatically.
 
 <strong>First step </strong>
 
-<strong> </strong>
+
 
 A pretty “Metro”-look-a-like-App welcomes us and asks for the Credentials to GitHub.
 
@@ -53,13 +53,13 @@ With Drag-n-Drop it’s possible to get local Repositories into the application 
 
 <strong>Let’s go on to the Shell</strong>
 
-<strong> </strong>
+
 
 It’s also very comfortable to use Git from the prompt. Usually you need to fight with msysGit and the Bash but GitHub for Windows installs Posh-Git for the Powershell automatically. But you can choose for yourself which Shell you are prefers in the end.
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="SNAGHTML158b071" src="{{BASE_PATH}}/assets/wp-images-de/SNAGHTML158b071_thumb.png" border="0" alt="SNAGHTML158b071" width="559" height="413" />
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image4_thumb.png" border="0" alt="image" width="564" height="324" /><strong> </strong>
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image4_thumb.png" border="0" alt="image" width="564" height="324" />
 
 <strong></strong>
 

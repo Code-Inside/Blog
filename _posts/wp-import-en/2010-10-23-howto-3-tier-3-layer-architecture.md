@@ -49,7 +49,7 @@ language: en
 <p>With that it is no problem to change from a showcase to a really implementation.</p>
 <p>But because I´m just passing back static information´s in my example, that´s the main thing I want to test with my Unit-test.</p>
 <p><strong>Layers in Detail: ThreeTier.Service </strong></p>
-<p><img border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb459.png" width="210" height="137" /><strong> </strong></p>
+<p><img border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb459.png" width="210" height="137" /></p>
 <p>In the service we created an interface after the same scheme for our "UserService".</p>
 <p><img border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image-thumb460.png" width="187" height="280" /></p>
 <p>In our service we have a simple login method and another method (in the sense of social networking) which is used to pass back the friends of our user. I also used static data for this and the whole thing is based on "UserRepository".</p>

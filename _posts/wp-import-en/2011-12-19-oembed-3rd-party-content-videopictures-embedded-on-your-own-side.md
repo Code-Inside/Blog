@@ -81,13 +81,13 @@ There is also a <a href="http://code.google.com/p/jquery-oembed/">jQuery library
 
 <strong>Embed.ly – oEmbed Hub </strong>
 
-<strong> </strong>
+
 
 <a href="{{BASE_PATH}}/assets/wp-images-en/image1393.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1393" src="{{BASE_PATH}}/assets/wp-images-en/image1393_thumb.png" border="0" alt="image1393" width="186" height="72" align="left" /></a>Because of oEmbed the format is fixed but anyway you need to question numerous Providers to get to know the URLS. With the service embed.ly you can access to a kind of “Hub”. Embeded.ly provides a oEmbed endpoint and you can send <a href="http://embed.ly/providers">almost every kind of address</a> to emebd.ly and you will receive a fitting answer.
 
 Embed.ly could be called easily with the jQuery Plugin.
 
-<strong> </strong>
+
 
 <strong>Embedy.ly – costs </strong>
 
@@ -95,7 +95,7 @@ There is a rub with embed.ly – it’s not for free. But there is <a href="http
 
 <strong>Who could be interested in embed.ly or oEmbed? </strong>
 
-<strong> </strong>
+
 
 The most important usage is for “link-sharing” sites like Digg.com and so on but you get some meta-information from the URL so you don’t need a complex connection to API.
 

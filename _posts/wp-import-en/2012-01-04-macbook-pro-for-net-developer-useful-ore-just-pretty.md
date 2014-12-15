@@ -25,7 +25,7 @@ I own a MacBook Pro (from 2010) for about a year now and because I’ve used to 
 
 <strong>The Hardware: It’s a dream – at least with little disadvantages </strong>
 
-<strong> </strong>
+
 
 What to write about Apple Hardware: The Quality is amazing. There are worlds between this and all the plastic notebooks I’ve seen so far. Also the Touchpad and the clever usage of Multitouch in the Desktop World are brilliant. The Display is great and the Colors are very strong. I wasn’t even disturbed by the “Glossy” but maybe it’s because I didn’t use it in the sun .. Come on… I’m a Developer <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile31.png" alt="Zwinkerndes Smiley" />
 
@@ -55,7 +55,7 @@ It’s possible to work with the keyboard and the mouse but it’s more effectiv
 
 <strong>About the Software: Mac OSX or Windows? Why not both?</strong>
 
-<strong> </strong>
+
 
 I don’t care if it’s Mac OSX or Windows 7. Both have their strengths and weaknesses. But at last I have to use Windows for Visual Studio and co.
 
@@ -85,7 +85,7 @@ Summary:
 
 <strong>Connecting both worlds with Bootcamp &amp; VMWare Fusion – without disadvantages </strong>
 
-<strong> </strong>
+
 
 Since the change to Intel-processors MacBooks are at least “only” PC’s. Of course it’s possible to install Windows 7 nativ – Apple calls this Bootcamp and serves the fitting drivers. With Bootcamp Windows runs native like on every other PC and uses the whole power. But for example the Touchpad doesn’t work in the same way like with Mac OSX.
 
@@ -105,7 +105,7 @@ That’s what the Windows Capacity index looks like (because of this is the MacB
 
 <strong>Take a look beyond your own nose (at least for iOS Devs)!</strong>
 
-<strong> </strong>
+
 
 To take a look beyond your nose to try Mac OSX could be a reason for the buy as well (it was for me too). If you want to develop native for iOS Tools you need a MacBook Pro.
 
@@ -117,7 +117,7 @@ I don’t regret the buy but now I need a battle machine to play battlefield (bu
 
 <strong>Result: Is a MacBook Pro the right choice for a .NET Developer?</strong>
 
-<strong> </strong>
+
 
 If you need a high class Notebook with Performance but also mobile: Yes, I recommend it to you. But for a longer work and for programming you need a windows keyboard.
 
@@ -125,7 +125,7 @@ If you are only mobile from time to time the better choice is a usual pc and for
 
 If you don’t want to make any type of compromises than you should buy the MacBook Pro – it will never be a bad buy. Or you wait for a look on the Ultrabooks.
 
-<strong> </strong>
+
 
 <strong>Last question – Gaming?</strong>
 

@@ -31,7 +31,7 @@ But because of I didn’t work with the Canvas Element so far I would like to te
 
 <strong>Transform the Canvas into an Image and post it to the server </strong>
 
-<strong> </strong>
+
 
 So I adapted the Demoside a little and integrated a ASP.NET MVC application and added a Upload-Button (and adapted the script a little bit and appointed Canvas with an ID).
 
@@ -84,9 +84,9 @@ The images will be saved in the directory of the application.
 <strong>Things we have learned:</strong>
 
 
-- Html2Canvas is an interesting project<strong> </strong>
+- Html2Canvas is an interesting project
 
-- It’s easy to post a canvas to the server<strong> </strong>
+- It’s easy to post a canvas to the server
 
 - I’ve learned something new about <a href="http://forums.asp.net/p/1679283/4524525.aspx/1?Re+Convert+base64+to+image+">base64 coded images</a>
 

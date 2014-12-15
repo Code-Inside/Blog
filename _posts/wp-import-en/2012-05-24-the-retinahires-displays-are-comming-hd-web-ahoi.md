@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 The best part of the IPad3? The Display. After <a href="http://www.codinghorror.com/blog/2007/06/where-are-the-high-resolution-displays.html">years of waiting for High Resolution Display</a> there are now some movements in the market. Of course this has an important influence on web-development because nobody wants to see washed-out Pictures or even worse: a totally broken design. How am I able to identify a High-Resolution Display? What do I have to take into consideration?
 
@@ -41,7 +41,7 @@ The idea is that the framework takes the high resolution pictures automatically 
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image1522.png" border="0" alt="image" width="540" height="326" />
 
-<strong> </strong>
+
 
 <em>(Picture from <a href="http://apple.com/">Apple.com</a>)</em>
 
@@ -76,7 +76,7 @@ The Retina Version is <strong>three times</strong> bigger than the normal size!
 
 <strong>Retina-JavaScripts for your own WebApp</strong>
 
-<strong> </strong>
+
 
 <a href="http://retinajs.com/">Retina.js</a> works almost in the same way and it abides by the naming scheme from the iOS Device (with @2x)
 
@@ -118,15 +118,15 @@ On the one hand its grate if every website tries to shine with High-Resolution P
 
 <strong>SVGs, Icon-Fronts &amp; Responsive Designs</strong>
 
-<strong> </strong>
+
 
 I’ve only spoken about pictures so far but of course there are many subjects left. One subject is how to deal with Icons – maybe Icon-Fonts are an interesting subject. The issue Responsive Design and SVGs plays an important role as well – for this topic I found an <a href="http://medialoot.com/blog/high-resolution-web/">interesting Blogpost</a>.
 
-<strong> </strong>
+
 
 <strong>Will there be HighRes Displays for Windows as well and experiences with Web-development with HighRes Images?</strong>
 
-<strong> </strong>
+
 
 Even though I’ve wrote about High-Res displays all the time the only one I know is the iPad 3 display. Does somebody know another one? Or will there be an upgrade <a href="http://blogs.msdn.com/b/b8/archive/2012/03/21/scaling-to-different-screens.aspx">with Windows 8</a>? If you own a Mac (and an iPad3) you are able to use it as a High-Res display. If you know alternatives in the world of Windows please tell me <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile38.png" alt="Zwinkerndes Smiley" /> Do you know somebody who is already providing special pictures for the iPad3?
 

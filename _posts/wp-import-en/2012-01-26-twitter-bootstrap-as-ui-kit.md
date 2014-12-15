@@ -11,15 +11,15 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 HTML and CSS are not foreign words for me but I regret, I’m not a Web designer - I see myself as a webdeveloper. But at least a dressy side is a must. But thank good there are some ready “Systems”.
 
-<strong> </strong>
+
 
 <strong>Twitter Bootstrap</strong>
 
-<strong> </strong>
+
 
 Twitter Bootstrap is a Toolkit for every kind of Web applications. It includes some basic styles and also some special styles for Buttons, charts, forms and so on. After all it is a smart Grid-System. Compared to other CSS Grid Frameworks Twitter Bootstrap seems to be more “round” and it offers some basic elements.
 
@@ -27,13 +27,13 @@ The best way is to take a look <a href="http://twitter.github.com/bootstrap/">on
 
 <strong>Technics behind it </strong>
 
-<strong> </strong>
+
 
 Twitter Bootstrap is using <a href="http://twitter.github.com/bootstrap/#less">Less</a> to build the CSS and it also contains ready <a href="http://twitter.github.com/bootstrap/javascript.html">Javascripts</a> for some little UI gimmicks like Popups, Dropdowns, Dialogs, …
 
 <strong>The embedding </strong>
 
-<strong> </strong>
+
 
 All you have to do is to embed the Styles (the Less files plus the <a href="http://lesscss.org/">Less Javascript files</a> or the ready CSS). An example which you will also found on the GitHub examples:
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:d1640d3d-ba68-496a-acf1-23ffa7825732" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">

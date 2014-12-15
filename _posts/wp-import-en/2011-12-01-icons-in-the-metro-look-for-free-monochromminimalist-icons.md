@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 At the moment it is in to create simple but elegant designs. A good example is the metro design used by Microsoft in numerous products. Of course you need to find a fitting icon first so here is something I want to recommend to you because they are for free and you can use it in commercial products as well.
 
@@ -19,27 +19,27 @@ At the moment it is in to create simple but elegant designs. A good example is t
 
 <em>I didn’t found something negative on the following icons but please check out the license term of each Icon Designer before you use them! It’s possible that the license terms will change from time to time. Also you should check up if you have to mention the name of the designer.</em>
 
-<strong> </strong>
+
 
 <strong><a href="http://thenounproject.com/">The noun project</a></strong>
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb580.png" border="0" alt="image" width="488" height="446" />
 
-<strong> </strong>
+
 
 <strong><a href="http://icons8.com/download-huge-windows8-set/">Icons8</a></strong>
 
-<strong> </strong>
+
 
 According to Windows8 + you are able to make suggestions for new Icons! There are new Icons <strong>every day!</strong>
 
 <a href="{{BASE_PATH}}/assets/wp-images-en/image1399.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1399" src="{{BASE_PATH}}/assets/wp-images-en/image1399_thumb.png" border="0" alt="image1399" width="389" height="469" /></a>
 
-<strong> </strong>
+
 
 <strong><a href="http://somerandomdude.com/work/iconic/">Somerandomdude</a></strong>
 
-<strong> </strong>
+
 
 Here are several Iconsets as well – even for “special cases” like for example Multitouch applications.
 
@@ -59,15 +59,15 @@ On this side you will find several types of this Icons:
 
 <strong> <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb585.png" border="0" alt="image" width="342" height="339" /></strong>
 
-<strong> </strong>
+
 
 <strong>more Icons</strong>
 
-<strong> </strong>
+
 
 Search for “<a href="http://www.google.com/search?gcx=w&amp;sourceid=chrome&amp;ie=UTF-8&amp;q=monochrom+icons">monochrome Icons</a>” and you will find numerous hits and other <a href="http://spyrestudios.com/minimalist-icon-symbol-pictogram-sets/">icon collections.</a> The same here: checkup the license terms first. Especially the devianart things are often for private use only!
 
-<strong> </strong>
+
 
 <strong>A look into the past</strong>
 

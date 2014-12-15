@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 The definitely catchy name <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile27.png" alt="Zwinkerndes Smiley" /> stands for a relative clever Deploymentmodell for Windows Azure. Base is the fact, that the <a href="http://blogs.msdn.com/b/windowsazure/archive/2010/12/02/new-full-iis-capabilities-differences-from-hosted-web-core.aspx">Web Roll of Azure is able since a few versions are able to use the full IIS.</a>
 
@@ -35,7 +35,7 @@ You don’t have to change anything on the last project. This application will r
 
 <strong>After the Deployment… </strong>
 
-<strong> </strong>
+
 
 The “Web Site Manager” offers only a few configuration options. At the web surface you are able to add new IIS bindings and manage the synchronization process (spread packages from the Blob Storages on the instance) – a screenshot:
 
@@ -43,7 +43,7 @@ The “Web Site Manager” offers only a few configuration options. At the web s
 
 <strong>5-Minute access…</strong>
 
-<strong> </strong>
+
 
 Videos says more than 1000 words – here a <a href="http://channel9.msdn.com/posts/Getting-Started-with-the-Windows-Azure-Accelerator-for-Web-Roles">5 minutes access from Channel 9</a>
 
@@ -53,7 +53,7 @@ Videos says more than 1000 words – here a <a href="http://channel9.msdn.com/po
 
 <strong>The main application </strong>
 
-<strong> </strong>
+
 
 The actually application which you want to run on Azure don’t need to know about Azure. The WebDeploy could also run on a normal Windows Server. ( as far as you don’t want to use all Azure Features (Blob Storage, Tables…))
 
@@ -71,12 +71,12 @@ The actually application which you want to run on Azure don’t need to know abo
 
 <strong>Are there any disadvantages?</strong>
 
-<strong> </strong>
+
 
 The only disadvantage that gets into my mind is that in some Azure Instances the Web Site Manager runs as well and (like the name says) it is produced for Web Rolls only. But the name also betrays that the Deployment will be <a href="{{BASE_PATH}}/2011/02/22/automatisiertes-deployment-auf-windows-azure-ber-einen-buildserver-via-powershell/">much easier on Azure.</a>
 
 <strong>Maybe it will be also much more beneficial to use it…</strong>
 
-<strong> </strong>
+
 
 I can imagine that it’s better to run several small websites on Azure. Two instances hosting Mini-websites are more beneficial than one instance for each which will be bored in the end. I need to test it …

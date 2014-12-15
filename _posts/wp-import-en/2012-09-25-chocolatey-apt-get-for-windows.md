@@ -47,7 +47,7 @@ Tadaa….
 
 <strong>Open Source, for Windows and based on NuGet</strong>
 
-<strong> </strong>
+
 
 Over all it is <a href="https://github.com/chocolatey/chocolatey/">Open Source</a>, based on NuGet (like you can see) and although it’s an old idea it wasn’t already solved for windows. Take a look on Chocolaey – for the developer tool box <img class="wlEmoticon wlEmoticon-smile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile16.png" alt="Smiley" />
 

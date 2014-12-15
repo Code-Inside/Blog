@@ -19,11 +19,11 @@ Aim: I want the files to this You Tube video – but I already have the URL:
 
 <a href="http://www.youtube.com/watch?v=ItqQ2EZziB8">http://www.youtube.com/watch?v=ItqQ2EZziB8</a> (different to my former Blogpost where I was searching stuff)
 
-<strong> </strong>
+
 
 <strong>download the library with NuGet</strong>
 
-<strong> </strong>
+
 
 For comfortable excess I recommend you Google Data APIs. You will find this on NuGet as well:
 
@@ -33,7 +33,7 @@ All you need is the Google.GData.Client and the Google.GData.YouTube package:
 
 <strong>Code</strong>
 
-<strong> </strong>
+
 
 (because my Testclient is a console application and I need the functionality from the System.Web Assembly I changed the whole Frameworkt to .NET 4.0)
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:4b02cb9f-e4ee-45e5-9a0d-5166ef8197f1" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
@@ -65,7 +65,7 @@ During the development process I’ve recognized a strange problem – under the
 
 More Informations on <a href="http://code.google.com/apis/youtube/2.0/developers_guide_protocol.html">the YouTube API.NET side</a>.
 
-<strong> </strong>
+
 
 <strong>Result of my codes:</strong>
 

@@ -11,17 +11,17 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 <a href="http://redis.io/">Redis</a> belongs to the NoSQL data banks and you will find it in the group of Key-Value Stores. Redis is often named “Blazing Fast” and according to the <a href="http://stackoverflow.com/questions/5252577/how-much-faster-is-redis-than-mongodb">Stackoverflow Thread</a> it is used to be two time (while writing) and three times (while reading) quicker than MongoDB. Even if the comparison is a little bit unfair (Document data bank vs. Key-Value).
 
 <strong>Redis is going to be ported on Windows (and maybe also implemented as an Azure Service)</strong>
 
-<strong> </strong>
+
 
 It isn’t a secret that the <a href="http://blogs.msdn.com/b/interoperability/archive/2012/04/12/announcing-one-more-way-microsoft-will-engage-with-the-open-source-and-standards-communities.aspx">Microsoft Open Source department</a> is working on running Redis on Windows at all. <a href="http://blogs.msdn.com/b/interoperability/archive/2012/04/26/here-s-to-the-first-release-from-ms-open-tech-redis-on-windows.aspx">A first concept</a> was published last week. Microsoft sheared there <a href="https://github.com/MSOpenTech/redis">results on GitHub</a> – even if there is still a long way to go before the productive use on windows.
 
-<strong> </strong>
+
 
 <strong>Redis as an Azure Service?</strong>
 
@@ -57,7 +57,7 @@ After the Start of the Server you will see the Server Port (a little bit hidden 
 
 <strong>Redis &amp; .NET AKA play around with API</strong>
 
-<strong> </strong>
+
 
 Advance notice: I do not know what to do with Redis it is just pure interest and ludic drive.
 

@@ -13,13 +13,13 @@ language: en
 
 I was working with <a href="http://technet.microsoft.com/en-us/library/adfs2(v=ws.10).aspx">ADFS 2.0 (“Active Directory Federation Services”)</a> for a while when this simple question crossed my mind: How can I figure out if the connection between ADFS and AD “works”? Here is a simple test…
 
-<strong> </strong>
+
 
 <strong>What is ADFS?</strong>
 
 If you need some “position of trusts” beneath the AD-boarders you choose an Active Directory Service in the world of Microsoft. They are communicating between the dispatcher (own company-AD) and receiver (another AD or a big “center” like for example <a href="http://en.wikipedia.org/wiki/Access_Control_Service">the Windows Azure Access Control Service</a>) and issues claims for the registered user. Maybe this isn’t 100% accurate and maybe my choice of words doesn’t fit 100% but that’s how I understand the system <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile53.png" alt="Zwinkerndes Smiley" />
 
-<strong> </strong>
+
 
 <strong>So, how do I test the functionality of the ADFS?</strong>
 

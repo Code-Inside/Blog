@@ -13,17 +13,17 @@ language: en
 
 “Sign in with Twitter” is a popular practice to authenticate the users on your website. One advantage compared to an own registration is the lower inhibition for the user. But on the other hand Twitter doesn’t fess up with all the information’s and you will get into a kind of addiction. At the end everyone has to decide it by them self. <span style="text-decoration: underline;">The question is: </span>How can I integrate the Twitter Login into my website?
 
-<strong> </strong>
+
 
 <strong>Twitter Login – Oauth</strong>
 
-<strong> </strong>
+
 
 The base is the OAuth protocol for the authentication. The application isn’t able to see secure information’s like keywords. More background information’s <a href="http://oauth.net/">here</a>.
 
 <strong>TweetSharp – 10 minutes guide to Twitter Login </strong>
 
-<strong> </strong>
+
 
 At least the <a href="http://oauth.net/">OAuth protocol</a> is a little bit “difficult”. There is a big library in the .NET environment which is able to understand both OAuth and OpenID: <a href="http://www.dotnetopenauth.net/">DotNetOpenAuth</a>. But the library is very extensive and heavy. So here is my recommendation: <a href="https://github.com/danielcrenna/tweetsharp">TweetSharp!</a>
 
@@ -49,7 +49,7 @@ Note: There are several “authorities” to be set on the Access level. At the 
 
 <strong>Step 3: Auth Controller</strong>
 
-<strong> </strong>
+
 
 The code from Auth Controller is from the <a href="https://github.com/danielcrenna/tweetsharp">Doku on TweetSharp</a> and I only changed a few things.
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:ca5400ce-3125-4ee2-8b95-efe0c57d9989" class="wlWriterEditableSmartContent" style="margin: 0px; display: inline; float: none; padding: 0px;">
@@ -106,7 +106,7 @@ Between Step 1 and 2 we create the main Callback-URL. In this Callback we use th
 
 <strong>Step 4: UI modification </strong>
 
-<strong> </strong>
+
 
 In the _Layout.cshtml
 

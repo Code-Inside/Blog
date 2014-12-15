@@ -11,19 +11,19 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 <a href="http://owin.org/#projects">OWIN</a> stands for “Open Web Interface for .NET” and it is a specification for the communication between .NET Web Server and Web applications.
 
 <strong>.NET Web Server – did you mean the IIS?</strong>
 
-<strong> </strong>
+
 
 A highlight at first: there are several other .NET Web Server. Of course IIS is the one we usual use but at the same time it is a very “tough” application.
 
 <strong>OWIN – Big Picture</strong>
 
-<strong> </strong>
+
 
 <a href="http://whereslou.com/">Louis DeJardin</a>, a Microsoft employee in the ASP.NET team created this little picture to show the connection between OWIN and his <a href="https://github.com/owin/owin-sandbox/">OWIN-sandbox project</a>. There is also a fantastic <a href="http://whereslou.com/2012/05/14/owin-compile-once-and-run-on-any-server/">blogpost</a> which I’m going to repeat in parts.
 
@@ -43,7 +43,7 @@ At the end of the pipeline there are some Web Frameworks for example <a href="ht
 
 <strong>OWIN Sandbox Project</strong>
 
-<strong> </strong>
+
 
 As far as I can tell from my researches this project is the easiest way to enter the OWIN universe.
 
@@ -51,19 +51,19 @@ As far as I can tell from my researches this project is the easiest way to enter
 
 If you start the projects from the Visual Studio there aren’t any big surprises waiting for you.
 
-<strong> </strong>
 
-<strong> </strong>
 
-<strong> </strong>
 
-<strong> </strong>
 
-<strong> </strong>
 
-<strong> </strong>
 
-<strong> </strong>
+
+
+
+
+
+
+
 
 <strong>Now Katana enters the game:</strong>
 

@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 For a loooong time (at least for me <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile25.png" alt="Zwinkerndes Smiley" /> ) it was a fact that files have to be in a database. Usual files are saved in a relational database and linked. But in a while there exists resistance – <a href="http://en.wikipedia.org/wiki/NoSQL">NoSQL</a> is the word.
 
@@ -21,7 +21,7 @@ There are several types of NoSQL database – for a first view I recommend you t
 
 Prominent representatives are <a href="http://www.mongodb.org/">MongoDB</a> and <a href="http://couchdb.apache.org/">CouchDB</a>.
 
-<strong> </strong>
+
 
 <strong>RavenDB?</strong>
 
@@ -37,7 +37,7 @@ Different to an SQL database schema less JSON document will be saved in RavenDB.
 
 <strong>Introduction…</strong>
 
-<strong> </strong>
+
 
 <a href="{{BASE_PATH}}/assets/wp-images-en/image1290.png"><img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;" title="image1290" src="{{BASE_PATH}}/assets/wp-images-en/image1290_thumb.png" border="0" alt="image1290" width="150" height="240" align="left" /></a>RavenDB could be downloaded at the <a href="http://ravendb.net/download">Download-side</a>. In this package are several Samples, the RavenDB server and various Client-libraries included. The most interesting folder is the “Server” folder and (at least for the introduction) the folder “Samples”.
 
@@ -59,7 +59,7 @@ All you have to do is run the “Raven.Server.exe” in the folder “Server” 
 
 <strong>RavenDB management interface </strong>
 
-<strong> </strong>
+
 
 After the start of the server should the management interface open in the browser. The RavenDB management studio is in Silverlight and it looks quite nice. In this management interface it’s possible to take a look at the documents and edit them. I think it’s related to the SQL management studio.
 
@@ -120,7 +120,7 @@ The code of the filter:
 </div>
 <strong>DocumentStoreHelper.cs</strong>
 
-<strong> </strong>
+
 
 In fact this is where the connection to the store and the access will be warranted. I’m not sure what else the function is <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile25.png" alt="Zwinkerndes Smiley" />
 

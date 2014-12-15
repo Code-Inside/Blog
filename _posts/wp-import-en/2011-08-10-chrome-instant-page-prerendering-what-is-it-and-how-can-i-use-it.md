@@ -27,13 +27,13 @@ There are some scenarios where this could be very useful. For example searching 
 
 <strong>Beware – you should use it careful </strong>
 
-<strong> </strong>
+
 
 Here is the little challenge: To do this with every link is the wrong way because of this files will be transmitted senseless which has bad results for the user and for the provider – a lot of traffic but without visitors.
 
 <strong>Testpage</strong>
 
-<strong> </strong>
+
 
 Google offers a simple testpage which tests if Prerender is activated or not (the page is only interesting in Chrome): <a href="http://prerender-test.appspot.com/">http://prerender-test.appspot.com/</a>
 
@@ -91,7 +91,7 @@ Prerendering is an interesting technology which will be used from other browser 
 
 Technical you can activate it with &lt;link rel=”prerender”href=”…”&gt;. Assumption is of course that the browser knows it – which is only possible with Chrome Version 13 at the moment.
 
-<strong> </strong>
+
 
 <strong>Forecast</strong>
 

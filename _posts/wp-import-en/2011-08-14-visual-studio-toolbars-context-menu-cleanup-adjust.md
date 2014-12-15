@@ -11,13 +11,13 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 Visual Studio has a lot of functions and shows in the standard adjustment a lot of overloaded Toolbars and Context-Menus. The result is that Visual Studio seems to be much overcharged – at least for me. So here comes the ultimate Quick tip: we are going to blend out everything that is not necessary.
 
 <strong>Adjust Toolbars</strong>
 
-<strong> </strong>
+
 
 That’s what my VS Toolbar looked like before:
 
@@ -57,11 +57,11 @@ Same thing in the Debug view:
 
 Way better <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile23.png" alt="Zwinkerndes Smiley" />
 
-<strong> </strong>
+
 
 <strong>Edit the Context-menus </strong>
 
-<strong> </strong>
+
 
 It’s also possible to edit the Context-menus but in fact depending on which Plugins/SDKs you have installed there are numerous options and it’s not easy to find the right on. I’m sure it’s possible to edit every button of the Context-menus:
 

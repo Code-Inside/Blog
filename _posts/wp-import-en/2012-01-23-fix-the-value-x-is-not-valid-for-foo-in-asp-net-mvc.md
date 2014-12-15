@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 To get files into the MVC Controller <a href="{{BASE_PATH}}/2009/04/02/howto-daten-vom-view-zum-controller-bermitteln-bindings-in-aspnet-mvc/">Modelbinding</a> from MVC is a clever method.
 
@@ -35,7 +35,7 @@ But in fact it is a little bit complicated to set the error message if the conne
 		...
     }</pre>
 </div>
-<strong> </strong>
+
 
 This is the default model for the registration in the ASP.NET MVC project draft. I’ve added a Property “Age” from the Typ “int”. This have to be mentioned in the View as well:
 
@@ -90,7 +90,7 @@ protected void Application_Start()
 
 <a href="{{BASE_PATH}}/assets/wp-images-en/image14411.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="image1441" src="{{BASE_PATH}}/assets/wp-images-en/image1441_thumb1.png" border="0" alt="image1441" width="424" height="124" /></a>
 
-<strong> </strong>
+
 
 <strong>Background: </strong>
 

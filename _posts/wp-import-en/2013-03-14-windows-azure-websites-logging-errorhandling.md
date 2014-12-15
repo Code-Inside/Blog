@@ -15,7 +15,7 @@ The <a href="{{BASE_PATH}}/2013/03/02/windows-azure-websites-git-hosting-deploym
 
 <strong>Azure Website Configuration </strong>
 
-<strong> </strong>
+
 
 At the adjustments of Azure Websites you will find three diagnostic-tools:
 
@@ -27,11 +27,11 @@ At the adjustments of Azure Websites you will find three diagnostic-tools:
 
 <a href="http://www.windowsazure.com/en-us/manage/services/web-sites/how-to-monitor-websites/">Source: How to monitor web sites</a>
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb938.png" border="0" alt="image" width="578" height="390" /><strong> </strong>
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb938.png" border="0" alt="image" width="578" height="390" />
 
 <strong>Where are these Logs saved?</strong>
 
-<strong> </strong>
+
 
 The logs are saved in a directory on the machine which is accessible via FTP. Therefore you have to change into the “Dashboard” and search for “FTP DIAGNOSTIC LOGS”. You will be asked for the Deployment-User (which is also responsible for the Git-Deployment) as Login!
 
@@ -41,7 +41,7 @@ The logs are saved in a directory on the machine which is accessible via FTP. Th
 
 <img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb940.png" border="0" alt="image" width="395" height="333" />
 
-<strong> </strong>
+
 
 <strong>I require more Logging- / Exception information’s </strong>
 

@@ -45,25 +45,25 @@ Other Hadoop-related projects at Apache include:
 
 Hadoop is developed with Java and his home is the world of Linux because of this I was surprised to hear this announcement.
 
-<strong> </strong>
+
 
 <strong>Hadoop &amp; Windows Azure/Server </strong>
 
-<strong> </strong>
+
 
 According to the announcement Hadoop should be able to run on a Windows Server and it should be integrated into Windows Azure. The first Beta is planned to be published at the <a href="http://blogs.msdn.com/b/windowsazure/archive/2011/10/12/cross-post-microsoft-announces-big-data-roadmap-adopts-apache-hadoop-on-windows-azure.aspx">end of the year</a>. Afterwards follows the going live in the next year.
 
-<strong> </strong>
+
 
 <strong>What means huge files? Who use this? </strong>
 
-<strong> </strong>
+
 
 Probably Facebook has the main Hadoop Cluster – in <a href="http://www.dbms2.com/2009/05/11/facebook-hadoop-and-hive/">this Blogpost</a> you will found some numbers and facts. Impressive.
 
 <strong>Javascript is everywhere! </strong>
 
-<strong> </strong>
+
 
 A little thing that makes me, as a developer, laugh (and which maybe drives a lot of DBA’s crazy):
 

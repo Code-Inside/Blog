@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 If you use WebDeploy on a server operation system you would usually use Port 8172. But what is this Port for and can I change it?
 
@@ -19,7 +19,7 @@ If you use WebDeploy on a server operation system you would usually use Port 817
 
 <em>Hint: For installing the WebDeploy I recommend <a href="{{BASE_PATH}}/2011/04/03/howto-setup-of-webdeploy-msdeploy/">this</a> Blogpost. </em>
 
-<strong> </strong>
+
 
 <strong>Port 8172 = IIS Management Service Default Port</strong>
 
@@ -31,7 +31,7 @@ You can change the settings on GUI (or Powershell) while the service is not runn
 
 That’s basically it.
 
-<strong> </strong>
+
 
 <strong>Background-Information: WebDeploy &amp; Web Management Service Handler</strong>
 

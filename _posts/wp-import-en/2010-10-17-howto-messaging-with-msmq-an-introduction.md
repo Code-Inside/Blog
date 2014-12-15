@@ -16,7 +16,7 @@ language: en
 
 <strong>Why should I use this?</strong>
 
-<strong> </strong>
+
 
 MSMQ is a system of queues. You put your message into it and than somebody will take it and convert it. This could be very useful in distributed applications for example. So for example it is possible to generate E-Mails, put them in a queue and send them out piece by piece so the server won´t be overloaded. Of course there are a lot more possibilities but this is just an introduction.
 
@@ -24,7 +24,7 @@ Later I´m going to talk about some more advantages and disadvantages and I woul
 
 <strong>Requirements</strong>
 
-<strong> </strong>
+
 
 The infrastructure is included every ware since XP (?). You only need to activate it in the windows functions:
 
@@ -46,7 +46,7 @@ For my demo code it is necessary to create the "test" queue beneath the privat
 
 <strong>The Code:</strong>
 
-<strong> </strong>
+
 
 In .NET Framework you will find everything you need to start:
 

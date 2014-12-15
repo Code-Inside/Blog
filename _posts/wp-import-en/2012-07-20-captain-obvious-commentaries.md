@@ -73,6 +73,6 @@ In this case you might ask yourself if your code is too complicated. Countless l
 
 <strong>I’m interested in your opinion as well</strong>
 
-<strong> </strong>
+
 
 What do you think? Comment on everything? Am I just too lazy for all the writing? Do you have any code comment rules?

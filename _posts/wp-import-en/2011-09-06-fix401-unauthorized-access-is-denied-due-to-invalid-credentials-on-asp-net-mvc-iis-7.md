@@ -9,7 +9,7 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<strong> </strong>
+
 
 There are a lot of different reasons for this error message for example the IIS process has no access for the files or the password of the account where the application runs is wrong. All in all: it is a not very clear defined error message. <a href="http://www.uniquesoftware.de/Blog/de/post/2011/07/22/Access-denied-due-to-invalid-credentials-aber-nur-manchmal.aspx">Martin</a> has already written about a very interesting problem a short time ago (he found the Workaround <a href="http://blog.yeticode.co.uk/2011/03/iis7-iis-express-401-access-is-denied-due-to-invalid-credentials-issue/">here</a>). The symptoms of the error have been this:
 
@@ -45,7 +45,7 @@ The main problem was: a “RenderAction()” on the Layout/Masterpage which lean
 
 <strong>The solution:</strong>
 
-<strong> </strong>
+
 
 If you receive this kind of error message you have to check up if there is an RenderAction producing an error if there’s something wrong on your login page.
 

@@ -24,7 +24,7 @@ By accident I found the page of <a href="http://code.nasa.gov/">code.nasa.org</a
 </div>
 <strong>A bottle of bitterness</strong>
 
-<strong> </strong>
+
 
 It only works on Chrome and you have to speak very slow and clear. He doesn’t understand German and only a few English. Hmm… not a Siri at all. The Speech Input API is still in his baby shoes and there aren’t that many improvements since the Release of Chrome 11.
 

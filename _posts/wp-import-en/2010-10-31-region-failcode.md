@@ -29,7 +29,7 @@ Nice and tidy.
 
 <strong>But serious...</strong>
 
-<strong> </strong>
+
 
 Im interested in the Code not in any kind of blocks. With the use of #region the only thing you do is to shroud the code. When I open the user.cs I want to see the code on the first sight.
 
@@ -37,7 +37,7 @@ Yes, there is a hot key to make the code visual but why should I use this #regio
 
 <strong>Code Smell</strong>
 
-<strong> </strong>
+
 
 Often I find some #regions in classes where the code consists of endless lines to give it a little bit more structure.
 
@@ -61,7 +61,7 @@ Fantastic isn´t it? Of course the code in my example is nonsense but in fact th
 
 <strong>Why I think #regions is useless sense of order:</strong>
 
-<strong> </strong>
+
 
 First fact: there is not a really advantage. Okay it looks nice on the first sight but in the end there is one possible conclusion:
 

@@ -27,7 +27,7 @@ So far… where is the Code?
 
 <strong>Installation </strong>
 
-<strong> </strong>
+
 
 1. <a href="http://www.mongodb.org/downloads">Download</a> mongoDB for Win, OSX, Solaris or Linux:
 
@@ -41,7 +41,7 @@ So far… where is the Code?
 
 <strong>Code</strong>
 
-<strong> </strong>
+
 
 1. Additionally we need the mongoDB.Net driver you will find here: <a href="http://www.mongodb.org/display/DOCS/CSharp+Language+Center">http://www.mongodb.org/display/DOCS/CSharp+Language+Center</a>
 
@@ -172,25 +172,25 @@ Console.WriteLine("all users droped in: " + insertTimer.ElapsedMilliseconds + "m
 </div>
 And that is my result (4GB RAM QuadCore, HDD RAID5, no SSD)
 
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border-width: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb562.png" border="0" alt="image" width="497" height="263" /><strong> </strong>
+<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border-width: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb562.png" border="0" alt="image" width="497" height="263" />
 
 <strong>Management</strong>
 
-<strong> </strong>
+
 
 <img style="background-image: none; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px; border-width: 0px;" title="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb563.png" border="0" alt="image" width="216" height="108" align="left" />To manage mongoDB there are <a href="http://www.mongodb.org/display/DOCS/Admin+UIs">several Tools</a> available. I used the MongoExplorer for now. The dressy Silverlight tool could be installed directly from <a href="http://mongoexplorer.com/">the website</a>.
 
 &nbsp;
 
-<strong> </strong>
 
-<strong> </strong>
+
+
 
 <a href="{{BASE_PATH}}/assets/wp-images-en/image1382.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border-width: 0px;" title="image1382" src="{{BASE_PATH}}/assets/wp-images-en/image1382_thumb.png" border="0" alt="image1382" width="540" height="430" /></a>
 
 <strong>Query</strong>
 
-<strong> </strong>
+
 
 That’s also a subject that includes enough material for an own blog post. For now: mongoDB is complete guidable with Javascript. Many of my own questions are answered after I watched this presentation:
 <div id="__ss_4111399" style="width: 425px;"><strong style="margin: 12px 0px 4px; display: block;"><a title="Why MongoDB is awesome" href="http://www.slideshare.net/jnunemaker/why-mongodb-is-awesome" target="_blank">Why MongoDB is awesome</a></strong>&nbsp;

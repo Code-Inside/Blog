@@ -19,7 +19,7 @@ language: en
 
 <a href="{{BASE_PATH}}/assets/wp-images-en/image1353-570x194.png"></a>
 
-<strong> </strong>
+
 
 Since a few days an embellished (?) <a href="http://markmail.org/message/uro3jtoitlmq6x7t">Mail from Google</a> buzz through the Internet and it includes some interesting Details about the future of Javascript. Also it includes an announcement for the presentation of the new language Dart on <a href="http://gotocon.com/aarhus-2011/presentation/Opening%20Keynote:%20Dart,%20a%20new%20programming%20language%20for%20structured%20web%20programming">GOTO which is going to start at the 10th of October</a>.
 
@@ -33,11 +33,11 @@ For Google there are two possible Options: Improve the already existing Javascri
 
 <strong>Googles efforts in the Javascript environment </strong>
 
-<strong> </strong>
+
 
 In the Mail it was accented, that Google is still going to support ECMAScripts (<a href="http://en.wikipedia.org/wiki/ECMAScript#ECMAScript_Harmony">especially the next step Harmony).</a> Dart should be possible to compile to Javascript so that older Browsers are going to support it as well.
 
-<strong> </strong>
+
 
 <strong>Googles aims </strong>
 
@@ -57,7 +57,7 @@ Dash, however, does not require tooling to be effective–small-scale
 developers may still be satisfied with a text editor.</blockquote>
 <strong>The big Aim</strong>
 
-<strong> </strong>
+
 
 The goal of the Dash effort is ultimately to replace JavaScript as the
 lingua franca of web development on the open web platform.

@@ -25,7 +25,7 @@ The deployment information’s are saved in a .pubxml file in the project. It in
 
 Visual Studio saves the password somewhere else. Besides it is not a very clean process to deploy out of Visual Studio it would be a better way to have a build system build the WebDeploy package and publish the project later on a random Azure website or a local IIS.
 
-<strong> </strong>
+
 
 <strong>How to publish a WebDeploy Package with an CMD?</strong>
 
@@ -35,7 +35,7 @@ If you use <a href="{{BASE_PATH}}/2010/11/21/howto-msdeploy-msbuild/">MSBuild fo
 
 If you run the file like this you will see a ReadMe file. Important for Azure Websites: you need a password to deploy!
 
-<strong> </strong>
+
 
 <strong>How can I find the WebDeploy password for Azure Websites?</strong>
 

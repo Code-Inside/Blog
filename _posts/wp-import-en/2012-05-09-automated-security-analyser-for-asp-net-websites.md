@@ -35,6 +35,6 @@ If someone wants to share more tips with us you are welcome J
 
 <strong>Prevent the Top 10 Security holes!</strong>
 
-<strong> </strong>
+
 
 Some time ago <a href="http://philipproplesch.de/post/gaengige-angriffe-auf-webseiten-vermeiden">Philip Proplesch</a> referred about the excellent Blog row from Troy Hunt: <a href="http://www.troyhunt.com/2010/05/owasp-top-10-for-net-developers-part-1.html">OWASP Top 10 for .NET developer’s part 1: Injection. Read!</a>

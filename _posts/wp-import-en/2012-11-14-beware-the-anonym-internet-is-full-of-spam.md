@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 Spam isn’t a new subject but I didn’t new till now that also very own created applications could be infected in no time.
 
@@ -19,13 +19,13 @@ In my free time I run the website <a href="http://knowyourstack.com/">KnowYourSt
 
 <strong>Fail early – fail often</strong>
 
-<strong> </strong>
+
 
 According to this slogan I’ve brought the page online in a case of youth foolishness. Also I’ve planned to test the anonym participation – Idea: No registration – no border to act on the site.
 
 <strong>Result: Spam</strong>
 
-<strong> </strong>
+
 
 It didn’t take long for the spam bots to invade the site with spam:
 
@@ -33,11 +33,11 @@ It didn’t take long for the spam bots to invade the site with spam:
 
 After the system is completely based on my own code I wondered about the enormous number of spam (4 to 5 entries every day).
 
-<strong> </strong>
+
 
 <strong>Bruteforce FTW</strong>
 
-<strong> </strong>
+
 
 I’m sure that these boots aren’t configured especially for my website so that’s what I assume:
 
@@ -49,7 +49,7 @@ Without a protection like Captcha and so on it is an easy task for spam bots.
 
 <strong>Lesson learned: Anonym only with moderation</strong>
 
-<strong> </strong>
+
 
 Anonym entries have their value but it is necessary to have some kind of moderation.
 

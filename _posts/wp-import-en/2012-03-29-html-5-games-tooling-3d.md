@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 Game Developing is an interesting subject for all kind of software developer. But as a web developer without any Flash-skills there aren’t that much starting points. With HTML5 and the combination between Javascript, CSS3 and fast browsers there are the first “robust” HTML5 games.
 
@@ -41,7 +41,7 @@ Also a quite ambitioned project is <a href="http://www.adityaravishankar.com/pro
 </div>
 <strong>3D before WEbGL</strong>
 
-<strong> </strong>
+
 
 Even if the browser creators agree about HTML5 and Javascript are the future of web developing they do not agree in the field of 3D.
 
@@ -57,6 +57,6 @@ If you are interested in WebGL anyway you should take a deeper view on <a href="
 
 <strong>Hints?</strong>
 
-<strong> </strong>
+
 
 If you are hiding some other interesting details from the game developing and graphic world via web – leave a comment!

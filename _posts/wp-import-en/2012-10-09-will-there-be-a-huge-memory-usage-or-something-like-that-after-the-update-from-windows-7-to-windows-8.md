@@ -11,7 +11,7 @@ language: en
 {% include JB/setup %}
 <a href="{{BASE_PATH}}/assets/wp-images-en/resourcemon-508x194.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px; border: 0px;" title="resourcemon-508x194" src="{{BASE_PATH}}/assets/wp-images-en/resourcemon-508x194_thumb.png" border="0" alt="resourcemon-508x194" width="509" height="195" /></a>
 
-<strong> </strong>
+
 
 So far I have always put on a fresh system after every windows installation – what means no more ballast after an update. Unfortunately this usually ended in an installation orgy so this time I wanted to try the update alternative.
 
@@ -21,7 +21,7 @@ The update runs fine from my Windows 7 Desktop PC and even all my programs worke
 
 <strong>Sadly…Sadly…there is a jinx on it – the symptoms </strong>
 
-<strong> </strong>
+
 
 Huge memory usage (this box contains 8 GB) directly after the boot – without any program apparent using it!
 
@@ -39,7 +39,7 @@ Now the next step should be clear.
 
 <strong>Reinstallation</strong>
 
-<strong> </strong>
+
 
 A little anecdote about the reinstallation: Windows 8 offers in the options a button to refresh your operating system, either with personal data or without – great idea, <em>technically.</em>
 

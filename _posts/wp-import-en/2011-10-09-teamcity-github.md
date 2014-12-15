@@ -13,11 +13,11 @@ language: en
 
 Because of my <a href="{{BASE_PATH}}/2011/08/23/entrance-into-git-for-net-developer/">latest fun</a> with Git I’ve planned to connect it with the CI Tool of my choice. So what do I have to do if I want TeamCity to bring me the latest Sources?
 
-<strong> </strong>
+
 
 <strong>In fact it’s very easy…</strong>
 
-<strong> </strong>
+
 
 In the latest <a href="http://www.jetbrains.com/teamcity/">Version of TeamCity (at the moment it’s 6.5)</a> the Git-Client is already installed. It’s not necessary to do some SSH configuration or some magic stuff like that – at least not for taking open repositories only.
 

@@ -11,11 +11,11 @@ language: en
 {% include JB/setup %}
 &nbsp;
 
-<strong> </strong>
+
 
 Adobe is well known for Photoshop and Flash but of course there is a lot more. According to the <a href="{{BASE_PATH}}/2012/03/14/cutting-edge-chrome-web-platform-technologies/">“Future Post” from Google</a> Adobe declared one of their big subjects <a href="http://blogs.adobe.com/webplatform/2012/03/16/css-regions-one-year-in/">on a Blogpost</a>. I’m talking about the W3C Working Draft to CSS Regions. Adobe cooperates with the WebKit Team and W3C on this.
 
-<strong> </strong>
+
 
 <strong>What are CSS Regions?</strong>
 
@@ -45,7 +45,7 @@ According to Adobe there are still some dubieties. Standardization or not – It
 
 <strong>Browser Support at the moment </strong>
 
-<strong> </strong>
+
 
 <span style="text-decoration: underline;">WebKit Nightlies</span>
 
@@ -67,7 +67,7 @@ What a big surprise: Implemented and activated in the IE 10 Developer Preview!
 
 Mozilla included it into the <a href="https://wiki.mozilla.org/Platform/Roadmap">Roadmap for 2012</a> after all <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile37.png" alt="Zwinkerndes Smiley" />
 
-<strong> </strong>
+
 
 <strong>More Information’s</strong>
 
