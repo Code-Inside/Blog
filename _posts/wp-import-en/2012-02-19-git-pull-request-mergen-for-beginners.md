@@ -24,7 +24,8 @@ git pull https://github.com/dlang/BizzBingo master
 
 <p><b>Beware: </b>Before you start make sure you already created a Mergetool. It’s not that difficult and you will find a <a href="http://gitguru.com/2009/02/22/integrating-git-with-a-visual-merge-tool/">detailed instruction here</a>. In fact all you have to do is to choose a Merge Program (I’ve chosen <a href="http://kdiff3.sourceforge.net/">KDiff3</a> but it’s ugly). And after that you need to tell Git which tool is the right one for the mergen process. At the end that’s what the .gitconfig looks like: </p>
 
-<p>&#160;</p>
+
+
 
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:26b42d98-a735-4b8b-be0b-f3997c7ef161" class="wlWriterEditableSmartContent"><pre name="code" class="c#">[diff][/diff]
 

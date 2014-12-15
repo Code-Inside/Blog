@@ -10,7 +10,8 @@ language: en
 ---
 {% include JB/setup %}
 <p><img title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb156.png" width="196" height="120" />Those of you who use the right IIS as development server should know the problem with vista and windows 7:</p>  <p>As long as the user account control /UAC still works you need to go the hard way via "click right" and "achieve as admin". With a little trick it´s possible to avoid all the clicks in the context menu. </p> <!--more-->  
-  <p><b>"run program as administrator"</b></p>  <p>You will find this action in the calibration menu:</p>  <p><img title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb157.png" width="269" height="378" /></p>  <p>With a double click on the .SLN these exe will be opened:</p>  <p>&#160;</p>  
+  <p><b>"run program as administrator"</b></p>  <p>You will find this action in the calibration menu:</p>  <p><img title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb157.png" width="269" height="378" /></p>  <p>With a double click on the .SLN these exe will be opened:</p>  
+  
   <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:77ccb5e2-c103-42d3-a3c7-a4ed12049c81" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\Program Files (x86)\Common Files\microsoft shared\MSEnv\VSLauncher.exe
 </pre></div>
 
