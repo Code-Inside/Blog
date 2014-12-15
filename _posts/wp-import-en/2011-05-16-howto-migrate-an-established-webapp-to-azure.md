@@ -12,7 +12,7 @@ language: en
 
   
 
-<p><a href="{{BASE_PATH}}/assets/wp-images-en/image1109.png"><img style="background-image: none; border-right-width: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image1109" border="0" alt="image1109" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image1109_thumb.png" width="191" height="168" /></a>The Windows Azure platform exists for a long time till now but I never had the chance to migrate an established Web application to Azure. I try to document this step by step. The first step is really easy: build a WebApp package and enter SQLAzure (the easiest way).</p>  
+<p>The Windows Azure platform exists for a long time till now but I never had the chance to migrate an established Web application to Azure. I try to document this step by step. The first step is really easy: build a WebApp package and enter SQLAzure (the easiest way).</p>  
   
 
 
@@ -128,7 +128,7 @@ language: en
 
 <p><b>After the click on &quot;Run&quot;:</b></p>
 
-<p><a href="{{BASE_PATH}}/assets/wp-images-en/image159.png"><img style="background-image: none; border-right-width: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb67.png" width="179" height="240" /></a>Now the instance will start. This procedure will take 5 or 10 minutes. First there will be the init phase after this a short busy phase will start and then the icon will change into green for &quot;Ready&quot;. Now it works. If you did not make the changes like I told you before the WebApp won´t start and will be &quot;Busy&quot; for a long time before it stops. No pretty error message <img style="border-bottom-style: none; border-left-style: none; border-top-style: none; border-right-style: none" class="wlEmoticon wlEmoticon-sadsmile" alt="Trauriges Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-sadsmile.png" /></p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-en/image159.png"><img style="background-image: none; border-right-width: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb67.png" width="179" height="240" /></a>Now the instance will start. This procedure will take 5 or 10 minutes. First there will be the init phase after this a short busy phase will start and then the icon will change into green for &quot;Ready&quot;. Now it works. If you did not make the changes like I told you before the WebApp won´t start and will be &quot;Busy&quot; for a long time before it stops. No pretty error message :(</p>
 
 
 
