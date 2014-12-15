@@ -15,9 +15,11 @@ language: en
 
 <p><b>You convinced me. What do I need?</b></p>
 
-<ul>   <li>your own Facebook account</li>    <li>an API key (look at the registration)</li>    <li>in best case a library which will do most of the serious work</li>    <li>10 minutes of time</li> </ul>  <ul></ul>  <p><b>First step: get a Facebook account</b></p>  <p>Just register yourself <a href="http://www.facebook.com" target="_blank">here</a>.</p>  
+<ul>   <li>your own Facebook account</li>    <li>an API key (look at the registration)</li>    <li>in best case a library which will do most of the serious work</li>    <li>10 minutes of time</li> </ul>  <ul></ul>  <p><b>First step: get a Facebook account</b></p>
+<p>Just register yourself <a href="http://www.facebook.com" target="_blank">here</a>.</p>  
 
-<p><a href="{{BASE_PATH}}/assets/wp-images-de/image892.png"><img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb77.png" width="244" height="187" /></a></p>  <p>Not as hard as you thought, hum? ;)</p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image892.png"><img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb77.png" width="244" height="187" /></a></p>
+<p>Not as hard as you thought, hum? ;)</p>
 
 <p><b>Second step: register for the Facebook Connect / Facebook Development Account</b></p>
 
@@ -33,21 +35,26 @@ language: en
 
 <p>Here are the two most<strong> important API keys:</strong></p> 
 
-<p><a href="{{BASE_PATH}}/assets/wp-images-de/image896.png"><img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb81.png" width="489" height="105" /></a></p>  <p>Now you are able to see your application on the "<a href="http://www.facebook.com/developers/apps.php" target="_blank">Developer dashboard</a>". </p>  <p>That´s exactly where we have to go now. Here you will find all your former created applications. During the registration for the Connect service Facebook creates a "Base Domain" for you. That´s very useful if you are planning to use many different domains but it will not work with local host. So we need to edit the application:</p>  
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image896.png"><img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb81.png" width="489" height="105" /></a></p>
+<p>Now you are able to see your application on the "<a href="http://www.facebook.com/developers/apps.php" target="_blank">Developer dashboard</a>". </p>
+<p>That´s exactly where we have to go now. Here you will find all your former created applications. During the registration for the Connect service Facebook creates a "Base Domain" for you. That´s very useful if you are planning to use many different domains but it will not work with local host. So we need to edit the application:</p>  
 
 <p><a href="{{BASE_PATH}}/assets/wp-images-de/image897.png"><img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb82.png" width="480" height="375" /></a></p>  
 
-<p>Please delete the base domain in the connect tab.</p>  <p><a href="{{BASE_PATH}}/assets/wp-images-de/image898.png"><img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb83.png" width="588" height="194" /></a></p> 
+<p>Please delete the base domain in the connect tab.</p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-de/image898.png"><img style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb83.png" width="588" height="194" /></a></p> 
 
 <p>Now we are ready for developing. By the way, the fight with the base domain costs me 4 entire nights ;) </p>  
 
 <p><b>Step 3: create an ASP.NET MVC Project</b></p>  
 
-<p>Create a new ASP.NET MVC Project...</p>  <p><b>Step 4: Facebook Developer Toolkit </b></p>
+<p>Create a new ASP.NET MVC Project...</p>
+<p><b>Step 4: Facebook Developer Toolkit </b></p>
 
 <p>The <a href="http://www.codeplex.com/FacebookToolkit">Facebook Developer Toolkit</a> is a .NET OpenSource wrapper around the REST APIs from Facebook. Microsoft <a href="http://msdn.microsoft.com/en-us/windows/ee388574.aspx">supports this.</a> Unfortunately there are several other .NET APIs but for now this is the easiest way. </p> 
 
-<p>We need the <a href="http://facebooktoolkit.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=35534#DownloadId=91366">SDK Binaries</a> . </p>  <p>Now our project should look like this:</p> 
+<p>We need the <a href="http://facebooktoolkit.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=35534#DownloadId=91366">SDK Binaries</a> . </p>
+<p>Now our project should look like this:</p> 
 
 <p><a href="{{BASE_PATH}}/assets/wp-images-de/image899.png"><img style="border-right-width: 0px; margin: 0px 10px 0px 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb84.png" width="213" height="244" /></a></p>  
 

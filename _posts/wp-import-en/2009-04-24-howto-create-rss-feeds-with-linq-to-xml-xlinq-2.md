@@ -17,7 +17,8 @@ language: en
 
 <!--more-->
 <p><strong>Project structure:</strong></p>  
-<p><a href="{{BASE_PATH}}/assets/wp-images-en/image84.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="175" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb99.png" width="231" border="0" /></a> </p>  <p>To let the user know that we offer a RSS Feed we create the following markup in the head of our ASP.NET page:</p>
+<p><a href="{{BASE_PATH}}/assets/wp-images-en/image84.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="175" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb99.png" width="231" border="0" /></a> </p>
+<p>To let the user know that we offer a RSS Feed we create the following markup in the head of our ASP.NET page:</p>
 <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:50ae3ecc-c6dc-4b9c-80c9-38d5609d9613" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;head runat="server"&gt;
     &lt;title&gt;Untitled Page&lt;/title&gt;
     &lt;link rel="alternate" href="Rss.ashx" type="application/rss+xml" title="" id="rss" /&gt;

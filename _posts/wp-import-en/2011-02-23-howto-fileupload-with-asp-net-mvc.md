@@ -12,7 +12,8 @@ language: en
 
   <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb47.png" width="136" height="95" />In this HowTo I´m going to give you a short invitation how to implement a fileupload with ASP.NET MVC.</p>  
   
-  <p><strong></strong></p>  <!--more-->  <p><b>The Controller</b></p>  <p>On the controller-side we create an ActionMethod named "FileUpload":</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:eeae8ff0-79eb-4c11-95bf-645067d3aba9" class="wlWriterEditableSmartContent"><pre name="code" class="c#">        [AcceptVerbs(HttpVerbs.Post)]
+  <p><strong></strong></p>  <!--more-->  <p><b>The Controller</b></p>
+<p>On the controller-side we create an ActionMethod named "FileUpload":</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:eeae8ff0-79eb-4c11-95bf-645067d3aba9" class="wlWriterEditableSmartContent"><pre name="code" class="c#">        [AcceptVerbs(HttpVerbs.Post)]
         public ActionResult FileUpload(HttpPostedFileBase file)
         {
             ViewData["Message"] = file.FileName + " - " + file.ContentLength.ToString();
