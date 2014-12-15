@@ -78,7 +78,7 @@ language: en
 </div>
 
 
-<p>First we need to declare where the "selected" element should be mapped â†’ on TimeZone. Second we have the list with the probably results. In the last step you are able to pass some Html attributes.</p>
+<p>First we need to declare where the "selected" element should be mapped’ on TimeZone. Second we have the list with the probably results. In the last step you are able to pass some Html attributes.</p>
 
 <p><b>Result:</b></p>
 
