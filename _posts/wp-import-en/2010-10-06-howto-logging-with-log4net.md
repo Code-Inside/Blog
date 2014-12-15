@@ -91,7 +91,7 @@ language: en
 
 <p>I didn´t find any general rules but you should keep in mind that the sense of logging is to localise mistakes. So for example you could logout the parameter or "important calls from other services" and the output. With this it´s easier for you to get a feeling for the Code. </p>
 
-<p>Especially with the "DebugAppender" it´s kind of funny if you press a button and you can see how the request walks to the levels and logg out the values. Nerd paradise. J</p>
+<p>Especially with the "DebugAppender" it´s kind of funny if you press a button and you can see how the request walks to the levels and logg out the values. Nerd paradise.</p>
 
 
 
