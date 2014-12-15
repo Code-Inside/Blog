@@ -26,7 +26,10 @@ language: en
             ViewBag.MultilineSplitted = eachLine;
 
             return View("Index");
-        }</pre></div>
+        }
+</pre>
+</div>
+
 
 <p>View:</p>
 
@@ -46,7 +49,10 @@ language: en
         &lt;li&gt;@line&lt;/li&gt;
         }
     &lt;/ul&gt;
-}</pre></div>
+}
+</pre>
+</div>
+
 
 <p>Result:</p>
 

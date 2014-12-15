@@ -41,7 +41,10 @@ language: en
 	&lt;Target Name="RunTests"&gt;
 		&lt;Exec Command='"C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\mstest.exe" /testcontainer:"$(MSBuildStartupDirectory)\OutDir\MsBuildSample.WebApp.Tests.dll" /testcontainer:"$(MSBuildStartupDirectory)\OutDir\AnotherTestProject.dll"' /&gt;
 	&lt;/Target&gt;
-&lt;/Project&gt;</pre></div>
+&lt;/Project&gt;
+</pre>
+</div>
+
 
 <p>With the MSBuild command "<a href="http://msdn.microsoft.com/en-us/library/x8zx72cd.aspx">Exec</a>" I open the MSTest.exe with the <a href="http://msdn.microsoft.com/en-us/library/ms182489(VS.80).aspx">adequate parameter</a>. In this case the "testcontainer". Because we have to test-projects and both are loading into the OutDir as Assembly, we also need two testcontainer. Of course it´s possible to have numerous other tests.</p>
 
@@ -52,7 +55,10 @@ language: en
 
 <p>To make the call a little easier I saved it in a .bat file:</p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e2001e7c-3b8c-4f82-a3f7-076272233afc" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe Buildsolution.targets /t:Build,RunTests</pre></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e2001e7c-3b8c-4f82-a3f7-076272233afc" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe Buildsolution.targets /t:Build,RunTests
+</pre>
+</div>
+
 
 <p>With the "t" parameter I´m able to decide which target should be opened. First I call "Build" and then "RunTests". I see the main things in the output:</p>
 
@@ -65,7 +71,10 @@ language: en
 
 <p>Once you understand the basics of MSBuild you are able to call everything working with CMD. I just need to think about a better way how to integrate the Tests into the Buildfile. With many tests you are going to lose the overview with a line like this:</p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:089a6206-1300-45a3-944b-9d407f72fccb" class="wlWriterEditableSmartContent"><pre name="code" class="c#">&lt;Exec Command='"C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\mstest.exe" /testcontainer:"$(MSBuildStartupDirectory)\OutDir\MsBuildSample.WebApp.Tests.dll" /testcontainer:"$(MSBuildStartupDirectory)\OutDir\AnotherTestProject.dll"' /&gt;</pre></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:089a6206-1300-45a3-944b-9d407f72fccb" class="wlWriterEditableSmartContent"><pre name="code" class="c#">&lt;Exec Command='"C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\mstest.exe" /testcontainer:"$(MSBuildStartupDirectory)\OutDir\MsBuildSample.WebApp.Tests.dll" /testcontainer:"$(MSBuildStartupDirectory)\OutDir\AnotherTestProject.dll"' /&gt;
+</pre>
+</div>
+
 
 <p>If someone has a good idea, please let me now! <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile3.png" /></p>
 

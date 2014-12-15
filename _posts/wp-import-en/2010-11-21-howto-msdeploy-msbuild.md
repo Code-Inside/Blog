@@ -51,7 +51,10 @@ language: en
 	&lt;/Target&gt;
 
 &lt;/Project&gt;
- </pre></div>
+ 
+</pre>
+</div>
+
 
 <p>The most important thing is line 8. Here I call the package target. MSDeploy starts and automatically a Web.config transformation will be done. For property I give the PackageLocation and a help variable named "_PackageTempDir."</p>
 
@@ -78,7 +81,10 @@ language: en
       	PackageLocation=$(OutDir)\MSDeploy\Package.zip;
       	_PackageTempDir=C:\Temp\Web
 	&lt;/Properties&gt;
-&lt;/Solution&gt;</pre></div>
+&lt;/Solution&gt;
+</pre>
+</div>
+
 
 <p><b>Accomplish the Deployment</b></p>
 
@@ -86,7 +92,10 @@ language: en
 
 <p>An example for a call:</p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e43f9cea-7cbf-400a-adfc-09f05374f2d7" class="wlWriterEditableSmartContent"><pre name="code" class="c#">Package.deploy.cmd /Y /M:http://SERVER_NAME/MSDeployAgentService /U:USERDATEN /P:PASSWORT</pre></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e43f9cea-7cbf-400a-adfc-09f05374f2d7" class="wlWriterEditableSmartContent"><pre name="code" class="c#">Package.deploy.cmd /Y /M:http://SERVER_NAME/MSDeployAgentService /U:USERDATEN /P:PASSWORT
+</pre>
+</div>
+
 
 <p>Now they try to deploy the package on the defined IIS site on the Server "SERVER_NAME". With the switch /Y the deployment will be started. If you choose /T instead of /Y you are able to make a test - the files won´t be carried.</p>
 

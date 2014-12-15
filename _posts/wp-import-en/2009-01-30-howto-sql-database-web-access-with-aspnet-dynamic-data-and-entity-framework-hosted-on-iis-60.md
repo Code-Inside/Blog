@@ -28,7 +28,8 @@ language: en
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image44.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="217" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb48.png" width="244" border="0" /></a> </p>
 <p>In the next screen you have to establish the connection to your database. Use &quot;.\SQLExpress&quot; if you have a local running SQL Express Server and add everything you want:</p>
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image45.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="305" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb49.png" width="343" border="0" /></a> </p>
-<p><strong>Step 3: Setup Dynamic data with the datacontext      <br /></strong>This is the important step: Just add the datacontext to the DynamicData &quot;<a href="http://msdn.microsoft.com/de-de/library/system.web.dynamicdata.metamodel.aspx">MetaModel</a>&quot;, read the comments and paste your datacontext into the metamodel:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c13a7352-ff64-49e8-8080-12da11796598" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">MetaModel model = new MetaModel();
+<p><strong>Step 3: Setup Dynamic data with the datacontext      <br /></strong>This is the important step: Just add the datacontext to the DynamicData &quot;<a href="http://msdn.microsoft.com/de-de/library/system.web.dynamicdata.metamodel.aspx">MetaModel</a>&quot;, read the comments and paste your datacontext into the metamodel:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c13a7352-ff64-49e8-8080-12da11796598" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">MetaModel model = new MetaModel();
 
             //                    IMPORTANT: DATA MODEL REGISTRATION 
             // Uncomment this line to register LINQ to SQL classes or an ADO.NET Entity Data
@@ -41,7 +42,10 @@ language: en
             
             //--&gt; Code-Inside Change HERE! 
             model.RegisterContext(typeof(NorthwindEntities), new ContextConfiguration() { ScaffoldAllTables = true });
-</pre></div>
+
+</pre>
+</div>
+
 
 <p>NorthwindEntities is my datacontext and I set the &quot;ScaffoldAllTables&quot; to true. <strong>But be carefull with this setup</strong> - it allows anybody to create, read, update and delate everything on your model/database. Limit the access via configuration or (the easy way) the IIS settings.</p>
 

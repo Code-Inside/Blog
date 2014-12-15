@@ -33,7 +33,10 @@ language: en
             return View(ViewModel);
         }
 
-    }</pre></div>
+    }
+</pre>
+</div>
+
 
 <p>We are interested in the ControllerSessionState Attribute (Beware: I´ve heard that this will be renamed in the final so you need to look for it again <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile8.png" />)</p>
 

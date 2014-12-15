@@ -51,7 +51,10 @@ language: en
 		&lt;input type="text" autocomplete="off" id="search" value="Das ist der" size="60" name="q"&gt;
 	&lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre></div>
+&lt;/html&gt;
+</pre>
+</div>
+
 
 <p>Now I understand how the Masked Input jQuery Plugins work (I think so, doesn't tested it so far)</p>
 

@@ -16,7 +16,10 @@ language: en
   
 
 <p><b>Problem: AJAX Actionlink delivers new sides back </b></p>
-<p>We have a standard MVC 3 Web Project and the following lines should create a link which is able to reload a view via AJAX and put it into the "Result":</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e32c2996-41f4-4d3a-b9e5-25b5982c120d" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    @Ajax.ActionLink("Foobar load", "Foobar", "Home", new AjaxOptions() { HttpMethod = "Get", UpdateTargetId = "Result" })</pre></div>
+<p>We have a standard MVC 3 Web Project and the following lines should create a link which is able to reload a view via AJAX and put it into the "Result":</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e32c2996-41f4-4d3a-b9e5-25b5982c120d" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    @Ajax.ActionLink("Foobar load", "Foobar", "Home", new AjaxOptions() { HttpMethod = "Get", UpdateTargetId = "Result" })
+</pre>
+</div>
+
 
 <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb422.png" width="350" height="105" /></p>
 
@@ -42,7 +45,10 @@ language: en
     &lt;script src="@Url.Content("~/Scripts/jquery-1.4.4.min.js")" type="text/javascript"&gt;&lt;/script&gt;
     &lt;script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")" type="text/javascript"&gt;&lt;/script&gt;
 &lt;/head&gt;
-...</pre></div>
+...
+</pre>
+</div>
+
 
 <p>Take a look into the HTML and you will find a little surprise!</p>
 
@@ -53,7 +59,10 @@ language: en
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:86558738-46ee-4bfb-bba7-dc23a3bd0c6d" class="wlWriterEditableSmartContent"><pre name="code" class="c#">  &lt;appSettings&gt;
     &lt;add key="ClientValidationEnabled" value="true"/&gt;
     &lt;add key="UnobtrusiveJavaScriptEnabled" value="true"/&gt;
-  &lt;/appSettings&gt;</pre></div>
+  &lt;/appSettings&gt;
+</pre>
+</div>
+
 
 <p><b>Unobtrusive Javascript? What?</b></p>
 
@@ -82,7 +91,10 @@ language: en
         $('#AjaxTestDiv').load(this.href);
         return false;
     });
-});</pre></div>
+});
+</pre>
+</div>
+
 
 <p>Like always a great help: <a href="http://stackoverflow.com/questions/4973605/ajax-actionlink-not-working-response-isajaxrequest-is-always-false">Stackoverflow</a> <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile11.png" /></p>
 

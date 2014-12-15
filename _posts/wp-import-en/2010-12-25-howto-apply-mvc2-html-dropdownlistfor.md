@@ -36,7 +36,10 @@ language: en
                 });
         }
     }
-}</pre></div>
+}
+</pre>
+</div>
+
 
 <p><b>Controller:</b></p>
 
@@ -52,7 +55,10 @@ language: en
     {
         return View(model);
     }
-}</pre></div>
+}
+</pre>
+</div>
+
 
 <p>Noting special, isn't it?</p>
 
@@ -67,7 +73,10 @@ language: en
     &lt;input type="submit" value="Select timezone" /&gt;
 &lt;% } %&gt;
 
-&lt;div&gt;&lt;%= Html.Encode(Model.TimeZone) %&gt;&lt;/div&gt;</pre></div>
+&lt;div&gt;&lt;%= Html.Encode(Model.TimeZone) %&gt;&lt;/div&gt;
+</pre>
+</div>
+
 
 <p>First we need to declare where the "selected" element should be mapped â†’ on TimeZone. Second we have the list with the probably results. In the last step you are able to pass some Html attributes.</p>
 

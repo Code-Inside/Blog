@@ -56,7 +56,10 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-</pre></div>
+
+</pre>
+</div>
+
 
 <p><b>Redundancy... everywhere!!</b></p>
 
@@ -91,7 +94,10 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-</pre></div>
+
+</pre>
+</div>
+
 
 <p>3. Remove "global" tings from the original Assemblyinfo. For example: this is how my Assemblyinfo from the service DLL looks like:</p>
 
@@ -102,7 +108,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("AssemblyInfoKeepItDry.Service")]
 [assembly: AssemblyDescription("")]
 [assembly: Guid("ee7c20b8-30dc-4143-bf9c-59f2d53acd85")]
-</pre></div>
+
+</pre>
+</div>
+
 
 <p>4. link the "GlobalAssembly" with "Add Existing Item" and navigate to the file. Press "Add a Link"!!! (otherwise a copy will be created and that´s not what we want)</p>
 

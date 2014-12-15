@@ -22,7 +22,10 @@ language: en
         {
             ViewData["Message"] = file.FileName + " - " + file.ContentLength.ToString();
             return View("Index");
-        }</pre></div>
+        }
+</pre>
+</div>
+
 
 <p><a href="http://msdn.microsoft.com/en-us/library/system.web.httppostedfilebase.aspx">HttpPostedFileBase</a> is an abstract basic-class and has the same characteristics like <a href="http://msdn.microsoft.com/en-us/library/system.web.httppostedfile.aspx">HttpPostedFile</a>. That´s because you are able to make this with a UnitTest as well and create your own deductions from the abstract basic-class.</p>
 
@@ -44,7 +47,10 @@ language: en
                                new {enctype = "multipart/form-data"})) { %&gt;
         &lt;input type="file" name="file" id="file" /&gt;
         &lt;input type="submit" name="submit" value="Submit" /&gt;
-        &lt;% } %&gt;</pre></div>
+        &lt;% } %&gt;
+</pre>
+</div>
+
 
 <p>Simple and fast <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-smile" alt="Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-smile4.png" />&#160;</p>
 

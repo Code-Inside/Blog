@@ -22,7 +22,10 @@ language: en
     public int Foo { get; set; }
 
     public List&lt;Foobar&gt; Children { get; set; }
-}</pre></div>
+}
+</pre>
+</div>
+
 
 
 
@@ -42,7 +45,10 @@ language: en
 {
 	return View("Index");
 }
-</pre></div>
+
+</pre>
+</div>
+
 I present you three different models of how to integrate complex objects into this method. 
 
 
@@ -103,7 +109,10 @@ I present you three different models of how to integrate complex objects into th
         data: $("form").serializeArray()
     });
 
-});</pre></div>
+});
+</pre>
+</div>
+
 
 <p>I grab the Click-Event of one button and get all the information’s via “serializeArray()”. We are going to take another look at the transmission. It’s important that there are only form files as Content-Type not JSON:</p>
 
@@ -136,7 +145,10 @@ I present you three different models of how to integrate complex objects into th
         data: JSON.stringify(requestData)
     });
 
-});</pre></div>
+});
+</pre>
+</div>
+
 
 <p>First we create an Array in Javascript:</p>
 

@@ -35,7 +35,10 @@ language: en
 <p><b>What happens if there are any kinds of problems on Google/Microsoft/jQuery CDN?</b></p>  
 
 <p>Hm... In my opinion you shouldn´t be scared that one of the CDNs will go down but maybe there could be a problem reaching the CDN. Because of this I recommend you to create your own Backup and link it in emergency cases:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:082465c2-6699-46ca-a086-1095a41e23fd" class="wlWriterEditableSmartContent"><pre name="code" class="c#">&lt;script src="//code.jquery.com/jquery-1.4.4.min.js"&gt;&lt;/script&gt;
-&lt;script&gt;!window.jQuery &amp;&amp; document.write(unescape('%3Cscript src="LOKALER_JQUERY_PFAD"%3E%3C/script%3E'))&lt;/script&gt;</pre></div>
+&lt;script&gt;!window.jQuery &amp;&amp; document.write(unescape('%3Cscript src="LOKALER_JQUERY_PFAD"%3E%3C/script%3E'))&lt;/script&gt;
+</pre>
+</div>
+
 
 <p>Instead of "LOKALER_JQUERY_PFAD" you easily enter your own pad. In line one CDN jQuery is linked by jQuery. Little hint: If we talk about a HTTP side <a href="http://code.jquery">http://code.jquery</a>.... Will be used. But HTTPS sides are called https:// ... . That´s because of this "//" Syntax. </p>
 

@@ -11,7 +11,8 @@ language: en
 {% include JB/setup %}
 <p>The &quot;pre-&quot; preview 3 of the MVC Framework (<a href="{{BASE_PATH}}/2008/04/17/aspnet-mvc-april-codeplex-source-push/">see here for more information</a>) introduced new features for the ActionFilter.</p>
 <p>The &quot;FilterExecutingContext&quot; (using in the OnActionExecuted method) and &quot;FilterExecutedContext&quot; (using in the OnActionExecuting method) are now called &quot;ActionEx...Context&quot;.</p>
-<p>This is the complete method list from an ActionFilter in this pre-preview:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a8515567-54a8-4a50-93fe-626175cf3f8e" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">        public override void OnActionExecuting(ActionExecutingContext filterContext)
+<p>This is the complete method list from an ActionFilter in this pre-preview:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a8515567-54a8-4a50-93fe-626175cf3f8e" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">        public override void OnActionExecuting(ActionExecutingContext filterContext)
         {
             ActionExecutingContext contect = filterContext;
             string test = contect.ActionMethod.ToString();
@@ -34,7 +35,10 @@ language: en
         {
             ResultExecutedContext context = filterContext;
             string test = context.ToString();
-        }</pre></div>
+        }
+</pre>
+</div>
+
 
 <p>A great new feature: You have access to the viewdata form the...</p>
 
@@ -54,7 +58,8 @@ language: en
 
 <p>The &quot;simple log FilterAction&quot;:</p>
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:5b0b7acf-4108-4220-b61f-f2e14ac8eb9f" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">namespace Mvc2.Filters
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:5b0b7acf-4108-4220-b61f-f2e14ac8eb9f" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">namespace Mvc2.Filters
 {
     public class LogAttribute : ActionFilterAttribute
     {
@@ -79,19 +84,27 @@ language: en
         }
 
     }
-}</pre></div>
+}
+</pre>
+</div>
+
 
 <p>And now just add the attribute above the Controller:</p>
 
 <p>
-  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:0a74a792-ef0b-4252-a6db-b510a98a35c9" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">[Log]
+  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:0a74a792-ef0b-4252-a6db-b510a98a35c9" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">[Log]
 public class EntryController : Controller
-{...}</pre></div>
+{...}
+</pre>
+</div>
+
 </p>
 
 <p>The result in the log.txt:</p>
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:157f822e-b64b-4c41-b81a-b134f7cf4f7f" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">2008-04-17 20:41:02,204 [10] INFO  LogAttribute [(null)] - List
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:157f822e-b64b-4c41-b81a-b134f7cf4f7f" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">2008-04-17 20:41:02,204 [10] INFO  LogAttribute [(null)] - List
 ActionResult: RenderViewResult
 
 [ObjectToDump] AS Mvc2.Views.Entry.ListViewData = Mvc2.Views.Entry.ListViewData
@@ -124,7 +137,10 @@ ActionResult: RenderViewResult
 |||+_Link AS System.String = http://.../
 |||+_Description AS System.String = Blabla
 |||+_CategoryId AS System.Guid = 16d09b0a-2157-43b7-a881-b536e90f7fbf
-...</pre></div>
+...
+</pre>
+</div>
+
 
 <p>This is not the perfect solution - but it should show the &quot;power&quot; of the new ActionFilters.</p>
 

@@ -44,7 +44,10 @@ language: en
       &lt;appender-ref ref="ConsoleAppender" /&gt;
     &lt;/root&gt;
   &lt;/log4net&gt;
-&lt;/configuration&gt;</pre></div>
+&lt;/configuration&gt;
+</pre>
+</div>
+
 
 
 
@@ -73,7 +76,10 @@ language: en
 
             Console.ReadLine();
         }
-    }</pre></div>
+    }
+</pre>
+</div>
+
 
 <p>In Line 5 we dispose Log4Net to check the XML config and than we get our Logger. The Logger has a method for every "Log Level".</p>
 

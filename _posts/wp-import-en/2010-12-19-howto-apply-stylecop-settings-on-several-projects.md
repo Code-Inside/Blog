@@ -34,7 +34,10 @@ language: en
     &lt;StringProperty Name="LinkedSettingsFile"&gt;..\Settings.StyleCop&lt;/StringProperty&gt;
     &lt;StringProperty Name="MergeSettingsFiles"&gt;Linked&lt;/StringProperty&gt;
   &lt;/GlobalSettings&gt;
-&lt;/StyleCopSettings&gt;</pre></div>
+&lt;/StyleCopSettings&gt;
+</pre>
+</div>
+
 
 <p><b>Repeat this in every project....</b></p>
 
@@ -67,7 +70,10 @@ language: en
   &lt;Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" /&gt;
   &lt;Import Project="..\Lib\Microsoft.StyleCop.targets"/&gt;
   ...
-&lt;/Project&gt;</pre></div>
+&lt;/Project&gt;
+</pre>
+</div>
+
 
 <p>The second import statement is responsible for the activation of StyleCop. Also the position is important. After I wrote the import statement into the first line, there was no result visible.</p>
 

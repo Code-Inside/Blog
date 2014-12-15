@@ -26,7 +26,10 @@ language: en
          &lt;/Task&gt;
       &lt;/Startup&gt;
    &lt;/WebRole&gt;
-&lt;/ServiceDefinition&gt;</pre></div>
+&lt;/ServiceDefinition&gt;
+</pre>
+</div>
+
 
 <p>Because the Startup Task calls a simple CMD you can do almost everything on it. <a href="http://things.smarx.com/">Steven Marx has created a cool website</a> where he collects many interesting things about what you can do with Aure:</p>
 
@@ -44,7 +47,10 @@ msiexec /i python-2.7.1.msi /qn TARGETDIR="%PYTHONPATH%" /log installPython.log
 
 echo y| cacls %PYTHONPATH% /t /grant everyone:f
 
-exit /b 0</pre></div>
+exit /b 0
+</pre>
+</div>
+
 
 <p>The trick is to deploy the installation Medias into the Azure Instance and to install it while starting the service like in this case of Node.js:</p>
 
@@ -58,7 +64,10 @@ exit /b 0</pre></div>
         UseShellExecute = false,
         WorkingDirectory = RoleEnvironment.GetLocalResource("Executables").RootPath
     }
-};</pre></div>
+};
+</pre>
+</div>
+
 
 <p><b>Advantages of this method</b></p>
 

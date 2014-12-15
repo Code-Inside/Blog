@@ -16,7 +16,8 @@ language: en
 <p>But if you try to add a dynamic control (a dynamic menu, news-ticker, overviews...) on a master page you have a problem: A master page has no real controller itself (maybe a master page could have a controller - but for this problem there is a very easy way to do this).</p>
 <p><strong>The CTP 2 includes a special controller - the &quot;ComponentController&quot;:</strong></p>
 <p>I use the &quot;ComponentController&quot; in my demo app to display the whole category list and the tagcloud.</p>
-<p>My &quot;EntrySideBarController&quot; inherit from &quot;ComponentController&quot;</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:2071a403-8ba7-4f19-86ac-ba9166e7676b" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">    public class EntrySidebarController : ComponentController
+<p>My &quot;EntrySideBarController&quot; inherit from &quot;ComponentController&quot;</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:2071a403-8ba7-4f19-86ac-ba9166e7676b" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">    public class EntrySidebarController : ComponentController
     {
         public void CategoryList()
         {
@@ -29,7 +30,10 @@ language: en
             ... viewdata = ...
             RenderView("TagCloud", viewData);
         }
-    }</pre></div>
+    }
+</pre>
+</div>
+
 
 <p>The views &quot;CategoryList&quot; &amp; &quot;TagCloud&quot; are located in a special folder (root\Components\CONTROLLERNAME\Views\VIEWNAME):</p>
 
@@ -37,8 +41,12 @@ language: en
 
 <p>To render these components just use the &quot;Html.RenderComponent&quot; method (is similar to a usercontrol) :</p>
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e3d7bcb9-5b32-4c74-a210-1c293e069830" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">    &lt;%=Html.RenderComponent&lt;EntrySidebarController&gt;(component =&gt; component.CategoryList())%&gt;
-    &lt;%=Html.RenderComponent&lt;EntrySidebarController&gt;(component =&gt; component.TagCloud())%&gt;</pre></div>
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:e3d7bcb9-5b32-4c74-a210-1c293e069830" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">    &lt;%=Html.RenderComponent&lt;EntrySidebarController&gt;(component =&gt; component.CategoryList())%&gt;
+    &lt;%=Html.RenderComponent&lt;EntrySidebarController&gt;(component =&gt; component.TagCloud())%&gt;
+</pre>
+</div>
+
 
 <p>Result:</p>
 

@@ -19,14 +19,20 @@ language: en
 <p>With a double click on the .SLN these exe will be opened:</p>  
   
   <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:77ccb5e2-c103-42d3-a3c7-a4ed12049c81" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\Program Files (x86)\Common Files\microsoft shared\MSEnv\VSLauncher.exe
-</pre></div>
+
+</pre>
+</div>
+
 
 
 
 
 <p>You will find the normal exe file here:</p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:867416fd-76b7-4090-a6fc-a8cbf1036169" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\devenv.exe</pre></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:867416fd-76b7-4090-a6fc-a8cbf1036169" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\devenv.exe
+</pre>
+</div>
+
 
 <p>Make these calibrations on both files. Without changing the UAC you will still have the "warning dialog" - otherwise you will be reminded every tame to start VS as an admin and you must not search for "run program as administrator". </p>
 

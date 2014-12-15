@@ -12,10 +12,14 @@ language: en
 <p>It&#180;s really easy to create XML with LINQ to XML - you can find <a href="{{BASE_PATH}}/2008/02/28/howto-linq-to-xml-daten-schreiben/">a HowTo on my german blog</a>.     <br />Now we&#180;ll try to create an RSS Feed with XLINQ</p>
 <p><strong>My Projectfiles:</strong></p>
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image27.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="171" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb27.png" width="227" border="0" /></a> </p>
-<p>The &quot;Rss.ashx&quot; will create your RSS. At first I want to make sure, that my site-visitors detect my nice RSS Feed automatically:    <br /></p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c0c0a456-a1a6-4592-8a52-4ee9d7e0de23" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;head runat="server"&gt;
+<p>The &quot;Rss.ashx&quot; will create your RSS. At first I want to make sure, that my site-visitors detect my nice RSS Feed automatically:    <br /></p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c0c0a456-a1a6-4592-8a52-4ee9d7e0de23" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">&lt;head runat="server"&gt;
     &lt;title&gt;Untitled Page&lt;/title&gt;
     &lt;link rel="alternate" href="Rss.ashx" type="application/rss+xml" title="" id="rss" /&gt;
-&lt;/head&gt;</pre></div>
+&lt;/head&gt;
+</pre>
+</div>
+
 
 
 
@@ -29,7 +33,8 @@ language: en
 
 
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:d1392f9b-f8ff-47ee-840a-e012854da8ce" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">        public void ProcessRequest(HttpContext context)
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:d1392f9b-f8ff-47ee-840a-e012854da8ce" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">        public void ProcessRequest(HttpContext context)
         {
 
             XDocument document = new XDocument(
@@ -42,7 +47,10 @@ language: en
             context.Response.ContentType = "text/xml";
             document.Save(context.Response.Output);
             context.Response.End();
-        }</pre></div>
+        }
+</pre>
+</div>
+
 
 
 
@@ -56,7 +64,8 @@ language: en
 
 
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:7dd90de0-4ead-49a7-8870-9405b21dbccb" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">private IEnumerable&lt;XElement&gt; CreateElements()
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:7dd90de0-4ead-49a7-8870-9405b21dbccb" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">private IEnumerable&lt;XElement&gt; CreateElements()
         {
             List&lt;XElement&gt; list = new List&lt;XElement&gt;();
 
@@ -70,7 +79,10 @@ language: en
             }
 
             return list;
-        }</pre></div>
+        }
+</pre>
+</div>
+
 
 
 

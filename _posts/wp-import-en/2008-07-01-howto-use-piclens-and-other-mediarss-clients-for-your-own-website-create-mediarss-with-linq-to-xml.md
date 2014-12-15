@@ -17,7 +17,8 @@ language: en
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image30.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="184" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb30.png" width="244" border="0" /></a></p>
 <p><strong>Media RSS      <br /></strong>The Piclens guys have implemented the &quot;MediaRSS&quot; standard - that means: Each site with an MediaRSS can be viewed in Piclens.&#160; <br /><a href="http://piclens.com/lite/webmasterguide.php">If you are a webmaster, you should take a look at this site.</a> We created in the last post an RSS feed with XLinq - MediaRSS shouldn&#180;t be much harder to code:</p>
 <p><strong>XLINQ</strong></p>
-<p>We have the same project files - only the RSS generation must be changed:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:8bd12e9a-8777-497b-8b4f-6468ea26fc9b" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">        XNamespace media = "http://search.yahoo.com/mrss";
+<p>We have the same project files - only the RSS generation must be changed:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:8bd12e9a-8777-497b-8b4f-6468ea26fc9b" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">        XNamespace media = "http://search.yahoo.com/mrss";
         XNamespace atom = "http://www.w3.org/2005/Atom";
         public void ProcessRequest(HttpContext context)
         {
@@ -55,14 +56,21 @@ language: en
             }
 
             return list;
-        }</pre></div>
+        }
+</pre>
+</div>
+
 
 <p>This time we need 2 <a href="http://msdn.microsoft.com/en-us/library/system.xml.linq.xnamespace.aspx">XNamespaces</a> - &quot;media&quot; and &quot;atom&quot; are need to create a valid MediaRSS:</p>
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:3a887256-5386-4b19-9bf9-01932c870343" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;?xml version="1.0" encoding="utf-8" standalone="yes"?&gt;
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:3a887256-5386-4b19-9bf9-01932c870343" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">&lt;?xml version="1.0" encoding="utf-8" standalone="yes"?&gt;
 &lt;rss version="2.0" xmlns:media="http://search.yahoo.com/mrss" xmlns:atom="http://www.w3.org/2005/Atom"&gt;
 ...
-&lt;/rss&gt;</pre></div>
+&lt;/rss&gt;
+</pre>
+</div>
+
 
 <p>These namespaces must be added by using the <a href="http://msdn.microsoft.com/en-us/library/system.xml.linq.xattribute.aspx">XAttribute</a> class. The syntax is in my point of view a bit to complex, but I didn&#180;t&#160; find a better way.&#160; <br />
 

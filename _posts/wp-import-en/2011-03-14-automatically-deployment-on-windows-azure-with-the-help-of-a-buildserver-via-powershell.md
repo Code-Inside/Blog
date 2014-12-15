@@ -43,13 +43,19 @@ language: en
 <p><u></u></p>
 <p><u>Installation of Azure Management Cmdlets</u></p>
 <p><u></u></p>
-<p>It´s possible that there are some problems appearing during the installation. The installation routine is used to check the Azure SDK Version quite strict. After the last security update the version number has been increased. But it´s possible to adjust the check in this file:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:bbac6a97-e3af-443e-af1a-5659829b88a6" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\WASMCmdlets\setup\scripts\dependencies\check\CheckAzureSDK.ps1</pre></div>
+<p>It´s possible that there are some problems appearing during the installation. The installation routine is used to check the Azure SDK Version quite strict. After the last security update the version number has been increased. But it´s possible to adjust the check in this file:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:bbac6a97-e3af-443e-af1a-5659829b88a6" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\WASMCmdlets\setup\scripts\dependencies\check\CheckAzureSDK.ps1
+</pre>
+</div>
+
 
 <p>Here are two lines with the exact SDK version:</p>
 
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:145c16de-af6a-449a-8e02-9a9e153ec447" class="wlWriterEditableSmartContent"><pre name="code" class="c#">$res1 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.20121.1237' -UninstallKey 'HKLM:SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\';
 $res2 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.20121.1237' -UninstallKey 'HKLM:SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\';
-</pre></div>
+
+</pre>
+</div>
+
 
 <p>With every security update the version number changes - for me, I entered the Version "1.3.20121.1237" manual. It works, at least for me and the installer runs successfully after that. </p>
 
@@ -88,7 +94,10 @@ $res2 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.2012
 
 <p>An other way to create the certificate "<a href="http://msdn.microsoft.com/en-us/library/bfsktky3(v=vs.80).aspx">makecert</a>":</p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:9b0d363a-3cd2-40f0-895c-67e825f30bea" class="wlWriterEditableSmartContent"><pre name="code" class="c#">makecert -r -pe -a sha1 -n "CN=Windows Azure Authentication Certificate" -ss My -len 2048 -sp "Microsoft Enhanced RSA and AES Cryptographic Provider" -sy 24 testcert.cer</pre></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:9b0d363a-3cd2-40f0-895c-67e825f30bea" class="wlWriterEditableSmartContent"><pre name="code" class="c#">makecert -r -pe -a sha1 -n "CN=Windows Azure Authentication Certificate" -ss My -len 2048 -sp "Microsoft Enhanced RSA and AES Cryptographic Provider" -sy 24 testcert.cer
+</pre>
+</div>
+
 
 <p>In Windows the tool is located at: SDK: C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin</p>
 
@@ -113,7 +122,10 @@ $res2 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.2012
 
 <p>In this step the MSBuild script should be opened and you will find it here: </p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:24f6b2b0-f2d9-405b-addb-aef870e0dff4" class="wlWriterEditableSmartContent"><pre name="code" class="c#">%system.teamcity.build.checkoutDir%\Main\Build\CommonBuildSteps.targets</pre></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:24f6b2b0-f2d9-405b-addb-aef870e0dff4" class="wlWriterEditableSmartContent"><pre name="code" class="c#">%system.teamcity.build.checkoutDir%\Main\Build\CommonBuildSteps.targets
+</pre>
+</div>
+
 
 <p>In <a href="http://businessbingo.codeplex.com/">TFS</a> it´s here:</p>
 
@@ -133,7 +145,10 @@ $res2 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.2012
 
 <p>The parameter looks like that:</p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:be6bcf64-9539-406f-8f33-8bfed4447444" class="wlWriterEditableSmartContent"><pre name="code" class="c#">/p:AzureSubKey="83-SUB-KEY-9812" /p:AzureCertPath="cert:\LocalMachine\my\XXXXXXXXX"</pre></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:be6bcf64-9539-406f-8f33-8bfed4447444" class="wlWriterEditableSmartContent"><pre name="code" class="c#">/p:AzureSubKey="83-SUB-KEY-9812" /p:AzureCertPath="cert:\LocalMachine\my\XXXXXXXXX"
+</pre>
+</div>
+
 
 <p><b>"PrepareAzureDeployment" MsBuild Target</b></p>
 
@@ -168,13 +183,19 @@ $res2 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.2012
 
     &lt;Exec Command="powershell .\Azure_SwapToProduction.ps1 -certPath '$(AzureCertPath)' -subKey '$(AzureSubKey)'" /&gt;
 
-  &lt;/Target&gt;</pre></div>
+  &lt;/Target&gt;
+</pre>
+</div>
+
 
 <p>To build the Azure package I call the fitting MSBuild Target in the Azue project. Here I navigate with the help of "$(MSBuildStartupDirectory)" (therefore the WorkingDirectory in TeamCity) and call "CorePublish" with the accordingly configurations.</p>
 
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:6a001616-100f-47af-bfcf-44253f4e0269" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    &lt;MSBuild Projects="$(MSBuildStartupDirectory)\..\Source\BusinessBingo\Hosts\BusinessBingo.Hosts.Azure.Web\BusinessBingo.Hosts.Azure.Web.ccproj"
              Targets="CorePublish"
-             Properties="Configuration=Release"/&gt;</pre></div>
+             Properties="Configuration=Release"/&gt;
+</pre>
+</div>
+
 
 <p>"BusinessBingo.Hosts.Azure.Web" is a normal azure project which has ASP.NET MVC App as WebRole:</p>
 
@@ -193,7 +214,10 @@ $res2 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.2012
 
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:8696c0c9-4370-4f3d-b172-4cc33b92eab6" class="wlWriterEditableSmartContent"><pre name="code" class="c#">    &lt;Message Text="Deploy To Staging on Azure" /&gt;
 
-    &lt;Exec Command="powershell .\Azure_DeployToStaging.ps1 -certPath '$(AzureCertPath)' -subKey '$(AzureSubKey)'" /&gt;</pre></div>
+    &lt;Exec Command="powershell .\Azure_DeployToStaging.ps1 -certPath '$(AzureCertPath)' -subKey '$(AzureSubKey)'" /&gt;
+</pre>
+</div>
+
 
 <p>Side note: Because of MSBuild runs in the x64 bit modus Powershell is used to be called in the same mode. </p>
 
@@ -222,7 +246,10 @@ $res2 = SearchUninstall -SearchFor 'Windows Azure SDK*' -SearchVersion '1.3.2012
 
 <p>Like I´ve already written the certificate needs to be uploaded on azure too. That´s what it could look like without adding it as a parameter:</p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:46619406-6312-44f7-90b6-95fc3ea4799f" class="wlWriterEditableSmartContent"><pre name="code" class="c#">$cert = Get-Item  cert:\CurrentUser\my\xxxxxxx</pre></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:46619406-6312-44f7-90b6-95fc3ea4799f" class="wlWriterEditableSmartContent"><pre name="code" class="c#">$cert = Get-Item  cert:\CurrentUser\my\xxxxxxx
+</pre>
+</div>
+
 
 <p>It´s possible to take a look on the certificate store in two ways:</p>
 
@@ -302,7 +329,10 @@ Get-HostedService $servicename -Certificate $cert -SubscriptionId $sub |
 Get-HostedService $servicename -Certificate $cert -SubscriptionId $sub |
     Get-Deployment -Slot Staging |
     Set-DeploymentStatus 'Running' |
-    Get-OperationStatus -WaitToComplete</pre></div>
+    Get-OperationStatus -WaitToComplete
+</pre>
+</div>
+
 
 
 
@@ -326,7 +356,10 @@ Get-HostedService $servicename -Certificate $cert -SubscriptionId $sub |
     &lt;Sleep Seconds="400" /&gt;
 
     &lt;Message Text="Swap To Production on Azure" /&gt;
-    &lt;Exec Command="powershell .\Azure_SwapToProduction.ps1 -certPath '$(AzureCertPath)' -subKey '$(AzureSubKey)'" /&gt;</pre></div>
+    &lt;Exec Command="powershell .\Azure_SwapToProduction.ps1 -certPath '$(AzureCertPath)' -subKey '$(AzureSubKey)'" /&gt;
+</pre>
+</div>
+
 
 <p>In Line 1 the built package will be deployed on the staging surrounding. Now the workaround starts: To switch from "Staging" to "Production" the staging needs to be booted up completely because otherwise you will have an ugly downtime on the "Production". So I wait for 400 seconds. That´s the time the azure project needs to initialize and start. The task is from the <a href="http://msbuildtasks.tigris.org/">MSBuild community task project</a>. Now the started staging surroundings will be "swapt" to the production. </p>
 
@@ -363,7 +396,10 @@ Get-HostedService $servicename -Certificate $cert -SubscriptionId $sub |
 Get-HostedService $servicename -Certificate $cert -SubscriptionId $sub |
     Get-Deployment -Slot 'Staging' |
     Remove-Deployment |
-    Get-OperationStatus -WaitToComplete</pre></div>
+    Get-OperationStatus -WaitToComplete
+</pre>
+</div>
+
 
 <p><b>That´s it</b></p>
 

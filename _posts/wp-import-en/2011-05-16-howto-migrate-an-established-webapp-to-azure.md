@@ -57,7 +57,10 @@ language: en
     &lt;Instances count="1" /&gt;
     &lt;ConfigurationSettings /&gt;
   &lt;/Role&gt;
-&lt;/ServiceConfiguration&gt;</pre></div>
+&lt;/ServiceConfiguration&gt;
+</pre>
+</div>
+
 
 <p>My ServiceDefinition.csdef</p>
 
@@ -69,7 +72,10 @@ language: en
     &lt;/InputEndpoints&gt;
     &lt;ConfigurationSettings /&gt;
   &lt;/WebRole&gt;
-&lt;/ServiceDefinition&gt;</pre></div>
+&lt;/ServiceDefinition&gt;
+</pre>
+</div>
+
 
 <p>Both &quot;ConfigurationSettings&quot; are empty. Otherwise our project won´t run in the Cloud.</p>
 

@@ -16,7 +16,10 @@ language: en
 }
 h2 {
   color: @color;
-}</pre></div>
+}
+</pre>
+</div>
+
 
 <p>Of course the browsers only understand the usual CSS Syntax so .LESS needs to translate the Stylesheet. For this we have several solutions. </p>
 
@@ -71,7 +74,10 @@ h2 {
       &lt;resource path="~/content/Less.css" /&gt;
     &lt;/resourceSet&gt;
   &lt;/resourceSets&gt;
-&lt;/combres&gt;</pre></div>
+&lt;/combres&gt;
+</pre>
+</div>
+
 
 <p>In the Layout Master only the Combress HTML Helper will be used:</p>
 
@@ -82,7 +88,10 @@ h2 {
 &lt;head&gt;
 	...
     @Html.CombresLink("siteCss")
-	...</pre></div>
+	...
+</pre>
+</div>
+
 
 <p>In the end, the result will look like this – doesn’t matter which method you have chosen. The only difference is the moment you choose for the transformation – even if in my opinion the Javascript method is adventurous <img style="border-bottom-style: none; border-left-style: none; border-top-style: none; border-right-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile21.png" /></p>
 
@@ -109,7 +118,10 @@ h2 {
 }
 h2 {
   color: @color;
-}</pre></div>
+}
+</pre>
+</div>
+
 
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:ef63f6ca-5c7c-4b22-af5c-6624cf64ba7c" class="wlWriterEditableSmartContent"><pre name="code" class="c#">/* Compiled CSS */
 
@@ -118,4 +130,7 @@ h2 {
 }
 h2 {
   color: #4D926F;
-}</pre></div>
+}
+</pre>
+</div>
+

@@ -15,17 +15,22 @@ language: en
 <p><strong>Hello World! Hallo Welt! Hello MEF! - Preparation</strong></p>
 <p>Projectstructure:</p>
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image34.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="244" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image-thumb36.png" width="175" border="0" /></a> </p>
-<p>We have a simple service interface called &quot;<strong>IHelloService</strong>&quot;:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c35ef68e-5110-43bd-89a1-248e08f1f4bf" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">    public interface IHelloService
+<p>We have a simple service interface called &quot;<strong>IHelloService</strong>&quot;:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c35ef68e-5110-43bd-89a1-248e08f1f4bf" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">    public interface IHelloService
     {
         string GetHelloMessage();
-    }</pre></div>
+    }
+</pre>
+</div>
+
 
 <p>In the <strong>HelloMEF.English / German</strong> Project we have the following code:</p>
 
 
 
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:8d26e9f4-6f61-43b9-bc28-ebfeb8900caf" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">using System;
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:8d26e9f4-6f61-43b9-bc28-ebfeb8900caf" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -43,7 +48,10 @@ namespace HelloMEF.English
         }
     }
 }
-</pre></div>
+
+</pre>
+</div>
+
 
 <br />Important for MEF is the &quot;Export&quot; attribut from the &quot;System.ComponentModel.Composite&quot; (MEF) Namespace. 
 
@@ -62,7 +70,8 @@ namespace HelloMEF.English
 
 <p><strong>HelloMEF.App - HelloProgram:</strong></p>
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:553daee2-d550-4c33-8330-dba2470b15ec" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">    public class HelloProgram
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:553daee2-d550-4c33-8330-dba2470b15ec" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">    public class HelloProgram
     {
         [Import(typeof(IHelloService))]
         public List&lt;IHelloService&gt; Services { get; set; }
@@ -84,7 +93,10 @@ namespace HelloMEF.English
 
             Console.WriteLine("... powered by MEF");
         }
-    }</pre></div>
+    }
+</pre>
+</div>
+
 
 <p>Inside the &quot;HelloProgram&quot; class is a &quot;IHelloServices&quot; list, which is decorated with the &quot;Import&quot; attribute from the MEF namespace. 
   <br /><u>Import means:</u> I took everything of type IHelloService.</p>
@@ -93,7 +105,8 @@ namespace HelloMEF.English
 
 <p><strong>HelloMEF.App - search &amp; found plugins:</strong></p>
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:2fad45d6-c0cb-4209-b955-b41b38fa18a8" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">        public HelloProgram()
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:2fad45d6-c0cb-4209-b955-b41b38fa18a8" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">        public HelloProgram()
         {
             this.Services = new List&lt;IHelloService&gt;();
 
@@ -109,14 +122,21 @@ namespace HelloMEF.English
             CompositionContainer container = new CompositionContainer(catalog.CreateResolver());
             container.AddPart(this);
             container.Compose();
-        }</pre></div>
+        }
+</pre>
+</div>
+
 
 <p>At first we search for the &quot;PluginIns&quot; directory and create it if it it&#180;s necessary. Now - pure MEF action: 
   <br />Plugins are manged with parts and catalogs. We tell our catalog to search for plugins in this assembly: 
 
   <br /></p>
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:54e02d6b-2ba6-4e75-b867-5dec99356fb7" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">            catalog.Catalogs.Add(new AttributedAssemblyPartCatalog(Assembly.GetExecutingAssembly()));</pre></div>
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:54e02d6b-2ba6-4e75-b867-5dec99356fb7" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">            catalog.Catalogs.Add(new AttributedAssemblyPartCatalog(Assembly.GetExecutingAssembly()));
+</pre>
+</div>
+
 
 
 
@@ -124,7 +144,11 @@ namespace HelloMEF.English
 <p>... and to look at this directory: 
   <br /></p>
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:46bc690d-92a7-4837-b65b-e18d0e9a5009" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">            catalog.Catalogs.Add(new DirectoryPartCatalog("PlugIns"));</pre></div>
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:46bc690d-92a7-4837-b65b-e18d0e9a5009" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">            catalog.Catalogs.Add(new DirectoryPartCatalog("PlugIns"));
+</pre>
+</div>
+
 
 
 
@@ -137,7 +161,8 @@ namespace HelloMEF.English
 
 <p><strong>HelloMEF.App - Plugins inside the assembly:</strong></p>
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:70acf3fc-80ea-4dbf-9b61-5eff6b6564bb" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">namespace HelloMEF.App
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:70acf3fc-80ea-4dbf-9b61-5eff6b6564bb" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">namespace HelloMEF.App
 {
     public class HelloProgram
     {
@@ -150,7 +175,10 @@ namespace HelloMEF.English
 	...
     }
 
-}</pre></div>
+}
+</pre>
+</div>
+
 
 <p>The plugins could be placed inside the assembly. MEF find these plugins through this catalog: &quot;AttributeAssemblyPartCatalog&quot; </p>
 

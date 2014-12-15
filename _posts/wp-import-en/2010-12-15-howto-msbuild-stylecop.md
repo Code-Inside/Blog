@@ -66,7 +66,10 @@ language: en
   &lt;/Target&gt;
 
 &lt;/Project&gt;
-</pre></div>
+
+</pre>
+</div>
+
 
 <p>There is a Target "Measure" in the MsBuild File and we are going to import the MSBuild Extension Pack File. After this we copy all .cs files from line 10. At least we open the MSBuild Extension Pack Stylecop.</p>
 

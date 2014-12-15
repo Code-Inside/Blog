@@ -85,7 +85,10 @@ end try
 begin catch
 	rollback transaction DataUpdate
 	print 'transaction "DataUpdate" rolled back'
-end catch</pre></div>
+end catch
+</pre>
+</div>
+
 
 <p>Like you see in line 42 we saved a version number in the SQL data base - the script is written by our self and not with the management studio. </p>
 
@@ -100,7 +103,10 @@ end catch</pre></div>
 
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:c562ef84-d371-4ef5-8c72-9d7b2ea7b9cb" class="wlWriterEditableSmartContent"><pre name="code" class="c#">powershell ToolingScripts\CreateDatabase.ps1 -dbInstance "." -dbName "BusinessBingo"
 powershell ToolingScripts\InitDatabase.ps1 -dbInstance "." -dbName "BusinessBingo" -initScriptsFolder "InitScripts"
-powershell ToolingScripts\UpdateDatabase.ps1 -dbInstance "." -dbName "BusinessBingo" -updateScriptsFolder "UpdateScripts"</pre></div>
+powershell ToolingScripts\UpdateDatabase.ps1 -dbInstance "." -dbName "BusinessBingo" -updateScriptsFolder "UpdateScripts"
+</pre>
+</div>
+
 
 <p><b>CreateDatabase.ps1 - save data base clean </b></p>
 
@@ -133,7 +139,10 @@ $dbServer.KillDatabase($db.Name)
 }
 "Creating database $dbName..."
 $db = new-object Microsoft.SqlServer.Management.Smo.Database ($dbServer, $dbName)
-$db.Create()</pre></div>
+$db.Create()
+</pre>
+</div>
+
 
 <p><b>InitDatabase.ps1 - create Version 1.0</b></p>
 
@@ -146,7 +155,10 @@ $db.Create()</pre></div>
 sqlps Invoke-Sqlcmd -ServerInstance "$dbInstance" -Database "$dbName" -InputFile "$initScriptsFolder\InitSchema.sql" 
 
 "Execute DataSql..."
-sqlps Invoke-Sqlcmd -ServerInstance "$dbInstance" -Database "$dbName" -InputFile "$initScriptsFolder\InitData.sql" </pre></div>
+sqlps Invoke-Sqlcmd -ServerInstance "$dbInstance" -Database "$dbName" -InputFile "$initScriptsFolder\InitData.sql" 
+</pre>
+</div>
+
 
 <p><b>UpdateDatabase.ps1 - create all versions</b></p>
 
@@ -163,7 +175,10 @@ foreach ($updateSql in $List)
 {
 	 "Execute $updateSql"
      sqlps Invoke-Sqlcmd -ServerInstance "$dbInstance" -Database "$dbName" -InputFile "$updateScriptsFolder\$updateSql"
-}</pre></div>
+}
+</pre>
+</div>
+
 
 <p><b>This happens after one click on InitDatabase.bat</b></p>
 
@@ -205,7 +220,10 @@ namespace BusinessBingo.Data.Tests
         public abstract void CleanUp();
     }
 }
-</pre></div>
+
+</pre>
+</div>
+
 
 <p>In the Init our DatabaseHelper will be called. Here you will find the same game like in the "CreateDatabase.ps1". With the Entity framework model (which we used as repository layer), we ask if the data base exists.</p>
 
@@ -231,7 +249,10 @@ namespace BusinessBingo.Data.Tests
 
             this.CleanUpDatabase();
             this.InsertTestData();
-        }</pre></div>
+        }
+</pre>
+</div>
+
 
 <p>CreateTestDatabase, which will be opened anyway. Here we call the powershell order from the .NET code. Because of this the Powershell scripts took some parameters more so you can start them from the unit tests as well.</p>
 
@@ -267,7 +288,10 @@ namespace BusinessBingo.Data.Tests
             Collection&lt;PSObject&gt; results = pipeline.Invoke();
 
             runspace.Close();
-        }</pre></div>
+        }
+</pre>
+</div>
+
 
 <p>In fact just the three powershell - scripts will be opened and the same thing will happen like in the InitDatabase.bat.</p>
 

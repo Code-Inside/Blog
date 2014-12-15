@@ -14,7 +14,8 @@ language: en
 <p><strong>First step: J# dlls</strong></p>
 <p>I only have Visual Studio 2008 installed - without the Visual J# library - the &quot;vjslib.dll&quot;. You need this dll for nFop. If you don&#180;t have this dll, just download it here: <a href="http://msdn2.microsoft.com/en-us/vjsharp/bb188598.aspx">Visual J# Redistributable Packages</a></p>
 <p><strong>The solution: A generic handler</strong></p>
-<p>It&#180;s a bit tricky to write the PDF content in the context - here is the complete source code from my ASHX:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:923ad05a-8302-4cec-9a70-ad42665e24b4" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;%@ WebHandler Language="C#" Class="PdfHandler" %&gt;
+<p>It&#180;s a bit tricky to write the PDF content in the context - here is the complete source code from my ASHX:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:923ad05a-8302-4cec-9a70-ad42665e24b4" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">&lt;%@ WebHandler Language="C#" Class="PdfHandler" %&gt;
 
 using System;
 using System.Data;
@@ -65,7 +66,10 @@ public class PdfHandler : IHttpHandler
     }
 }
 
-</pre></div>
+
+</pre>
+</div>
+
 
 <p>A look into the solution explorer:</p>
 
@@ -73,7 +77,8 @@ public class PdfHandler : IHttpHandler
 
 <p>The helloworld.fo:</p>
 
-<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:3d382950-0f8c-4337-93d9-18df49daa38c" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+<div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:3d382950-0f8c-4337-93d9-18df49daa38c" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"&gt;
   &lt;fo:layout-master-set&gt;
     &lt;fo:simple-page-master  master-name="A4"³
@@ -89,7 +94,10 @@ public class PdfHandler : IHttpHandler
     &lt;/fo:flow&gt;
   &lt;/fo:page-sequence&gt;
 
-&lt;/fo:root&gt;</pre></div>
+&lt;/fo:root&gt;
+</pre>
+</div>
+
 
 <p>Now you can create the &quot;helloworld&quot; PDF by just clicking this link: 
   <br /><a href="http://localhost:56602/Pdf/PdfHandler.ashx">http://localhost:56602/Pdf/PdfHandler.ashx</a></p>

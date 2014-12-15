@@ -13,12 +13,18 @@ language: en
 
 
  <p><b>How the output looks like till now</b></p> 
- <p>Take a look on <a href="{{BASE_PATH}}/2010/11/12/howto-build-msbuild-solutions/">this post</a> to find out how to create a _PublishedWebsites folder where the WebApp. could be founded. But here you will find the Transformation-files too:</p> <p>&nbsp;</p> <p><img title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb272.png" width="244" height="226"></p> <p>The main problem: The transformation of the mainly web.config doesn´t happen - the application runs with debug:</p> <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:81764bbf-f2bb-4930-8cb9-fd10052229a5" class="wlWriterSmartContent" style="float: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px"><pre class="c#" name="code">    &lt;compilation debug="true" targetFramework="4.0"&gt;</pre></div>
+ <p>Take a look on <a href="{{BASE_PATH}}/2010/11/12/howto-build-msbuild-solutions/">this post</a> to find out how to create a _PublishedWebsites folder where the WebApp. could be founded. But here you will find the Transformation-files too:</p> <p>&nbsp;</p> <p><img title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb272.png" width="244" height="226"></p> <p>The main problem: The transformation of the mainly web.config doesn´t happen - the application runs with debug:</p> <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:81764bbf-f2bb-4930-8cb9-fd10052229a5" class="wlWriterSmartContent" style="float: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px"><pre class="c#" name="code">    &lt;compilation debug="true" targetFramework="4.0"&gt;
+</pre>
+</div>
+
 <p>and then the call will look like this:</p>
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:b4389ddb-a895-431b-bdeb-9ea994d5b740" class="wlWriterSmartContent" style="float: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px"><pre class="c#" name="code">	&lt;TransformXml Source="Web.config"
 				  Transform="Web.Release.config"
 				  Destination="Web.transformed.config" /&gt;
-</pre></div>
+
+</pre>
+</div>
+
 <p><b>BUT: that sucks! Am I right?</b></p>
 
 
@@ -37,7 +43,10 @@ language: en
 <div id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:2f718de8-0ac8-4770-9586-ce056ccb8d1f" class="wlWriterSmartContent" style="float: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px"><pre class="c#" name="code">	&lt;TransformXml Source="..\MsBuildSample.WebApp\Web.config"
 				  Transform="..\MsBuildSample.WebApp\Web.$(Configuration).config"
 				  Destination="$(BuildDirFullName)MsBuildSample.WebApp\Web.config" /&gt;
-</pre></div>
+
+</pre>
+</div>
+
 <p>Source&amp;Transform are from the original branch and because of this we don´t need to take care of the lock.</p>
 <p>Just the destination could be founded in our "cloned" folder. After this the "web.config" is transformed.</p>
 <p><b>Build:</b></p>
@@ -121,7 +130,10 @@ language: en
 			 ZipFileName="$(OutDir)Package.zip"/&gt;
   &lt;/Target&gt;
 &lt;/Project&gt;
- </pre></div>
+ 
+</pre>
+</div>
+
 <p><b>Democode:</b></p>
 
 

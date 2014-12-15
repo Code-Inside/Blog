@@ -41,7 +41,10 @@ language: en
 		&lt;MSBuild Projects="@(Solution)"/&gt;
 	&lt;/Target&gt;
 &lt;/Project&gt;
- </pre></div>
+ 
+</pre>
+</div>
+
 
 <p>At the top you will find a PropertyGroup with the description about where to copy the solution into. Instead of searching the solution in the bin\release folder I want to find it in my "<strong>OutDir</strong>". I use the <a href="http://msdn.microsoft.com/en-us/library/ms164309.aspx">MSBuild Property MSBuild StartupDirectory</a> to find the right Buildfiles.</p>
 
@@ -80,7 +83,10 @@ language: en
 
 <p>As a little fine-tuning I created a batch file for not being forced to use the Visual Studio Command Prompt at every time:</p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:d98e8867-f59c-4233-9b77-3b36db29d844" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe Buildsolution.build</pre></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:d98e8867-f59c-4233-9b77-3b36db29d844" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe Buildsolution.build
+</pre>
+</div>
+
 
 <p>The whole thing will work with another .Net version number as well.</p>
 

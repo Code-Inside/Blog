@@ -46,7 +46,10 @@ language: en
   &lt;/Dirs&gt;
   ...
   &lt;CQLQueries...&gt;
-&lt;/NDepend&gt;</pre></div>
+&lt;/NDepend&gt;
+</pre>
+</div>
+
 
 <p>- Assemblies: All .NET Assemblies, which are recognized by NDepend for the addictions </p>
 
@@ -86,11 +89,17 @@ language: en
 
 <p>Command: (depending on where you install it)</p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:9b93967d-e52b-4ec0-9ec8-82ca63ec1d8e" class="wlWriterEditableSmartContent"><pre name="code" class="c#">"C:\NDepend\NDepend.Console.exe"</pre></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:9b93967d-e52b-4ec0-9ec8-82ca63ec1d8e" class="wlWriterEditableSmartContent"><pre name="code" class="c#">"C:\NDepend\NDepend.Console.exe"
+</pre>
+</div>
+
 
 <p>Parameters:</p>
 
-<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a487b72d-e3a9-4775-a076-e83262998e06" class="wlWriterEditableSmartContent"><pre name="code" class="c#">"%system.teamcity.build.checkoutDir%\Main\Docs\CodeQuality\BusinessBingo.ndproj" /OutDir "%system.teamcity.build.checkoutDir%\NDependOut" /InDirs "%system.teamcity.build.checkoutDir%\Main\Source\BusinessBingo\Source\BusinessBingo.Web\bin\"</pre></div>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a487b72d-e3a9-4775-a076-e83262998e06" class="wlWriterEditableSmartContent"><pre name="code" class="c#">"%system.teamcity.build.checkoutDir%\Main\Docs\CodeQuality\BusinessBingo.ndproj" /OutDir "%system.teamcity.build.checkoutDir%\NDependOut" /InDirs "%system.teamcity.build.checkoutDir%\Main\Source\BusinessBingo\Source\BusinessBingo.Web\bin\"
+</pre>
+</div>
+
 
 <p>- The first parameter shows you where .ndproj is localised %system.teacity.build.checkoutDir% takes the place before TeamCity is going to replace it during the building process. </p>
 
@@ -112,7 +121,10 @@ language: en
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:50506e52-03f8-4d00-ad6d-2602ad6e7d6a" class="wlWriterEditableSmartContent"><pre name="code" class="c#">%system.teamcity.build.checkoutDir%\Main\Source\BusinessBingo\Source\BusinessBingo.Web\bin\BusinessBingo.*.dll =&gt; Assemblies
 %system.teamcity.build.checkoutDir%\Main\Source\BusinessBingo\Source\BusinessBingo.Web\bin\BusinessBingo.*.pdb =&gt; Assemblies
 %system.teamcity.build.checkoutDir%\NDependOut\**\* =&gt; Reports\NDepend
-%system.teamcity.build.checkoutDir%\Main\Docs\HtmlTemplate\**\* =&gt; HtmlTemplate.zip</pre></div>
+%system.teamcity.build.checkoutDir%\Main\Docs\HtmlTemplate\**\* =&gt; HtmlTemplate.zip
+</pre>
+</div>
+
 
 <p>The first and the second are the Dlls/Pdbs - the " =&gt;" shows in which artifact folder it should be copied. For this you could use Wildcards ore, like in line 4, you let the file zip automatically.</p>
 

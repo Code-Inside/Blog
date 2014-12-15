@@ -28,7 +28,10 @@ language: en
 <p><img title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb292.png" width="382" height="302" /></p>  
 <p>Reason: He tries to find the SQLExpress Server but this Server doesn´t exist. </p>
 <p><b>Solution</b></p>
-<p>It´s possible to define the SQL instance-name as a parameter at the tool. But in the standart-installation the SQL Server doesn´t have an instance-name. All you have to do is enter this into the CMD:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:de07bfb5-e670-44c5-9987-cdcbb34c66a9" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\Program Files\Windows Azure SDK\v1.2\bin\devstore&gt;DSInit.exe /sqlinstance:</pre></div>
+<p>It´s possible to define the SQL instance-name as a parameter at the tool. But in the standart-installation the SQL Server doesn´t have an instance-name. All you have to do is enter this into the CMD:</p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:de07bfb5-e670-44c5-9987-cdcbb34c66a9" class="wlWriterEditableSmartContent"><pre name="code" class="c#">C:\Program Files\Windows Azure SDK\v1.2\bin\devstore&gt;DSInit.exe /sqlinstance:
+</pre>
+</div>
+
 
 <p>NOW it should be working! <img style="border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile4.png" /></p>
 

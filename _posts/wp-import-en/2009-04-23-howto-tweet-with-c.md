@@ -16,7 +16,8 @@ language: en
 <p><strong>Twitter API      <br /></strong>You can find the Twitter API docs <a href="http://apiwiki.twitter.com/">here</a> and a <a href="http://apiwiki.twitter.com/Things-Every-Developer-Should-Know">good overview here</a>. </p>
 <p><strong>Twittern via C# - &quot;low level&quot;</strong>     <br />You can use HttpRequest &amp; HttpResponse objects to use twitter: <a href="http://psantos-blog.zi-yu.com/?p=197">Sample here</a>.</p>
 <p><strong>C# APIs for Twitter      <br /></strong>If you don&#180;t want do deal with the low level things, then you should look at these <a href="http://apiwiki.twitter.com/Libraries#C/NET">C# APIs</a></p>
-<p><strong>One example: Tweetsharp      <br /></strong><a href="http://code.google.com/p/tweetsharp/">Tweetsharp</a> is a really cool, fluent interface for accessing Twitter, Url-Shorting-Services, Twitpic and so on. Here I create a simple update on twitter:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a14dbc2a-9b8a-4438-85a1-3829edb17bbb" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px"><pre name="code" class="c#">    class Program
+<p><strong>One example: Tweetsharp      <br /></strong><a href="http://code.google.com/p/tweetsharp/">Tweetsharp</a> is a really cool, fluent interface for accessing Twitter, Url-Shorting-Services, Twitpic and so on. Here I create a simple update on twitter:</p>  <div class="wlWriterSmartContent" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:a14dbc2a-9b8a-4438-85a1-3829edb17bbb" style="padding-right: 0px; display: inline; padding-left: 0px; float: none; padding-bottom: 0px; margin: 0px; padding-top: 0px">
+<pre name="code" class="c#">    class Program
     {
         static void Main(string[] args)
         {
@@ -27,7 +28,10 @@ language: en
 
             var response = twitter.Request();
         }
-    }</pre></div>
+    }
+</pre>
+</div>
+
 
 <p>Look at the <a href="http://code.google.com/p/tweetsharp/w/list">Google Code wiki</a> or on the <a href="http://tweetsharp.com/">homepage</a> for more information. </p>
 

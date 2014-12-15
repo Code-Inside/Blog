@@ -33,7 +33,10 @@ language: en
 <p><b>NUnit Testrunner Configuration:</b></p>  
 
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image114.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb23.png" width="496" height="229" /></a></p>
-<p>We´ve installed NUnit Version 2.5.8 and in the textbox "Run tests from" is this included: </p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:354415f5-07aa-4aa4-a6da-d29a4bfd6ab5" class="wlWriterEditableSmartContent"><pre name="code" class="c#">%system.teamcity.build.checkoutDir%\Main\Source\BusinessBingo\Tests\*\bin\Debug\*Tests.dll</pre></div>
+<p>We´ve installed NUnit Version 2.5.8 and in the textbox "Run tests from" is this included: </p>  <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:354415f5-07aa-4aa4-a6da-d29a4bfd6ab5" class="wlWriterEditableSmartContent"><pre name="code" class="c#">%system.teamcity.build.checkoutDir%\Main\Source\BusinessBingo\Tests\*\bin\Debug\*Tests.dll
+</pre>
+</div>
+
 
 <p><a href="{{BASE_PATH}}/assets/wp-images-en/image115.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 0px 10px 10px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="left" src="{{BASE_PATH}}/assets/wp-images-en/image_thumb24.png" width="211" height="301" /></a>Because we are building the whole SLN with "Debug" the results are shown in our source tree in the adequate bin folder. </p>
 
@@ -59,14 +62,20 @@ language: en
 <p>With the filter you instruct dotCover which Code should be recognized for the CodeCoverage during UnitTesting. </p>
 
 <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:95e75254-4e2d-49ab-8a9c-5c68d8cc31dc" class="wlWriterEditableSmartContent"><pre name="code" class="c#">+:BusinessBingo.*
--:BusinessBingo.*Test*</pre></div>
+-:BusinessBingo.*Test*
+</pre>
+</div>
+
 
 <p>Important: <b>don´t</b> declare ".dll" here just the name. With "+" you say: search assemblies with this name (also Wildcars) and "-"means that there are no CodeCoverage. </p>
 
 <p><i>Little hint: If you do everything right but no report will be generated take a look into the BuildLog. At the first try I got this error:</i></p>
 
 <p><i>Solution: 
-    <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:f4885b9c-50a9-40f2-a747-d64338a0d8fc" class="wlWriterEditableSmartContent"><pre name="code" class="c#">Failed to read source file 'C:\TeamCity\buildAgent\temp\buildTmp\dotcover8583844779204955574.xml'. Could not find a part of the path 'C:\Windows\system32\config\systemprofile\AppData\Local\Temp\4q-kqg6z.tmp'.</pre></div>
+    <div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; float: none; padding-top: 0px" id="scid:812469c5-0cb0-4c63-8c15-c81123a09de7:f4885b9c-50a9-40f2-a747-d64338a0d8fc" class="wlWriterEditableSmartContent"><pre name="code" class="c#">Failed to read source file 'C:\TeamCity\buildAgent\temp\buildTmp\dotcover8583844779204955574.xml'. Could not find a part of the path 'C:\Windows\system32\config\systemprofile\AppData\Local\Temp\4q-kqg6z.tmp'.
+</pre>
+</div>
+
   </i></p>
 
 <p><i></i></p>
