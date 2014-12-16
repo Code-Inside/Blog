@@ -45,7 +45,9 @@ The aim of the redirection was to keep all the links alive:
 	<li>everything else has to link to the new main page “www.codeinside.eu”</li>
 </ul>
 The “redirects” App in IIS includes nothing but a web.config with the following content:
-<pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+
+<pre class="brush: csharp; auto-links: true; collapse: false; first-line: 1; gutter: true; html-script: false; light: false; ruler: false; smart-tabs: true; tab-size: 4; toolbar: true;">
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;configuration&gt;
     &lt;system.webServer&gt;
         &lt;rewrite&gt;
@@ -79,7 +81,9 @@ The “redirects” App in IIS includes nothing but a web.config with the follow
             &lt;/rules&gt;
         &lt;/rewrite&gt;
     &lt;/system.webServer&gt;
-&lt;/configuration&gt;</pre>
+&lt;/configuration&gt;
+</pre>
+
 WordPress saves the “public” URL on different places – therefore I was forced to use HeidiSQL for some tasks (because I was constantly redirected to the old Admin Dashboard <img class="wlEmoticon wlEmoticon-winkingsmile" style="border-style: none;" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile55.png" />) or change the values in the configuration.
 <h3>Adjust Feedburner configurations</h3>
 The RSS Feed of this blog is still provided by Feedburner. With the DNS configurations I had to change these values as well.
