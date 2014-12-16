@@ -91,9 +91,13 @@ The inspiration of the ActionResults came <a href="http://www.developerzen.com/2
 
 <h3>The Action</h3>
 With the ActionResult we are able to return the controller a feed.
+
 <div id="codeSnippetWrapper" style="overflow: auto; cursor: text; font-size: 8pt; border-top: silver 1px solid; font-family: 'Courier New', courier, monospace; border-right: silver 1px solid; width: 97.5%; border-bottom: silver 1px solid; padding-bottom: 4px; direction: ltr; text-align: left; padding-top: 4px; padding-left: 4px; margin: 20px 0px 10px; border-left: silver 1px solid; line-height: 12pt; padding-right: 4px; max-height: 200px; background-color: #f4f4f4">
+
 <div id="codeSnippet" style="border-top-style: none; overflow: visible; font-size: 8pt; font-family: 'Courier New', courier, monospace; width: 100%; border-bottom-style: none; color: black; padding-bottom: 0px; direction: ltr; text-align: left; padding-top: 0px; border-right-style: none; padding-left: 0px; border-left-style: none; line-height: 12pt; padding-right: 0px; background-color: #f4f4f4">
-<pre style="border-top-style: none; overflow: visible; font-size: 8pt; font-family: 'Courier New', courier, monospace; width: 100%; border-bottom-style: none; color: black; padding-bottom: 0px; direction: ltr; text-align: left; padding-top: 0px; border-right-style: none; padding-left: 0px; margin: 0em; border-left-style: none; line-height: 12pt; padding-right: 0px; background-color: white"><span id="lnum1" style="color: #606060">   1:</span> <span style="color: #0000ff">public</span> <span style="color: #0000ff">virtual</span> ActionResult Feed(<span style="color: #0000ff">string</span> id)</pre>
+
+<pre style="border-top-style: none; overflow: visible; font-size: 8pt; font-family: 'Courier New', courier, monospace; width: 100%; border-bottom-style: none; color: black; padding-bottom: 0px; direction: ltr; text-align: left; padding-top: 0px; border-right-style: none; padding-left: 0px; margin: 0em; border-left-style: none; line-height: 12pt; padding-right: 0px; background-color: white">
+<span id="lnum1" style="color: #606060">   1:</span> <span style="color: #0000ff">public</span> <span style="color: #0000ff">virtual</span> ActionResult Feed(<span style="color: #0000ff">string</span> id)</pre>
 <p><!--CRLF-->
 </p><pre style="border-top-style: none; overflow: visible; font-size: 8pt; font-family: 'Courier New', courier, monospace; width: 100%; border-bottom-style: none; color: black; padding-bottom: 0px; direction: ltr; text-align: left; padding-top: 0px; border-right-style: none; padding-left: 0px; margin: 0em; border-left-style: none; line-height: 12pt; padding-right: 0px; background-color: #f4f4f4"><span id="lnum2" style="color: #606060">   2:</span>     {</pre>
 <p><!--CRLF-->
@@ -127,8 +131,12 @@ With the ActionResult we are able to return the controller a feed.
 <p><!--CRLF-->
 </p><pre style="border-top-style: none; overflow: visible; font-size: 8pt; font-family: 'Courier New', courier, monospace; width: 100%; border-bottom-style: none; color: black; padding-bottom: 0px; direction: ltr; text-align: left; padding-top: 0px; border-right-style: none; padding-left: 0px; margin: 0em; border-left-style: none; line-height: 12pt; padding-right: 0px; background-color: white"><span id="lnum17" style="color: #606060">  17:</span>         <span style="color: #0000ff">return</span> <span style="color: #0000ff">new</span> RssResult(<span style="color: #006080">"Demo Feed"</span>, items);</pre>
 <p><!--CRLF-->
-</p><pre style="border-top-style: none; overflow: visible; font-size: 8pt; font-family: 'Courier New', courier, monospace; width: 100%; border-bottom-style: none; color: black; padding-bottom: 0px; direction: ltr; text-align: left; padding-top: 0px; border-right-style: none; padding-left: 0px; margin: 0em; border-left-style: none; line-height: 12pt; padding-right: 0px; background-color: #f4f4f4"><span id="lnum18" style="color: #606060">  18:</span>     }   </pre>
-<p><!--CRLF--></p></div>
+</p><pre style="border-top-style: none; overflow: visible; font-size: 8pt; font-family: 'Courier New', courier, monospace; width: 100%; border-bottom-style: none; color: black; padding-bottom: 0px; direction: ltr; text-align: left; padding-top: 0px; border-right-style: none; padding-left: 0px; margin: 0em; border-left-style: none; line-height: 12pt; padding-right: 0px; background-color: #f4f4f4"><span id="lnum18" style="color: #606060">  18:</span>     }   
+</pre>
+
+<p><!--CRLF-->
+</p>
+</div>
 </div>
 
 The only trap is the URL. Usually the UrlHelper creates only relative links. But with the declaration of all parameters it turns into a proper URL.
