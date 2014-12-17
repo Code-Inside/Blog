@@ -9,13 +9,8 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-&nbsp;
-
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; padding-right: 0px; border: 0px;" title="image.png" src="{{BASE_PATH}}/assets/wp-images-de/image1920-570x194.png" border="0" alt="image.png" width="570" height="194" />
 
 A common German saying is „the shoe maker always wears the worst pair of shoes!“ – that’s also true for the IT business. Usually internal tools or services are developed lukewarm and without the required professionalism.
-
-&nbsp;
 
 <strong>The basic idea – everything for the customer! </strong>
 
