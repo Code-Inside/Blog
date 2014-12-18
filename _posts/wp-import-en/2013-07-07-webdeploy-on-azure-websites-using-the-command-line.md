@@ -51,7 +51,7 @@ That’s how it looks like in my example:
 
 <div id="scid:9D7513F9-C04C-4721-824A-2B34F0212519:d0cd7f23-9689-4869-afa1-72568a0717dd" class="wlWriterEditableSmartContent" style="float: none; margin: 0px; display: inline; padding: 0px;">
 
-<pre style="width: 836px; height: 43px; background-color: white; overflow: auto;">
+<pre>
 <div>
 <span style="color: #000000;">WebDeployPackage.deploy.cmd </span><span style="color: #000000;">/</span><span style="color: #000000;">y </span><span style="color: #800000;">"</span><span style="color: #800000;">/m:https://waws-prod-am2-001.publish.azurewebsites.windows.net/MsDeploy.axd?Site=blogpostsample</span><span style="color: #800000;">"</span><span style="color: #000000;"> </span><span style="color: #000000;">-</span><span style="color: #000000;">allowUntrusted </span><span style="color: #000000;">/</span><span style="color: #000000;">u:</span><span style="color: #800000;">"</span><span style="color: #800000;">$blogpostsample</span><span style="color: #800000;">"</span><span style="color: #000000;"> </span><span style="color: #000000;">/</span><span style="color: #000000;">p:</span><span style="color: #800000;">"</span><span style="color: #800000;">AssmJvtBrcWqfjaoHiANseLfyLuyJ1zyMn44L8YGQNKLCA9Rd9CZesxe9ilJ</span><span style="color: #800000;">"</span><span style="color: #000000;"> </span><span style="color: #000000;">/</span><span style="color: #000000;">a:Basic</span>
 </div>
@@ -65,7 +65,7 @@ Additional you have to adapt the IIS App Name in the SetParameters.xmls file:
 
 <div id="scid:9D7513F9-C04C-4721-824A-2B34F0212519:d78bb1db-c885-49dd-b8bd-6b00e174e947" class="wlWriterEditableSmartContent" style="float: none; margin: 0px; display: inline; padding: 0px;">
 
-<pre style="width: 848px; height: 54px; background-color: white; overflow: auto;">
+<pre>
 
 <div>
 <span style="color: #000000;">&lt;?</span><span style="color: #000000;">xml version</span><span style="color: #000000;">=</span><span style="color: #800000;">"</span><span style="color: #800000;">1.0</span><span style="color: #800000;">"</span><span style="color: #000000;"> encoding</span><span style="color: #000000;">=</span><span style="color: #800000;">"</span><span style="color: #800000;">utf-8</span><span style="color: #800000;">"</span><span style="color: #000000;">?&gt;&lt;</span><span style="color: #000000;">parameters</span><span style="color: #000000;">&gt;</span><span style="color: #000000;">  </span><span style="color: #000000;">&lt;</span><span style="color: #000000;">setParameter name</span><span style="color: #000000;">=</span><span style="color: #800000;">"</span><span style="color: #800000;">IIS Web Application Name</span><span style="color: #800000;">"</span><span style="color: #000000;"> value</span><span style="color: #000000;">=</span><span style="color: #800000;">"</span><span style="color: #800000;">blogpostsample</span><span style="color: #800000;">"</span><span style="color: #000000;"> </span><span style="color: #000000;">/&gt;&lt;/</span><span style="color: #000000;">parameters</span><span style="color: #000000;">&gt;</span>
