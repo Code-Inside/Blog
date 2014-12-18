@@ -9,7 +9,7 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<p>&nbsp; <p>&nbsp; <p><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; border-top: 0px; border-right: 0px; padding-top: 0px" title="image.png" border="0" alt="image.png" src="{{BASE_PATH}}/assets/wp-images-de/image1764-446x194.png" width="446" height="194"> <p>.NET 4.0 offers a new Global Assembly Cache (GAC) which you can find at this path:
+p>.NET 4.0 offers a new Global Assembly Cache (GAC) which you can find at this path:
 <p><em>C:\Windows\Microsoft.NET\assembly</em> <p>Every .NET 4.0 or CLR 4.0 application use this GAC.
 <p><b>What happens to the „old“ GAC?</b> <p>The old GAC still exists on this path: <p><em>C:\Windows\assembly</em> <p>It is still responsible for .NET 2.0 - .NET 3.5 or CLR 2.0 applications.
 <p><b></b> <p><b>CLR? .NET Framework Version? Isn’t that the same thing? </b> <p>The subject is a little more difficult but I like it as a short form: <p>CLR + Libraries = .NET Framework <p>While <a href="http://en.wikipedia.org/wiki/Common_Language_Runtime">CLR</a> is the base of the execution. With several .NET framework versions they added numerous libraries but there are just two big CLR Versions till today – Version 2.0 and 4.0
