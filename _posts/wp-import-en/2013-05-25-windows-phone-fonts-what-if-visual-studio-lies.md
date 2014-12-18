@@ -9,7 +9,6 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<img style="background-image: none; padding-left: 0px; padding-right: 0px; padding-top: 0px; border: 0px;" title="image.png" src="{{BASE_PATH}}/assets/wp-images-de/image1828-278x194.png" border="0" alt="image.png" width="278" height="194" />
 
 Today I was confronted with a little Problem: my Windows Phone App refused to show me the Font I choose – also other thinks didn’t work.
 
