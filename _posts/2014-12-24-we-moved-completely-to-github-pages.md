@@ -1,4 +1,4 @@
----
+ï»¿---
 layout: post
 title: "We moved completely to GitHub Pages - German & English Posts migrated!"
 description: "After a long time with two different Wordpress installations we are finally on completely on GitHub Pages."
@@ -17,7 +17,7 @@ But to summarize it, here are the main parts:
 We started this Blog in German __2007__ with a simple Wordpress Installation. In __2008__ we begun to write Blogposts in English, but the main blog was still the German Blog. During the last years a good friend, Antje Killian, helped me and Oliver to translate the German articles and publish them on the English Blog. 
 
 ## March 2014 Custom VM to Azure VM
-I always wanted to move the Blogs from our small Hoster to Azure, because I can spend there 115€ per month (MSDN Subscription, yeah!) and I wasn't very happy about the Hosting contract. So we __[moved to Azure](http://blog.codeinside.eu/2014/03/05/move-to-windows-azure-vms-word-press-migration-dns-changes/)__.
+I always wanted to move the Blogs from our small Hoster to Azure, because I can spend there 115 Euro per month (MSDN Subscription, yeah!) and I wasn't very happy about the Hosting contract. So we __[moved to Azure](http://blog.codeinside.eu/2014/03/05/move-to-windows-azure-vms-word-press-migration-dns-changes/)__.
 
 ## September 2014 Wordpress to Jekyll Migration for the German Blog
 
