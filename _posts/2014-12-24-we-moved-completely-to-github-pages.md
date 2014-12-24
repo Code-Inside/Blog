@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "We moved completely to GitHub Pages - German & English Posts migrated!"
 description: "After a long time with two different Wordpress installations we are finally on completely on GitHub Pages."
