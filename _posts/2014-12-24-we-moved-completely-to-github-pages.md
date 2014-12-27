@@ -82,6 +82,6 @@ Now, this is the current URL-Rewrite Section on the (still running) Azure VM, th
         </system.webServer>
     </configuration>
 
-__If you found any issues, please let us [know](https://github.com/Code-Inside/Blog/issues)__
+__If you found any issues, please let us [know](https://github.com/Code-Inside/Blog/issues).__
 
 Hope this helps and happy Christmas!
