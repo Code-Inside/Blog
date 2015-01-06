@@ -82,5 +82,6 @@ Currently the animation is not part of the offical example, but I created a [Pul
        </Grid>
    </Window>
 
-
+Thanks Tommy for this awesome NuGet package!
+   
 Hope this helps and happy new Year!
