@@ -18,7 +18,7 @@ From the FontAwesome Project Description:
 Sounds great, right? But can we use FontAwesome in WPF? __Absolutely__! 
 
 ## The manual way:
-FontAwesome is just a font, which can be shipped within your app. The basics are described __[here](http://stackoverflow.com/questions/23108181/changing-font-icon-in-wpf-using-font-awesome)__
+FontAwesome is just a font, which can be shipped within your app. The basics are described __[here](http://stackoverflow.com/questions/23108181/changing-font-icon-in-wpf-using-font-awesome)__.
 
 ## The NuGet way:
 Two months ago [Tommy Charri](https://github.com/charri) created the __[FontAwesome.WPF NuGet Package](http://www.nuget.org/packages/FontAwesome.WPF/)__. The source code can be found on [GitHub](https://github.com/charri/Font-Awesome-WPF).
@@ -82,6 +82,6 @@ Currently the animation is not part of the offical example, but I created a [Pul
         </Grid>
     </Window>
 
-Thanks Tommy for this awesome NuGet package!
+Thanks Tommy for this awesome [NuGet package](http://www.nuget.org/packages/FontAwesome.WPF/)!
    
 Hope this helps and happy new Year!
