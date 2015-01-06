@@ -2,7 +2,7 @@
 layout: post
 title: "Using FontAwesome with WPF"
 description: "How to get the beloved Icon-Font inside your WPF App."
-date: 2014-01-07 00:30
+date: 2015-01-07 00:50
 author: robert.muehsig
 tags: [FontAwesome, WPF]
 language: en
