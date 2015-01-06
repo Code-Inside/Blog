@@ -51,36 +51,36 @@ As you might expect, you can combine the FontAwesome elements with any Animation
 
 Currently the animation is not part of the offical example, but I created a [Pull Request](https://github.com/charri/Font-Awesome-WPF/pull/1). I tried my best with my poor XAML skills, but this is more or less my animation example:
 
-   <Window x:Class="Example.FontAwesome.WPF.SingleRotating"
-           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-           xmlns:fa="clr-namespace:FontAwesome.WPF;assembly=FontAwesome.WPF"
-           Title="SingleRotating" Height="300" Width="300">
-       <Grid  Margin="20">
-           <fa:ImageAwesome RenderTransformOrigin="0.5, 0.5" Icon="RotateRight" VerticalAlignment="Center" HorizontalAlignment="Center">
-               <fa:ImageAwesome.RenderTransform>
-                   <RotateTransform/>
-               </fa:ImageAwesome.RenderTransform>
-               <fa:ImageAwesome.Triggers>
-                   <EventTrigger RoutedEvent="Loaded">
-                       <BeginStoryboard>
-                           <Storyboard>
-                               <ColorAnimation Storyboard.TargetProperty="Foreground.Color"
-                                               From="Black"
-                                               To="Yellow"              
-                                               Duration="0:0:10.0"
-                                               AutoReverse="True"/>
-                               <DoubleAnimation Storyboard.TargetProperty="(fa:ImageAwesome.RenderTransform).(RotateTransform.Angle)"
-                                                To="360"
-                                                Duration="0:0:5"
-                                                RepeatBehavior="Forever"/>
-                           </Storyboard>
-                       </BeginStoryboard>
-                   </EventTrigger>
-               </fa:ImageAwesome.Triggers>
-           </fa:ImageAwesome>
-       </Grid>
-   </Window>
+    <Window x:Class="Example.FontAwesome.WPF.SingleRotating"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:fa="clr-namespace:FontAwesome.WPF;assembly=FontAwesome.WPF"
+            Title="SingleRotating" Height="300" Width="300">
+        <Grid  Margin="20">
+            <fa:ImageAwesome RenderTransformOrigin="0.5, 0.5" Icon="RotateRight" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <fa:ImageAwesome.RenderTransform>
+                    <RotateTransform/>
+                </fa:ImageAwesome.RenderTransform>
+                <fa:ImageAwesome.Triggers>
+                    <EventTrigger RoutedEvent="Loaded">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <ColorAnimation Storyboard.TargetProperty="Foreground.Color"
+                                                From="Black"
+                                                To="Yellow"              
+                                                Duration="0:0:10.0"
+                                                AutoReverse="True"/>
+                                <DoubleAnimation Storyboard.TargetProperty="(fa:ImageAwesome.RenderTransform).(RotateTransform.Angle)"
+                                                 To="360"
+                                                 Duration="0:0:5"
+                                                 RepeatBehavior="Forever"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </fa:ImageAwesome.Triggers>
+            </fa:ImageAwesome>
+        </Grid>
+    </Window>
 
 Thanks Tommy for this awesome NuGet package!
    
