@@ -49,7 +49,7 @@ As you might expect, you can combine the FontAwesome elements with any Animation
 
 ![x]({{BASE_PATH}}/assets/md-images/2015-01-07/animation.gif "Animations and Transformations")
 
-~~Currently the animation is not part of the offical example.~~ , but I created a [Pull Request](https://github.com/charri/Font-Awesome-WPF/pull/1). __My Animation-Example is now part of the "official" example.__ I tried my best with my poor XAML skills, but this is more or less my animation example:
+~~Currently the animation is not part of the offical example , but I created a [Pull Request](https://github.com/charri/Font-Awesome-WPF/pull/1).~~ __My Animation-Example is now part of the "official" example.__ I tried my best with my poor XAML skills, but this is more or less my animation example:
 
     <Window x:Class="Example.FontAwesome.WPF.SingleRotating"
             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
