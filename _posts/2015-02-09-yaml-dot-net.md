@@ -26,11 +26,11 @@ Sample from the [Jekyll Configuration](http://jekyllrb.com/docs/configuration/):
     ...
 
 # Why using YAML and not XML or JSON?
-As you can see above (hopefully...), its pretty small in contrast to XML with its heavy markup (<HeavyStuff>...</HeavyStuff>) and more readable than JSON ({{{...}}}), so for a config, which should be readable for humans, its really usefull.
+As you can see above (hopefully...), its pretty small in contrast to XML with its heavy markup ( < HeavyStuff > ... < / HeavyStuff > ) and more readable than JSON ( { { { ... } } } ), so for a config, which should be readable for humans, its really usefull.
 
 # YamlDotNet & Sample Code
 
-The easiest way to use parse YAML is to use the [YamlDotNet NuGet Package](http://www.nuget.org/packages/YamlDotNet/). The project can also be found on [__GitHub__](https://github.com/aaubry/YamlDotNet)
+The easiest way to use and parse YAML in .NET world is to use the [YamlDotNet NuGet Package](http://www.nuget.org/packages/YamlDotNet/). The project can also be found on [__GitHub__](https://github.com/aaubry/YamlDotNet)
 
 In my scenario I will serialize and deserialize the following config structure:
 
