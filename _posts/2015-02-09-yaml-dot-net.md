@@ -9,7 +9,7 @@ language: en
 ---
 {% include JB/setup %}
 
-YAML (__Y__AML __A__in't __M__arkup __L__anguage, or in the beginning __Y__et __A__nother __M__arkup __L__anguage) is a pretty common config language in the Ruby world. Because of its clear nature it is a perfect fit for human readable configuration files.
+YAML ( __Y__ AML __A__ in't __M__ arkup __L__ anguage, or in the beginning __Y__ et __A__ nother __M__ arkup __L__ anguage) is a pretty common config language in the Ruby world. Because of its clear nature it is a perfect fit for human readable configuration files.
 
 Sample from the [Jekyll Configuration](http://jekyllrb.com/docs/configuration/):
 
@@ -148,6 +148,6 @@ In my opionion YAML is really great if the content needs to be human readable or
 	  
 Thanks to [Antoine Aubry](http://aaubry.net/) for the awesome work! 
 
-The complete demo code can also be found on [GitHub](https://github.com/Code-Inside/Samples/tree/master/2015/YamlSample)
+The complete demo code can also be found on [__GitHub__](https://github.com/Code-Inside/Samples/tree/master/2015/YamlSample)
 	  
 Hope this helps!
