@@ -9,9 +9,7 @@ language: en
 ---
 {% include JB/setup %}
 
-YAML ( __Y__ AML __A__ in't __M__ arkup __L__ anguage, or in the beginning __Y__ et __A__ nother __M__ arkup __L__ anguage) is a pretty common config language in the Ruby world. Because of its clear nature it is a perfect fit for human readable configuration files.
-
-Sample from the [Jekyll Configuration](http://jekyllrb.com/docs/configuration/):
+YAML ( __Y__ AML __A__ in't __M__ arkup __L__ anguage, or in the beginning __Y__ et __A__ nother __M__ arkup __L__ anguage) is a pretty common config language in the Ruby world. Because of it's clear nature it is a perfect fit for human readable configuration files. For example take a look at the [Jekyll Configuration](http://jekyllrb.com/docs/configuration/):
 
     source:      .
     destination: ./_site
@@ -25,14 +23,16 @@ Sample from the [Jekyll Configuration](http://jekyllrb.com/docs/configuration/):
     encoding:     "utf-8"
     ...
 
+Not bad, right?
+
 # Why using YAML and not XML or JSON?
-As you can see above (hopefully...), its pretty small in contrast to XML with its heavy markup ( < HeavyStuff > ... < / HeavyStuff > ) and more readable than JSON ( { { { ... } } } ), so for a config, which should be readable for humans, its really usefull.
+As you can see above (hopefully...), it's pretty small in contrast to heavy markup of XML ( < HeavyStuff > ... < / HeavyStuff > ) and more readable than JSON ( { { { ... } } } - you know what I mean.), so for a config, which should be readable for humans, it's really useful.
 
 # YamlDotNet & Sample Code
 
-The easiest way to use and parse YAML in .NET world is to use the [YamlDotNet NuGet Package](http://www.nuget.org/packages/YamlDotNet/). The project can also be found on [__GitHub__](https://github.com/aaubry/YamlDotNet)
+The easiest way to use and parse YAML in the .NET world is to use the [YamlDotNet NuGet Package](http://www.nuget.org/packages/YamlDotNet/). It is OSS and can be found on [__GitHub__](https://github.com/aaubry/YamlDotNet)
 
-In my scenario I will serialize and deserialize the following config structure:
+In my sample scenario I will serialize and deserialize the following config structure:
 
     public class DemoConfig
     {
