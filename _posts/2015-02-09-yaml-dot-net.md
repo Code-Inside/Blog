@@ -115,7 +115,7 @@ As you can see, we have simple and complex types and lists - this should cover m
         }
     }
 
-__The test.yml file:__
+__Result: The test.yml file:__
 
     Foo: 1337
     SimpleItem: Hello World!
