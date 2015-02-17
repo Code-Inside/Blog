@@ -9,7 +9,15 @@ tags: []
 language: en
 ---
 {% include JB/setup %}
-<a href="{{BASE_PATH}}/assets/wp-images-en/image2025-570x194.png"><img title="image2025-570x194" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image2025-570x194" src="{{BASE_PATH}}/assets/wp-images-en/image2025-570x194_thumb.png" width="583" height="211"></a></p> <p>&nbsp;</p> <p>While still in development the <a href="http://www.hanselman.com/blog/IntroducingWindowsAzureWebJobs.aspx">Azure WebJob SDK</a> offers some cool features for procession and supply of information. A good example is the sample that observes the Azure Queue and processes an item as soon as it spots one. </p> <p><b></b>&nbsp; <p><b>Scenario: time-controlled activities – without queue and so on </b> <p>My scenario was quite simple. I was searching for a way to open a method time-controlled and store the data in the blob storage – without a cloud. <p><b></b>&nbsp; <p><b>The code:</b></p> <div id="scid:9D7513F9-C04C-4721-824A-2B34F0212519:ff9df87c-2082-40b7-b126-57c03df5d0d8" class="wlWriterEditableSmartContent" style="float: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px"><pre style=" width: 602px; height: 292px;background-color:White;overflow: auto;"><div><!--
+<a href="{{BASE_PATH}}/assets/wp-images-en/image2025-570x194.png"><img title="image2025-570x194" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image2025-570x194" src="{{BASE_PATH}}/assets/wp-images-en/image2025-570x194_thumb.png" width="583" height="211"></a>
+
+<p>While still in development the <a href="http://www.hanselman.com/blog/IntroducingWindowsAzureWebJobs.aspx">Azure WebJob SDK</a> offers some cool features for procession and supply of information. A good example is the sample that observes the Azure Queue and processes an item as soon as it spots one. </p> 
+<p><b>Scenario: time-controlled activities – without queue and so on </b></p>
+<p>My scenario was quite simple. I was searching for a way to open a method time-controlled and store the data in the blob storage – without a cloud. </p>
+
+<p><b>The code:</b></p> 
+
+<div id="scid:9D7513F9-C04C-4721-824A-2B34F0212519:ff9df87c-2082-40b7-b126-57c03df5d0d8" class="wlWriterEditableSmartContent" style="float: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px"><pre style=" width: 602px; height: 292px;background-color:White;overflow: auto;"><div><!--
 
 Code highlighting produced by Actipro CodeHighlighter (freeware)
 http://www.CodeHighlighter.com/
@@ -28,9 +36,13 @@ http://www.CodeHighlighter.com/
   </span><span style="color: #800080;">12</span><span style="color: #000000;">:             writer.WriteLine(</span><span style="color: #800000;">&quot;</span><span style="color: #800000;">Hello World...</span><span style="color: #800000;">&quot;</span><span style="color: #000000;"> </span><span style="color: #000000;">+</span><span style="color: #000000;"> DateTime.UtcNow.ToShortDateString() </span><span style="color: #000000;">+</span><span style="color: #000000;"> </span><span style="color: #800000;">&quot;</span><span style="color: #800000;"> - </span><span style="color: #800000;">&quot;</span><span style="color: #000000;"> </span><span style="color: #000000;">+</span><span style="color: #000000;"> DateTime.UtcNow.ToShortTimeString());
   </span><span style="color: #800080;">13</span><span style="color: #000000;">:         }
   </span><span style="color: #800080;">14</span><span style="color: #000000;">:     }</span></div></pre><!-- Code inserted with Steve Dunn's Windows Live Writer Code Formatter Plugin.  http://dunnhq.com --></div>
-<p>If you have a look on the most popular examples you might recognize that the method “RunAndBlock” won’t be started. That is also not necessary since the program will be “woken” by the scheduler to open the “write” method. 
-<p>To get the code to work you have to deposit the following configurations. Afterwards you are able to zip the whole console application and upload it into the Azure portal and configure the scheduler. 
+  
+<p>If you have a look on the most popular examples you might recognize that the method “RunAndBlock” won’t be started. That is also not necessary since the program will be “woken” by the scheduler to open the “write” method. </p> 
+
+<p>To get the code to work you have to deposit the following configurations. Afterwards you are able to zip the whole console application and upload it into the Azure portal and configure the scheduler. </p> 
+
 <p>Configurations:</p>
+
 <div id="scid:9D7513F9-C04C-4721-824A-2B34F0212519:6a342399-8728-4682-b099-292e5b3f8e7e" class="wlWriterEditableSmartContent" style="float: none; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px"><pre style=" width: 704px; height: 312px;background-color:White;overflow: auto;"><div><!--
 
 Code highlighting produced by Actipro CodeHighlighter (freeware)
@@ -46,15 +58,26 @@ http://www.CodeHighlighter.com/
    </span><span style="color: #800080;">8</span><span style="color: #000000;">:     </span><span style="color: #000000;">&lt;</span><span style="color: #000000;">supportedRuntime version</span><span style="color: #000000;">=</span><span style="color: #800000;">&quot;</span><span style="color: #800000;">v4.0</span><span style="color: #800000;">&quot;</span><span style="color: #000000;"> sku</span><span style="color: #000000;">=</span><span style="color: #800000;">&quot;</span><span style="color: #800000;">.NETFramework,Version=v4.5</span><span style="color: #800000;">&quot;</span><span style="color: #000000;"> </span><span style="color: #000000;">/&gt;</span><span style="color: #000000;">
    </span><span style="color: #800080;">9</span><span style="color: #000000;">:   </span><span style="color: #000000;">&lt;/</span><span style="color: #000000;">startup</span><span style="color: #000000;">&gt;</span><span style="color: #000000;">
   </span><span style="color: #800080;">10</span><span style="color: #000000;">: </span><span style="color: #000000;">&lt;/</span><span style="color: #000000;">configuration</span><span style="color: #000000;">&gt;</span></div></pre><!-- Code inserted with Steve Dunn's Windows Live Writer Code Formatter Plugin.  http://dunnhq.com --></div>
-<p>&nbsp; <p><b>After the upload:</b>
-<p>The “WebJobs” are living inside the Azure Website. If you require a constantly running WebJob you have to make sure that the Azure website runs with “AlwaysOn=True”!
-<p>&nbsp; <p><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1160.png" width="570" height="119">
-<p>There is also a small administration portal for the WebJobs:
-<p><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1161.png" width="570" height="354">
-<p>&nbsp; <p>On the storage side a container will be created – including the container I’m using n the console.
-<p>&nbsp; <p><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1162.png" width="570" height="152"></p>
+  
+<p><b>After the upload:</b></p> 
+
+<p>The “WebJobs” are living inside the Azure Website. If you require a constantly running WebJob you have to make sure that the Azure website runs with “AlwaysOn=True”!</p> 
+
+<p><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1160.png" width="570" height="119"></p> 
+
+<p>There is also a small administration portal for the WebJobs:</p> 
+
+<p><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1161.png" width="570" height="354"></p> 
+
+<p>On the storage side a container will be created – including the container I’m using n the console.</p> 
+
+<p><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1162.png" width="570" height="152"></p>
+
 <p>And of course the data is also available:</p>
-<p><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1163.png" width="570" height="166">
-<p><b></b>&nbsp; <p><b>Result</b>
-<p>The first steps seem easy but at the same time quite clever. I like that so far. 
-<p>The (not to complicated) code is from a developer of the WebJob team on <a href="http://stackoverflow.com/questions/24486765/scheduled-azure-webjob-but-noautomatictrigger-method-not-invoked">Stackoverflow</a>. Of course it is also available on <a href="https://github.com/Code-Inside/Samples/tree/master/2014/WebJobsPlayground">GitHub</a>.
+
+<p><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; padding-right: 0px" border="0" alt="image" src="{{BASE_PATH}}/assets/wp-images-de/image_thumb1163.png" width="570" height="166"></p> 
+
+<p><b>Result</b></p> 
+
+<p>The first steps seem easy but at the same time quite clever. I like that so far. </p> 
+<p>The (not to complicated) code is from a developer of the WebJob team on <a href="http://stackoverflow.com/questions/24486765/scheduled-azure-webjob-but-noautomatictrigger-method-not-invoked">Stackoverflow</a>. Of course it is also available on <a href="https://github.com/Code-Inside/Samples/tree/master/2014/WebJobsPlayground">GitHub</a>.</p> 
