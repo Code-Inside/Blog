@@ -9,7 +9,7 @@ language: en
 ---
 {% include JB/setup %}
 
-_So this is now more or less a "pure" blog in English, but this post might be more interesting for German-Speaking developers, so I will switch to German, but don't be shy: If you are interested in one of the conference workshops ( to go just get in touch with the conference organizers._
+_So this is now more or less a "pure" blog in English, but this post might be more interesting for German-Speaking developers, so I will switch to German, but don't be shy: If you are interested in one of the conference workshops just get in touch with the conference organizers._
 
 ![x]({{BASE_PATH}}/assets/md-images/2015-02-17/logo.png "Spartakiade")
 
