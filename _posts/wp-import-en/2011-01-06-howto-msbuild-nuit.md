@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HowTo: MsBuild &NUit"
+title: "HowTo: MsBuild &NUnit"
 date: 2011-01-06 00:01
 author: CI Team
 comments: true
