@@ -15,7 +15,7 @@ With the ManagedESENT project you can store your data inside a ESENT database ve
 
 _* ... well... the interface is still awkward for a C# dev, but it is possible to build a nice abstraction around it. [Here](https://managedesent.codeplex.com/wikipage?title=ManagedEsentSample&referringTitle=ManagedEsentDocumentation) can you see a sample from the project._
 
-# ESENT Database Viewer: ESENT Workbench 
+## ESENT Database Viewer: ESENT Workbench 
 
 I found a very promising OSS project called [__ESENT Workbench__](https://bitbucket.org/gfkeogh/esentworkbench). You can build the source yourself or just use the [__release__](https://bitbucket.org/gfkeogh/esentworkbench/downloads).
 

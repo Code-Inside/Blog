@@ -11,7 +11,7 @@ language: en
 
 MSBuild is the default build engine in the .NET world, but if you do more with MSBuild you will find yourself in a XML-mess, so that's the reason why I tried out __FAKE__. You can find [a](http://blog.codeinside.eu/2010/12/15/howto-msbuild-stylecop/) [couple](http://blog.codeinside.eu/2010/11/12/howto-build-msbuild-solutions/) [of](http://blog.codeinside.eu/2010/11/21/howto-msdeploy-msbuild/) [MSBuild](http://blog.codeinside.eu/2010/11/24/howto-open-mstest-with-msbuild-2/) [related](http://blog.codeinside.eu/2011/01/06/howto-msbuild-nuit/) [posts](http://blog.codeinside.eu/2010/11/29/howto-open-mstest-with-msbuild/) [here](http://blog.codeinside.eu/2010/12/06/howto-web-config-transformations-with-msbuild/).
 
-# Enough from MSBuild, now meet FAKE:
+## Enough from MSBuild, now meet FAKE:
 - A DSL for build tasks (e.g. build following projects, copy stuff, deploy stuff etc.)
 - [Active community, OSS & written in F#](https://github.com/fsharp/FAKE)
 - You don't need to learn F# for using it (at least the basic tasks are easy)
@@ -20,13 +20,13 @@ MSBuild is the default build engine in the .NET world, but if you do more with M
 
 Our goal: Building, running tests, package NuGet Packages etc.
 
-# Let's start with the basics: Building
+## Let's start with the basics: Building
 
 I created a new console application and downloaded the [NuGet Command-line utility](http://docs.nuget.org/consume/installing-nuget):
 
 ![x]({{BASE_PATH}}/assets/md-images/2015-02-23/start.png "Starting point")
 
-# The build.fsx script
+## The build.fsx script
 
 So, now we get in touch with a very simple build script. _(Scroll down to read the description of each section)_
 
@@ -108,7 +108,7 @@ After that we invoke the 'Default' target with this line:
 
     RunTargetOrDefault "Default"
 	
-# Invoke the build.fsx
+## Invoke the build.fsx
 
 Now that we have our project in place and a valid FAKE script we need to invoke the script. The easiest option on Windows is a batch file like this:
 
@@ -121,7 +121,7 @@ First we need to load FAKE via NuGet and after that we invoke our __build.fsx__ 
 
 Now you or any build machine can invoke the batch file and start the build!
 
-# Our first FAKE script!
+## Our first FAKE script!
 
 The output is very well formatted and should explain the mechanics behind it good enough:
 
@@ -166,6 +166,8 @@ The output is very well formatted and should explain the mechanics behind it goo
     Status:    Ok
     ---------------------------------------------------------------------
 
+The resulting build artifact:
+	
 ![x]({{BASE_PATH}}/assets/md-images/2015-02-23/result.png "Result")
 
 You can find the complete [sample on GitHub](https://github.com/Code-Inside/Samples/tree/master/2015/LetsUseFake-Build/LetsUseFake)

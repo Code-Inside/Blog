@@ -25,10 +25,10 @@ YAML ( __Y__ AML __A__ in't __M__ arkup __L__ anguage, or in the beginning __Y__
 
 Not bad, right?
 
-# Why using YAML and not XML or JSON?
+## Why using YAML and not XML or JSON?
 As you can see above (hopefully...), it's pretty small in contrast to heavy markup of XML ( < HeavyStuff > ... < / HeavyStuff > ) and more readable than JSON ( { { { ... } } } - you know what I mean.), so for a config, which should be readable for humans, it's really useful.
 
-# YamlDotNet & Sample Code
+## YamlDotNet & Sample Code
 
 The easiest way to use and parse YAML in the .NET world is to use the [YamlDotNet NuGet Package](http://www.nuget.org/packages/YamlDotNet/). It is OSS and can be found on [__GitHub__](https://github.com/aaubry/YamlDotNet)
 
@@ -141,7 +141,7 @@ __Result: The test.yml file:__
       - Foobarbuzzi 5
       Test: Only defined in element2
 
-# When should you not use YAML?
+## When should you not use YAML?
 
 In my opionion YAML is really great if the content needs to be human readable or editable. For machine to machine communication, interface definitions or more "complex" definitions XML, JSON or any other format might be better. The strength of YAML is based on the easy to read and edit fact, thats all.  
 

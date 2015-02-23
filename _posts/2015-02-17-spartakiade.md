@@ -13,7 +13,7 @@ _So this is now more or less a "pure" blog in English, but this post might be mo
 
 ![x]({{BASE_PATH}}/assets/md-images/2015-02-17/logo.png "Spartakiade")
 
-# Spartakiade 2015, Berlin / März
+## Spartakiade 2015, Berlin / März
 
 Die Community-Konferenz [__Spartakiade__](http://spartakiade.org/) vom __21.–22. März 2015 in Berlin__ bietet Workshops zum Mitmachen an. Bei der Spartakiade kennt man keinen Zeitdruck und lässt Teilnehmer sich ausführlich und intensiv mit einem Thema beschäftigen. Die Dauer der Workshops geht weit über die Vortragsdauer der üblichen 60–90 Minuten auf "klassischen" Konferenzen hinaus, die meisten Workshops sind ganztägig. Und weil das wie beim Sport herausfordernd werden kann, heißt die Konferenz "Spartakiade" – namentlich auch bekannt als Sportveranstaltung.
 
