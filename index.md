@@ -8,13 +8,11 @@ title: Most Recent Blog Posts
   {% assign englishPosts = site.posts | where: "language", "en" %}
   {% for post in englishPosts limit:20 %}
 	<div class="row">
-		<div class="col-xs-6">
-			<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-		</div>
-		<div class="col-xs-6">
-			<span class="pull-right small">
-			{{ post.date | date_to_string }}
-			</span>
+		<div class="col-md-12">
+			<a href="{{ BASE_PATH }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
+			<p>{{ post.description }}</p>
+			<p><i>Posted on {{ post.date | date_to_string }} by {{ post.author }}</i></p>
+			<hr>
 		</div>
 	</div>
   {% endfor %}
