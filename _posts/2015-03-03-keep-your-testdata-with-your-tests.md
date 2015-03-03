@@ -29,7 +29,7 @@ Ok, so you could do some Kung-Fu with build scripts, but this is pretty hard to 
 
 The solution to this problem is pretty simple, but I didn't thought about it in a test project at first: __Embedding the test data inside the assembly as a resource!__ Like you do it with other resources (images, localizations etc.)
 
-![x]({{BASE_PATH}}/assets/md-images/2015-03-03/mind-blown.gif "Whooooho...")
+![x]({{BASE_PATH}}/assets/md-images/2015-03-03/mind_blown.gif "Whooooho...")
 
 ## Real world data!
 
