@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Keep your test data with your tests"
-description: "Unit Testing is great, but mocking the result of each 3rd party call can be a pain. Why not embedding actual "real world" test data inside your test data and keep you sane?"
-date: 2015-03-03 20:30
+description: "Unit Testing is great, but mocking the result of each 3rd party call can be a pain. Why not embedding actual real world test data inside your test data and keep you sane?"
+date: 2015-03-03 21:30
 author: robert.muehsig
 tags: [Testing, Unit Tests, TDD]
 language: en
@@ -82,6 +82,6 @@ __Set the Build-Action to: Embedded Resource!__
 
 You just need to set the Build-Action to "Embedded Resource" to get this to work (of course).
 	
- ![x]({{BASE_PATH}}/assets/md-images/2015-03-03/embed.png "Embedded Resource")
+![x]({{BASE_PATH}}/assets/md-images/2015-03-03/embed.png "Embedded Resource")
 
 Easy, right? 
