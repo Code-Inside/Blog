@@ -25,6 +25,8 @@ With this in place I could easily serialize our "Test-LDAP" and use that JSON in
 Now the question is: Where should I store the sample data? I think such data should be __very__ close to the actual test code. If you point to files on your disk you are doing it wrong. Why? Because the files are only on your machine and your build- or co-worker-machine didn't have this file and tests will fail. If you hit the file system in your test you should be very careful.
 Ok, so you could do some Kung-Fu with build scripts, but this is pretty hard to maintain in my opinion. 
 
+__Update: Don't handle the file stuff yourself, you can do this with a simple "Copy to output directory" action in the properties tab. See my larger comment in the last section of this post.__
+
 ## The Solution   
 
 The solution to this problem is pretty simple, but I didn't thought about it in a test project at first: __Embedding the test data inside the assembly as a resource!__ Like you do it with other resources (images, localizations etc.)
@@ -85,3 +87,55 @@ You just need to set the Build-Action to "Embedded Resource" to get this to work
 ![x]({{BASE_PATH}}/assets/md-images/2015-03-03/embed.png "Embedded Resource")
 
 Easy, right? 
+
+## Update based on comments
+
+I got a nice [Pull Request on GitHub for my sample code from Matthias Cavigelli](https://github.com/Code-Inside/Sloader/pull/9). __Instead of "Embedded Resources"__ you can also just use the __"Copy to Output Directory: Copy always"__. 
+There are some performance advantages using this approach and the test assemblies are not so heavy. I keept my "TestHelper" just to have one single way to handle test data:
+
+    /// <summary>
+    /// Wrapper around basic File IO Operations for the TestFiles.
+    /// I re-introduced this helper to have one centralized way to access 
+    /// sample data. Sample data could be embedded as Resource or just pure File 
+    /// Stuff. 
+    /// </summary>
+    public static class TestHelperForCurrentProject
+    {
+        private const string ResourcePath = "Sloader.Tests.{0}";
+
+        public static string GetTestFileContent(string path)
+        {
+            return File.ReadAllText(path);
+        }
+        public static string GetTestFilePath(params string[] strings)
+        {
+            return Path.Combine(strings);
+        }
+
+        public static Stream GetTestResourceFileStream(string folderAndFileInProjectPath)
+        {
+            var asm = Assembly.GetExecutingAssembly();
+            var resource = string.Format(ResourcePath, folderAndFileInProjectPath);
+
+            return asm.GetManifestResourceStream(resource);
+        }
+
+        public static string GetTestResourceFileContent(string folderAndFileInProjectPath)
+        {
+            var asm = Assembly.GetExecutingAssembly();
+            var resource = string.Format(ResourcePath, folderAndFileInProjectPath);
+
+            using (var stream = asm.GetManifestResourceStream(resource))
+            {
+                if (stream != null)
+                {
+                    var reader = new StreamReader(stream);
+                    return reader.ReadToEnd();
+                }
+            }
+            return String.Empty;
+        }
+
+    }
+
+Just read the [comments on the PR to get a full understanding](https://github.com/Code-Inside/Sloader/pull/9). In the end the result is the same: Using real world data inside tests. Thanks Matthias!
