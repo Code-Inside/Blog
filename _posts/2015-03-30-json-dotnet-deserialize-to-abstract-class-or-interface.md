@@ -9,7 +9,6 @@ language: en
 ---
 {% include JB/setup %}
 
-Ok, this is my scenario: We have a common base class and two or more implementations of it and we want to serialize a __List<Base>__ to JSON and deserialize it - pretty straightforward I would say. The NuGet Package of choice for JSON is (of course) JSON.NET.
 
 ## Base Class & Implementations
 
