@@ -63,10 +63,10 @@ _Additional information: Could not create an instance of type ConsoleApplication
 
 ## Introducing a simple JsonConverter
 
-The exception is pretty clear, because JSON.NET has no knowledge about our convention. The way to go* is to write a __JsonConverter__. I found a couple of implementations on StackOverflow, but [this one](http://stackoverflow.com/questions/22537233/json-net-how-to-deserialize-interface-property-based-on-parent-holder-object/22539730#22539730) seems to be the easiest and best option.	
+The exception is pretty clear, because JSON.NET has no knowledge about our convention. The way to go__*__ is to write a __JsonConverter__. I found a couple of implementations on StackOverflow, but [this one](http://stackoverflow.com/questions/22537233/json-net-how-to-deserialize-interface-property-based-on-parent-holder-object/22539730#22539730) seems to be the easiest and best option.	
 
-_*Small Update based on the comment from Michael:_
-JSON.NET can also include the TypeName in the JSON as a "$type" property. If this is not an issue for you, then just add the "TypeNameHandling.Auto" to the JsonSerializerSettings and it will work. In my actual scenario I want a clean JSON output, without JSON.NET magic. That's the reason for the converter.
+__*__ _Small Update based on the comment from Michael:
+JSON.NET can also include the TypeName in the JSON as a "$type" property. If this is not an issue for you, then just add the "TypeNameHandling.Auto" to the JsonSerializerSettings and it will work. In my actual scenario I want a clean JSON output, without JSON.NET magic. That's the reason for the converter._
 
     public class FooConverter : JsonConverter
     {
