@@ -243,6 +243,29 @@ Using this filter now is pretty simple:
 
 The "IdentityBasicAuthentication" filter will try to authenticate the user and after that the default "Authorize" filter will kick in.
 
+## Error-Results for different scenarios
+
+This question came up in the comments: What are the results for the different "unauthenticated"-scenarios?
+
+Of course, if the Authorization-Header is valid and has the correct username and password the result is __HTTP 200__ with the desired result. If the authentication fails the "AuthenticationFailureResult" will set the HTTP Status Code to 401. There are some slightly different results based on the input:
+
+__Without any Authorization-Header: "HTTP 401 Unauthroized"__
+
+![x]({{BASE_PATH}}/assets/md-images/2015-04-17/noauth.png "No Authentication-Header given")
+
+__With an invalid Authorization-Header: "HTTP 401 Invalid credentials"__
+
+![x]({{BASE_PATH}}/assets/md-images/2015-04-17/invalidcredentials.png "Invalid credentials")
+
+__With an valid Authorization-Header, but "wrong" or unkown username or password: "HTTP 401 Invalid username or password"__
+
+![x]({{BASE_PATH}}/assets/md-images/2015-04-17/usernameorpasswordunkown.png "Unkown credentials")
+
+For security reasons the service should not return further information, e.g. username found, but password wrong. I hope my sample is correct, if not: Leave a comment.
+For more information is [OWASP.org](https://www.owasp.org/index.php/Authentication_Cheat_Sheet#Authentication_Responses) a good place. 
+
+_Thanks John Kors for the question!_
+
 Pretty simple, right?
 
 The full source code can be found on [GitHub](https://github.com/Code-Inside/Samples/tree/master/2015/WebApiBasicAuth).
