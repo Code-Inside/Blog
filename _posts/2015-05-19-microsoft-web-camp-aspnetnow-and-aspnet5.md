@@ -9,7 +9,7 @@ language: en
 ---
 {% include JB/setup %}
 
-I did two sessions about the current ASP.NET Stack and the upcoming ASP.NET 5 at the [Microsoft Web Camp in Zurich](https://msdn.microsoft.com/de-ch/aa570302.aspx?EventID=5ea79d5a-507f-427b-a101-5810ce8dea21) today. The talk was in German and so are most of the slides, but for the record I will link the slides and the code.
+I did two sessions today about the current ASP.NET Stack and the upcoming ASP.NET 5 at the [Microsoft Web Camp in Zurich](https://msdn.microsoft.com/de-ch/aa570302.aspx?EventID=5ea79d5a-507f-427b-a101-5810ce8dea21). The talk was in German and so are most of the slides, but for the record I will link the slides and the code.
 
 ## State of the Art Web Development mit ASP.NET
 
