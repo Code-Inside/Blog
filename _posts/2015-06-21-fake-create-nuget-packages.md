@@ -94,7 +94,7 @@ __Building the NuGet package - with the correct version__
 The built-in [NuGetHelper](http://fsharp.github.io/FAKE/apidocs/fake-nugethelper.html) will invoke nuget.exe with the given nuspec. We set the WorkingDir to the output of the other target and set the OutputPath to another location. The version handling is a bit complicated, because of this [issue](https://github.com/fsharp/FAKE/issues/830). The default Version is 1.0.0 and FAKE will currently ignore the Version-Information inside the .nuspec.
 The workaround is: Parse the .nuspec and get the version number and pass it to the NuGetHelper. Easy, right?
 
-__ Make sure you include System.Xml.Linq__
+__Make sure you include System.Xml.Linq__
 
 To get things running you will need to reference System.Xml.Linq like this:
 
