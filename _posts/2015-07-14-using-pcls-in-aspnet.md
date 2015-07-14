@@ -19,7 +19,7 @@ language: en
 
 ## Fix:
 
-Put Assembly-Reference in the web.config:
+Put this Assembly-Reference in the web.config:
 
     <compilation debug="true" targetFramework="4.5">
         <assemblies>
