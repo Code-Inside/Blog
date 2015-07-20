@@ -12,7 +12,7 @@ language: en
 In this blogpost I will take a deeper look at the LiveSDK to authenticate users by their Microsoft Accounts and display some profile information of the given user.
 
 ## Didn't ASP.NET Identity try to solve this problem?
-If you only need the "Authentication"-Part, this might be true (here is one quick [walkthrough](http://www.benday.com/2014/02/25/walkthrough-asp-net-mvc-identity-with-microsoft-account-authentication/). In theory you are only one checkbox away from the solution with the new Identity system.
+If you only need the "Authentication"-Part, this might be true (here is one quick [walkthrough](http://www.benday.com/2014/02/25/walkthrough-asp-net-mvc-identity-with-microsoft-account-authentication/)). In theory you are only one checkbox away from the solution with the new Identity system.
 
 __But__ if you need deeper integration and want to retrieve data from OneDrive, OneNote or Outlook.com then you need to take a look at the LiveSDK. Maybe you can use the auth token from the ASP.NET Identity part and use this for the LiveSDK - but I'm not sure on this.
 Another point is that the ASP.NET Identity stuff feels so bloated and the database part is scary. 
