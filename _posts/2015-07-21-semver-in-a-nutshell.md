@@ -18,14 +18,14 @@ Because I like blogging I decided to write a small blogpost about SemVer.
 
 ## Why Semantic Versioning (SemVer)
 
-In our industry we use version numbers a lot. The typical naming is MAJOR.MINOR.PATCH sometimes also MAJOR.MINOR.PATCH.BUILD or instead of PATCH you could say REVISION - it is more or less the same.  
+In our industry we use version numbers a lot. The typical naming is *MAJOR.MINOR.PATCH*, sometimes also *MAJOR.MINOR.PATCH.BUILD* or instead of *PATCH* you could say *REVISION* - it is more or less the same.  
 
-But the problem is: This is not very self describing. What is MAJOR or a REVISION? When should I change the MAJOR version and when should I increase the MINOR version etc.
+But the problem is: This is not very self describing. What is *MAJOR* or a *REVISION*? When should I change the *MAJOR* version and when should I increase the *MINOR* version etc.
 You see: It sounds simple, but it is really complicated.
 
 ## SemVer
 
-[SemVer](http://semver.org/) is a pretty simple concept to give each part a better description.
+__[SemVer](http://semver.org/)__ is a pretty simple concept to give each part a better description.
 
 > Given a version number MAJOR.MINOR.PATCH, increment the:
 > 
@@ -34,9 +34,9 @@ You see: It sounds simple, but it is really complicated.
 > PATCH version when you make backwards-compatible bug fixes.
 > Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
-If you change your API with breaking changes: Increase the MAJOR version. A new feature? Increase the MINOR version. Bugfix? Simple... 
+If you change your API with breaking changes: Increase the MAJOR version. A new feature? Increase the *MINOR* version. Bugfix? Simple... 
 
-So in short: Breaking.Feature.Bugfix.
+So in short: __Breaking.Feature.Bugfix__
 
 ## It's a technical solution - don't try to get nice Marketing-Version-Numbers.
 
