@@ -34,7 +34,7 @@ __[SemVer](http://semver.org/)__ is a pretty simple concept to give each part a 
 > PATCH version when you make backwards-compatible bug fixes.
 > Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
-If you change your API with breaking changes: Increase the MAJOR version. A new feature? Increase the *MINOR* version. Bugfix? Simple... 
+If you change your API with breaking changes: Increase the *MAJOR* version. A new feature? Increase the *MINOR* version. Bugfix? Simple... 
 
 So in short: __Breaking.Feature.Bugfix__
 
