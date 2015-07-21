@@ -38,7 +38,7 @@ If you change your API with breaking changes: Increase the MAJOR version. A new 
 
 So in short: __Breaking.Feature.Bugfix__
 
-## It's a technical solution - don't try to get nice Marketing-Version-Numbers.
+## It's a technical solution - don't try to get nice Marketing-Version-Numbers
 
 SemVer is a technical solution - if you want to get great Marketing-Version-Numbers this will probably fail, so maybe you should split the "commercial" and "technical" version number.
 
