@@ -38,4 +38,30 @@ I discovered reg.exe and found it really handy, because it is very flexible and 
 
 __[Reg.exe](https://technet.microsoft.com/en-us/library/cc732643.aspx)__ is shipped with Windows since... mh... like forever and should be safe to use.
 
+## Solution 3: Combine the two other solutions
+
+Of course you could invoke reg.exe also via code. This way you can still use any .reg file, but "embed" it inside your application.
+
+    string path = "\"" + filepath + "\""; 
+    Process proc = new Process(); 
+ 
+    try 
+    { 
+        proc.StartInfo.FileName = "reg.exe"; 
+        proc.StartInfo.WindowStyle = ProcessWindowStyle.Hidden; 
+        proc.StartInfo.CreateNoWindow = true; 
+        proc.StartInfo.UseShellExecute = false; 
+ 
+        string command = "import " + path; 
+        proc.StartInfo.Arguments = command; 
+        proc.Start(); 
+ 
+        proc.WaitForExit(); 
+    }   
+    catch (System.Exception) 
+    { 
+        proc.Dispose(); 
+    }
+    
+    
 Hope this helps!
