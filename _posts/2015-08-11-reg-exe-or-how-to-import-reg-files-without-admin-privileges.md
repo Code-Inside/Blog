@@ -43,25 +43,27 @@ __[Reg.exe](https://technet.microsoft.com/en-us/library/cc732643.aspx)__ is ship
 Of course you could invoke reg.exe also via code. This way you can still use any .reg file, but "embed" it inside your application.
 
     string path = "\"" + filepath + "\""; 
-    Process proc = new Process(); 
- 
-    try 
-    { 
-        proc.StartInfo.FileName = "reg.exe"; 
-        proc.StartInfo.WindowStyle = ProcessWindowStyle.Hidden; 
-        proc.StartInfo.CreateNoWindow = true; 
-        proc.StartInfo.UseShellExecute = false; 
+    using (var process = new Process())
+    {
+        try 
+        { 
+        process.StartInfo.FileName = "reg.exe"; 
+        process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden; 
+        process.StartInfo.CreateNoWindow = true; 
+        process.StartInfo.UseShellExecute = false; 
  
         string command = "import " + path; 
-        proc.StartInfo.Arguments = command; 
-        proc.Start(); 
+        process.StartInfo.Arguments = command; 
+        process.Start(); 
  
-        proc.WaitForExit(); 
-    }   
-    catch (System.Exception) 
-    { 
-        proc.Dispose(); 
-    }
+        process.WaitForExit(); 
+        }   
+        catch (System.Exception) 
+        { 
+            // log...?
+            proc.Dispose(); 
+        }
+    }    
     
     
 Hope this helps!
