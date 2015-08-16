@@ -61,7 +61,6 @@ Of course you could invoke reg.exe also via code. This way you can still use any
         catch (System.Exception) 
         { 
             // log...?
-            proc.Dispose(); 
         }
     }    
     
