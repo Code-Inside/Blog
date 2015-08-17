@@ -47,16 +47,14 @@ Of course you could invoke reg.exe also via code. This way you can still use any
     {
         try 
         { 
-        process.StartInfo.FileName = "reg.exe"; 
-        process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden; 
-        process.StartInfo.CreateNoWindow = true; 
-        process.StartInfo.UseShellExecute = false; 
- 
-        string command = "import " + path; 
-        process.StartInfo.Arguments = command; 
-        process.Start(); 
- 
-        process.WaitForExit(); 
+            process.StartInfo.FileName = "reg.exe"; 
+            process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden; 
+            process.StartInfo.CreateNoWindow = true; 
+            process.StartInfo.UseShellExecute = false; 
+            string command = "import " + path; 
+            process.StartInfo.Arguments = command; 
+            process.Start(); 
+            process.WaitForExit(); 
         }   
         catch (System.Exception) 
         { 
