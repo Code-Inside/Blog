@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WPF, Chrome Embedded and WebApi Selfhosted"
+title: "WPF, Chrome Embedded and WebApi Self-hosted"
 description: "... or how to ditch XAML and use Web-Technologies for desktop apps."
 date: 2015-09-29 23:30
 author: robert.muehsig
