@@ -2,20 +2,19 @@
 layout: post
 title: "WPF, Chrome Embedded and WebApi Selfhosted"
 description: "... or how to ditch XAML and use Web-Technology for a desktop app."
-date: 2015-09-23 23:30
+date: 2015-09-29 23:30
 author: robert.muehsig
 tags: [WPF, CEF, WebAPI]
 language: en
 ---
 {% include JB/setup %}
 
-Building "rich desktop clients" is not a very easy task. WPF can be a good choice, but if you have zero knowledge in XAML you might end up in hell. If you are more a "web guy" or just want to reuse existing code from your Web-App and want to stick to your .NET know-how this blogpost might come handy.
+Building "rich desktop clients" is not a very easy task. WPF can be a good choice for "fat" Windows Apps, but if you have zero knowledge in XAML you might end up in hell, because... XAML, right? If you are more a "web guy" (like myself) or just want to reuse existing code from your Web-App and want to stick to your .NET know-how this blogpost might come handy.
 
 ## Cross Platfrom?
 
-If you want to go __real cross platform__ and don't have any issues with Javascript there are other options available: __[nw.js](http://nwjs.io/)__ or for more advanced use cases __[Electron](http://electron.atom.io/)__. Both frameworks seems like a good starting point, but in a "Windows Only"-environment (well... this is a bet...) or with an existing large .NET code base not the ideal solution.
+If you want to go __real cross platform__ and don't have any issues with Javascript there are other options available: __[nw.js](http://nwjs.io/)__ or for more advanced use cases __[Electron](http://electron.atom.io/)__. Both frameworks seems like a good starting point, but in a "Windows Only"-environment (well... this might be a bet on the future...) or with an existing large .NET code base not the ideal solution.
  
-
 ## The idea
 
 So, back to .NET land and the idea is clever and kinda stupid together: We want to build a small app that embeds a browser __and__ a server (this is more or less the same trick from Electron & co.).
@@ -23,29 +22,22 @@ The host should be a WPF application, because with this we could combine interes
 
 ## Building blocks: The Browser
 
-If you just want to display "Web-Content" you can just use the __[WebBrowser-Control](https://msdn.microsoft.com/en-us/library/system.windows.controls.webbrowser(v=vs.110).aspx)__. The most common and annoying problem is that the default rendering engine is stuck in the stone age: Internet Explorer 7. Even on Windows 10 the default rendering engine will be set to IE7.
+If you just want to display "Web-Content" you can just use the __[built-in WebBrowser-Control](https://msdn.microsoft.com/en-us/library/system.windows.controls.webbrowser(v=vs.110).aspx)__. The most common and annoying problem is that the default rendering engine is stuck in the stone age: Internet Explorer 7. Even on Windows 10 the default rendering engine will be set to IE7.
 To fix this you can use some [Registry-Magic](https://weblog.west-wind.com/posts/2011/May/21/Web-Browser-Control-Specifying-the-IE-Version), but this is not very elegant.
 
-Another solution would be to take a deeper look at the [Chromium Embedded Framework for .NET](https://github.com/cefsharp/CefSharp). It is the rendering engine of Chrome - which gives you a super powerful platform. The only downside: You need to [compile your app for x86 or x64](https://github.com/cefsharp/CefSharp/issues/576#issuecomment-61926661).
+A better solution would be to take a deeper look at the [Chromium Embedded Framework for .NET](https://github.com/cefsharp/CefSharp). It is the rendering engine of Chrome - which gives you a super powerful platform - and is super easy to use.
+The only downside: You need to [compile your app for x86 or x64 - AnyCPU won't work](https://github.com/cefsharp/CefSharp/issues/576#issuecomment-61926661).
+
+So... let's take a look how we can achieve our goal.
 
 ## Building blocks: The Server
 
-A good option is using the HttpListener with WebApi - of course you could also use NancyFx or any other "self-host" web framework. The client will use the HttpListener from your System and will listen to a specific port. As long as you use a high port number you don't need admin privileges.
+A good option is using the HttpListener with the ASP.NET WebApi - of course you could also use NancyFx or any other OWIN/"self-host" web framework. The hosting application will use the HttpListener from your System and will listen to a specific port. As long as you use a high port number you don't need admin privileges.
 
-I just embed the HTML inside the application, but this could be read from a resource file or any other storage.
+For the demo I embedded the HTML inside the application, but this could be read from a resource file or any other storage in real life.
 
-## Building blocks: Browser-to-App communication
+As far as I know maybe you could also do some other hosting tricks, so that the application doesn't really needs to listen to a specific port, e.g. hosting the stuff in-memory.
 
-There are several ways how to interact between the hosting app and the web-app. One way is via URLs or using standard web methods. If you host the server component, then you can invoke anything inside your app.
-Another solution would be to register a "scriptable" Javascript object inside the Browser-Control. I already blogged about the ["window.external" api](http://blog.codeinside.eu/2013/09/04/interaktionen-zwischen-web-und-windows-desktopwindows-phonewinrt-mit-objectforscripting-window-external-notify/) (in German). With this "scriptable" object in place you can call .NET functions from Javascript or the other way around.
-
-## Workflow
-
-* Application starts and "self-hosts" the WebApi and listens on Port 9000 
-* WPF Window is displayed with a large button
-* The Button will invoke the actual WebBrowser Control and set up a "scriptable" Javascript object
-* User fills in the desired data, press OK inside the WebBrowser and sends the data (in this case) to the WebBrowser-Host via the "scritable" Javascript object
-* Our technology mix is complete: We can host our own WebApp inside our WinApp. 
 
 ## Code: Server Part
 
@@ -114,7 +106,7 @@ __The controller code: Simple ApiController which reads a embedded HTML file __
         }
 
     }
-	
+
 ## Code: The Browser
 
 This is more or less the ["minimal cef" sample](https://github.com/cefsharp/CefSharp.MinimalExample/), but for the sample it is good enough:
@@ -195,8 +187,8 @@ This is more or less the ["minimal cef" sample](https://github.com/cefsharp/CefS
     
                 var result = JSON.stringify($("form").serializeArray());
     
-                if (webViewHost != null) {
-                    webViewHost.done(result);
+                if (sampleWebViewHost != null) {
+                    sampleWebViewHost.done(result);
                 }
     
                 return false;
@@ -206,6 +198,21 @@ This is more or less the ["minimal cef" sample](https://github.com/cefsharp/CefS
     </script>
     </body>
     </html>
+	
+## Building blocks: Browser-to-App communication
+
+There are several ways how to interact between the hosting app and the web-app. One way is via URLs or using standard web methods. If you host the server component, then you can invoke anything inside your app.
+Another solution would be to register a "scriptable" Javascript object inside the Browser-Control. I already blogged about the ["window.external" api](http://blog.codeinside.eu/2013/09/04/interaktionen-zwischen-web-und-windows-desktopwindows-phonewinrt-mit-objectforscripting-window-external-notify/) (in German). With this "scriptable" object in place you can call .NET functions from Javascript or the other way around.
+
+## The full lifecycle
+
+* Application starts and "self-hosts" the WebApi and listens on Port 9000 
+* WPF Window is displayed with a large button
+* The Button will invoke the actual WebBrowser Control and set up a "scriptable" Javascript object
+* User fills in the desired data, press OK inside the WebBrowser and sends the data (in this case) to the WebBrowser-Host via the "scriptable" Javascript object
+* Our technology mix is complete: We can host our own WebApp inside our WinApp 
+
+![x]({{BASE_PATH}}/assets/md-images/2015-09-29/demo.gif "Demo")
 
 ## TL;DR
 
@@ -213,3 +220,5 @@ Ok... as I told you this blogpost shows you a really stupid or really clever tri
 In this example we used a self-hosting WebApi to display an embedded HTML page via CEF Sharp inside a Windows App. 
 
 It's magic, right? 
+
+The full code can be found on __[GitHub](https://github.com/Code-Inside/Samples/tree/master/2015/SelfHostAndCef)__.
