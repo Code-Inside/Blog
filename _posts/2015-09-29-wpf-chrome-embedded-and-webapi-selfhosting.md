@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WPF, Chrome Embedded and WebApi Selfhosted"
-description: "... or how to ditch XAML and use Web-Technology for a desktop app."
+description: "... or how to ditch XAML and use Web-Technologies for desktop apps."
 date: 2015-09-29 23:30
 author: robert.muehsig
 tags: [WPF, CEF, WebAPI]
@@ -76,7 +76,9 @@ __The (important) Server Parts:__
         }
     }
 	
-__The controller code: Simple ApiController which reads a embedded HTML file __
+
+__The controller code: Simple ApiController which reads a embedded HTML file.__
+
 
 	public class DemoController : ApiController
     {
@@ -109,7 +111,7 @@ __The controller code: Simple ApiController which reads a embedded HTML file __
 
 ## Code: The Browser
 
-This is more or less the ["minimal cef" sample](https://github.com/cefsharp/CefSharp.MinimalExample/), but for the sample it is good enough:
+This is more or less the __["minimal cef" sample](https://github.com/cefsharp/CefSharp.MinimalExample/)__, but for the sample it is good enough:
 
     <Window x:Class="SelfHostAndCef.DialogWindow"
             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
