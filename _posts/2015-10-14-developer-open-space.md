@@ -22,7 +22,7 @@ Sounds good, right? Just visit the __[official website](https://devopenspace.de/
 
 ## Key Facts
 
-* No fixed agenda or spearks
+* No fixed agenda or speakers
 * If you have a topic to talk about: Just do it
 * You are a part of this "conference"
 * Location: Leipzig, Germany
