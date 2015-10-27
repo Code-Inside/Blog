@@ -90,7 +90,7 @@ Using the XmlSerializer is simple:
     XmlSerializer serializer = new XmlSerializer(typeof(Root));
     var test = serializer.Deserialize(readFileStream);
 
-![x]({{BASE_PATH}}/assets/md-images/2015-10-25/result.png "Xml Deserializer")
+![x]({{BASE_PATH}}/assets/md-images/2015-10-25/result.PNG "Xml Deserializer")
 		
 ## Serializing
 
