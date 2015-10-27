@@ -26,7 +26,7 @@ So, if I want to write a key under the HKEY_CURRENT_USER with a normal user acco
 
 ## Solution 1: Via Code
 
-Code something via the [Registry-APIs](https://msdn.microsoft.com/en-us/library/microsoft.win32.registry(v=vs.110).aspx) in .NET (or any other language...) and it should work, without messing around with admin stuff or turing off the UAC, which is really a stupid idea.
+Code something via the [Registry-APIs](https://msdn.microsoft.com/en-us/library/microsoft.win32.registry(v=vs.110).aspx) in .NET (or any other language...) and it should work, without messing around with admin stuff or turning off the UAC, which is a really stupid idea.
 
 ## Solution 2: Via reg.exe
 
