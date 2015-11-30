@@ -99,6 +99,9 @@ In the XAML Part I also hooked up some events, so your application can get notif
 
 ![x]({{BASE_PATH}}/assets/md-images/2015-11-30/jumplistresult.png "Result of Democode")
 	
+Oh... and of course: Windows 10 still supports JumpLists and there are rumors that even UWP apps will somehow support JumpLists.	
+	
+A good read was [this blogpost](http://elegantcode.com/2011/01/21/wpf-windows-7-taskbar-part-two-jump-lists/) (and it also contains information about other Windows 7 "Taskbar"-enhancments which are still valid for Windows 10). 
 
 Hope this helps!
 
