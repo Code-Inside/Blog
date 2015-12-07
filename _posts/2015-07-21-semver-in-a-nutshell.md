@@ -47,7 +47,7 @@ SemVer is a technical solution - if you want to get great Marketing-Version-Numb
 
 ## Learn more
 
-I had read the "Breaking.Feature.Bugfix" summary somewhere else (maybe from (this blogpost?)[https://medium.com/javascript-scene/software-versions-are-broken-3d2dc0da0783#.dcegtibf1]), but I can't remember the original author (Kudos!), but I received this Tweet with a full talk about exactly this topic, so if you want to learn more:
+I had read the "Breaking.Feature.Bugfix" summary somewhere else (maybe from [this blogpost?](https://medium.com/javascript-scene/software-versions-are-broken-3d2dc0da0783#.dcegtibf1)), but I can't remember the original author (Kudos!), but I received this Tweet with a full talk about exactly this topic, so if you want to learn more:
 
 <blockquote class="twitter-tweet" lang="de"><p lang="en" dir="ltr"><a href="https://twitter.com/robert0muehsig">@robert0muehsig</a> <a href="https://twitter.com/PascalPrecht">@PascalPrecht</a> Glad you like it :) The original tweet: <a href="https://t.co/QGlydUsPYg">https://t.co/QGlydUsPYg</a> + an entire talk: <a href="https://t.co/iydJudpqYW">https://t.co/iydJudpqYW</a></p>&mdash; Stephan Bönnemann (@boennemann) <a href="https://twitter.com/boennemann/status/623451396386476032">21. Juli 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
