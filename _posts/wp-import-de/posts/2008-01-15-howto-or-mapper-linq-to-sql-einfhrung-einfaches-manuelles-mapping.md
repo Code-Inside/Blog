@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: O/R Mapper LINQ to SQL - Einführung & einfaches manuelles Mapping"
 date: 2008-01-15 23:43
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET 3.5, C# 3.0, HowTo, LINQ, LINQ to SQL]

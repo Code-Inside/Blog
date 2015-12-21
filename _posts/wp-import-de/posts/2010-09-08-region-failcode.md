@@ -2,7 +2,7 @@
 layout: post
 title: "#region == Failcode"
 date: 2010-09-08 22:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [Fail, FailCode, region, Style]

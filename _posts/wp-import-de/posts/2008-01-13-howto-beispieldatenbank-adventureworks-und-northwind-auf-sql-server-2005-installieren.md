@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Beispieldatenbank &quot;AdventureWorks&quot; und &quot;Northwind&quot; auf SQL Server 2005/2008 installieren"
 date: 2008-01-13 20:34
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [HowTo, SQL, SQL Server 2005, SQL Server 2008]

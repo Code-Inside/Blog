@@ -2,7 +2,7 @@
 layout: post
 title: ".NET 3.5 Enhancements Training Kit"
 date: 2008-04-13 13:45
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: ["Astoria", .NET 3.5, ADO.NET Data Services, ADO.NET Entity Framework, AJAX, ASP.NET MVC, Silverlight, Traning Kit]

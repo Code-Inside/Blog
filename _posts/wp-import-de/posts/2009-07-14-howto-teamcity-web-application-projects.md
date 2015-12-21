@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: TeamCity & Web Application Projects"
 date: 2009-07-14 22:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, Build, Build Server, How, TeamCity, Visual Studio, Web Applicaiton Projects]

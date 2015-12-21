@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: JSON / AJAX - Webservices mit WCF erstellen"
 date: 2008-02-20 23:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, .NET 3.5, AJAX, HowTo, Json, WCF]

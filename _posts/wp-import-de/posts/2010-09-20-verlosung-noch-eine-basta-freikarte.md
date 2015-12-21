@@ -2,7 +2,7 @@
 layout: post
 title: "Verlosung: Noch eine Basta! Freikarte"
 date: 2010-09-20 12:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

@@ -3,7 +3,7 @@ layout: post
 title: "FAKE: Create NuGet Packages without knowing a tiny bit of F#"
 description: "After building and testing we take the next step: Building an actual NuGet Packages with FAKE."
 date: 2015-06-21 23:59
-author: robert.muehsig
+author: Robert Muehsig
 tags: [FAKE, NuGet]
 language: en
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Ein Blick in die Applikation - Logging und Log4Net Dashboard"
 date: 2009-09-28 21:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [HowTo, HowToCode, log4net, logging]

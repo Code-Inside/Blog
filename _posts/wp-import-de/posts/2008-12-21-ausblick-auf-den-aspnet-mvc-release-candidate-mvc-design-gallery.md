@@ -2,7 +2,7 @@
 layout: post
 title: "Ausblick auf den ASP.NET MVC Release Candidate & MVC Design Gallery"
 date: 2008-12-21 13:20
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, Design Gallery, MVC]

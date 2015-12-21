@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET MVC ActionLinks mit Parametern"
 date: 2009-09-21 21:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Action, ASP.NET MVC, HowTo, Links, MVC, URL]

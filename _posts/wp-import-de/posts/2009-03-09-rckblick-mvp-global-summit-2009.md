@@ -2,7 +2,7 @@
 layout: post
 title: "Rückblick: MVP Global Summit 2009"
 date: 2009-03-09 21:26
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [MVP, Summit]

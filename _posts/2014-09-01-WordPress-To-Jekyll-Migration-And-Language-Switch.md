@@ -3,7 +3,7 @@ layout: post
 title: "Wordpress to Jekyll Migration and Language switch"
 description: "We started the Migration from Wordpress to Jekyll last month - this is our first post on the new platform and in English!"
 date: 2014-09-01 00:10
-author: robert.muehsig
+author: Robert Muehsig
 tags: [Migration, Jekyll, WordPress, Blog, GitHub Pages]
 language: en
 ---

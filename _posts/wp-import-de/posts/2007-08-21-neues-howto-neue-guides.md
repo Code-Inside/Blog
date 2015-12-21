@@ -2,7 +2,7 @@
 layout: post
 title: "Neues HowTo, &quot;Neue&quot; Guides"
 date: 2007-08-21 22:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [Guide, HowTo, Silverlight, Xml]

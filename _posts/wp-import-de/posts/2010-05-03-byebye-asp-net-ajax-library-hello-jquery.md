@@ -2,7 +2,7 @@
 layout: post
 title: "Byebye ASP.NET AJAX Library, hello jQuery"
 date: 2010-05-03 07:57
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [AJAX, jQuery]

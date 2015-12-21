@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Vollständige Seiten via AJAX & normalen GET Request aufrufbar machen in ASP.NET MVC"
 date: 2009-10-14 20:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [AJAX, ASP.NET MVC, HowTo]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: 3-Tier / 3-Schichten Architektur"
 date: 2008-07-09 21:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [3-Schichten, 3-Tier, Architektur, HowTo, Unit Tests]

@@ -2,7 +2,7 @@
 layout: post
 title: "Source Maps – Javascript wird wieder les- und wartbar!"
 date: 2012-04-10 23:49
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Browser, Chrome, Javascript]

@@ -2,7 +2,7 @@
 layout: post
 title: "Free eBook: Programming Windows Phone 7"
 date: 2010-08-04 09:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [eBook, Windows Phone 7]

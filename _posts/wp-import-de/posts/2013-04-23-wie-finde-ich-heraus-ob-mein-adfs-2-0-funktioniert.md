@@ -2,7 +2,7 @@
 layout: post
 title: "Wie finde ich heraus ob mein ADFS 2.0 funktioniert?"
 date: 2013-04-23 22:10
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [DevOps, HowTo]
 tags: [ADFS, Auth, DevOps, HowTo]

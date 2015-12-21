@@ -2,7 +2,7 @@
 layout: post
 title: "Open Source: Coverflow für WPF Applikationen und mehr"
 date: 2008-03-31 11:14
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Coverflow, Open Source, UI, WPF]

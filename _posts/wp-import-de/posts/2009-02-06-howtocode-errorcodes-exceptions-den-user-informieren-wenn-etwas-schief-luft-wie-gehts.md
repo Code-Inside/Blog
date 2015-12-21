@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: ErrorCodes, Exceptions, den User informieren, wenn etwas schief läuft - wie gehts?"
 date: 2009-02-06 01:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [Errors, Exceptions, HowTo, HowToCode]

@@ -2,7 +2,7 @@
 layout: post
 title: "Caller Information mit .NET 4.5 oder “Wer hat die Funktion aufgerufen?”"
 date: 2013-09-16 17:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET 4.5, logging]

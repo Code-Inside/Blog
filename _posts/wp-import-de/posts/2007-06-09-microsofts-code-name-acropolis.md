@@ -2,7 +2,7 @@
 layout: post
 title: "Microsofts Code Name &quot;Acropolis&quot; "
 date: 2007-06-09 19:42
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: ["Acropolis"]

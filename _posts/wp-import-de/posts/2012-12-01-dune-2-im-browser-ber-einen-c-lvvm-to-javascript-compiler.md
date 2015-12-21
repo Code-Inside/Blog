@@ -2,7 +2,7 @@
 layout: post
 title: "Dune 2 … im Browser. Über einen C / LVVM to Javascript Compiler."
 date: 2012-12-01 10:36
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Games, HTML5, Javascript]

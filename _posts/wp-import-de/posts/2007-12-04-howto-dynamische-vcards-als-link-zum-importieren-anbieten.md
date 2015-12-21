@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Dynamische vCards als Link zum Importieren anbieten"
 date: 2007-12-04 21:02
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASHX, ASP.NET, HowTo, Outlook, vCard]

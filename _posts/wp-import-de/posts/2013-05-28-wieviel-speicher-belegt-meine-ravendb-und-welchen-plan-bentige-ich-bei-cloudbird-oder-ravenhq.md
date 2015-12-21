@@ -2,7 +2,7 @@
 layout: post
 title: "Wieviel Speicher belegt meine RavenDB? Und welchen Plan benötige ich bei CloudBird oder RavenHQ?"
 date: 2013-05-28 21:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [CloudBird, RavenDB, RavenHQ]

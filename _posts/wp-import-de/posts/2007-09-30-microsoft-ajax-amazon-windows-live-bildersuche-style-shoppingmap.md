@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft AJAX + Amazon + Windows Live Bildersuche Style = ShoppingMap"
 date: 2007-09-30 22:54
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Amazon, ASP.NET, ASP.NET AJAX, ShoppingMap, Source, Windows Live]

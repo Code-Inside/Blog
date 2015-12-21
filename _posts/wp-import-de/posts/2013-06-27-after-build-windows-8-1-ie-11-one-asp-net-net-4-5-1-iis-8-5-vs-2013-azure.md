@@ -2,7 +2,7 @@
 layout: post
 title: "After-Build: Windows 8.1, IE 11, “One ASP.NET”, .NET 4.5.1, IIS 8.5, VS 2013 & Azure"
 date: 2013-06-27 22:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Build 2013]

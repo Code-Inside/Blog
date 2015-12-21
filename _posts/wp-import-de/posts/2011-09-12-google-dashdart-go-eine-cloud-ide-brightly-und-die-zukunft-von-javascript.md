@@ -2,7 +2,7 @@
 layout: post
 title: "Google Dash/Dart, Go, eine Cloud IDE “Brightly” und die Zukunft von Javascript"
 date: 2011-09-12 23:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Dart, Google]

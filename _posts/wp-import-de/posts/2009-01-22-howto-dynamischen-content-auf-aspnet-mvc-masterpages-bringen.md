@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Dynamischen Content auf ASP.NET MVC Masterpages bringen"
 date: 2009-01-22 02:31
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC; MVC, HowTo]

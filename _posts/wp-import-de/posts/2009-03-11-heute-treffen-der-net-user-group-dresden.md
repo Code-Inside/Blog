@@ -2,7 +2,7 @@
 layout: post
 title: "Heute: Treffen der .NET User Group Dresden"
 date: 2009-03-11 08:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [User Group]
 tags: [User Group]

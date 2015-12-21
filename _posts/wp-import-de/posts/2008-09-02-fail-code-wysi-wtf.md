@@ -2,7 +2,7 @@
 layout: post
 title: "Fail Code - WYSI... WTF!"
 date: 2008-09-02 12:36
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [FailCode]
 tags: [Fail, WTF]

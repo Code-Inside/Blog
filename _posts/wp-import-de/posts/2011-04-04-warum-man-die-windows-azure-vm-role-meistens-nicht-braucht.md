@@ -2,7 +2,7 @@
 layout: post
 title: "Warum man die Windows Azure VM Role (meistens) nicht braucht"
 date: 2011-04-04 21:23
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure, Cloud Computing, VM, Windows Azure]

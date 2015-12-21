@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Update geht nicht? “wuaueng.dll (800) SUS20ClientDataStore: Unable to read the header of logfile”"
 date: 2011-03-23 22:15
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Fix, Windows Server]

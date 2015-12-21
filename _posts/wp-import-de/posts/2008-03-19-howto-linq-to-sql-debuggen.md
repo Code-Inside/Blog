@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: LINQ to SQL debuggen"
 date: 2008-03-19 19:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET 3.5, Debug, LINQ, LINQ to SQL]

@@ -2,7 +2,7 @@
 layout: page
 title: "Guide: XML (Einführung)"
 date: 2007-06-18 18:51
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

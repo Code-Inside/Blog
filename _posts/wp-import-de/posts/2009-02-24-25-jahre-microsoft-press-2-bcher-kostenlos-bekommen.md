@@ -2,7 +2,7 @@
 layout: post
 title: "25 Jahre Microsoft Press - 2 Bücher kostenlos bekommen"
 date: 2009-02-24 00:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Bücher, MS Press]

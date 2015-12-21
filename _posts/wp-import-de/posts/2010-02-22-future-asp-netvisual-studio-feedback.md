@@ -2,7 +2,7 @@
 layout: post
 title: "Future ASP.NET/Visual Studio Feedback"
 date: 2010-02-22 08:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

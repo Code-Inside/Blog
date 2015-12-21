@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: Powershell “File cannot be loaded because the execution of scripts is disabled on this system”"
 date: 2011-04-25 13:45
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Powershell]

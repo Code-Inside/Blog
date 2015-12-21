@@ -2,7 +2,7 @@
 layout: post
 title: "Carriage Return / Neue Zeile in Textareas"
 date: 2012-02-02 23:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo, Multiline]

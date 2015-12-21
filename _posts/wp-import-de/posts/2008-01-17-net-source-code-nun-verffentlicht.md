@@ -2,7 +2,7 @@
 layout: post
 title: ".NET Source Code nun veröffentlicht!"
 date: 2008-01-17 05:42
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Microsoft, Open Source]

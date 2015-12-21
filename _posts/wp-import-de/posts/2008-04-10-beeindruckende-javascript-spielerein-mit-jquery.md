@@ -2,7 +2,7 @@
 layout: post
 title: "Beeindruckende Javascript Spielerein mit jQuery"
 date: 2008-04-10 19:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Javascript, jQuery, UI]

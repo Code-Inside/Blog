@@ -2,7 +2,7 @@
 layout: post
 title: "Interessantes zu .NET/C#"
 date: 2007-05-21 07:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, C#]

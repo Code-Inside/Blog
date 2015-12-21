@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: HTML Input Validation mit ASP.NET MVC & ASP.NET 4 (oder warum geht ValidateInput(false) nicht?)"
 date: 2010-10-17 17:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET 4, HowTo, MVC, RequestValidation]

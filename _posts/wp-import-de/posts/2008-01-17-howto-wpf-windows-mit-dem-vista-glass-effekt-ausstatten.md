@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: WPF Windows mit dem Vista Glass Effekt ausstatten"
 date: 2008-01-17 23:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET 3.0, Aero, Glass Effect, HowTo, Vista, Visual Studio 2008, WPF, XAML]

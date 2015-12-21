@@ -2,7 +2,7 @@
 layout: post
 title: "Die Retina/HiRes Displays kommen! HD-Web ahoi!"
 date: 2012-04-30 13:30
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [HD, Retina]

@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET Bundling & Fontawesome"
 date: 2014-03-25 22:40
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, Bundling, Fonts, HowTo]

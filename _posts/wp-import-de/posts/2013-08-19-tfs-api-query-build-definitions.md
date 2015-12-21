@@ -2,7 +2,7 @@
 layout: post
 title: "TFS API: Query Build-Definitions"
 date: 2013-08-19 23:26
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Build Server, TFS]

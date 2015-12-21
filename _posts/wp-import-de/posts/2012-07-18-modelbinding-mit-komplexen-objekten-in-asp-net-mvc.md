@@ -2,7 +2,7 @@
 layout: post
 title: "Modelbinding mit komplexen Objekten in ASP.NET MVC"
 date: 2012-07-18 01:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, Modelbinding]

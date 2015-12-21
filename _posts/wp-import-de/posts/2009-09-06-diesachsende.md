@@ -2,7 +2,7 @@
 layout: post
 title: "DieSachsen.de"
 date: 2009-09-06 22:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [diesachsen.de, HowToCode, Projekt]

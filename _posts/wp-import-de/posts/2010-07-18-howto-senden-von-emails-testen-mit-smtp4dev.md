@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Senden von Emails testen mit Smtp4Dev"
 date: 2010-07-18 14:07
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Email, HowTo, SMTP, Smtp4Dev, Tools]

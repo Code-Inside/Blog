@@ -2,7 +2,7 @@
 layout: post
 title: "Best Practice Localization: Lokalisierung einer ASP.NET MVC WebApp"
 date: 2011-08-02 23:21
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, Globalization, Localization, Lokalisierung]

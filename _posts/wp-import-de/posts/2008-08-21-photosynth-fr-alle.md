@@ -2,7 +2,7 @@
 layout: post
 title: "Photosynth für alle"
 date: 2008-08-21 08:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Deepzoom, Photosynth]

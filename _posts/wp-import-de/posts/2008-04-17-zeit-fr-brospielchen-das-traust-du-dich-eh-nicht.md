@@ -2,7 +2,7 @@
 layout: post
 title: "Zeit für Bürospielchen: &quot;Das traust du dich eh nicht!&quot;"
 date: 2008-04-17 08:21
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: [Büro, Fun]

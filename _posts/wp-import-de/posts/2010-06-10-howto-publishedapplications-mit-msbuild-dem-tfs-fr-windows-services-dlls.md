@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: “PublishedApplications” mit MSBuild & dem TFS für Windows Services / DLLs"
 date: 2010-06-10 13:01
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Build, MSBuild, TFS]

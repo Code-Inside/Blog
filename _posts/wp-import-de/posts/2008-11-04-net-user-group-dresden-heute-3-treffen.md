@@ -2,7 +2,7 @@
 layout: post
 title: ".NET User Group Dresden - heute 3. Treffen"
 date: 2008-11-04 11:27
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [User Group]
 tags: [Dresden, User Group]

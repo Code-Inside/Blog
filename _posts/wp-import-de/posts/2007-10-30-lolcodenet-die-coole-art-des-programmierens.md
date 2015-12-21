@@ -2,7 +2,7 @@
 layout: post
 title: "LOLCode.NET... die coole Art des programmierens"
 date: 2007-10-30 19:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Lolcode]

@@ -2,7 +2,7 @@
 layout: post
 title: "Unterschied von HttpModule & HttpHandler?"
 date: 2010-08-09 22:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, HttpHandler, HttpModule]

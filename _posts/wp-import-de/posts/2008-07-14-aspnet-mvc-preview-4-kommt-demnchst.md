@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC - Preview 4 kommt demnächst"
 date: 2008-07-14 22:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: ["ReadYou", AJAX, ASP.NET MVC, TDD]

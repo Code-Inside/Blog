@@ -2,7 +2,7 @@
 layout: post
 title: "Seid gewarnt: Das anonyme Internet ist voller Spam."
 date: 2012-11-13 21:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [KnowYourStack, Spam]

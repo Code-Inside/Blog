@@ -2,7 +2,7 @@
 layout: post
 title: "TFS API: Query Changesets (Team Foundation Version Control)"
 date: 2013-08-20 23:28
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, TFS]

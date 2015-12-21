@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: RSS Feeds mit ASP.NET MVC erstellen"
 date: 2014-05-14 23:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, RSS]

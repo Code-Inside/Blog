@@ -2,7 +2,7 @@
 layout: post
 title: "Logging mit NLog"
 date: 2013-01-20 13:28
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, NLog]

@@ -2,7 +2,7 @@
 layout: post
 title: "Berufsgruppen die diese Welt nicht braucht"
 date: 2008-01-31 10:06
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: []

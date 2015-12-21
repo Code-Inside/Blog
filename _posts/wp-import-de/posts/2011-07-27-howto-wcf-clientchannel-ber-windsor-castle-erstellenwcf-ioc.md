@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: WCF ClientChannel über Windsor Castle erstellen–WCF & IoC…"
 date: 2011-07-27 22:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [IoC, WCF, Windsor Castle]

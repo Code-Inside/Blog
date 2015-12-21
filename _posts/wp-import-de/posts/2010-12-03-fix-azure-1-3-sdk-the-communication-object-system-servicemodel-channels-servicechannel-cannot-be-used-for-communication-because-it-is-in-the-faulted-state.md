@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: Azure 1.3 SDK “The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.”"
 date: 2010-12-03 22:05
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Azure, MVC]

@@ -2,7 +2,7 @@
 layout: post
 title: "Aus der Schublade..."
 date: 2007-06-18 19:07
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Guide, Xml]

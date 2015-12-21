@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Datenbankverbindungen - .NET & MS SQL 2005"
 date: 2007-11-21 19:51
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, Datenbank, HowTo, SQL, SQL Server 2005]

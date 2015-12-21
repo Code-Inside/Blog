@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Installer XML (Wix) und Versionsnummern: Was zählt und was nicht."
 date: 2012-12-09 23:07
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Installer, Update, Wix]

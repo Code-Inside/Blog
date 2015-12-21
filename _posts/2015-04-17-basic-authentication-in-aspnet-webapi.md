@@ -3,7 +3,7 @@ layout: post
 title: "Using Basic Authentication in ASP.NET WebAPI"
 description: "Back to the roots: How to use Basic Authentication to protect your ASP.NET WebAPI"
 date: 2015-04-17 23:30
-author: robert.muehsig
+author: Robert Muehsig
 tags: [Basic Auth, WebAPI, ASP.NET]
 language: en
 ---

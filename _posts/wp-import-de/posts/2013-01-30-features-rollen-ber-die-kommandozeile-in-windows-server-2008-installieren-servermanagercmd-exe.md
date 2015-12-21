@@ -2,7 +2,7 @@
 layout: post
 title: "Features & Rollen über die Kommandozeile in Windows Server 2008 installieren: ServerManagerCmd.exe"
 date: 2013-01-30 22:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Powershell, RampUp, Server 2008, Windows Server 2008]

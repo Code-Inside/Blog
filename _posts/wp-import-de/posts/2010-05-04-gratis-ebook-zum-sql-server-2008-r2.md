@@ -2,7 +2,7 @@
 layout: post
 title: "Gratis eBook zum SQL Server 2008 R2"
 date: 2010-05-04 14:14
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [eBook, MSSQL]

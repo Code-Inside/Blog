@@ -2,7 +2,7 @@
 layout: post
 title: "Chocolatey–apt-get für Windows"
 date: 2012-05-15 19:45
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Chocolatey, NuGet, Tools]

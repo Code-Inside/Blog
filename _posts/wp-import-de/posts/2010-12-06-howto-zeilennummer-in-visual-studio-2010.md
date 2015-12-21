@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Zeilennummer in Visual Studio 2010"
 date: 2010-12-06 23:43
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Visual Studio 2010]

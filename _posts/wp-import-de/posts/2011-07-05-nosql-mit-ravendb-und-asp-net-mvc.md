@@ -2,7 +2,7 @@
 layout: post
 title: "NoSQL mit RavenDB und ASP.NET MVC"
 date: 2011-07-05 00:15
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo, NoSQL, RavenDB]

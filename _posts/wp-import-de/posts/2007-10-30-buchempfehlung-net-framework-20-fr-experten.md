@@ -2,7 +2,7 @@
 layout: post
 title: "Buchempfehlung: .NET Framework 2.0 für Experten"
 date: 2007-10-30 21:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [.NET, .NET 2.0]

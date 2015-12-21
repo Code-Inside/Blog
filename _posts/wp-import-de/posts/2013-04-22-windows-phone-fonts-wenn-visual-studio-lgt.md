@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Phone Fonts – wenn Visual Studio “lügt”"
 date: 2013-04-22 22:45
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo, Windows Phone]
 tags: [Fonts, Windows Phone]

@@ -2,7 +2,7 @@
 layout: post
 title: "Xtopia Tag 2/3: Vorträge, Marketing & Blabla"
 date: 2008-11-18 15:10
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Xtopia]
 tags: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Azure AppInsights: Ein mini Google Analytics für Websites"
 date: 2014-04-21 22:18
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure]

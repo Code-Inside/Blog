@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: WebDeploy “An unsupported response was received. The response header 'MSDeploy.Response' was '' but 'v1' was expected.”"
 date: 2011-09-26 22:07
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [WebDeploy]

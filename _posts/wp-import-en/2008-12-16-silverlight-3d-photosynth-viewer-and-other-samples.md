@@ -2,7 +2,7 @@
 layout: post
 title: "Silverlight & 3D: Photosynth Viewer and other samples"
 date: 2008-12-16 02:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [News]
 tags: [3D, Photosynth, Silverlight]

@@ -2,7 +2,7 @@
 layout: post
 title: "Caching in WCF, .NET & anderen nicht ASP.NET-basierten Projekten"
 date: 2013-07-15 21:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Cache]

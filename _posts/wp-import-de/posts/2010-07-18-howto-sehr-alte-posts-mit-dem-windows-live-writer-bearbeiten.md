@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Sehr alte Posts mit dem Windows Live Writer bearbeiten"
 date: 2010-07-18 14:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Blog, Blogging, HowTo, Plugin, Windows Live Writer, Writer]

@@ -2,7 +2,7 @@
 layout: post
 title: "Virtual Earth + Silverlight Deepzoom"
 date: 2008-06-19 06:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Codeplex, Deepzoom, Silverligh 2, Silverlight, Virtual Earth]

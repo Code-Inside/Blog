@@ -2,7 +2,7 @@
 layout: post
 title: "Zertifikate finden, erstellen und exportieren"
 date: 2012-09-25 22:31
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Zertifikat]

@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: CA0058 : The referenced assembly 'System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' could not be found."
 date: 2013-09-17 17:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [FxCop]

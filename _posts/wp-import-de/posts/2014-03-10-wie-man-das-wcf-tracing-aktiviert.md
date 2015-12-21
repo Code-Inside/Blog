@@ -2,7 +2,7 @@
 layout: post
 title: "Wie man das WCF Tracing aktiviert"
 date: 2014-03-10 23:04
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Tracing, WCF]

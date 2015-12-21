@@ -2,7 +2,7 @@
 layout: post
 title: "Ein Quantum Silverlight 3"
 date: 2008-11-19 10:31
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Silverlight, Silverlight 3]

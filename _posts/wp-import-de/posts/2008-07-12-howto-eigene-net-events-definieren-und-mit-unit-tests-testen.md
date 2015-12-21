@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Eigene .NET Events definieren und mit Unit-Tests testen"
 date: 2008-07-12 00:30
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, C# 2.0, Events, HowTo, TDD, Unit Tests]

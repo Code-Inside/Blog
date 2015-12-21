@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC Preview 3 released"
 date: 2008-05-28 00:08
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Uncategorized]
 tags: [ASP.NET MVC, MVC]

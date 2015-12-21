@@ -2,7 +2,7 @@
 layout: post
 title: "Remote Desktop Connection Manager"
 date: 2010-06-16 14:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

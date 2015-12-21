@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: eBay API (Grundvoraussetzungen)"
 date: 2007-04-13 09:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

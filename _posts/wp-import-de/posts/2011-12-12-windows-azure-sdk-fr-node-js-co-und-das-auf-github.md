@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Azure SDK für node.js & co. - und das auf GitHub!"
 date: 2011-12-12 01:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [node.js]

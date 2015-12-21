@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: AJAX und ASP.NET Webservice (die Sache mit dem GET) "
 date: 2007-08-15 19:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

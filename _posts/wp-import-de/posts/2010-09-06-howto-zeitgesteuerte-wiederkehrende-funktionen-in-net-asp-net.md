@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Zeitgesteuerte & wiederkehrende Funktionen in .NET & ASP.NET"
 date: 2010-09-06 22:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Timer, Timers, Zeit]

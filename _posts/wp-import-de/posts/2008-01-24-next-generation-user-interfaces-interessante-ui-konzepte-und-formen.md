@@ -2,7 +2,7 @@
 layout: post
 title: "Next Generation User Interfaces - Interessante UI Konzepte und Formen"
 date: 2008-01-24 22:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [3D, Design, Desktop, Surface, UI, User Interface, WPF]

@@ -2,7 +2,7 @@
 layout: post
 title: "Custom-URI-Handler: Aus dem Web mit dem Desktop reden – so wie Spotify & GitHub for Windows"
 date: 2013-08-04 23:01
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Protocol, URI]

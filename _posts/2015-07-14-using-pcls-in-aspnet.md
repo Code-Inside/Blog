@@ -3,7 +3,7 @@ layout: post
 title: "Using PCLs in ASP.NET"
 description: "... or how to fix 'The type System.Object is defined in an assembly that is not reference'."
 date: 2015-07-14 20:00
-author: robert.muehsig
+author: Robert Muehsig
 tags: [PCL, ASP.NET]
 language: en
 ---

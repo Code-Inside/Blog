@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Windows 7 TechTalk und TechSummit Cloud in Dresden"
 date: 2011-01-30 23:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Dresden]

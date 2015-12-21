@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Erstellen eines Silverlight 1.0 Videoplayers mal auf einfache Weise"
 date: 2007-12-12 00:12
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, ASP.NET AJAX, HowTo, Silverlight, Silverlight 1.0, Videoplayer]

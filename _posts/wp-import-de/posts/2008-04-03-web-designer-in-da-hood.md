@@ -2,7 +2,7 @@
 layout: post
 title: "Web Designer in da hood"
 date: 2008-04-03 07:34
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: [Fun, UI, Web Design]

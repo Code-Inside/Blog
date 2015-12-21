@@ -2,7 +2,7 @@
 layout: post
 title: "Redesign des Blogs"
 date: 2011-05-31 22:20
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

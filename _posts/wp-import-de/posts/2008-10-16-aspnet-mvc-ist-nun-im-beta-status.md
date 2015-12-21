@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC ist nun im Beta-Status + Blogposts von ScottGu und co."
 date: 2008-10-16 07:49
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC; MVC]

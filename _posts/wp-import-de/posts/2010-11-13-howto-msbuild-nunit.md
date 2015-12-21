@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: MSBuild & NUnit"
 date: 2010-11-13 23:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, MSBuild, NUnit]

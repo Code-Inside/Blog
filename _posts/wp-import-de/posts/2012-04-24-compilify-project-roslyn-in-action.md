@@ -2,7 +2,7 @@
 layout: post
 title: "Compilify – Compiler as a Service ”Project Roslyn” in Action"
 date: 2012-04-24 23:49
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [C#, Compiler, Compiler-as-a-Service, Roslyn]

@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET/ASP MVP Award"
 date: 2008-07-02 08:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

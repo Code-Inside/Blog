@@ -2,7 +2,7 @@
 layout: post
 title: "MSDN Mag & Addins in System.Addin in .NET 3.5"
 date: 2007-06-12 20:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, .NET 3.5]

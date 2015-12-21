@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Azure Websites & Git: Hosting & Deployment leicht gemacht"
 date: 2013-03-02 18:28
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure, GIT]

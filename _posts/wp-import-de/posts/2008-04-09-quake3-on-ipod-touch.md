@@ -2,7 +2,7 @@
 layout: post
 title: "Quake3 on iPod Touch"
 date: 2008-04-09 07:32
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [iPod]

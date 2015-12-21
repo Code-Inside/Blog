@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Google Maps API (Grundvoraussetzungen)"
 date: 2007-05-13 21:55
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

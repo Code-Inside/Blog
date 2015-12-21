@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo-Serie: ServiceFactory"
 date: 2007-10-24 00:55
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [HowTo, Software Factories, WCF]

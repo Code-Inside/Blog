@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode &quot;ReadYou&quot;: Evolution der Architektur"
 date: 2008-08-13 22:05
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: ["ReadYou", Architektur, Interfaces, UnitTests]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Entwickeln für MS Surface – ein Twitterclient"
 date: 2009-05-13 08:40
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [Surface, Twitter]

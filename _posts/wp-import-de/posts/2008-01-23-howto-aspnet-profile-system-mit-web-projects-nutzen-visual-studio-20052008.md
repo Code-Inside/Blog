@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET Profile System mit Web Projects nutzen (Visual Studio 2005/2008)"
 date: 2008-01-23 19:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, HowTo, Membership, Visual Studio 2005, Visual Studio 2008]

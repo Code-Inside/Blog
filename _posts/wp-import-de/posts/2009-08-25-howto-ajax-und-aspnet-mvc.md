@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: AJAX und ASP.NET MVC"
 date: 2009-08-25 22:34
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [AJAX, ASP.NET MVC, MVC]

@@ -2,7 +2,7 @@
 layout: post
 title: "Twitter Bootstrap 2.0–“Beta”"
 date: 2012-01-24 23:01
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Bootstrap, Twitter]

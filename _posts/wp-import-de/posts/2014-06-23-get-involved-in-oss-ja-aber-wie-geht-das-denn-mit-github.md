@@ -2,7 +2,7 @@
 layout: post
 title: "Get Involved in OSS! Ja, aber wie geht das denn mit GitHub?"
 date: 2014-06-23 19:21
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [GIT, GitHub, OSS]

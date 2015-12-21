@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Eine bestehende WebApp nach Azure migrieren"
 date: 2010-11-30 01:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Azure, HowTo]

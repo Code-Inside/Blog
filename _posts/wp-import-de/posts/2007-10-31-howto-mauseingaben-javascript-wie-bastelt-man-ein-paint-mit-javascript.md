@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Mauseingaben & Javascript (Wie bastelt man ein Paint mit Javascript?)"
 date: 2007-10-31 15:18
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Javascript]

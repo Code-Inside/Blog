@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Settings aus der Web.config in einer Bibliothek auslesen"
 date: 2009-10-01 22:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [app.config, Config, HowTo, Konfiguration, web.config]

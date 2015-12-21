@@ -2,7 +2,7 @@
 layout: post
 title: "Wanted: Windows Server 2008 + SQL Server 2005/2008 Datenbank für Hosting"
 date: 2008-08-29 06:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Hosting]

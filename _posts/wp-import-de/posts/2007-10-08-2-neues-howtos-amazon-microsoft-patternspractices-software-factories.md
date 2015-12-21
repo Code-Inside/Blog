@@ -2,7 +2,7 @@
 layout: post
 title: "2 Neues HowTos: Amazon & Microsoft Patterns&Practices Software Factories"
 date: 2007-10-08 23:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [.NET, Amazon, HowTo, Software Factories]

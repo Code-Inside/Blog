@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Databinding in WPF (& Silverlight 2) - Einstieg"
 date: 2008-03-06 23:02
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET 3.0, .NET 3.5, Databinding, Expression Studio, HowTo, Silverlight 2, Visual Studio 2008, WPF, XAML]

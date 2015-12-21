@@ -2,7 +2,7 @@
 layout: post
 title: "Beeindruckend: Photosynth & Unwrap Mosaics"
 date: 2008-08-13 21:15
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Deepzoom, Microsoft Research, Photosynth, Surface, Unwrap Mosaics]

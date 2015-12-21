@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Daten vom View zum Controller übermitteln / Modelbinders in ASP.NET MVC"
 date: 2009-04-02 22:15
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo, MVC]

@@ -2,7 +2,7 @@
 layout: post
 title: "Say hello to the Microsoft Web Platform"
 date: 2009-03-25 01:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Software-Tipp]
 tags: [Installation, Server, WebPI, Win2008]

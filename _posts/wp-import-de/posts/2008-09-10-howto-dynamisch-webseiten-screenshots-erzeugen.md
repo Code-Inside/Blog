@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Dynamisch Webseiten-Screenshots erzeugen"
 date: 2008-09-10 22:49
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Screenshots]

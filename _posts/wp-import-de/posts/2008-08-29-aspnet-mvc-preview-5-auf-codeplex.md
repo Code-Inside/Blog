@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC Preview 5 auf Codeplex"
 date: 2008-08-29 12:53
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, Codeplex, MVC, Preview]

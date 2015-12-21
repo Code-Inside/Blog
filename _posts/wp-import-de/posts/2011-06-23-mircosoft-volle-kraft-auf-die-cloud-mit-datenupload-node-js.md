@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft: Volle Kraft auf die Cloud mit Datenupload & Node.js"
 date: 2011-06-23 23:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure, Cloud, Windows Azure]

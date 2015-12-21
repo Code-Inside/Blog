@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC 1.0 Gästebuch Beispielapplikation"
 date: 2009-03-31 01:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, MVC]

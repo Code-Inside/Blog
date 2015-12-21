@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET Anwendungen auf IIS6/7 & co. zum Laufen bekommen"
 date: 2010-05-10 21:58
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, HowTo, IIS]

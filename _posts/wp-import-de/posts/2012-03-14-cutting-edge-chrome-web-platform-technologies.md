@@ -2,7 +2,7 @@
 layout: post
 title: "Cutting Edge (Chrome) Web Platform Technologies"
 date: 2012-03-14 01:01
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Chrome, Google, Web]

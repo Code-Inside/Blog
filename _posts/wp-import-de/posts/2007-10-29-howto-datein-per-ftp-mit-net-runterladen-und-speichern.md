@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Datein per FTP mit .NET runterladen und speichern"
 date: 2007-10-29 22:21
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, FTP, HowTo]

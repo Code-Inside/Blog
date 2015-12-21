@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Microsoft Silverlight 1.0 (dynamische Spiegeleffekte)"
 date: 2007-09-11 22:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

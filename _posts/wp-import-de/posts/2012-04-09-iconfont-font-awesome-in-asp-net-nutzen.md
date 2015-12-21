@@ -2,7 +2,7 @@
 layout: post
 title: "Iconfont “Font awesome” in ASP.NET nutzen"
 date: 2012-04-09 23:29
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, Font, Web]

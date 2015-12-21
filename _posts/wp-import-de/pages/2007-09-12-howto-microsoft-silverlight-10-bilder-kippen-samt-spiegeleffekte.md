@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Microsoft Silverlight 1.0 (Bilder &quot;kippen&quot; samt Spiegeleffekte)"
 date: 2007-09-12 21:42
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

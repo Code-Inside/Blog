@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: LINQ to SQL debugging"
 date: 2008-04-10 20:12
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Debugging, HowTo, LINQ, LINQ to SQL]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Erster Schritt zur jQuery Plugin-Entwicklung"
 date: 2009-11-22 23:55
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Javascript, jQuery, Plugin]

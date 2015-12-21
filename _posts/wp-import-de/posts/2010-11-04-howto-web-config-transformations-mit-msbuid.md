@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Web.config Transformations mit MSBuild"
 date: 2010-11-04 00:52
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, MSBuild, web.config, XmlTransformation]

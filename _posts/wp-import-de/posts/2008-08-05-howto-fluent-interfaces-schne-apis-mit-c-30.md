@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Fluent Interfaces - schöne APIs mit C# 3.0"
 date: 2008-08-05 19:50
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET 3.5, APIs, C# 3.0, Extension Methods, Fluent Interfaces, HowTo, Linq2Sql, Storefront]

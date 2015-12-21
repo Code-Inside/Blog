@@ -2,7 +2,7 @@
 layout: post
 title: "Einstieg in Redis on Windows & Redis mit .NET benutzen"
 date: 2012-05-03 00:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [NoSQL, Redis, Windows]

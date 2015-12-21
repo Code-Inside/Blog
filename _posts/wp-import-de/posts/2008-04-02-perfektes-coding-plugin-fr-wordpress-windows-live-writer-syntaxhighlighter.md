@@ -2,7 +2,7 @@
 layout: post
 title: "Perfektes Coding Plugin für Wordpress & Windows Live Writer: SyntaxHighlighter"
 date: 2008-04-02 20:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

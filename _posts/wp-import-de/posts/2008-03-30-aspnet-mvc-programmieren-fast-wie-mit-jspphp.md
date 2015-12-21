@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC - Programmieren fast wie mit JSP/PHP"
 date: 2008-03-30 22:29
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC]

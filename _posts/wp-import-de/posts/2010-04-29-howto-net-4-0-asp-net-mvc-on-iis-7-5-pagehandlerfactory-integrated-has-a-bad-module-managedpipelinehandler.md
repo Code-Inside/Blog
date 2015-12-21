@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: .NET 4.0 ASP.NET MVC on IIS 7.5 &quot;PageHandlerFactory-Integrated&quot; has a bad module &quot;ManagedPipelineHandler&quot;"
 date: 2010-04-29 00:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix, HowTo]
 tags: [.NET 4.0, ASP.NET MVC, HowTo, IIS, IIS 7.5, MVC]

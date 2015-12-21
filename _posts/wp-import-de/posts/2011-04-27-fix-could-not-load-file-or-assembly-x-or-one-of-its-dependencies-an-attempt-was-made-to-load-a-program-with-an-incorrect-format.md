@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: “Could not load file or assembly 'x' or one of its dependencies. An attempt was made to load a program with an incorrect format.”"
 date: 2011-04-27 10:51
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Windows Server 2008 R2; x64]

@@ -2,7 +2,7 @@
 layout: post
 title: "Gegen das Gesetz verstoßen: X Jahre Haft. Gegen die Terms of Use verstoßen: Bann auf Lebenszeit. Danke Google & co."
 date: 2014-04-06 11:14
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

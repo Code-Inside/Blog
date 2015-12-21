@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Google Instant Suchbox – verschiedene Styles in einem Input-Feld?"
 date: 2010-10-17 15:14
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, HTML, Input, Style]

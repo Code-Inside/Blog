@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: SQL Tabellen Beziehungen erstellen per Drag´n´Drop"
 date: 2009-02-18 01:16
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, SQL, SQL Server]

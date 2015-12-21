@@ -2,7 +2,7 @@
 layout: post
 title: "Kostenfalle MSDN Ultimate Subscription und Windows Azure Extra Small Instances"
 date: 2011-09-12 22:28
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Windows Azure]

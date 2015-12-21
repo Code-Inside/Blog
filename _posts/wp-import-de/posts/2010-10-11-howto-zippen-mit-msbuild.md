@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Zippen mit MSBuild"
 date: 2010-10-11 22:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, MSBuild, Zippen]

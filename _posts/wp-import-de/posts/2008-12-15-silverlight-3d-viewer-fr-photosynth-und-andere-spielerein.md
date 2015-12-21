@@ -2,7 +2,7 @@
 layout: post
 title: "Silverlight & 3D: Viewer für Photosynth und andere Spielerein"
 date: 2008-12-15 17:04
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [3D, Photosynth, Silverlight, Silverlight 2, Silverlight 3]

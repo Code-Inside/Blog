@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Press verschenkt LINQ, ASP.NET AJAX und Silverlight 1.0 e-Books"
 date: 2007-12-20 16:57
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, ASP.NET AJAX, LINQ, Microsoft, Silverlight, Silverlight 1.0]

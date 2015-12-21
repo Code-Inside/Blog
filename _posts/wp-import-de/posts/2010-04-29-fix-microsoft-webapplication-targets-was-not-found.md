@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: “Microsoft.WebApplication.targets was not found.”"
 date: 2010-04-29 22:43
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Build, MSBuild, TFS, WebApplications]

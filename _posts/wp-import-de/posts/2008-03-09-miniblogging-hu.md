@@ -2,7 +2,7 @@
 layout: post
 title: "Miniblogging - hu?"
 date: 2008-03-09 22:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Twitter, Web 2.0]

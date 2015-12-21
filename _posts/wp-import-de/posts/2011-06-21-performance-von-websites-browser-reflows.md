@@ -2,7 +2,7 @@
 layout: post
 title: "Performance von Websites & Browser “Reflows”"
 date: 2011-06-21 01:10
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Browser, HTML5, Performance, Reflows, Web]

@@ -2,7 +2,7 @@
 layout: post
 title: "Built with Bootstrap–Beispiele von Twitter Bootstrap"
 date: 2011-11-25 23:01
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Bootstrap, Twitter, UI]

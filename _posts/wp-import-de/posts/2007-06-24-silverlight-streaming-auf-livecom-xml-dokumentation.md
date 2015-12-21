@@ -2,7 +2,7 @@
 layout: post
 title: "Silverlight Streaming auf Live.com & XML Dokumentation"
 date: 2007-06-24 22:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Guide, Silverlight, Xml]

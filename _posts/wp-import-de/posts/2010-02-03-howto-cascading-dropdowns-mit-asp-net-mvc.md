@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Cascading Dropdowns mit ASP.NET MVC"
 date: 2010-02-03 01:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, Cascading, DropDown]

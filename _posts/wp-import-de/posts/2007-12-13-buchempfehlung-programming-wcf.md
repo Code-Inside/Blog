@@ -2,7 +2,7 @@
 layout: post
 title: "Buchempfehlung: Programming WCF"
 date: 2007-12-13 20:23
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [.NET, .NET 3.0, Buchempfehlung, Service, SOA, WCF, Webservice]

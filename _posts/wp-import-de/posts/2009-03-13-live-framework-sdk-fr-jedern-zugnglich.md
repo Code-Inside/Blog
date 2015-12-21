@@ -2,7 +2,7 @@
 layout: post
 title: "Live Framework SDK für jeden zugänglich"
 date: 2009-03-13 08:27
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Live Framework, Live Mesh, Mesh]

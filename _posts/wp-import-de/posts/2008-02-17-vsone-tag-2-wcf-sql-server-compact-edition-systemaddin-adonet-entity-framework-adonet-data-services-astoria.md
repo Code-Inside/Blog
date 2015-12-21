@@ -2,7 +2,7 @@
 layout: post
 title: "VSone - Tag 2 - WCF, SQL Server Compact Edition, System.AddIn, ADO.NET Entity Framework, ADO.NET Data Services (&quot;Astoria&quot;)"
 date: 2008-02-17 18:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: ["Astoria", ADO.NET Data Services, ADO.NET Entity Framework, ASP.NET 3.5 Extensions, SQL Server Compact Edition, System.AddIn, WCF]

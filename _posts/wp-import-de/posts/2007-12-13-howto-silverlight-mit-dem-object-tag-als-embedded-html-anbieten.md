@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Silverlight mit dem &quot;object&quot; Tag als embedded HTML anbieten"
 date: 2007-12-13 07:53
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Embedded, HowTo, Silverlight]

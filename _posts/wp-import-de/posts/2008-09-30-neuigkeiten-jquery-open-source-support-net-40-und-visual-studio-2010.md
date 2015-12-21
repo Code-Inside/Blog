@@ -2,7 +2,7 @@
 layout: post
 title: "Neuigkeiten: jQuery + Open Source Support, .NET 4.0 und Visual Studio 2010"
 date: 2008-09-30 00:13
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET 4.0, jQuery, PDC, Visual Studio, Visual Studio 2010]

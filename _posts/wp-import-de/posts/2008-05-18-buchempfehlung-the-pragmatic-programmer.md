@@ -2,7 +2,7 @@
 layout: post
 title: "Buchempfehlung: The Pragmatic Programmer"
 date: 2008-05-18 20:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [Buchempfehlung, The Pragmatic Programmer]

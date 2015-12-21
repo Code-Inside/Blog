@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Fundamentale Sachen mit SVN & Trac"
 date: 2009-05-27 01:45
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [Bugtracking, Builds, Management, SVN, TFS, Trac, Visual Studio]

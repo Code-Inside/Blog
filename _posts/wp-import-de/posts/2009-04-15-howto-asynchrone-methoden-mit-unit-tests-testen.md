@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Asynchrone Methoden mit Unit Tests testen"
 date: 2009-04-15 20:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Async, HowTo, Tests, Unit Tests]

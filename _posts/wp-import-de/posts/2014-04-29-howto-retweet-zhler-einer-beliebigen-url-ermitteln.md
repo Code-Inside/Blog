@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Retweet-Zähler einer beliebigen URL ermitteln"
 date: 2014-04-29 22:54
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Twitter]

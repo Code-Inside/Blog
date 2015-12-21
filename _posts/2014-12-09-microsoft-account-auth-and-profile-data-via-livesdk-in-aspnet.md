@@ -3,7 +3,7 @@ layout: post
 title: "Microsoft Account Auth and Profile Data via LiveSDK in ASP.NET"
 description: "Getting started with the LiveSDK basics: Authentication & Load Profile Data from the given Microsoft Account."
 date: 2014-12-09 00:01
-author: robert.muehsig
+author: Robert Muehsig
 tags: [Microsoft Account, Auth, LiveSDK]
 language: en
 ---

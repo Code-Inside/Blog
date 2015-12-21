@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Globalization/Localization mit ASP.NET MVC - streng typisiert"
 date: 2009-12-09 02:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, ASP.NET MVC, Globalization, HowTo, Localization, MVC]

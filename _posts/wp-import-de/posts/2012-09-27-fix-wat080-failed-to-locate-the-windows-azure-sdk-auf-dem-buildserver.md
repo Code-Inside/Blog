@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: “WAT080: Failed to locate the Windows Azure SDK…” auf dem Buildserver"
 date: 2012-09-27 23:12
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Build Server, Error, Fix, MSBuild, Windows Azure]

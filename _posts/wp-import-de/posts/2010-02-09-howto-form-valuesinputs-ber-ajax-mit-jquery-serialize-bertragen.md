@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Form Values/Inputs über AJAX mit jQuery serialize übertragen"
 date: 2010-02-09 08:45
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [AJAX, Form, HowTo, jQuery, serialize]

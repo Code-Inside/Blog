@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft MVP für ASP.NET 2012"
 date: 2012-07-03 22:52
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

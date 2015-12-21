@@ -2,7 +2,7 @@
 layout: post
 title: "Keep it simple! YAGNI!"
 date: 2011-11-04 21:54
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [CQRS, KISS]

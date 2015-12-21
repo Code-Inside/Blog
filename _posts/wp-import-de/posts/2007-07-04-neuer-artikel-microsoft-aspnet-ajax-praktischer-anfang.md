@@ -2,7 +2,7 @@
 layout: post
 title: "Neuer Artikel: Microsoft ASP.NET AJAX (Praktischer Anfang)"
 date: 2007-07-04 10:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [AJAX, ASP.NET, ASP.NET AJAX, HowTo, Javascript]

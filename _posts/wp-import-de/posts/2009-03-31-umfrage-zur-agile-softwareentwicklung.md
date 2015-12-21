@@ -2,7 +2,7 @@
 layout: post
 title: "Umfrage zur Agile Softwareentwicklung"
 date: 2009-03-31 09:51
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Agile Softwareentwicklung]

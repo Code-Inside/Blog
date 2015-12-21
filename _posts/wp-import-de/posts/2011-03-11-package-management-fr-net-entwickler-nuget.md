@@ -2,7 +2,7 @@
 layout: post
 title: "Package Management für .NET Entwickler: NuGet"
 date: 2011-03-11 00:55
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [NuGet, Package Management, Visual Studio 2010]

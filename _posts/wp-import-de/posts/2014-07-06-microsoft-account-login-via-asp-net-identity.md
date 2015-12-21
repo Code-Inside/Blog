@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Account Login via ASP.NET Identity"
 date: 2014-07-06 22:18
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Microsoft Account]

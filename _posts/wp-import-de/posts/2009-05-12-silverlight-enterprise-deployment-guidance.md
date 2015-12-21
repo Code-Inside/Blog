@@ -2,7 +2,7 @@
 layout: post
 title: "Silverlight Enterprise Deployment Guidance"
 date: 2009-05-12 15:28
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Deployment, Silverlight]

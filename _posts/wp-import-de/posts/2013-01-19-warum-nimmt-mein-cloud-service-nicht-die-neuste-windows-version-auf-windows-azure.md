@@ -2,7 +2,7 @@
 layout: post
 title: "Warum nimmt mein Cloud Service nicht die neuste Windows Version auf Windows Azure?"
 date: 2013-01-19 14:34
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Azure, Windows Server]

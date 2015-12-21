@@ -2,7 +2,7 @@
 layout: post
 title: "Claims in .NET 4.5 – Definiert in mehreren Namenspaces?"
 date: 2013-03-14 01:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Claims]

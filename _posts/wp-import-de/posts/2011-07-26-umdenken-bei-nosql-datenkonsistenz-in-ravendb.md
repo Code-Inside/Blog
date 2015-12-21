@@ -2,7 +2,7 @@
 layout: post
 title: "Umdenken bei NOSQL: Datenkonsistenz in RavenDB"
 date: 2011-07-26 00:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [NoSQL, RavenDB]

@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET 3.5 Extensions - December CTP verfügbar"
 date: 2007-12-10 07:44
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: ["Astoria", ASP.NET MVC, Silverlight]

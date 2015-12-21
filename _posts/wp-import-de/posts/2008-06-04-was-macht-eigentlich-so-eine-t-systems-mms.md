@@ -2,7 +2,7 @@
 layout: post
 title: "Was macht eigentlich so eine T-Systems MMS?"
 date: 2008-06-04 21:13
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [MMS, T-Systems MMS]

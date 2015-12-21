@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: Entity Framework Many-To-Many SqlException mit “FOREIGN KEY constraint…”"
 date: 2013-12-23 22:21
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix, HowTo]
 tags: [EF, Entity Framework, Fix, HowTo]

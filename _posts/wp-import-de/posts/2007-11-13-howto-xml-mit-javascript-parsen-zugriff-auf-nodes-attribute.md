@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Xml mit Javascript Parsen (Zugriff auf Nodes & Attribute)"
 date: 2007-11-13 23:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Javascript, Xml]

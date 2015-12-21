@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Web.config samt eigener ConfigSection zur Laufzeit ändern"
 date: 2014-05-27 22:18
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, HowTo]

@@ -2,7 +2,7 @@
 layout: post
 title: "Micro-Optimization: Bilder schrumpfen lassen oder direkt “einbetten”"
 date: 2014-02-09 10:57
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Optimierung]

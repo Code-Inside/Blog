@@ -2,7 +2,7 @@
 layout: post
 title: "Accessibility in Web and Rich Applications"
 date: 2008-08-08 07:08
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Accessibility, Barrierefreiheit]

@@ -2,7 +2,7 @@
 layout: post
 title: "Buchempfehlung: Foundation of Programming (eBook)"
 date: 2008-07-01 13:52
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [ALT.NET, DDD, Dependency Injection, O/R Mapper, ORM, Persistence, TDD, Unit Testing]

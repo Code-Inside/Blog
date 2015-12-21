@@ -2,7 +2,7 @@
 layout: post
 title: "Glimpse Web Debugging: Firebug für die Serverseite"
 date: 2011-04-14 23:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, NuGet]

@@ -2,7 +2,7 @@
 layout: post
 title: "Code-Inside Casts: Jetzt auch noch Videos..."
 date: 2008-10-17 23:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [CodeInsideCasts]
 tags: [Architektur, HowTo, Video]

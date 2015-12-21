@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Full Qualified Type Name - Klassen/Typnamen richtig schreiben"
 date: 2009-10-04 21:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, HowTo, Names, web.config]

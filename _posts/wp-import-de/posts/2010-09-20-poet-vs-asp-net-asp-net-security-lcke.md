@@ -2,7 +2,7 @@
 layout: post
 title: "POET vs. ASP.NET – ASP.NET Security Lücke"
 date: 2010-09-20 22:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, Security]

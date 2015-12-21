@@ -2,7 +2,7 @@
 layout: post
 title: "Ein Blick in die 3D Spiele-Entwicklung mit Unreal Engine 4 und Doom 3"
 date: 2012-06-13 00:05
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Games]

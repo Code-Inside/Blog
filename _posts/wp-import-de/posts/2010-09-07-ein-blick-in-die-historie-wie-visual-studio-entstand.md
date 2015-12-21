@@ -2,7 +2,7 @@
 layout: post
 title: "Ein Blick in die Historie: Wie Visual Studio entstand…"
 date: 2010-09-07 23:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

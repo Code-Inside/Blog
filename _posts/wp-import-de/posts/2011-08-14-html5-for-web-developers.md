@@ -2,7 +2,7 @@
 layout: post
 title: "HTML5 for Web Developers"
 date: 2011-08-14 01:45
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [HTML5]

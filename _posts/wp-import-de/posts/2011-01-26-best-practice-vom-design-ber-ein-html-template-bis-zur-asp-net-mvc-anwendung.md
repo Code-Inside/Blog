@@ -2,7 +2,7 @@
 layout: post
 title: "Best Practice: Vom Design über ein HTML Template bis zur ASP.NET MVC Anwendung"
 date: 2011-01-26 23:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [HTML]

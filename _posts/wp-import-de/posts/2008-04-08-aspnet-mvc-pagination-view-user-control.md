@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC - Pagination View User Control"
 date: 2008-04-08 18:53
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC]

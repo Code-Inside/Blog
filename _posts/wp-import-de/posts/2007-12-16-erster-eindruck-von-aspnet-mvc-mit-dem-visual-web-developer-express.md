@@ -2,7 +2,7 @@
 layout: post
 title: "Erster Eindruck von ASP.NET MVC mit dem Visual Web Developer Express"
 date: 2007-12-16 20:23
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET 3.5, ASP.NET, ASP.NET 3.5 Extensions, ASP.NET AJAX, ASP.NET MVC, Source]

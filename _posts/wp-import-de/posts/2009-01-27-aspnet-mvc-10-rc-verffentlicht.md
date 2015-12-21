@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC 1.0 RC veröffentlicht"
 date: 2009-01-27 22:13
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, MVC]

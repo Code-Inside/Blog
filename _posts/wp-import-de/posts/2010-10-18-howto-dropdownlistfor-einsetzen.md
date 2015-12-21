@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: MVC2 & Html.DropDownListFor einsetzen"
 date: 2010-10-18 22:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Helper, HowTo, MVC]

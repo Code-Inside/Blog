@@ -2,7 +2,7 @@
 layout: post
 title: "Caching / Cache-Control bei statischen Content via web.config"
 date: 2011-08-30 23:01
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Caching, Http, IIS]

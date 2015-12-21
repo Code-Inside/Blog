@@ -2,7 +2,7 @@
 layout: post
 title: "Excel/CSV-Export über ASP.NET: Encoding / Darstellung von Umlaute & Render View To String mit Razor"
 date: 2011-08-23 00:13
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, ASP.NET MVC, CSV, Encoding, Excel, Razor]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Setup IIS7 as development server in Visual Studio 2008"
 date: 2009-03-23 23:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, HowTo, IIS7, Vista]

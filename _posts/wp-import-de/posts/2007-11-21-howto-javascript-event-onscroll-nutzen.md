@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Javascript Event &quot;onscroll&quot; nutzen"
 date: 2007-11-21 23:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Javascript]

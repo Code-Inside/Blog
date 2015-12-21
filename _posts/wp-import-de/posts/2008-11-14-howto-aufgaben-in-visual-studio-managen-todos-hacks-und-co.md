@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Aufgaben in Visual Studio managen (ToDos, Hacks und co.)"
 date: 2008-11-14 19:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Tasks, TFS, Visual Studio 2008]

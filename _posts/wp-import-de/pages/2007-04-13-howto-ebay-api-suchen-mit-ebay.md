@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: eBay API (Suchen mit eBay...)"
 date: 2007-04-13 09:27
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Health Monitoring mit ASP.NET"
 date: 2009-03-17 23:15
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, Health Monitoring, HowTo]

@@ -2,7 +2,7 @@
 layout: post
 title: "Willkommen auf dem Blog"
 date: 2007-03-21 22:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

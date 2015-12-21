@@ -2,7 +2,7 @@
 layout: post
 title: "GUIDs vs. auto-increment IDs"
 date: 2008-01-29 21:20
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET 3.5, LINQ, LINQ to SQL, SQL Server]

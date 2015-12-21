@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Windows Services remote installieren"
 date: 2010-04-13 00:05
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Admin, HowTo, remote, Service, Windows]

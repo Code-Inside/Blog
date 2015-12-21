@@ -2,7 +2,7 @@
 layout: post
 title: "Firefox 3 - erster Eindruck"
 date: 2008-06-17 19:23
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Software-Tipp]
 tags: [Firebug, Firefox, Tools]

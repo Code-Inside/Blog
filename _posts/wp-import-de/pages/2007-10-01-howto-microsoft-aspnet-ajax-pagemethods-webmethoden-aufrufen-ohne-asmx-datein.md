@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Microsoft ASP.NET AJAX (PageMethods - Webmethoden aufrufen ohne ASMX Datein)"
 date: 2007-10-01 21:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

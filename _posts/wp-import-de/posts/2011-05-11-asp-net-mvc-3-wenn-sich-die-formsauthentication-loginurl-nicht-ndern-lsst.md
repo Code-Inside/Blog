@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC 3: Wenn sich die FormsAuthentication.LoginUrl nicht ändern lässt…"
 date: 2011-05-11 23:54
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC 3]

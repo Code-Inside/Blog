@@ -2,7 +2,7 @@
 layout: post
 title: "Software-Tipp: Microsoft WorldWide Telescope (für Hobby Astronomen)"
 date: 2008-05-18 19:14
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Software-Tipp]
 tags: [All, Microsoft, Microsoft Research, Microsoft Telescope, Weltall]

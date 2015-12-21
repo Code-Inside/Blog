@@ -2,7 +2,7 @@
 layout: post
 title: ".NET Poster"
 date: 2007-06-11 18:04
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Poster]

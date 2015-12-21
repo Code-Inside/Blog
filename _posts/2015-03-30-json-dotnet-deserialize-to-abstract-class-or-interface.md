@@ -3,7 +3,7 @@ layout: post
 title: "JSON.NET deserialize to abstract class or interface"
 description: "If you are using JSON.NET with interfaces or abstract classes and try to deserialize it you might know the lovely 'Type is an interface or abstract class and cannot be instantiated.'-exception. Let's try to fix this..."
 date: 2015-03-30 23:30
-author: robert.muehsig
+author: Robert Muehsig
 tags: [JSON, JSON.NET]
 language: en
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Neues HowTo - weiter in die Windows Live Welt hinein"
 date: 2007-10-03 12:58
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, HowTo, Windows Live]

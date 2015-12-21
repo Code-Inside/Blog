@@ -2,7 +2,7 @@
 layout: post
 title: "Buchempfehlung: Reguläre Ausdrücke. schnell + kompakt"
 date: 2007-11-27 18:31
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [ASP.NET MVC, RegEx]

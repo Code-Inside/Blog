@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Excel Export mit ASP.NET MVC und &quot;Render View To String&quot;"
 date: 2010-01-29 01:29
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo; ASP.NET MVC; MVC; Excel]

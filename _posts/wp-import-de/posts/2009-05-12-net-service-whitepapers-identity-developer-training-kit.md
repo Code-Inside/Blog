@@ -2,7 +2,7 @@
 layout: post
 title: ".NET Service Whitepapers & Identity Developer Training Kit"
 date: 2009-05-12 14:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Access, Azure, Geneva, Identity]

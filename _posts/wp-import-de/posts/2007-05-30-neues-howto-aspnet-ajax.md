@@ -2,7 +2,7 @@
 layout: post
 title: "Neues HowTo: ASP.NET AJAX"
 date: 2007-05-30 18:52
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [AJAX, ASP.NET, ASP.NET AJAX, HowTo, Javascript]

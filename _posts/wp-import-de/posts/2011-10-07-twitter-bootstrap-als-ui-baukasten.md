@@ -2,7 +2,7 @@
 layout: post
 title: "Twitter Bootstrap als UI-Baukasten"
 date: 2011-10-07 19:37
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [CSS, Frontend, HTML, Twitter, UI]

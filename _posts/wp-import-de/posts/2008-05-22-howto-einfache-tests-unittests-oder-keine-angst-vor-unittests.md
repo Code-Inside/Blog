@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Einfache Tests - UnitTests (oder keine Angst vor UnitTests...)"
 date: 2008-05-22 22:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [MS Test, TDD, Test, Unit Tests, Visual Studio 2008]

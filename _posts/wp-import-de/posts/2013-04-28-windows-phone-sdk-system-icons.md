@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Phone SDK- & “System”-Icons"
 date: 2013-04-28 12:08
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Windows Phone]
 tags: [Icons, Windows Phone]

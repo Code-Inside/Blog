@@ -2,7 +2,7 @@
 layout: post
 title: "Launch Event: Windows Azure Launch Day am 26.11.2009 in Stuttgart auf der Cloud Conf"
 date: 2009-11-10 23:30
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure, BPOS, Cloud, Exchange, Microsoft, SharePoint]

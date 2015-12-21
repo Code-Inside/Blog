@@ -3,7 +3,7 @@ layout: post
 title: "FAKE: Running MSTest Tests with FAKE without knowing a tiny bit of F#"
 description: "Of course FAKE can also run MSTests just like xUnit tests."
 date: 2015-08-30 23:30
-author: robert.muehsig
+author: Robert Muehsig
 tags: [FAKE, Test, MSBuild, MSTest]
 language: en
 ---

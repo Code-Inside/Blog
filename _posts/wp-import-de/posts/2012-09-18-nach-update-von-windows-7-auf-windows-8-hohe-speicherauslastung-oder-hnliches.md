@@ -2,7 +2,7 @@
 layout: post
 title: "Nach Update von Windows 7 auf Windows 8 hohe Speicherauslastung oder ähnliches?"
 date: 2012-09-18 22:23
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Windows 8]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Die Wiimote mit dem PC verbinden"
 date: 2008-09-17 23:28
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, HowTo, Wii]

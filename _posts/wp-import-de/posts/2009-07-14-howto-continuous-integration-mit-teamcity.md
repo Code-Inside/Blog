@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Continuous Integration mit TeamCity"
 date: 2009-07-14 21:37
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Build, Build Server, CI, Continuous Integration, HowTo, TeamCity]

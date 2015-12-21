@@ -2,7 +2,7 @@
 layout: post
 title: "Eigene Json-Web-Tokens (JWTs) erstellen und validieren"
 date: 2013-10-24 20:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [JWT, OAuth, Security]

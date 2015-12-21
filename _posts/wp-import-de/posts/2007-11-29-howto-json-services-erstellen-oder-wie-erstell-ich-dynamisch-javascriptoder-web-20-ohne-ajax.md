@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Json-Services erstellen (...oder wie erstell ich dynamisch Javascript?...oder Web 2.0 ohne AJAX?)"
 date: 2007-11-29 21:26
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET 3.5, AJAX, ASP.NET 3.5, HowTo, Json, Source, Web 2.0, Webservices]

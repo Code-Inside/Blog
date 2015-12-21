@@ -2,7 +2,7 @@
 layout: post
 title: "2. .NET Snippet Wettbewerb mit netten Gewinnen"
 date: 2007-11-13 20:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET]

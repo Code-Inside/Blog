@@ -2,7 +2,7 @@
 layout: post
 title: "Visual Studio 2008 SP1 / .NET Framework 3.5 SP1 + Training Kits"
 date: 2008-08-12 07:30
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET 3.5 SP1, Traning Kits, Visual Studio 2008]

@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC: ActionFilter zum Loggen benutzen"
 date: 2008-04-17 20:21
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ActionFilters, ASP.NET MVC, log4net, logging]

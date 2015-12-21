@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: “System.Xml.XmlException: An error occurred while parsing EntityName.”"
 date: 2010-05-04 23:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Error, Exception, Xml]

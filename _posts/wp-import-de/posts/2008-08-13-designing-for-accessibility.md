@@ -2,7 +2,7 @@
 layout: post
 title: "Designing for Accessibility"
 date: 2008-08-13 08:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Accessibility, Channel9, UI]

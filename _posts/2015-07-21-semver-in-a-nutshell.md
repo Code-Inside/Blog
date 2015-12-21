@@ -3,7 +3,7 @@ layout: post
 title: "Semantic Versioning in a nutshell"
 description: "TL;DR: Instead of Major.Minor.Patch say Breaking.Feature.Bugfix"
 date: 2015-07-21 23:30
-author: robert.muehsig
+author: Robert Muehsig
 tags: [SemVer]
 language: en
 ---

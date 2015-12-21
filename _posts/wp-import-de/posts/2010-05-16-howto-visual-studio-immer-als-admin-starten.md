@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Visual Studio immer als Admin starten"
 date: 2010-05-16 23:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [UAC, Visual Studio]

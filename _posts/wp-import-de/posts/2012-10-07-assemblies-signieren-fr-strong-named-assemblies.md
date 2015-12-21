@@ -2,7 +2,7 @@
 layout: post
 title: "Assemblies signieren für Strong Named Assemblies"
 date: 2012-10-07 14:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Assembly, HowTo, Signing]

@@ -2,7 +2,7 @@
 layout: post
 title: "Bldwin: In welche Richtung bewegt sich die Microsoft (Web) Welt..."
 date: 2011-09-13 23:55
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Windows 8]

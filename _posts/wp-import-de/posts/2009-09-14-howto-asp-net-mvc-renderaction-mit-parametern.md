@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET MVC RenderAction mit Parametern"
 date: 2009-09-14 22:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC; MVC; Futures; RenderAction; Komponenten]

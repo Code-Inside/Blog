@@ -2,7 +2,7 @@
 layout: post
 title: "PDC08: Windows 7, WPF, Silverlight, Office Online und das Live Framework"
 date: 2008-10-28 19:42
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Live Framework, Live Mesh, Office Online, PDC08, SDK, Silverlight, Windows 7, Windows Azure, WPF]

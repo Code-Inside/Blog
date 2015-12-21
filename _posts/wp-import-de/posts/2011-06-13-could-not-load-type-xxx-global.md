@@ -2,7 +2,7 @@
 layout: post
 title: "“Could not load type 'XXX.Global'.”"
 date: 2011-06-13 23:04
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Error, Fix]

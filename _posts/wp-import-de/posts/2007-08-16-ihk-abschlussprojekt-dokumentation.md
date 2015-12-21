@@ -2,7 +2,7 @@
 layout: post
 title: "IHK Abschlussprojekt - Dokumentation"
 date: 2007-08-16 23:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, Projekte]
 tags: [Projekt]

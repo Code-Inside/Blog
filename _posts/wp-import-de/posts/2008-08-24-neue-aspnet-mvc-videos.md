@@ -2,7 +2,7 @@
 layout: post
 title: "Neue ASP.NET MVC Videos"
 date: 2008-08-24 13:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, MVC, TDD, Unit Tests]

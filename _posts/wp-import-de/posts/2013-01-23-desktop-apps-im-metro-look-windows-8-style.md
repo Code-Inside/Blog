@@ -2,7 +2,7 @@
 layout: post
 title: "Desktop Apps im Metro-Look / Windows 8 Style"
 date: 2013-01-23 23:19
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Desktop, Metro, Windows 8]

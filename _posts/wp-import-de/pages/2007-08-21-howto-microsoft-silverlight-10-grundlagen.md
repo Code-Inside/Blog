@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Microsoft Silverlight 1.0 (Grundlagen)"
 date: 2007-08-21 19:36
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

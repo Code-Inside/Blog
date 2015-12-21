@@ -2,7 +2,7 @@
 layout: post
 title: "Neues HowTo zu Silverlight 1.0"
 date: 2007-09-11 22:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [AJAX, ASP.NET AJAX, HowTo, Silverlight]

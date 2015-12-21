@@ -2,7 +2,7 @@
 layout: post
 title: "Best Practice: Versionskontrolle, Datenbanken und DB-Updates… wie teile ich die DB im Team?"
 date: 2011-01-28 20:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo, HowToCode]
 tags: [Best Practices, BizzBingo, SQL, Team]

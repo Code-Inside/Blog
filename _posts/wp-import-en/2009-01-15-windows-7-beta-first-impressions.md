@@ -2,7 +2,7 @@
 layout: post
 title: "Windows 7 Beta - First impressions"
 date: 2009-01-15 01:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [News]
 tags: [Gadgets, Vista, Windows 7]

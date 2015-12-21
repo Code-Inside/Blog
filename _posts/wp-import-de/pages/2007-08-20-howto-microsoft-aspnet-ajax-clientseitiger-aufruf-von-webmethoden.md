@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Microsoft ASP.NET AJAX (Clientseitiger Aufruf von Webmethoden)"
 date: 2007-08-20 19:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

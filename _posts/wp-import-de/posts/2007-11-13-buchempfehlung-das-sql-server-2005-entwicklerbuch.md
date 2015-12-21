@@ -2,7 +2,7 @@
 layout: post
 title: "Buchempfehlung: Das SQL Server 2005 Entwicklerbuch"
 date: 2007-11-13 20:37
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [SQL, SQL Server 2005]

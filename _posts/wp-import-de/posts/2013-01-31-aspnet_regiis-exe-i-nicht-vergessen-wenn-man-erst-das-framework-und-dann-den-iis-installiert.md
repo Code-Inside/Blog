@@ -2,7 +2,7 @@
 layout: post
 title: "aspnet_regiis.exe –i nicht vergessen wenn man erst das Framework und dann den IIS installiert"
 date: 2013-01-31 22:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [ASP.NET, IIS, IIS8, Windows Server]

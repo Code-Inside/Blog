@@ -2,7 +2,7 @@
 layout: post
 title: "Http PUT/DELETE via Web.config im IIS7 für ASP.NET MVC erlauben"
 date: 2011-10-11 01:04
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [DELETE, HowTo, IIS, PUT, REST]

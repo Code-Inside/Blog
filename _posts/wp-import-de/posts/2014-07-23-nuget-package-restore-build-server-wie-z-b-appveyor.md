@@ -2,7 +2,7 @@
 layout: post
 title: "NuGet Package Restore & Build Server wie z.B. AppVeyor"
 date: 2014-07-23 20:51
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [AppVeyor, GitHub, HowTo, NuGet, Package Restore]

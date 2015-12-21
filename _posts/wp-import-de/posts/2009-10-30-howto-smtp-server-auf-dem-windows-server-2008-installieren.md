@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: SMTP Server auf dem Windows Server 2008 installieren"
 date: 2009-10-30 23:21
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Mail, Server, Windows Server 2008]

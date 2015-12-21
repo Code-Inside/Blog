@@ -2,7 +2,7 @@
 layout: post
 title: "Software-Tipp: Microsoft SharedView - &quot;Welchen Knopf muss ich denn drücken?&quot;"
 date: 2008-05-05 19:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, Software-Tipp]
 tags: [Microsoft, SharedView]

@@ -2,7 +2,7 @@
 layout: post
 title: "Code-Inside gibts jetzt auch auf englisch..."
 date: 2008-04-09 06:53
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Blog]

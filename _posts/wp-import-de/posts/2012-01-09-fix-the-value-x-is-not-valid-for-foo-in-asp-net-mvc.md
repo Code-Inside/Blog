@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: The value 'x' is not valid for Foo in ASP.NET MVC"
 date: 2012-01-09 22:32
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [ASP.NET MVC, Validation]

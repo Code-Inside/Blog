@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Vista Gadgets und einige Sicherheitsbedenken"
 date: 2007-12-10 21:18
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, Tools]
 tags: [Gadgets, Sicherheit, Vista, WCF, WPF]

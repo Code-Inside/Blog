@@ -2,7 +2,7 @@
 layout: post
 title: "Internet Explorer 8: Was dem Entwickler geboten wird..."
 date: 2008-11-03 00:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [IE8]

@@ -2,7 +2,7 @@
 layout: post
 title: "“Sign in with Twitter” für die eigene ASP.NET WebApp"
 date: 2012-04-02 23:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, OAuth, Twitter]

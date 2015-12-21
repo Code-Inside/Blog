@@ -2,7 +2,7 @@
 layout: post
 title: "Wie GitHub GitHub benutzt um GitHub zu bauen"
 date: 2011-10-03 23:37
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [GIT]

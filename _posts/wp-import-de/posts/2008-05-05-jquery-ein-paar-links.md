@@ -2,7 +2,7 @@
 layout: post
 title: "jQuery... ein paar Links"
 date: 2008-05-05 19:14
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [AJAX, Javascript, jQuery]

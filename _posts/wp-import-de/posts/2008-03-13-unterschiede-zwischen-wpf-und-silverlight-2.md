@@ -2,7 +2,7 @@
 layout: post
 title: "Unterschiede zwischen WPF und Silverlight 2"
 date: 2008-03-13 20:20
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Silverlight, Silverlight 2, WPF]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: MSDeploy & MSBuild"
 date: 2010-11-11 00:21
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, MSBuild, MSDeploy]

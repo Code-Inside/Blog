@@ -2,7 +2,7 @@
 layout: post
 title: "IIS & Windows Authentication – Troubleshooting mit Negotiate & NTLM"
 date: 2013-05-12 20:50
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [IIS, Troubleshooting, Windows Auth]

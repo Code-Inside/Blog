@@ -2,7 +2,7 @@
 layout: post
 title: "Am Rande notiert: Silverlight Links"
 date: 2007-05-21 18:27
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Tools]
 tags: [Silverlight]

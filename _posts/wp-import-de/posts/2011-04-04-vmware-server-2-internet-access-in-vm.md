@@ -2,7 +2,7 @@
 layout: post
 title: "vmware Server 2, Internet Access in VM & Services über Portforwarding freischalten"
 date: 2011-04-04 20:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Internet Access, VMWare]

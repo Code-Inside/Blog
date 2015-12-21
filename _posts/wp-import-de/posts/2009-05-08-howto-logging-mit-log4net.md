@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Logging mit Log4Net"
 date: 2009-05-08 21:29
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, log4net, logging]

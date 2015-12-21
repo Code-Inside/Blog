@@ -2,7 +2,7 @@
 layout: post
 title: "TeamCity & GitHub"
 date: 2011-10-07 22:54
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [CI, GIT, GitHub, TeamCity]

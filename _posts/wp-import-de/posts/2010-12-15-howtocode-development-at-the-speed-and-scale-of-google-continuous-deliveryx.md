@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Development at the Speed and Scale of Google & Continuous Delivery/X"
 date: 2010-12-15 01:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [Build, Continuous Integration, Google, HowToCode, Skalierbarkeit]

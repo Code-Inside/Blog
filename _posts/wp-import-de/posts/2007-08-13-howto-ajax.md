@@ -2,7 +2,7 @@
 layout: post
 title: "Kleines HowTo zum Thema AJAX"
 date: 2007-08-13 21:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [AJAX, HowTo, Javascript]

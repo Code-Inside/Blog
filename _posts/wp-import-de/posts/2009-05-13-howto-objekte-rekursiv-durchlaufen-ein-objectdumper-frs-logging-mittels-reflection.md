@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Objekte rekursiv durchlaufen - ein ObjectDumper fürs Logging mittels Reflection"
 date: 2009-05-13 19:20
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, log4net, logging, Reflection]

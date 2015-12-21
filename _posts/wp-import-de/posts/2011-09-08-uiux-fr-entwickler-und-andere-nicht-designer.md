@@ -2,7 +2,7 @@
 layout: post
 title: "UI/UX für Entwickler und andere Nicht-Designer"
 date: 2011-09-08 07:49
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [UI, UX]

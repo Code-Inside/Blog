@@ -2,7 +2,7 @@
 layout: post
 title: "Kostenlose Windows 8 Trainings von Microsoft"
 date: 2012-05-02 23:34
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Veranstaltungen]
 tags: [Veranstaltung, Windows 8]

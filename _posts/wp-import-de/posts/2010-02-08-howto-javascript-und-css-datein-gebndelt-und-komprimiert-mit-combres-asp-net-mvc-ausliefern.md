@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Javascript und CSS Datein gebündelt und komprimiert mit Combres & ASP.NET MVC ausliefern"
 date: 2010-02-08 01:06
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, Combres, HowTo, Http, Performance]

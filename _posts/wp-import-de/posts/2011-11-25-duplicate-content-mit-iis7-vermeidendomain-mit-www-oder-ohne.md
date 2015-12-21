@@ -2,7 +2,7 @@
 layout: post
 title: "“Duplicate Content” mit IIS7 vermeiden–Domain mit www oder ohne"
 date: 2011-11-25 00:31
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, IIS, SEO]

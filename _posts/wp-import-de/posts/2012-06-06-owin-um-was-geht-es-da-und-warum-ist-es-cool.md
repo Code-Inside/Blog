@@ -2,7 +2,7 @@
 layout: post
 title: "OWIN- um was geht es da und warum ist es cool?"
 date: 2012-06-06 23:12
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [OWIN, Web]

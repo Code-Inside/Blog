@@ -2,7 +2,7 @@
 layout: post
 title: "Neues HowTo: Silverlight 1.0 Spiegeleffekte"
 date: 2007-09-03 21:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, Expression Blend, HowTo, Silverlight]

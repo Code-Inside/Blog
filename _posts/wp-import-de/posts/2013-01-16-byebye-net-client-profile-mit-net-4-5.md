@@ -2,7 +2,7 @@
 layout: post
 title: "Byebye .NET Client Profile mit .NET 4.5"
 date: 2013-01-16 18:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET]

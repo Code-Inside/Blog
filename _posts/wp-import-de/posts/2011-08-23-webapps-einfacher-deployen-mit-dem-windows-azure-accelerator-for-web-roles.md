@@ -2,7 +2,7 @@
 layout: post
 title: "WebApps einfacher deployen mit dem Windows Azure Accelerator for Web Roles"
 date: 2011-08-23 23:36
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure, Deployment, Websites, Windows Azure]

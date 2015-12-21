@@ -2,7 +2,7 @@
 layout: post
 title: "Rabatt-Code & Freiticket für die Developer Week 2013"
 date: 2013-05-27 21:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Gewinnspiel]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Dependency Injection in ASP.NET MVC Controllern mit Windsor Castle"
 date: 2010-07-02 00:21
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, Castle Windsor, DI, HowTo, IoC]

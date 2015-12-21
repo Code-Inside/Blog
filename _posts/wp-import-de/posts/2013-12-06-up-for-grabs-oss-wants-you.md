@@ -2,7 +2,7 @@
 layout: post
 title: "Up For Grabs – OSS wants you!"
 date: 2013-12-06 21:27
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [OSS]

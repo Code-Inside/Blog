@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Erste Schritte mit EF CodeFirst & SQL CE 4.0 in ASP.NET MVC 3"
 date: 2011-05-01 23:44
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [CodeFirst, EF, HowTo, SQL CE]

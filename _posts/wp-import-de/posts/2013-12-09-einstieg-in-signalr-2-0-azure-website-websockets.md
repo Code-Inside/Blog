@@ -2,7 +2,7 @@
 layout: post
 title: "Einstieg in SignalR 2.0 & Azure Website Websockets"
 date: 2013-12-09 00:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Azure, HowTo, SignalR, Websockets]

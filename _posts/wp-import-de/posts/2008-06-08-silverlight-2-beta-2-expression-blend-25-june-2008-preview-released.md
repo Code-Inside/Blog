@@ -2,7 +2,7 @@
 layout: post
 title: "Silverlight 2 Beta 2 & Expression Blend 2.5 June 2008 Preview released"
 date: 2008-06-08 18:02
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Expression Blend 2.5, Silverlight 2, UI]

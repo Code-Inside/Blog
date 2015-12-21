@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Charts mit der Google Charts API erstellen - eine Einführung"
 date: 2008-01-22 23:50
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [API, Charts, Google, Google Chart API, HowTo]

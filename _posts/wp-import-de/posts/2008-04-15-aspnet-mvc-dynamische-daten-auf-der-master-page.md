@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC: Dynamische Daten auf der Master Page"
 date: 2008-04-15 13:14
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, Components]

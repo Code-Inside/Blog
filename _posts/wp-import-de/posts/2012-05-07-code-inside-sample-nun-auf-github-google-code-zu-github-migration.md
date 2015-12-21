@@ -2,7 +2,7 @@
 layout: post
 title: "Code-Inside Sample nun auf GitHub: Google Code zu GitHub Migration"
 date: 2012-05-07 22:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [GIT, GitHub, Google Code, HowTo]

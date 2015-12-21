@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Setup Subdomains in IIS 6.0"
 date: 2009-02-12 00:40
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [DNS, Domains, HowTo, IIS, Subdomains]

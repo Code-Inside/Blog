@@ -3,7 +3,7 @@ layout: post
 title: "ESENT Database Viewer: ESENT Workbench"
 description: "If you are working with the (very very old) ESENT Database and you are looking for a simple tool to get a look at the raw data ESENTWorkbench might be interesting for you."
 date: 2015-02-22 11:00
-author: robert.muehsig
+author: Robert Muehsig
 tags: [ESENT, NoSQL, ESENTDB, Viewer]
 language: en
 ---

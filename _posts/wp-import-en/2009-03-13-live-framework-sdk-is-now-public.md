@@ -2,7 +2,7 @@
 layout: post
 title: "Live Framework SDK is now public"
 date: 2009-03-13 09:32
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [News]
 tags: [Live Framework, Live Mesh, Mesh]

@@ -2,7 +2,7 @@
 layout: post
 title: "&quot;g-speak&quot; - Minority Report alike UI/operating environment"
 date: 2008-11-26 12:53
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Minority Report, Multitouch, UI]

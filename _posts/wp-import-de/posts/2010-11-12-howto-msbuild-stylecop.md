@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: MSBuild & StyleCop"
 date: 2010-11-12 23:15
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, MSBuild, StyleCop]

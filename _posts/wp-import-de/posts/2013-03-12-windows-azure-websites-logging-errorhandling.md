@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Azure Websites – Logging & ErrorHandling"
 date: 2013-03-12 22:30
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure, Elmah, Websites]

@@ -2,7 +2,7 @@
 layout: post
 title: "Gute und schlechte Seiten des UpdatePanels..."
 date: 2007-06-07 07:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, ASP.NET AJAX]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Continuous Integration"
 date: 2009-07-08 22:27
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [Build, HowToCode, Nightly, Subversion, SVN, TeamCity, Trac]

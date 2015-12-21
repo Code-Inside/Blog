@@ -2,7 +2,7 @@
 layout: post
 title: "Kostenlose Icons im Metro Look–Monochrom/Minimalist Icons"
 date: 2011-11-25 01:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Icon, Icons, Metro, Mono]

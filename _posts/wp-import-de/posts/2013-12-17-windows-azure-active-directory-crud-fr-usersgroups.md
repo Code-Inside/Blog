@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Azure Active Directory - CRUD für Users und Groups"
 date: 2013-12-17 00:01
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [AD, Azure, REST, WAAD]

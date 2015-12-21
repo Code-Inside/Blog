@@ -2,7 +2,7 @@
 layout: post
 title: "Windows PowerShell & Biztalk Poster"
 date: 2007-06-14 21:28
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Biztalk, Poster, Powershell]

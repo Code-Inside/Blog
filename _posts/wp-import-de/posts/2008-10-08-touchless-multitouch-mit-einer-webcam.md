@@ -2,7 +2,7 @@
 layout: post
 title: "&quot;Touchless&quot; - Multitouch mit einer Webcam"
 date: 2008-10-08 00:58
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Multitouch, Office Labs, Surface, Touchless, UI]

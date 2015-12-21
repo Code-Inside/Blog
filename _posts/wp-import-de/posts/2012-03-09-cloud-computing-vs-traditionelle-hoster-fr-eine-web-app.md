@@ -2,7 +2,7 @@
 layout: post
 title: "Cloud Computing vs. “traditionelle” Hoster für eine Web-App"
 date: 2012-03-09 02:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure, Cloud, Cloud Computing, Pricing]

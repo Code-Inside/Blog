@@ -3,7 +3,7 @@ layout: post
 title: "Developer Conference in Berlin: Spartakiade"
 description: "If you are in Berlin around the date 21.-22. March you can attend a pretty nice conference."
 date: 2015-02-17 23:00
-author: robert.muehsig
+author: Robert Muehsig
 tags: [Events]
 language: en
 ---

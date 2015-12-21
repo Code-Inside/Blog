@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Phone App Studio – Spielzeug oder auch für professionelle Entwickler interessant?"
 date: 2013-08-11 21:08
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [App Studio, Windows Phone]

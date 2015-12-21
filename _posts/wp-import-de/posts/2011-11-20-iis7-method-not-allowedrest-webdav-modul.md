@@ -2,7 +2,7 @@
 layout: post
 title: "IIS7 “Method not allowed”–REST + WebDAV Modul"
 date: 2011-11-20 18:44
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [IIS7, REST]

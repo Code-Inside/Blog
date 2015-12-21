@@ -2,7 +2,7 @@
 layout: post
 title: ".LESS–dynamische Stylesheets für .NET Entwickler"
 date: 2011-06-28 23:52
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.LESS, Combres, CSS]

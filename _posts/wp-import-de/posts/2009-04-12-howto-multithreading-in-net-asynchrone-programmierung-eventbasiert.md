@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Multithreading in .NET - Asynchrone Programmierung (Eventbasiert)"
 date: 2009-04-12 21:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Async, HowTo, Multithreading]

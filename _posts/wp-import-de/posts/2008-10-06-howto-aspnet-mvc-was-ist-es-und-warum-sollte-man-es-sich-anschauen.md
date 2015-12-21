@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET MVC - Was ist es und warum sollte man es sich anschauen?"
 date: 2008-10-06 00:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, MVC; ASP.NET, TDD; HowTo]

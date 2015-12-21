@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: TeamCity & CodeCoverage mit dotCover"
 date: 2011-01-14 01:01
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [BizzBingo, CI, dotCover, NUnit, TeamCity]

@@ -3,7 +3,7 @@ layout: post
 title: "WinJS for Windows Store Apps: Free eBook, Videos and how you could use it with Angular.js"
 description: "Microsoft published a free eBook about WinJS development for Windows Store Apps and some other nice material about WinJS. If you are looking for an alternative to XAML this might be interesting for you."
 date: 2014-10-23 23:05
-author: robert.muehsig
+author: Robert Muehsig
 tags: [WinJS, Windows Store, Universal Apps, HTML, Javascript]
 language: en
 ---

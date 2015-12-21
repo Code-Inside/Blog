@@ -2,7 +2,7 @@
 layout: post
 title: "Source Code veröffentlichen – aber bitte mit Lizenz"
 date: 2014-04-15 22:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [OSS]

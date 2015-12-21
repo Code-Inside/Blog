@@ -2,7 +2,7 @@
 layout: post
 title: "Team Foundation Service – ein erster Blick auf den TFS in der Cloud"
 date: 2012-11-05 22:31
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Cloud, TFS]

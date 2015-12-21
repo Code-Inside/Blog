@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC & Web Client Software Factory (WCSF)"
 date: 2007-11-20 23:26
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, MVC, Software Factories, WCSF]

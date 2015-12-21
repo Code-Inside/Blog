@@ -3,7 +3,7 @@ layout: post
 title: "Create and read NuGet Packages via Code"
 description: "NuGet all the things - but this time with code."
 date: 2015-06-03 00:15
-author: robert.muehsig
+author: Robert Muehsig
 tags: [NuGet]
 language: en
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "[Update] Icons, Icons, Icons... kostenlos!"
 date: 2008-04-15 12:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Icons]

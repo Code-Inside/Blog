@@ -2,7 +2,7 @@
 layout: post
 title: "Update - Verlosung: Freiticket für VSOne/SharePoint Konferenz & Advanced Developers Conference"
 date: 2011-01-27 00:45
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Verlosung]

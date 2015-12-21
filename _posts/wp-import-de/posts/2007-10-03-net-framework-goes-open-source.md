@@ -2,7 +2,7 @@
 layout: post
 title: ".NET Framework goes Open Source"
 date: 2007-10-03 20:06
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET]

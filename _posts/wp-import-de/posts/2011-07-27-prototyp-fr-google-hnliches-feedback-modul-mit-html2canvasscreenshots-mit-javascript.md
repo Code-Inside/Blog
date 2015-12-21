@@ -2,7 +2,7 @@
 layout: post
 title: "Prototyp für Google+ ähnliches Feedback-Modul mit Html2Canvas–Screenshots mit Javascript"
 date: 2011-07-27 00:12
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Canvas, File, HTML5, Javascript, Upload]

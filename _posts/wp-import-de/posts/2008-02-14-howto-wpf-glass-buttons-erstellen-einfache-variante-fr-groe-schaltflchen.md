@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: WPF Glass Buttons erstellen - einfache Variante für große Schaltflächen"
 date: 2008-02-14 11:21
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Glass, HowTo, UI, WPF]

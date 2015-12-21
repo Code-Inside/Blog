@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Twittern mit C#"
 date: 2009-04-20 01:34
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Tweetsharp, Twitter]

@@ -2,7 +2,7 @@
 layout: post
 title: "Snoop – Firebug für WPF Anwendungen"
 date: 2012-12-05 22:52
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Firebug, Snoop, WPF]

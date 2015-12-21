@@ -2,7 +2,7 @@
 layout: post
 title: "Some notes about ASP.NET MVC RC & the MVC Design Gallery"
 date: 2008-12-30 19:31
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [News]
 tags: [ASP.NET MVC, CSS, Design, MVC]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Sessionless Controller in MVC3 – was & wieso überhaupt?"
 date: 2010-12-07 00:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo, MVC, Session, Visual Studio 2010, WebTest]

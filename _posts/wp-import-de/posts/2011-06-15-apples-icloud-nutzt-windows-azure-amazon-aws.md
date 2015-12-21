@@ -2,7 +2,7 @@
 layout: post
 title: "Apples iCloud nutzt Windows Azure & Amazon AWS"
 date: 2011-06-15 07:44
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Amazon, Apple, Azure, Cloud Computing]

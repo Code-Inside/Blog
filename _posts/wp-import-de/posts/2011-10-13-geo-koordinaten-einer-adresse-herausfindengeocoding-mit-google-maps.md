@@ -2,7 +2,7 @@
 layout: post
 title: "Geo-Koordinaten einer Adresse herausfinden–Geocoding mit Google Maps"
 date: 2011-10-13 00:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Geo, Google, Google Maps, HowTo]

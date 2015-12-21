@@ -2,7 +2,7 @@
 layout: post
 title: "UI Prototyping mit SketchFlow & Blend 4"
 date: 2010-06-30 00:20
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

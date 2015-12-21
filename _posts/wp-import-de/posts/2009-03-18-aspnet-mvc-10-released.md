@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC 1.0 released! (1. Update)"
 date: 2009-03-18 12:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, ASP.NET MVC]

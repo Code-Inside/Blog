@@ -3,7 +3,7 @@ layout: post
 title: "Be aware of Assembly.GetCallingAssembly()'s Behaviour"
 description: "Assembly.GetCallingAssembly() can be dangerous, so be aware if you use it."
 date: 2014-10-05 13:25
-author: robert.muehsig
+author: Robert Muehsig
 tags: [Reflection, Assembly, .NET]
 language: en
 ---

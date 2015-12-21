@@ -3,7 +3,7 @@ layout: post
 title: "Microsoft Web Camp Talk in German about ASP.NET now and ASP.NET 5"
 description: "I did two sessions during the Web Camp in Zurich and just want to share my slides and code."
 date: 2015-05-19 23:00
-author: robert.muehsig
+author: Robert Muehsig
 tags: [ASP.NET 5, ASP.NET]
 language: en
 ---

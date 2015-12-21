@@ -2,7 +2,7 @@
 layout: post
 title: "Dateidownload über FTP am Beispiel von Azure Websites Diagnostics"
 date: 2013-10-15 20:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Azure, Azure Websites, FTP, HowTo]

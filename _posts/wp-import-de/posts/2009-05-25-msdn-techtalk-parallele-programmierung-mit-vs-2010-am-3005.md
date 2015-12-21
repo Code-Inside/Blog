@@ -2,7 +2,7 @@
 layout: post
 title: "MSDN TechTalk Parallele Programmierung mit VS 2010 am 30.06"
 date: 2009-05-25 18:44
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Parallel Computing, TechTalk]

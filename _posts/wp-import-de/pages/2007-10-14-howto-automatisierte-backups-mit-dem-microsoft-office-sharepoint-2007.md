@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Automatisierte Backups mit dem Microsoft Office SharePoint 2007"
 date: 2007-10-14 19:49
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

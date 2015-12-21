@@ -2,7 +2,7 @@
 layout: post
 title: "Esent – die “uralte NoSQL DB” von Windows"
 date: 2013-09-01 17:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Esent]

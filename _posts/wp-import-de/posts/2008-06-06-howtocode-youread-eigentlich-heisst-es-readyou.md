@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode &quot;YouRead&quot;: ...eigentlich heisst es &quot;ReadYou&quot;"
 date: 2008-06-06 18:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: ["ReadYou", "YouRead", HowToCode]

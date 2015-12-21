@@ -2,7 +2,7 @@
 layout: post
 title: "Wie Live Mesh Anwendungen aussehen könnten..."
 date: 2008-09-09 07:58
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Live Mesh, SDK]

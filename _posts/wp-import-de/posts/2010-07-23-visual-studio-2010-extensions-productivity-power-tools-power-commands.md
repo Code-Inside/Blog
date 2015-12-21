@@ -2,7 +2,7 @@
 layout: post
 title: "Visual Studio 2010 Extensions: Productivity Power Tools & Power Commands"
 date: 2010-07-23 23:20
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Visual Studio 2010]

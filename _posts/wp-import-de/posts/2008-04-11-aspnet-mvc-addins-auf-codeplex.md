@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC - &quot;AddIns&quot; auf Codeplex"
 date: 2008-04-11 19:18
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, ASP.NET MVC, jQuery, Membership]

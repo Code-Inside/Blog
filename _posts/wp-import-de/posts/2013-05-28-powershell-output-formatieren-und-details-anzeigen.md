@@ -2,7 +2,7 @@
 layout: post
 title: "Powershell – Output “formatieren” und Details anzeigen"
 date: 2013-05-28 20:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Powershell]

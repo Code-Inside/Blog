@@ -2,7 +2,7 @@
 layout: post
 title: "Was kostet Windows Azure?"
 date: 2011-05-04 22:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure, Cloud Computing]

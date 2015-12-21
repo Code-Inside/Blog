@@ -3,7 +3,7 @@ layout: post
 title: "Simple WebApp Deployment with WebDeploy and MSBuild in TFS & co."
 description: "Continuous  Deployment is a pretty simple, but very helpful tool in your toolbox and the first steps can be achieved very easily with pure MSBuild. This works great with TFS or any other Build System."
 date: 2014-12-04 00:01
-author: robert.muehsig
+author: Robert Muehsig
 tags: [MSBuild, WebDeploy, TFS]
 language: en
 ---

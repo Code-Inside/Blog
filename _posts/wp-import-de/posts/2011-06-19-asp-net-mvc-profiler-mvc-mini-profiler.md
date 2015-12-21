@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC Profiler “mvc-mini-profiler”"
 date: 2011-06-19 23:20
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, Glimpse, NuGet, Stackoverflow]

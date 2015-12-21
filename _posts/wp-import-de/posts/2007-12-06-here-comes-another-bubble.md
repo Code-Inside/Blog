@@ -2,7 +2,7 @@
 layout: post
 title: "&quot;Here comes another bubble&quot;"
 date: 2007-12-06 11:53
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

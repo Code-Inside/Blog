@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Mehrere Dateien über die Powershell entpacken–Unzip mit Powershell"
 date: 2011-07-31 23:52
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Powershell, Unzip]

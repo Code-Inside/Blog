@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Messaging mit MSMQ, ein Einstieg"
 date: 2010-09-07 22:53
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, MSMQ]

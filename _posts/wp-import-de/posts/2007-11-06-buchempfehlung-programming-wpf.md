@@ -2,7 +2,7 @@
 layout: post
 title: "Buchempfehlung: Programming WPF"
 date: 2007-11-06 20:51
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [WPF]

@@ -2,7 +2,7 @@
 layout: post
 title: "Ein paar interessante .NET Links"
 date: 2007-06-05 10:43
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, ASP.NET, SharePoint]

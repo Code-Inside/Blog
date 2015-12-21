@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Home Directory / Local Path in IIS6 mit adsutil.vbs anpassen"
 date: 2010-03-19 22:18
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ADSUTIL, Deployment, HowTo, IIS, Powershell]

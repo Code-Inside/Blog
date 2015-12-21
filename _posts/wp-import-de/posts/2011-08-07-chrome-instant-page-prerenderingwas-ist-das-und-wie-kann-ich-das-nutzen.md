@@ -2,7 +2,7 @@
 layout: post
 title: "Chrome Instant Page / Prerendering–was ist das und wie kann ich das nutzen?"
 date: 2011-08-07 11:02
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Chrome, Google, Prerendering]

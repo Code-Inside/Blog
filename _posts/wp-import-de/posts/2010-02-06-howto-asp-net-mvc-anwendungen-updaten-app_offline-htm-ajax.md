@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET MVC Anwendungen updaten - App_Offline.htm & AJAX"
 date: 2010-02-06 00:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [AJAX, App_Offline, ASP.NET MVC, HowTo, Update]

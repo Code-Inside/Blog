@@ -2,7 +2,7 @@
 layout: post
 title: "Interaktionen zwischen Web und Windows Desktop/Windows Phone/WinRT mit ObjectForScripting & window.external.notify"
 date: 2013-09-04 20:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Browser, HowTo, IE, Metro, ObjectForScripting]

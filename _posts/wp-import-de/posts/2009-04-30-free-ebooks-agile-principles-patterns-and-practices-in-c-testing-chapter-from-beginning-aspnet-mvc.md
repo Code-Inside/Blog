@@ -2,7 +2,7 @@
 layout: post
 title: "Free eBook: Testing Chapter from Beginning ASP.NET MVC"
 date: 2009-04-30 10:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Agil, ASP.NET MVC, eBooks, MVC]

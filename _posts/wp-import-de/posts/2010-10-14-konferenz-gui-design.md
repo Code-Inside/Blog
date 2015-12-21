@@ -2,7 +2,7 @@
 layout: post
 title: "Konferenz: GUI & Design"
 date: 2010-10-14 22:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Gewinnspiel, Konferenzen]

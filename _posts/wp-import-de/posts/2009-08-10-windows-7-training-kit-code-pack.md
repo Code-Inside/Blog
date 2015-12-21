@@ -2,7 +2,7 @@
 layout: post
 title: "Windows 7 Training Kit & Code Pack"
 date: 2009-08-10 09:49
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [API, Code Pack, MSDN, Windows 7]

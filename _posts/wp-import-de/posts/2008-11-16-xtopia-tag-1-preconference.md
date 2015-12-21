@@ -2,7 +2,7 @@
 layout: post
 title: "Xtopia - Tag 1 (Preconference...)"
 date: 2008-11-16 20:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Xtopia]
 tags: [Xtopia]

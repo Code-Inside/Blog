@@ -2,7 +2,7 @@
 layout: post
 title: "Javascript zu Dart Translator"
 date: 2012-01-31 00:06
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Dart, Dash, Google]

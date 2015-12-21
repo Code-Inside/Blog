@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Ein iPhone Homescreen Icon für die eigene Webseite anbieten"
 date: 2009-12-12 22:23
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Icon, iPhone]

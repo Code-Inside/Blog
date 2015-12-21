@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: TFS Best Practice - Wie lege ich ein Projekt an?"
 date: 2008-06-11 22:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: ["ReadYou", HowTo, Team Explorer, Team Foundation Server]

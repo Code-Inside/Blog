@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: jQuery Hosted CDN Version & lokaler “Fallback”"
 date: 2010-12-20 20:34
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [CDN, HowTo, jQuery]

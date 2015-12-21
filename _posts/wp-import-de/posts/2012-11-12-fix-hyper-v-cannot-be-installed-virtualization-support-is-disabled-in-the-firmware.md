@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: “Hyper-V cannot be installed: Virtualization support is disabled in the firmware.”"
 date: 2012-11-12 19:51
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Fix, Hyper-V, Windows 8]

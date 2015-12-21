@@ -2,7 +2,7 @@
 layout: post
 title: "Repeater, UpdatePanels und die Datenbindung"
 date: 2007-06-15 07:34
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET]

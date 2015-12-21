@@ -2,7 +2,7 @@
 layout: post
 title: "1 Monat seit der Windows Azure Migration – was kostet denn der Spaß?"
 date: 2014-03-04 20:16
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure, Blog]

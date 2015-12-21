@@ -2,7 +2,7 @@
 layout: post
 title: "Der perfekte Zeitpunkt zum Source Code veröffentlichen?"
 date: 2008-12-18 02:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Codeplex, MVC, Open Source, Oxite, Storefront]

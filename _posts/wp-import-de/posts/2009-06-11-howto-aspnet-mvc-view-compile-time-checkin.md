@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET MVC View compile-time checkin"
 date: 2009-06-11 01:06
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, Build, HowTo, View]

@@ -2,7 +2,7 @@
 layout: post
 title: "Lizenzänderung zu Creative Commons"
 date: 2012-04-25 23:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Blogging, Creative Commons, Lizenzen]

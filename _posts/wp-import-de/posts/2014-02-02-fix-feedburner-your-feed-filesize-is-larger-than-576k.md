@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: FeedBurner “Your feed filesize is larger than 576K.”"
 date: 2014-02-02 14:37
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Feed, FeedBurner, Fix, RSS]

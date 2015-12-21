@@ -2,7 +2,7 @@
 layout: post
 title: "Open Source, .NET und Microsoft"
 date: 2008-01-04 11:16
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Microsoft, Open Source]

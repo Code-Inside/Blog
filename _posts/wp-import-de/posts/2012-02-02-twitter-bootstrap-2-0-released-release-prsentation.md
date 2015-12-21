@@ -2,7 +2,7 @@
 layout: post
 title: "Twitter Bootstrap 2.0 released & “Release Präsentation”"
 date: 2012-02-02 00:10
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Bootstrap, Twitter]

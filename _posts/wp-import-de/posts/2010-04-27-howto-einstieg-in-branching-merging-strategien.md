@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Einstieg in Branching & Merging Strategien"
 date: 2010-04-27 23:13
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Branching, HowTo, Merging, Source, TFS]

@@ -2,7 +2,7 @@
 layout: post
 title: "Silverlight 3 Beta: Runtime, Tools, SDK, Documentation!"
 date: 2009-03-18 12:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Blend 3, SDK, Silverlight 3]

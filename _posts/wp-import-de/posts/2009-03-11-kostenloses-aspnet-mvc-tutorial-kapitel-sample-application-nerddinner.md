@@ -2,7 +2,7 @@
 layout: post
 title: "Kostenloses ASP.NET MVC Tutorial Kapitel & Sample Application &quot;NerdDinner&quot;"
 date: 2009-03-11 08:23
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, MVC, NerdDinner]

@@ -2,7 +2,7 @@
 layout: post
 title: "Google-Gedankenspiel von 2005: Android mit der Microsoft CLR anstatt der JVM?"
 date: 2012-04-20 22:16
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Android, CLR, Google, JVM, Oracle]

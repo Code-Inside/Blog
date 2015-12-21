@@ -2,7 +2,7 @@
 layout: post
 title: "Twitter Login in ASP.NET MVC 4 ohne Membership & co. nutzen"
 date: 2012-10-14 22:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, MVC4, OAuth, Twitter]

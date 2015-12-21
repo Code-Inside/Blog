@@ -3,7 +3,7 @@ layout: post
 title: "We moved completely to GitHub Pages - German & English Posts migrated!"
 description: "After a long time with two different Wordpress installations we are finally on completely on GitHub Pages."
 date: 2014-12-24 18:00
-author: robert.muehsig
+author: Robert Muehsig
 tags: [Wordpress, GitHub Pages, GitHub]
 language: en
 ---

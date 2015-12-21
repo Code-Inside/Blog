@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Rahmenlose WPF Apps mit Schattenwurf"
 date: 2012-11-11 14:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [WPF]

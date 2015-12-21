@@ -2,7 +2,7 @@
 layout: post
 title: "eBook ASP.NET MVC 2 in Action"
 date: 2010-05-05 00:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, eBook]

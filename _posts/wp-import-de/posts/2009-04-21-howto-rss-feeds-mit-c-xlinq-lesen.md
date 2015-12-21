@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: RSS Feeds mit C# / XLINQ lesen"
 date: 2009-04-21 01:16
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, LINQ, RSS, XLINQ]

@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: A single instance of controller 'FooController' cannot be used to handle multiple requests - MVC3"
 date: 2011-01-18 22:34
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Castle Windsor, IoC, MVC]

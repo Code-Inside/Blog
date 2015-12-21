@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: “401 - Unauthorized: Access is denied due to invalid credentials” bei ASP.NET MVC & IIS 7"
 date: 2011-08-06 23:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [ASP.NET MVC, Fehler, Fix, HowTo, IIS7]

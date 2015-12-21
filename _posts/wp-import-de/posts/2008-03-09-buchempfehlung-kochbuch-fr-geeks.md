@@ -2,7 +2,7 @@
 layout: post
 title: "Buchempfehlung: Kochbuch für Geeks"
 date: 2008-03-09 22:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [Kochen]

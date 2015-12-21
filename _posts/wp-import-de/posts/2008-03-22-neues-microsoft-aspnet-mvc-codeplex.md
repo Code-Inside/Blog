@@ -2,7 +2,7 @@
 layout: post
 title: "Neues Microsoft: ASP.NET MVC @ Codeplex"
 date: 2008-03-22 10:57
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, Codeplex]

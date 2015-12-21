@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: “Method not found: 'Void System.Web.Mvc.GlobalFilterCollection.Add(System.Object, System.Nullable`1)'.”"
 date: 2010-12-03 21:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Fix, MVC3]

@@ -2,7 +2,7 @@
 layout: post
 title: "Ist eine 3 Schichten Architektur mit eigener DAL immer empfehlenswert?"
 date: 2010-08-03 23:06
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: []

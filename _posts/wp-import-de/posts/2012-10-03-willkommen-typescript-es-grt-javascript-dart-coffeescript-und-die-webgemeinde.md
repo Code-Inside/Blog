@@ -2,7 +2,7 @@
 layout: post
 title: "Willkommen TypeScript – es grüßt Javascript, Dart, CoffeeScript und die Webgemeinde"
 date: 2012-10-03 23:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [CoffeeScript, Dart, TypeScript]

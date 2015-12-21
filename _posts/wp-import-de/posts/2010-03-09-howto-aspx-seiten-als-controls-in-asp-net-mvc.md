@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASPX Seiten als Controls in ASP.NET MVC"
 date: 2010-03-09 22:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo, MVC]

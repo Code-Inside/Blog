@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Alle Requests zu einem Controller umleiten"
 date: 2010-02-24 00:12
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo, MVC, Routing]

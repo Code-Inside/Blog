@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET Membership, Roles & Profiles - Einrichten, Rollensystem, Allgemeines & Demoprojekt"
 date: 2008-02-07 22:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, ASP.NET MVC, Cardspace, HowTo, Membership, MySQL, OpenID, Security]

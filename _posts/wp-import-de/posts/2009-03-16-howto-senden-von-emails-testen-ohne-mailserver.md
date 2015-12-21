@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Senden von Emails testen ohne Mailserver"
 date: 2009-03-16 22:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Email, HowTo, SMTP, Tests]

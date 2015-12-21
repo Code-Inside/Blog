@@ -2,7 +2,7 @@
 layout: post
 title: "OWIN, Katana & One ASP.NET"
 date: 2013-09-15 18:52
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Katana, One ASP.NET, OWIN]

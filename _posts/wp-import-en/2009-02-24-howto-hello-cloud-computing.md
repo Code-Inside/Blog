@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Hello &quot;Cloud-Computing&quot;"
 date: 2009-02-24 03:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Amazon, Amazon EC2, AppEngine, Google, HowTo, Phyton, S3, Windows Azure]

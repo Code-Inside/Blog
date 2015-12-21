@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Azure IP Ranges – für Firewall-Freischaltungen etc."
 date: 2013-03-11 22:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure, Firewall]

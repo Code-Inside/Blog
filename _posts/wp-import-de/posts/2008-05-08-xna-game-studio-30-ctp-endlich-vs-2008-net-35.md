@@ -2,7 +2,7 @@
 layout: post
 title: "XNA Game Studio 3.0 CTP: Endlich VS 2008 & .NET 3.5"
 date: 2008-05-08 22:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, Tools]
 tags: [.NET 3.5, Game, Visual Studio 2008, XNA]

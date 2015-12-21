@@ -2,7 +2,7 @@
 layout: post
 title: "Wie der Name des &quot;Windows Server 2008&quot; entstand..."
 date: 2008-02-20 12:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: [Off Topic, Windows Server 2008]

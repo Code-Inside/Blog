@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: Excel COM Exception Code –2147467259 & Exception from HRESULT 0x80028018"
 date: 2014-04-26 13:14
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [COM, Excel]

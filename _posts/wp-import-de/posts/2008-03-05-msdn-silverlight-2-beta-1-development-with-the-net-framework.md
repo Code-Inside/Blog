@@ -2,7 +2,7 @@
 layout: post
 title: "MSDN: Silverlight 2 Beta 1 - Development with the .NET Framework"
 date: 2008-03-05 07:45
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Mix08, MSDN, Silverlight 2]

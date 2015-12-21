@@ -2,7 +2,7 @@
 layout: post
 title: "TFS im Einsatz? Meine Kollegen stellen vor..."
 date: 2011-11-04 22:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [TFS]

@@ -2,7 +2,7 @@
 layout: post
 title: "Pragmatische Softwareentwicklung"
 date: 2011-11-27 23:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

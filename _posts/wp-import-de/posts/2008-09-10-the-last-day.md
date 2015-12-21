@@ -2,7 +2,7 @@
 layout: post
 title: "Unser letzter Tag..."
 date: 2008-09-10 07:29
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Was sind “Hash-Bang” (#!) URLs und worum geht es da?"
 date: 2011-07-24 23:34
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Browser, History, HTML5, Javascript]

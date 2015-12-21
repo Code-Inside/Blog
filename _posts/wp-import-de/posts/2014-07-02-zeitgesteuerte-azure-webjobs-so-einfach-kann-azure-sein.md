@@ -2,7 +2,7 @@
 layout: post
 title: "Zeitgesteuerte Azure WebJobs – so einfach kann Azure sein"
 date: 2014-07-02 21:54
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Azure, HowTo, WebJobs]

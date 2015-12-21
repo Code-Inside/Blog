@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Build/Deployment/WTF oder auch Automatisierung mit MSBuild"
 date: 2010-03-19 00:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [Build, Deployment, MSBuild]

@@ -2,7 +2,7 @@
 layout: post
 title: "Willkommen im Internet"
 date: 2008-12-03 14:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: [Fun]

@@ -2,7 +2,7 @@
 layout: post
 title: "VSone 08 - ich bin dabei"
 date: 2008-02-12 15:50
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

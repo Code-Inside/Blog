@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Live - Virtual Earth: Ein neues HowTo"
 date: 2007-10-11 00:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, HowTo, Virtual Earth, Windows Live]

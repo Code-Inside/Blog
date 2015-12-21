@@ -2,7 +2,7 @@
 layout: post
 title: "Visual Studio Tools in der PowerShell nutzen"
 date: 2013-02-11 22:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Powershell, Visual Studio]

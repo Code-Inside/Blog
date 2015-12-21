@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Codeplex Projekt anlegen"
 date: 2008-06-09 22:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: ["ReadYou", Codeplex, HowTo, Team Explorer, Visual Studio 2008]

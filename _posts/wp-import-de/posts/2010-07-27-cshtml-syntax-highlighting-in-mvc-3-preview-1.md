@@ -2,7 +2,7 @@
 layout: post
 title: "“.cshtml” HTML Syntax Highlighting in MVC 3 Preview 1"
 date: 2010-07-27 21:42
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo, Preview]

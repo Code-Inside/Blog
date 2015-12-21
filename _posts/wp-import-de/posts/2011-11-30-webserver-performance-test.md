@@ -2,7 +2,7 @@
 layout: post
 title: "Webserver Performance Test"
 date: 2011-11-30 00:58
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [IIS, Performance, Webserver]

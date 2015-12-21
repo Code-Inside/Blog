@@ -2,7 +2,7 @@
 layout: post
 title: ".NET 4.0 & IIS6 mit WCF und REST"
 date: 2013-03-19 23:10
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [IIS6, REST, WCF]

@@ -2,7 +2,7 @@
 layout: post
 title: "10 Jahre Google Startseite im Schnelldurchlauf"
 date: 2008-10-06 12:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Google, Internet Archiv]

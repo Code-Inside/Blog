@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: OpenID Authentifizierung und ASP.NET MVC"
 date: 2010-01-04 00:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, Authentication, HowTo, MVC, OAuth, OpenID]

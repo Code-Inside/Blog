@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: AssemblyInfos – Keep it DRY!"
 date: 2010-11-02 00:23
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Assembly, HowTo]

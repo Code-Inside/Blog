@@ -2,7 +2,7 @@
 layout: post
 title: "Buchempfehlung: Test-Driven-Development. By Example."
 date: 2008-06-24 19:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [Buch, TDD]

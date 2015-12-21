@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Microsoft ASP.NET AJAX (Praktischer Anfang)"
 date: 2007-07-04 10:27
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

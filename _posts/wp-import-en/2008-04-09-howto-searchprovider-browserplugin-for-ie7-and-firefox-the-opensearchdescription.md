@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Searchprovider / Browserplugin for IE7 and Firefox - the OpenSearchDescription"
 date: 2008-04-09 20:21
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Browser, Firefox, HowTo, IE, IE7, OpenSearchDescription, Xml]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: CMD Parameter maskieren (“C:\Program' is not recognized…”)"
 date: 2011-04-25 18:57
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [CMD]

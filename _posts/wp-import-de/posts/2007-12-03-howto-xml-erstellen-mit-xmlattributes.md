@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: XML erstellen mit XmlAttributes"
 date: 2007-12-03 20:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, .NET 2.0, HowTo, Serializer, Xml, XmlAttributes]

@@ -2,7 +2,7 @@
 layout: post
 title: "ATE auf der Xtopia und dem Technical Summit 08"
 date: 2008-09-25 23:06
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, Technical Summit, Xtopia]
 tags: [ATE, TechnicalSummit, Xtopia]

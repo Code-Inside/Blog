@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: SQL Datenbank Weboberfläche mit ASP.NET Dynamic Data und dem Entity Framework (auf IIS 6.0)"
 date: 2009-01-30 00:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Admin, ASP.NET Dynamic Data, Dynamic Data, HowTo, IIS 6.0, Routing]

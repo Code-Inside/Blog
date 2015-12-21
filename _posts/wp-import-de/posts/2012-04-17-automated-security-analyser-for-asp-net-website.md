@@ -2,7 +2,7 @@
 layout: post
 title: "Automated Security Analyser for ASP.NET Websites"
 date: 2012-04-17 00:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, Security]

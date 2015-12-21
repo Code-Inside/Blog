@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Membership in Klassenbibliotheken / DLLs"
 date: 2008-06-23 22:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Membership, Security]

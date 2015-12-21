@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Objektorientierte Programmierung / OOP in Javascript (Eine einfache Klasse erstellen)"
 date: 2007-11-16 13:05
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Javascript, OOP]

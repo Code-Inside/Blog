@@ -2,7 +2,7 @@
 layout: post
 title: "Wie Social Bookmarking die Zugriffszahlen erhöhen..."
 date: 2008-04-17 06:31
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

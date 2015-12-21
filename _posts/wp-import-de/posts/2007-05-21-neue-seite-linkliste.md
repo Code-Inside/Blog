@@ -2,7 +2,7 @@
 layout: post
 title: "Neue Seite: Linkliste"
 date: 2007-05-21 19:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

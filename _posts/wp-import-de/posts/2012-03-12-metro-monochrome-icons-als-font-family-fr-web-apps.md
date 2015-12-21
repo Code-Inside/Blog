@@ -2,7 +2,7 @@
 layout: post
 title: "Metro / Monochrome Icons als Font-Family für Web-Apps"
 date: 2012-03-12 01:16
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Icon, Icons, Metro]

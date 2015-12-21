@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Macht ein eigenes Model ohne Linq2Sql/ADO.NET EF Magic!"
 date: 2009-03-13 02:30
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [ADO.NET EF;]

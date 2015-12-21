@@ -2,7 +2,7 @@
 layout: post
 title: "Veranstaltungshinweis: TechTalk für WP7 & WebCamp in München"
 date: 2010-04-21 07:44
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

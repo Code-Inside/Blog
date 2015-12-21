@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC 2 ist RTM (für VS2008)"
 date: 2010-03-12 00:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC]

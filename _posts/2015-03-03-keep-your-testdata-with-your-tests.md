@@ -3,7 +3,7 @@ layout: post
 title: "Keep your test data with your tests"
 description: "Unit Testing is great, but mocking the result of each 3rd party call can be a pain. Why not embedding actual real world test data inside your test data and keep you sane?"
 date: 2015-03-03 21:30
-author: robert.muehsig
+author: Robert Muehsig
 tags: [Testing, Unit Tests, TDD]
 language: en
 ---

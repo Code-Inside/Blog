@@ -2,7 +2,7 @@
 layout: post
 title: "Virales Marketing im Todesstern Stuttgart"
 date: 2008-02-07 06:50
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: []

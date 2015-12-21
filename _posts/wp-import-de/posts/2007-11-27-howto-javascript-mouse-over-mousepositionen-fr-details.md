@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Javascript Mouse Over - Mousepositionen für Details"
 date: 2007-11-27 22:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Javascript, MouseOver, Source]

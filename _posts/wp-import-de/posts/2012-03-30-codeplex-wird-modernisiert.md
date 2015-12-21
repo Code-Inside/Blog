@@ -2,7 +2,7 @@
 layout: post
 title: "CodePlex wird modernisiert"
 date: 2012-03-30 23:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Codeplex, Open Source]

@@ -2,7 +2,7 @@
 layout: post
 title: "Guide zu Claims-Based Identity mit dem Access Control Service"
 date: 2013-03-19 22:44
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [AAL, Authentication, Azure, JWT, OAuth]

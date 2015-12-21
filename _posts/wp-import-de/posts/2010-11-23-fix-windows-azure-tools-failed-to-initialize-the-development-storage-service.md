@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: Windows Azure Tools: Failed to initialize the Development Storage service."
 date: 2010-11-23 23:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Azure, SQL]

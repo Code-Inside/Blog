@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET MVC und jQuery Autocomplete"
 date: 2009-08-27 22:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, Autocomplete, jQuery, MVC]

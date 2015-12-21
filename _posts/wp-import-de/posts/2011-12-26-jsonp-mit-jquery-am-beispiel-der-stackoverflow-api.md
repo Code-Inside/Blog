@@ -2,7 +2,7 @@
 layout: post
 title: "JSONP mit jQuery am Beispiel der Stackoverflow API"
 date: 2011-12-26 12:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, jsonp, Stackoverflow]

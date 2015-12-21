@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Virtual Earth vs. Google Maps (und eine andere Alternative) aus Entwickler- und Anwendersicht"
 date: 2007-12-30 15:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Google, Google Maps, Microsoft, Virtual Earth, Windows Live]

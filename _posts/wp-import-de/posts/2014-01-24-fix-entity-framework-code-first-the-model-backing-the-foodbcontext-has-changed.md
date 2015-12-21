@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: Entity Framework Code First: “The model backing the ‘FooDbContext’ has changed…”"
 date: 2014-01-24 19:54
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Code First, Entity Framework, Fix]

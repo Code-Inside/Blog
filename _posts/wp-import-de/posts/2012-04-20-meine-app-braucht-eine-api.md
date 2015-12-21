@@ -2,7 +2,7 @@
 layout: post
 title: "Meine App braucht eine API!"
 date: 2012-04-20 00:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [API]

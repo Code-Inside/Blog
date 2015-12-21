@@ -2,7 +2,7 @@
 layout: post
 title: "WebDev Spielwiesen: dabblet.com für HTML/CSS, jsfiddler.com für JS & Hurl.it für REST"
 date: 2012-01-11 23:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [CSS, Javascript, REST, Web]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Wie bildet man einen Workflow im Code am besten ab?"
 date: 2009-02-12 01:40
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [HowTo, HowToCode, WF, Windows Workflow Foundation, Workflow]

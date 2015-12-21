@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC - Controller mit Attributen und Views absichern"
 date: 2008-03-30 22:58
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC]

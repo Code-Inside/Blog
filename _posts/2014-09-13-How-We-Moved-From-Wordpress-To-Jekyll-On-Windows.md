@@ -3,7 +3,7 @@ layout: post
 title: "How we moved from Wordpress to Jekyll - on Windows"
 description: "TL;DR Normal Wordpress Export and convert this via wpXml2Jekyll to Markdown. Fixed URLs & co. via Notepad++ and copied files. Commit do GitHub. Done. But its a bit harder to get things running on Windows."
 date: 2014-09-13 21:45
-author: robert.muehsig
+author: Robert Muehsig
 tags: [Wordpress, Jekyll, Migration, Windows]
 language: en
 ---

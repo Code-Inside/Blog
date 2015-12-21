@@ -2,7 +2,7 @@
 layout: post
 title: "NoSQL bei Windows Server, Azure & SQL Server mit Apache Hadoop"
 date: 2011-10-13 01:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure, Hadoop, NoSQL, Windows Azure]

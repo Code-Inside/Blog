@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Eigene Domains auf Windows Azure Applikationen mappen (*.cloudapp.net)"
 date: 2010-12-16 01:36
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Azure, CNAME, Domain]

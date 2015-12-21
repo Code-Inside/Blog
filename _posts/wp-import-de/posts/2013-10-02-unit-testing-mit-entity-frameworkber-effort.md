@@ -2,7 +2,7 @@
 layout: post
 title: "Unit Testing mit Entity Framework–über Effort"
 date: 2013-10-02 22:28
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Entity Framework, TDD, Unit Testing, Unit Tests]

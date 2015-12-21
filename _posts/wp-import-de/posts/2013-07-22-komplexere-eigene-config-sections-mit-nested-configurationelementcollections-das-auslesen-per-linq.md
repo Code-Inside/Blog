@@ -2,7 +2,7 @@
 layout: post
 title: "Komplexere eigene Config-Sections mit Nested-ConfigurationElementCollections & das Auslesen per LINQ"
 date: 2013-07-22 23:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Config, ConfigSection, HowTo]

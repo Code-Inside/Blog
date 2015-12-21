@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET Entwicklung in VMWare & iPhone Simulator auf einem Mac nutzen"
 date: 2010-04-29 00:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, Fusion, HowTo, IIS, iPad, iPhone, Mac, VMWare, Windows]

@@ -2,7 +2,7 @@
 layout: post
 title: "Verlosung: Basta! Spring Ticket – Update!"
 date: 2011-01-14 01:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Basta]

@@ -2,7 +2,7 @@
 layout: post
 title: "Architektenporno"
 date: 2013-03-22 01:15
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

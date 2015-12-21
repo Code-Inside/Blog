@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode &quot;ReadYou&quot;: ToDo Liste managen"
 date: 2008-06-10 21:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: ["ReadYou", Codeplex, HowTo, HowToCode, ToDo]

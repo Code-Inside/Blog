@@ -2,7 +2,7 @@
 layout: post
 title: "Angular.js Error: Unknown provider – Angular.js & Js-Minification"
 date: 2013-07-10 22:43
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Angular.js, Fix]

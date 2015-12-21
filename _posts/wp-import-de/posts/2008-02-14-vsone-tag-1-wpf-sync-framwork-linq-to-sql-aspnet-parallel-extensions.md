@@ -2,7 +2,7 @@
 layout: post
 title: "VSone - Tag 1 - WPF, Sync Framwork, LINQ to SQL, ASP.NET, Parallel Extensions"
 date: 2008-02-14 11:08
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, ADO.NET Entity Framework, ASP.NET Extensions, Blend, Databinding, LINQ to SQL, Parallel Extensions, Silverlight, Sync Framework, Visual Studio 2008, VSone, WPF, XAML]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Keep it simple & was fliegt, dass fliegt!"
 date: 2009-04-28 01:29
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, HowToCode]
 tags: ["ReadYou", HowToCode]

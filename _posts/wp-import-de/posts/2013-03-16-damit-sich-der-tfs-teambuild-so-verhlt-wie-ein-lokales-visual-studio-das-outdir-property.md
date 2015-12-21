@@ -2,7 +2,7 @@
 layout: post
 title: "Damit sich der TFS TeamBuild so verhält wie ein lokales Visual Studio - das “OutDir” Property"
 date: 2013-03-16 11:16
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [TeamBuild, TFS]

@@ -2,7 +2,7 @@
 layout: post
 title: "Zahlen & Statisiken 2008"
 date: 2008-12-31 14:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

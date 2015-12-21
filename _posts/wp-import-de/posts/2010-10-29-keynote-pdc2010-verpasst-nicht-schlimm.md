@@ -2,7 +2,7 @@
 layout: post
 title: "Keynote PDC2010 verpasst? Nicht schlimm."
 date: 2010-10-29 17:32
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure, PDC]

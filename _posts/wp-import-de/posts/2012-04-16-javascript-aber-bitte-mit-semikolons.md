@@ -2,7 +2,7 @@
 layout: post
 title: "Javascript, aber bitte mit Semikolons!"
 date: 2012-04-16 21:53
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Javascript]

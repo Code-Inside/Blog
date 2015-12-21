@@ -2,7 +2,7 @@
 layout: post
 title: "Morgen: Treffen der .NET User Group Dresden"
 date: 2009-02-03 15:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [User Group]
 tags: [.NET, Dresden, User Group, User Group Dresden]

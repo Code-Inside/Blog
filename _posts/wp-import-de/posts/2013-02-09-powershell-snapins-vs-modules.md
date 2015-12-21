@@ -2,7 +2,7 @@
 layout: post
 title: "PowerShell SnapIns vs. Modules"
 date: 2013-02-09 18:37
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [Modules, Powershell, Snapins]

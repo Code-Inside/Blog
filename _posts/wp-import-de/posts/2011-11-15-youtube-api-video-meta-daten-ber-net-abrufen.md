@@ -2,7 +2,7 @@
 layout: post
 title: "YouTube API - Video Meta Daten über .NET abrufen"
 date: 2011-11-15 01:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [API, GData, HowTo, YouTube]

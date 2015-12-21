@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Dependency Injection & Service Locator"
 date: 2010-03-15 23:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [DI, HowTo, IoC]

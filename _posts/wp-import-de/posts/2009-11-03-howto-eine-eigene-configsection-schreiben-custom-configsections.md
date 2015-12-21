@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Eine eigene ConfigSection schreiben / Custom ConfigSections"
 date: 2009-11-03 00:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Configs, ConfigSection, Custom, HowTo]

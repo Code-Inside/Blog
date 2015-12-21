@@ -2,7 +2,7 @@
 layout: post
 title: "TFS-API: Query TestRuns - Test-Ergebnisse und Unit-Test Ergebnisse bekommen"
 date: 2013-08-25 20:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [TestRuns, Tests, TFS]

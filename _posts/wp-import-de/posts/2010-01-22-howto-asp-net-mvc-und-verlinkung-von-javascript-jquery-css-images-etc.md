@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET MVC und Verlinkung von Javascript, jQuery, CSS, Images etc."
 date: 2010-01-22 00:06
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo, Linking, SEO]

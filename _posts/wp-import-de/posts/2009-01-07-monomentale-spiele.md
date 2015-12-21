@@ -2,7 +2,7 @@
 layout: post
 title: "Monomentale Spiele"
 date: 2009-01-07 10:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Games, iPhone, iPod Touch, Mono, unity 3d, Wii]

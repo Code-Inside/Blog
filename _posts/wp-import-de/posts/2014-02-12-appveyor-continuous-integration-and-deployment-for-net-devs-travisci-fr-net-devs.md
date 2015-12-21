@@ -2,7 +2,7 @@
 layout: post
 title: "AppVeyor: Continuous Integration and Deployment for .NET Devs  - TravisCI für .NET Devs"
 date: 2014-02-12 21:51
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft on Tour: Kostenlose Windows 8 Camps für Entwickler"
 date: 2012-04-10 21:15
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Veranstaltungen]
 tags: [Windows 8]

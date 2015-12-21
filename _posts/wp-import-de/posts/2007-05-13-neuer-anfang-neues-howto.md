@@ -2,7 +2,7 @@
 layout: post
 title: "Neuer Anfang... neues HowTo"
 date: 2007-05-13 22:02
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Google, Google Maps, HowTo]

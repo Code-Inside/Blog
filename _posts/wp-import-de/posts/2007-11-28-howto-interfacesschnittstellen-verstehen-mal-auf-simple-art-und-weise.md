@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Interfaces/Schnittstellen verstehen - mal auf simple Art und Weise"
 date: 2007-11-28 21:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, OOP]

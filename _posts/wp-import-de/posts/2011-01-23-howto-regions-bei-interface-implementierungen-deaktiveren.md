@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: #regions bei Interface Implementierungen deaktiveren"
 date: 2011-01-23 21:12
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, region, Visual Studio]

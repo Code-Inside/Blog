@@ -2,7 +2,7 @@
 layout: post
 title: "Wie und warum ändert sich das Forms Auth Cookie?"
 date: 2011-08-17 00:13
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, Auth, Authentication, Cookie, Forms]

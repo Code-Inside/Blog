@@ -2,7 +2,7 @@
 layout: post
 title: "RavenDB Studio für Embedded RavenDB nutzen"
 date: 2011-11-08 23:37
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Embedded, NoSQL, RavenDB]

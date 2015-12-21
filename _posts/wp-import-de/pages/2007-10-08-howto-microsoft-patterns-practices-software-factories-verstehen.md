@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Microsoft Patterns & Practices Software Factories verstehen"
 date: 2007-10-08 23:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

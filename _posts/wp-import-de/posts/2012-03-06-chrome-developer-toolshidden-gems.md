@@ -2,7 +2,7 @@
 layout: post
 title: "Chrome Developer Tools–”Hidden Gems”"
 date: 2012-03-06 02:01
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, WebDev]
 tags: [Chrome, Development, Web]

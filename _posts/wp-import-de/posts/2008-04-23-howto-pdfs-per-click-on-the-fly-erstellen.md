@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: PDFs per Click on-the-fly erstellen"
 date: 2008-04-23 20:55
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Export, FO, Handler, HowTo, NFop, PDF, Xml, XSLT]

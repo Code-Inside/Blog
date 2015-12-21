@@ -2,7 +2,7 @@
 layout: post
 title: "Subdomain vs. Subdirectory"
 date: 2013-04-08 00:55
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [WebDev]
 tags: [SEO, URL]

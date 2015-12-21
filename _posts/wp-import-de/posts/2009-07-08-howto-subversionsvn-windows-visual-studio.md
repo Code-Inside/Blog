@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Subversion/SVN, Windows & Visual Studio"
 date: 2009-07-08 22:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Subversion, SVN, Visual Studio, Windows]

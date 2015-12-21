@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Phone 8 Camera API & Camera Capture Task"
 date: 2013-04-02 21:51
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo, Windows Phone]
 tags: [Camera, Windows Phone]

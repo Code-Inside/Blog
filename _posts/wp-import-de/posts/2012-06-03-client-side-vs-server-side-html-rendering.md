@@ -2,7 +2,7 @@
 layout: post
 title: "Client-Side vs. Server-Side HTML Rendering"
 date: 2012-06-03 01:16
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HTML, Rendering, REST]

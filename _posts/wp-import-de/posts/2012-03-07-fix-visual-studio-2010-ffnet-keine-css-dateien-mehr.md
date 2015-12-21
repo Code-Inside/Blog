@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: Visual Studio 2010 öffnet keine CSS Dateien mehr"
 date: 2012-03-07 01:21
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Visual Studio]

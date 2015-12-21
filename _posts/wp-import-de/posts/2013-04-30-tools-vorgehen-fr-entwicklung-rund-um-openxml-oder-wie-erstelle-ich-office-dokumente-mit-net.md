@@ -2,7 +2,7 @@
 layout: post
 title: "Tools & Vorgehen für Entwicklung rund um OpenXml oder wie erstelle ich Office Dokumente mit .NET?"
 date: 2013-04-30 21:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Office, OpenXML]

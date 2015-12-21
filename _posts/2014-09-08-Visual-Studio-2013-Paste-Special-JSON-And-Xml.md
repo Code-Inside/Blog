@@ -3,7 +3,7 @@ layout: post
 title: "Visual Studio 2013 Hidden Gem: Paste JSON or XML as C# Classes"
 description: "Ever needed a strongly typed representation of your XML or JSON content? Visual Studio 2013 comes with a handy feature."
 date: 2014-09-08 23:10
-author: robert.muehsig
+author: Robert Muehsig
 tags: [Visual Studio 2013, XML, JSON]
 language: en
 ---

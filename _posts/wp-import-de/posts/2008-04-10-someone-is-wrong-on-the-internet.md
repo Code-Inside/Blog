@@ -2,7 +2,7 @@
 layout: post
 title: "Someone is wrong on the internet!"
 date: 2008-04-10 07:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: [Fun]

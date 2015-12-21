@@ -2,7 +2,7 @@
 layout: post
 title: "Kostenlos ist beliebt"
 date: 2008-04-16 08:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

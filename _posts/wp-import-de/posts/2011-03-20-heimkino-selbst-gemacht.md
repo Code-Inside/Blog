@@ -2,7 +2,7 @@
 layout: post
 title: "Heimkino selbst gemacht"
 date: 2011-03-20 20:01
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: [Beamer]

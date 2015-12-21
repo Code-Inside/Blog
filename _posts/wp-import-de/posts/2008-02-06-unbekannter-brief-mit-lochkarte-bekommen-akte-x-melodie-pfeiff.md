@@ -2,7 +2,7 @@
 layout: post
 title: "Unbekannter Brief mit Lochkarte bekommen - *Akte X-Melodie pfeiff*"
 date: 2008-02-06 18:19
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: []

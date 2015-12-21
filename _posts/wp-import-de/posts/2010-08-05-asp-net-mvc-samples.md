@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC Samples"
 date: 2010-08-05 00:40
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [ASP.NET MVC, Samples]

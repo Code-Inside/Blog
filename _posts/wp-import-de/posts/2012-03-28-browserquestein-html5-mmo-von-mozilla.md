@@ -2,7 +2,7 @@
 layout: post
 title: "BrowserQuest–ein HTML5 MMO von Mozilla"
 date: 2012-03-28 07:44
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [HTML5]

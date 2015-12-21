@@ -2,7 +2,7 @@
 layout: post
 title: "Lets have Phun..."
 date: 2008-04-04 08:32
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [C#, Open Source]

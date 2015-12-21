@@ -2,7 +2,7 @@
 layout: post
 title: "Windows 8 auf einem MacBook Pro"
 date: 2013-01-31 21:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [MacBookPro, Windows 8]

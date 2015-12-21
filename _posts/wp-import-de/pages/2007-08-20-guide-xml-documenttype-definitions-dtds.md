@@ -2,7 +2,7 @@
 layout: page
 title: "Guide: XML (DocumentType Definitions DTDs)"
 date: 2007-08-20 21:40
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

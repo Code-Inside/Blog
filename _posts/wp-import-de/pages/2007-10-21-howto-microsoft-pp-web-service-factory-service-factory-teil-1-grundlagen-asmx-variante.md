@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Microsoft p&p - Web Service Factory / Service Factory (Teil 1: Grundlagen & ASMX Variante)"
 date: 2007-10-21 22:30
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

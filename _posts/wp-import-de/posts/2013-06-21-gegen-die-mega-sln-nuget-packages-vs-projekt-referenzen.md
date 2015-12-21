@@ -2,7 +2,7 @@
 layout: post
 title: "Gegen die Mega-.sln – NuGet Packages vs. Projekt Referenzen"
 date: 2013-06-21 00:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [NuGet]

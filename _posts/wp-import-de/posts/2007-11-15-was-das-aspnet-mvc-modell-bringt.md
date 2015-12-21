@@ -2,7 +2,7 @@
 layout: post
 title: "Was das ASP.NET MVC Modell bringt"
 date: 2007-11-15 14:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, ASP.NET MVC]

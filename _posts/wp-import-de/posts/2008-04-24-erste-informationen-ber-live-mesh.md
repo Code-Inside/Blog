@@ -2,7 +2,7 @@
 layout: post
 title: "Erste Informationen über Live Mesh"
 date: 2008-04-24 10:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Live, Live Mesh, Microsoft, Windows Live]

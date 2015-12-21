@@ -2,7 +2,7 @@
 layout: post
 title: "Wie funktionieren Pingbacks und wie kann man Pingbacks über .NET versenden?"
 date: 2011-11-28 22:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Pingback, XMLRPC]

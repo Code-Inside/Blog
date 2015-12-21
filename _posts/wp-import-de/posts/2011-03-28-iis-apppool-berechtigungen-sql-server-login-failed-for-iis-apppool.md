@@ -2,7 +2,7 @@
 layout: post
 title: "IIS AppPool Berechtigungen & SQL Server &quot;Login failed for 'IIS AppPool'&quot;"
 date: 2011-03-28 21:49
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Fix, HowTo, SQL]

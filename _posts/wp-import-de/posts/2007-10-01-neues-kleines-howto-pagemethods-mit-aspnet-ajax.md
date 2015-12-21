@@ -2,7 +2,7 @@
 layout: post
 title: "Neues kleines HowTo - PageMethods mit ASP.NET AJAX"
 date: 2007-10-01 22:19
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, ASP.NET AJAX, HowTo]

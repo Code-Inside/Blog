@@ -2,7 +2,7 @@
 layout: post
 title: "AIR &quot;Apollo&quot; vs. Flash vs. Silverlight &quot;WPF/E&quot; vs. WPF &quot;Avalon&quot; - WTF?"
 date: 2008-02-26 21:01
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [AIR, Java, Silverlight, WPF]

@@ -2,7 +2,7 @@
 layout: post
 title: "Mit dem lokalen IIS Manager auf eine Azure Website zugreifen"
 date: 2014-03-18 00:06
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Azure, Azure Websites]

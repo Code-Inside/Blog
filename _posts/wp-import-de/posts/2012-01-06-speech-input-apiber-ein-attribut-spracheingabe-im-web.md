@@ -2,7 +2,7 @@
 layout: post
 title: "Speech Input API–über ein Attribut Spracheingabe im Web?"
 date: 2012-01-06 23:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Chrome, HTML5, Speech]

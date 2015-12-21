@@ -2,7 +2,7 @@
 layout: post
 title: "Interne Tools – billig und geschmacklos, richtig?"
 date: 2013-09-05 18:02
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

@@ -3,7 +3,7 @@ layout: post
 title: "Human readable and editable config files with YAML"
 description: "What is YAML and how to serialize and deserialize stuff with YamlDotNet."
 date: 2015-02-09 21:20
-author: robert.muehsig
+author: Robert Muehsig
 tags: [YAML, Configuration]
 language: en
 ---

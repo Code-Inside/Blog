@@ -2,7 +2,7 @@
 layout: post
 title: "Windows 7 RC Training Kit for Developer"
 date: 2009-06-11 02:02
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Traning Kit, Windows 7]

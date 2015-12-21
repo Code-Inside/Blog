@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode &quot;ReadYou&quot;: Neue Gedanken zum Usersystem mit OpenID, Windows Live und co."
 date: 2008-07-03 22:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: ["ReadYou", ASP.NET MVC, HowToCode, Membership, MVC, OAuth, OpenID, Storefront, Windows Live ID]

@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: eBay API (Aktuelle Suchbegriffe...)"
 date: 2007-04-13 09:29
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

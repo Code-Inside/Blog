@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Microsoft Virtual Earth (Praktischer Einstieg)"
 date: 2007-10-10 23:51
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

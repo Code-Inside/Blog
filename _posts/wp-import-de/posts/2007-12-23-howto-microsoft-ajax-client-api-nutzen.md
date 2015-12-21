@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Microsoft AJAX Client API nutzen"
 date: 2007-12-23 01:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [AJAX, ASP.NET, ASP.NET 3.5, ASP.NET AJAX, HowTo, Javascript, Microsoft]

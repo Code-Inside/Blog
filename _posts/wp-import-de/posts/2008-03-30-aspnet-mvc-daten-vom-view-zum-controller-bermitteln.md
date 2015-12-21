@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC - Daten vom View zum Controller übermitteln"
 date: 2008-03-30 23:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Microsoft Silverlight 1.0 (Webanwendungen mit dynamischen SilverlightHosts verschönern)"
 date: 2007-11-07 18:34
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [HowTo, Javascript, Silverlight]

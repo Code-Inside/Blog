@@ -2,7 +2,7 @@
 layout: post
 title: "Mit .NET 4.0 gibt es einen neuen GAC!?"
 date: 2013-02-07 00:26
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [CLR]

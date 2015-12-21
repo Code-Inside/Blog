@@ -2,7 +2,7 @@
 layout: post
 title: "RavenHQ–RavenDB in der Cloud"
 date: 2012-05-23 00:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Cloud, RavenDB, RavenHQ]

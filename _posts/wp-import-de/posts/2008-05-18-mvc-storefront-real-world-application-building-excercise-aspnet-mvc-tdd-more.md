@@ -2,7 +2,7 @@
 layout: post
 title: "MVC Storefront - Real World Application Building Excercise: ASP.NET MVC, TDD & more"
 date: 2008-05-18 21:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Architektur, ASP.NET MVC, Pipes and Filters, Storefront, TDD, UI]

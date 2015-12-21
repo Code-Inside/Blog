@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: From the view to the controller in ASP.NET MVC with ModelBinders"
 date: 2009-04-06 21:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo, ModelBinders]

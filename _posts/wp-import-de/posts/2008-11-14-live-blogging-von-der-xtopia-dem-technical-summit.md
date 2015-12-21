@@ -2,7 +2,7 @@
 layout: post
 title: "Live Blogging von der Xtopia & dem Technical Summit"
 date: 2008-11-14 10:52
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Technical Summit, Xtopia]
 tags: []

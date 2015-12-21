@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Interfaces/Schnittstellen einsetzen - Gute Gründe für den Einsatz von Schnittstellen"
 date: 2008-08-12 22:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Dependency Injection, DI, HowTo, Interfaces, TDD, UnitTests]

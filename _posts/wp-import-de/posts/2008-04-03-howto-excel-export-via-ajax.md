@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Excel-Export via AJAX"
 date: 2008-04-03 20:53
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [AJAX, ASP.NET, Excel, Export, Javascript, Json]

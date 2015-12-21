@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: StyleCop Settings auf mehrere Projekte anwenden"
 date: 2010-11-18 00:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, StyleCop]

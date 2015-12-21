@@ -2,7 +2,7 @@
 layout: post
 title: "Was einen manchmal durch den Kopf geht..."
 date: 2008-01-30 07:02
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

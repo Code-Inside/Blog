@@ -2,7 +2,7 @@
 layout: post
 title: "Gewinnspiel zum Technical Summit 2008"
 date: 2008-08-05 18:14
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Developer, Microsoft, Technical Summit]

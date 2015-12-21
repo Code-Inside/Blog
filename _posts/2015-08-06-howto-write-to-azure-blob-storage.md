@@ -3,7 +3,7 @@ layout: post
 title: "HowTo: Write to Azure Blob Storage"
 description: "How to save a simple text file in Azure Blob Storage. As you might already know: It's easy."
 date: 2015-08-06 21:15
-author: robert.muehsig
+author: Robert Muehsig
 tags: [Azure]
 language: en
 ---

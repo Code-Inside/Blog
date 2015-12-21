@@ -2,7 +2,7 @@
 layout: post
 title: "Security-Tipp: X-Powered-By Header und Server Header bei ASP.NET MVC & IIS entfernen"
 date: 2011-09-30 23:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, IIS, MVC3, Security]

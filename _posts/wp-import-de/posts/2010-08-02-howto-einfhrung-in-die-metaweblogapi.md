@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Einführung in die MetaWebLogAPI"
 date: 2010-08-02 23:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, MetaWeblog]

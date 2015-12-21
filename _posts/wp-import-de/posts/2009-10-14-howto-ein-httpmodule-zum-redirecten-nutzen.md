@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Ein HttpModule zum Redirecten nutzen"
 date: 2009-10-14 21:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Http, HttpModule, Module]

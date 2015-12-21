@@ -2,7 +2,7 @@
 layout: page
 title: "Guide: XML (XML Schema XSD - Teil 1)"
 date: 2007-08-21 21:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

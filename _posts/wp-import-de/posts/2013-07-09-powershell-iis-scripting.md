@@ -2,7 +2,7 @@
 layout: post
 title: "Powershell & IIS – Scripting!"
 date: 2013-07-09 22:32
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [IIS, Powershell]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Windows Presentation Foundation (Einstieg, Infos, Programme, Überblick)"
 date: 2008-01-30 22:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET 3.0, .NET 3.5, Expression, HowTo, ICQ, RSS, Silverlight, Vista, WPF]

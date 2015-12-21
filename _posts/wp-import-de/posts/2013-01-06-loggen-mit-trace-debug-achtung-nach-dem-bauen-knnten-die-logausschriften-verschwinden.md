@@ -2,7 +2,7 @@
 layout: post
 title: "Loggen mit Trace & Debug – Achtung, nach dem Bauen könnten die Logausschriften “verschwinden”"
 date: 2013-01-06 23:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Debug, Log, logging, Trace]

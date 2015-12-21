@@ -2,7 +2,7 @@
 layout: post
 title: "Verlosung: 2 Freikarten für die Basta!"
 date: 2010-09-13 20:15
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

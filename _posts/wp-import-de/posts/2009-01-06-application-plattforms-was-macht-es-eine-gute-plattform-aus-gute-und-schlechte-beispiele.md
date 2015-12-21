@@ -2,7 +2,7 @@
 layout: post
 title: "Application Platforms - Was macht es eine gute Plattform aus? Gute und Schlechte Beispiele"
 date: 2009-01-06 01:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Adobe, AIR, AppStore, Gadgets, iPhone, Sidebar, Vista, Windows Live, Windows Mobile]

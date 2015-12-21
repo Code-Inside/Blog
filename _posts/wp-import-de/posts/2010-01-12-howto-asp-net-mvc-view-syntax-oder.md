@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET MVC View Syntax <%= oder <% ?"
 date: 2010-01-12 01:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo]

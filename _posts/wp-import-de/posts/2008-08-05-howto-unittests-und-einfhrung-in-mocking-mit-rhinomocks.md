@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: UnitTests und Einführung in Mocking mit Rhino.Mocks"
 date: 2008-08-05 22:23
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: []

@@ -2,7 +2,7 @@
 layout: post
 title: "Was sind RavenDB Indexes und wie kann ich diese Unit-testen?"
 date: 2012-01-18 22:18
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Index, NoSQL, RavenDB, Unit Test]

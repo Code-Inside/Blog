@@ -2,7 +2,7 @@
 layout: post
 title: "Die Dinge geregelt kriegen..."
 date: 2008-11-10 17:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: [Fun]

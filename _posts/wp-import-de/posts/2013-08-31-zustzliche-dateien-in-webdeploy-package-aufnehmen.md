@@ -2,7 +2,7 @@
 layout: post
 title: "Zusätzliche Dateien in WebDeploy Packages aufnehmen"
 date: 2013-08-31 16:27
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, WebDeploy]

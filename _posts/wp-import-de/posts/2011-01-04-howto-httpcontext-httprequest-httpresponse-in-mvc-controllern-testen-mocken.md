@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: HttpContext, HttpRequest & HttpResponse in MVC Controllern testen & mocken"
 date: 2011-01-04 00:10
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo, MVC, TDD, Unit Test]

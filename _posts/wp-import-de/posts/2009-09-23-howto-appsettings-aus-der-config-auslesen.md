@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: AppSettings aus der .Config auslesen"
 date: 2009-09-23 21:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Client, Config, HowTo, Web]

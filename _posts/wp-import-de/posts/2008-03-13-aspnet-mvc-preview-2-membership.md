@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC Preview 2 + Membership"
 date: 2008-03-13 21:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, ASP.NET MVC Preview, Membership]

@@ -2,7 +2,7 @@
 layout: post
 title: "Technical Summit 08: Vorträge + ATE Time"
 date: 2008-11-20 16:53
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Technical Summit]
 tags: []

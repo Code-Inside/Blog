@@ -2,7 +2,7 @@
 layout: post
 title: "HttpClient, Twitter OAuth & die Twitter Timeline auslesen"
 date: 2013-10-28 23:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HttpClient, OAuth, Twitter]

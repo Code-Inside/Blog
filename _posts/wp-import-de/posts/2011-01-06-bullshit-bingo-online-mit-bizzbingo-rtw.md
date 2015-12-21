@@ -2,7 +2,7 @@
 layout: post
 title: "Bullshit-Bingo-Online mit BizzBingo - RTW"
 date: 2011-01-06 22:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [BizzBingo]

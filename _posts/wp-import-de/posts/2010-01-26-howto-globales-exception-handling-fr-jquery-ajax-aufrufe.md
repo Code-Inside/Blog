@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Globales Exception Handling für jQuery AJAX Aufrufe"
 date: 2010-01-26 00:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Error, Exception, Global, Handling, HowTo, jQuery]

@@ -2,7 +2,7 @@
 layout: post
 title: "Aus Code wird Cash - gewußt wie!"
 date: 2010-11-24 23:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Intel, Konferenzen]

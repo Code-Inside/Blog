@@ -2,7 +2,7 @@
 layout: post
 title: "Captain Obvious Kommentare"
 date: 2012-07-09 22:57
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [Code Quality, Kommentare]

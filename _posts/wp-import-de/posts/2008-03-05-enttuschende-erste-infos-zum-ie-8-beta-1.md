@@ -2,7 +2,7 @@
 layout: post
 title: "Enttäuschende erste Infos zum IE 8 Beta 1"
 date: 2008-03-05 18:04
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Gadgets, IE8, Vista]

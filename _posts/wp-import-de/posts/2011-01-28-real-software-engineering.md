@@ -2,7 +2,7 @@
 layout: post
 title: "Real Software Engineering"
 date: 2011-01-28 00:07
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Agil]

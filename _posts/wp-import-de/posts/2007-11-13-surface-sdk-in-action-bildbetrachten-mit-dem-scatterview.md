@@ -2,7 +2,7 @@
 layout: post
 title: "Surface SDK in Action - Bildbetrachten mit dem &quot;ScatterView&quot;"
 date: 2007-11-13 08:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [SDK, Surface]

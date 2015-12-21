@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: LINQ to XML - Daten lesen"
 date: 2008-02-26 23:10
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET 3.5, HowTo, LINQ, LINQ to XML, Xml]

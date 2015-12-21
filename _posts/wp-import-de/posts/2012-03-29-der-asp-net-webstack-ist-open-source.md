@@ -2,7 +2,7 @@
 layout: post
 title: "Der ASP.NET Webstack ist Open Source!"
 date: 2012-03-29 00:40
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Open Source]

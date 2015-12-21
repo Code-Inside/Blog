@@ -2,7 +2,7 @@
 layout: post
 title: "W-Lan / Wifi mit .NET "
 date: 2007-07-22 19:17
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Windows, Wlan]

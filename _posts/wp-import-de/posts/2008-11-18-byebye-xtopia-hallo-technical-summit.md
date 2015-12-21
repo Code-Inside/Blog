@@ -2,7 +2,7 @@
 layout: post
 title: "Byebye Xtopia, Hallo Technical Summit"
 date: 2008-11-18 20:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Technical Summit, Xtopia]
 tags: []

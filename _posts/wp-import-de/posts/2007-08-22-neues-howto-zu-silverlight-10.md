@@ -2,7 +2,7 @@
 layout: post
 title: "Neues HowTo zu Silverlight 1.0"
 date: 2007-08-22 22:07
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [ASP.NET, Expression Blend, HowTo, Silverlight]

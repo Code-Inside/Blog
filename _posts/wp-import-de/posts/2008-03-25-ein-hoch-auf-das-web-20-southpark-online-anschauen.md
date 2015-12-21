@@ -2,7 +2,7 @@
 layout: post
 title: "Ein hoch auf das Web 2.0: Southpark online anschauen"
 date: 2008-03-25 14:50
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: [Online, Southpark, Video]

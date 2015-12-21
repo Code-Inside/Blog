@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Codeabhängigkeiten mit NDepend & TeamCity messen"
 date: 2011-02-14 23:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [BizzBingo, Code, HowTo, NDepend, TeamCity]

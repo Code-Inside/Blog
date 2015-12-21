@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: WPF Spiegelung mit dem VisualBrush"
 date: 2008-03-02 23:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET 3.5, Databinding, Expression, Expression Blend, HowTo, UI, Visual Studio 2008, WPF]

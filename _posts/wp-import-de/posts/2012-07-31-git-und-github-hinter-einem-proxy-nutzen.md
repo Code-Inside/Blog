@@ -2,7 +2,7 @@
 layout: post
 title: "Git und GitHub hinter einem Proxy nutzen"
 date: 2012-07-31 00:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [GIT, GitHub, HowTo]

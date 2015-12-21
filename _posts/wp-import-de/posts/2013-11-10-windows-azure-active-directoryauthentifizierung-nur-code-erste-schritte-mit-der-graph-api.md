@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Azure Active Directory–Authentifizierung “nur Code” & erste Schritte mit der Graph API"
 date: 2013-11-10 17:58
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Azure, Azure AD, GraphAPI, REST]

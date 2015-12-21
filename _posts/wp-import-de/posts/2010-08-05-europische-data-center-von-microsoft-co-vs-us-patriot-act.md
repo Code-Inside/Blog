@@ -2,7 +2,7 @@
 layout: post
 title: "Europäische Data Center von Microsoft & Co. vs. US-Patriot Act"
 date: 2010-08-05 19:21
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Azure, Cloud, Cloud Computing, Datenschutz, SaaS]

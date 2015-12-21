@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Mit MSBuild Solutions bauen"
 date: 2010-09-30 23:44
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [MSBuild HowTo]

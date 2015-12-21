@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Elmah in ASP.NET MVC (& IIS7) fürs Errorlogging"
 date: 2009-06-09 01:45
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, ASP.NET MVC, Elmah, Exceptions, HowTo]

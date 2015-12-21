@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Upgrade von ASP.NET MVC 1.0 auf 2.0 & .NET 4.0"
 date: 2010-07-12 23:19
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo]

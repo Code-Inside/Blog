@@ -2,7 +2,7 @@
 layout: post
 title: "OWIN, WebAPI & RazorViewEngine"
 date: 2013-09-26 22:06
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [OWIN, Razor, WebApi]

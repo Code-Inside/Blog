@@ -2,7 +2,7 @@
 layout: post
 title: "oEmbed–3rd Party Content (Video/Bilder/…) auf die eigene Seite einbetten"
 date: 2011-11-22 02:40
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, oEmbed]

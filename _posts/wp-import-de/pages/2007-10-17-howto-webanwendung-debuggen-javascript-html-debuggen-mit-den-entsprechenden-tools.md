@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Webanwendung debuggen (Javascript & HTML debuggen mit den entsprechenden Tools)"
 date: 2007-10-17 17:57
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

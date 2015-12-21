@@ -2,7 +2,7 @@
 layout: post
 title: "Technical Summit 08: Von Oslo nach Rosario"
 date: 2008-11-21 12:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Technical Summit]
 tags: [Technical Summit, Visual Studio, Visual Studio 2010]

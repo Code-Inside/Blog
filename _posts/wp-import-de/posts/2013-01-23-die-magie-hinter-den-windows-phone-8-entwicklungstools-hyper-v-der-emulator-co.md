@@ -2,7 +2,7 @@
 layout: post
 title: "Die Magie hinter den Windows Phone 8 Entwicklungstools: Hyper-V, der Emulator & co."
 date: 2013-01-23 00:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Windows Phone]

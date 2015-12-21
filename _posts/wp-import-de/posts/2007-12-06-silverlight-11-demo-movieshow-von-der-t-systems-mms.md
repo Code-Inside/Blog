@@ -2,7 +2,7 @@
 layout: post
 title: "Silverlight 1.1 Demo: Movieshow von der T-Systems MMS"
 date: 2007-12-06 16:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Movies, Showcase, Silverlight, T-Systems MMS, Web 2.0]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Scheduled Tasks mit &quot;schtasks&quot; lokal & remote per Kommandozeile administrieren"
 date: 2010-04-21 06:55
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Deployment, HowTo]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: O/R Mapper LINQ to SQL - Einführung in den Designer & 1:N Beziehungen"
 date: 2008-01-21 20:16
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, .NET 3.5, HowTo, LINQ, LINQ to SQL, Northwind, O/R Mapper]

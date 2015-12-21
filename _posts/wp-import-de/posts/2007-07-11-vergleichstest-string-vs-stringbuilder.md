@@ -2,7 +2,7 @@
 layout: post
 title: "Vergleichstest: String vs. StringBuilder"
 date: 2007-07-11 19:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET]

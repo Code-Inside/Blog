@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC - Source Code & Builds werden auf Codeplex veröffentlicht"
 date: 2008-03-11 08:37
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, Codeplex, Open Source]

@@ -3,7 +3,7 @@ layout: post
 title: "FAKE: Running xUnit Tests with FAKE without knowing a tiny bit of F#"
 description: "After building should be the next priority to run tests (which we all have, right?). So how can I run xUnit tests with FAKE?"
 date: 2015-02-24 22:00
-author: robert.muehsig
+author: Robert Muehsig
 tags: [FAKE, Test, MSBuild, xUnit]
 language: en
 ---

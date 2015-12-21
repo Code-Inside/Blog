@@ -2,7 +2,7 @@
 layout: post
 title: "RSS Feed samt Kommentaranzahl und andere nicht Standard Elemente mit dem SyndicationFeed auslesen"
 date: 2014-03-27 21:13
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [RSS, SyndicationFeed]

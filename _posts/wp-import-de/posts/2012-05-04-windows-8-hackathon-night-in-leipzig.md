@@ -2,7 +2,7 @@
 layout: post
 title: "Windows-8-Hackathon @Night in Leipzig"
 date: 2012-05-04 08:45
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Veranstaltungen]
 tags: [Windows 8]

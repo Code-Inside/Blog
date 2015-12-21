@@ -2,7 +2,7 @@
 layout: post
 title: "Pagespeed, Content-Encoding: gzip header und ein Proxy"
 date: 2014-01-28 23:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Pagespeed, Proxy]

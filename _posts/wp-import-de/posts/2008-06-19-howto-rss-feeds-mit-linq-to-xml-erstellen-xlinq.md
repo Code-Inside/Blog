@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: RSS Feeds mit LINQ to XML erstellen (XLinq)"
 date: 2008-06-19 22:49
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, LINQ, LINQ to XML, RSS, Xml]

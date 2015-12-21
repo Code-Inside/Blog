@@ -2,7 +2,7 @@
 layout: post
 title: ".NET User Group Dresden"
 date: 2008-08-27 12:12
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [User Group]
 tags: [Dresden, User Group]

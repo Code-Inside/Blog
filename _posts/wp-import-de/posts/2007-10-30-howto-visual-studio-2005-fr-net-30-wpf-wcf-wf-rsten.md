@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Visual Studio 2005 für .NET 3.0 (WPF, WCF, WF) rüsten"
 date: 2007-10-30 20:54
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo, Tools]
 tags: [.NET 3.0, HowTo, Tools, Visual Studio 2005, WCF, WF, WPF]

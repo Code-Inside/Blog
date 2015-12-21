@@ -2,7 +2,7 @@
 layout: post
 title: "Live Mesh (Tech Preview)"
 date: 2008-08-07 17:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Live Mesh, Microsoft, Windows Live ID]

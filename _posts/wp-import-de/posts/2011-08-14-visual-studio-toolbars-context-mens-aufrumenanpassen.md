@@ -2,7 +2,7 @@
 layout: post
 title: "Visual Studio Toolbars & Context-Menüs aufräumen/anpassen"
 date: 2011-08-14 00:36
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Visual Studio]

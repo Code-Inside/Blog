@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Rename SQL Tables in Visual Studio"
 date: 2009-03-26 02:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, SQL, Visual Studio]

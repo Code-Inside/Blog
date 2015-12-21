@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Windows Azure & ASP.NET MVC 3 – was braucht man für DLLs?"
 date: 2011-01-01 17:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, Azure, Cloud, Cloud Computing, HowTo, MVC, Windows Azure]

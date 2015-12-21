@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: C# 3.0 - &quot;var&quot; Keyword und andere kleine C# 3.0 Features verstehen"
 date: 2008-01-13 18:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, .NET 3.5, C# 3.0, HowTo, LINQ]

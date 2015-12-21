@@ -2,7 +2,7 @@
 layout: post
 title: "Was macht Adobe im flash-freien Web? Magazin-Style Layouts mit CSS Regions!"
 date: 2012-03-19 00:40
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Adobe, CSS, Web]

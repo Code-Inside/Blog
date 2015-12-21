@@ -2,7 +2,7 @@
 layout: post
 title: "Musik für Nerds mit Windows und einer Diskette..."
 date: 2008-11-07 08:16
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: [Fun, Musik, Nerds, Star Wars, Windows]

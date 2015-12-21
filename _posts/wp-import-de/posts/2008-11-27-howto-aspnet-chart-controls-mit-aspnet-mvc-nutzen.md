@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET Chart Controls mit ASP.NET MVC nutzen"
 date: 2008-11-27 01:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, ASP.NET MVC, Charting, Charts, Diagrams, HowTo, MVC]

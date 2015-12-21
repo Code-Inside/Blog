@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode &quot;ReadYou&quot;: Von Accounts & IDs - das Usersystem"
 date: 2008-06-15 22:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: ["ReadYou", Facebook, HowToCode, OpenID, OpenSocial, Windows Live]

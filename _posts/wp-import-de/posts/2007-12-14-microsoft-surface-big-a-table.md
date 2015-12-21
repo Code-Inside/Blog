@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Surface - Big A#? Table"
 date: 2007-12-14 10:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Surface]

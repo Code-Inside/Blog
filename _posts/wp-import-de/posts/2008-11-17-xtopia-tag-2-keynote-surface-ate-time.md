@@ -2,7 +2,7 @@
 layout: post
 title: "Xtopia Tag 2: Keynote, Surface & ATE Time"
 date: 2008-11-17 15:26
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Xtopia]
 tags: [Xtopia]

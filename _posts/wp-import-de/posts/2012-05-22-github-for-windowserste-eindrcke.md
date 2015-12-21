@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub for Windows–erste Eindrücke"
 date: 2012-05-22 00:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [GIT, GitHub]

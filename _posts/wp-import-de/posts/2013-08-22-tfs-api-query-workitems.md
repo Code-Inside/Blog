@@ -2,7 +2,7 @@
 layout: post
 title: "TFS API: Query WorkItems"
 date: 2013-08-22 00:15
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, TFS, WorkItems]

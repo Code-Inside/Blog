@@ -2,7 +2,7 @@
 layout: post
 title: "Bootstrap für Facebook Apps, Vorschau auf Twitter Bootstrap 2.0 & Themes"
 date: 2012-01-10 23:50
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Bootstrap, Twitter]

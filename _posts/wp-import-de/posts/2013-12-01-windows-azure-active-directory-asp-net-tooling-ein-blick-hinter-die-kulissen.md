@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Azure Active Directory & ASP.NET Tooling: Ein Blick hinter die Kulissen"
 date: 2013-12-01 00:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ADAL, ASP.NET, Azure, Azure AD, HowTo, WAAD]

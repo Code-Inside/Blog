@@ -2,7 +2,7 @@
 layout: post
 title: "MySQL Datenbanken sichern über Powershell"
 date: 2011-06-12 00:57
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Backup, MySQL, Powershell]

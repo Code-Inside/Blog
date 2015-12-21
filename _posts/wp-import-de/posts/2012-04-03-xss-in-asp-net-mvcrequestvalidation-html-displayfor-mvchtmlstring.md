@@ -2,7 +2,7 @@
 layout: post
 title: "XSS in ASP.NET MVC–RequestValidation, Html.DisplayFor & MvcHtmlString"
 date: 2012-04-03 21:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [ASP.NET MVC, XSS]

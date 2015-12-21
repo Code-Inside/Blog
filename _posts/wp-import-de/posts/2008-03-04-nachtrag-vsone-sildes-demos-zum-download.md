@@ -2,7 +2,7 @@
 layout: post
 title: "Nachtrag: VSone Sildes & Demos zum Download"
 date: 2008-03-04 08:53
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Slides, VSone]

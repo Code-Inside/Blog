@@ -2,7 +2,7 @@
 layout: post
 title: "QuakeLight - Quake mit Silverlight? Silverlight und 3D?"
 date: 2008-10-23 09:36
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [3D, Games, Quake, Silverlight]

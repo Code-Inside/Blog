@@ -2,7 +2,7 @@
 layout: post
 title: "Code Inside Samples auf Google Code"
 date: 2011-08-05 00:55
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [GIT, Google Code, Samples]

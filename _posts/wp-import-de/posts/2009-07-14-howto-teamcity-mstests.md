@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: TeamCity & MSTests"
 date: 2009-07-14 22:59
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Build, Build Server, HowTo, MSTest, TeamCity, Unit Test]

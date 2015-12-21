@@ -2,7 +2,7 @@
 layout: post
 title: "Meine .NET / Coding Top Blogs 2007 "
 date: 2007-12-27 20:18
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: ["Astoria", .NET, ASP.NET 3.5, ASP.NET 3.5 Extensions, Blogs, Microsoft, Silverlight]

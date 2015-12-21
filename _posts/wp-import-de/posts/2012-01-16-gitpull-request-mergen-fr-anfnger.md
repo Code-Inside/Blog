@@ -2,7 +2,7 @@
 layout: post
 title: "Git–Pull Request mergen für Anfänger"
 date: 2012-01-16 01:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [GIT, GitHub]

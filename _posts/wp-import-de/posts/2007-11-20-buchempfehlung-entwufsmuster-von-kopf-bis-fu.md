@@ -2,7 +2,7 @@
 layout: post
 title: "Buchempfehlung: Entwufsmuster von Kopf bis Fuß"
 date: 2007-11-20 23:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [Architektur, OOP]

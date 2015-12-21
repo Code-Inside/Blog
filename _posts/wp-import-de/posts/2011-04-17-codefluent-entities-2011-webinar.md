@@ -2,7 +2,7 @@
 layout: post
 title: "CodeFluent Entities 2011 Webinar"
 date: 2011-04-17 21:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

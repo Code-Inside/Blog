@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Erste Schritte mit dem MEF (Hello MEF!)"
 date: 2008-11-19 13:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [AddIns, HowTo, MEF, Plugins, System.AddIn]

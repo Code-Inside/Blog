@@ -2,7 +2,7 @@
 layout: post
 title: "Kostenloses Online-Tutorial “30 Days to Learn jQuery”"
 date: 2012-03-20 20:02
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [jQuery, Tutorial]

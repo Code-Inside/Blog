@@ -2,7 +2,7 @@
 layout: post
 title: "ShoppingMap - Web 2.0 Shopping Anwendung"
 date: 2007-03-22 20:14
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Projekte]
 tags: [ShoppingMap, Web 2.0]

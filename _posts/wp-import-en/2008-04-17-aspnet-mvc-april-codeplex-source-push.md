@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC April CodePlex Source Push"
 date: 2008-04-17 07:13
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Uncategorized]
 tags: [ASP.NET MVC, Codeplex, MVC]

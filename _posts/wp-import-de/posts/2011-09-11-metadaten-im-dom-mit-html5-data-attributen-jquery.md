@@ -2,7 +2,7 @@
 layout: post
 title: "Metadaten im DOM mit HTML5 data-* Attributen & jQuery"
 date: 2011-09-11 00:14
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, HTML5, Javascript, jQuery]

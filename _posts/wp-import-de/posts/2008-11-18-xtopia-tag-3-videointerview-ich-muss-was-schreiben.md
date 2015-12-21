@@ -2,7 +2,7 @@
 layout: post
 title: "Xtopia Tag 3: Videointerview - ich muss was schreiben"
 date: 2008-11-18 15:36
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Xtopia]
 tags: []

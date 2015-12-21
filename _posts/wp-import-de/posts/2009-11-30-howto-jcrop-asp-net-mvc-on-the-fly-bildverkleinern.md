@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: jCrop & ASP.NET MVC - On the fly Bildverkleinern"
 date: 2009-11-30 01:36
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET, ASP.NET MVC, Crop, jCrop, jQuery, MVC]

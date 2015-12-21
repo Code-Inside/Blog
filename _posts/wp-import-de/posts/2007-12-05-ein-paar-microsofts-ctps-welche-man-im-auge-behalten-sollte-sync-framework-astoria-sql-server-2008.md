@@ -2,7 +2,7 @@
 layout: post
 title: "Ein paar Microsofts CTPs welche man im Auge behalten sollte: Sync Framework, Astoria, SQL Server 2008..."
 date: 2007-12-05 22:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: ["Acropolis", "Astoria", "Jasper", "Rosario", .NET, .NET 3.5, ADO.NET, CTP, Microsoft, Parallel Extensions, Sandcastle, SQL, SQL Server 2008, Sync Framework, Visual Studio]

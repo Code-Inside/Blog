@@ -3,7 +3,7 @@ layout: post
 title: "Easy ways to customize Bootstrap"
 description: "If you are developer - like me - you might already using Bootstrap, but what if you need to change some colors or font-families? Here are some tools that I have found."
 date: 2014-11-18 20:20
-author: robert.muehsig
+author: Robert Muehsig
 tags: [Bootstrap, CSS]
 language: en
 ---

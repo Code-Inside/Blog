@@ -2,7 +2,7 @@
 layout: post
 title: "Der leidenschaftliche Programmierer"
 date: 2009-11-29 22:42
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [Buch]

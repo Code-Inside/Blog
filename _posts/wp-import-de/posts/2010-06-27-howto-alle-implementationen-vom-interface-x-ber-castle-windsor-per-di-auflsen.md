@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Alle Implementationen vom Interface X über Castle Windsor per DI auflösen"
 date: 2010-06-27 23:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Castle, DI, HowTo, Windsor]

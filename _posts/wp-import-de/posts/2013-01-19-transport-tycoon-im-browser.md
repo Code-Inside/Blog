@@ -2,7 +2,7 @@
 layout: post
 title: "Transport Tycoon im Browser"
 date: 2013-01-19 18:16
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [OpenTDD]

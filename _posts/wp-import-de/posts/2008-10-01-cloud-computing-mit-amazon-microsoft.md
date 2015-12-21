@@ -2,7 +2,7 @@
 layout: post
 title: "Cloud Computing mit Amazon & Microsoft."
 date: 2008-10-01 23:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Amazon, Microsoft, PDC; Cloud Computing]

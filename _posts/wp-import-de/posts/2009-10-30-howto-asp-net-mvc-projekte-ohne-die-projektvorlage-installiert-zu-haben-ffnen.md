@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET MVC Projekte ohne die Projektvorlage installiert zu haben öffnen"
 date: 2009-10-30 22:39
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo]

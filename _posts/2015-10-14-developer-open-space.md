@@ -3,7 +3,7 @@ layout: post
 title: "Nothing to do next weekend? Come to Leipzig and join the Developer Open Space 2015"
 description: "Quick Facts: 16.10 - 18.10.2015 in Leipzig, Germany = Nerd-Talk"
 date: 2015-10-14 23:30
-author: robert.muehsig
+author: Robert Muehsig
 tags: [Developer Open Space]
 language: en
 ---

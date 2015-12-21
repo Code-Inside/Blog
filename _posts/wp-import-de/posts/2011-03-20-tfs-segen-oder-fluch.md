@@ -2,7 +2,7 @@
 layout: post
 title: "Team Foundation Server / TFS – Segen oder Fluch?"
 date: 2011-03-20 14:27
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [TFS]

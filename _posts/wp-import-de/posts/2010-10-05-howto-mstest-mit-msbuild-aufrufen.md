@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: MSTest mit MSBuild aufrufen"
 date: 2010-10-05 23:32
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, MSBuild, MSTest]

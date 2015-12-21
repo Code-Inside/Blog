@@ -2,7 +2,7 @@
 layout: post
 title: "SASS, LESS & Coffeescript in Visual Studio mit der Web Workbench"
 date: 2012-05-13 22:05
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.LESS, CoffeeScript, Combres, Sass, Visual Studio]

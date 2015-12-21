@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: Windows Azure Cmdlets & 1.4 SDK auf Windows Server 2008 R2 SP1 / Windows 7 SP1"
 date: 2011-04-25 14:13
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Windows Azure; Cmdlets; Powershell; Fix]

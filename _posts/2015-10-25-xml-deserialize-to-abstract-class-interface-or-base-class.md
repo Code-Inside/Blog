@@ -3,7 +3,7 @@ layout: post
 title: "XML deserialize to abstract class, interface or base class"
 description: "Playing around with the .NET XmlSerializer and deserialize a given XML to a abstract class, interface or a base class."
 date: 2015-10-25 22:00
-author: robert.muehsig
+author: Robert Muehsig
 tags: [XML]
 language: en
 ---

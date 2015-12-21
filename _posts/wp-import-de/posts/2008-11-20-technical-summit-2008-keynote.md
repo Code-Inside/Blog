@@ -2,7 +2,7 @@
 layout: post
 title: "Technical Summit 2008: Keynote"
 date: 2008-11-20 11:37
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Technical Summit]
 tags: []

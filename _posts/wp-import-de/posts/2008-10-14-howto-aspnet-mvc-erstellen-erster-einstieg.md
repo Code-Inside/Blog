@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: ASP.NET MVC Projekt erstellen (erster Einstieg)"
 date: 2008-10-14 22:06
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, MVC; HowTo]

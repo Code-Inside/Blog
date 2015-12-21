@@ -2,7 +2,7 @@
 layout: post
 title: "WPF Apps im Metro / Windows 8 Look mit MahApps.Metro"
 date: 2012-11-14 07:00
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, HowTo]
 tags: [HowTo, Metro, WPF]

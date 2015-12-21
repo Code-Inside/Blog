@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft Surface + XNA: Nette Spielerein"
 date: 2009-01-07 00:28
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Surface, XNA]

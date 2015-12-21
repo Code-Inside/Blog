@@ -2,7 +2,7 @@
 layout: post
 title: "Code-Inside Casts: Einstieg in Unit Tests"
 date: 2008-11-05 08:19
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [CodeInsideCasts]
 tags: [Screencasts, Tests, Unit Tests]

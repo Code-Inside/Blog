@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Reverse AJAX / Http-Push / &quot;Comet&quot; - Kann der Server Clients aktiv infomieren?"
 date: 2009-10-21 22:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [AJAX, ASP.NET, Comet, HowToCode, Http]

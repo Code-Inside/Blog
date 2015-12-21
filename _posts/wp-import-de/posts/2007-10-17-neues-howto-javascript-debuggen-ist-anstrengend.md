@@ -2,7 +2,7 @@
 layout: post
 title: "Neues HowTo: Javascript debuggen ist anstrengend..."
 date: 2007-10-17 20:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Javascript, Tools]

@@ -3,7 +3,7 @@ layout: post
 title: "FAKE: Building C# projects without knowing a tiny bit of F#"
 description: "I was looking for a alternative to pure MSBuild and heard of FAKE, which stands for 'F# Make - A DSL for build tasks.'. See how to get stuff running (... building...) even if you don't know anything about F# (like me)."
 date: 2015-02-23 19:15
-author: robert.muehsig
+author: Robert Muehsig
 tags: [FAKE, Build, MSBuild]
 language: en
 ---

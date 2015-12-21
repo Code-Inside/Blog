@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Braucht man UML?"
 date: 2010-03-19 21:54
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [TDD, UML]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Session in ASP.NET & ASP.NET Session State Server"
 date: 2010-03-21 22:12
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, Session]

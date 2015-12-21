@@ -2,7 +2,7 @@
 layout: post
 title: "Wii Drum Kit - Spaß mit .NET und der Wii"
 date: 2008-02-12 11:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Wii]

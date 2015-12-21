@@ -2,7 +2,7 @@
 layout: post
 title: "Für absolute ASP.NET MVC Neulinge: MVC Music Store & warum man es nicht al Best Practices verstehen sollte"
 date: 2010-05-17 22:56
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC]

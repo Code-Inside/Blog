@@ -2,7 +2,7 @@
 layout: post
 title: "Einstieg in Git für .NET Entwickler"
 date: 2011-08-05 00:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Dezentral, GIT, Source Control Systeme, TFS, Windows]

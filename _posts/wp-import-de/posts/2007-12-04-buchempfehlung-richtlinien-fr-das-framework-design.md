@@ -2,7 +2,7 @@
 layout: post
 title: "Buchempfehlung: Richtlinien für das Framework-Design"
 date: 2007-12-04 19:40
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchempfehlung]
 tags: [.NET, Framework]

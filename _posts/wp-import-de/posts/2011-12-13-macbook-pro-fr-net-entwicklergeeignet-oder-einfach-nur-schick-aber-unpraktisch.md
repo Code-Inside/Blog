@@ -2,7 +2,7 @@
 layout: post
 title: "MacBook Pro für .NET Entwickler–geeignet oder einfach nur schick, aber unpraktisch?"
 date: 2011-12-13 00:04
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Apple, iOS, MacBookPro, Windows]

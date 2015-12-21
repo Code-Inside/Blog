@@ -2,7 +2,7 @@
 layout: post
 title: "Doom, Quake, Wolfenstein & co. Source Code auf GitHub"
 date: 2012-02-02 00:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [GitHub, Open Source]

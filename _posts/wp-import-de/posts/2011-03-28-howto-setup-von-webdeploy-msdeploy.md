@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Setup von WebDeploy / MSDeploy"
 date: 2011-03-28 00:49
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, MSDeploy, WebDeploy]

@@ -2,7 +2,7 @@
 layout: post
 title: "Ende des Gewinnspiel"
 date: 2008-09-11 20:45
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ATE, Gewinnspiel]

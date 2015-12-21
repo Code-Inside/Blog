@@ -2,7 +2,7 @@
 layout: post
 title: "Was iOS 6 für den mobilen Safari bringt – Bildupload!"
 date: 2012-06-13 01:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [iOS, Safari]

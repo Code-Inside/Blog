@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Produktsuche mit den Amazon Web Services"
 date: 2007-10-08 19:52
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

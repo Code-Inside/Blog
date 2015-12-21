@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode: Null Problemo mit Null, Exceptions & andere Rückgabetypen"
 date: 2010-05-03 23:18
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [Null]

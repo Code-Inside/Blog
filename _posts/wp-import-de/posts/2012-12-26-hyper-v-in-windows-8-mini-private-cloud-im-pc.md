@@ -2,7 +2,7 @@
 layout: post
 title: "Hyper-V in Windows 8 - “Mini-Private-Cloud im PC”"
 date: 2012-12-26 17:42
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

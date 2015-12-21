@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Phone 8: Async in Json-File schreiben & lesen"
 date: 2013-08-05 23:09
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Async, HowTo, JSON.NET, Windows Phone 8]

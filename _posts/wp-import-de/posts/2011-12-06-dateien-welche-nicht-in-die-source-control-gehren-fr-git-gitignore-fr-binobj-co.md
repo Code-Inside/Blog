@@ -2,7 +2,7 @@
 layout: post
 title: "Dateien, welche nicht in die Source Control gehören für GIT–.gitignore für bin/obj & co."
 date: 2011-12-06 02:27
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [GIT, gitignore, HowTo, Source Control Systeme]

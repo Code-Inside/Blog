@@ -2,7 +2,7 @@
 layout: post
 title: "Mix08 - Links zu Silverlight 2, ASP.NET MVC, Expression Blend..."
 date: 2008-03-05 23:49
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, Expression Blend, Expression Studio, Mix08, Silverlight 2, Visual Studio 2008]

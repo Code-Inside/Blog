@@ -2,7 +2,7 @@
 layout: post
 title: "Umzug auf Windows Azure – VMs, WordPress Migration, DNS Änderungen"
 date: 2014-02-01 14:08
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Blog, VM, Windows Azure, WordPress]

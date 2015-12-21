@@ -2,7 +2,7 @@
 layout: post
 title: "Minority Report User Interface mit WPF und der Wii"
 date: 2008-01-23 11:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [UI, Wii, WPF, XAML]

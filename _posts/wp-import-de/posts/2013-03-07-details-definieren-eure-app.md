@@ -2,7 +2,7 @@
 layout: post
 title: "Details definieren eure App"
 date: 2013-03-07 21:32
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [App, Details, User Experience]

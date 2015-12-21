@@ -2,7 +2,7 @@
 layout: post
 title: "Azure Access Control Service, Microsoft Account Login, JSON Web Token und ASP.NET – “ohne WIF-Magic”"
 date: 2013-04-09 01:24
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Access Control Service, Azure AD, Login, Security, WAAD]

@@ -2,7 +2,7 @@
 layout: post
 title: "ASP.NET MVC & Windows Azure Trainings Kits"
 date: 2009-04-12 22:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET MVC, Azure, MVC, Trainings Kits, Windows Azure]

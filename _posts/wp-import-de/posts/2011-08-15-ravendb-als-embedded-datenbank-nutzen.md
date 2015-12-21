@@ -2,7 +2,7 @@
 layout: post
 title: "RavenDB als Embedded Datenbank nutzen"
 date: 2011-08-15 23:58
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Embedded, HowTo, NoSQL, RavenDB]

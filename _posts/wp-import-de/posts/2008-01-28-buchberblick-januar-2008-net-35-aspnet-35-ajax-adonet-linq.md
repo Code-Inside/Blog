@@ -2,7 +2,7 @@
 layout: post
 title: "Buchüberblick Januar 2008 - .NET 3.5, ASP.NET 3.5, AJAX, ADO.NET, LINQ"
 date: 2008-01-28 23:31
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Buchüberblick]
 tags: [.NET 3.5, ADO.NET Entity Framework, AJAX, ASP.NET 3.5, C# 3.0, LINQ, LINQ to SQL]

@@ -3,7 +3,7 @@ layout: post
 title: "Working with JumpLists in WPF Apps"
 description: "Even JumpLists are an old topic, I stumbled upon this topic and want to show how to create and work with JumpLists in a WPF app."
 date: 2015-11-30 23:30
-author: robert.muehsig
+author: Robert Muehsig
 tags: [WPF, Windows, JumpLists]
 language: en
 ---

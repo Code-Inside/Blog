@@ -2,7 +2,7 @@
 layout: post
 title: "Wii + pptPlex: Eine etwas andere Steuerung in einer etwas anderen Präsentationsart"
 date: 2008-09-15 12:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [pptPlex, Wii]

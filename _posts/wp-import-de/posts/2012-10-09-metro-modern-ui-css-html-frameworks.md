@@ -2,7 +2,7 @@
 layout: post
 title: "Metro / Modern UI CSS / HTML Frameworks"
 date: 2012-10-09 19:01
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [CSS, Metro, Modern, Twitter Bootstrap]

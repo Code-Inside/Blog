@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Phone, Images & OutOfMemoryException"
 date: 2013-04-12 22:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [App, Windows Phone]

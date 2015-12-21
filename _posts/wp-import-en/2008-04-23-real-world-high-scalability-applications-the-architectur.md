@@ -2,7 +2,7 @@
 layout: post
 title: "Real World High Scalability Applications: The Architectur"
 date: 2008-04-23 22:15
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Uncategorized]
 tags: [High Scalability]

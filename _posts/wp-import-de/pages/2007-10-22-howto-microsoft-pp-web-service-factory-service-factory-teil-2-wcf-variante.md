@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Microsoft p&p - Web Service Factory / Service Factory (Teil 2: WCF Variante)"
 date: 2007-10-22 20:58
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

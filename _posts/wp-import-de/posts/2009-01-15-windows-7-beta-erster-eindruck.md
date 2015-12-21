@@ -2,7 +2,7 @@
 layout: post
 title: "Windows 7 Beta - erster Eindruck"
 date: 2009-01-15 00:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Aero, Beta, Gadgets, IE, Windows 7]

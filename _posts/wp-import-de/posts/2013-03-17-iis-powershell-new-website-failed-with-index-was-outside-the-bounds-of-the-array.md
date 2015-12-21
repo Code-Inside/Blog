@@ -2,7 +2,7 @@
 layout: post
 title: "IIS & Powershell: New-Website failed with “Index was outside the bounds of the array”"
 date: 2013-03-17 01:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [IIS, Powershell]

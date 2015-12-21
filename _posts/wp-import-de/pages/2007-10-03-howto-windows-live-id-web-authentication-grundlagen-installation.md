@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Windows Live ID Web Authentication (Grundlagen & Installation)"
 date: 2007-10-03 12:49
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

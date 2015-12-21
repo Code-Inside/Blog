@@ -2,7 +2,7 @@
 layout: post
 title: "Web Deploy per WebPI installiert und IIS Management Service nicht vorhanden?"
 date: 2012-10-15 21:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Web Deloy]

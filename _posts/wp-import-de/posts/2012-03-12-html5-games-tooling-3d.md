@@ -2,7 +2,7 @@
 layout: post
 title: "HTML5 Games, Tooling & 3D"
 date: 2012-03-12 23:52
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein, WebDev]
 tags: [3D, Games, HTML5, Tooling, Web, WebGL]

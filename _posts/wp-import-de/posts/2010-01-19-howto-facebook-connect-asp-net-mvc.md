@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Facebook Connect & ASP.NET MVC"
 date: 2010-01-19 01:19
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, Facebook, Facebook Connect, HowTo]

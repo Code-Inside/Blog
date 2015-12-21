@@ -2,7 +2,7 @@
 layout: post
 title: "Wie finde ich heraus ob .NET 4.5 auf mein System installiert ist?"
 date: 2012-11-15 22:33
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET 4.5]

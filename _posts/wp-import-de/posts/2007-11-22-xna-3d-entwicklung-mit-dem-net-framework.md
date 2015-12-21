@@ -2,7 +2,7 @@
 layout: post
 title: "XNA - 3D Entwicklung mit dem .NET Framework"
 date: 2007-11-22 08:25
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, XNA]

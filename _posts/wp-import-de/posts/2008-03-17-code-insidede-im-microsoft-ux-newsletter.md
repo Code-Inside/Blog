@@ -2,7 +2,7 @@
 layout: post
 title: "Code-Inside.de im Microsoft UX Newsletter"
 date: 2008-03-17 22:35
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [UX]

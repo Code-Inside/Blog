@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: In das .NET Framework reindebuggen mit VS2010"
 date: 2010-07-08 23:50
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Debugging, HowTo]

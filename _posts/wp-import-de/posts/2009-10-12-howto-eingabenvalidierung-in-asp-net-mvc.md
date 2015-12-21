@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Eingabenvalidierung in ASP.NET MVC"
 date: 2009-10-12 22:04
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [ASP.NET MVC, HowTo, Javascript, jQuery, MVC, Validation]

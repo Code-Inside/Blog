@@ -2,7 +2,7 @@
 layout: page
 title: "Guide: XML (Basiswissen)"
 date: 2007-06-24 21:51
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

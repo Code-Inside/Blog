@@ -2,7 +2,7 @@
 layout: post
 title: "How Live Mesh Apps may look like..."
 date: 2008-09-09 09:11
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Uncategorized]
 tags: [Live Mesh, SDK]

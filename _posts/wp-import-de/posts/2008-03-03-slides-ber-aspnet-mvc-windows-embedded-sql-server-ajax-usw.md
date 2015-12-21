@@ -2,7 +2,7 @@
 layout: post
 title: "Slides über ASP.NET MVC, Windows Embedded, SQL Server, AJAX usw."
 date: 2008-03-03 20:22
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [AJAX, ASP.NET MVC, SQL Server 2008, Virtual Earth, Windows Embedded, Windows Live]

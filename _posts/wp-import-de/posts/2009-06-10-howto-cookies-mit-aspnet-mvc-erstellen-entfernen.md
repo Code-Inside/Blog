@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Cookies mit ASP.NET MVC erstellen & entfernen"
 date: 2009-06-10 02:19
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

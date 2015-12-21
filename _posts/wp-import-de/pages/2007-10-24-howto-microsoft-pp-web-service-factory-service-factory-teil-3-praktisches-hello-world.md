@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Microsoft p&p - Web Service Factory / Service Factory (Teil 3: Praktisches &quot;Hello World&quot;)"
 date: 2007-10-24 00:43
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

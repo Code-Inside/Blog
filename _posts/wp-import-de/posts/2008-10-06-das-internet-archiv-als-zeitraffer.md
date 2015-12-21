@@ -2,7 +2,7 @@
 layout: post
 title: "Das Internet-Archiv als Zeitraffer"
 date: 2008-10-06 23:02
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: []

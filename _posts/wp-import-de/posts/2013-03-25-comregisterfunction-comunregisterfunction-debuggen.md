@@ -2,7 +2,7 @@
 layout: post
 title: "ComRegisterFunction & ComUnregisterFunction debuggen"
 date: 2013-03-25 21:30
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [COM]

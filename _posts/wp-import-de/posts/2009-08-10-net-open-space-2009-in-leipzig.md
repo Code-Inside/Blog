@@ -2,7 +2,7 @@
 layout: post
 title: ".NET Open Space 2009 in Leipzig"
 date: 2009-08-10 10:04
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [.NET, Open Space]

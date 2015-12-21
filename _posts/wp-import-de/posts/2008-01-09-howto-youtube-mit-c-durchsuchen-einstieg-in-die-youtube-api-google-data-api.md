@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: YouTube mit C# durchsuchen - Einstieg in die YouTube API / Google Data API"
 date: 2008-01-09 19:38
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, .NET 2.0, ATOM, Google, HowTo, Xml, YouTube]

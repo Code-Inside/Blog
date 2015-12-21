@@ -2,7 +2,7 @@
 layout: post
 title: "Fix: Cannot convert from 'CConnectProxy::_ComMapClass *' to 'AddInDesignerObjects::IDTExtensibility2 *'"
 date: 2014-04-09 20:41
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [Fix, Office]

@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Azure 90 Tage kostenlos testen"
 date: 2011-04-29 22:03
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Windows Azure]

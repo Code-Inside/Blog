@@ -2,7 +2,7 @@
 layout: post
 title: "Microsoft SDL (Security Development Lifecycle) Program"
 date: 2008-09-17 23:45
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [SDL, Security]

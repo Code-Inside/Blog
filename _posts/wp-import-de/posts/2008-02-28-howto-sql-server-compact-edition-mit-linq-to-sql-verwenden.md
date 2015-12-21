@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: SQL Server Compact Edition mit LINQ to SQL verwenden"
 date: 2008-02-28 00:16
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET 3.5, HowTo, LINQ, LINQ to SQL, O/R Mapper, O\R Mapping, SQL Server, SQL Server Compact Edition]

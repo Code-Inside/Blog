@@ -2,7 +2,7 @@
 layout: post
 title: "Automatisiertes Deployment auf Windows Azure über einen Buildserver via Powershell"
 date: 2011-02-22 00:57
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: [Azure, Deployment, Powershell, TeamCity]

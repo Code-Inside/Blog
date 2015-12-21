@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode &quot;ReadYou&quot;: Community-getriebene professionelle Applikationsentwicklung"
 date: 2008-06-03 21:19
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: ["ReadYou", HowTo, HowToCode, Open Source]

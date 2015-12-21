@@ -3,7 +3,7 @@ layout: post
 title: "Reg.exe or how to import .reg files without admin privileges"
 description: "Ever tried to import a registry key, but don't have admin privileges - reg.exe might help you."
 date: 2015-08-11 23:30
-author: robert.muehsig
+author: Robert Muehsig
 tags: [Registry]
 language: en
 ---

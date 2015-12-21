@@ -2,7 +2,7 @@
 layout: post
 title: "Release of .NET Framework 3.5 & Visual Studio 2008"
 date: 2007-11-20 05:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Tools]
 tags: [.NET 3.5, LINQ, Visual Studio 2008]

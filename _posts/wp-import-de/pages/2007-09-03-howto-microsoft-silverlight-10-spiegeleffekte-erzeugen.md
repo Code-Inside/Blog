@@ -2,7 +2,7 @@
 layout: page
 title: "HowTo: Microsoft Silverlight 1.0 (Spiegeleffekte erzeugen)"
 date: 2007-09-03 20:46
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: []
 tags: []

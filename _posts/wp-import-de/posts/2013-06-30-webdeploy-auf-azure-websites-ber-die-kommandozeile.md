@@ -2,7 +2,7 @@
 layout: post
 title: "WebDeploy auf Azure Websites über die Kommandozeile"
 date: 2013-06-30 22:47
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [Azure Websites, WebDeploy]

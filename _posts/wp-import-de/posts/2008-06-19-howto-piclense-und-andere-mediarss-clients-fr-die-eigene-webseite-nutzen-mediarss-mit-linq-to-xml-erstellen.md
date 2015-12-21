@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: PicLens und andere MediaRSS Clients für die eigene Webseite nutzen (MediaRSS mit LINQ to XML erstellen)"
 date: 2008-06-19 22:52
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [HowTo, LINQ, LINQ to XML, MediaRss, RSS, XLINQ, Xml]

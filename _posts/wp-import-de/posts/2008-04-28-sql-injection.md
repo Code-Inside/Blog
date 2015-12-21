@@ -2,7 +2,7 @@
 layout: post
 title: "SQL Injection"
 date: 2008-04-28 15:18
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Off Topic]
 tags: [Fun, SQL, SQL Injection]

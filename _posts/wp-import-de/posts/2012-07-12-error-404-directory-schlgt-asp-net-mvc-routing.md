@@ -2,7 +2,7 @@
 layout: post
 title: "404-Error: Directory schlägt ASP.NET MVC Routing"
 date: 2012-07-12 00:19
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Fix]
 tags: [ASP.NET MVC, Routing]

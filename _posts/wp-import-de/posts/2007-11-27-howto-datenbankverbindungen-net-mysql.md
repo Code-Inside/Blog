@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Datenbankverbindungen - .NET & MySQL"
 date: 2007-11-27 20:52
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [.NET, Datenbank, HowTo, MySQL, SQL]

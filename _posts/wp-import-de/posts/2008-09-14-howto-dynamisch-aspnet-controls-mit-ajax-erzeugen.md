@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Dynamisch ASP.NET Controls mit AJAX erzeugen"
 date: 2008-09-14 23:34
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [AJAX, ASP.NET, ASP.NET AJAX, Dynamic, HowTo]

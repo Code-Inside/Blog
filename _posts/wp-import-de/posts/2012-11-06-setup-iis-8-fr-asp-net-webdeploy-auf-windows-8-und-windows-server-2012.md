@@ -2,7 +2,7 @@
 layout: post
 title: "Setup IIS 8 für ASP.NET & WebDeploy auf Windows 8 und Windows Server 2012"
 date: 2012-11-06 23:43
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [IIS, Powershell, Web Deploy, Windows Server 2012]

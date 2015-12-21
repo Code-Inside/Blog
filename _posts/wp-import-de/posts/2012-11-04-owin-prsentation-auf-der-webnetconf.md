@@ -2,7 +2,7 @@
 layout: post
 title: "OWIN Präsentation auf der WebNetConf"
 date: 2012-11-04 23:40
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [OWIN]

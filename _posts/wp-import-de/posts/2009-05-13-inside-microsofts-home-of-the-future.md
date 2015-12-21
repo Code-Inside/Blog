@@ -2,7 +2,7 @@
 layout: post
 title: "Inside Microsoft's home of the future"
 date: 2009-05-13 09:48
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [Microsoft, NUI]

@@ -2,7 +2,7 @@
 layout: post
 title: "HowToCode &quot;ReadYou&quot;: Was soll das System denn leisten? - Gedanken an die Anforderungen"
 date: 2008-06-05 22:04
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowToCode]
 tags: ["ReadYou", Amazon, Anforderungen, HowTo, HowToCode "ReadYou", Requirements Management]

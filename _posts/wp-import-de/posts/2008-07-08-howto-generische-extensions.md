@@ -2,7 +2,7 @@
 layout: post
 title: "HowTo: Generische Extensions"
 date: 2008-07-08 20:07
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [HowTo]
 tags: [C# 3.0, DRY, Extensions, generics, HowTo]

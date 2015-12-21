@@ -2,7 +2,7 @@
 layout: post
 title: "Wieder ein neues HowTo - Silverlight Bilder leicht drehen und Spiegeleffekte"
 date: 2007-09-12 21:53
-author: robert.muehsig
+author: Robert Muehsig
 comments: true
 categories: [Allgemein]
 tags: [ASP.NET, Expression Blend, Silverlight]
