@@ -86,9 +86,7 @@
 	
 	.inner-container {
 		background: #ffffff;
-		border-left: 1px solid #e95533;
-		border-right: 1px solid #e95533;
-		border-top: 1px solid #e95533;
+		border: 1px solid #e95533;
 		-webkit-box-shadow: 0px 0px 20px 0px rgba(204, 204, 204, 1.0);
 		-moz-box-shadow:    0px 0px 20px 0px rgba(204, 204, 204, 1.0);
 		box-shadow: 0px 0px 20px 0px rgba(204, 204, 204, 1.0);
@@ -142,7 +140,10 @@
 				<a href="http://grossweber.com/b/robert-muehsig-3" target="_blank">Graphic Recording kann jedermann</a> •
 				<a href="http://grossweber.com/b/robert-muehsig-4" target="_blank">Schulung zu besserer Team-Kommunikation</a>
 			</p>
-			<p class="txt-railway">-  <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons</a> {{ site.time | date: '%Y' }} {{ site.author.name }} -</p>
+			<p class="txt-railway"><a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons</a> {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+			<p class="lead">
+              <img title="{{ site.title }}" src="{{BASE_PATH}}/assets/icons/logo_fullbrand_260x260.png" style="margin: 0 auto;">
+            </p>
 			<p class="lead">
 				<a title="Like us on Facebook" href="https://www.facebook.com/{{ site.author.facebook }}"><i class="fa fa-facebook"></i></a>
 				<a title="Follow us on Twitter" href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter"></i></a>
