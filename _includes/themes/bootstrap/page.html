@@ -1,5 +1,11 @@
 <div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+{% if page.title-image != "" %}
+<img title="{{ page.title }}" style="margin: 0 auto;" src="{{BASE_PATH}}{{page.title-image}}">
+{% else %}
+<h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+{% endif %}
+
+  
 </div>
 
 <div class="row">
