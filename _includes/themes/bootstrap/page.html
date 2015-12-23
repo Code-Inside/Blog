@@ -1,8 +1,8 @@
 <div class="page-header">
-{% if page.title-image != "" %}
-<img title="{{ page.title }}" style="margin: 0 auto;" src="{{BASE_PATH}}{{page.title-image}}">
-{% else %}
+{% if page.title-image == nil or page.title-image == blank or page.title-image == "" %}
 <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+{% else %}
+<img title="{{ page.title }}" style="margin: 0 auto;" src="{{BASE_PATH}}{{page.title-image}}">
 {% endif %}
 
   
