@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Serving embedded resources with ASP.NET WebApi"
-description: "Let's build a PageController, which can return any embedded file."
+description: "Let's build a PageController, which can return any embedded file inside your WebApi code."
 date: 2015-12-31 13:45
 author: Robert Muehsig
 tags: [WebAPI, ASP.NET]
