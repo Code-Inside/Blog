@@ -55,7 +55,7 @@ Registration:
 
 ## The "PageController"
 
-This controller will try to read the HTTP GET QueryString and will look inside the resources. 
+This controller will try to read the HTTP GET PathAndQuery and will look inside the assembly resources for something with the same name. 
 
     public class PageController : ApiController
     {
@@ -73,7 +73,7 @@ This controller will try to read the HTTP GET QueryString and will look inside t
         {
             string filename = this.Request.RequestUri.PathAndQuery;
 
-            // input as /page-assets/js/scripts.js
+            // input as /page/js/scripts.js
             if (filename == "/")
             {
                 filename = ".index.html";
