@@ -109,14 +109,15 @@ In my sample the "PageController" will catch all requests that are not handled b
 
 If you host this inside an IIS it will not work out of the box, because the IIS itself tries to serve static content. One easy option would be to include this inside your web.config:
 
-  <!-- prevent IIS from serving embeddded stuff -->
-  <location path="pages">
-    <system.webServer>
-      <handlers>
-        <add name="nostaticfile" path="*" verb="GET" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0" />
-      </handlers>
-    </system.webServer>
-  </location>
+
+    <!-- prevent IIS from serving embeddded stuff -->
+    <location path="pages">
+        <system.webServer>
+            <handlers>
+                <add name="nostaticfile" path="*" verb="GET" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0" />
+            </handlers>
+        </system.webServer>
+    </location>
 
 With this web.config setting in place the request should route through your code.  
   
