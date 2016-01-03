@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Most Recent Blog Posts
+title: Home
 title-image: /assets/icons/logo_260x260.png
 ---
 {% include JB/setup %}
