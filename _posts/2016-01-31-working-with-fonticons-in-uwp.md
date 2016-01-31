@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Working with FontIcons in UWP"
-description: "Since FontAwesome FontIcons are everywhere. In this post I will show the very basic usage of a FontIcon FontFamily in UWP."
+description: "Since FontAwesome FontIcons are everywhere. In this post I will show the very basic usage of the FontIcon class in UWP."
 date: 2016-01-31 20:30
 author: Robert Muehsig
 tags: [UWP, FontAwesome, Fonts, FontIcon]
@@ -30,7 +30,10 @@ The Glyph-Property is the HexCode for the target char.
 
 Pretty important, but I'm not a Font-Expert, so maybe this is "normal"
 - The #FontAwesome must be set.
-- In XAML the Glyph must be in the form of "&#xf0b2;"
+- In XAML the Glyph must be in this form
+
+    "&#xf0b2;"
+
 - From Code, the value must be unicode, e.g. 
 
     Test.Glyph = "\uf0b2";
