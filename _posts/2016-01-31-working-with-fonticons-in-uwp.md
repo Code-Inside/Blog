@@ -11,7 +11,7 @@ language: en
 
 ## FontIcons in UWP
 
-Microsoft ships one builtin UWP (Universal Windows Platform) __[SymbolIcon]__(https://msdn.microsoft.com/EN-US/library/windows/apps/windows.ui.xaml.controls.symbol.aspx) class.
+Microsoft ships one builtin UWP (Universal Windows Platform) [__SymbolIcon__](https://msdn.microsoft.com/EN-US/library/windows/apps/windows.ui.xaml.controls.symbol.aspx) class.
 The good thing about such FontIcons is, that you can scale and change the appearances very nice and don't need a bunch of image assets for your icons. 
 The down side is, that those icons are just a font... so no multicolor option.
 
@@ -21,7 +21,7 @@ The builtin SymbolIcon usage is pretty easy:
 
 ## Using FontIcon to serve other font e.g. FontAwesome
 
-Microsoft ships another simple class, the __[FontIcon]__(https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.fonticon.glyph) class.
+Microsoft ships another simple class, the [__FontIcon__](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.fonticon.glyph) class.
 The usage is pretty simple if you know the correct syntax:
 
     <FontIcon FontFamily="./fontawesome.otf#FontAwesome" Glyph="&#xf0b2;"></FontIcon>
