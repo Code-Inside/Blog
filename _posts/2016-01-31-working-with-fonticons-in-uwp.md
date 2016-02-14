@@ -56,3 +56,7 @@ The result is hopefully that you see the correct icon... right?
 BTW, we try to bring [FontAwesome to UWP](https://github.com/charri/Font-Awesome-WPF/issues/23) with a simple NuGet package.
 
 And thanks to [Alexander Witkowski](https://twitter.com/Alex_Witkowski/status/692134058051178502) for the suggestion of the FontIcon class - I didn't know that this is part of the SDK.
+
+## Demo-Code
+
+I made a pretty small UWP Demo, which can be viewed on our [Samples-Repo](https://github.com/Code-Inside/Samples/tree/master/2016/FontAwesomeDemo)
