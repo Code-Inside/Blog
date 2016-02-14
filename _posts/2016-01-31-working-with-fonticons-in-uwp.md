@@ -59,4 +59,4 @@ And thanks to [Alexander Witkowski](https://twitter.com/Alex_Witkowski/status/69
 
 ## Demo-Code
 
-I made a pretty small UWP Demo, which can be viewed on our [Samples-Repo](https://github.com/Code-Inside/Samples/tree/master/2016/FontAwesomeDemo)
+I made a pretty small UWP Demo, which can be viewed on our [Samples-Repo](https://github.com/Code-Inside/Samples/tree/master/2016/FontAwesomeDemo).
