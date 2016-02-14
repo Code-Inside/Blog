@@ -24,7 +24,12 @@ The builtin SymbolIcon usage is pretty easy:
 ## Using FontIcon to serve other font e.g. FontAwesome
 
 Microsoft ships another simple class, the [__FontIcon__](https://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.controls.fonticon.glyph) class.
-The usage is pretty simple if you know the correct syntax:
+
+### Including the font
+
+You will need the actual Font-File, e.g. a .otf file. This file must be included in your project as __Content__.
+
+After that the usage is pretty simple if you know the correct syntax:
 
     <FontIcon FontFamily="./fontawesome.otf#FontAwesome" Glyph="&#xf0b2;"></FontIcon>
 
@@ -40,7 +45,9 @@ Pretty important, but I'm not a Font-Expert, so maybe this is "normal"
 
     Test.Glyph = "\uf0b2";
 
-And of course, the font must be included in the project as Resource.
+Instead of the "./..." path syntax you could also use something like this:
+
+    <FontIcon FontFamily="ms-appx:///fontawesome.otf#FontAwesome" Glyph="&#xf0b2;"></FontIcon>
 
 ## Result
 
