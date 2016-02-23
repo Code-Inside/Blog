@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Shipping Visual C++ 2015 redistributable DLLs with your app or how to do app-local VCRedist 2015 deployment"
+title: "Shipping Visual C++ 2015 redistributable DLLs with your app or how to do an app-local deployment"
 description: "So, this was a long headline. A few days ago I had the pleasure to take a peek into VC++ development. One problem was, that we use the VC++ 2015 runtime, which needs to be deployed on the client. This blogpost will cover how to ship this dependency with your app."
 date: 2016-02-23 22:45
 author: Robert Muehsig
