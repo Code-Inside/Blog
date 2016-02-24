@@ -22,7 +22,7 @@ There are three ways to deploy the runtime:
 
 * Install it via the standalone VCRedist installer. This is probably the most known way, but requires elevated permissions because the file will be installed to System32.
 * Install it via a merge module. If you already have an installer, you can include the needed .msm files in your own installer, but this will also require elevated permissions because the files will be also installed to System32.
-* Deploy it with your app as app-local deployment. We will cover this in this blogpost, because __we don't want to touch the elevated permissions__.
+* Deploy it with your app as app-local deployment. We will cover this in this blogpost, because __we don't want to touch anything that needs elevated permissions__.
 
 If you want to read more about the first two ways, the [MSDN](https://msdn.microsoft.com/en-us/library/ms235299.aspx) might be a good place to start.
 
