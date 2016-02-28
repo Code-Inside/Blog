@@ -27,7 +27,7 @@ To see the app running on my phone, without touching the code at all, was pure f
 
 ## Behind the scenes: Template10
 
-Starting from scratch can be fun, but to shorten the development time I used the nice __[Template10](aka.ms/template10)__ template, which gives me the typical hamburger app layout. 
+Starting from scratch can be fun, but to shorten the development time I used the nice __[Template10](http://aka.ms/template10)__ template, which gives me the typical hamburger app layout. 
 The project can be found on [GitHub](https://github.com/Windows-XAML/Template10) and has a very active community.
 
 ## Behind the scenes: All Code on GitHub
