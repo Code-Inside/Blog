@@ -31,4 +31,4 @@ Starting from scratch can be fun, but to shorten the development time I used the
 
 I decided to work in the open on __[GitHub](https://github.com/Code-Inside/ExpensiveMeeting)__, so if you are interested on the actual code, just take a look and do whatever you want to do. 
 
-If you have ideas or found bugs I would appreciate our help - just create an __[issue](https://github.com/Code-Inside/ExpensiveMeeting/issues)__ or send a pull request.
+If you have ideas or found bugs I would appreciate your help - just create an __[issue](https://github.com/Code-Inside/ExpensiveMeeting/issues)__ or send a pull request.
