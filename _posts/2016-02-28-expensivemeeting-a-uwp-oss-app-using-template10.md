@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ExpensiveMeeting - a Universal Windows Platform OSS app using Template10"
-description: "I build a small UWP app to calculate meeting costs - just for fun and it's all OSS and live on GitHub. In this post I will just walk over the important technical details."
+description: "I build a small UWP app to calculate meeting costs - just for fun and its all OSS and live on GitHub. In this post I will just walk over the important technical details."
 date: 2016-02-28 16:15
 author: Robert Muehsig
 tags: [UWP, OSS, Template10]
