@@ -14,6 +14,8 @@ language: en
 The app - which is just a fun project and shouldn't be taken too seriously -  is like a stopwatch for meetings. 
 But instead of the pure time it shows you also the burned money for your meeting, because time is money, right?
 
+![x]({{BASE_PATH}}/assets/md-images/2016-02-28/app.png "ExpensiveMeeting app")		
+
 Don't worry: The app is free and no ads are shown. 
 
 __[Windows Store Download](https://www.microsoft.com/store/apps/9NBLGGH5PVW9)__
