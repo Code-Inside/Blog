@@ -14,11 +14,9 @@ language: en
 The app - which is just a fun project and shouldn't be taken too seriously -  is like a stopwatch for meetings. 
 But instead of the pure time it shows you also the burned money for your meeting, because time is money, right?
 
-![x]({{BASE_PATH}}/assets/md-images/2016-02-28/app.png "ExpensiveMeeting app")
-
 Don't worry: The app is free and no ads are shown. 
 
-__[Windows Store Download Link](https://www.microsoft.com/store/apps/9NBLGGH5PVW9)__
+__[Windows Store Download](https://www.microsoft.com/store/apps/9NBLGGH5PVW9)__
 
 ## Behind the scenes: Universal Windows Platfrom (UWP)
 
@@ -34,4 +32,5 @@ The project can be found on [GitHub](https://github.com/Windows-XAML/Template10)
 
 I decided to work in the open on __[GitHub](https://github.com/Code-Inside/ExpensiveMeeting)__, so if you are interested on the actual code, just take a look and do whatever you want to do. 
 
-If you have ideas or found bugs I would appreciate your help - just create an __[issue](https://github.com/Code-Inside/ExpensiveMeeting/issues)__ or send a pull request.
+If you have ideas or found bugs I would appreciate your help:
+Just create an __[issue](https://github.com/Code-Inside/ExpensiveMeeting/issues)__ or send a pull request.
