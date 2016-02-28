@@ -4,7 +4,7 @@ title: "Pretty Print XML in .NET"
 description: "Pretty printing an XML with correct indentation and line breakings - was a bit tricky and on the other hand really simple in .NET. I found many solutions, so here is mine."
 date: 2016-02-28 20:00
 author: Robert Muehsig
-tags: [XML]
+tags: [XML, .NET]
 language: en
 ---
 {% include JB/setup %}
