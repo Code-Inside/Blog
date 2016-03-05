@@ -23,7 +23,42 @@
     <div class="content">
       {{ content }}
     </div>
-
+	
+	{% if post.author == "Robert Muehsig" %}
+    <div class="row">
+		<div class="col-md-3 ">
+    	    <img class="img-responsive center-block" style="" src="http://www.codeinside.eu/Content/Images/rmuehsig.png">
+		</div>
+        <div class="col-md-9  col-xs-12">
+           <div class="header center-block">
+                <h2>Written by Robert Muehsig</h2>
+                <p>Software Developer - from Dresden, Germany, now living in Switzerland. ASP.NET MVP &amp; Web Geek.</p>
+  				<p>
+	                <a href="http://twitter.com/robert0muehsig" class="btn btn-xs btn-primary">
+                                    Twitter
+                    </a>
+                    <a href="https://github.com/robertmuehsig" class="btn btn-xs btn-primary">
+                                    GitHub
+                    </a>
+                    <a href="http://mvp.microsoft.com/en-us/mvp/Robert Muehsig-4020675" class="btn btn-xs btn-primary">
+                                    ASP.NET MVP
+                    </a>
+                    <a href="http://www.xing.com/profile/Robert_Muehsig" class="btn btn-xs btn-primary">
+                                    XING
+                    </a>
+                    <a href="https://speakerdeck.com/robertmuehsig" class="btn btn-xs btn-primary">
+                                    SpeakerDeck
+                    </a>
+                    <a href="http://stackoverflow.com/users/602449/robert-muehsig" class="btn btn-xs btn-primary">
+                                    Stack Overflow
+                    </a>
+                  </p>
+           </div>
+        </div>
+    </div>
+	<hr>
+	{% endif %}
+	
     <hr>
     {% include JB/comments %}
   </div>
