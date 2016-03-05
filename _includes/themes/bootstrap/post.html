@@ -15,7 +15,7 @@
 	
 			<i class="fa fa-user"></i> {{ page.author }} 
 			
-			<a class="pull-right" href="{{ site.github_repo_url }}edit/gh-pages/{{ page.path }}"><i class="fa fa-pencil-square-o"></i> Edit</a>
+			<a class="pull-right" title="Edit on GitHub" href="{{ site.github_repo_url }}edit/gh-pages/{{ page.path }}"><i class="fa fa-github-square"></i></a>
 
 		</div>
     </div>
@@ -24,7 +24,7 @@
       {{ content }}
     </div>
 	
-	{% if post.author == "Robert Muehsig" %}
+	{% if page.author == "Robert Muehsig" %}
     <div class="row">
 		<div class="col-md-3 ">
     	    <img class="img-responsive center-block" style="" src="http://www.codeinside.eu/Content/Images/rmuehsig.png">
