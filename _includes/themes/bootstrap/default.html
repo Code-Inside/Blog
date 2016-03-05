@@ -154,5 +154,11 @@
     {% include JB/analytics %}
     <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script src="{{BASE_PATH}}/assets/themes/bootstrap/resources/bootstrap/js/jquery.sieve.min.js"></script>
+	<script>
+    	var searchTemplate = "<div class='row'><input type='text' class='form-control' placeholder='Search...'></div>"
+    	$("#archive-list").sieve({ searchTemplate: searchTemplate, itemSelector: "li" });
+	</script>
+
   </body>
 </html>
