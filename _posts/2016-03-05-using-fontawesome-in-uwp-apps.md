@@ -11,7 +11,7 @@ language: en
 
 ## FontAwesome in WPF and Fonts in UWP
 
-I blogged about [how to use FontAwesome in WPF](http://blog.codeinside.eu/2015/01/07/using-fontawesome-with-wpf/) last year and wrote a short blogpost about the nice [FontIcon](http://blog.codeinside.eu/2016/01/31/working-with-fonticons-in-uwp/) class in UWP. 
+I blogged about [how to use FontAwesome in WPF](http://blog.codeinside.eu/2015/01/07/using-fontawesome-with-wpf/) last year and wrote a short blogpost about the nice [FontIcon class in UWP](http://blog.codeinside.eu/2016/01/31/working-with-fonticons-in-uwp/). 
 With the help of the FontIcon class I could include the FontAwesome glyphs, but working with the unicodes is not very dev friendly.
 
 ## Bringing FontAwesome.WPF to the UWP universe - OSS rocks!
@@ -46,6 +46,8 @@ Result:
 
 ![x]({{BASE_PATH}}/assets/md-images/2016-03-05/demo.png "FontAwesome on UWP")
 
-I would say: Pretty nice and it was a good collaboration - big thanks to [Thomas Charriere](https://github.com/charri), who is the maintainer behind the project.
+Pretty nice and it was a good collaboration - big thanks to [Thomas Charriere](https://github.com/charri), who is the maintainer behind the project.
+
+__[Demo Project on our GitHub Sample repo](https://github.com/Code-Inside/Samples/tree/master/2016/UwpFontAwesome/UwpDemo)__
 
 Hope this helps!
