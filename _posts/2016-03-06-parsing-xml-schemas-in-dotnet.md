@@ -12,11 +12,11 @@ language: en
 ## XML Schemas
 
 XML can be very verbose and seems to be old-fashioned, but the good part around XML is, that there is a hugh pile of standardized mechanics around it. 
-To query XML documents you can use [XPath](https://en.wikipedia.org/wiki/XPath), for transforming you could use[XSLT](https://en.wikipedia.org/wiki/XSLT) and for validation you can use __[XML Schemas](https://en.wikipedia.org/wiki/XML_Schema_(W3C))__ or in short a "XSD" (XML Schema Definition).
+To query XML documents you can use [XPath](https://en.wikipedia.org/wiki/XPath), for transforming [XSLT](https://en.wikipedia.org/wiki/XSLT) and for validation __[XML Schemas](https://en.wikipedia.org/wiki/XML_Schema_(W3C))__ or in short a "XSD" (XML Schema Definition).
 
 ## Parsing the XSD Tree
 
-A XSD is just a Xml-Document that describes the valid XML tree. Because its just a normal XML element (with a fancy XML-namespace), so you could parse it via the normal XDocument, but things are way easier for you when you look at the [System.Xml.Schema-Namespace](https://msdn.microsoft.com/de-de/library/system.xml.schema(v=vs.110).aspx).
+A XSD is just a XML document itself that describes the your valid XML document tree. Because its just a normal XML document (with a fancy XML-namespace), you could parse it via the normal XDocument, but things are way easier for you when you look at the [System.Xml.Schema-Namespace](https://msdn.microsoft.com/de-de/library/system.xml.schema(v=vs.110).aspx).
 
 ## Code
 
