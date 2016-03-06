@@ -16,16 +16,16 @@ With the help of the FontIcon class I could include the FontAwesome glyphs, but 
 
 ## Bringing FontAwesome.WPF to the UWP universe - OSS rocks!
 
-The goal was pretty clear: I would like to have excellent FontAwesome.WPF NuGet package working on UWP. 
+The goal was pretty clear: I would like to have the excellent FontAwesome.WPF NuGet package working on UWP. 
 So I created an issue on the [FontAwesome.WPF GitHub repo](https://github.com/charri/Font-Awesome-WPF/issues/230) and some contributions later the [FontAwesome.UWP NuGet package](http://www.nuget.org/packages/FontAwesome.UWP/) was born.
 
-__Important: Thanks to everyone who was involved!__
+_Thanks to everyone who was involved!__
 
 ![x]({{BASE_PATH}}/assets/md-images/2016-03-05/nuget.png "FontAwesome.UWP NuGet package")
 
 ## Using FontAwesome in UWP... 
 
-As you might imaging - the usage now is pretty easy after including the FontAwesome.UWP NuGet package.
+As you might imaging - the usage is now pretty easy after including the FontAwesome.UWP NuGet package.
 
     <Page
         x:Class="UwpDemo.MainPage"
