@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Parsing XML Schemas in .NET"
-description: "XML can be very verbose and seems to be old-fashioned, but the good part around XML is, that there is a hugh pile of standardized mechanics around it. In this blogpost I will show you how to parse an XSD from code."
+description: "XML can be very verbose and seems to be old-fashioned, but the good part around XML is, that there is a huge pile of standardized mechanics around it. In this blogpost I will show you how to parse an XSD from code."
 date: 2016-03-06 08:15
 author: Robert Muehsig
 tags: [XML, .NET, XSD]
