@@ -33,6 +33,7 @@ To get to this feature we need to know which XML tag we are currently try to wri
 The good part: This is already a solved problem. I discovered a very clever XmlParser on the __[SharpDevelop GitHub Repo](https://github.com/icsharpcode/SharpDevelop/tree/master/src/AddIns/DisplayBindings/XmlEditor)__ and another one from the __[Xsemmel Project](https://xsemmel.codeplex.com/)__.
 
 I use code from both projects and integrated it in my sample project. And I hope I didn't broke the license by doing it - if yes I did it unintentional. Each code part is marked with the source and the copyright notes are included as well. 
+
 Anyway: __Huge credits are going to both projects.__
 
 ### What I get from those libraries?
