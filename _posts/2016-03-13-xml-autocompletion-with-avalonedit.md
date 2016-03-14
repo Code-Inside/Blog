@@ -32,17 +32,17 @@ To get to this feature we need to know which XML tag we are currently try to wri
 
 The good part: This is already a solved problem. I discovered a very clever XmlParser on the __[SharpDevelop GitHub Repo](https://github.com/icsharpcode/SharpDevelop/tree/master/src/AddIns/DisplayBindings/XmlEditor)__ and another one from the __[Xsemmel Project](https://xsemmel.codeplex.com/)__.
 
-I use code from both projects and integrated it in my sample project. And I hope I didn't broke the license by doing it - if yes I did it unintentional. Each code part is marked with the source and the copyright notes are included as well. 
+I use code from both projects and integrated it in my sample project. And I hope I didn't break the license by doing it - if yes I did it unintentional. Each code part is marked with the source and the copyright notes are included as well. 
 
 Anyway: __Huge credits are going to both projects.__
 
 ### What I get from those libraries?
 
-Both libraries are clever enough to parse XML - or even "invalid" XML, and return the current position inside the XML tree. The code from Xsemmel also helped my with the "pure" tag completion. 
+Both libraries are clever enough to parse XML - or even "invalid" XML, and return the current position inside the XML tree. The code from Xsemmel also helped me with the "pure" tag completion. 
 
 My merged XmlParser will return me the needed information for autocompletion or even "IntelliSense"-like features.
 
-### XML "IntelliSense" - Whats the source of the "IntelliSense"?
+### XML "IntelliSense" - What's the source of the "IntelliSense"?
 
 To present some clever autocomplete actions, we need a source for this information. The good thing about XML is, that there is a huge range of related standards around it. The idea is simple:
 
@@ -54,7 +54,7 @@ I created a WPF project, included the AvalonEdit NuGet package and the code port
 
 ![x]({{BASE_PATH}}/assets/md-images/2016-03-13/xmleditor.gif "AvalonEdit with XML Autocompletion").
 
-You don't need to "query" the document everytime you change the cursor - so in real life the performance hit is not very noticable.
+You don't need to "query" the document everytime you change the cursor - so in real life the performance hit is not very noticeable.
 
 As I already mentioned in the XSD-blogpost: XML Namespaces will not work with this implementation. As far as I know the SharpDevelop code should understand namespaces, but at least my XSD parser is not smart enough.
 
@@ -66,7 +66,7 @@ The ">" and "/" key is interesting for the simple tag autocompletion. The "XsdPa
 
 ### "Good enough"
 
-My implementation is far away from perfection, but should be good enough for most simple cases. As I already mentioned, the heavy lifting is done by code from SharpDevelop or Xsemmel. My sample is self-contained and only relys on the AvalonEdit NuGet package and the standard WPF.
+My implementation is far away from perfection, but should be good enough for most simple cases. As I already mentioned, the heavy lifting is done by code from SharpDevelop or Xsemmel. My sample is self-contained and only relies on the AvalonEdit NuGet package and the standard WPF.
 
 __[Full Sample Code on GitHub](https://github.com/Code-Inside/Samples/tree/master/2016/XmlIntelliSense)__
 	
