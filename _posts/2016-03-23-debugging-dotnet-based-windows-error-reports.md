@@ -51,7 +51,7 @@ A typical Windows Error Report could look like this:
     C:\ProgramData\Microsoft\Windows\WER\ReportQueue\AppCrash_BreakStuff.App.e_1952fbbdf8ecceaa6e9af5c44339210849f4774_b2bbc455_cab_7634f669\memory.hdmp
     WERGenerationLog.txt
 
-Each [P holds some exception location information](https://blogs.msdn.microsoft.com/oanapl/2009/01/30/windows-error-reporting-and-clr-integration/).
+Each [P holds some exception location information](https://blogs.msdn.microsoft.com/oanapl/2009/01/30/windows-error-reporting-and-clr-integration/):
 
 __P1: "BreakStuff.App.exe" = App name or host process__ e.g. your.exe or Outlook.exe for a .NET addin. 
 
@@ -61,7 +61,7 @@ __P3: "56eb2416" = Timestamp of the executable__
 
 __P4: "BreakStuff.App" = Faulting assembly and module name__
 
-__P5: "1.0.0.0" = Version of the faulting module
+__P5: "1.0.0.0"__ = Version of the faulting module
 
 __P6: "56eb2416" = Timestamp of the faulting module__
 
@@ -69,7 +69,7 @@ __P7: "5" = MethodDef__ – MethodDef token for the faulting method, after strip
 
 __P8: "a" = IL offset__ - in hex, in combination with P7 will it show you the *exact position of the exception* in your method.
 
-__P9: "FatalError" = Exception type
+__P9: "FatalError"__ = Exception type
 
 P1-P3 should be easy to understand and nothing new to you. If you have a bigger application P4 might lead to the correct namespace/assembly.
 
