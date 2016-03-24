@@ -113,6 +113,9 @@ In my case I see this:
 
 Take a look at the method description: 0600000 __5__ - the 0600000 is the high byte (whatever that means... - just search for the number, I bet you will find something.)
 
+*BigBasti helped me in the comments to describe the high byte:
+Big numbers which need more than one byte to store the value have high bytes (most significant bytes) and low bytes (least significant bytes) - you need to know this to make sure you load the sequence of bytes in the correct order. - Thanks!*
+
 Ok - now we know the actual method. The exception occurs in the ButtonBase_OnClick method!
 
 ## P8: Finding the exact position of the faulting code with ILSpy
