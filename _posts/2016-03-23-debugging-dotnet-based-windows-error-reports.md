@@ -117,7 +117,8 @@ Ok - now we know the actual method. The exception occurs in the ButtonBase_OnCli
 
 ## P8: Finding the exact position of the faulting code with ILSpy
 
-Now we need to look at the methods IL. You can use [ILSpy](http://ilspy.net/) or any other .NET decompiler. Make sure you switch from the C# view to IL view and go to the faulting method:
+Now we need to look at the methods IL. You can use [ILSpy](http://ilspy.net/) or any other .NET decompiler (ildasm is not very comfortable, we only used it to get the method name). 
+If you choosed ILSpy make sure you switch from the C# view to IL view and go to the faulting method:
 
 ![x]({{BASE_PATH}}/assets/md-images/2016-03-23/ilspy-code.png "ILSpy")
 
