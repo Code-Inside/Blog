@@ -8,6 +8,10 @@ highlighter: rouge
 # https://help.github.com/articles/migrating-your-pages-site-from-maruku
 markdown: kramdown
 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 future: true
 
 # Themes are encouraged to use these universal variables
