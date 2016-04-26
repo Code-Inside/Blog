@@ -37,7 +37,7 @@ __Usage:__
 
 The usage of both options is pretty easy (at least with the option 2 code provided) :
 
-
+```cs
     // https://gist.github.com/paulcbetts/3c6aedc9f0cd39a77c37
     var accentColor = new SolidColorBrush(AccentColorSet.ActiveSet["SystemAccent"]);
     this.Code.Background = accentColor;
@@ -46,7 +46,7 @@ The usage of both options is pretty easy (at least with the option 2 code provid
     // Available in .NET 4.5
     this.SystemProperties.Background = SystemParameters.WindowGlassBrush;
     this.SystemProperties.Text = "SystemParameters.WindowGlassBrush " + ((SolidColorBrush)SystemParameters.WindowGlassBrush).Color.ToString();
-
+```
 
 __Result:__
 
