@@ -18,6 +18,7 @@ Since Windows 8 users can choose a system accent color. The color can be seen on
 ## How to get the accent color in WPF?
 
 __Option 1: SystemParameters.WindowGlassBrush - not 100% the same color__
+
 As far as I know there are several ways to get the color code, one easy but __not 100% correct__ way is to use the [SystemParameters.WindowGlassBrush](https://msdn.microsoft.com/en-us/library/system.windows.systemparameters.windowglassbrush.aspx) property that was introduced in .NET 4.5.
 
 Sadly, the color is not 100% correct - I have no idea where this "similar", but not identical color is used and why the API is returning this color.
@@ -53,7 +54,7 @@ __Result:__
 
 As you can see, the lower color does match the border color instead of the first option. Crazy, right? ¯\_(ツ)_/¯
 
-The full code is on [GitHub](https://github.com/Code-Inside/Samples/tree/master/2016/WpfGetWindows10AccentColor)
+The full code is on [__GitHub__](https://github.com/Code-Inside/Samples/tree/master/2016/WpfGetWindows10AccentColor)
 
 Hope this helps.
 
