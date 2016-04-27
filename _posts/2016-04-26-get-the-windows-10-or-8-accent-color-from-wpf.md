@@ -31,7 +31,7 @@ I found this solution [here](https://gist.github.com/paulcbetts/3c6aedc9f0cd39a7
 
 __Option 3: Registry, DwmGetColorizationParameters__
 
-The last option would be to read the Registry values - I found some hints on this [site](http://pinvoke.net/default.aspx/dwmapi/DwmGetColorizationParameters.html), but I wouldn't recommend it, so we will use option 1 or 2.
+The last option would be to read the Registry values - I found some hints on this [site](http://pinvoke.net/default.aspx/dwmapi/DwmGetColorizationParameters.html), but I wouldn't recommend it, because it is more or less undocumented and might break in the future. So we will use option 1 or 2.
 
 __Usage:__
 
