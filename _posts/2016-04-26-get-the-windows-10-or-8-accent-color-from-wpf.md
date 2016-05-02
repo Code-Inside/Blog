@@ -52,7 +52,7 @@ __Result:__
 
 ![x]({{BASE_PATH}}/assets/md-images/2016-04-26/wpf-result.png "WPF result").
 
-As you can see, the lower color does match the border color instead of the first option. Crazy, right? ¯\_(ツ)_/¯
+As you can see, the lower color does match the border color instead of the first option. Crazy, right? ¯\\\_(ツ)\_/¯
 
 The full code is on [__GitHub__](https://github.com/Code-Inside/Samples/tree/master/2016/WpfGetWindows10AccentColor)
 
