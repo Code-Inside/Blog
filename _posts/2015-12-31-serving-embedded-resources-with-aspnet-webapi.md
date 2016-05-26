@@ -71,10 +71,13 @@ This controller will try to read the HTTP GET PathAndQuery and will look inside 
 
         public HttpResponseMessage Get()
         {
+            var virtualPathRoot = this.Request.GetRequestContext().VirtualPathRoot;
             string filename = this.Request.RequestUri.PathAndQuery;
 
+            filename = filename.Replace(virtualPathRoot, string.Empty);
+
             // input as /page/js/scripts.js
-            if (filename == "/")
+            if (filename == "/" || string.IsNullOrWhiteSpace(filename))
             {
                 filename = ".index.html";
             }
