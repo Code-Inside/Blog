@@ -4,7 +4,7 @@ title: "FAKE: Build ASP.NET projects with web.config transformation (and without
 description: "Using FAKE to build console or desktop applications is quite easy, but for ASP.NET projects a web.config transformation might be needed. This post will show you an easy solution with FAKE."
 date: 2016-06-12 14:00
 author: Robert Muehsig
-tags: [FAKE, NuGet]
+tags: [FAKE, ASP.NET]
 language: en
 ---
 {% include JB/setup %}
@@ -16,7 +16,7 @@ _This is a follow-up to my other FAKE posts:_
 * ["FAKE: Create NuGet Packages without knowing a tiny bit of F#"](http://blog.codeinside.eu/2015/06/21/fake-create-nuget-packages/)
 * ["FAKE: Running MSTest Tests with FAKE without knowing a tiny bit of F#"](http://blog.codeinside.eu/2015/08/30/fake-running-mstest-tests-with-fake/)
 
-## What's the difference between a ASP.NET and other projects
+## What's the difference between a ASP.NET and other projects?
 
 The most obvious difference is that the output is a bunch of dlls and content files. Additionally you might have a __web.debug.config or web.release.config__ in your source folder. 
 Both files are important, because they are used during a Visual-Studio build as a [__Web.Config Transformation__](https://msdn.microsoft.com/en-us/library/dd465326(v=vs.110).aspx)
