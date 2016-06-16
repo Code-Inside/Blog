@@ -19,9 +19,10 @@ _This is a follow-up to my other FAKE posts:_
 ## What's the difference between a ASP.NET and other projects?
 
 The most obvious difference is that the output is a bunch of dlls and content files. Additionally you might have a __web.debug.config or web.release.config__ in your source folder. 
-Both files are important, because they are used during a Visual-Studio build as a [__Web.Config Transformation__](https://msdn.microsoft.com/en-us/library/dd465326(v=vs.110).aspx)
 
-With a normal build the transformation will not kick in... so we need a way to trigger the transformation.
+Both files are important, because they are used during a Visual-Studio build as a [__Web.Config Transformation__](https://msdn.microsoft.com/en-us/library/dd465326(v=vs.110).aspx).
+
+With a normal build the transformation will not kick in, so we need a way to trigger the transformation "manually".
 
 ## Project Overview
 
