@@ -54,6 +54,6 @@ __Publish a ASP.NET project__
 
 This build will produce two artifacts - the build-folder just contains the normal build output, but __without__ a web.config transformation. 
 
-The other folder contains a ready to deploy web application, __with the web.config applied__.
+The other folder contains a ready to deploy web application, __with the web.release.config applied__.
 
 You can find the complete [sample & build script on GitHub](https://github.com/Code-Inside/Samples/tree/master/2016/LetsUseFake-AspNet).
