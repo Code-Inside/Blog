@@ -17,7 +17,7 @@ _* ... well... the interface is still awkward for a C# dev, but it is possible t
 
 ## ESENT Database Viewer: ESENT Workbench 
 
-I found a very promising OSS project called [__ESENT Workbench__](https://bitbucket.org/gfkeogh/esentworkbench). You can build the source yourself or just use the [__release__](https://bitbucket.org/gfkeogh/esentworkbench/downloads).
+I found a very promising OSS project called [__ESENT Workbench__](https://bitbucket.org/orthoprog/esentworkbench). You can build the source yourself or just use the [__release__](https://bitbucket.org/orthoprog/esentworkbench/downloads).
 
 ![x]({{BASE_PATH}}/assets/md-images/2015-02-22/esentworkbench.png "ESENT Workbench Table Explorer")
 
