@@ -30,9 +30,40 @@ The sample project consists of one ASP.NET project and the .fsx file.
 
 ![x]({{BASE_PATH}}/assets/md-images/2016-06-12/project.png "Project Overview")
 
+The "released" web.config should cover this 3 main transformation parts:
+
+* DefaultConnectionString to 'ReleaseSQLServer'
+* No "debug"-attribute on system.web
+* developmentMode-AppSetting set to 'true'
+
+__Web.Release.config__
+
+    <?xml version="1.0"?>
+    <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+      <connectionStrings>
+        <add name="DefaultConnection"
+          connectionString="ReleaseSQLServer"
+          xdt:Transform="SetAttributes" xdt:Locator="Match(name)"/>
+      </connectionStrings>
+    
+      <appSettings>
+        <add key="developmentMode" value="true" xdt:Transform="SetAttributes"
+             xdt:Locator="Match(key)"/>
+      </appSettings>
+      
+      <system.web>
+        <compilation xdt:Transform="RemoveAttributes(debug)" />
+      </system.web>
+    </configuration>
+
+
 ## The FAKE script
 
 We reuse the MSBuild-Helper from FAKE and inject a couple of "Publish"-related stuff, which will trigger the transformation.
+
+__A few remarks:__ In the "normal" WebDeploy-World you would have a PublishProfile and it would end up with a .zip-file and a couple of other files that fill in parameters like the ConnectionString. With this MSBuild command I mimik a part of this behavior and use the temporary output as our main artifact. In my most apps I use web.config transformations only for "easy" stuff (e.g. remove the debug attribute) - if you are doing fancy stuff and the output is not what you want, please let me know.
+
+__This MSBuild command *should* apply all your web.config transformations.__
 
 __Publish a ASP.NET project__
 
@@ -43,12 +74,28 @@ __Publish a ASP.NET project__
      |> MSBuild artifactsBuildDir "Package"
         ["Configuration", "Release"
          "Platform", "AnyCPU"
+         "AutoParameterizationWebConfigConnectionStrings", "False"
          "_PackageTempDir", (@"..\" + artifactsDir + @"Release-Ready-WebApp")
          ]
      |> Log "AppBuild-Output: "
     )
     ...
-	
+
+### "AutoParameterizationWebConfigConnectionStrings" or how to get rid of $(ReplacableToken_...
+
+*Blogpost updated on 2016-07-18*
+
+A friend told me that his transformed web.config contained "$(ReplaceableToken_...)" strings. It seems that "connectionStrings" are treated specially. If you have a connectionString in your web.config and don't set ["AutoParameterizationWebConfigConnectionStrings=False"](http://stackoverflow.com/questions/7207689/how-to-get-rid-of-replacabletoken-in-web-config-completely) you will get something like that:
+
+    <connectionStrings>
+      <!-- Not the result we are looking for :-/ -->
+      <add name="DefaultConnection" connectionString="$(ReplacableToken_DefaultConnection-Web.config Connection String_0)" providerName="System.Data.SqlClient" />
+    </connectionStrings>
+
+I would say this is not the result you are expecting. With the "AutoParameterizationWebConfigConnectionStrings=False" parameter it should either do a transformation or leave the default-connectionString value in the result.
+
+*Thanks to Timur Zanagar! I completely missed this issue.*
+
 ## Result
 
 ![x]({{BASE_PATH}}/assets/md-images/2016-06-12/output.png "Output")
@@ -56,5 +103,16 @@ __Publish a ASP.NET project__
 This build will produce two artifacts - the build-folder just contains the normal build output, but __without__ a web.config transformation. 
 
 The other folder contains a ready to deploy web application, __with the web.release.config applied__.
+
+    <connectionStrings>
+      <add name="DefaultConnection" connectionString="ReleaseSQLServer" providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <appSettings>
+      ...
+      <add key="developmentMode" value="true" />
+    </appSettings>
+    <system.web>
+      ...
+    </system.web>
 
 You can find the complete [sample & build script on GitHub](https://github.com/Code-Inside/Samples/tree/master/2016/LetsUseFake-AspNet).
