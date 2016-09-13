@@ -83,10 +83,10 @@ This controller will try to read the HTTP GET PathAndQuery and will look inside 
             var virtualPathRoot = this.Request.GetRequestContext().VirtualPathRoot;
             string filename = this.Request.RequestUri.PathAndQuery;
 
-            // happens if it is hosted in IIS
+            // remove SERVER/appname from request to get the relative filename
             if (virtualPathRoot != "/")
             {
-                filename = filename.Replace(virtualPathRoot, string.Empty);
+                filename = filename.ToLowerInvariant().Replace(virtualPathRoot.ToLowerInvariant(), string.Empty);
             }
             
             // input as /page-assets/js/scripts.js
