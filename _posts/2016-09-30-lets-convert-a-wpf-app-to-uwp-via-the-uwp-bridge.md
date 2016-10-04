@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lets convert a WPF app to UWP"
+title: "Lets convert a WPF app to the Universal Windows Platform"
 description: "If you heard about 'Project Centennial' and wonder how to convert your WPF app to an UWP you might want to take a look at this post."
 date: 2016-09-30 23:45
 author: Robert Muehsig
@@ -13,11 +13,11 @@ language: en
 
 Last year Microsoft revealed the plans to run and distribute desktop apps (basically all apps ever written for Windows) in the Universal-Windows-Platform "universe". The project titel was ["Project Centennial"](https://www.microsoft.com/en-us/download/details.aspx?id=51691) and a year later the tooling seems to be ok-ish. So, let's try something simple and convert a simple WPF app to UWP.
 
-## Limitations when running as a UWP app
+## Limitations with this approach
 
-Be aware that even if you can "convert" your WPF app to a UWP-ish app, the executable will only run on a normal Windows Desktop system. The app will not work on a Windows Phone, Xbox or HoloLens - at least not now.
+Be aware that even if you can "convert" your WPF app this way you will get a UWP-ish app. The executable will only run __on a normal Windows Desktop System__. The app will __not work on a Windows Phone, Xbox or HoloLens__ - at least not now.
 
-The app itself will run in a kind of sandbox. Calls to the file system or registry will be faked. Details can be found [here](https://msdn.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-behind-the-scenes).
+Also keep in mind that certain operations might fail and that the outcome of some operations might suprise you. The app itself will run in a kind of sandbox. Calls to the file system or registry will be faked. Details can be found [here](https://msdn.microsoft.com/en-us/windows/uwp/porting/desktop-to-uwp-behind-the-scenes).
 
 As far as I know from a couple of hours playing around:
 
