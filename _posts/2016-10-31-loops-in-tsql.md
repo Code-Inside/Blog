@@ -15,7 +15,7 @@ The topic is quite old, but I found it really helpful, so be warned.
 
 I had to write a SQL migration script to move date from an old table into a new table with a new primary key.
 
-Here was/is my resulting script using __T-SQL Cursors__:
+Here was/is my resulting script using __[T-SQL Cursors](https://msdn.microsoft.com/en-us/library/ms180169.aspx)__:
 
     DECLARE @TemplateId as uniqueidentifier;
     DECLARE @UserId as uniqueidentifier;
