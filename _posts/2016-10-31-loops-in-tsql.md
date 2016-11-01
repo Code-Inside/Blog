@@ -15,6 +15,8 @@ The topic is quite old, but I found it really helpful, so be warned.
 
 I had to write a SQL migration script to move date from an old table into a new table with a new primary key.
 
+*Update! I discovered that my problem would have been solved with a much simpler SQL script (INSERT INTO x ...(SELECT ... FROM Y)). So my example here is pretty dumb - sorry if this confuses you, but I will keep the blogpost to show the mechanics. Thanks Mark!*
+
 Here was/is my resulting script using __[T-SQL Cursors](https://msdn.microsoft.com/en-us/library/ms180169.aspx)__:
 
     DECLARE @TemplateId as uniqueidentifier;
@@ -62,5 +64,9 @@ The syntax seems (from a C# perspective) strange, but works well for this scenar
 ## Performance consideration
 
 I wouldn't recommend this approach for large scale migrations or actual production code because I heard that the performance is not as great as some clever joins or other T-SQL magic.
+
+## Make sure you really need this
+
+You can do some clever joins with SQL - make sure you really need this approach. My example here is not a clever one, so use this feature wisely. (again - thanks to Mark for the comment!)
 
 __Thanks Christopher for your help!__
