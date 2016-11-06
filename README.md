@@ -1,7 +1,7 @@
 # Our Blog Repository
 
 Our main blog - based on Jekyll and served here:
-http://blog.codeinside.eu
+https://blog.codeinside.eu
 
 Build Status:
 [![Build Status](https://travis-ci.org/Code-Inside/Blog.svg?branch=gh-pages)](https://travis-ci.org/Code-Inside/Blog)
