@@ -2,7 +2,7 @@
 layout: post
 title: "Enable SSL with custom domains on GitHub Pages via Cloudflare"
 description: "Encryption is important these days, but is not out of the box possible with a custom domain on GitHub Pages. I will show you how to enable SSL with Cloudflare - it is super easy and free."
-date: 2016-11-31 23:15
+date: 2016-11-14 23:15
 author: Robert Muehsig
 tags: [SSL, HTTPS, GitHub, Cloudflare]
 language: en
