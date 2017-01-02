@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Create or update files via the GitHub API"
-description: "Let's explore Octokit.NET and changing some files in your GitHub Repo."
+title: "GitHub API: Create or update files"
+description: "Let's explore Octokit.NET and changing some files in our GitHub Repos."
 date: 2017-01-02 23:45
 author: Robert Muehsig
 tags: [GitHub, Octokit]
