@@ -48,7 +48,7 @@
       <script src="{{BASE_PATH}}/assets/themes/bootstrap/resources/bootstrap/js/Respond.min.js"></script>
     <![endif]-->
 
-	<link rel="alternate" type="application/rss+xml"  href="{{site.production_url}}/feed" title={{site.title}} Feed">
+	<link rel="alternate" type="application/rss+xml"  href="{{site.production_url}}/feed" title="{{site.title}} Feed">
     <style>
 	img {
           display: block;
@@ -112,7 +112,7 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
 			<li><a href="{{ HOME_PATH }}">Blog</a></li>
-			<li><a href="http://www.codeinside.eu">Hub</a></li>
+			
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Archives <span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
@@ -122,6 +122,9 @@
 			</li>
 			<li><a href="{{ BASE_PATH }}/terms">Terms</a></li>
           </ul>
+	 <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://www.codeinside.eu">Hub</a></li>
+         </ul>
         </div>
       </div>
     </nav>
