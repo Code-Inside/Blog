@@ -220,4 +220,4 @@ The registry.dat seems to be the source and target of all write actions inside t
 
 But if you do, then yes you can deploy whatever entries you want as a starting point for your app otherwise the starting point is whatever that computer currently has in the real registry."
 
-You can create such registry.dat files via RegEdit & export it as registry hive. Thanks!
+You can create such registry.dat files via RegEdit & export it as registry hive. Be aware, that my test run wasn't successful, but I hope to get working sample. Until that I hope James comments will be helpful.
