@@ -209,3 +209,15 @@ It was my first try to convert a (simple) WPF app to UWP and the result is inter
 Hope my first steps in this world might help you!
 
 The code and a handy readme.txt is available on [GitHub](https://github.com/Code-Inside/Samples/tree/master/2016/WpfToUwpTestApp).
+
+## From the comments: Fun with registy.dat files:
+
+James Hancock/John Galt discovered a nice registy trick. His goal was to "fake" a given registry key, so that the converted UWP app can see a "virtual" registry key. This can be done with a file named "registry.dat".
+
+The registry.dat seems to be the source and target of all write actions inside the app:
+
+"The virtual registery is always the registry.dat. if you don't provide a default version then one is created on first use for you.
+
+But if you do, then yes you can deploy whatever entries you want as a starting point for your app otherwise the starting point is whatever that computer currently has in the real registry."
+
+You can create such registry.dat files via RegEdit & export it as registry hive. Thanks!
