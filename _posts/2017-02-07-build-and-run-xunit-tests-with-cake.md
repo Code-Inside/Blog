@@ -9,7 +9,7 @@ language: en
 ---
 {% include JB/setup %}
 
-Last year I already covered the __[basic usage of Cake]__(https://blog.codeinside.eu/2016/07/09/cake-building-with-cake/), which stands for "C# Make". This time we want to build and run __[xUnit](https://xunit.github.io/)__ tests with Cake.
+Last year I already covered the __[basic usage of Cake](https://blog.codeinside.eu/2016/07/09/cake-building-with-cake/)__, which stands for "C# Make". This time we want to build and run __[xUnit](https://xunit.github.io/)__ tests with Cake.
 
 ## Scenario
 
