@@ -24,7 +24,7 @@ Let's say we have this project structure. The "Config", "Result" and "Engine" pr
     <package >
       <metadata>
         <id>Sloader.Config</id>
-        <version>0.1.0</version>
+        <version>$version$</version>
         <title>Sloader.Config</title>
         <authors>Code Inside Team</authors>
         <owners>Code Inside Team</owners>
@@ -42,7 +42,11 @@ Let's say we have this project structure. The "Config", "Result" and "Engine" pr
       </metadata>
     </package>
 
-Nothing fancy - pretty normal NuGet stuff. 
+Nothing fancy - pretty normal NuGet stuff, but be aware of the "$version$" variable. This variable is called a ["replacement-token"](https://docs.microsoft.com/de-de/nuget/schema/nuspec#replacement-tokens). When the NuGet package is created and it detects such a replacement-token, it will search for the AssemblyVersion (or other replacement-token sources). 
+
+__Versioning in NuGet:__
+
+I'm not a NuGet expert, but you should also versioning your assembly info, otherwise some systems may have trouble to update your dll. The version inside the package can be different from the actual assembly version, but you should manage booth or use this replacement-token-mechanic.
 
 ## Goal
 
