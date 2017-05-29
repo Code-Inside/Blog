@@ -40,7 +40,7 @@ Requirements:
 Even I'm using TFS since a couple of years I just recently discovered that the TFS supports to different "workflows". The "default" workflow always needs a connection to the TFS to checkout files etc. 
 There is an alternative mode called "local" mode which seems to work like SVN. The difference is, that you can create a local file and the TFVC-client will "detect" those changes. Read more about the differences [here](https://www.visualstudio.com/en-us/docs/tfvc/decide-between-using-local-server-workspace).
 
-![x]({{BASE_PATH}}/assets/md-images/2017-05-29/local-workspace.png "Local Workspace setting").
+![x]({{BASE_PATH}}/assets/md-images/2017-05-29/local-workspace.png "Local Workspace setting")
 
 ## Configuration
 
@@ -54,6 +54,6 @@ In our OnPremise TFS 2015 world I just needed only this configuration line in my
 
 Now when I point VS Code to my local workspace folder, the TFVC plugin will kick in and I see the familiar "change"-tracking:
 
-![x]({{BASE_PATH}}/assets/md-images/2017-05-29/changetracking.png "Working with the extension").
+![x]({{BASE_PATH}}/assets/md-images/2017-05-29/changetracking.png "Working with the extension")
 
 It is not perfect, because I still need to setup and "manage" (e.g. get the history etc.) via the full blown Visual Studio, but with this setup it is "do-able".
