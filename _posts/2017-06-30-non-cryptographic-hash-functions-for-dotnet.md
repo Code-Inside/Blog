@@ -28,7 +28,7 @@ The reason makes perfect sense for me - next step: What other choice are availab
 
 ## Non-cryptographic hash functions in .NET
 
-If you are googleing around you will find many different hashing algorithm, like [Jenkins](https://en.wikipedia.org/wiki/Jenkins_hash_function) or [MurmurHash)](https://en.wikipedia.org/wiki/MurmurHash). 
+If you are googleing around you will find many different hashing algorithm, like [Jenkins](https://en.wikipedia.org/wiki/Jenkins_hash_function) or [MurmurHash](https://en.wikipedia.org/wiki/MurmurHash). 
 
 The good part is, that [Brandon Dahler](https://github.com/brandondahler) created .NET versions of the most well known algorithm and published them as NuGet packages.
 
@@ -40,4 +40,4 @@ If you want to hash something and it is not crypto relevant, then it would be be
 
 I'm not sure which one is 'better' - if you have some opinions please let me know.
 
-(my blogging backlog is quite long, so I needed 6 month to write this down ;) )
+*(my blogging backlog is quite long, so I needed 6 month to write this down ;) )*
