@@ -38,6 +38,6 @@ The source and everything can be found on __[GitHub](https://github.com/brandond
 
 If you want to hash something and it is not crypto relevant, then it would be better to look at one of those Data.HashFunctions - some a pretty crazy fast.
 
-I'm not sure which one is 'better' - if you have some opinions please let me know.
+I'm not sure which one is 'better' - if you have some opinions please let me know. Brandon created a small description of each algorithm on the __[Data.HashFunction documentation page](http://datahashfunction.azurewebsites.net/)__.
 
 *(my blogging backlog is quite long, so I needed 6 month to write this down ;) )*
