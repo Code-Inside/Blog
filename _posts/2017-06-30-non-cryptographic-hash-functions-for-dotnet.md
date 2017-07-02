@@ -30,7 +30,12 @@ The reason makes perfect sense for me - next step: What other choice are availab
 
 If you are googleing around you will find many different hashing algorithm, like [Jenkins](https://en.wikipedia.org/wiki/Jenkins_hash_function) or [MurmurHash](https://en.wikipedia.org/wiki/MurmurHash). 
 
-The good part is, that [Brandon Dahler](https://github.com/brandondahler) created .NET versions of the most well known algorithm and published them as NuGet packages.
+Sean Feldman, who more or less started the Twitter discussion mentioned a very good library for .NET developers:
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="de"><p lang="en" dir="ltr">for the hashing function, I think I&#39;ll lead readers to a better option here <a href="https://t.co/LDiJuLD5A5">https://t.co/LDiJuLD5A5</a></p>&mdash; Sean Feldman (@sfeldman) <a href="https://twitter.com/sfeldman/status/805516688816910336">4. Dezember 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+The author of this awesome package is [Brandon Dahler](https://github.com/brandondahler), who created .NET versions of the most well known algorithm and published them as NuGet packages.
 
 The source and everything can be found on __[GitHub](https://github.com/brandondahler/Data.HashFunction/)__.
 
