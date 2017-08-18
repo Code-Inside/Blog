@@ -11,6 +11,8 @@ language: en
 
 __Please note__: In my sample and in this blogpost I cover IdentityServer 3, because last year when I created working on the sample and our real implementation IdentityServer4, a rewrite and with .NET Core in mind was in beta. My guess is, that most stuff should still apply even if you are using IdentityServer4, but I didn't test it.
 
+Also: I'm not a security expert - this might be all wrong, but currently this more or less works for me. If you find something strange, please let me know!
+
 ## Overview
 
 The sample consists of the following projects:
@@ -24,7 +26,7 @@ The IdentityServer team did a great job and have a large __[sample repository on
 
 I will talk about each part. Now lets beginn with...
 
-### The IdServerHost
+### The 'IdServerHost' Project
 
 The IdentityServerHost is a plain ASP.NET application. To include the IdentityServer3 you need to add this [NuGet-Package](https://www.nuget.org/packages/IdentityServer3/).
 
@@ -37,4 +39,16 @@ Remember: __DO USE SSL IN PRODUCTION.__ Oh - and use the Cert-Store for the sign
 
 Besides the SSL stuff the most important stuff might be the [client-registration](https://github.com/Code-Inside/Samples/blob/master/2016/IdentityTest/IdentityTest.IdServerHost/Configuration/Clients.cs) and the [identity-provider-registration](https://github.com/Code-Inside/Samples/blob/79fda88113a4736a465ab275fe0745dfc6aefa9a/2016/IdentityTest/IdentityTest.IdServerHost/Startup.cs#L45-L65).
 
+The IdentityServer - as the auth-central - knows each 'client' and each 'identity-provider'. Make sure all URLs are correct otherwise you will end up with errors. Even a slightly difference like 'http://test.com/' and 'http://test.com' (without the trailing slash at the end) will result in strange errors. 
 
+### The 'WinAuth' Project
+
+As already written this is our Windows-Authentication provider. Of course, it is only needed if you need WinAuth. If you want to use any other provider, like a Google/Microsoft/Facebook/Twitter-Login, then this is not needed.
+It is a bridge to the enterprise world and works quite well. 
+
+In the project I just reference the [IdentityServer.WindowsAuthentication](https://www.nuget.org/packages/IdentityServer.WindowsAuthentication/) NuGet-Package and I'm nearly done. 
+In the config I need to insert the URL of my IdentityServer host - those two parts needs to know each other and they will exchange public keys so they can trust each other.
+
+For this trust-relationship the WinAuth provider has its own certificate. Actually you can reuse the same cert from the IdentityServerHost but I'm not sure if this is super secure, but it works.
+
+The code and sample can also be found on the offical [GitHub repo](https://github.com/IdentityServer/WindowsAuthentication)
