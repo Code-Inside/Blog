@@ -52,3 +52,18 @@ In the config I need to insert the URL of my IdentityServer host - those two par
 For this trust-relationship the WinAuth provider has its own certificate. Actually you can reuse the same cert from the IdentityServerHost but I'm not sure if this is super secure, but it works.
 
 The code and sample can also be found on the offical [GitHub repo](https://github.com/IdentityServer/WindowsAuthentication)
+
+### The 'WebApp' Project
+
+This project is a regular ASP.NET MVC project with WebApi 2 included. Nothing ASP.NET Core related, but the actual doing would be pretty similar.
+
+On this page there are two ways to interact: 
+
+* Via Browser
+* Via the WebApi
+
+__Browser Auth via OpenIdConnect Auth:__
+
+The NuGet Package [Microsoft.Owin.Security.OpenIdConnect](https://www.nuget.org/packages/Microsoft.Owin.Security.OpenIdConnect) does the heavy lifting for us. In combination with the [Microsoft.Owin.Security.Cookies](https://www.nuget.org/packages/Microsoft.Owin.Security.Cookies/) NuGet package the authentication will kick in when someone access a [Authorize] marked Controller. The Cookie-Auth will preserve the identity information.
+
+ 
