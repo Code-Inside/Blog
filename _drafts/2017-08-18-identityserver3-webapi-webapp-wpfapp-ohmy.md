@@ -66,4 +66,43 @@ __Browser Auth via OpenIdConnect Auth:__
 
 The NuGet Package [Microsoft.Owin.Security.OpenIdConnect](https://www.nuget.org/packages/Microsoft.Owin.Security.OpenIdConnect) does the heavy lifting for us. In combination with the [Microsoft.Owin.Security.Cookies](https://www.nuget.org/packages/Microsoft.Owin.Security.Cookies/) NuGet package the authentication will kick in when someone access a [Authorize] marked Controller. The Cookie-Auth will preserve the identity information.
 
+__WebApi Auth:__
+
+To use the protected WebApi with any HTTP client the request must have a JWT bearer token. The implementation is super simple with this NuGet package [IdentityServer3.AccessTokenValidation](https://www.nuget.org/packages/IdentityServer3.AccessTokenValidation/). 
+
+__Setup of both auth options:__
+
+The setup is quite easy with the NuGet packages:
+
+    public class Startup
+    {
+        public void Configuration(IAppBuilder app)
+        {
+            app.UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions
+            {
+                Authority = ConfigurationManager.AppSettings["Security.Authority"],
+                RequiredScopes = new[] { "openid" }
+            });
+
+            app.UseCookieAuthentication(new CookieAuthenticationOptions()
+            {
+                AuthenticationType = "cookies",
+            });
+
+            app.UseOpenIdConnectAuthentication(new OpenIdConnectAuthenticationOptions()
+            {
+                AuthenticationType = "oidc",
+                SignInAsAuthenticationType = "cookies",
+                Authority = ConfigurationManager.AppSettings["Security.Authority"],
+                ClientId = "webapp",
+                RedirectUri = ConfigurationManager.AppSettings["Security.RedirectUri"],
+                ResponseType = "id_token",
+                Scope = "openid all_claims"
+            });
+        }
+    }
+
+It is important to use the correct "clientIds" and URLs as configured in the IdentityServer.
+
+
  
