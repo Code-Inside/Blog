@@ -102,7 +102,19 @@ The setup is quite easy with the NuGet packages:
         }
     }
 
-It is important to use the correct "clientIds" and URLs as configured in the IdentityServer.
+It is important to use the correct "clientIds" and URLs as configured in the IdentityServer, otherwise you will receive errors from the IdentityServer.
+
+### The 'WpfClient' Project
+
+This project is a small version of the original [WpfOidcClientPop](https://github.com/IdentityServer/IdentityServer3.Samples/tree/master/source/Clients/WpfOidcClientPop) sample. The idea behind this sample is that a user can sign in with his regular account. 
+
+__Auth via browser:__
+
+Instead of a Loginname/Password form rendered from the WPF app itself the authentication is delegated to a embedded browser control. Another option is to delegate it to the "real" installed browser, but this is another topic. 
+The Microsoft Account login in Visual Studio is made that way or think of any popular "Facebook-Login" mobile app on your phone: The auth-process is basically a typical Web signin.
+
+This scenario is also convered as a offical [OpenID Connect specification](https://tools.ietf.org/wg/oauth/draft-ietf-oauth-native-apps/). In WPF your best and easiest choice would be the [IdentityModel.OidcClient2](https://github.com/IdentityModel/IdentityModel.OidcClient2) package.
+
 
 
  
