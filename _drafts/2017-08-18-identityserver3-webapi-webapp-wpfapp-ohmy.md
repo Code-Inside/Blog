@@ -115,6 +115,22 @@ The Microsoft Account login in Visual Studio is made that way or think of any po
 
 This scenario is also convered as a offical [OpenID Connect specification](https://tools.ietf.org/wg/oauth/draft-ietf-oauth-native-apps/). In WPF your best and easiest choice would be the [IdentityModel.OidcClient2](https://github.com/IdentityModel/IdentityModel.OidcClient2) package.
 
+__Auth "Steps"__
+
+The first step in the sample project is to aquire a access token from the IdentityServer. The actual implementation is thanks to the OIDCClient quite simple as you can see [here](https://github.com/Code-Inside/Samples/blob/c5d42f9b3ca61a6171eed684c57d94cac2297bf2/2016/IdentityTest/IdentityTest.WpfClient/MainWindow.xaml.cs#L44-L49).
+
+The OIDCClient will try to get the needed accesstoken in the silent mode first (this can be configured) and if this fails a embedded browser will appear. After a successful signin you will get a __accesstoken and refreshtoken__.
+
+After the intial sign in you can regenerate new accesstokens via the refreshtoken. 
+
+With the accesstoken [we craft a HTTP request](https://github.com/Code-Inside/Samples/blob/c5d42f9b3ca61a6171eed684c57d94cac2297bf2/2016/IdentityTest/IdentityTest.WpfClient/MainWindow.xaml.cs#L95-L99) to our beloved WebApi and write use the token in the authorization header and finally we are done.
+
+__Things to consider:__
+
+It is important [to setup the OIDCClient](https://github.com/Code-Inside/Samples/blob/c5d42f9b3ca61a6171eed684c57d94cac2297bf2/2016/IdentityTest/IdentityTest.WpfClient/MainWindow.xaml.cs#L77-L83) the correct way with the values that you specified in your IdentityServer configuration. Also you should read about OpenID scopes because they are linked to the actual result. Without the correct scope you might not get a accesstoken or refreshtoken.
+
+
+
 
 
  
