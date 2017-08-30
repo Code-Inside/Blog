@@ -2,40 +2,44 @@
 layout: post
 title: "IdentityServer3 with WindowsAuthentication with ASP.NET WebApi & ASP.NET & WPF App"
 description: "In the recent month I was working on our identity system. The main problem was that we have larger range of application types. This blogpost demonstrate how to use a WindowsAuth IdentityProvider in ASP.NET MVC and WebApi and inside a WPF App in combination with IdentityServer3."
-date: 2017-08-18 23:15
+date: 2017-08-30 23:15
 author: Robert Muehsig
 tags: [OpenId Connect, JWT, IdentityServer3, OAuth]
 language: en
 ---
 {% include JB/setup %}
 
-__Please note__: In my sample and in this blogpost I cover IdentityServer 3, because last year when I created working on the sample and our real implementation IdentityServer4, a rewrite and with .NET Core in mind was in beta. My guess is, that most stuff should still apply even if you are using IdentityServer4, but I didn't test it.
+__Please note__: In my sample and in this blogpost I cover IdentityServer 3, because last year when I was working on the sample and our real implementation IdentityServer4 (a rewrite of IdentityServer 3) was in beta. My guess is, that most stuff should still apply even if you are using IdentityServer4, but I didn't test it.
 
-Also: I'm not a security expert - this might be all wrong, but currently this more or less works for me. If you find something strange, please let me know!
+Also: I'm not a security expert - this might be all wrong, but currently this more or less works for us. If you find something strange, please let me know!
 
 ## Overview
 
 The sample consists of the following projects:
 
-__IdentityTest.IdServerHost:__ That's the central IdentityServer in our solution. It contains all "client" & "identityprovider" settings.
-__IdentityTest.WinAuth:__ This is our Windows-Authentication provider. Because of the nature of WindowsAuth it needs to be an extra project. This needs to be hosted via IIS (or IIS Express) with Windows authentication enabled. The ASP.NET app acts as a bride and will convert the Windows-Auth ticket into a saml token. It is more or less like a mini-ADFS
-__IdentityTest.WebApp:__ The WebApp itself can be used via browser and also hosts a WebApi. The WebApi is secured by the IdServerHost and one page will trigger the authentication against our IdServerHost.
+__IdentityTest.IdServerHost:__ That's the central IdentityServer in our solution. It contains all "clients" & "identityprovider" settings.
+__IdentityTest.WinAuth:__ This is our Windows-Authentication provider. Because of the nature of WindowsAuth it needs to be an extra project. This needs to be hosted via IIS (or IIS Express) with Windows authentication enabled. The ASP.NET app acts as a bridge and will convert the Windows-Auth ticket into a SAML token, which can be integrated into the IdentityServer. It is more or less like a mini-ADFS.
+__IdentityTest.WebApp:__ The WebApp itself can be used via browser and also hosts a WebApi. The WebApi is secured by the IdentityServer and secured pages will trigger the authentication against the IdServerHost. 
 __IdentityTest.WpfClient:__ With the WPFApp we want to get a AccessToken via a WebBrowser-Control from the IdServerHost and call the WebApi that is hosted and secured by the very same IdServerHost.
 
 The IdentityServer team did a great job and have a large __[sample repository on GitHub](https://github.com/IdentityServer/IdentityServer3.Samples)__. 
 
-I will talk about each part. Now lets beginn with...
+![x]({{BASE_PATH}}/assets/md-images/2017-08-30/overview.png "Overview")
+
+I will talk about each part in my sample. Now lets beginn with...
 
 ### The 'IdServerHost' Project
 
-The IdentityServerHost is a plain ASP.NET application. To include the IdentityServer3 you need to add this [NuGet-Package](https://www.nuget.org/packages/IdentityServer3/).
+The IdentityServerHost is a plain ASP.NET application. To include the IdentityServer3 you need to add [IdentityServer3 NuGet-Package](https://www.nuget.org/packages/IdentityServer3/).
 
-The code is more or less identical with the [Minimal-Sample](https://github.com/IdentityServer/IdentityServer3.Samples/tree/master/source/WebHost%20(minimal)/WebHost), but I __disabled the SSL__ requirements for my demo.
+The code is more or less identical with the [Minimal-Sample from the IdentityServer3 team](https://github.com/IdentityServer/IdentityServer3.Samples/tree/master/source/WebHost%20(minimal)/WebHost), but I __disabled the SSL__ requirements for my demo.
 
-Be aware: The IdentityServer use a certificate to sign the tokens, but this has nothing to do with the SSL certificate. This was a hard learning curve for me and IISExpress or something messed things up. In the end I disabled the SSL requirements for __for my development enviroment__ and could start to understand how each part is communicating with each other. 
+Be aware: The IdentityServer use a certificate to sign the tokens, but this has nothing to do with the SSL certificate. This was a hard learning curve for me and IISExpress or something messed things up. In the end I disabled the SSL requirements __for my development enviroment__ and could start to understand how each part is communicating with each other. 
 The signing certificate in the sample is the sample .pfx file from the offical samples.
 
 Remember: __DO USE SSL IN PRODUCTION.__ Oh - and use the Cert-Store for the signing certificate as well! 
+
+__Cert-Handling in IdentityServer in a nutshell__: Do use SSL in production with a valid SSL certificate and setup another certificate that the IdentityServer will use to sign the tokens.
 
 Besides the SSL stuff the most important stuff might be the [client-registration](https://github.com/Code-Inside/Samples/blob/master/2016/IdentityTest/IdentityTest.IdServerHost/Configuration/Clients.cs) and the [identity-provider-registration](https://github.com/Code-Inside/Samples/blob/79fda88113a4736a465ab275fe0745dfc6aefa9a/2016/IdentityTest/IdentityTest.IdServerHost/Startup.cs#L45-L65).
 
@@ -117,9 +121,13 @@ This scenario is also convered as a offical [OpenID Connect specification](https
 
 __Auth "Steps"__
 
-The first step in the sample project is to aquire a access token from the IdentityServer. The actual implementation is thanks to the OIDCClient quite simple as you can see [here](https://github.com/Code-Inside/Samples/blob/c5d42f9b3ca61a6171eed684c57d94cac2297bf2/2016/IdentityTest/IdentityTest.WpfClient/MainWindow.xaml.cs#L44-L49).
+The first step in the sample project is to aquire a access token from the IdentityServer. The actual implementation is thanks to the OidcClient quite simple as you can see [here](https://github.com/Code-Inside/Samples/blob/c5d42f9b3ca61a6171eed684c57d94cac2297bf2/2016/IdentityTest/IdentityTest.WpfClient/MainWindow.xaml.cs#L44-L49).
 
-The OIDCClient will try to get the needed accesstoken in the silent mode first (this can be configured) and if this fails a embedded browser will appear. After a successful signin you will get a __accesstoken and refreshtoken__.
+The OidcClient will try to get the needed accesstoken in the silent mode first (this can be configured) and if this fails a embedded browser will be rendered and the user needs to sign in there. After a successful signin you will get a __accesstoken and refreshtoken__.
+
+__Sample note:__ If you try this on your local machine the auth-window should not appear, because it will just do a "silent" windows auth login. 
+
+__Multiple IdentityProvider:__ If you configure multiple identity provider, a simple designed identity selection will appear in the embedded browser window.
 
 After the intial sign in you can regenerate new accesstokens via the refreshtoken. 
 
@@ -129,8 +137,18 @@ __Things to consider:__
 
 It is important [to setup the OIDCClient](https://github.com/Code-Inside/Samples/blob/c5d42f9b3ca61a6171eed684c57d94cac2297bf2/2016/IdentityTest/IdentityTest.WpfClient/MainWindow.xaml.cs#L77-L83) the correct way with the values that you specified in your IdentityServer configuration. Also you should read about OpenID scopes because they are linked to the actual result. Without the correct scope you might not get a accesstoken or refreshtoken.
 
+![x]({{BASE_PATH}}/assets/md-images/2017-08-30/wpf.png "wpf")
 
+# Summary
 
+With these 4 projects we have a quite mighty solution created. We can still use Windows Auth for enterprise needs, we can protect WebApis and WebPages via a central Identity solution and also use "native" apps. The IdentityServer itself has a wide range of configuration possibilities.
 
+If you start doing something in this direction I would point you to the [IdentityServer4](https://github.com/IdentityServer/IdentityServer4), because new is always better, right?
+
+# GitHub Link
+
+The full sample can be found on [GitHub](https://github.com/Code-Inside/Samples/tree/master/2016/IdentityTest). 
+
+Hope this helps.
 
  
