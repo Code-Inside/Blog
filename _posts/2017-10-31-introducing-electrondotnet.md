@@ -2,7 +2,7 @@
 layout: post
 title: "Introducing Electron.NET - building Electron Desktop Apps with ASP.NET Core"
 description: "Say hello to our little experiment!"
-date: 2017-09-31 23:15
+date: 2017-10-31 23:15
 author: Robert Muehsig
 tags: [electron, oss]
 language: en
