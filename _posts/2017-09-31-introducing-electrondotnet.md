@@ -58,11 +58,13 @@ As far as I know the current "this is bad, because... "-list is like this:
 
 There are lots of issues open and the project is pretty young, maybe we will find a solution for the above problems, maybe not. 
 
+# Final thoughts
+
 The interesting point for me is, that we seem to hit a nerf with this project: There is demand to write X-Plat desktop applications.
 
-We are looking for feedback - please share your opinion on the [ElectronNET-GitHub-Repo](https://github.com/ElectronNET/Electron.NET)/ or try it out :) 
+We are looking for feedback - please share your opinion on the [ElectronNET-GitHub-Repo](https://github.com/ElectronNET/Electron.NET) or try it out :) 
 
-Desktop is dead, long live the desktop!
+*Desktop is dead, long live the desktop!*
 
 
  
