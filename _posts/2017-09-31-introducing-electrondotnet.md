@@ -12,7 +12,7 @@ language: en
 
 ![x]({{BASE_PATH}}/assets/md-images/2017-10-31/electron.net-logo.png "Electron.NET")
 
-The last couple of weeks I worked with my buddy [Gregor Biswanger](http://www.cross-platform-blog.com/) on a new project called __"Electron.NET"__. 
+The last couple of weeks I worked with my buddy [Gregor Biswanger](http://www.cross-platform-blog.com/) on a new project called __"[Electron.NET](https://github.com/ElectronNET/Electron.NET)"__. 
 
 As you might already guess: It is some sort of bridge between the well known [Electron](https://electron.atom.io/) and .NET.
 
