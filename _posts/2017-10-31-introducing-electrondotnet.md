@@ -42,7 +42,7 @@ At this point you can write your Standard ASP.NET Core Code and can communicate 
 
 Gregor did a __[fabulous blogpost with a great example](http://www.cross-platform-blog.com/electron.net/electron.net-musicplayer-app-with-asp.net-core)__.
 
-# Intersted? This way!
+# Interested? This way!
 
 If you are interested, maybe take a look at the __[ElectronNET-Org on GitHub](https://github.com/ElectronNET)__. The complete code is OSS and there are two demo repositories.
 
