@@ -31,9 +31,8 @@ I checked the file and compared it to other installers (with expired certificate
 
 I stumbled upon [this great blogpost about authenticode code signing](https://blogs.msdn.microsoft.com/ieinternals/2011/03/22/everything-you-need-to-know-about-authenticode-code-signing/) and the timestamp was indeed important:
 
-*
-When signing your code, you have the opportunity to timestamp your code; you should definitely do this. Time-stamping adds a cryptographically-verifiable timestamp to your signature, proving when the code was signed. If you do not timestamp your code, the signature will be treated as invalid upon the expiration of your digital certificate. Since it would probably be cumbersome to re-sign every package you’ve shipped when your certificate expires, you should take advantage of time-stamping. A signed, time-stamped package remains valid indefinitely, so long as the timestamp marks the package as having been signed during the validity period of the certificate.
-*
+*When signing your code, you have the opportunity to timestamp your code; you should definitely do this. Time-stamping adds a cryptographically-verifiable timestamp to your signature, proving when the code was signed. If you do not timestamp your code, the signature will be treated as invalid upon the expiration of your digital certificate. Since it would probably be cumbersome to re-sign every package you’ve shipped when your certificate expires, you should take advantage of time-stamping. A signed, time-stamped package remains valid indefinitely, so long as the timestamp marks the package as having been signed during the validity period of the certificate.*
+
 
 Time-stamping itself is pretty easy and only one parameter was missing all the time... now we invoke [Signtool.exe](https://docs.microsoft.com/en-us/dotnet/framework/tools/signtool-exe) like this and we have a digitial signature __with__ a timestamp:
 
