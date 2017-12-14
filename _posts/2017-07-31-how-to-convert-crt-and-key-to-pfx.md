@@ -11,7 +11,7 @@ language: en
 
 The requirements are simple: You will need the .cer with the corresponding .key file and need to download [OpenSSL](https://wiki.openssl.org/index.php/Binaries).
 
-If you are using Windows __without the awesome Linux Subsystem__, take the latest pre-compiled version __for Windows__ [from this site](https://indy.fulgan.com/SSL/) 
+If you are using Windows __without the awesome Linux Subsystem__, take the latest pre-compiled version __for Windows__ [from this site](https://indy.fulgan.com/SSL/) or [this](https://www.heise.de/download/product/win32-openssl-47316)
 
 Otherwise with __Bash on Windows__ you can just use OpenSSL via its "native" environment. *Thanks for the hint @kapsiR*
 
