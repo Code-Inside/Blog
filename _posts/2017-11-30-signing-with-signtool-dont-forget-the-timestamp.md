@@ -2,7 +2,7 @@
 layout: post
 title: "Signing with SignTool.exe - don't forget the timestamp!"
 description: "If you need to sign your assemblies or installers be aware of time-stamping... "
-date: 2017-11-31 23:15
+date: 2017-11-30 23:15
 author: Robert Muehsig
 tags: [installer, msi, signtool]
 language: en
