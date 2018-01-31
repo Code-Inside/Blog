@@ -101,18 +101,18 @@ On the client side you should now be able to catch this exception just like this
 ```csharp
     try
 	{
-	    ...
+		...
 	}
 	catch (Exception ex)
-    {
-         if (ex is FaultException faultException)
-         {
-             if (faultException.Action == nameof(FoobarFault))
-             {
-                 ...
-             }
-         }
-    }
+	{
+		if (ex is FaultException faultException)
+		{
+			if (faultException.Action == nameof(FoobarFault))
+			{
+			...
+			}
+		}
+	}
 ```	
 
 Hope this helps!
