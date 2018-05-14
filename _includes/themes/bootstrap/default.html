@@ -123,7 +123,7 @@
 			<li><a href="{{ BASE_PATH }}/terms">Terms</a></li>
           </ul>
 	 <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://www.codeinside.eu">Hub</a></li>
+            <li><a href="https://www.codeinside.eu">Hub</a></li>
          </ul>
         </div>
       </div>
@@ -135,12 +135,11 @@
       <footer>
 		<div class="text-center center-block">
 			
-			<p class="txt-railway"><a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons</a> {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+			<p class="txt-railway"><a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons</a> {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
 			<p class="lead">
               <img title="{{ site.title }}" src="{{BASE_PATH}}/assets/icons/logo_fullbrand_260x260.png" style="margin: 0 auto;">
             </p>
 			<p class="lead">
-				<a title="Like us on Facebook" href="https://www.facebook.com/{{ site.author.facebook }}"><i class="fa fa-facebook"></i></a>
 				<a title="Follow us on Twitter" href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter"></i></a>
 				<a title="Fork and send us Pull Requests on GitHub" href="https://github.com/{{ site.author.github }}"><i class="fa fa-github"></i></a>
 				<a title="Subscribe our Feed" href="{{site.production_url}}/feed"><i class="fa fa-rss"></i></a>
@@ -151,6 +150,8 @@
     </div>
 
     {% include JB/analytics %}
+	
+	
     <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	<script src="{{BASE_PATH}}/assets/themes/bootstrap/resources/bootstrap/js/jquery.sieve.min.js"></script>
