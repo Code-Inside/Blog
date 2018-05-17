@@ -3,6 +3,7 @@ layout: page
 title: Terms 
 header: Terms
 group: navigation
+noindex: true
 ---
 {% include JB/setup %}
 
