@@ -144,7 +144,7 @@ The Code Inside website doesn't collect general data or information itself, but 
 <h4>6. Rights of the data subject</h4>
 <ul style="list-style: none;">
 <li><h4>a) Right of confirmation</h4>
-<p>Each data subject shall have the right granted by the European legislator to obtain from the controller the confirmation as to whether or not personal data concerning him or her are being processed. If a data subject wishes to avail himself of this right of confirmation, he or she may, at any time, contact our Data Protection Officer or another employee of the controller.</p>
+<p>Each data subject shall have the right granted by the European legislator to obtain from the controller the confirmation as to whether or not personal data concerning him or her are being processed. If a data subject wishes to avail himself of this right of confirmation, he or she may, at any time, contact our controller.</p>
 </li>
 <li><h4>b) Right of access</h4>
 <p>Each data subject shall have the right granted by the European legislator to obtain from the controller free information about his or her personal data stored at any time and a copy of this information. Furthermore, the European directives and regulations grant the data subject access to the following information:</p>
@@ -162,7 +162,7 @@ The Code Inside website doesn't collect general data or information itself, but 
 </ul>
 <p>Furthermore, the data subject shall have a right to obtain information as to whether personal data are transferred to a third country or to an international organisation. Where this is the case, the data subject shall have the right to be informed of the appropriate safeguards relating to the transfer.</p>
 
-<p>If a data subject wishes to avail himself of this right of access, he or she may at any time contact our Data Protection Officer or another employee of the controller.</p>
+<p>If a data subject wishes to avail himself of this right of access, he or she may at any time contact our controller.</p>
 </li>
 <li><h4>c) Right to rectification </h4>
 <p>Each data subject shall have the right granted by the European legislator to obtain from the controller without undue delay the rectification of inaccurate personal data concerning him or her. Taking into account the purposes of the processing, the data subject shall have the right to have incomplete personal data completed, including by means of providing a supplementary statement.</p>
@@ -181,9 +181,9 @@ The Code Inside website doesn't collect general data or information itself, but 
 <li>The personal data have been collected in relation to the offer of information society services referred to in Article 8(1) of the GDPR.</li>
 
 </ul>
-<p>If one of the aforementioned reasons applies, and a data subject wishes to request the erasure of personal data stored by the Code Inside Blog, he or she may at any time contact our Data Protection Officer or another employee of the controller. The Data Protection Officer of the Code Inside Blog or another employee shall promptly ensure that the erasure request is complied with immediately.</p>
+<p>If one of the aforementioned reasons applies, and a data subject wishes to request the erasure of personal data stored by the Code Inside Blog, he or she may at any time contact the controller. The site owner shall promptly ensure that the erasure request is complied with immediately.</p>
 
-<p>Where the controller has made personal data public and is obliged pursuant to Article 17(1) to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform other controllers processing the personal data that the data subject has requested erasure by such controllers of any links to, or copy or replication of, those personal data, as far as processing is not required. The Data Protection Officer of the Code Inside Blog or another employee will arrange the necessary measures in individual cases.</p>
+<p>Where the controller has made personal data public and is obliged pursuant to Article 17(1) to erase the personal data, the controller, taking account of available technology and the cost of implementation, shall take reasonable steps, including technical measures, to inform other controllers processing the personal data that the data subject has requested erasure by such controllers of any links to, or copy or replication of, those personal data, as far as processing is not required. The site owner will arrange the necessary measures in individual cases.</p>
 </li>
 <li><h4>e) Right of restriction of processing</h4>
 <p>Each data subject shall have the right granted by the European legislator to obtain from the controller restriction of processing where one of the following applies:</p>
@@ -195,14 +195,14 @@ The Code Inside website doesn't collect general data or information itself, but 
 <li>The data subject has objected to processing pursuant to Article 21(1) of the GDPR pending the verification whether the legitimate grounds of the controller override those of the data subject.</li>
 
 </ul>
-<p>If one of the aforementioned conditions is met, and a data subject wishes to request the restriction of the processing of personal data stored by the Code Inside Blog, he or she may at any time contact our Data Protection Officer or another employee of the controller. The Data Protection Officer of the Code Inside Blog or another employee will arrange the restriction of the processing. </p>
+<p>If one of the aforementioned conditions is met, and a data subject wishes to request the restriction of the processing of personal data stored by the Code Inside Blog, he or she may at any time contact the site owner. The site owner will arrange the restriction of the processing. </p>
 </li>
 <li><h4>f) Right to data portability</h4>
 <p>Each data subject shall have the right granted by the European legislator, to receive the personal data concerning him or her, which was provided to a controller, in a structured, commonly used and machine-readable format. He or she shall have the right to transmit those data to another controller without hindrance from the controller to which the personal data have been provided, as long as the processing is based on consent pursuant to point (a) of Article 6(1) of the GDPR or point (a) of Article 9(2) of the GDPR, or on a contract pursuant to point (b) of Article 6(1) of the GDPR, and the processing is carried out by automated means, as long as the processing is not necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller.</p>
 
 <p>Furthermore, in exercising his or her right to data portability pursuant to Article 20(1) of the GDPR, the data subject shall have the right to have personal data transmitted directly from one controller to another, where technically feasible and when doing so does not adversely affect the rights and freedoms of others.</p>
 
-<p>In order to assert the right to data portability, the data subject may at any time contact the Data Protection Officer designated by the Code Inside Blog or another employee.</p>
+<p>In order to assert the right to data portability, the data subject may at any time contact the site owner.</p>
 
 </li>
 <li>
@@ -215,20 +215,20 @@ The Code Inside website doesn't collect general data or information itself, but 
 
 <p>In addition, the data subject has the right, on grounds relating to his or her particular situation, to object to processing of personal data concerning him or her by the Code Inside Blog for scientific or historical research purposes, or for statistical purposes pursuant to Article 89(1) of the GDPR, unless the processing is necessary for the performance of a task carried out for reasons of public interest.</p>
 
-<p>In order to exercise the right to object, the data subject may directly contact the Data Protection Officer of the Code Inside Blog or another employee. In addition, the data subject is free in the context of the use of information society services, and notwithstanding Directive 2002/58/EC, to use his or her right to object by automated means using technical specifications.</p>
+<p>In order to exercise the right to object, the data subject may directly contact the site owner. In addition, the data subject is free in the context of the use of information society services, and notwithstanding Directive 2002/58/EC, to use his or her right to object by automated means using technical specifications.</p>
 </li>
 <li><h4>h) Automated individual decision-making, including profiling</h4>
 <p>Each data subject shall have the right granted by the European legislator not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her, or similarly significantly affects him or her, as long as the decision (1) is not is necessary for entering into, or the performance of, a contract between the data subject and a data controller, or (2) is not authorised by Union or Member State law to which the controller is subject and which also lays down suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, or (3) is not based on the data subject's explicit consent.</p>
 
 <p>If the decision (1) is necessary for entering into, or the performance of, a contract between the data subject and a data controller, or (2) it is based on the data subject's explicit consent, the Code Inside Blog shall implement suitable measures to safeguard the data subject's rights and freedoms and legitimate interests, at least the right to obtain human intervention on the part of the controller, to express his or her point of view and contest the decision.</p>
 
-<p>If the data subject wishes to exercise the rights concerning automated individual decision-making, he or she may at any time directly contact our Data Protection Officer of the Code Inside Blog or another employee of the controller.</p>
+<p>If the data subject wishes to exercise the rights concerning automated individual decision-making, he or she may at any time directly contact the site owner.</p>
 
 </li>
 <li><h4>i) Right to withdraw data protection consent </h4>
 <p>Each data subject shall have the right granted by the European legislator to withdraw his or her consent to processing of his or her personal data at any time. </p>
 
-<p>f the data subject wishes to exercise the right to withdraw the consent, he or she may at any time directly contact our Data Protection Officer of the Code Inside Blog or another employee of the controller.</p>
+<p>f the data subject wishes to exercise the right to withdraw the consent, he or she may at any time directly contact the site owner.</p>
 
 </li>
 </ul>
@@ -270,7 +270,7 @@ Finally, processing operations could be based on Article 6(1) lit. f GDPR. This 
 
 Sometimes it may be necessary to conclude a contract that the data subject provides us with personal data, which must subsequently be processed by us. The data subject is, for example, obliged to provide us with personal data when our company signs a contract with him or her. The non-provision of the personal data would have the consequence that the contract with the data subject could not be concluded.
 
-Before personal data is provided by the data subject, the data subject must contact our Data Protection Officer. Our Data Protection Officer clarifies to the data subject whether the provision of the personal data is required by law or contract or is necessary for the conclusion of the contract, whether there is an obligation to provide the personal data and the consequences of non-provision of the personal data.
+Before personal data is provided by the data subject, the data subject must contact our site owner. Our site owner clarifies to the data subject whether the provision of the personal data is required by law or contract or is necessary for the conclusion of the contract, whether there is an obligation to provide the personal data and the consequences of non-provision of the personal data.
 </p>
 
 <h4>12. Existence of automated decision-making</h4>
