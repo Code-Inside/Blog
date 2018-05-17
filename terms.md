@@ -122,9 +122,19 @@ Full legal disclaimer:
 <p>The data subject may, at any time, prevent the setting of cookies through our website by means of a corresponding setting of the Internet browser used, and may thus permanently deny the setting of cookies. Furthermore, already set cookies may be deleted at any time via an Internet browser or other software programs. This is possible in all popular Internet browsers. If the data subject deactivates the setting of cookies in the Internet browser used, not all functions of our website may be entirely usable.</p>
 
 <h4>4. Collection of general data and information</h4>
-<p>The website of the Code Inside Blog collects a series of general data and information when a data subject or automated system calls up the website. This general data and information are stored in the server log files. Collected may be (1) the browser types and versions used, (2) the operating system used by the accessing system, (3) the website from which an accessing system reaches our website (so-called referrers), (4) the sub-websites, (5) the date and time of access to the Internet site, (6) an Internet protocol address (IP address), (7) the Internet service provider of the accessing system, and (8) any other similar data and information that may be used in the event of attacks on our information technology systems.</p>
 
-<p>When using these general data and information, the Code Inside Blog does not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the content of our website correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the long-term viability of our information technology systems and website technology, and (4) provide law enforcement authorities with the information necessary for criminal prosecution in case of a cyber-attack. Therefore, the Code Inside Blog analyzes anonymously collected data and information statistically, with the aim of increasing the data protection and data security of our enterprise, and to ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject.</p>
+The Code Inside website doesn't collect general data or information itself, but it is hosted and powered by different services, which might collects a serie of general data:
+
+* The site is hosted on [GitHub Pages](https://help.github.com/articles/github-privacy-statement/). GitHub Pages is a service of GitHub Inc. (*88 Colin P Kelly Jr St San Francisco, CA 94107, United States*)
+* [Cloudflare](https://www.cloudflare.com/gdpr/introduction/) is used as our CDN to avoid DDOS attacks and to cache our content. Cloudflare is a service of Cloudflare Inc. (*101 Townsend St. San Francisco, CA 94107, United States*)
+* We use the CDN of [maxCDN](https://www.maxcdn.com/dpa/) and [StackPath](https://www.stackpath.com/gdpr/) for loading common Javascript & CSS files. maxCDN and StackPath is a service StackPath LLC (*2021 McKinney Ave. Suite 1100, Dallas, TX 75201, United States*)
+* We use [Disqus](https://help.disqus.com/terms-and-policies/disqus-privacy-policy) for comments on our site. Disqus is a service of Disqus Inc. (*717 Market St, San Francisco, CA 94103, United States*). Be aware that your choosed name and comment is displayed on this site. If you are using Gravatar your image might be included as well.
+* __Only if you accept the tracking:__ We use [Google Analytics](https://analytics.google.com/analytics/web/) to count visitors and analyse the traffic on this site (with [IP Anonymization ](https://support.google.com/analytics/answer/2763052?hl=en))
+* __The accepted tracking is stored in a "Cookie".__ 
+
+<p>Each of those websites might collects a series of general data and information when a data subject or automated system calls up the website. This general data and information are stored in the server log files. Collected may be (1) the browser types and versions used, (2) the operating system used by the accessing system, (3) the website from which an accessing system reaches our website (so-called referrers), (4) the sub-websites, (5) the date and time of access to the Internet site, (6) an Internet protocol address (IP address), (7) the Internet service provider of the accessing system, and (8) any other similar data and information that may be used in the event of attacks on our information technology systems.</p>
+
+<p>When using these general data and information, the Code Inside Blog does not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the content of our website correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the long-term viability of our information technology systems and website technology, and (4) provide law enforcement authorities with the information necessary for criminal prosecution in case of a cyber-attack.</p>
 
 <h4>5. Routine erasure and blocking of personal data</h4>
 <p>The data controller shall process and store the personal data of the data subject only for the period necessary to achieve the purpose of storage, or as far as this is granted by the European legislator or other legislators in laws or regulations to which the controller is subject to.</p>
@@ -157,7 +167,7 @@ Full legal disclaimer:
 <li><h4>c) Right to rectification </h4>
 <p>Each data subject shall have the right granted by the European legislator to obtain from the controller without undue delay the rectification of inaccurate personal data concerning him or her. Taking into account the purposes of the processing, the data subject shall have the right to have incomplete personal data completed, including by means of providing a supplementary statement.</p>
 
-<p>If a data subject wishes to exercise this right to rectification, he or she may, at any time, contact our Data Protection Officer or another employee of the controller.</p></li>
+<p>If a data subject wishes to exercise this right to rectification, he or she may, at any time, contact the site owner.</p></li>
 <li>
 <h4>d) Right to erasure (Right to be forgotten) </h4>
 <p>Each data subject shall have the right granted by the European legislator to obtain from the controller the erasure of personal data concerning him or her without undue delay, and the controller shall have the obligation to erase personal data without undue delay where one of the following grounds applies, as long as the processing is not necessary: </p>
@@ -265,7 +275,4 @@ Before personal data is provided by the data subject, the data subject must cont
 
 <h4>12. Existence of automated decision-making</h4>
 <p>As a responsible company, we do not use automatic decision-making or profiling.</p>
-
-<p>This Privacy Policy has been generated by the Privacy Policy Generator of the <a href="https://dg-datenschutz.de/services/external-data-protection-officer/?lang=en">DGD - Your External DPO</a> that was developed in cooperation with  <a href="https://www.wbs-law.de/eng/">German Lawyers</a> from WILDE BEUGER SOLMECKE, Cologne.
-</p>
 
