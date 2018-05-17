@@ -107,9 +107,8 @@ Full legal disclaimer:
 <p>Im Espel 16</p>
 <p>9545 Wängi</p>
 <p>Schweiz</p>
-<p>Phone: +41798266874</p>
-<p>Email: robert.muehsig@codeinside.eu</p>
 <p>Website: www.codeinside.eu</p>
+<p>Email: robert.muehsig@codeinside.eu</p>
 
 <h4>3. Cookies</h4>
 <p>The Internet pages of the Code Inside Blog use cookies. Cookies are text files that are stored in a computer system via an Internet browser.</p>
