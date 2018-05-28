@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CultureInfo.GetCulture() vs. new CultureInfo() - what's the difference?"
+title: "CultureInfo.GetCultureInfo() vs. new CultureInfo() - what's the difference?"
 description: "Last month I was fighting a nasty localization problem with number group separators. If you are dealing with localizations you should know the different behavior of GetCulture() vs new CultureInfo()."
 date: 2018-05-28 23:45
 author: Robert Muehsig
