@@ -17,7 +17,7 @@ The problem started with a simple code:
 
 Be aware that the given culture was "DE-CH" and the Swiss use the ' for the separator for numbers. 
 
-Unfortunately the Swiss authorities has abandoned the ' for currencies, but it is widly used in the industrie and such a number should be parsed or displayed.
+Unfortunately the [Swiss authorities](https://www.bk.admin.ch/bk/de/home/dokumentation/sprachen/hilfsmittel-textredaktion/schreibweisungen.html) have abandoned the ' for currencies, but it is widly used in the industrie and such a number should be parsed or displayed.
 
 Now Microsoft steps in and they use a very similar char in the "DE-CH" region setting:
 
