@@ -15,7 +15,7 @@ Each time when I tried to load data from an Oracle database it was a pretty terr
 
 I remember that I struggle to find the right Oracle driver and even when everything was installed the strange TNS ora config file popped up and nothing worked. 
 
-# I can be simple...
+# It can be simple...
 
 2 weeks ago I had the pleasure to load some data from a Oracle database and discovered something beautiful: Actually, I can be pretty simple today.
 
@@ -110,7 +110,7 @@ I covered this topic a while ago in an [older blogpost](https://blog.codeinside.
 
 # MSSQL, MySql and Oracle - via DbProviderFactories
 
-The above code is a snippet from my larger sample demo covering _MSSQL__, __MySQL__ and __Oracle__. If you are interested just check this demo on [__GitHub__](https://github.com/Code-Inside/Samples/tree/master/2018/OracleMySqlMsSqlViaGenericSql).
+The above code is a snippet from my larger sample demo covering __MSSQL__, __MySQL__ and __Oracle__. If you are interested just check this demo on [__GitHub__](https://github.com/Code-Inside/Samples/tree/master/2018/OracleMySqlMsSqlViaGenericSql).
 
 Each SQL-Syntax teats parameter a bit different, so make sure you use the correct syntax for your target database.
 
