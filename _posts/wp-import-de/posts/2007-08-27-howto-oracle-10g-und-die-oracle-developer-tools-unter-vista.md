@@ -11,6 +11,6 @@ language: de
 {% include JB/setup %}
 Nach dem ich länger für die Installation der "Oracle Developer Tools for Visual Studio .NET" auf meinem Vista System brauchte als mir lieb war, habe ich ein kleines HowTo verfasst.
 
-<a href="{{BASE_PATH}}/artikel/howto-windows-vista-oracle-und-die-odt-net/">HowTo: Oracle 10g und die Oracle Developer Tools unter Vista</a>
+<a href="{{BASE_PATH}}/artikel/howto-windows-vista-oracle-und-die-odt-net">HowTo: Oracle 10g und die Oracle Developer Tools unter Vista</a>
 
 Viel Spass
