@@ -1,0 +1,10 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>CodeInside Blog</ShortName>
+<Description>Search in archive</Description>
+<Tags>code inside blog</Tags>
+<Contact>contact@codeinside.eu</Contact>
+<Developer>The Code Inside Team</Developer>
+<Url type="text/html" method="get" template="https://blog.codeinside.eu/archive/?searchQuery={searchTerms}"/>
+<InputEncoding>UTF-8</InputEncoding>
+<Image height="16" width="16" type="image/ico">https://blog.codeinside.eu/favicon.ico</Image>
+</OpenSearchDescription>
