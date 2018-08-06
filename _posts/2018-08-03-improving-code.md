@@ -14,7 +14,7 @@ language: en
 
 ## TL;DR;
 
-**Things I learned: **
+**Things I learned:**
 
 - long one-liners are hard to read and understand
 - split up your code into small, easy to understand functions
@@ -22,7 +22,7 @@ language: en
 - get [indentation](https://en.wikipedia.org/wiki/Indentation_style) right
 - correct, concise, fast
 
-**Why should I bother? **
+**Why should I bother?**
 
 Readable code is:
 
