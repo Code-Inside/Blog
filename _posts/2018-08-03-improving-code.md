@@ -20,7 +20,7 @@ language: en
 - split up your code into small, easy to understand functions
 - less "plumping" (read infrastructure code) is the better
 - get [indentation](https://en.wikipedia.org/wiki/Indentation_style) right
-- correct, concise, fast
+- "Make it correct, make it clear, make it concise, make it fast. In that order." Wes Dyer
 
 **Why should I bother?**
 
