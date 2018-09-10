@@ -50,7 +50,7 @@ This handy tool will give you an overwhy which parts might run without problems 
 
 # .NET Standard 2.0 and .NET Framework
 
-If you still targeting the full Framework, make sure you use at least .NET Framework Version __4.7.2__. In theory .NET Standard 2.0 was supposed to work under .NET 4.6.2, but it seems that this [ended not too well](https://twitter.com/terrajobst/status/1031999730320986112):
+If you still targeting the full Framework, make sure you use at least .NET Framework Version __4.7.2__. In theory .NET Standard 2.0 was supposed to work under .NET 4.6.1, but it seems that this [ended not too well](https://twitter.com/terrajobst/status/1031999730320986112):
 
 <blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Sorry but we messed up. We tried to make .NET Framework 4.6.1 retroactively implement .NET Standard 2.0. This was a mistake as we don&#39;t have a time machine and there is a tail of bugs.<br><br>If you want to consume .NET Standard 1.5+ from .NET Framework, I recommend to be on 4.7.2. <a href="https://t.co/E7H2Ps9cLk">https://t.co/E7H2Ps9cLk</a></p>&mdash; Immo Landwerth (@terrajobst) <a href="https://twitter.com/terrajobst/status/1031999730320986112?ref_src=twsrc%5Etfw">21. August 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
