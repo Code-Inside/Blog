@@ -42,20 +42,20 @@ __On top of that:__ The async implementation tries to be smart, but this leads t
 
 This __[stackoverflow answer](https://stackoverflow.com/a/28619983)__ really helped me to understand this problem. Just look at those figures:
 
-*First, in the first case we were having just 3500 hit counts along the full call path, here we have 118 371. Moreover, you have to imagine all the synchronization calls I didn't put on the screenshoot...
-
-Second, in the first case, we were having "just 118 353" calls to the TryReadByteArray() method, here we have 2 050 210 calls ! It's 17 times more... (on a test with large 1Mb array, it's 160 times more)
-
-Moreover there are:
-
-120 000 Task instances created
-727 519 Interlocked calls
-290 569 Monitor calls
-98 283 ExecutionContext instances, with 264 481 Captures
-208 733 SpinLock calls
-
-My guess is the buffering is made in an async way (and not a good one), with parallel Tasks trying to read data from the TDS. Too many Task are created just to parse the binary data.
-...*
+> First, in the first case we were having just 3500 hit counts along the full call path, here we have 118 371. Moreover, you have to imagine all the synchronization calls I didn't put on the screenshoot...
+> 
+> Second, in the first case, we were having "just 118 353" calls to the TryReadByteArray() method, here we have 2 050 210 calls ! It's 17 times more... (on a test with large 1Mb array, it's 160 times more)
+> 
+> Moreover there are:
+> 
+> 120 000 Task instances created
+> 727 519 Interlocked calls
+> 290 569 Monitor calls
+> 98 283 ExecutionContext instances, with 264 481 Captures
+> 208 733 SpinLock calls
+> 
+> My guess is the buffering is made in an async way (and not a good one), with parallel Tasks trying to read data from the TDS. Too many Task are created just to parse the binary data.
+> ...
 
 ## Switch to ADO.NET, damn EF, right?
 
