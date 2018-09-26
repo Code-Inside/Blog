@@ -48,11 +48,11 @@ This __[stackoverflow answer](https://stackoverflow.com/a/28619983)__ really hel
 > 
 > Moreover there are:
 > 
-> 120 000 Task instances created
-> 727 519 Interlocked calls
-> 290 569 Monitor calls
-> 98 283 ExecutionContext instances, with 264 481 Captures
-> 208 733 SpinLock calls
+> * 120 000 Task instances created
+> * 727 519 Interlocked calls
+> * 290 569 Monitor calls
+> * 98 283 ExecutionContext instances, with 264 481 Captures
+> * 208 733 SpinLock calls
 > 
 > My guess is the buffering is made in an async way (and not a good one), with parallel Tasks trying to read data from the TDS. Too many Task are created just to parse the binary data.
 > ...
