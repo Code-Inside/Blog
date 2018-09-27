@@ -90,7 +90,7 @@ __Hope this helps.__
 Helpful links:
 
 * [Why EF async methods are slower than non-async?](https://entityframework.net/why-ef-async-methods-are-slow)
-
-
+* [EF GitHub Issue: Performance issue when querying varbinary(MAX), varchar(MAX), nvarchar(MAX) or XML with Async](https://github.com/aspnet/EntityFramework6/issues/88)
+* [Stackoverflow answer](https://stackoverflow.com/a/28619983)
 
 
