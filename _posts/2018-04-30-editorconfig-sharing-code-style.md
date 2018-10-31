@@ -26,13 +26,13 @@ Rules in a Wiki are not really helpful, because if you are in your favorite IDE 
 
 [Stylecop](https://blogs.msdn.microsoft.com/sourceanalysis/) was once a thing in the Visual Studio World, but I'm not sure if this is still alive. 
 
-Resharper, a pretty useful Visual Studio plugin, comes with it's own code convention sharing file, but you will need Resharper enforce and embrace the conventions.
+Resharper, a pretty useful Visual Studio plugin, comes with it's own code convention sharing file, but you will need Resharper to enforce and embrace the conventions.
 
 # Introducing: .editorconfig
 
 Last year Microsoft decided to support the [.EditorConfig](http://editorconfig.org/) file format in Visual Studio. 
 
-The .editorconfig defines a set of common coding styles (think of tabs or spaces) in a very simple format. Different text ediotors and IDEs support this file, which makes it a good choice if you are using multiple IDEs or working with different setups. 
+The .editorconfig defines a set of common coding styles (think of tabs or spaces) in a very simple format. Different text editors and IDEs support this file, which makes it a good choice if you are using multiple IDEs or working with different setups. 
 
 Additionally Microsoft added a couple of [C# related options](https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference) for the editorconfig file to support the C# language features.
 
@@ -40,13 +40,13 @@ Each rule can be marked as "Information", "Warning" or "Error" - which will ligh
 
 # Sample
 
-This was a tough choice, but I ended up with the [__.editorconfig of the CoreCLR__](https://github.com/dotnet/coreclr/blob/master/.editorconfig). It is more or less the "normal" .NET style guide. I'm not sure if I love the the "var"-setting and the "static private field naming (like s_foobar)", but I can life with them and it was for us a good starting point (and still is).
+This was a tough choice, but I ended up with the [__.editorconfig of the CoreCLR__](https://github.com/dotnet/coreclr/blob/master/.editorconfig). It is more or less the "normal" .NET style guide. I'm not sure if I love the the "var"-setting and the "static private field naming (like s_foobar)", but I can live with them and it was a good starting point for us (and still is).
 
-The .editorconfig file can be saved at the same level as the .sln file, but you could also use multiple .editorconfig files based on the folder structure. Visual Studio should detect the file and see the rules.
+The .editorconfig file can be saved at the same level as the .sln file, but you can also use multiple .editorconfig files based on the folder structure. Visual Studio should detect the file and apply the rules.
 
 # Benefits
 
-When everything is ready Visual Studio should populate the results and show does nice light blub:
+When everything is ready Visual Studio should populate the results and show the light blub notification:
 
 ![x]({{BASE_PATH}}/assets/md-images/2018-04-30/editorconfig.png ".editorconfig in VS")
 
