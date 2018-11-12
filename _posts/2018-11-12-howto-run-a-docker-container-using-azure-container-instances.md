@@ -15,7 +15,7 @@ language: en
 
 There are (at least) 3 diffent ways how to run a Docker Container on Azure:
 
-* Using the [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/) services/app-service/containers/
+* Using the [Web App for Containers](https://azure.microsoft.com/en-us/services/app-service/containers/) 
 * Using [Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/)
 * Using [Azure Container Instances](https://azure.microsoft.com/en-us/services/container-instances/)
 
