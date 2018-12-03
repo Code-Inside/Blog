@@ -265,3 +265,8 @@ With this setting if should work like before in the "sync"-world.
 
 
 Hope this helps!
+
+__Links:__
+
+* [Making your WCF Service Task based without changing its code](http://blogs.microsoft.co.il/iblogger/2014/12/09/making-your-wcf-service-task-based-without-changing-its-code/)
+* [Different forms of the WCF service contract interface](https://stackoverflow.com/questions/22623922/different-forms-of-the-wcf-service-contract-interface)
