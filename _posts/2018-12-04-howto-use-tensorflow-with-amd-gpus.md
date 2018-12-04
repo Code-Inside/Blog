@@ -60,5 +60,25 @@ custard apple (score = 0.00149)
 earthstar (score = 0.00141)
 ```
 
+## Extra: Monitor your GPU
+
+If you like to check that your model fully utilize your GPU, you can use the (radeontop)[https://github.com/clbr/radeontop] tool:
+
+Install it with
+```
+sudo apt-get install radeontop
+```
+
+and run it
+
+```
+sudo radeontop
+```
+
+This will dump the statistics to the command line.
+
+```
+sudo radeontop -d -
+```
 
 
