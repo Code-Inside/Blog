@@ -66,6 +66,35 @@
     </div>
 	<hr>
 	{% endif %}
+	  
+{% if page.author == "Oliver Guhr" %}
+    <div class="row">
+		<div class="col-md-3 ">
+    	    <img class="img-responsive center-block" title="Oliver Guhr" src="{{BASE_PATH}}/assets/icons/oguhr.png">
+		</div>
+        <div class="col-md-9  col-xs-12">
+           <div class="header center-block">
+                <h2>Written by Oliver Guhr</h2>
+                <p>
+					Software Developer - from Dresden, Germany.
+					
+				</p>
+  				<p class="lead">
+	                <a href="http://twitter.com/oliverguhr" title="Follow on Twitter">
+                                    <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://github.com/oliverguhr" title="Follow on GitHub">
+                                    <i class="fa fa-github"></i>
+                    </a>
+                    <a href="http://www.xing.com/profile/Oliver_Guhr" title="Meet me on Xing">
+                                    <i class="fa fa-xing"></i>
+                    </a>
+                  </p>
+           </div>
+        </div>
+    </div>
+	<hr>
+	{% endif %}	  
 	<!-- Comments -->
 	<div id="disqus_thread">
 		<button class="btn btn-primary center-block" onclick="loadDisqus();return false;">Load comment section from Disqus</button> 
