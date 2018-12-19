@@ -36,12 +36,29 @@ I stumbled upon [this great blogpost about authenticode code signing](https://bl
 
 Time-stamping itself is pretty easy and only one parameter was missing all the time... now we invoke [Signtool.exe](https://docs.microsoft.com/en-us/dotnet/framework/tools/signtool-exe) like this and we have a digitial signature __with__ a timestamp:
 
-    signtool.exe sign /tr http://timestamp.digicert.com /sm /n "Subject..." /d "Description..." file.msi
+*(updated with /fd sha256 /td sha256 thanks to @Christoph Rüegg)*
+
+    signtool.exe sign /tr http://timestamp.digicert.com /fd sha256 /td sha256 /sm /n "Subject..." /d "Description..." file.msi
+
+__Notes:__
+
+* /tr is the timestamp URL server
+* /fd & /td sha256 specify the used digest algorithm
+* /sm is used to specify the machine certifaction store
+* /n is used for the Subject name
+* /d the description
+
+__Multiple Certs with the same subject?__
+
+If you have multiple certificates with the same Subject you might want to use the "/sha1" option to specify the thumbprint, e.g.:
+
+    signtool.exe sign /tr http://timestamp.digicert.com /fd sha256 /td sha256 /sm /sha1 "..." /d "Description..." file.msi
 
 Remarks: 
 
 * Our code signing cert is from Digicert and they provide the timestamp URL.
 * SignTool.exe is part of the Windows SDK and currently is in the ClickOnce folder (e.g. C:\Program Files (x86)\Microsoft SDKs\ClickOnce\SignTool\)
+* Checkout the [Signtool.exe Microsoft Docs Page](https://docs.microsoft.com/en-us/dotnet/framework/tools/signtool-exe)
 
 Hope this helps.
 
