@@ -62,7 +62,7 @@ earthstar (score = 0.00141)
 
 ## Extra: Monitor your GPU
 
-If you like to check that your model fully utilize your GPU, you can use the (radeontop)[https://github.com/clbr/radeontop] tool:
+If you like to check that your model fully utilize your GPU, you can use the [radeontop](https://github.com/clbr/radeontop) tool:
 
 Install it with
 ```
