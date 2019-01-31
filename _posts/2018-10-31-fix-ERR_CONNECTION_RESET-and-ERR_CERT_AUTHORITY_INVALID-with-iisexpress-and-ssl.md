@@ -39,12 +39,18 @@ After some more time (and I did repair the IIS Express at least 2 or 3 times) I 
 
 And yeah - this worked. Puh... 
 
+__Another option:__
+
+Checkout the project settings and try to change the bitness settings (I had once a problem with "x64" instead of "Default") or try to recreate the virtual directory here:
+
+![x]({{BASE_PATH}}/assets/md-images/2018-10-31/projsettings.png "Project settings")
+
 __Conclusion:__
 
 * Don't delete random IIS Express certs in your LocalMachine-Cert store.
 * If you do: Repair the IIS Express via the Visual Studio Installer (the option to repair IIS Express via the Programs & Feature management tool seems to be gone with VS 2017).
 * Try to setup the SSL cert with the "IisExpressAdminCmd.exe" - this helped me a lot.
-
+* Try to use the VS tooling and checkout the project tab and try out "Create Virtual Directory" or change the IIS Express bitness settings.
 
 I'm not sure if this really fixed my problem, but maybe it may help: 
 
