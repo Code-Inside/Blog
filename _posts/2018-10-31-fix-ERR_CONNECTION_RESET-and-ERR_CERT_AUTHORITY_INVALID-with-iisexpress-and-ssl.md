@@ -35,7 +35,7 @@ __How to fix the real problem?__
 
 After some more time (and I did repair the IIS Express at least 2 or 3 times) I tried the second answer from this [Stackoverflow.com question](https://stackoverflow.com/questions/20036984/how-do-i-restore-a-missing-iis-express-ssl-certificate):
 
-    cd C:\Program Files (x86)\IIS Express\IisExpressAdminCmd.exe setupsslUrl -url:https://localhost:44387/ -UseSelfSigned
+    C:\Program Files (x86)\IIS Express\IisExpressAdminCmd.exe setupsslUrl -url:https://localhost:44387/ -UseSelfSigned
 
 And yeah - this worked. Puh... 
 
