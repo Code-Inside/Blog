@@ -30,7 +30,7 @@ The result should look like this:
     TaskPath           : \
     PSComputerName     :
 
-Be aware that the "LastTaskResult" might be in hex. A full "result code list" can be found in the [documentation](https://docs.microsoft.com/en-us/windows/desktop/taskschd/task-scheduler-error-and-success-constants).
+Be aware that the "LastTaskResult" might be displayed as an integer. The full "result code list" [documentation](https://docs.microsoft.com/en-us/windows/desktop/taskschd/task-scheduler-error-and-success-constants) only lists the hex value, so you need to convert the number to hex.
 
 Now, if you want to access the corresponding actions you need to work with the "actual" task like this:
 
