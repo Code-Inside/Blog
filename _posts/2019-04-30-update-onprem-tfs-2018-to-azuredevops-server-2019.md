@@ -63,6 +63,8 @@ The actual update was really easy. We did a "test run" with a copy of the databa
 
 ## Summary
 
-If you are running a TFS installation, don't be afraid to do an update. The update itself was done in 10-15 minutes on our 30GB-ish database. 
+If you are running a TFS installation, don't be afraid to do an update. The update itself was done in 10-15 minutes on our 30GB-ish database.
+
+Just download the setup from the [Azure DevOps Server](https://azure.microsoft.com/en-us/services/devops/server/) site ("Free trial...") and you should be ready to go! 
 
 Hope this helps!
