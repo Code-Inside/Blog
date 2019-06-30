@@ -27,6 +27,7 @@ language: en
 
 <p>I’ve found this problem because that’s how our Nightly Build System generated version numbers after this system till now: 1.0.YYMM.DDBuildNumber – that means a lot of useless dead weight for my system at the end of the month <img style="border-bottom-style: none; border-left-style: none; border-top-style: none; border-right-style: none" class="wlEmoticon wlEmoticon-winkingsmile" alt="Zwinkerndes Smiley" src="{{BASE_PATH}}/assets/wp-images-en/wlEmoticon-winkingsmile48.png" /></p>
 <p>Thanks a lot also to <a href="https://twitter.com/Cayas_Software">Sebastian Seidel</a> – who provides me with several good hints about Installers on Twitter. </p>
+<p>Also be aware: The <strong>"FileVersion"</strong> is important - the "ProductVersion" flag can be anything and is not important for the WIX update process!</p>
 <p><b>Conclusion</b></p>  
 
 <p>Wix-Version system: Number.Number.Number.doesn’t matter </p>
