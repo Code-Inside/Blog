@@ -26,7 +26,7 @@ Well... in theory the app itself (at least for .NET Core 2.X applications) may r
 
 # Check for minimum requirement
 
-I stumpled upon this [Stackoverflow question/answer](https://stackoverflow.com/questions/38567796/how-to-determine-if-asp-net-core-has-been-installed-on-a-windows-server) and enhanced the script, because that version only tells you "ASP.NET Core seems to be installed".
+I stumbled upon this [Stackoverflow question/answer](https://stackoverflow.com/questions/38567796/how-to-determine-if-asp-net-core-has-been-installed-on-a-windows-server) and enhanced the script, because that version only tells you "ASP.NET Core seems to be installed". My enhanced version searchs for a minimum required version and if this is not installed, it exit the script.
 
     $DotNetCoreMinimumRuntimeVersion = [System.Version]::Parse("2.2.5.0")
     
