@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Check installed version for ASP.NET Core on Windows IIS with Powershell"
-description: "... does my ASP.NET Core application can run on this Windows Server?"
+description: "... can my ASP.NET Core application run on this Windows Server?"
 date: 2019-08-31 23:45
 author: Robert Muehsig
 tags: [Windows Server, .NET Core, IIS]
