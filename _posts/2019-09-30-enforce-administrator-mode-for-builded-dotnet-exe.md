@@ -26,7 +26,7 @@ To build such an .exe you just need to add a __"application.manifest" and reques
 
 Create your WPF, WinForms or Console project and add a application manifest file:
 
-![x]({{BASE_PATH}}/assets/md-images/2019-09-30/application-manifest.png "application manifest")
+![x]({{BASE_PATH}}/assets/md-images/2019-09-30/app-manifest.png "application manifest")
 
 The file itself has quite a bunch of comments in it and you just need to replace 
 
