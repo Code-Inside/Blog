@@ -60,3 +60,5 @@ Add a "application manifest file", change the requestedExecutionLevel and it sho
 
 
 Hope this helps!
+
+View the [__source code on GitHub__](https://github.com/Code-Inside/Samples/tree/master/2019/NetCoreAdminTest).
