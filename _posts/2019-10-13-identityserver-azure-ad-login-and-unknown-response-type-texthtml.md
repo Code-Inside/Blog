@@ -55,34 +55,34 @@ Unfortunatly with this configuration we couldn't login to our system, because af
 
 After some code research I found the problematic code:
 
-We just needed to disable "GetClaimsFromUserInfoEndpoint" and everything worked. I'm not sure why we the error occured, because this code was more or less untouched a couple of month and worked as intended. I'm not even sure what "GetClaimsFromUserInfoEndpoint" really does in the combination with a Microsoft Account.
+We just needed to disable "__GetClaimsFromUserInfoEndpoint__" and everything worked. I'm not sure why we the error occured, because this code was more or less untouched a couple of month and worked as intended. I'm not even sure what "GetClaimsFromUserInfoEndpoint" really does in the combination with a Microsoft Account.
 
 I wasted one or two hours with this behavior and maybe this will help someone in the future. If someone knows why this happend: Use the comment section or write me an email :)
 
 Full code:
 
-   services.AddAuthentication()
-                .AddOpenIdConnect(office365Config.Id, office365Config.Caption, options =>
-                {
-                    options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
-                    options.SignOutScheme = IdentityServerConstants.SignoutScheme;
-                    options.ClientId = office365Config.MicrosoftAppClientId;            // Client-Id from the AppRegistration 
-                    options.ClientSecret = office365Config.MicrosoftAppClientSecret;  // Client-Secret from the AppRegistration 
-                    options.Authority = office365Config.AuthorizationEndpoint;        // Common Auth Login https://login.microsoftonline.com/common/v2.0/ URL is preferred
-                    options.TokenValidationParameters = new TokenValidationParameters { ValidateIssuer = false }; // Needs to be set in case of the Common Auth Login URL
-                    options.ResponseType = "code id_token";
-                    // Don't enable the UserInfoEndpoint, otherwise this may happen
-                    // An error was encountered while handling the remote login. ---> System.Exception: Unknown response type: text/html
-                    // at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
-                    options.GetClaimsFromUserInfoEndpoint = false; 
-                    options.SaveTokens = true;
-                    options.CallbackPath = "/oidc-signin"; 
-                    
-                    foreach (var scope in office365Scopes)
+       services.AddAuthentication()
+                    .AddOpenIdConnect(office365Config.Id, office365Config.Caption, options =>
                     {
-                        options.Scope.Add(scope);
-                    }
-                });
+                        options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
+                        options.SignOutScheme = IdentityServerConstants.SignoutScheme;
+                        options.ClientId = office365Config.MicrosoftAppClientId;            // Client-Id from the AppRegistration 
+                        options.ClientSecret = office365Config.MicrosoftAppClientSecret;  // Client-Secret from the AppRegistration 
+                        options.Authority = office365Config.AuthorizationEndpoint;        // Common Auth Login https://login.microsoftonline.com/common/v2.0/ URL is preferred
+                        options.TokenValidationParameters = new TokenValidationParameters { ValidateIssuer = false }; // Needs to be set in case of the Common Auth Login URL
+                        options.ResponseType = "code id_token";
+                        // Don't enable the UserInfoEndpoint, otherwise this may happen
+                        // An error was encountered while handling the remote login. ---> System.Exception: Unknown response type: text/html
+                        // at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+                        options.GetClaimsFromUserInfoEndpoint = false; 
+                        options.SaveTokens = true;
+                        options.CallbackPath = "/oidc-signin"; 
+                        
+                        foreach (var scope in office365Scopes)
+                        {
+                            options.Scope.Add(scope);
+                        }
+                    });
 
 
 Hope this helps!
