@@ -25,6 +25,7 @@ I struggled last week with this problem and I learned that this is a pretty "old
  * Does the SQL Server allow remote connections?
  * Does the SQL Server allow your authentication schema of choice (Windows or SQL Authentication)?
  * Check the "SQL Server Configuration Manager" if the needed TCP/IP protocol is enabled for your SQL Instance.
+ * Check if the "SQL Server Browser"-Service is running
  * Check your Windows Firewall (see details below!)
  
 ## Windows Firewall settings:
