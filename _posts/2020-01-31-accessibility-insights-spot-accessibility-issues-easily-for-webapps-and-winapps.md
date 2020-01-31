@@ -50,7 +50,7 @@ __Tab Stops:__
 
 As already written: Keyboard navigation is a key aspect. This tool has a nice way to visualize "Tab" navigation and might help you to better understand the navigation with a keyboard:
 
-![x]({{BASE_PATH}}/assets/md-images/2020-01-31/tabstops.png "Tab Stops")
+![x]({{BASE_PATH}}/assets/md-images/2020-01-31/tabstop.png "Tab Stops")
 
 __Contrasts:__
 
