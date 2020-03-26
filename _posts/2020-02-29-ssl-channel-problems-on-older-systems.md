@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TLS/SSL probelems: 'Could not create SSLTLS secure channel'"
+title: "TLS/SSL problem: 'Could not create SSL/TLS secure channel'"
 description: "TL;DR: Update your machine..."
 date: 2020-02-29 23:59
 author: Robert Muehsig
