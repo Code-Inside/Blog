@@ -2,7 +2,7 @@
 layout: post
 title: "Escape enviroment variables in MSIEXEC parameters"
 description: "TL;DR: If you invoke MSIEXEC via CMD use %%var%% instead of %var%"
-date: 2020-03-26 23:59
+date: 2020-03-27 23:59
 author: Robert Muehsig
 tags: [CMD, MSIEXEC, MSI, Windows]
 language: en
