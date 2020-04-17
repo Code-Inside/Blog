@@ -27,6 +27,7 @@ I struggled last week with this problem and I learned that this is a pretty "old
  * Check the "SQL Server Configuration Manager" if the needed TCP/IP protocol is enabled for your SQL Instance.
  * Check if the "SQL Server Browser"-Service is running
  * Check your Windows Firewall (see details below!)
+ * This is a weird one, but try to add the Port to the ConnectionString, e.g. `Data Source=MyServer\Instance,1434`. This is not always needed, but I had one case, where each point on this list was OK, but I couldn't connect from a client without the port.
  
 ## Windows Firewall settings:
 
