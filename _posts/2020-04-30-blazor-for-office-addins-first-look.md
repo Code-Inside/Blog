@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blazor for Office Addin: First look"
+title: "Blazor for Office Add-ins: First look"
 description: "TL;DR: Severside Blazor might work, WebAssembly unfortunately no"
 date: 2020-04-30 21:30
 author: Robert Muehsig
@@ -10,14 +10,14 @@ language: en
 
 {% include JB/setup %}
 
-Last week I did some research and tried to build a pretty basic Office Addin (with "new" [web based Addin model](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)) with __[Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)__.
+Last week I did some research and tried to build a pretty basic Office Addin (within the "new" [web based Addin model](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins)) with __[Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)__.
 
 Side note: Last year I blogged about how to build [Office Add-ins with ASP.NET Core](https://blog.codeinside.eu/2019/01/31/office-addins-with-aspnet-core/).
 
 # Why Blazor?
 
 My daily work home is in the C# and .NET land, so it would be great to use Blazor for Office Addins, right? 
-A Office Add-in is just a web application with a "communication tunnel" to the hosting Office application.
+A Office Add-in is just a web application with a "communication tunnel" to the hosting Office application - not very different from the real web.
 
 # What (might) work: Serverside Blazor
 
@@ -25,13 +25,13 @@ My first try was with a "standard" serverside Blazor application and I just poin
 
 <blockquote class="twitter-tweet"><p lang="et" dir="ltr">Mhh... maybe?🤔😏<a href="https://twitter.com/hashtag/Blazor?src=hash&amp;ref_src=twsrc%5Etfw">#Blazor</a> <a href="https://twitter.com/hashtag/OfficeDev?src=hash&amp;ref_src=twsrc%5Etfw">#OfficeDev</a> <a href="https://t.co/BzdVQzIeqA">pic.twitter.com/BzdVQzIeqA</a></p>&mdash; Robert Muehsig (@robert0muehsig) <a href="https://twitter.com/robert0muehsig/status/1253351161236787202?ref_src=twsrc%5Etfw">April 23, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I assume that serverside Blazor is for the client not very "complicated" and it should propably work.
+I assume that serverside Blazor is for the client not very "complicated" and it would probably work.
 
-After my tweet __[Manuel Sidler](https://twitter.com/manuelsidler)__ jumped in and made a simple demo project, which also invokes the __Office.js__ APIs from C#!
+After my initial tweet __[Manuel Sidler](https://twitter.com/manuelsidler)__ jumped in and made a simple demo project, which also invokes the __Office.js__ APIs from C#!
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Building an <a href="https://twitter.com/hashtag/Office?src=hash&amp;ref_src=twsrc%5Etfw">#Office</a> Add-In based on <a href="https://twitter.com/hashtag/Blazor?src=hash&amp;ref_src=twsrc%5Etfw">#Blazor</a> (Server) could be possible. Whether it&#39;s a good idea or not is another story ;) <a href="https://t.co/LdSPYl4SRh">https://t.co/LdSPYl4SRh</a> (thanks <a href="https://twitter.com/robert0muehsig?ref_src=twsrc%5Etfw">@robert0muehsig</a> to get me jump up on this idea) <a href="https://t.co/1w29212qdS">pic.twitter.com/1w29212qdS</a></p>&mdash; Manuel Sidler (@manuelsidler) <a href="https://twitter.com/manuelsidler/status/1253668691956445184?ref_src=twsrc%5Etfw">April 24, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Checkout his __[repository on GitHub](https://github.com/manuelsidler/blazor-office-addin)__
+Checkout his __[repository on GitHub](https://github.com/manuelsidler/blazor-office-addin)__ for further information.
 
 # What won't work: WebAssembly (if I don't miss anything)
 
