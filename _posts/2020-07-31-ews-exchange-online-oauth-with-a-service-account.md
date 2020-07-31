@@ -87,7 +87,7 @@ var authResult = await pca.AcquireTokenByUsernamePassword(new string[] { "https:
 
 To make this work you need to enable the "Treat application as public client" under "Authentication" > "Advanced settings" in our AAD Application because this uses the ["Resource owner password credential flow"](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth-ropc). 
 
-3. You should be able to get the AccessToken and do some EWS magic. 
+Now you should be able to get the AccessToken and do some EWS magic. 
 
 *I posted a shorter version on [Stackoverflow.com](https://stackoverflow.com/questions/57009837/how-to-get-oauth2-access-token-for-ews-managed-api-in-service-daemon-application/63175301#63175301)*
 
