@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to run share an Azure subscription in a team"
+title: "How to share an Azure subscription in a team"
 description: "Let's use Azure, but somebody needs to pay the bills!"
 date: 2020-09-29 23:45
 author: Robert Muehsig
