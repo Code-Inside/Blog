@@ -42,4 +42,12 @@ To "escape" those variables we need to invoke it like this:
 
 __Be aware:__ This stuff is a mess. It depends on your scenario. Checkout [this Stackoverflow answer](https://stackoverflow.com/a/31420292) to learn more. The double percent did the trick for us, so I guess it is "ok-ish".
 
+# Update
+
+The above solution only works if you save the command in a file, e.g. in a install.bat file. If you want to invoke this in the CMD shell use this:
+
+    cmd /v /c msiexec /qb /i "OneOffixx.msi" ... CACHEFOLDER="%appdata%/OneOffixx"
+    
+The important parameter is __["/v"](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cmd)__, which enables delayed environment variable expansion.
+
 Hope this helps!
