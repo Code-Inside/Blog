@@ -32,7 +32,7 @@ A *clever* way would be to write a good LDAP query and let the Active Directory 
 # 1.2.840.113556.1.4.1941
 
 I found some sample code online with a very strange LDAP query and it turns out:
-There is a "magic" ldap query called "LDAP_MATCHING_RULE_IN_CHAIN" and it does everything we are looking for:
+There is a "magic" ldap query called "[LDAP_MATCHING_RULE_IN_CHAIN](https://ldapwiki.com/wiki/LDAP_MATCHING_RULE_IN_CHAIN)" and it does everything we are looking for:
 
 ```
 var getGroupsFilterForDn = $"(&(objectClass=group)(member:1.2.840.113556.1.4.1941:= {distinguishedName}))";
