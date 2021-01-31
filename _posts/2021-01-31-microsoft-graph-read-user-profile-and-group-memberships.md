@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "¨Microsoft Graph: Read user profile and group memberships"
+title: "Microsoft Graph: Read user profile and group memberships"
 description: "'Directory.Read.All' and 'User.Read.All'"
 date: 2021-01-31 23:30
 author: Robert Muehsig
