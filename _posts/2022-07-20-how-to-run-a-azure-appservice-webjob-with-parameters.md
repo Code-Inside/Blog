@@ -12,7 +12,7 @@ language: en
 
 We are using __[WebJobs](https://docs.microsoft.com/en-us/azure/app-service/webjobs-create)__ in our Azure App Service deployment and they are pretty "easy" for the most part. Just register a WebJobs or deploy your `.exe/.bat/.ps1/...` under the `\site\wwwroot\app_data\Jobs\triggered` folder and it should execute as described in the `settings.job`.
  
-![x]({{BASE_PATH}}/assets/md-images/2022-07-28/portal.png "Portal")
+![x]({{BASE_PATH}}/assets/md-images/2022-07-20/portal.png "Portal")
 
 If you put any executable in this WebJob folder, it will be executed as planned.
 
@@ -33,7 +33,7 @@ echo "Invoke my-job.exe with parameters - Start"
 echo "Invoke my-job.exe with parameters - Done"
 ```  
 
-Be aware, that the path must "match". We use this `run.cmd`-approach in combination with the `is_in_place`-option (see [here](https://github.com/projectkudu/kudu/wiki/WebJobs#webjob-working-directory) and are happy with the results). 
+Be aware, that the path must "match". We use this `run.cmd`-approach in combination with the `is_in_place`-option (see [here](https://github.com/projectkudu/kudu/wiki/WebJobs#webjob-working-directory)) and are happy with the results). 
 
 A more detailed explanation can be found [here](https://github.com/projectkudu/kudu/wiki/WebJobs). 
 
