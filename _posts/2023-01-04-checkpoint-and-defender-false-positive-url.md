@@ -13,11 +13,11 @@ language: en
 # Problem
 
 On my last day in 2022 - Friday, 23. December, I received a support ticket from one customer, that our software seems to be offline and it looks like that our servers are not responding. I checked our monitoring and the server side of the customer and everything was fine. 
-My first thought: Maybe a missconfiguration on the customer side, but after a remote support session with the customer, it "should" work, but something in the customer network block the requests to our services.
-Next thought: Firewall or proxy stuff. Always nasty, but we are just using port 443, so nothing to special.
+My first thought: Maybe a misconfiguration on the customer side, but after a remote support session with the customer, I saw that it "should work", but something in the customer network blocks the requests to our services.
+Next thought: Firewall or proxy stuff. Always nasty, but we are just using port 443, so nothing too special.
 
 After a while I received a phone call from the customers firewall team and they discovered the problem: They are using a firewall solution from "Check Point" and __our domain was flagged as "phishing"/"malware"__. What the... 
-They even created a exception so that Check Point doesn't block our requests, but the next problem occured: The customers "Windows Defender for Office 365" has the same "flag" for our domain, so they revert everything, because they didn't want to change their settings too much.
+They even created an exception so that Check Point doesn't block our requests, but the next problem occured: The customers "Windows Defender for Office 365" has the same "flag" for our domain, so they revert everything, because they didn't want to change their settings too much.
 
 ![x]({{BASE_PATH}}/assets/md-images/2023-01-04/defender-warning.png "Defender Warning")
 
