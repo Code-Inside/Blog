@@ -169,7 +169,7 @@ In production we use the build artefacts of the react build and make sure, that 
 
 __Step 7: Invoke npm run build during publish__
 
-Add this to our `.csproj`-file and it should work:
+Add this to your `.csproj`-file and it should work:
 
 ```
 	<PropertyGroup>
@@ -193,11 +193,11 @@ Add this to our `.csproj`-file and it should work:
 	</Target>
 ```
 
-Be aware that these instruction are copied from the original ASP.NET Core React template and slightly modified, otherwise the path wouldn't match.
+Be aware that these instruction are copied from the original ASP.NET Core React template and are slightly modified, otherwise the path wouldn't match.
 
 # Result 
 
-With this setup you can add any spa app that you would like to your "normal" ASP.NET Core project. 
+With this setup you can add any spa app that you would like to add to your "normal" ASP.NET Core project. 
 
 If everything works as expected you should be able to start the React app in Visual Studio Code like this:
 
@@ -209,6 +209,6 @@ Start your hosting ASP.NET Core app in Visual Studio (or in any IDE that you lik
 
 ![x]({{BASE_PATH}}/assets/md-images/2023-01-25/aspnetreact-result-aspnet.png "ASPNET App in VS")
 
-With this setup you can mix all client & server side styles as you like. 
+With this setup you can mix all client & server side styles as you like - mission succeeded and you can use any client setup (CRA, anything else) as you would like to.
 
 Hope this helps! 
