@@ -211,4 +211,9 @@ Start your hosting ASP.NET Core app in Visual Studio (or in any IDE that you lik
 
 With this setup you can mix all client & server side styles as you like - mission succeeded and you can use any client setup (CRA, anything else) as you would like to.
 
+# Code
+
+The code (but with slightly modified values (e.g. another port)) can be found [here](https://github.com/Code-Inside/Samples/tree/master/2023/aspnetreactmix). 
+Be aware, that `npm i` needs to be run first.
+
 Hope this helps! 
