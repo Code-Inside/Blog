@@ -216,4 +216,10 @@ With this setup you can mix all client & server side styles as you like - missio
 The code (but with slightly modified values (e.g. another port)) can be found [here](https://github.com/Code-Inside/Samples/tree/master/2023/aspnetreactmix). 
 Be aware, that `npm i` needs to be run first.
 
+# Video
+
+I uploaded a video on my YouTube channel (in German) about this setup:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IgW79wxMO-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 Hope this helps! 
