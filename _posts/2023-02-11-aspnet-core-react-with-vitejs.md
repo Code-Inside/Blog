@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Use ASP.NET Core, React with Vite.js"
+title: "Use ASP.NET Core and React with Vite.js"
 description: "Best of both worlds!"
 date: 2023-02-11 01:15
 author: Robert Muehsig
