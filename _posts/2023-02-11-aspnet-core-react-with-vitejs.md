@@ -34,7 +34,7 @@ npm create vite@latest clientapp -- --template react-ts
 
 This will install the latest & greatest vitejs based react app in a folder called `clientapp` with the `react-ts` template (React with Typescript). Vite itself isn't focused on React and supports many [different frontend frameworks](https://vitejs.dev/guide/#trying-vite-online).
 
-![x]({{BASE_PATH}}/assets/md-images/2023-02-11/step1.png "Step 2: Init vitejs")
+![x]({{BASE_PATH}}/assets/md-images/2023-02-11/step2.png "Step 2: Init vitejs")
 
 
 __Step 3: Enable HTTPS in your vite.js__
@@ -73,7 +73,7 @@ __Step 4: Add the Microsoft.AspNetCore.SpaServices.Extensions NuGet package__
 
 Same as in the other blogpost, we need to add the [Microsoft.AspNetCore.SpaServices.Extensions](https://www.nuget.org/packages/Microsoft.AspNetCore.SpaServices.Extensions) NuGet package to glue the ASP.NET Core development and React world together. If you use .NET 7, then use the version 7.x.x, if you use .NET 6, use the version 6.x.x - etc.
 
-![x]({{BASE_PATH}}/assets/md-images/2023-02-11/step1.png "Step 4: Add NuGet Package")
+![x]({{BASE_PATH}}/assets/md-images/2023-02-11/step4.png "Step 4: Add NuGet Package")
 
 __Step 5: Enhance your Program.cs__ 
 
