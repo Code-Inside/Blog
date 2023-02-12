@@ -190,6 +190,14 @@ Ok - this looks broken, right? Well - this is a more or less a ["known" problem]
 
 ![x]({{BASE_PATH}}/assets/md-images/2023-02-11/result-fix.png "Fix")
 
+# Code
+
 The sample code can be found [here](https://github.com/Code-Inside/Samples/tree/master/2023/reactvideovite/reactvideovite).
+
+# Video
+
+I made a video about this topic (in German, sorry :-/) as well - feel free to subscribe ;)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-2iiXpBcmDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Hope this helps! 
