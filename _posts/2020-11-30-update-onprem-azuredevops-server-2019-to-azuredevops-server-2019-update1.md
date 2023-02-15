@@ -62,8 +62,9 @@ Only node.js projects or toolings were "problematic", because node.js itself don
 
 To resolve this, the __root certificate__ from our Domain controller must be stored on the agent. 
 
+```
   [Environment]::SetEnvironmentVariable("NODE_EXTRA_CA_CERTS", "C:\SSLCert\root-CA.pem", "Machine") 
-
+```
 
 ## Summary
 
