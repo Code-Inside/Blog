@@ -33,7 +33,7 @@ WinUI 3 apps can be used for apps that run on Windows 11 and Windows 10 and can 
 
 WinUI is used in Windows 11, e.g. the settings or the new explorer - which is nice, but it would be good, if we found a non-Microsoft app that uses this tech, right?
 
-Thankfully last week Apple decided to release [Apple Music](https://apps.microsoft.com/detail/9PFHDD62MXS1) (and [other apps](https://twitter.com/OrderByAsync/status/1755598050641526902))as a native Windows app and it seems (this is not confirmed by Microsoft or Apple) like it was written with WinUI:
+Thankfully last week Apple decided to release [Apple Music](https://apps.microsoft.com/detail/9PFHDD62MXS1) (and [other apps](https://twitter.com/OrderByAsync/status/1755598050641526902)) as a native Windows app and it seems ([confirmed](https://twitter.com/mixen/status/1757085072115773473)) like it was written with WinUI:
 
 ![x]({{BASE_PATH}}/assets/md-images/2024-02-12/applemusic.png "Apple Music")
 
