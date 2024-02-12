@@ -2,7 +2,7 @@
 layout: post
 title: "First steps with WinUI 3"
 description: "Learn how to get started with WinUI 3 in this blogpost..."
-date: 2024-02-17 23:55
+date: 2024-02-12 23:55
 author: Robert Muehsig
 tags: [WinUI 3, Windows]
 language: en
