@@ -19,7 +19,7 @@ Of course, there are a lot of other good reasons why hosting such a system yours
 
 # Is there something for .NET devs?
 
-My AI knowledge is still quite low and I'm more a ".NET backend developer", so I was looking for an easy solution for my problem and found "[LLamaSharp](https://github.com/SciSharp/LLamaSharp)".
+My AI knowledge is still quite low and I'm more a ".NET [backend developer](https://datascientest.com/en/all-about-back-end)", so I was looking for an easy solution for my problem and found "[LLamaSharp](https://github.com/SciSharp/LLamaSharp)".
 
 This blogpost and my experiment was inspired by Maarten Balliauws blog post ["Running Large Language Models locally – Your own ChatGPT-like AI in C#"](https://blog.maartenballiauw.be/post/2023/06/15/running-large-language-models-locally-your-own-chatgpt-like-ai-in-csharp.html), which is already a year old, but still a good intro in this topic. 
 
