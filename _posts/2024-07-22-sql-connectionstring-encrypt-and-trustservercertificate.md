@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SQL ConnectionString: Encrypt & Trust Server Certificate="
+title: "SQL ConnectionString: Encrypt & Trust Server Certificate"
 description: "TIL something about SQL Encryption"
 date: 2024-07-22 23:59
 author: Robert Muehsig
