@@ -14,25 +14,34 @@ __Be aware:__ I'm not a full time administrator and this post might sound stupid
 
 # The Problem
 
-We access certain Active Directory properties with our application and on one customer domain we couldn't get any data out via our Active Directory component.
+We access certain Active Directory properties with our application, and on one customer domain, we couldn't retrieve any data via our Active Directory component.
 
 # Solution
 
-After some debugging and doubts about our functionality we (the admin of the customer and me) found the reason:
-Our code was running under a Windows Account that was very limted and couldn't read those properties.
+After some debugging and doubts about our functionality, the customer admin and I found the reason:
+Our code was running under a Windows account that was very limited and couldn't read those properties.
 
-If you have similar problems you might want to take a look in the AD User & Group management.
+If you have similar problems, you might want to look into the AD User & Group management.
 
-1. You need to active the advanced features:
+First step: You need to active the advanced features:
 
 ![x]({{BASE_PATH}}/assets/md-images/2023-09-20/advanced_features.png "Advanced Features")
 
-2. Now check the security tab, go to advanced view and add a new permission or change a existing one:
+Now navigate to your "user OU" or the target users and check the security tab. The goal is to grant your service account the permission to read the needed property. To do that, go to the advanced view, and add a new permission or change an existing one:
 
 ![x]({{BASE_PATH}}/assets/md-images/2023-09-20/settings.png "Settings")
 
-3. Here you should be able to see a huge dialog with __all available properties__. Check if your user is able to read your target property
+Here you should be able to see a huge dialog with __all available properties__ and grant the read permission for the target property for your service account.
 
 ![x]({{BASE_PATH}}/assets/md-images/2023-09-20/details.png "Details")
 
+# Solution via CMD
+
+The UI is indeed quite painful to use. If you know what you are doing you can use [dsacls.exe](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc771151(v=ws.11)). 
+
+To grant the read permission for `tokenGroups` for a certain service account you can use the tool like this:
+
+```
+dsacls "OU=Users,DC=company,DC=local" /I:S /G "service_account":rp;tokenGroups;user
+```
 Hope this helps!
