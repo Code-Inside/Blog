@@ -88,6 +88,10 @@ This is now pure speculation, because I couldn't find any information about it, 
 
 ... is based on the __Email & accounts__ setting (= WAM), and with `dsregcmd /listaccounts` I can see diagnostic information about it.
 
+# "Seamless single sign-on"
+
+I found [this troubleshooting guide](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/tshoot-connect-sso) and it seems that there is a thing called "seamless single sign-on", but I'm not 100% sure if this is more a "Development" topic or "IT-Pro" topic (or a mix of both).
+
 # TIL
 
 I (and you!) have learned about a tool called `dsregcmd`. 
@@ -101,6 +105,7 @@ Try out the `dsregcmd /status`, it's like `ipconfig /all`, but for information a
 Some open questions:
 
 - Why does `dsregcmd /listAccounts` only list one account when I have two accounts attached under the "WAM" (see screenshot - a Azure AD account AND an Microsoft account)?
-- Where does "Connected to Windows" come from? How does the browser know this?
+- Where does "Connected to Windows" come from? How does the browser know this? 
+- What is "seamless single-sign-on"?
 
 Hope this helps!
