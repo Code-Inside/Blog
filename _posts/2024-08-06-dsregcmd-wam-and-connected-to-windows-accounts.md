@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "dsregcmd, WAM and 'Connected to Windows Account'"
+title: "dsregcmd, WAM and 'Connected to Windows'-Accounts"
 description: "A (small) look at these tools..."
 date: 2024-08-06 23:59
 author: Robert Muehsig
