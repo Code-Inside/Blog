@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "UrlEncode the Space Charater"
+title: "UrlEncode the Space Character"
 description: "Is it a '+' or '%20'?"
 date: 2024-08-20 23:59
 author: Robert Muehsig
