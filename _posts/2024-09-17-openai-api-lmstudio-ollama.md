@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Open AI API, LM Studio and Ollama"
-description: "What I learned about the Open AI API, LM Studio and Ollama during a .NET User Group Meeting in Dresden..."
+title: "OpenAI API, LM Studio and Ollama"
+description: "What I learned about the OpenAI API, LM Studio and Ollama during a .NET User Group Meeting in Dresden..."
 date: 2024-09-17 23:59
 author: Robert Muehsig
-tags: [Open AI, LM Studio, AI, TIL, User Group]
+tags: [OpenAI, LM Studio, AI, TIL, User Group]
 language: en
 ---
 
@@ -28,13 +28,13 @@ Ok, you have a model and an idea, but how to play with it on your local machine?
 
 The best tool for such a job is: __[LM Studio](https://lmstudio.ai/)__. 
 
-The most interesting part was (and this was "new" to me), that you run those local models in an __local, Open AI compatible (!!!) server__.
+The most interesting part was (and this was "new" to me), that you run those local models in an __local, OpenAI compatible (!!!) server__.
 
 ![x]({{BASE_PATH}}/assets/md-images/2024-09-17/lmstudio.png "png")
 
-# Open AI Compatible server?!
+# OpenAI Compatible server?!
 
-If you want to experiment with a lightweight model on your system and interact with it, then it is super handy, if you can use the __standard Open AI client__ and just run against your local "Open AI"-like server.
+If you want to experiment with a lightweight model on your system and interact with it, then it is super handy, if you can use the __standard OpenAI client__ and just run against your local "OpenAI"-like server.
 
 Just start the server, use the localhost endpoint and you can use a code like this:
 
@@ -76,12 +76,12 @@ await foreach (StreamingChatCompletionUpdate update in updates)
 
 The obvious next question is: How can I run my own LLM on my own server? LM Studio works fine, but it's just a development tool. 
 
-One answer could be: __[Ollama](https://ollama.com/)__, which can run large language models and has a [compatibility to the Open AI API](https://ollama.com/blog/openai-compatibility).
+One answer could be: __[Ollama](https://ollama.com/)__, which can run large language models and has a [compatibility to the OpenAI API](https://ollama.com/blog/openai-compatibility).
 
 # Is there an Ollama for .NET devs?
 
-Ollama looks cool, but I was hoping to find an "Open AI compatible .NET facade". I already played with [LLamaSharp](https://blog.codeinside.eu/2024/05/15/llamasharp-run-a-chatgpt-like-system-on-your-hardware-for-dummies/), but `LLamaSharp` [doesn't offer currently a WebApi, but there are some ideas around](https://github.com/SciSharp/LLamaSharp/issues/269). 
-My friend [Gregor Biswanger](https://github.com/GregorBiswanger) released [OllamaApiFacade](https://github.com/GregorBiswanger/OllamaApiFacade), which looks promising, but at least it doesn't offer a real Open AI compatible .NET facade, but maybe this will be added in the future.
+Ollama looks cool, but I was hoping to find an "OpenAI compatible .NET facade". I already played with [LLamaSharp](https://blog.codeinside.eu/2024/05/15/llamasharp-run-a-chatgpt-like-system-on-your-hardware-for-dummies/), but `LLamaSharp` [doesn't offer currently a WebApi, but there are some ideas around](https://github.com/SciSharp/LLamaSharp/issues/269). 
+My friend [Gregor Biswanger](https://github.com/GregorBiswanger) released [OllamaApiFacade](https://github.com/GregorBiswanger/OllamaApiFacade), which looks promising, but at least it doesn't offer a real OpenAI compatible .NET facade, but maybe this will be added in the future.
 
 # Acknowledgment
 
