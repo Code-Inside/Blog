@@ -14,22 +14,22 @@ language: en
 
 A customer inquiry brought the topic of "[WinINet](https://learn.microsoft.com/en-us/windows/win32/wininet/about-wininet)" and "[WinHTTP](https://learn.microsoft.com/en-us/windows/win32/winhttp/winhttp-start-page)" to my attention. This blog post is about finding out what this is all about and how and whether or not these components are related to the HttpClient of the .NET Framework or .NET Core.
 
-# General
+## General
 
 Both WinINet and WinHTTP are APIs for communication via the HTTP/HTTPS protocol and Windows components. A detailed comparison page can be found [here](https://learn.microsoft.com/en-us/windows/win32/wininet/wininet-vs-winhttp).
 
-# WinINet
+## WinINet
 
 WinINet is intended in particular for client applications (such as a browser or other applications that communicate via HTTP). 
 In addition to pure HTTP communication, WinINet also has configuration options for proxies, cookie and cache management. 
 
 However, WinINet is not intended for building server-side applications or very scalable applications.
 
-# WinHTTP 
+## WinHTTP 
 
 WinHTTP is responsible for the last use case, which even runs a “kernel module” and is therefore much more performant. 
 
-# .NET HttpClient 
+## .NET HttpClient 
 
 At first glance, it sounds as if the HttpClient should access WinINet from the .NET Framework or .NET Core (or .NET 5, 6, 7, ...) - but this is __not__ the case. 
 
@@ -44,7 +44,7 @@ The "[WinHttpHandler](https://learn.microsoft.com/en-us/dotnet/api/system.net.ht
 
 During my research, I noticed this [GitHub issue](https://github.com/dotnet/runtime/issues/1384). This issue is about the new SocketsHttpHandler implementation not being able to access the same WinINet features for cache management. The topic is rather theoretical and the issue is already several years old.
 
-# Summary
+## Summary
 
 What have we learned now? Microsoft has implemented several Http stacks and in "modern" .NET the HttpClient uses its own handler.
 
