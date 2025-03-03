@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Handling Multiple ASP.NET Core Policies with Manual Authorization Checks"
