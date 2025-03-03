@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Handling Multiple ASP.NET Core Policies with Manual Authorization Checks"
-description: "When implementing authorization in ASP.NET Core, Microsoft provides several ways to check multiple policies. While using **multiple `[Authorize(Policy = "...")]` attributes** works in some or most cases, there are scenarios where a more flexible approach is needed."
+description: "When implementing authorization in ASP.NET Core, Microsoft provides several ways to check multiple policies. While using multiple Authorize-attributes works in some or most cases, there are scenarios where a more flexible approach is needed."
 date: 2025-02-25 00:30
 author: Robert Muehsig
 tags: [ASP.NET Core]
