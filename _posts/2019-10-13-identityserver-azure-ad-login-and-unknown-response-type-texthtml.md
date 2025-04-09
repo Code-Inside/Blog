@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IdentityServer & Azure AD Login: Unkown Response Type text/html"
+title: "IdentityServer & Azure AD Login: Unknown Response Type text/html"
 description: "... and how to fix it."
 date: 2019-10-13 19:00
 author: Robert Muehsig
