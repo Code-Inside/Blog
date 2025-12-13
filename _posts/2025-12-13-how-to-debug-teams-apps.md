@@ -95,8 +95,7 @@ I discovered this method in an [MS Support forum](https://techcommunity.microsof
 }
 ```
 
-4. Restart Microsoft Teams
-5. Right-click the Teams icon in the system tray and you should see __"Engineering Tools"__
+After this restart Microsoft Teams and right-click the Teams icon in the system tray and you should see __"Engineering Tools"__.
 
 ![x]({{BASE_PATH}}/assets/md-images/2025-12-13/engineering-tools.png "Engineering Tools")
 
