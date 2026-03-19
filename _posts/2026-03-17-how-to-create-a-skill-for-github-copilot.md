@@ -112,6 +112,12 @@ If you need to start an interactive session first, use your local `copilot` CLI 
 In [VS Code you can use skills as well](https://code.visualstudio.com/docs/copilot/customization/agent-skills) (for example via chat slash commands).
 In full Visual Studio, I still have not seen equivalent skill support as of March 2026.
 
+### Option 3: in Visual Studio IDE
+
+*(Edit 19.03.2026)*
+
+With the latest Visual Studio update, you can now invoke skills in "Agent" mode as well. There’s no UI to select a skill yet, but if you explicitly specify which skill you want to use, Visual Studio loads it correctly.
+
 ## Summary
 
 Skills are not magic: in the end, they are structured instructions in a Markdown file.
