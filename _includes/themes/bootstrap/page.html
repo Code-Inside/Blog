@@ -1,26 +1,31 @@
-<div class="page-header">
 {% if page.title-image == nil or page.title-image == blank or page.title-image == "" %}
-<h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
-{% else %}
-<img title="{{ page.title }}" style="margin: 0 auto;" src="{{BASE_PATH}}{{page.title-image}}">
-{% endif %}
-
-  
+<div class="page-header">
+  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
 </div>
-
-<div class="row">
-  <div class="col-xs-12">
-      {{ content }}
-	  
-	{% unless page.tags == empty %}
-    <ul>
-      {% for tag in page.tags %}
-        <li> {{tag}} </li>
-      {% endfor %}
-    </ul>
-    {% endunless %}  
-	
-    <a style="font-size: 16pt" title="Edit on GitHub" href="{{ site.github_repo_url }}edit/gh-pages/{{ page.path }}"><i class="fa fa-github-square"></i></a>
-
+{% else %}
+<div class="hero">
+  <img src="{{BASE_PATH}}{{page.title-image}}" alt="" width="88" height="88">
+  <div>
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.tagline }}</p>
   </div>
 </div>
+{% endif %}
+
+<div class="content">
+  {{ content }}
+
+  {% unless page.tags == empty or page.tags == nil %}
+  <ul class="post-tags">
+    {% for tag in page.tags %}
+    <li>{{ tag }}</li>
+    {% endfor %}
+  </ul>
+  {% endunless %}
+</div>
+
+{% if page.title-image == nil or page.title-image == blank or page.title-image == "" %}
+<div class="post-meta">
+  <a class="post-meta-edit" title="Edit on GitHub" href="{{ site.github_repo_url }}edit/gh-pages/{{ page.path }}"><i class="fa fa-github"></i> Edit</a>
+</div>
+{% endif %}
