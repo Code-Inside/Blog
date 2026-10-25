@@ -43,119 +43,27 @@
     <meta name="author" content="{{ site.author.name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#111216" media="(prefers-color-scheme: dark)">
+
+    <script>
+      (function () {
+        var theme;
+        try { theme = localStorage.getItem('theme'); } catch (e) {}
+        if (theme !== 'light' && theme !== 'dark') {
+          theme = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
+
     <link href="{{BASE_PATH}}/assets/themes/bootstrap/resources/bootstrap/css/theme.min.css" rel="stylesheet">
-    
     <link href="{{BASE_PATH}}/assets/themes/bootstrap/resources/fontawesome/font-awesome.min.css" rel="stylesheet">
-	  
+    <link href="{{BASE_PATH}}/assets/css/site.css" rel="stylesheet">
+
     <link rel="search" type="application/opensearchdescription+xml" title="Archive Search" href="{{BASE_PATH}}/opensearch.xml" />
-	  
-	<!--[if lt IE 9]>
-      <script src="{{BASE_PATH}}/assets/themes/bootstrap/resources/bootstrap/js/Respond.min.js"></script>
-    <![endif]-->
-
-	<link rel="alternate" type="application/rss+xml"  href="{{site.production_url}}/feed" title="{{site.title}} Feed">
-	
-	
-    <style>
-	
-	img {
-          display: block;
-          height: auto;
-          max-width: 100%;
-	}
-	footer {
-		margin-bottom: 10px;
-	}
-	
-	h1, h2, h3, h4, h5, h6 {
-		font-weight: bold;
-	}
-	    
-	.content > h1 { 
-		font-size: 24pt;	
-	}
-	
-	hr {
-		margin-top: 15px;
-		margin-bottom: 15px;
-		border: 0;
-		border-top: 2px solid #ccc;
-	}
-	
-	.page-header {
-		margin: 0px;
-		margin-top: 5px;
-		margin-bottom: 5px;
-	}
-	
-	pre {
-		border: 0px solid #ffffff;
-		border-left: 4px solid #FF4700;
-	}
-
-	a:focus, a:hover {
-		text-decoration: none;
-	}
-	
-	.style-container {
-
-	}
-
-	body {	
-	}
-	
-	#cookies-eu-banner {
-    background: #444;
-    color: #fff;
-    padding: 6px;
-    font-size: 13px;
-    text-align: center;
-	}
-	
-	#cookies-eu-more,
-	#cookies-eu-accept,
-	#cookies-eu-reject {
-		text-decoration: none;
-		background: #222;
-		color: #fff;
-		border: 1px solid #000;
-		cursor: pointer;
-		padding: 4px 7px;
-		margin: 2px 0;
-		font-size: 13px;
-		font-weight: bold;
-		transition: background 0.07s, color 0.07s, border-color 0.07s;
-	}
-	
-	#cookies-eu-more:hover,
-	#cookies-eu-more:focus,
-	#cookies-eu-accept:hover,
-	#cookies-eu-accept:focus {
-		background: #fff;
-		color: #222;
-	}
-	
-	#cookies-eu-more {
-		margin-left: 7px;
-	}
-	
-	#cookies-eu-reject {
-		background: none;
-		font-weight: normal;
-		color: #ccc;
-		cursor: pointer;
-		padding: 4px 7px;
-		margin: 2px 0;
-		border: 1px solid #666;
-	}
-	#cookies-eu-reject:hover,
-	#cookies-eu-reject:focus {
-		border-color: #fff;
-		background: #222;
-		color: #fff;
-	}
-	
-    </style>
+    <link rel="alternate" type="application/rss+xml"  href="{{site.production_url}}/feed" title="{{site.title}} Feed">
   </head>
 
   <body>
@@ -166,66 +74,73 @@
         <button id="cookies-eu-accept">Accept</button>
     </div>
 
-  
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" title="{{ site.title }}" href="{{ HOME_PATH }}">
-			<img width="36" height="32" src="{{BASE_PATH}}/assets/icons/logo_white_36x32.png" style="margin-top:-5px; width: 36px; height: 32px">
-		  </a>
-        </div>
+    {% if page.url contains '/archive-de' %}{% assign nav = 'archive-de' %}{% elsif page.url contains '/archive' %}{% assign nav = 'archive' %}{% elsif page.url contains '/terms' %}{% assign nav = 'terms' %}{% else %}{% assign nav = 'blog' %}{% endif %}
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="site-brand" title="{{ site.title }}" href="{{ HOME_PATH }}">
+          <img width="32" height="32" src="{{BASE_PATH}}/assets/icons/logo_260x260.png" alt="">
+          <span>Code <b>Inside</b></span>
+        </a>
 
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
-			<li><a href="{{ HOME_PATH }}">Blog</a></li>
-			
-			<li class="dropdown">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Archives <span class="caret"></span></a>
-				<ul class="dropdown-menu" role="menu">
-					<li><a href="{{ BASE_PATH }}/archive">English Posts</a></li>
-					<li><a href="{{ BASE_PATH }}/archive-de">German Posts</a></li>
-				</ul>
-			</li>
-			<li><a href="{{ BASE_PATH }}/terms">Terms</a></li>
-          </ul>
-	 <ul class="nav navbar-nav navbar-right">
-			<li><a href="https://www.knowyourstack.com"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> KnowYourStack.com</a></li>
-            <li><a href="https://www.codeinside.eu"><i class="fa fa-arrows-alt" aria-hidden="true"></i> Hub</a></li>
-         </ul>
-        </div>
+        <ul class="site-nav">
+          <li><a href="{{ HOME_PATH }}"{% if nav == 'blog' %} class="active"{% endif %}>Blog</a></li>
+          <li><a href="{{ BASE_PATH }}/archive"{% if nav == 'archive' %} class="active"{% endif %}>Archive</a></li>
+          <li><a href="{{ BASE_PATH }}/archive-de"{% if nav == 'archive-de' %} class="active"{% endif %}>Archiv (DE)</a></li>
+          <li><a href="{{ BASE_PATH }}/terms"{% if nav == 'terms' %} class="active"{% endif %}>Terms</a></li>
+          <li class="site-nav-end nav-external"><a href="https://www.knowyourstack.com"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> KnowYourStack</a></li>
+          <li class="nav-external"><a href="https://www.codeinside.eu"><i class="fa fa-arrows-alt" aria-hidden="true"></i> Hub</a></li>
+        </ul>
+
+        <button type="button" class="theme-toggle" id="theme-toggle" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">
+          <i class="fa fa-moon-o" aria-hidden="true"></i>
+          <i class="fa fa-sun-o" aria-hidden="true"></i>
+        </button>
       </div>
-    </nav>
-    
-	<div class="container">
-	  <div class="style-container">
-      {{ content }}
-      <hr>
-      <footer>
-		<div class="text-center center-block">
-			
-			<p class="txt-railway"><a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons</a> {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
-			<p class="lead">
-              <img title="{{ site.title }}" src="{{BASE_PATH}}/assets/icons/logo_fullbrand_260x260.png" style="margin: 0 auto;">
-            </p>
-			<p class="lead">
-				<a title="Follow us on Twitter" href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter"></i></a>
-				<a title="Fork and send us Pull Requests on GitHub" href="https://github.com/{{ site.author.github }}"><i class="fa fa-github"></i></a>
-				<a title="Find us on YouTube" href="https://www.youtube.com/channel/{{ site.author.youtube }}"><i class="fa fa-youtube"></i></a>
-				<a title="Subscribe our Feed" href="{{site.production_url}}/feed"><i class="fa fa-rss"></i></a>
-			</p>
-		</div>
-      </footer>
-	  </div>
-    </div>
+    </header>
 
-	
-	
+    <main class="site-main">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <a class="site-brand" title="{{ site.title }}" href="{{ HOME_PATH }}">
+          <img width="26" height="26" src="{{BASE_PATH}}/assets/icons/logo_260x260.png" alt="">
+          <span>Code <b>Inside</b> Blog</span>
+        </a>
+        <p><a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons</a> {{ site.time | date: '%Y' }} {{ site.author.name }} &middot; <a href="{{ BASE_PATH }}/terms">Terms</a></p>
+        <p class="social-links">
+          <a title="Follow us on Twitter" href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter"></i></a>
+          <a title="Fork and send us Pull Requests on GitHub" href="https://github.com/{{ site.author.github }}"><i class="fa fa-github"></i></a>
+          <a title="Find us on YouTube" href="https://www.youtube.com/channel/{{ site.author.youtube }}"><i class="fa fa-youtube"></i></a>
+          <a title="Subscribe our Feed" href="{{site.production_url}}/feed"><i class="fa fa-rss"></i></a>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var root = document.documentElement;
+        var toggle = document.getElementById('theme-toggle');
+        var media = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+
+        toggle.addEventListener('click', function () {
+          var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+
+        // Follow the OS setting as long as the visitor has not picked a theme.
+        if (media && media.addEventListener) {
+          media.addEventListener('change', function (e) {
+            var stored;
+            try { stored = localStorage.getItem('theme'); } catch (err) {}
+            if (!stored) root.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+          });
+        }
+      })();
+    </script>
+
     <script src="{{BASE_PATH}}/assets/themes/bootstrap/resources/jquery/jquery-2.1.1.min.js"></script>
     <script src="{{BASE_PATH}}/assets/themes/bootstrap/resources/bootstrap/js/bootstrap.min.js"></script>
 	<script src="{{BASE_PATH}}/assets/themes/bootstrap/resources/bootstrap/js/jquery.sieve.min.js"></script>
@@ -233,7 +148,7 @@
 	
 	
 	<script>
-    	var searchTemplate = "<div class='row'><input id='searchQuery' type='text' class='form-control' placeholder='Search...' autofocus></div>"
+    	var searchTemplate = "<div class='archive-search'><input id='searchQuery' type='search' class='form-control' placeholder='Search posts...' autofocus></div>"
     	$("#archive-list").sieve({ searchTemplate: searchTemplate, itemSelector: "li" });
 		
 	$.urlParam = function(name){
